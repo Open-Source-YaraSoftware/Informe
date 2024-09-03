@@ -49,6 +49,7 @@
 | 2.0.0 | 01/09/2024 | Álvaro Orozco Torres | Se agrega la primera y segunda sección del Capítulo II: Requirements Elicitation & Analysis |
 | 2.1.0 | 01/09/2024 | Henry Reaño Delgadillo | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis | 
 | 2.2.0 | 02/09/2024 | Álvaro Orozco Torres | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis | 
+| 2.2.1 | 02/09/2024 | Álvaro Orozco Torres | Se corrige la omisión de añadir el índice correspondiente a las nuevas secciones | 
 
 <div style="page-break-after: always;"></div>
 
@@ -97,6 +98,20 @@
 [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
 
 [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+
+[2.3. Needfinding](#23-needfinding)
+
+[2.3.1. User Personas](#231-user-personas)
+
+[2.3.2. User Task Matrix](#232-user-task-matrix)
+
+[2.3.3. User Journey Mapping](#233-user-journey-mapping)
+
+[2.3.4. Empathy Mapping](#234-empathy-mapping)
+
+[2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+
+[2.4. Ubiquitous Language](#24-ubiquitous-language)
 
 [Bibliografía](#bibliografía)
 

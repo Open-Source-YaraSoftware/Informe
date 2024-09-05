@@ -1188,6 +1188,13 @@ El componente es una tarjeta de perfil de usuario, diseñado para mostrar inform
 <br>
 Es una tarjeta de tareas para mecánicos, que sera implementada con mat-card. Muestra información clave como el cliente, vehículo, fecha y modalidad del servicio. Asimismo, incluye un enlace para acceder a más detalles de la tarea.
 
+#### Menú desplegable
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/menu-mechanic.png" width="170px">
+</div>
+<br>
+Será implementado con mat-menu de Angular Material. Facilita la navegación ofreciendo acceso rápido a las principales funciones de la plataforma a través de una lista organizada de opciones.
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems

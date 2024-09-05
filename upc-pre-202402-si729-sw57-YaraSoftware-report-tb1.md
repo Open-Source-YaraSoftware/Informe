@@ -1139,6 +1139,13 @@ El componente es un menú desplegable de perfil en Workshop N-GINE, implementado
 <br>
 El componente es una barra de navegación implementada con mat-toolbar, que incluye íconos de perfil con menús desplegables mediante mat-menu en ambos extremos. Estos permiten al usuario acceder a opciones de cuenta y configuraciones, manteniendo un diseño simple y funcional.
 
+#### Rectangular buttons
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/back-next.png" width="300px">
+</div>
+<br>
+El componente es un botón de acción principal, sera implementado con mat-button de Angular Material. Su diseño minimalista permite realizar acciones clave, como enviar formularios o confirmar procesos, manteniendo una apariencia clara y funcional.
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems

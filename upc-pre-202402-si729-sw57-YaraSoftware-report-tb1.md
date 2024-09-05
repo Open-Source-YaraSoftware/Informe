@@ -1202,6 +1202,13 @@ Será implementado con mat-menu de Angular Material. Facilita la navegación ofr
 <br>
 El componente es una tabla de columnas a implementar con mat-table de Angular Material. Permite organizar datos de manera estructurada, con opciones de ordenación en cada columna mediante flechas desplegables, facilitando la gestión de la información.
 
+#### Notification card
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/notification.png" width="500px">
+</div>
+<br>
+Este componente de tarjeta de notificación puede implementarse utilizando mat-card de Angular Material para estructurar la notificación, y puede complementarse con mat-icon para incluir íconos que refuercen el tipo de alerta o mensaje. El diseño está orientado a destacar información clave para que el usuario gestione las notificaciones de manera eficiente.
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems

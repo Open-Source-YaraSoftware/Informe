@@ -1146,6 +1146,13 @@ El componente es una barra de navegación implementada con mat-toolbar, que incl
 <br>
 El componente es un botón de acción principal, sera implementado con mat-button de Angular Material. Su diseño minimalista permite realizar acciones clave, como enviar formularios o confirmar procesos, manteniendo una apariencia clara y funcional.
 
+#### Circular buttons
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/delete-edit.png" width="170px">
+</div>
+<br>
+El componente es un conjunto de botones de acción implementado con mat-button y mat-icon de Angular Material. Incluye opciones para eliminar, editar, cancelar y confirmar operaciones, permitiendo al usuario ejecutar las tareas vinculadas de manera intutitva
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems

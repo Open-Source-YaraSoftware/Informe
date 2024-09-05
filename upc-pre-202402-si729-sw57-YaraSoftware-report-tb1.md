@@ -1160,6 +1160,13 @@ El componente es un conjunto de botones de acción implementado con mat-button y
 <br>
 El componente es un campo de búsqueda implementado con mat-form-field y mat-icon. Permite al usuario realizar búsquedas dentro de la aplicación de manera clara y eficiente, con un diseño minimalista que incluye un ícono de lupa.
 
+#### Input con label
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/input-label-form.png" width="350px">
+</div>
+<br>
+El componente es un campo de entrada de texto, sera implementado con mat-form-field de Angular Material. Se utilizara dentro de un formulario para capturar información de manera clara y funcional.
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems

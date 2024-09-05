@@ -1067,6 +1067,8 @@ Para realizar esta sección de As-Is Scenario Mapping, en grupo, empatizamos ima
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
 
+### 4.1.1. General Style Guidelines
+
 ### Branding
 #### Descripción general de la marca
 <div style="display: grid; justify-content: center; align-items: center;">
@@ -1120,9 +1122,15 @@ Además, la neutralidad de Roboto contribuye a que la comunicación sea respetuo
 #### Tono de comunicación
 El tono de comunicación adoptará un enfoque serio, formal, respetuoso y sereno. Este tono refuerza la percepción de profesionalismo, que es esencial en un sistema que maneja aspectos críticos de la gestión de talleres automotrices. Asimismo, al mantener una comunicación serena y respetuosa, se busca generar confianza en los usuarios, asegurándoles que están interactuando con una solución técnica avanzada. Además, este tono promueve un ambiente de tranquilidad, alineándose con la misión de ofrecer un servicio de alta calidad.
 
-### 4.1.1. General Style Guidelines
-
 ### 4.1.2. Web Style Guidelines
+
+#### Componentes
+#### Menú desplegable de perfil
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/menu-desplegable-perfil.png" width="300px">
+</div>
+<br>
+El componente es un menú desplegable de perfil en Workshop N-GINE, implementado utilizando el componente "mat-menu" de Angular Material. Ubicado en ambos lados superiores de la pantalla, contiene íconos de usuario que permiten a los usuarios acceder y modificar su información de cuenta. Al hacer clic en estos íconos, se despliega un panel emergente donde se muestran diversas opciones y configuraciones relacionadas con el perfil del usuario.
 
 ## 4.2. Information Architecture
 

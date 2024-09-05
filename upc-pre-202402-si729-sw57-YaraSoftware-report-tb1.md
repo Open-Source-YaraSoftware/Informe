@@ -1181,6 +1181,13 @@ El componente es una sección de atajos implementada con `Card` y `Button` de Pr
 <br>
 El componente es una tarjeta de perfil de usuario, diseñado para mostrar información clave sobre el usuario dentro de la plataforma, como el nombre, foto de perfil o roles asociados. Implementado con mat-card de Angular Material, esta tarjeta utiliza un diseño limpio. Este tipo de componente sera ideal para interfaces donde se requiere identificar rápidamente a los usuarios, permitiendo que se despliegue información básica del perfil, o seda acceso a funcionalides relacionadas al usuario. La flexibilidad de mat-card también permite añadir más detalles en futuras expansiones del componente, como botones de acción o información adicional; lo cual sera fundamental en varaciones de la tarjeta por cada usuario.
 
+#### Task card
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/task-card.png" width="170px">
+</div>
+<br>
+Es una tarjeta de tareas para mecánicos, que sera implementada con mat-card. Muestra información clave como el cliente, vehículo, fecha y modalidad del servicio. Asimismo, incluye un enlace para acceder a más detalles de la tarea.
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems

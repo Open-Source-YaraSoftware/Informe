@@ -1167,6 +1167,13 @@ El componente es un campo de búsqueda implementado con mat-form-field y mat-ico
 <br>
 El componente es un campo de entrada de texto, sera implementado con mat-form-field de Angular Material. Se utilizara dentro de un formulario para capturar información de manera clara y funcional.
 
+#### Sección de atajos
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/atajo.png" width="200px">
+</div>
+<br>
+El componente es una sección de atajos implementada con `Card` y `Button` de PrimeVue. Facilita el acceso rápido a funciones importantes de la plataforma, como la creación de clientes y la programación de citas, permitiendo acciones rápidas y eficientes con botones claramente definidos.
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems

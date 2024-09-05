@@ -1195,6 +1195,13 @@ Es una tarjeta de tareas para mecánicos, que sera implementada con mat-card. Mu
 <br>
 Será implementado con mat-menu de Angular Material. Facilita la navegación ofreciendo acceso rápido a las principales funciones de la plataforma a través de una lista organizada de opciones.
 
+#### Column table
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/column-table.png" width="170px">
+</div>
+<br>
+El componente es una tabla de columnas a implementar con mat-table de Angular Material. Permite organizar datos de manera estructurada, con opciones de ordenación en cada columna mediante flechas desplegables, facilitando la gestión de la información.
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems

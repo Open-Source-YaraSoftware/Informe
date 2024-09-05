@@ -1174,6 +1174,13 @@ El componente es un campo de entrada de texto, sera implementado con mat-form-fi
 <br>
 El componente es una sección de atajos implementada con `Card` y `Button` de PrimeVue. Facilita el acceso rápido a funciones importantes de la plataforma, como la creación de clientes y la programación de citas, permitiendo acciones rápidas y eficientes con botones claramente definidos.
 
+#### User card
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/user-cards.png" width="150px">
+</div>
+<br>
+El componente es una tarjeta de perfil de usuario, diseñado para mostrar información clave sobre el usuario dentro de la plataforma, como el nombre, foto de perfil o roles asociados. Implementado con mat-card de Angular Material, esta tarjeta utiliza un diseño limpio. Este tipo de componente sera ideal para interfaces donde se requiere identificar rápidamente a los usuarios, permitiendo que se despliegue información básica del perfil, o seda acceso a funcionalides relacionadas al usuario. La flexibilidad de mat-card también permite añadir más detalles en futuras expansiones del componente, como botones de acción o información adicional; lo cual sera fundamental en varaciones de la tarjeta por cada usuario.
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems

@@ -55,6 +55,7 @@
 | 2.2.4 | 02/09/2024 | Henry Reaño Delgadillo | Se agrega la foto del dueño de taller Enrique Reaño en Registro de entrevistas |
 | 2.2.5 | 03/09/2024 | Henry Reaño Delgadillo | Se agrega tres nuevos conceptos en Ubiquitous Language |
 | 3.0.0 | 05/09/2024 | Elmer Riva Rodriguez | Se agrega la estructura completa del informe |
+| 3.1.0 | 06/09/2024 | Álvaro Orozco Torres | Se agrega la primera sección del Capítulo III: Requirements Specification |
 
 <div style="page-break-after: always;"></div>
 
@@ -1056,6 +1057,7 @@ Para realizar esta sección de As-Is Scenario Mapping, en grupo, empatizamos ima
 + Driving Test (Prueba de Manejo): Evaluación del funcionamiento del vehículo realizada por un mecánico después de realizar una reparación o servicio, para verificar que los problemas se hayan resuelto y que el vehículo funcione correctamente.
 
 # Capítulo III: Requirements Specification
+
 ## 3.1. To-Be Scenario Mapping
 
 ## 3.2. User Stories

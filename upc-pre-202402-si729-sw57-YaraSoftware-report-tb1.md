@@ -59,6 +59,7 @@
 | 3.2.0 | 06/09/2024 | Álvaro Orozco Torres | Se agrega la segunda sección del Capítulo III: Requirements Specification |
 | 3.3.0 | 06/09/2024 | Henry Reaño Delgadillo | Se agrega la tercera sección del Capítulo III: Requirements Specification |
 | 3.4.0 | 06/09/2024 | Henry Reaño Delgadillo | Se agrega la última sección del Capítulo III: Requirements Specification |
+| 5.0.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega una sección del Capítulo V: Product Implementation, Validation & Deployment |
 
 <div style="page-break-after: always;"></div>
 
@@ -2139,6 +2140,22 @@ Para llevar un correcto orden del Product Backlog se utilizo la herramienta Pivo
 ## 5.1. Software Configuration Management
 
 ### 5.1.1. Software Development Environment Configuration
+
+A continuación, se presenta las herramientas y productos de software para el desarrollo del producto. 
+
+| Nombre | Propósito | Ruta de referencia / Descarga |
+| ----------- | ----------- | ----------- |
+| Uxpresia | Elaboración de user personas, empathy maps, journey maps, impact maps | https://uxpressia.com/w/k4lMq |
+| Miro | As-Is To-Be Scenarios maps | https://miro.com/es/ | 
+| Figma | Elaboración de wireframes, mockups y prototipes | https://www.figma.com/ |
+| LucidChart | Elaboración de wireflows, user flows | https://www.lucidchart.com/ | 
+| Structurizer | Elaboracion de diagrama C4 | https://www.structurizr.com/ |
+| Draw.io | Elaboración de diagrama UML | https://app.diagrams.net/ |
+| Vertabelo | Diseño de bases de datos | https://vertabelo.com/ | 
+| SASS | Estilos en la landing page | https://sass-lang.com/ |
+| PrimeVue | Biblioteca de componentes de interfaz de usuario | https://primevue.org/ |
+| Pivotal Tracker | Control de proyectos | https://www.pivotaltracker.com/ |
+| Git | Control de versiones | https://git-scm.com/ | 
 
 ### 5.1.2. Source Code Management
 

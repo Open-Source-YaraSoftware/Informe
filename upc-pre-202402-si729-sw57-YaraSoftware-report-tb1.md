@@ -4149,3 +4149,5 @@ Zippia. (2022). Mechanic demographics and statistics in the US. [https://www.zip
 Video de entrevistas needfinding: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ES8DkIjICzxHuXzDnPTW-6wBRsy-hmMG7HxQOQzXi_SNUw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7n5NrB
 
 Link video de exposición TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/EfpIw0O8nRRKrA5lHsKhF38BB3svbPoMRGD3otzwXkWVQw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CpvTvl
+
+Link repositorio: https://github.com/Open-Source-YaraSoftware/Informe/tree/main

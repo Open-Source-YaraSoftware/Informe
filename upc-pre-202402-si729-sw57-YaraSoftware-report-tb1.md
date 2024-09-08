@@ -55,6 +55,10 @@
 | 2.2.4 | 02/09/2024 | Henry Reaño Delgadillo | Se agrega la foto del dueño de taller Enrique Reaño en Registro de entrevistas |
 | 2.2.5 | 03/09/2024 | Henry Reaño Delgadillo | Se agrega tres nuevos conceptos en Ubiquitous Language |
 | 3.0.0 | 05/09/2024 | Elmer Riva Rodriguez | Se agrega la estructura completa del informe |
+| 3.1.0 | 06/09/2024 | Álvaro Orozco Torres | Se agrega la primera sección del Capítulo III: Requirements Specification |
+| 3.2.0 | 06/09/2024 | Álvaro Orozco Torres | Se agrega la segunda sección del Capítulo III: Requirements Specification |
+| 3.3.0 | 06/09/2024 | Henry Reaño Delgadillo | Se agrega la tercera sección del Capítulo III: Requirements Specification |
+| 3.4.0 | 06/09/2024 | Henry Reaño Delgadillo | Se agrega la última sección del Capítulo III: Requirements Specification |
 | 4.1.1.1 | 06/09/2024 | Elmer Riva | Se agregan enlaces de Figma y wireframes para pantallas de inicio de sesión y creación de cuenta |
 | 4.3.1.1 | 08/09/2024 | Jhosepmyr | Se agregan imágenes de wireframes para la landing page |
 | 4.3.2.1 | 08/09/2024 | Jhosepmyr | Se agregan wireframes y secciones de mock-up en el diseño de la landing page |
@@ -84,6 +88,12 @@
 | 4.7.1.1 | 07/09/2024 | Elmer Riva | Se agrega el diagrama de clases |
 | 4.7.2.1 | 08/09/2024 | Elmer Riva | Se actualiza el diccionario de clases |
 | 4.8.1.1 | 07/09/2024 | Jhosepmyr | Se agrega el diagrama de base de datos |
+| 5.0.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega una sección del Capítulo V: Product Implementation, Validation & Deployment |
+| 5.1.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a gestión de código fuente | 
+| 5.2.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a convenciones en la codificación y configuración de despliegue |
+| 5.3.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección de sprint planning 1 y sprint backlog 1 | 
+| 5.4.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega las secciones de evidencias e insights del sprint 1 |
+| 5.4.1 | 08/09/2024 | Henry Reaño Delgadillo | Se agrega nuevas fotos relacionadas a la landing page y correción de errores en los insights |
 
 <div style="page-break-after: always;"></div>
 
@@ -1038,8 +1048,6 @@ Para realizar esta sección de As-Is Scenario Mapping, en grupo, empatizamos ima
 
 ## 2.4. Ubiquitous Language
 
-## 2.4. Ubiquitous Language
-
 + Vehicle (Vehículo): Objeto principal de las reparaciones y mantenimientos en un taller de mecánica automotriz. Incluye automóviles, camiones, motocicletas, y otros tipos de transporte que requieren servicios para mantener su funcionamiento adecuado.
 
 + Customer (Cliente): Persona o entidad que solicita y paga por los servicios de mantenimiento o reparación de un vehículo.
@@ -1085,13 +1093,1025 @@ Para realizar esta sección de As-Is Scenario Mapping, en grupo, empatizamos ima
 + Driving Test (Prueba de Manejo): Evaluación del funcionamiento del vehículo realizada por un mecánico después de realizar una reparación o servicio, para verificar que los problemas se hayan resuelto y que el vehículo funcione correctamente.
 
 # Capítulo III: Requirements Specification
+
 ## 3.1. To-Be Scenario Mapping
+
+Se realizó una lluvia de ideas sobre cómo cambiaría la experiencia de nuestros usuarios mediante los features que habíamos proyectado durante la fase de Lean UX. De esa forma, pudimos determinar las áreas de mejora y el efecto concreto que tendrían.
+
+***Dueños de taller***
+
+<img src="img/3/1/Johan_Chavez.jpg">
+
+***Mecánicos***
+
+<img src="img/3/1/Edilberto_Sosa.jpg">
+
+***Clientes de taller***
+
+<img src="img/3/1/Gonzalo_Mendoza.jpg">
 
 ## 3.2. User Stories
 
+Se elaboraron historias de usuario, historias técnicas (para el API) e historias de sitio web estático, denotadas por US, TS y SWR respectivamente. Se aplicaron buenas prácticas como INVEST. En el cuadro a continuación, se visualizarán dichas historias de usuario, las épicas y sus respectivos criterios de aceptación.
+
+<table>
+    <tr>
+        <th scope="col">Epic / Story ID</th>
+        <th scope="col">Título</th>
+        <th scope="col">Descripción</th>
+        <th scope="col">Criterios de aceptación</th>
+        <th scope="col">Relacionado con (Epic ID)</th>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="4">US-01</td>
+        <td rowspan="4">Formulario de registro</td>
+        <td rowspan="4">Como dueño de taller quiero registrar una cuenta de usuario para empezar a utilizar la aplicación para gestionar mi taller</td>
+        <td>Scenario: Registro exitoso<br>Given el dueño de taller está en la página de registro<br>And ha completado todos los campos requeridos con datos válidos<br>When hace clic en el botón "Registrar"<br>Then se debe enviar un correo de confirmación a la dirección de correo electrónico especificada<br>And se debe ser redirigido a la página de confirmación de registro</td>
+        <td rowspan="4">EP-06</td>
+    </tr>
+    <tr>
+        <td>Scenario: Datos inválidos en el registro<br>Given el dueño de taller está en la página de registro<br>And ha completado todos los campos requeridos con datos inválidos<br>When hace clic en el botón "Registrar"<br>Then se debe mostrar un mensaje de error indicando que los datos son inválidos<br>And debe permanecer en la página de registro</td>
+    </tr>
+    <tr>
+        <td>Scenario: Campos requeridos incompletos en el registro<br>Given el dueño de taller está en la página de registro<br>And no ha completado todos los campos requeridos<br>When hace clic en el botón "Registrar"<br>Then se debe mostrar un mensaje de error indicando que los campos requeridos están incompletos<br>And se debe permanecer en la página de registro</td>
+    </tr>
+    <tr>
+        <td>Given el dueño de taller está en la página de registro<br>And introduce &ltdato inválido&gt en el campo &ltcampo&gt<br>When hace clic en el botón "Registrar"<br>Then se debe mostrar un mensaje de error "&ltmensaje de error&gt"<br>And se debe permanecer en la página de registro</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="4">US-02</td>
+        <td rowspan="4">Pantalla de login</td>
+        <td rowspan="4">Como usuario quiero acceder a mi cuenta para usar las funcionalidades de la aplicación</td>
+        <td>Scenario: Inicio de sesión exitoso<br>Given que el usuario está en la pagina de login<br>And ha completado los campos requeridos con datos asociados a una cuenta<br>When hace clic en el botón de "Entrar"<br>Then se debe cargar la información de su cuenta y acceder a la pantalla principal</td>
+        <td rowspan="4">EP-06</td>
+    </tr>
+    <tr>
+        <td>Scenario: Datos inválidos en el login<br>Given que el usuario está en la pagina de login<br>And ha completado los campos requeridos con datos que no están asociados a una cuenta<br>When hace clic en el botón de "Entrar"<br>Then el sistema debe mostrar un mensaje de error indicando que los datos son inválidos<br>And el usuario debe permanecer en la pantalla de login</td>
+    </tr>
+    <tr>
+        <td>Scenario: Datos incompletos en el login<br>Given que el usuario está en la pagina de login<br>And no ha completado todos los campos requeridos<br>When hace clic en el botón de "Entrar"<br>Then el sistema debe mostrar un mensaje de error indicando que los datos son inválidos<br>And el usuario debe permanecer en la pantalla de login</td>
+    </tr>
+    <tr>
+        <td>Given que el usuario está en la página de login<br>And completa el campo &ltcampo&gt con &ltdato&gt<br>When hace clic en el botón de "Entrar"<br>Then se debe mostrar el mensaje de error "&ltmensaje de error&gt"<br>And se debe permanecer en la pantalla de login</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="4">US-03</td>
+        <td rowspan="4">Creación de cuentas de taller</td>
+        <td rowspan="4">Como dueño de taller quiero registrar a mis clientes y personal en el sistema para gestionar la información de las intervenciones y tareas en el taller</td>
+        <td>Given el dueño de taller está en la página de &ltpágina&gt<br>And ha completado todos los campos requeridos con datos válidos<br>When hace clic en el botón "Registrar"<br>Then se debe enviar un correo de confirmación a la dirección de correo electrónico especificada</td>
+        <td rowspan="4">EP-06</td>
+    </tr>
+    <tr>
+        <td>Given el dueño de taller está en la página de &ltpágina&gt<br>And ha completado todos los campos requeridos con datos inválidos<br>When hace clic en el botón "Registrar"<br>Then se debe mostrar un mensaje de error indicando que los datos son inválidos</td>
+    </tr>
+    <tr>
+        <td>Given el dueño de taller está en la página de &ltpágina&gt<br>And no ha completado todos los campos requeridos<br>When hace clic en el botón "Registrar"<br>Then se debe mostrar un mensaje de error indicando que los campos requeridos están incompletos<br>And se debe permanecer en la página de registro</td>
+    </tr>
+    <tr>
+        <td>Given el dueño de taller está en la página de registro<br>And introduce &ltdato inválido&gt en el campo &ltcampo&gt<br>When hace clic en el botón "Registrar"<br>Then se debe mostrar un mensaje de error "&ltmensaje de error&gt"<br>And se debe permanecer en la página de registro</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="4">US-04</td>
+        <td rowspan="4">Personal</td>
+        <td rowspan="4">Como dueño de taller quiero visualizar mi lista de empleados saber qué empleados están registrados en el sistema</td>
+        <td>Scenario: Sin empleados<br>Given el dueño de taller no tiene personal registrado<br>When se carga la interfaz de personal<br>Then se debe mostrar un mensaje indicando que no hay ningún personal registrado<br>And mostrar la opción de registrar personal al centro de la interfaz</td>
+        <td rowspan="4">EP-03</td>
+    </tr>
+    <tr>
+        <td>Scenario: Lista de empleados<br>Given el dueño de taller tiene al menos un empleado<br>When se carga la interfaz de personal<br>Then se debe mostrar la información básica de los empleados</td>
+    </tr>
+    <tr>
+        <td>Scenario: Filtrado de empleados por nombre<br>Given el dueño de taller tiene al menos un empleado<br>And se encuentra en la interfaz de personal<br>When ingresa texto de filtrado<br>Then se debe mostrar la información básica de los empleados que presenten coincidencias con el texto de filtrado</td>
+    </tr>
+    <tr>
+        <td>Scenario: Filtrado de empleados por estado<br>Given el dueño de taller tiene al menos un empleado<br>And se encuentra en la interfaz de personal<br>When hace clic en una de las categorías de estado de empleado<br>Then se debe mostrar la información básica de los empleados que presenten coincidencias con el estado seleccionado</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="5">US-05</td>
+        <td rowspan="5">Detalles de empleado</td>
+        <td rowspan="5">Como dueño de taller quiero manejar la información de mis empleados para gestionar sus cuentas</td>
+        <td>Scenario: Detalles de empleado<br>Given el dueño de taller tiene al menos un empleado<br>And se encuentra en la interfaz de personal<br>When hace clic en un empleado con estado activo<br>Then se debe mostrar la información completa de dicho empleado</td>
+        <td rowspan="5">EP-05</td>
+    </tr>
+    <tr>
+        <td>Scenario: Actualizar datos de empleado<br>Given el dueño de taller se encuentra en la interfaz de detalles de empleado<br>And ha cambiado datos del empleado<br>When hace clic en actualizar<br>Then se debe cambiar los datos correspondientes del empleado</td>
+    </tr>
+    <tr>
+        <td>Scenario: Actualizar correo de empleado<br>Given el dueño de taller se encuentra en la interfaz de detalles de empleado<br>And ha cambiado datos del empleado<br>When hace clic en actualizar<br>Then se debe enviar una confirmación de cambio de correo a la nueva dirección de correo</td>
+    </tr>
+    <tr>
+        <td>Scenario: Eliminación de empleado<br>Given el dueño de taller se encuentra en la interfaz de detalles de empleado<br>When hace clic en eliminar<br>Then se debe cambiar el estado del empleado a inactivo</td>
+    </tr>
+    <tr>
+        <td>Scenario: Restaurar empleado<br>Given el dueño de taller tiene al menos un empleado<br>And se encuentra en la interfaz de personal<br>When hace clic en un empleado con estado inactivo<br>Then se debe mostrar la información completa de dicho empleado</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="3">US-06</td>
+        <td rowspan="3">Clientes</td>
+        <td rowspan="3">Como dueño de taller quiero visualizar mi lista de clientes para saber quiénes son mis clientes</td>
+        <td>Scenario: Lista de clientes<br>Given el dueño de taller cuenta con al menos un empleado<br>When ingresa a la interfaz de clientes<br>Then se debe mostrar la información básica de los clientes</td>
+        <td rowspan="3">EP-03</td>
+    </tr>
+    <tr>
+        <td>Scenario: Filtrado de clientes por nombre<br>Given el dueño de taller tiene al menos un cliente<br>And se encuentra en la interfaz de clientes<br>When ingresa texto de filtrado<br>Then se debe mostrar la información básica de los clientes que presenten coincidencias con el texto de filtrado</td>
+    </tr>
+    <tr>
+        <td>Scenario: Filtrado de clientes por estado<br>Given el dueño de taller tiene al menos un cliente<br>And se encuentra en la interfaz de clientes<br>When hace clic en una de las categorías de estado de cliente<br>Then se debe mostrar la información básica de los clientes que presenten coincidencias con el estado seleccionado</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="5">US-07</td>
+        <td rowspan="5">Detalles de clientes</td>
+        <td rowspan="5">Como dueño de taller quiero manejar información de mis clientes para mantener sus datos actualizados y aprovecharlos</td>
+        <td>Scenario: Detalles de cliente<br>Given el dueño de taller tiene al menos un cliente<br>And se encuentra en la interfaz de clientes<br>When hace clic en un cliente con estado activo<br>Then se debe mostrar la información completa de dicho cliente<br>And sus vehículos registrados</td>
+        <td rowspan="5">EP-05</td>
+    </tr>
+    <tr>
+        <td>Scenario: Actualizar datos de cliente<br>Given el dueño de taller se encuentra en la interfaz de detalles de cliente<br>And ha cambiado datos del cliente<br>When hace clic en actualizar<br>Then se debe cambiar los datos correspondientes del cliente</td>
+    </tr>
+    <tr>
+        <td>Scenario: Actualizar correo de cliente<br>Given el dueño de taller se encuentra en la interfaz de detalles de cliente<br>And ha cambiado datos del cliente<br>When hace clic en actualizar<br>Then se debe enviar una confirmación de cambio de correo a la nueva dirección de correo</td>
+    </tr>
+    <tr>
+        <td>Scenario: Eliminación de cliente<br>Given el dueño de taller se encuentra en la interfaz de detalles de cliente<br>When hace clic en eliminar<br>Then se debe cambiar el estado del cliente a inactivo</td>
+    </tr>
+    <tr>
+        <td>Scenario: Restaurar cliente<br>Given el dueño de taller tiene al menos un cliente<br>And se encuentra en la interfaz de clientes<br>When hace clic en un cliente con estado inactivo<br>Then se debe mostrar la información completa de dicho cliente</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="4">US-08</td>
+        <td rowspan="4">Intervenciones</td>
+        <td rowspan="4">Como dueño de taller quiero visualizar las intervenciones para controlar los servicios realizados y pendientes en el taller</td>
+        <td>Scenario: Lista de intervenciones<br>Given el dueño de taller tiene al menos una intervención registrada<br>When se carga la interfaz de Intervenciones<br>Then se debe mostrar todas las intervenciones y su información más relevante</td>
+        <td rowspan="4">EP-03</td>
+    </tr>
+    <tr>
+        <td>Scenario: Filtrado de intervenciones por texto<br>Given el dueño de taller tiene al menos una intervención registrada<br>And se encuentra en la interfaz de intervenciones<br>When ingresa texto de filtrado<br>Then se debe mostrar las intervenciones que coincidan con el texto de filtrado</td>
+    </tr>
+    <tr>
+        <td>Scenario: Filtrado de intervenciones por estado<br>Given el dueño de taller tiene al menos una intervención registrada<br>And se encuentra en la interfaz de intervenciones<br>When hace clic en un estado de filtrado<br>Then se debe mostrar las intervenciones que coincidan con el estado de filtrado</td>
+    </tr>
+    <tr>
+        <td>Scenario: Ordenamiento por campos<br>Given el dueño de taller tiene al menos una intervención registrada<br>And se encuentra en la interfaz de intervenciones<br>When hace clic en uno de los campos<br>Then se deben ordenar las intervenciones según el criterio seleccionado</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="4">US-09</td>
+        <td rowspan="4">Creación de intervenciones</td>
+        <td rowspan="4">Como dueño de taller quiero poder gestionar las intervenciones de mi taller para organizar eficientemente a mis mecánicos</td>
+        <td>Scenario: Crear intervención desde mis intervenciones<br>Given el dueño de taller se encuentra en la interfaz de mis intervenciones<br>When hace clic en Realizar intervención<br>Then debe mostrarse un formulario de creación de intervención</td>
+        <td rowspan="4">EP-03</td>
+    </tr>
+    <tr>
+        <td>Scenario: Crear intervención desde vehículos de cliente<br>Given el dueño de taller se encuentra observando una falla de un vehículo<br>When hace clic en Realizar intervención<br>Then debe mostrarse un formulario de creación de intervención</td>
+    </tr>
+    <tr>
+        <td>Scenario: Registro de intervención exitoso<br>Given el dueño de taller se encuentra en el formulario de creación de intervención<br>And ha llenado correctamente todos los campos solicitados<br>When hace clic en crear<br>Then se debe registrar una nueva intervención<br>And asignarle el estado pendiente de forma automática</td>
+    </tr>
+    <tr>
+        <td>Scenario: Registro de intervención fallido<br>Given el dueño de taller se encuentra en el formulario de creación de intervención<br>And no ha llenado correctamente todos los campos solicitados o ha cometido un error en la entrada<br>When hace clic en crear<br>Then el sistema debe mostrar un mensaje de error indicando los campos que requieren corrección o son inválidos</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="5">US-10</td>
+        <td rowspan="5">Detalles de intervención</td>
+        <td rowspan="5">Como dueño de taller quiero visualizar los detalles asociados a una intervención para tener un control claro y detallado del trabajo realizado y gestionar los cambios de los clientes</td>
+        <td>Scenario: Detalles de generales de intervención<br>Given el dueño de taller tiene al menos una intervención registrada<br>And se encuentra en la interfaz de intervenciones<br>When hace clic en una intervención<br>Then se debe mostrar los detalles generales de la intervención como la placa del vehículo, cliente y personal a cargo</td>
+        <td rowspan="5">EP-03</td>
+    </tr>
+    <tr>
+        <td>Scenario: Resumen de intervención<br>Given el dueño de taller se encuentra en los detalles generales de intervención<br>When hace clic en resumen de intervención<br>Then se debe cargar la información específica de las tareas y observaciones realizadas en la intervención</td>
+    </tr>
+    <tr>
+        <td>Scenario: Modificar intervención<br>Given el dueño de taller se encuentra en los detalles generales de intervención<br>And la intervención se encuentra en estado pendiente<br>When hace clic en uno de los campos de datos<br>Then se debe permitir modificar los valores registrados</td>
+    </tr>
+    <tr>
+        <td>Scenario: Guardar cambios<br>Given el dueño de taller se encuentra en los detalles generales de intervención<br>And ha modificado los valores en algún campo<br>When hace clic en guardar<br>Then se deben guardar los cambios realizados</td>
+    </tr>
+    <tr>
+        <td>Scenario: Cancelar intervención<br>Given el dueño de taller se encuentra en los detalles generales de intervención o en resumen de intervención<br>And la intervención se encuentra en estado pendiente<br>When hace clic en cancelar intervención<br>Then debe eliminarse la intervención del sistema</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="6">US-11</td>
+        <td rowspan="6">Existencias de inventario</td>
+        <td rowspan="6">Como dueño de taller quiero poder manejar existencias en mi inventario para asegurar que siempre haya disponibilidad de piezas y materiales necesarios para las intervenciones eficientemente</td>
+        <td>Scenario: Visualización de existencias<br>Given el dueño de taller cuenta con registros de inventario<br>When se carga la interfaz de inventario<br>Then deberá mostrarse las existencias en el inventario, considerando el nombre, cantidad, límite y descripción</td>
+        <td rowspan="6">EP-04</td>
+    </tr>
+    <tr>
+        <td>Scenario: Añadir entrada<br>Given el dueño de taller se encuentra en la interfaz de inventario<br>When hace clic en añadir entrada<br>Then debe crearse una nueva entrada que reciba valores por teclado</td>
+    </tr>
+    <tr>
+        <td>Scenario: Modificar entrada<br>Given el dueño de taller se encuentra en la interfaz de inventario<br>When hace clic en modificar entrada<br>Then debe permitir modificarse los valores de entradas de inventario<br>And mostrar la opción de guardar o descartar cambios</td>
+    </tr>
+    <tr>
+        <td>Scenario: Guardar cambios<br>Given el dueño de taller se encuentra en la interfaz de inventario<br>And ha realizado cambios en alguna entrada<br>When hace clic en guardar cambios<br>Then los cambios realizados deberán ser registrados en el sistema</td>
+    </tr>
+    <tr>
+        <td>Scenario: Deshacer cambio<br>Given el dueño de taller se encuentra en la interfaz de inventario<br>And ha realizado cambios en alguna entrada<br>When hace clic en deshacer<br>Then los cambios realizados deberán dejar de realizarse<br>And devolver al estado previo antes de realizar modificaciones</td>
+    </tr>
+    <tr>
+        <td>Scenario: Ordenamiento por campos<br>Given el dueño de taller cuenta con al menos una entrada de inventario<br>And se encuentra en la interfaz de inventario<br>When hace clic en uno de los campos<br>Then se deben ordenar las entradas de inventario según el criterio seleccionado</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="4">US-12</td>
+        <td rowspan="4">Solicitudes de inventario</td>
+        <td rowspan="4">Como dueño de taller quiero manejar solicitudes de inventario realizadas por los mecánicos para conocer los materiales y repuestos necesarios para las intervenciones pendientes</td>
+        <td>Scenario: Visualización de solicitudes de inventario<br>Given el dueño de taller cuenta con solicitudes de inventario pendientes<br>When se carga la interfaz de solicitudes de inventario<br>Then deben mostrarse la lista de solicitudes pendientes, incluyendo campos como mecánico solicitante, pieza y cantidad solicitada y fecha de solicitud</td>
+        <td rowspan="4">EP-04</td>
+    </tr>
+    <tr>
+        <td>Scenario: Guardar cambios<br>Given el dueño de taller se encuentra en la interfaz de solicitudes de inventario<br>And ha seleccionado una o más solicitudes<br>When hace clic en guardar cambios<br>Then se deben eliminar las solicitudes de la lista seleccionadas<br>And notificar a los mecánicos correspondientes que se consiguió lo solicitado</td>
+    </tr>
+    <tr>
+        <td>Scenario: Deshacer cambio<br>Given el dueño de taller se encuentra en la interfaz de solicitudes de inventario<br>And ha seleccionado una o más solicitudes<br>When hace clic en deshacer<br>Then los cambios realizados deberán dejar de realizarse<br>And devolver al estado previo antes de realizar modificaciones</td>
+    </tr>
+    <tr>
+        <td>Scenario: Ordenamiento por campos<br>Given el dueño de taller cuenta con al menos una solicitud de inventario<br>And se encuentra en la interfaz de solicitud de inventario<br>When hace clic en uno de los campos<br>Then se deben ordenar las solicitudes de inventario según el criterio seleccionado</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="4">US-13</td>
+        <td rowspan="4">Métricas</td>
+        <td rowspan="4">Como dueño de taller quiero contar con métricas de rendimiento de mi negocio y características de clientes para conocer el rendimiento y tomar mejores decisiones que mejoren la eficiencia</td>
+        <td>Scenario: Total de intervenciones por día<br>Given el dueño de taller se encuentra en métricas<br>When hace clic en la opción de intervenciones - día<br>Then se debe cargar un histograma que resuma la cantidad de intervenciones realizadas por día</td>
+        <td rowspan="4">EP-05</td>
+    </tr>
+    <tr>
+        <td>Scenario: Total de intervenciones por mes<br>Given el dueño de taller se encuentra en métricas<br>When hace clic en la opción de intervenciones - mes<br>Then se debe cargar un histograma que resuma la cantidad de intervenciones realizadas por mes</td>
+    </tr>
+    <tr>
+        <td>Scenario: Vehículos de cliente por marca<br>Given el dueño de taller se encuentra en métricas<br>When hace clic en la opción de marcas de vehículo<br>Then se debe cargar un gráfico de torta que indique la distribución porcentual de las marcas de vehículo</td>
+    </tr>
+    <tr>
+        <td>Scenario: Intervenciones según tipo de intervención<br>Given el dueño de taller se encuentra en métricas<br>When hace clic en la opción de tipo de intervención<br>Then se debe cargar un gráfico de barras que indique la distribución porcentual de los tipos de intervención realizados en total</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">US-14</td>
+        <td rowspan="2">Notificaciones</td>
+        <td rowspan="2">Como usuario quiero recibir notificaciones para estar al tanto y llevar un registro de eventos importantes de la aplicación</td>
+        <td>Scenario: Visualización de notificaciones<br>Given el usuario cuenta con al menos una notificación<br>When se carga la interfaz de notificaciones<br>Then deben mostrarse las notificaciones del usuario, incluyendo datos como fecha y hora, nombre y vínculo relacionado</td>
+        <td rowspan="2">EP-05</td>
+    </tr>
+    <tr>
+        <td>Scenario: Vínculos relacionados<br>Given el usuario cuenta con al menos una notificación<br>And se encuentra en la interfaz de notificaciones<br>When hace clic en el vínculo relacionado<br>Then se debe redirigir a la interfaz correspondiente con la notificación</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">US-15</td>
+        <td rowspan="2">US-15 Mis tareas (líder)</td>
+        <td rowspan="2">Como mecánico quiero poder visualizar mis tareas pendientes para poder hacer seguimiento del trabajo que queda por hacer en mis vehículos.</td>
+        <td>Scenario: Visualización de tareas<br>Given el mecánico es líder de una intervención pendiente<br>When se carga la interfaz de mis tareas<br>Then deben visualizarse las intervenciones correspondientes considerando campos como cliente, fecha y modalidad<br>And mostrar una etiqueta que indique que el usuario es líder de intervención</td>
+        <td rowspan="2">EP-03</td>
+    </tr>
+    <tr>
+        <td>Scenario: Más información<br>Given el mecánico es líder de una intervención pendiente<br>When hace clic en más información<br>Then se debe mostrar detalles de la intervención con secciones información, diagnóstico y preparación y supervisión</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">US-16</td>
+        <td rowspan="2">US-15 Mis tareas (asistente)</td>
+        <td rowspan="2">Como mecánico quiero poder visualizar mis tareas pendientes para poder hacer seguimiento del trabajo que queda por hacer en mis vehículos.</td>
+        <td>Scenario: Visualización de tareas<br>Given el mecánico es responsable de una tarea en una intervención pendiente<br>When se carga la interfaz de mis tareas<br>Then deben visualizarse las intervenciones correspondientes considerando campos como cliente, fecha y modalidad<br>And mostrar una etiqueta que indique que el usuario es asistente</td>
+        <td rowspan="2">EP-03</td>
+    </tr>
+    <tr>
+        <td>Scenario: Más información<br>Given el mecánico es responsable de una tarea en una intervención pendiente<br>When hace clic en más información<br>Then se debe mostrar detalles de la intervención con secciones información y ejecución</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="4">US-17</td>
+        <td rowspan="4">Información de intervención</td>
+        <td rowspan="4">Como mecánico quiero consultar información relevante de la intervención para realizar un mejor diagnóstico</td>
+        <td>Scenario: Información IoT<br>Given el mecánico se encuentra en la interfaz de más información de una intervención<br>When se carga el contenido de la interfaz<br>Then se debe mostrar un resumen de la información más reciente obtenida por análisis OBD-IoT del vehículo considerando componente, estado y código de error</td>
+        <td rowspan="4">EP-03</td>
+    </tr>
+    <tr>
+        <td>Scenario: Información general<br>Given el mecánico se encuentra en la interfaz de más información de una intervención<br>When se carga el contenido de la interfaz<br>Then se debe mostrar la información general de la intervención como cliente, vehículo, modalidad, fecha, entre otros.</td>
+    </tr>
+    <tr>
+        <td>Scenario: Registro de intervenciones<br>Given el mecánico se encuentra en la interfaz de más información de una intervención<br>When se carga el contenido de la interfaz<br>Then se debe mostrar la lista de intervenciones anteriores</td>
+    </tr>
+    <tr>
+        <td>Scenario: Acceso a detalles de intervenciones<br>Given el mecánico se encuentra en la interfaz de más información de una intervención<br>And hay al menos un registro de intervención anterior<br>When hace clic en leer más<br>Then se debe mostrar los detalles de la intervención seleccionada</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="5">US-18</td>
+        <td rowspan="5">Diagnóstico de intervención</td>
+        <td rowspan="5">Como mecánico quiero poder modelar el diagnóstico de intervención para registrar la secuencia de tareas que se deben realizar para terminar el trabajo</td>
+        <td>Scenario: Distribución de tareas<br>Given el mecánico se encuentra en la interfaz de diagnóstico y preparación de una intervención<br>And es líder de la intervención<br>And se tiene al menos una tarea<br>When se carga el contenido de la interfaz<br>Then se debe mostrar la lista de tareas correspondientes a la intervención</td>
+        <td rowspan="5">EP-03</td>
+    </tr>
+    <tr>
+        <td>Scenario: Añadir tarea<br>Given el mecánico se encuentra en la interfaz de diagnóstico y preparación de una intervención<br>And es líder de la intervención<br>And ha redactado una tarea<br>And ha escogido un mecánico<br>When hace clic en el botón agregar<br>Then se debe añadir una nueva tarea<br>And reiniciar el estado de la casilla de texto</td>
+    </tr>
+    <tr>
+        <td>Scenario: Eliminar tarea<br>Given el mecánico se encuentra en la interfaz de diagnóstico y preparación de una intervención<br>And es líder de la intervención<br>And la intervención tiene al menos una tarea<br>When hace clic en el botón de eliminar<br>Then se debe eliminar la tarea correspondiente</td>
+    </tr>
+    <tr>
+        <td>Scenario: Guardar cambios<br>Given el dueño de taller se encuentra en la interfaz de diagnóstico y preparación de una intervención<br>And es líder de la intervención<br>And ha realizado cambios en alguna entrada<br>When hace clic en guardar cambios<br>Then los cambios realizados deberán ser registrados en el sistema</td>
+    </tr>
+    <tr>
+        <td>Scenario: Deshacer cambios<br>Given el dueño de taller se encuentra en la interfaz de diagnóstico y preparación de una intervención<br>And es líder de la intervención<br>And ha realizado cambios en alguna entrada<br>When hace clic en deshacer<br>Then los cambios realizados realizados deberán revertirse<br>And regresar al estado previo del último guardado</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="5">US-19</td>
+        <td rowspan="5">Ejecución de intervención</td>
+        <td rowspan="5">Como mecánico quiero poder modelar el diagnóstico de intervención para registrar la secuencia de tareas que se deben realizar para terminar el trabajo</td>
+        <td>Scenario: Distribución de tareas<br>Given el mecánico se encuentra en la interfaz de diagnóstico y preparación de una intervención<br>And es líder de la intervención<br>And se tiene al menos una tarea<br>When se carga el contenido de la interfaz<br>Then se debe mostrar la lista de tareas correspondientes a la intervención</td>
+        <td rowspan="5">EP-03</td>
+    </tr>
+    <tr>
+        <td>Scenario: Añadir tarea<br>Given el mecánico se encuentra en la interfaz de diagnóstico y preparación de una intervención<br>And es líder de la intervención<br>And ha redactado una tarea<br>And ha escogido un mecánico<br>When hace clic en el botón agregar<br>Then se debe añadir una nueva tarea<br>And reiniciar el estado de la casilla de texto</td>
+    </tr>
+    <tr>
+        <td>Scenario: Eliminar tarea<br>Given el mecánico se encuentra en la interfaz de diagnóstico y preparación de una intervención<br>And es líder de la intervención<br>And la intervención tiene al menos una tarea<br>When hace clic en el botón de eliminar<br>Then se debe eliminar la tarea correspondiente</td>
+    </tr>
+    <tr>
+        <td>Scenario: Guardar cambios<br>Given el dueño de taller se encuentra en la interfaz de diagnóstico y preparación de una intervención<br>And es líder de la intervención<br>And ha realizado cambios en alguna entrada<br>When hace clic en guardar cambios<br>Then los cambios realizados deberán ser registrados en el sistema</td>
+    </tr>
+    <tr>
+        <td>Scenario: Deshacer cambios<br>Given el dueño de taller se encuentra en la interfaz de diagnóstico y preparación de una intervención<br>And es líder de la intervención<br>And ha realizado cambios en alguna entrada<br>When hace clic en deshacer<br>Then los cambios realizados realizados deberán revertirse<br>And regresar al estado previo del último guardado</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="3">US-20</td>
+        <td rowspan="3">Supervisión de intervención</td>
+        <td rowspan="3">Como mecánico quiero poder verificar el cumplimiento de todas las tareas de intervención para poder registrar el trabajo como terminado</td>
+        <td>Scenario: Visualización de estado de tareas<br>Given el mecánico se encuentra en la interfaz de supervisión de una intervención<br>And es líder de la intervención<br>When se carga el contenido de la interfaz<br>Then se debe mostrar toda la lista de tareas y su estado correspondiente</td>
+        <td rowspan="3">EP-03</td>
+    </tr>
+    <tr>
+        <td>Scenario: Tareas completadas<br>Given el mecánico se encuentra en la interfaz de supervisión de una intervención<br>And es líder de la intervención<br>And todas las tareas se encuentran en estado finalizado<br>When se carga el contenido de la interfaz<br>Then se debe mostrar el botón de finalizar</td>
+    </tr>
+    <tr>
+        <td>Scenario: Finalizar intervención<br>Given el mecánico se encuentra en la interfaz de supervisión de una intervención<br>And es líder de la intervención<br>And todas las tareas tienen estado terminado<br>When hace clic en finalizar<br>Then se debe cambiar el estado de la intervención a finalizado<br>And mostrar un mensaje de intervención terminada exitosamente</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="6">US-21</td>
+        <td rowspan="6">Registro de vehículos</td>
+        <td rowspan="6">Como usuario quiero poder registrar vehículos para poder asociar y monitorear su información mediante la aplicación</td>
+        <td>Scenario: Visualización de vehículos<br>Given el usuario tiene al menos un vehículo registrado<br>When se carga la interfaz de mis vehículos<br>Then se debe mostrar todas los vehículos y su información más relevante</td>
+        <td rowspan="6">EP-05</td>
+    </tr>
+    <tr>
+        <td>Scenario: Agregar vehículos<br>Given el usuario se encuentra en la interfaz de mis vehículos<br>When se hace clic en agregar vehículo<br>Then se debe mostrar un formulario para registrar vehículo</td>
+    </tr>
+    <tr>
+        <td>Scenario: Agregar vehículo con éxito<br>Given el usuario está en el formulario de agregar vehículo<br>And ha completado todos los campos requeridos con datos válidos<br>When hace clic en el botón "Registrar"<br>Then se debe agregar el vehículo a la lista de mis vehículos<br>And cerrar el formulario</td>
+    </tr>
+    <tr>
+        <td>Scenario: Datos inválidos en el registro<br>Given el usuario está en el formulario de agregar vehículo<br>And ha completado todos los campos requeridos con datos inválidos<br>When hace clic en el botón "Registrar"<br>Then se debe mostrar un mensaje de error indicando que los datos son inválidos</td>
+    </tr>
+    <tr>
+        <td>Scenario: Campos requeridos incompletos<br>Given el usuario está en el formulario de agregar vehículo<br>And no ha completado todos los campos requeridos<br>When hace clic en el botón "Registrar"<br>Then se debe mostrar un mensaje de error indicando que los campos requeridos están incompletos</td>
+    </tr>
+    <tr>
+        <td>Scenario: Eliminar vehículo<br>Given el usuario se encuentra en los detalles de un vehículo<br>When hace clic en eliminar vehículo<br>Then se debe eliminar el vehículo correspondiente de su lista de vehículos</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">US-22</td>
+        <td rowspan="2">Registro de intervenciones</td>
+        <td rowspan="2">Como usuario quiero acceder al registro de intervenciones de un vehículo para utilizar la información para tomar mejores decisiones</td>
+        <td>Scenario: Línea de tiempo de historial de intervenciones<br>Given el usuario se encuentra en la interfaz detalles de vehículo o información de intervención<br>And hay al menos una intervención registrada<br>When hace clic en registro de intervenciones<br>Then se debe mostrar la lista ordenada cronológicamente de intervenciones realizadas al vehículo correspondiente</td>
+        <td rowspan="2">EP-05</td>
+    </tr>
+    <tr>
+        <td>Scenario: Detalles de intervención<br>Given el usuario se encuentra en la interfaz detalles de vehículo o información de intervención<br>And hay al menos una intervención registrada<br>When hace clic en más detalles de intervención<br>Then se debe mostrar la información completa correspondiente a dicha intervención</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">US-23</td>
+        <td rowspan="2">Información IoT de vehículo</td>
+        <td rowspan="2">Como usuario quiero acceder a la información generada por el dispositivo IoT del vehículo para conocer el estado actual del vehículo más rápidamente</td>
+        <td>Scenario: Mostrar información IoT<br>Given el usuario se encuentra en detalles de vehículo<br>When hace clic en información IoT<br>Then se debe mostrar la información generada por el dispositivo, incluyendo campos como componente, estado y código de error</td>
+        <td rowspan="2">EP-05</td>
+    </tr>
+    <tr>
+        <td>Scenario: Detalles de código de error<br>Given el usuario se encuentra en información IoT de un vehículo<br>And al menos un componente genera un código de error<br>When hace clic en uno de los códigos<br>Then se debe mostrar una ventana emergente que explique el significado del código de error</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="3">US-24</td>
+        <td rowspan="3">Agendar cita de intervención</td>
+        <td rowspan="3">Como usuario quiero agendar citas de intervención para ahorrarme tiempo</td>
+        <td>Scenario: Registro exitoso<br>Given el usuario se encuentra en Agendar cita<br>And ha completado todos los campos requeridos con datos válidos<br>When hace clic en el botón "Agendar"<br>Then se debe enviar una notificación al taller correspondiente<br>And se debe ser redirigido a la página de información de vehículo</td>
+        <td rowspan="3">EP-05</td>
+    </tr>
+    <tr>
+        <td>Scenario: Fecha inválida en el registro<br>Given el usuario se encuentra en Agendar cita<br>And ha selecciona una fecha inválida<br>When hace clic en el botón "Registrar"<br>Then se debe mostrar un mensaje de error indicando que la fecha es inválida<br>And debe permanecer en la página de registro</td>
+    </tr>
+    <tr>
+        <td>Scenario: Modalidad incompleta<br>Given el usuario se encuentra en Agendar cita<br>And ha no ha seleccionado una modalidad<br>When hace clic en el botón "Registrar"<br>Then se debe mostrar un mensaje de error indicando que es necesario seleccionar una modalidad<br>And debe permanecer en la página de registro</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">TS-01</td>
+        <td rowspan="2">Crear Usuario a través de la API RESTful</td>
+        <td rowspan="2">Como desarrollador Quiero agregar un usuario a través de la API Para que el usuario pueda registrarse y acceder al sistema del taller.</td>
+        <td>Scenario: Crear usuario con datos válidos<br>Given el endpoint "/api/v1/user" está disponible<br>When se envía una solicitud POST con valores válidos para nombre, email y contraseña<br>Then se recibe un estado 201<br>And el recurso Usuario se incluye en el cuerpo de la respuesta con un nuevo Id y los valores registrados para nombre, email y fecha de registro.</td>
+        <td rowspan="2"> EP-02</td>
+    </tr>
+    <tr>
+        <td>Scenario: Crear usuario con datos inválidos<br>Given el endpoint "/api/v1/user" está disponible<br>When se envía una solicitud POST con valores inválidos o faltantes para nombre, email o contraseña<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="3">TS-02</td>
+        <td rowspan="3">Crear Vehículo a través de la API RESTful</td>
+        <td rowspan="3">Como desarrollador Quiero agregar un vehículo a través de la API Para que se pueda gestionar el vehículo de cada usuario.</td>
+        <td>Scenario: Crear vehículo con datos válidos<br>Given el endpoint "/api/v1/vehicle" está disponible<br>When se envía una solicitud POST con valores válidos para placa, marca, modelo<br>Then se recibe un estado 201<br>And el recurso Vehículo se incluye en el cuerpo de la respuesta con un nuevo Id y los valores registrados para placa, marca, modelo.</td>
+        <td rowspan="3"> EP-02</td>
+    </tr>
+    <tr>
+        <td>Scenario: Crear vehículo con datos inválidos<br>Given el endpoint "/api/v1/vehicle" está disponible<br>When se envía una solicitud POST con valores inválidos o faltantes para placa, marca, modelo.<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
+    </tr>
+    <tr>
+        <td>Scenario: Crear vehículo con placa duplicada<br>Given el endpoint "/api/v1/vehicle" está disponible<br>And ya existe un recurso Vehículo con el mismo valor para placa<br>When se envía una solicitud POST con valores válidos para placa, marca, modelo.<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta con el valor "Este vehículo ya ha sido creado".</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">TS-03</td>
+        <td rowspan="2">Crear Solicitud a través de la API RESTful</td>
+        <td rowspan="2">Como desarrollador Quiero agregar una solicitud a través de la API Para que se pueda gestionar la necesidad de piezas y repuestos en el taller.</td>
+        <td>Scenario: Crear solicitud con datos válidos<br>Given el endpoint "/api/v1/request" está disponible<br>When se envía una solicitud POST con valores válidos para idMecanico, repuesto y cantidad<br>Then se recibe un estado 201<br>And el recurso Solicitud se incluye en el cuerpo de la respuesta con un nuevo Id y los valores registrados para idMecanico, repuesto y cantidad.</td>
+        <td rowspan="2"> EP-02</td>
+    </tr>
+    <tr>
+        <td>Scenario: Crear solicitud con datos inválidos<br>Given el endpoint "/api/v1/request" está disponible<br>When se envía una solicitud POST con valores inválidos o faltantes para idMecanico, repuesto o cantidad<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">TS-04</td>
+        <td rowspan="2">Crear Ítem de Inventario a través de la API RESTful</td>
+        <td rowspan="2">Como desarrollador Quiero agregar un ítem de inventario a través de la API Para que se tenga un control adecuado del inventario en el taller.</td>
+        <td>Scenario: Crear ítem de inventario con datos válidos<br>Given el endpoint "/api/v1/inventory/item" está disponible<br>When se envía una solicitud POST con valores válidos para nombre y cantidad<br>Then se recibe un estado 201<br>And el recurso Ítem de Inventario se incluye en el cuerpo de la respuesta con un nuevo Id y los valores registrados para nombre y cantidad.</td>
+        <td rowspan="2"> EP-02</td>
+    </tr>
+    <tr>
+        <td>Scenario: Crear ítem de inventario con datos inválidos<br>Given el endpoint "/api/v1/inventory/item" está disponible<br>When se envía una solicitud POST con valores inválidos o faltantes para nombre o cantidad<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">TS-05</td>
+        <td rowspan="2">Crear Intervención a través de la API RESTful</td>
+        <td rowspan="2">Como desarrollador Quiero agregar una intervención a través de la API Para que se registren las reparaciones y el mantenimiento realizados a un vehículo.</td>
+        <td>Scenario: Crear intervención con datos válidos<br>Given el endpoint "/api/v1/intervention" está disponible<br>When se envía una solicitud POST con valores válidos para vehículoId, mecánicoId y descripción<br>Then se recibe un estado 201<br>And el recurso Intervención se incluye en el cuerpo de la respuesta con un nuevo Id y los valores registrados para vehículoId, mecánicoId y descripción.</td>
+        <td rowspan="2"> EP-02</td>
+    </tr>
+    <tr>
+        <td>Scenario: Crear intervención con datos inválidos<br>Given el endpoint "/api/v1/intervention" está disponible<br>When se envía una solicitud POST con valores inválidos o faltantes para vehículoId, mecánicoId o descripción<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">TS-06</td>
+        <td rowspan="2">Crear Tarea dentro de una Intervención a través de la API RESTful</td>
+        <td rowspan="2">Como desarrollador Quiero agregar una tarea dentro de una intervención a través de la API Para que las tareas asociadas a las intervenciones sean gestionadas correctamente.</td>
+        <td>Scenario: Crear tarea con datos válidos<br>Given el endpoint "/api/v1/intervention/{interventionId}/task" está disponible<br>When se envía una solicitud POST con valores válidos para mecánicoId y descripción<br>Then se recibe un estado 201<br>And el recurso Tarea se incluye en el cuerpo de la respuesta con un nuevo Id y los valores registrados para  mecánicoId y descripción</td>
+        <td rowspan="2"> EP-02</td>
+    </tr>
+    <tr>
+        <td>Scenario: Crear tarea con datos inválidos<br>Given el endpoint "/api/v1/intervention/{interventionId}/task" está disponible<br>When se envía una solicitud POST con valores inválidos o faltantes para  mecánicoId o descripción<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">TS-07</td>
+        <td rowspan="2">Eliminar Intervención a través de la API RESTful</td>
+        <td rowspan="2">Como desarrollador Quiero eliminar una intervención a través de la API Para que se pueda eliminar una intervención del sistema.</td>
+        <td>Scenario: Eliminar intervención existente<br>Given el endpoint "/api/v1/intervention/{id}" está disponible<br>When se envía una solicitud DELETE con el ID de una intervención existente<br>Then se recibe un estado 204<br>And la intervención se elimina del sistema.</td>
+        <td rowspan="2"> EP-02</td>
+    </tr>
+    <tr>
+        <td>Scenario: Eliminar intervención inexistente<br>Given el endpoint "/api/v1/intervention/{id}" está disponible<br>When se envía una solicitud DELETE con el ID de una intervención que no existe<br>Then se recibe un estado 404<br>And se incluye un mensaje de error en el cuerpo de la respuesta con el valor "La intervención no fue encontrada".</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">TS-08</td>
+        <td rowspan="2">Eliminar Tarea a través de la API RESTful</td>
+        <td rowspan="2">Como desarrollador Quiero eliminar una tarea a través de la API Para que se pueda eliminar una tarea de una intervención del sistema.</td>
+        <td>Scenario: Eliminar tarea existente<br>Given el endpoint "/api/v1/intervention/{interventionId}/task/{taskId}" está disponible<br>When se envía una solicitud DELETE con el ID de una tarea existente dentro de una intervención<br>Then se recibe un estado 204<br>And la tarea se elimina del sistema.</td>
+        <td rowspan="2"> EP-02</td>
+    </tr>
+    <tr>
+        <td>Scenario: Eliminar tarea inexistente<br>Given el endpoint "/api/v1/intervention/{interventionId}/task/{taskId}" está disponible<br>When se envía una solicitud DELETE con el ID de una tarea que no existe dentro de una intervención<br>Then se recibe un estado 404<br>And se incluye un mensaje de error en el cuerpo de la respuesta con el valor "La tarea no fue encontrada".</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">TS-09</td>
+        <td rowspan="2">Actualizar Usuario a través de la API RESTful</td>
+        <td rowspan="2">Como desarrollador Quiero actualizar un usuario a través de la API Para que se puedan modificar los detalles de los usuarios existentes.</td>
+        <td>Scenario: Actualizar usuario con datos válidos<br>Given el endpoint "/api/v1/user/{id}" está disponible<br>When se envía una solicitud PUT con valores válidos para nombre, email y contraseña<br>Then se recibe un estado 200<br>And el recurso Usuario se actualiza con los nuevos valores en el cuerpo de la respuesta.</td>
+        <td rowspan="2"> EP-02</td>
+    </tr>
+    <tr>
+        <td>Scenario: Actualizar usuario con datos inválidos<br>Given el endpoint "/api/v1/user/{id}" está disponible<br>When se envía una solicitud PUT con valores inválidos o faltantes para nombre, email o contraseña<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">TS-10</td>
+        <td rowspan="2">Actualizar Vehículo a través de la API RESTful</td>
+        <td rowspan="2">Como desarrollador Quiero actualizar un vehículo a través de la API Para que se puedan modificar los detalles de los vehículos existentes.</td>
+        <td>Scenario: Actualizar vehículo con datos válidos<br>Given el endpoint "/api/v1/vehicle/{id}" está disponible<br>When se envía una solicitud PUT con valores válidos para placa, marca, modelo y usuarioId<br>Then se recibe un estado 200<br>And el recurso Vehículo se actualiza con los nuevos valores en el cuerpo de la respuesta.</td>
+        <td rowspan="2"> EP-02</td>
+    </tr>
+    <tr>
+        <td>Scenario: Actualizar vehículo con datos inválidos<br>Given el endpoint "/api/v1/vehicle/{id}" está disponible<br>When se envía una solicitud PUT con valores inválidos o faltantes para placa, marca, modelo o usuarioId<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">TS-11</td>
+        <td rowspan="2">Actualizar Solicitud a través de la API RESTful</td>
+        <td rowspan="2">Como desarrollador Quiero actualizar una solicitud a través de la API Para que se puedan modificar los detalles de las solicitudes existentes.</td>
+        <td>Scenario: Actualizar solicitud con datos válidos<br>Given el endpoint "/api/v1/request/{id}" está disponible<br>When se envía una solicitud PUT con valores válidos para idMecanico, repuesto y cantidad<br>Then se recibe un estado 200<br>And el recurso Solicitud se actualiza con los nuevos valores en el cuerpo de la respuesta.</td>
+        <td rowspan="2"> EP-02</td>
+    </tr>
+    <tr>
+        <td>Scenario: Actualizar solicitud con datos inválidos<br>Given el endpoint "/api/v1/request/{id}" está disponible<br>When se envía una solicitud PUT con valores inválidos o faltantes para idMecanico, repuesto o cantidad<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">TS-12</td>
+        <td rowspan="2">Actualizar Ítem de Inventario a través de la API RESTful</td>
+        <td rowspan="2">Como desarrollador Quiero actualizar un ítem de inventario a través de la API Para que se puedan modificar los detalles de los ítems de inventario existentes.</td>
+        <td>Scenario: Actualizar ítem de inventario con datos válidos<br>Given el endpoint "/api/v1/inventory/item/{id}" está disponible<br>When se envía una solicitud PUT con valores válidos para nombre y cantidad<br>Then se recibe un estado 200<br>And el recurso Ítem de Inventario se actualiza con los nuevos valores en el cuerpo de la respuesta.</td>
+        <td rowspan="2"> EP-02</td>
+    </tr>
+    <tr>
+        <td>Scenario: Actualizar ítem de inventario con datos inválidos<br>Given el endpoint "/api/v1/inventory/item/{id}" está disponible<br>When se envía una solicitud PUT con valores inválidos o faltantes para nombre o cantidad<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">TS-13</td>
+        <td rowspan="2">Actualizar Intervención a través de la API RESTful</td>
+        <td rowspan="2">Como desarrollador Quiero actualizar una intervención a través de la API Para que se puedan modificar los detalles de las intervenciones existentes.</td>
+        <td>Scenario: Actualizar intervención con datos válidos<br>Given el endpoint "/api/v1/intervention/{id}" está disponible<br>When se envía una solicitud PUT con valores válidos para vehículoId, mecánicoId y descripción<br>Then se recibe un estado 200<br>And el recurso Intervención se actualiza con los nuevos valores en el cuerpo de la respuesta.</td>
+        <td rowspan="2"> EP-02</td>
+    </tr>
+    <tr>
+        <td>Scenario: Actualizar intervención con datos inválidos<br>Given el endpoint "/api/v1/intervention/{id}" está disponible<br>When se envía una solicitud PUT con valores inválidos o faltantes para vehículoId, mecánicoId o descripción<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">TS-14</td>
+        <td rowspan="2">Actualizar Tarea dentro de una Intervención a través de la API RESTful</td>
+        <td rowspan="2">Como desarrollador Quiero actualizar una tarea dentro de una intervención a través de la API Para que se puedan modificar los detalles de las tareas asociadas a una intervención.</td>
+        <td>Scenario: Actualizar tarea con datos válidos<br>Given el endpoint "/api/v1/intervention/{interventionId}/task/{taskId}" está disponible<br>When se envía una solicitud PUT con valores válidos para mecánicoID y descripción<br>Then se recibe un estado 200<br>And el recurso Tarea se actualiza con los nuevos valores en el cuerpo de la respuesta.</td>
+        <td rowspan="2"> EP-02</td>
+    </tr>
+    <tr>
+        <td>Scenario: Actualizar tarea con datos inválidos<br>Given el endpoint "/api/v1/intervention/{interventionId}/task/{taskId}" está disponible<br>When se envía una solicitud PUT con valores inválidos o faltantes para mecánicoID o descripción<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">TS-15</td>
+        <td rowspan="2">Consultar Usuario a través de la API RESTful</td>
+        <td rowspan="2">Como desarrollador Quiero consultar los detalles de un usuario a través de la API Para que se pueda obtener la información del usuario registrado.</td>
+        <td>Scenario: Consultar usuario existente<br>Given el endpoint "/api/v1/user/{id}" está disponible<br>When se envía una solicitud GET con el ID de un usuario existente<br>Then se recibe un estado 200<br>And se incluye el recurso Usuario en el cuerpo de la respuesta con los valores registrados.</td>
+        <td rowspan="2"> EP-02</td>
+    </tr>
+    <tr>
+        <td>Scenario: Consultar usuario inexistente<br>Given el endpoint "/api/v1/user/{id}" está disponible<br>When se envía una solicitud GET con el ID de un usuario que no existe<br>Then se recibe un estado 404<br>And se incluye un mensaje de error en el cuerpo de la respuesta con el valor "El usuario no fue encontrado".</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">TS-16</td>
+        <td rowspan="2">Consultar Vehículo a través de la API RESTful</td>
+        <td rowspan="2">Como desarrollador Quiero consultar los detalles de un vehículo a través de la API Para que se pueda obtener la información del vehículo registrado.</td>
+        <td>Scenario: Consultar vehículo existente<br>Given el endpoint "/api/v1/vehicle/{id}" está disponible<br>When se envía una solicitud GET con el ID de un vehículo existente<br>Then se recibe un estado 200<br>And se incluye el recurso Vehículo en el cuerpo de la respuesta con los valores registrados.</td>
+        <td rowspan="2"> EP-02</td>
+    </tr>
+    <tr>
+        <td>Scenario: Consultar vehículo inexistente<br>Given el endpoint "/api/v1/vehicle/{id}" está disponible<br>When se envía una solicitud GET con el ID de un vehículo que no existe<br>Then se recibe un estado 404<br>And se incluye un mensaje de error en el cuerpo de la respuesta con el valor "El vehículo no fue encontrado".</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">TS-17</td>
+        <td rowspan="2">Consultar Solicitud a través de la API RESTful</td>
+        <td rowspan="2">Como desarrollador Quiero consultar los detalles de una solicitud a través de la API Para que se pueda obtener la información de la solicitud registrada.</td>
+        <td>Scenario: Consultar solicitud existente<br>Given el endpoint "/api/v1/request/{id}" está disponible<br>When se envía una solicitud GET con el ID de una solicitud existente<br>Then se recibe un estado 200<br>And se incluye el recurso Solicitud en el cuerpo de la respuesta con los valores registrados.</td>
+        <td rowspan="2"> EP-02</td>
+    </tr>
+    <tr>
+        <td>Scenario: Consultar solicitud inexistente<br>Given el endpoint "/api/v1/request/{id}" está disponible<br>When se envía una solicitud GET con el ID de una solicitud que no existe<br>Then se recibe un estado 404<br>And se incluye un mensaje de error en el cuerpo de la respuesta con el valor "La solicitud no fue encontrada"</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">TS-18</td>
+        <td rowspan="2">Consultar Ítem de Inventario a través de la API RESTful</td>
+        <td rowspan="2">Como desarrollador Quiero consultar los detalles de un ítem de inventario a través de la API Para que se pueda obtener la información del ítem de inventario registrado.</td>
+        <td>Scenario: Consultar ítem de inventario existente<br>Given el endpoint "/api/v1/inventory/item/{id}" está disponible<br>When se envía una solicitud GET con el ID de un ítem de inventario existente<br>Then se recibe un estado 200<br>And se incluye el recurso Ítem de Inventario en el cuerpo de la respuesta con los valores registrados.</td>
+        <td rowspan="2"> EP-02</td>
+    </tr>
+    <tr>
+        <td>Scenario: Consultar ítem de inventario inexistente<br>Given el endpoint "/api/v1/inventory/item/{id}" está disponible<br>When se envía una solicitud GET con el ID de un ítem de inventario que no existe<br>Then se recibe un estado 404<br>And se incluye un mensaje de error en el cuerpo de la respuesta con el valor "El ítem de inventario no fue encontrado".</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">TS-19</td>
+        <td rowspan="2">Consultar Intervención a través de la API RESTful</td>
+        <td rowspan="2">Como desarrollador Quiero consultar los detalles de una intervención a través de la API Para que se pueda obtener la información de la intervención registrada.</td>
+        <td>Scenario: Consultar intervención existente<br>Given el endpoint "/api/v1/intervention/{id}" está disponible<br>When se envía una solicitud GET con el ID de una intervención existente<br>Then se recibe un estado 200<br>And se incluye el recurso Intervención en el cuerpo de la respuesta con los valores registrados.</td>
+        <td rowspan="2"> EP-02</td>
+    </tr>
+    <tr>
+        <td>Scenario: Consultar intervención inexistente<br>Given el endpoint "/api/v1/intervention/{id}" está disponible<br>When se envía una solicitud GET con el ID de una intervención que no existe<br>Then se recibe un estado 404<br>And se incluye un mensaje de error en el cuerpo de la respuesta con el valor "La intervención no fue encontrada".</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">TS-20</td>
+        <td rowspan="2">Consultar Tarea dentro de una Intervención a través de la API RESTful</td>
+        <td rowspan="2">Como desarrollador Quiero consultar los detalles de una tarea dentro de una intervención a través de la API Para que se pueda obtener la información de la tarea registrada.</td>
+        <td>Scenario: Consultar tarea existente<br>Given el endpoint "/api/v1/intervention/{interventionId}/task/{taskId}" está disponible<br>When se envía una solicitud GET con el ID de una tarea existente dentro de una intervención<br>Then se recibe un estado 200<br>And se incluye el recurso Tarea en el cuerpo de la respuesta con los valores registrados.</td>
+        <td rowspan="2"> EP-02</td>
+    </tr>
+    <tr>
+        <td>Scenario: Consultar tarea inexistente<br>Given el endpoint "/api/v1/intervention/{interventionId}/task/{taskId}" está disponible<br>When se envía una solicitud GET con el ID de una tarea que no existe dentro de una intervención<br>Then se recibe un estado 404<br>And se incluye un mensaje de error en el cuerpo de la respuesta con el valor "La tarea no fue encontrada".</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="1">TS-21</td>
+        <td rowspan="1">Crear Notificación a través de la API RESTful</td>
+        <td rowspan="1">Como desarrollador Quiero crear una notificación a través de la API Para que se pueda generar una notificación asociada a un usuario.</td>
+        <td>Scenario: Crear notificación con datos válidos<br>Given el endpoint "/api/v1/user/{userId}/notification" está disponible<br>When se envía una solicitud POST con un cuerpo que incluye mensaje<br>Then se recibe un estado 201<br>And el recurso Notificación se crea con los valores proporcionados en el cuerpo de la respuesta.</td>
+        <td rowspan="1"> EP-02</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">TS-22</td>
+        <td rowspan="2">Consultar Notificación a través de la API RESTful</td>
+        <td rowspan="2">Como desarrollador Quiero consultar los detalles de una notificación a través de la API Para que se pueda obtener la información de una notificación específica asociada a un usuario.</td>
+        <td>Scenario: Consultar notificación existente<br>Given el endpoint "/api/v1/user/{userId}/notification/{notificationId}" está disponible<br>When se envía una solicitud GET con el ID de una notificación existente dentro de un usuario<br>Then se recibe un estado 200<br>And se incluye el recurso Notificación en el cuerpo de la respuesta con los valores registrados.</td>
+        <td rowspan="2"> EP-02</td>
+    </tr>
+    <tr>
+        <td>Scenario: Consultar notificación inexistente<br>Given el endpoint "/api/v1/user/{userId}/notification/{notificationId}" está disponible<br>When se envía una solicitud GET con el ID de una notificación que no existe dentro de un usuario<br>Then se recibe un estado 404<br>And se incluye un mensaje de error en el cuerpo de la respuesta con el valor "La notificación no fue encontrada".</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="5">SWR-01</td>
+        <td rowspan="5">Hero Section</td>
+        <td rowspan="5">Como visitante de landing page quiero ver una presentación clara y atractiva en la hero section que hacen mis clientes para captar rápidamente la propuesta de valor del sitio y decidir si el producto o servicio es relevante para mi taller</td>
+        <td>Visibilidad: La hero section debe ocupar la parte superior visible de la página sin necesidad de hacer scroll.</td>
+        <td rowspan="5">EP-01</td>
+    </tr>
+    <tr>
+        <td>Propuesta de Valor: Debe haber un mensaje claro y conciso que explique la propuesta de valor del producto.</td>
+    </tr>
+    <tr>
+        <td>Diseño Atractivo: Debe incluir una imagen que atraiga al usuario</td>
+    </tr>
+    <tr>
+        <td>Llamada a la Acción: Debe haber al menos un botón de llamada a la acción visible que dirija a los usuarios a la sección Contáctanos.</td>
+    </tr>
+    <tr>
+        <td>Responsividad: La hero section debe ser completamente funcional y visualmente atractiva en dispositivos móviles y de escritorio.</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="3">SWR-02</td>
+        <td rowspan="3">About the Product</td>
+        <td rowspan="3">Como visitante de landing page quiero leer una descripción detallada del producto para entender cómo el producto puede resolver mis problemas específicos y mejorar la gestión de mi taller</td>
+        <td>Descripción Clara: La sección debe contener una descripción precisa del producto</td>
+        <td rowspan="3">EP-01</td>
+    </tr>
+    <tr>
+        <td>Beneficios Relevantes: Debe explicar cómo cada característica del producto se traduce en beneficios</td>
+    </tr>
+    <tr>
+        <td>Contenido Visual: La sección debe incluir un vídeo que dé a conocer las funcionalidades del producto</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="4">SWR-03</td>
+        <td rowspan="4">Beneficios</td>
+        <td rowspan="4">Como visitante de landing page quiero ver una lista de beneficios potenciales para evaluar de manera rápida cómo el producto puede contribuir a la eficiencia y éxito de mi taller</td>
+        <td>Lista de Beneficios: La sección debe listar claramente los principales beneficios del producto de manera ordenada y destacada.</td>
+        <td rowspan="4">EP-01</td>
+    </tr>
+    <tr>
+        <td>Claridad: Cada beneficio debe estar descrito de forma clara y breve, utilizando viñetas o un formato de lista para facilitar la lectura.</td>
+    </tr>
+    <tr>
+        <td>Relevancia: Los beneficios listados deben ser relevantes para los problemas comunes que enfrenta un dueño de taller.</td>
+    </tr>
+    <tr>
+        <td>Visualización: Debe haber elementos visuales, como íconos o imágenes, que acompañen cada beneficio para facilitar la comprensión.</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="3">SWR-04</td>
+        <td rowspan="3">Testimonios</td>
+        <td rowspan="3">Como visitante de landing page quiero leer testimonios de otros usuarios que han utilizado la aplicación web para evaluar de manera rápida cómo el producto puede contribuir a la eficiencia y éxito de mi taller</td>
+        <td>Testimonios: La sección debe mostrar testimonios genuinos de clientes, preferiblemente con nombres y detalles del negocio.</td>
+        <td rowspan="3">EP-01</td>
+    </tr>
+    <tr>
+        <td>Formato Atractivo: Los testimonios deben estar presentados de manera clara y visualmente atractiva, utilizando citas o bloques de texto destacados.</td>
+    </tr>
+    <tr>
+        <td>Autenticidad: Deben incluir fotos o logotipos de los clientes, si es posible, para aumentar la credibilidad.</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="3">SWR-05</td>
+        <td rowspan="3">About Us</td>
+        <td rowspan="3">Como visitante de landing page quiero conocer más sobre la empresa en la sección "About Us" para entender mejor la experiencia y credibilidad de la empresa detrás del producto antes de considerar una compra.</td>
+        <td>Historia de la Empresa: La sección debe proporcionar una descripción clara de la historia y misión de la empresa.</td>
+        <td rowspan="3">EP-01</td>
+    </tr>
+    <tr>
+        <td>Equipo: Debe incluir información sobre el equipo clave de la empresa, como biografías cortas y fotos.</td>
+    </tr>
+    <tr>
+        <td>Diseño: La información debe estar presentada de manera visualmente atractiva y fácil de leer.</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="5">SWR-06</td>
+        <td rowspan="5">Planes y precios</td>
+        <td rowspan="5">Como visitante de landing page quiero ver los planes y precios disponibles en la sección "Planes y precios" para comparar las opciones y decidir cuál se ajusta mejor a mi presupuesto y necesidades.</td>
+        <td>Lista de Planes: La sección debe mostrar claramente todos los planes disponibles con sus respectivos precios.</td>
+        <td rowspan="5">EP-01</td>
+    </tr>
+    <tr>
+        <td>Comparación de Características: Debe haber una comparación clara de las características incluidas en cada plan.</td>
+    </tr>
+    <tr>
+        <td>Transparencia: Los precios deben ser claramente visibles y sin cargos ocultos.</td>
+    </tr>
+    <tr>
+        <td>Llamada a la Acción: Debe haber botones o enlaces que permitan a los usuarios seleccionar un plan o contactar para obtener más información.</td>
+    </tr>
+    <tr>
+        <td>Diseño: La sección debe estar diseñada de manera que facilite la comparación y toma de decisiones, usando tablas o listas claras.</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="5">SWR-07</td>
+        <td rowspan="5">Formulario de contacto</td>
+        <td rowspan="5">Como visitante de landing page quiero encontrar un formulario de contacto fácil de usar para poder hacer preguntas específicas sobre el producto y recibir asistencia antes de tomar una decisión de compra.</td>
+        <td>Accesibilidad: El formulario debe ser fácilmente accesible desde la página de contacto.</td>
+        <td rowspan="5">EP-01</td>
+    </tr>
+    <tr>
+        <td>Campos Relevantes: Debe incluir campos para nombre, correo electrónico, mensaje y cualquier otra información necesaria para una consulta efectiva.</td>
+    </tr>
+    <tr>
+        <td>Validación: Debe haber validación en los campos para asegurar que la información ingresada es correcta (por ejemplo, validación de formato de correo electrónico).</td>
+    </tr>
+    <tr>
+        <td>Confirmación: Debe haber un mensaje de confirmación que indique al usuario que su mensaje ha sido enviado correctamente.</td>
+    </tr>
+    <tr>
+        <td>Estética: El formulario debe estar diseñado de manera limpia y fácil de usar, tanto en dispositivos móviles como de escritorio.</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="4">SWR-08</td>
+        <td rowspan="4">Footer</td>
+        <td rowspan="4">Como visitante de landing page quiero acceder a enlaces importantes en el footer para encontrar rápidamente información adicional, como políticas de privacidad, términos de servicio y detalles de contacto de la empresa</td>
+        <td>Enlaces Importantes: El footer debe incluir enlaces a políticas de privacidad, términos de servicio y detalles de contacto.</td>
+        <td rowspan="4">EP-01</td>
+    </tr>
+    <tr>
+        <td>Información de Contacto: Debe haber información de contacto accesible, como dirección de correo electrónico y número de teléfono.</td>
+    </tr>
+    <tr>
+        <td>Redes Sociales: Debe haber enlaces a las redes sociales de la empresa, si están disponibles.</td>
+    </tr>
+    <tr>
+        <td>Diseño Consistente: El footer debe estar diseñado de manera que sea coherente con el resto del sitio web y visualmente accesible.</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="4">SWR-09</td>
+        <td rowspan="4">Internacionalización</td>
+        <td rowspan="4">Como visitante de landing page quiero que la landing page sea accesible en español e inglés para que pueda acceder a la información en el idioma que prefiera y proporcionar una experiencia adecuada para usuarios de diferentes regiones</td>
+        <td>Soporte para Idiomas: La landing page debe ofrecer versiones en español e inglés.</td>
+        <td rowspan="4">EP-09</td>
+    </tr>
+    <tr>
+        <td>Selector de Idioma: Debe haber un selector de idioma visible y accesible que permita a los usuarios cambiar entre español e inglés.</td>
+    </tr>
+    <tr>
+        <td>Traducción Completa: Todo el contenido de la página, incluidos textos, botones, y mensajes, debe estar traducido correctamente y ser coherente en ambos idiomas.</td>
+    </tr>
+    <tr>
+        <td>Manejo de Enlaces: Los enlaces y botones de navegación deben redirigir a las versiones correspondientes del sitio en el idioma seleccionado.</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="6">EP-01</td>
+        <td rowspan="6">Landing Page</td>
+        <td rowspan="6">Como visitante de la landing page quiero tener acceso a toda la información relevante sobre el producto, precios, testimonios y medios de contacto para evaluar si el producto es adecuado para mi taller y obtener asistencia fácilmente</td>
+        <td>Scenario: Visualización de la presentación y propuesta de valor<br>Given un visitante accede a la landing page<br>When llega a la sección de "Hero" y "About the Product"<br>Then debe poder visualizar una presentación clara y atractiva del producto y leer una descripción detallada que explique cómo el producto puede mejorar la gestión de su taller</td>
+        <td rowspan="6">SWR-01<br>SWR-02<br>SWR-03<br>SWR-04<br>SWR-05<br>SWR-06<br>SWR-07<br>SWR-08<br>SWR-09</td>
+    </tr>
+    <tr>
+        <td>Scenario: Visualización de beneficios y testimonios<br>Given un visitante accede a la landing page<br>When navega a la sección de beneficios y testimonios<br>Then debe poder ver una lista de beneficios potenciales y leer testimonios de otros usuarios para evaluar cómo el producto puede contribuir a la eficiencia de su taller</td>
+    </tr>
+    <tr>
+        <td>Scenario: Visualización de planes, precios y detalles de la empresa<br>Given un visitante accede a la landing page<br>When llega a la sección de "Planes y precios" y "About Us"<br>Then debe poder comparar los planes y precios disponibles, y conocer la experiencia y credibilidad de la empresa detrás del producto</td>
+    </tr>
+    <tr>
+        <td>Scenario: Uso del formulario de contacto<br>Given un visitante necesita hacer preguntas sobre el producto<br>When navega a la sección de contacto<br>Then debe poder encontrar y utilizar un formulario de contacto fácil de usar para recibir asistencia antes de tomar una decisión de compra</td>
+    </tr>
+    <tr>
+        <td>Scenario: Acceso a enlaces importantes en el footer<br>Given un visitante está interesado en más detalles legales y de contacto<br>When llega al footer de la página<br>Then debe poder acceder a enlaces importantes como políticas de privacidad, términos de servicio, y detalles de contacto de la empresa</td>
+    </tr>
+    <tr>
+        <td>Scenario: Acceso a la landing page en múltiples idiomas<br>Given un visitante de una región de habla hispana o inglesa accede a la landing page<br>When cambia el idioma entre español e inglés<br>Then debe poder acceder a toda la información de la página en su idioma preferido</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="7">EP-02</td>
+        <td rowspan="7">RESTful API</td>
+        <td rowspan="7">Como equipo de desarrollo quiero proporcionar una API RESTful completa para gestionar usuarios, vehículos, intervenciones, tareas, inventario y notificaciones para que los desarrolladores puedan interactuar de manera eficiente con el sistema de gestión del taller</td>
+        <td>Scenario: Gestión de usuarios<br>Given un desarrollador desea gestionar usuarios en el sistema<br>When utiliza los endpoints de la API RESTful<br>Then debe poder crear, consultar, actualizar y eliminar usuarios</td>
+        <td rowspan="7">TS-01<br>TS-02<br>TS-03<br>TS-04<br>TS-05<br>TS-06<br>TS-07<br>TS-08<br>TS-09<br>TS-10<br>TS-11<br>TS-12<br>TS-13<br>TS-14<br>TS-15<br>TS-16<br>TS-17<br>TS-18<br>TS-19<br>TS-20<br>TS-21<br>TS-22</td>
+    </tr>
+    <tr>
+        <td>Scenario: Gestión de vehículos<br>Given un desarrollador desea gestionar vehículos en el sistema<br>When utiliza los endpoints de la API RESTful<br>Then debe poder crear, consultar, actualizar y eliminar vehículos</td>
+    </tr>
+    <tr>
+        <td>Scenario: Gestión de intervenciones<br>Given un desarrollador desea gestionar intervenciones en el sistema<br>When utiliza los endpoints de la API RESTful<br>Then debe poder crear, consultar, actualizar y eliminar intervenciones</td>
+    </tr>
+    <tr>
+        <td>Scenario: Gestión de tareas dentro de intervenciones<br>Given un desarrollador desea gestionar tareas dentro de una intervención<br>When utiliza los endpoints de la API RESTful<br>Then debe poder crear, consultar, actualizar y eliminar tareas asociadas a una intervención</td>
+    </tr>
+    <tr>
+        <td>Scenario: Gestión de inventario<br>Given un desarrollador desea gestionar el inventario del taller<br>When utiliza los endpoints de la API RESTful<br>Then debe poder crear, consultar, actualizar y eliminar ítems de inventario</td>
+    </tr>
+    <tr>
+        <td>Scenario: Gestión de solicitudes de repuestos<br>Given un desarrollador desea gestionar solicitudes de repuestos en el sistema<br>When utiliza los endpoints de la API RESTful<br>Then debe poder crear, consultar y actualizar solicitudes de repuestos</td>
+    </tr>
+    <tr>
+        <td>Scenario: Gestión de notificaciones<br>Given un desarrollador desea gestionar notificaciones en el sistema<br>When utiliza los endpoints de la API RESTful<br>Then debe poder crear, consultar y actualizar notificaciones</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="6">EP-03</td>
+        <td rowspan="6">Control de intervenciones</td>
+        <td rowspan="6">Como dueño de taller o mecánico quiero gestionar y controlar las intervenciones, tareas y vehículos de manera eficiente para asegurarme de que las reparaciones se realicen correctamente y que el taller funcione sin problemas</td>
+        <td>Scenario: Visualización de listas de clientes, empleados e intervenciones<br>Given el dueño de taller desea gestionar su taller<br>When accede a la interfaz de clientes, empleados o intervenciones<br>Then debe poder visualizar las listas con la información básica de cada uno para saber quiénes están registrados y qué intervenciones están en curso</td>
+        <td rowspan="6">US-04<br>US-06<br>US-08<br>US-09<br>US-10<br>US-15<br>US-16<br>US-17<br>US-18<br>US-19<br>US-20</td>
+    </tr>
+    <tr>
+        <td>Scenario: Gestión de intervenciones<br>Given el dueño de taller desea organizar las reparaciones en el taller<br>When accede a la interfaz de intervenciones<br>Then debe poder crear, modificar y asignar intervenciones a los mecánicos para mantener el control sobre el trabajo en curso</td>
+    </tr>
+    <tr>
+        <td>Scenario: Detalles de intervención y registro de diagnóstico<br>Given un mecánico o dueño de taller desea ver o actualizar una intervención<br>When accede a los detalles de una intervención<br>Then debe poder visualizar el estado actual, registrar diagnósticos, actualizar tareas, y modificar el progreso de la intervención</td>
+    </tr>
+    <tr>
+        <td>Scenario: Visualización y gestión de tareas por mecánico<br>Given un mecánico tiene tareas asignadas en el taller<br>When accede a su lista de "Mis tareas"<br>Then debe poder visualizar sus tareas pendientes, marcar tareas como completadas, y actualizar el estado de las mismas</td>
+    </tr>
+    <tr>
+        <td>Scenario: Supervisión de la intervención<br>Given un mecánico está finalizando una intervención<br>When accede a la interfaz de supervisión de intervención<br>Then debe poder verificar que todas las tareas estén completadas y marcar la intervención como finalizada</td>
+    </tr>
+    <tr>
+        <td>Scenario: Registro y asociación de vehículos<br>Given un dueño de taller desea gestionar los vehículos asociados al taller<br>When accede a la interfaz de vehículos<br>Then debe poder registrar nuevos vehículos y asociarlos a futuras intervenciones<br>And los mecánicos no deben tener acceso para registrar o asociar vehículos</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="2">EP-04</td>
+        <td rowspan="2">Gestión de inventarios y repuestos</td>
+        <td rowspan="2">Como dueño de taller quiero gestionar eficientemente las existencias de inventario y las solicitudes de repuestos para asegurar que siempre haya disponibilidad de materiales necesarios para las intervenciones y poder manejar las solicitudes realizadas por los mecánicos</td>
+        <td>Scenario: Manejo de existencias de inventario<br>Given el dueño de taller necesita mantener un inventario adecuado<br>When accede a la interfaz de inventario<br>Then debe poder gestionar las existencias de piezas y materiales, asegurando que la disponibilidad esté siempre actualizada y sea suficiente para las intervenciones</td>
+        <td rowspan="2">US-11<br>US-12</td>
+    </tr>
+    <tr>
+        <td>Scenario: Creación y manejo de solicitudes de inventario<br>Given los mecánicos realizan solicitudes de inventario<br>When el dueño de taller accede a las solicitudes<br>Then debe poder crear, revisar y manejar esas solicitudes para asegurar que los materiales y repuestos necesarios para las intervenciones sean aprobados y gestionados de manera efectiva</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="8">EP-05</td>
+        <td rowspan="8">Registro y trazabilidad de información</td>
+        <td rowspan="8">Como usuario de la aplicación (dueño de taller o cliente) quiero gestionar y acceder a información detallada sobre notificaciones, métricas, vehículos, intervenciones, y datos de clientes y empleados para mantenerme informado, tomar decisiones basadas en datos y asegurar una gestión eficiente de todas las operaciones</td>
+        <td>Scenario: Recepción de notificaciones<br>Given un usuario está utilizando la aplicación<br>When se produce un evento importante<br>Then el usuario debe recibir notificaciones para estar al tanto y llevar un registro de estos eventos importantes</td>
+        <td rowspan="8">US-05<br>US-07<br>US-13<br>US-14<br>US-21<br>US-22<br>US-23<br>US-24</td>
+    </tr>
+    <tr>
+        <td>Scenario: Acceso a métricas de rendimiento<br>Given el dueño de taller desea evaluar el rendimiento de su negocio<br>When accede a las métricas<br>Then debe poder consultar las métricas de rendimiento del negocio y las características de los clientes para tomar decisiones informadas y mejorar la eficiencia</td>
+    </tr>
+    <tr>
+        <td>Scenario: Registro y monitoreo de vehículos<br>Given un usuario necesita registrar un vehículo<br>When accede a la interfaz de vehículos<br>Then debe poder registrar y asociar vehículos para monitorear su información y estado mediante la aplicación</td>
+    </tr>
+    <tr>
+        <td>Scenario: Acceso a información IoT del vehículo<br>Given un usuario tiene un vehículo con dispositivo IoT<br>When accede a la información del dispositivo<br>Then debe poder ver el estado actual del vehículo más rápidamente para tomar decisiones informadas</td>
+    </tr>
+    <tr>
+        <td>Scenario: Agendar citas de intervención<br>Given un usuario desea programar una intervención<br>When accede a la interfaz de citas<br>Then debe poder agendar citas de intervención para optimizar su tiempo</td>
+    </tr>
+    <tr>
+        <td>Scenario: Manejo de intervenciones<br>Given un usuario necesita revisar el historial de intervenciones<br>When accede al registro de intervenciones<br>Then debe poder consultar la información sobre intervenciones previas para tomar decisiones informadas</td>
+    </tr>
+    <tr>
+        <td>Scenario: Manejo de información de clientes<br>Given el dueño de taller necesita actualizar información de clientes<br>When accede a la interfaz de detalles de clientes<br>Then debe poder gestionar y mantener actualizados los datos de sus clientes para aprovechar la información disponible</td>
+    </tr>
+    <tr>
+        <td>Scenario: Manejo de información de empleados<br>Given el dueño de taller necesita gestionar la información de empleados<br>When accede a la interfaz de detalles de empleados<br>Then debe poder actualizar y gestionar las cuentas de sus empleados para asegurar una administración eficiente</td>
+    </tr>
+    <!---->
+    <tr>
+        <th scope="row" rowspan="3">EP-06</td>
+        <td rowspan="3">Cuentas y gestión de credenciales</td>
+        <td rowspan="3">Como dueño de taller o usuario de la aplicación quiero registrar y gestionar cuentas de usuario para acceder a las funcionalidades de la aplicación y administrar la información de mi taller y equipo de trabajo para comenzar a utilizar la aplicación de manera efectiva y gestionar el taller de manera eficiente</td>
+        <td>Scenario: Registro de cuenta de usuario<br>Given un dueño de taller necesita usar la aplicación<br>When accede al formulario de registro<br>Then debe poder registrar una cuenta de usuario para empezar a gestionar su taller</td>
+        <td rowspan="3">US-01<br>US-02<br>US-03</td>
+    </tr>
+    <tr>
+        <td>Scenario: Acceso a la cuenta<br>Given un usuario tiene una cuenta en la aplicación<br>When accede a la pantalla de login<br>Then debe poder iniciar sesión para utilizar las funcionalidades de la aplicación</td>
+    </tr>
+    <tr>
+        <td>Scenario: Creación de cuentas para clientes y personal<br>Given el dueño de taller necesita gestionar la información de su taller<br>When registra clientes y personal en el sistema<br>Then debe poder crear cuentas para ellos para gestionar las intervenciones y tareas en el taller</td>
+    </tr>
+</table>
+
 ## 3.3. Impact Mapping
 
+Es esta sección, elaboramos el impact mapping. Para ello, refinamos nuestras hipótesis desarrolladas durante el proceso Lean UX mediante SMART, reemplazamos los segmentos de clientes con los User Personas elaborados en el capítulo II y conectamos las funcionalidades que conducirían a estos a sus objetivos con los deliverables especificados en el Product Backlog.
+
+<img src="img/3/3/Impact_Mapping.png">
+
 ## 3.4. Product Backlog
+
+Para elaborar el Product backlog se priorizo por el método MoSCoW y se estimo a través de story points con la escala de Fibonacci.
+
+| # Orden | User Story ID | Título | Descripción | Story points (1/2/3/5/8) |
+| - | -| - | - | - |
+| 1 | SWR-01 | Hero Section | Como visitante de landing page quiero ver una presentación clara y atractiva en la hero section que hacen mis clientes para captar rápidamente la propuesta de valor del sitio y decidir si el producto o servicio es relevante para mi taller | 1 |
+| 2 | SWR-03 | Beneficios | Como visitante de landing page quiero ver una lista de beneficios potenciales para evaluar de manera rápida cómo el producto puede contribuir a la eficiencia y éxito de mi taller | 2 |
+| 3 | SWR-07 | Formulario de contacto | Como visitante de landing page quiero encontrar un formulario de contacto fácil de usar para poder hacer preguntas específicas sobre el producto y recibir asistencia antes de tomar una decisión de compra. | 2 |
+| 4 | SWR-06 | Planes y precios | Como visitante de landing page quiero ver los planes y precios disponibles en la sección "Planes y precios" para comparar las opciones y decidir cuál se ajusta mejor a mi presupuesto y necesidades. | 2 |
+| 5 | SWR-02 | About the Product | Como visitante de landing page quiero leer una descripción detallada del producto para entender cómo el producto puede resolver mis problemas específicos y mejorar la gestión de mi taller | 1 |
+| 6 | SWR-04 | Testimonios | Como visitante de landing page quiero leer testimonios de otros usuarios que han utilizado la aplicación web para evaluar de manera rápida cómo el producto puede contribuir a la eficiencia y éxito de mi taller | 3 |
+| 7 | SWR-09 | Internacionalización | Como visitante de landing page quiero que la landing page sea accesible en español e inglés para que pueda acceder a la información en el idioma que prefiera y proporcionar una experiencia adecuada para usuarios de diferentes regiones | 2 |
+| 8 | SWR-05 | About Us | Como dueño de taller visitante de landing page quiero conocer más sobre la empresa en la sección "About Us" para entender mejor la experiencia y credibilidad de la empresa detrás del producto antes de considerar una compra. | 2 |
+| 9 | SWR-08 | Footer | Como visitante de landing page quiero acceder a enlaces importantes en el footer para encontrar rápidamente información adicional, como políticas de privacidad, términos de servicio y detalles de contacto de la empresa | 3 |
+| 10 | TS-01 | Crear Usuario a través de la API RESTful | Como desarrollador quiero agregar un usuario a través de la API para que el usuario pueda registrarse y acceder al sistema del taller | 3 |
+| 11 | TS-15 | Consultar Usuario a través de la API RESTful | Como desarrollador quiero consultar los detalles de un usuario a través de la API para que se pueda obtener la información del usuario registrado. | 2 |
+| 12 | TS-09 | Actualizar Usuario a través de la API RESTful | Como desarrollador quiero actualizar un usuario a través de la API para que se puedan modificar los detalles de los usuarios existentes | 3 |
+| 13 | US-03 | Creación de cuentas de taller | Como dueño de taller quiero registrar a mis clientes y personal en el sistema para gestionar la información de las intervenciones y tareas en el taller | 3 |
+| 14 | US-06 | Clientes | Como dueño de taller quiero visualizar mi lista de clientes para saber quiénes son mis clientes | 3 |
+| 15 | US-04 | Personal | Como dueño de taller quiero visualizar mi lista de empleados saber qué empleados están registrados en el sistema | 2 |
+| 16 | TS-02 | Crear Vehículo a través de la API RESTful | Como desarrollador quiero agregar un vehículo a través de la API para que se pueda gestionar el vehículo de cada usuario. | 3 |
+| 17 | TS-16 | Consultar Vehículo a través de la API RESTful | Como desarrollador quiero consultar los detalles de un vehículo a través de la API para que se pueda obtener la información del vehículo registrado | 2 |
+| 18 | TS-10 | Actualizar Vehículo a través de la API RESTful | Como desarrollador quiero actualizar un vehículo a través de la API para que se puedan modificar los detalles de los vehículos existentes. | 3 |
+| 19 | US-21 | Registro de vehículos | Como usuario quiero poder registrar vehículos para poder asociar y monitorear su información mediante la aplicación | 2 |
+| 20 | TS-05 | Crear Intervención a través de la API RESTful | Como desarrollador quiero agregar una intervención a través de la API para que se registren las reparaciones y el mantenimiento realizados a un vehículo. | 3 |
+| 21 | TS-19 | Consultar Intervención a través de la API RESTful| Como desarrollador quiero consultar los detalles de una intervención a través de la API para que se pueda obtener la información de la intervención registrada. | 2 |
+| 22 | TS-13 | Actualizar Intervención a través de la API RESTful | Como desarrollador quiero actualizar una intervención a través de la API para que se puedan modificar los detalles de las intervenciones existentes | 3 |
+| 23 | TS-07 | Eliminar Intervención a través de la API RESTful | Como desarrollador quiero eliminar una intervención a través de la API para que se pueda eliminar una intervención del sistema | 3 |
+| 24 | US-09 | Creación de intervenciones | Como dueño de taller quiero poder gestionar las intervenciones de mi taller para organizar eficientemente a mis mecánicos | 5 |
+| 25 | TS-06 | Crear Tarea dentro de una Intervención a través de la API RESTful | Como desarrollador quiero agregar una tarea dentro de una intervención a través de la API para que las tareas asociadas a las intervenciones sean gestionadas correctamente. | 3 |
+| 26 | TS-20 | Consultar Tarea dentro de una Intervención a través de la API RESTful | Como desarrollador quiero consultar los detalles de una tarea dentro de una intervención a través de la API para que se pueda obtener la información de la tarea registrada. | 2 |
+| 27 | TS-08 | Eliminar Tarea a través de la API RESTful | Como desarrollador quiero eliminar una tarea a través de la API para que se pueda eliminar una tarea de una intervención del sistema | 3 |
+| 28 | TS-14 | Actualizar Tarea dentro de una Intervención a través de la API RESTful| Como desarrollador quiero actualizar una tarea dentro de una intervención a través de la API para que se puedan modificar los detalles de las tareas asociadas a una intervención. | 2 |
+| 29 | US-15 | Mis tareas (lider) | Como mecánico quiero poder visualizar mis tareas pendientes para poder hacer seguimiento del trabajo que queda por hacer en mis vehículos.| 3 |
+| 30 | US-16 | Mis tareas (asistente) | Como mecánico quiero poder visualizar mis tareas pendientes para poder hacer seguimiento del trabajo que queda por hacer en mis vehículos. | 2 |
+| 31 | US-17 | Información de intervención | Como mecánico quiero consultar información relevante de la intervención para realizar un mejor diagnóstico | 1 |
+| 32 | US-18 | Diagnóstico de intervención | Como mecánico quiero poder modelar el diagnóstico de intervención para registrar la secuencia de tareas que se deben realizar para terminar el trabajo | 3 |
+| 33 | US-19 | Ejecución de intervención | Como mecánico quiero controlar la ejecución de las tareas de una intervención para  controlar y conocer el desarrollo de las tareas correspondientes | 5 |
+| 34 | US-20 | Supervisión de intervención | Como mecánico quiero poder verificar el cumplimiento de todas las tareas de intervención para poder registrar el trabajo como terminado | 2 |
+| 35 | US-08 | Intervenciones | Como dueño de taller quiero visualizar las intervenciones para controlar los servicios realizados y pendientes en el taller | 2 |
+| 36 | US-10 | Detalles de intervención | Como dueño de taller quiero visualizar los detalles asociados a una intervención para tener un control claro y detallado del trabajo realizado y gestionar los cambios de los clientes | 5 |
+| 37 | US-07 | Detalles de clientes | Como dueño de taller quiero manejar información de mis clientes para mantener sus datos actualizados y aprovecharlos | 2 |
+| 38 | US-05 | Detalles de empleado | Como dueño de taller quiero manejar la información de mis empleados para gestionar sus cuentas | 2 |
+| 39 | US-22 | Registro de intervenciones | Como usuario quiero acceder al registro de intervenciones de un vehículo para utilizar la información para tomar mejores decisiones | 2 |
+| 40 | TS-04 | Crear Ítem de Inventario a través de la API RESTful | Como desarrollador quiero agregar un ítem de inventario a través de la API para que se tenga un control adecuado del inventario en el taller. | 3 |
+| 41 | TS-18 | Consultar Ítem de Inventario a través de la API RESTful | Como desarrollador quiero consultar los detalles de un ítem de inventario a través de la API para que se pueda obtener la información del ítem de inventario registrado. | 2 |
+| 42 | TS-12 | Actualizar Ítem de Inventario a través de la API RESTful | Como desarrollador Quiero actualizar un ítem de inventario a través de la API Para que se puedan modificar los detalles de los ítems de inventario existentes. | 3 |
+| 43 | US-11 | Existencias de inventario | Como dueño de taller quiero poder manejar existencias en mi inventario para asegurar que siempre haya disponibilidad de piezas y materiales necesarios para las intervenciones eficientemente | 2 |
+| 44 | TS-03 | Crear Solicitud a través de la API RESTful | Como desarrollador quiero agregar una solicitud a través de la API para que se pueda gestionar la necesidad de piezas y repuestos en el taller. | 3 |
+| 45 | TS-17 | Consultar Solicitud a través de la API RESTful | Como desarrollador quiero consultar los detalles de una solicitud a través de la API para que se pueda obtener la información de la solicitud registrada. | 2 |
+| 46 | TS-11 | Actualizar Solicitud a través de la API RESTful | Como desarrollador quiero actualizar una solicitud a través de la API para que se puedan modificar los detalles de las solicitudes existentes. | 3 |
+| 47 | US-12 | Solicitudes de inventario | Como dueño de taller quiero crear y manejar solicitudes de inventario realizadas por los mecánicos para conocer los materiales y repuestos necesarios para las intervenciones pendientes | 2 |
+| 48 | US-01 | Formulario de registro | Como dueño de taller quiero registrar una cuenta de usuario para empezar a utilizar la aplicación para gestionar mi taller | 2 |
+| 49 | US-02 | Pantalla de login | Como usuario quiero acceder a mi cuenta para usar las funcionalidades de la aplicación | 3 |
+| 50 | US-23 | Información IoT de vehículo | Como usuario quiero acceder a la información generada por el dispositivo IoT del vehículo para conocer el estado actual del vehículo más rápidamente | 3 |
+| 51 | US-24 | Agendar cita de intervención | Como usuario quiero agendar citas de intervención para ahorrarme tiempo | 2 |
+| 52 | TS-21 | Crear Notificación a través de la API RESTful | Como desarrollador quiero crear una notificación a través de la API para que se pueda generar una notificación asociada a un usuario. | 3 |
+| 53 | TS-22 | Consultar Notificación a través de la API RESTful | Como desarrollador quiero consultar los detalles de una notificación a través de la API para que se pueda obtener la información de una notificación específica asociada a un usuario. | 2 |
+| 54 | US-14 | Notificaciones | Como usuario quiero recibir notificaciones para estar al tanto y llevar un registro de eventos importantes de la aplicación | 5 |
+| 55 | US-13 | Métricas | Como dueño de taller quiero contar con métricas de rendimiento de mi negocio y características de clientes para conocer el rendimiento y tomar mejores decisiones que mejoren la eficiencia | 5 |
+
+Para llevar un correcto orden del Product Backlog se utilizo la herramienta Pivotal Tracker. 
+
+ <img src="img/3/4/Pivotal.png">
 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
@@ -2695,11 +3715,58 @@ Para el proyecto Workshop N-GINE se ha seleccionado el motor de base de datos My
 
 ### 5.1.1. Software Development Environment Configuration
 
+A continuación, se presenta las herramientas y productos de software para el desarrollo del producto. 
+
+| Nombre | Propósito | Ruta de referencia / Descarga |
+| ----------- | ----------- | ----------- |
+| Uxpresia | Elaboración de user personas, empathy maps, journey maps, impact maps | https://uxpressia.com/w/k4lMq |
+| Miro | As-Is To-Be Scenarios maps | https://miro.com/es/ | 
+| Figma | Elaboración de wireframes, mockups y prototipes | https://www.figma.com/ |
+| LucidChart | Elaboración de wireflows, user flows | https://www.lucidchart.com/ | 
+| Structurizer | Elaboracion de diagrama C4 | https://www.structurizr.com/ |
+| Draw.io | Elaboración de diagrama UML | https://app.diagrams.net/ |
+| Vertabelo | Diseño de bases de datos | https://vertabelo.com/ | 
+| SASS | Estilos en la landing page | https://sass-lang.com/ |
+| PrimeVue | Biblioteca de componentes de interfaz de usuario | https://primevue.org/ |
+| Pivotal Tracker | Control de proyectos | https://www.pivotaltracker.com/ |
+| Git | Control de versiones | https://git-scm.com/ | 
+
 ### 5.1.2. Source Code Management
+
+A fecha de hoy, finalizando el sprint 1, consideramos necesario tener dos repositorios en el proyecto. A continuación lo detallo:
+
+| Repositorio | Link | 
+| ----------- | ----------- |
+| Informe | https://github.com/Web-Application-YaraSoftware/Informe |
+| Landing page | https://github.com/Web-Application-YaraSoftware/Landing-page |
+
+Vamos a implementar Conventional Commits, Semantic Versioning y una nomenclatura estandarizada para las ramas. Sin embargo, en el repositorio del informe, las ramas seguirán el formato "chapter" seguido del número correspondiente.
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
+El Lenguaje de Marcado de Hipertexto (HTML) es esencial para estructurar y presentar contenido en páginas web, siendo común nombrar la página principal como index.html. Algunas convenciones clave que incluiremos en nuestro código:
+Usar elementos en minúsculas y cerrar todos los elementos para asegurar compatibilidad y legibilidad.
+Escribir comentarios breves y evitar líneas de código largas.
+Incluir el atributo lang y especificar detalles como alt, ancho y altura en imágenes para accesibilidad.
+CSS es el lenguaje para dar estilo a las páginas web. Convenciones que utilizaremos:
+Mantener una nomenclatura coherente para clases e identificadores, con una indentación consistente y agrupación de propiedades relacionadas.
+Evitar selectores excesivamente específicos y duplicación de reglas.
+Probar el código en varios navegadores y dispositivos.
+JavaScript agrega interactividad a las páginas web. Las prácticas que utilizaremos son:
+Nomenclatura coherente para variables y funciones, evitando variables globales.
+Manejar errores con bloques try-catch, optimizar el código para rendimiento, y probar en diversos navegadores.
+Gherkin es un lenguaje usado para describir escenarios de prueba de forma legible. Recomendaciones clave:
+Usar un lenguaje claro con una estructura coherente basada en palabras clave como Feature, Scenario, Given, When, y Then.
+Evitar la duplicación de pasos y colaborar con el equipo para mejorar los escenarios.
+
 ### 5.1.4. Software Deployment Configuration
+
+Netlify es una plataforma de alojamiento web y despliegue continuo que simplifica el lanzamiento de sitios web y aplicaciones estáticas. Funciona de la siguiente manera:
+Integración con repositorios Git: Se sincroniza con plataformas como GitHub, GitLab y Bitbucket. Cada vez que se actualiza el código en el repositorio, Netlify inicia automáticamente el proceso de construcción y despliegue.
+Proceso de construcción: Convierte el código (HTML, CSS, JavaScript) en un sitio estático, realizando tareas como la compilación de archivos y optimización de imágenes.
+Red CDN: Una vez construida, la aplicación es desplegada a través de su red de distribución de contenido (CDN) global, garantizando un rendimiento rápido y accesible.
+Vistas previas automáticas: Para cada rama de tu repositorio, genera vistas previas automáticas, facilitando la revisión de cambios antes de fusionarlos con la rama principal.
+Publicaciones automáticas: Configura despliegues automáticos para cada pull request o fusión, lo que garantiza que el sitio esté siempre actualizado con la última versión del código.
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -2707,19 +3774,351 @@ Para el proyecto Workshop N-GINE se ha seleccionado el motor de base de datos My
 
 #### 5.2.1.1. Sprint Planning 1
 
+<table>
+    <tr>
+        <th scope="row"><strong>Sprint #</strong></th>
+        <td>Sprint 1</td>
+    </tr>
+    <tr>
+        <td olspan="2"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+        <th scope="row">Date</th>
+        <td>2024/09/03</td>
+    </tr>
+    <tr>
+        <th scope="row">Time</th>
+        <td>21:00</td>
+    </tr>
+    <tr>
+        <th scope="row">Location</th>
+        <td>Videollamada grupal mediante la plataforma Discord</td>
+    </tr>
+    <tr>
+        <th scope="row">Prepared By</th>
+        <td>Álvaro Orozco Torres</td>
+    </tr>
+    <tr>
+        <th scope="row">Attendees (to planning meeting)</th>
+        <td> Álvaro Orozco Torres, Henry Reaño Delgadillo, Elmer Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto </td>
+    </tr>
+    <tr>
+        <td olspan="2"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+        <th scope="row">Sprint 1 Goal</th>
+        <td>Nuestro foco se encuentra en crear e implementar una landing page atractiva para el producto. Creemos que entrega mayor visibilidad y facilidad de acceso a la información clave a potenciales clientes. Confirmaremos nuestra hipótesis cuando la landing page esté publica y los usuarios puedan interactuar con ella.</td>
+    </tr>
+    <tr>
+        <th scope="row">Sprint 1 Velocity</th>
+        <td>20</td>
+    </tr>
+</table>
+
 #### 5.2.1.2. Sprint Backlog 1
+
+El objetivo del sprint es crear una landing page atractiva e interactiva que permita al usuario familiarizarse con los valores que ofrece el producto. Además, busca principalmente incentivar al usuario a adquirir un plan de suscripción para aprovechar al máximo las funcionalidades disponibles.
+
+Durante todo el sprint 1 se llevo llevo un registro de las tareas completadas en Trello, como se puede observar:
+
+<img src="img/5/2/1/2/trello_board.png">
+
+A continuación, se procedera a detallar en una tabla las user story vinculadas a sus tareas, con una breve descripción, estimación en horas y que miembro del equipo la llevo acabo.
+
+<table border="1" style="width:100%; text-align: center;">
+  <tr>
+    <th colspan="2">Sprint #</th>
+    <th colspan="5">Sprint n</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="5">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>
+    <td>SWR-01</td>
+    <td>Hero Section</td>
+    <td>WI-01</td>
+    <td>Diseño de hero section</td>
+    <td>Creación del diseño visual de la sección hero, incluyendo la elección de colores, tipografía, y disposición de los elementos.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-01</td>
+    <td>Hero Section</td>
+    <td>WI-02</td>
+    <td>Implementación de barra de navegación y menu</td>
+    <td>Desarrollo de la barra de navegación y el menú en la sección hero, asegurando que sea responsive y accesible.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-01</td>
+    <td>Hero Section</td>
+    <td>WI-03</td>
+    <td>Inserción de imagen de hero section</td>
+    <td>Inserción y optimización de la imagen principal en la sección hero, asegurando que se cargue rápidamente.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-02</td>
+    <td>About the product</td>
+    <td>WI-04</td>
+    <td>Diseño de sección about the product</td>
+    <td>Diseño visual de la sección que describe el producto, con un enfoque en la usabilidad y la claridad de la información.</td>
+    <td>3</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-02</td>
+    <td>About the product</td>
+    <td>WI-05</td>
+    <td>Resumen de sección about the product</td>
+    <td>Elaboración de un resumen atractivo y conciso que describa las características principales del producto.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-02</td>
+    <td>About the product</td>
+    <td>WI-06</td>
+    <td>Imagen de about product</td>
+    <td>Inserción de imágenes relevantes que complementen la descripción del producto en la sección correspondiente.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-03</td>
+    <td>Beneficios</td>
+    <td>WI-07</td>
+    <td>Diseño de beneficios</td>
+    <td>Diseño visual de la sección que destaca los beneficios del producto, utilizando íconos y texto conciso.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-03</td>
+    <td>Beneficios</td>
+    <td>WI-08</td>
+    <td>Implementación de cards</td>
+    <td>Desarrollo e implementación de las cards en la sección de beneficios, asegurando interactividad y responsividad.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-04</td>
+    <td>Testimonios</td>
+    <td>WI-09</td>
+    <td>Diseño de testimonios</td>
+    <td>Creación del diseño visual de la sección de testimonios, enfocándose en la credibilidad y la estética.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-04</td>
+    <td>Testimonios</td>
+    <td>WI-11</td>
+    <td>Consumo de API</td>
+    <td>Integración de una API para obtener y mostrar testimonios en tiempo real en la sección correspondiente.</td>
+    <td>1</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-04</td>
+    <td>Testimonios</td>
+    <td>WI-12</td>
+    <td>Animación de cards</td>
+    <td>Implementación de animaciones en las cards de testimonios para mejorar la interacción del usuario.</td>
+    <td>3</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-05</td>
+    <td>About Us</td>
+    <td>WI-13</td>
+    <td>Diseño de about us</td>
+    <td>Creación del diseño visual para la sección de "About Us", incluyendo la historia y misión de la empresa.</td>
+    <td>2</td>
+    <td>Elmer Augusto Riva Rodriguez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-05</td>
+    <td>About Us</td>
+    <td>WI-14</td>
+    <td>Animación de about us</td>
+    <td>Desarrollo de animaciones para mejorar la presentación de la sección "About Us".</td>
+    <td>3</td>
+    <td>Elmer Augusto Riva Rodriguez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-06</td>
+    <td>Planes</td>
+    <td>WI-15</td>
+    <td>Diseño de planes</td>
+    <td>Diseño visual de la sección de planes, presentando las opciones de suscripción o compra del producto.</td>
+    <td>2</td>
+    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-06</td>
+    <td>Planes</td>
+    <td>WI-16</td>
+    <td>Implementación de cards</td>
+    <td>Desarrollo e implementación de las cards en la sección de planes, asegurando interactividad y responsividad.</td>
+    <td>2</td>
+    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-07</td>
+    <td>Formulario</td>
+    <td>WI-17</td>
+    <td>Diseño de formulario de contacto</td>
+    <td>Creación del diseño visual para el formulario de contacto, asegurando que sea claro y fácil de usar.</td>
+    <td>2</td>
+    <td>Álvaro Orozco Torres</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-07</td>
+    <td>Formulario</td>
+    <td>WI-18</td>
+    <td>Implementación de formulario</td>
+    <td>Desarrollo e integración del formulario de contacto, incluyendo validación y envío de datos.</td>
+    <td>2</td>
+    <td>Álvaro Orozco Torres</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-08</td>
+    <td>Footer</td>
+    <td>WI-19</td>
+    <td>Diseño de footer</td>
+    <td>Diseño visual del pie de página (footer), incluyendo enlaces a secciones relevantes y redes sociales.</td>
+    <td>2</td>
+    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SWR-08</td>
+    <td>Footer</td>
+    <td>WI-20</td>
+    <td>Implementación de footer</td>
+    <td>Desarrollo del pie de página, asegurando que sea responsive y accesible.</td>
+    <td>2</td>
+    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Done</td>
+  </tr>
+</table>
 
 #### 5.2.1.3. Development Evidence for Sprint Review
 
+| Repository | Branch | Commit id | Commit message | Commit body | Commited on |
+| - | - | - | - | - | - |
+| Open-Source-YaraSoftware / Landing-page | develop | 5e3f9bb398ca81cd655e3bc649255e2d171bdb22 | chore: add all required images for the entire project | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  develop | 9bb4007d76994003db24c9ae76608330ed37db0a | chore: configure sass folder and import all components into main.scss | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  develop | 3974cb03d4e26554bd9362891995d263e2b2fd66 | chore: set up global styles and add normalize, mixins, and variables | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  develop | 650d57af23cdbb155ddaeeffac39b555bc035585 | chore: import Roboto font via Google Fonts link in index.html | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  develop | 1937f6d1ceda82e273486ca12f8d70c70445c2f2 | feat: add header html section with navigation and banner | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  develop | 86ac708701a2f0a199e601cfe7ab340c14116afe | feat: add SCSS component for buttonAction with hover effect and full-width styling | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  develop | 9b7f312eb7dc4bd9f11dadd310794696b2d8e1ec | feat: add header styling with background image, overlay, and responsive layout | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  develop | f54f80a0228d5d26e428a9ba0d9891fe3f40542a | feat: add responsive banner styling with image, content, and button layout | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  | 2b3d1fc936238f202980b9b35e0c2f6a07c4ce83 | feat: add responsive navbar styling with dark mode and dynamic menu functionality | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  | 77c11649aaaa520e92008d6d081e81a44dce4f60 | feat: add toggle functionality for mobile menu and reset on resize | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/footer  | e410d8ab8170bf09953f246e85d0a70b2fc98ffb | feat: add functionality to change navbar color after scrolling past header | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  feature/about-us | b5c803d3e867eada59b765d8ee84f35d2a8e30a3 | feat: add learn more section with header, image, and contact button | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/benefits | f85d871514d67ec29c5136f48b0bd13b5b641457 | feat: add our benefits section with cards detailing platform advantages | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/benefits | c6f36ec8ebd2fa128c77f4fff0985b970c00843c | feat: add responsive styling for our benefits section with card layout and grid adjustments | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | 25000c95c8c3a60943d0be13ec92085cc610d2fa | feat: add testimonials section with client feedback cards | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | c2b85b4d114d29cbc7c9c7cd991106af9e756699 | feat: add responsive styling for testimonials section with horizontal scroll and card hover effect | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | ba8726e8adbb3834ff6025d0973026197a016a4a | feat: add auto-scrolling carousel functionality with reverse direction at end | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | 64b1b758a6da3add09712d128b55aedbacf75c43 | fix: remove duplicate section tags | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | a14e96add7d95b8242f2746007c38e5512a6a51a | fix: remove duplicate header tag | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | c8dbb4a61bf1889e0beb0065bed2c695284399f5 | feat: add about us section with mission, vision, and values cards | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 507a95956b723c248520d33a2e471b46d9736eea | feat: add responsive styling for about us section with card flipping effect | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 671e481e5c4dc96ce7e4dedbb8d4397b4ecc6f98 | feat: add plans section with pricing cards for free, basic, and premium plans | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 23c892fb608cbd35f67490e57b830ae7b60cf391 | feat: add responsive styling for the plans section with card layout and dark mode option for premium | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 5b13f1a3c03efc06e65eaf541c5f111b439428dd | feat: add contact form section with inputs for name, email, phone, and message | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 636e8c32bd44b3c1c2d0988a2c33ae279877e2af | feat: add responsive styling for contact form section with layout adjustments | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | feat: add contact form section with inputs for name, email, phone, and message | 9e612093d32f77bccf751433cfb09f1dfd4b07a8 | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 9c03f279a6212a8137315f45c3e461c37c9d3beb | feat: add responsive styling for contact form section with layout adjustments | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | d1a8726bec3dc8279edfd5a9853be831dbea0134 | feat: add footer section with sign up, useful links, contact info, and legal details | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 152d4c6af5ad0414da4a89d5cdc2f79b53a89eb1 | feat: add responsive styling for footer with contact, sign-up, and legal sections | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 561b4bc27d17c62ed0795295110fc83d0a777c92 | fix: remove duplicate footer tag | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 40c00418fea99d1f830bb6b943665ddb16008180 | feat: add language switch functionality and static spanish page | ... | 08/09/2024 |
+
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review
+
+Para este primer sprint no fue contemplada la evidencia de documentación de testeo.
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
+En el desarrollo del sprint 1 se logró desplegar las funcionalidades descritas para la landing page al inicio del sprint. A continuación, algunas evidencias:
+
+El desarrollo de la Hero Section con una imagen imponente y llamativa para el usuario.
+<img src="img/5/2/1/4/hero.png">
+
+La sección About Us que describe nuestra empresa, nuestros valores y visión.
+<img src="img/5/2/1/4/about_us.png">
+
+La sección de planes, centrada en ser atractiva para el usuario.
+<img src="img/5/2/1/4/plans.png">
+
+Enlace de video de navegación landing page: ...
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+Para este primer sprint no fue contemplada la evidencia de documentación de los servicios.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
+Para la entrega del Sprint número 1, se desplego al completo landing page la cual se pasará a detallar a continuación: 
+
+<img src="img/5/2/1/7/1.png">
+<img src="img/5/2/1/7/2.png">
+<img src="img/5/2/1/7/3.png">
+<img src="img/5/2/1/7/4.png">
+<img src="img/5/2/1/7/5.png">
+<img src="img/5/2/1/7/6.png">
+
+Enlace para acceder a la landing page: https://landing-page-workshop-n-gine.netlify.app/
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+
+| Alumno | Actividad |
+| ----------- | ----------- |
+| Jhosepmyr Gutiérrez Soto | Implementación de Hero Section, About the Product, Testimonios e Internacionalización |
+| Eric Hernandez Tuiro | Implementación del Footer |
+| Álvaro Orozco Torres | Implementación del Formulario de Contacto |
+| Henry Reaño Delgadillo | Implementación de Planes |
+| Elmer Riva Rodriguez | Implementación de Beneficios y About Us |
+
+<img src="img/5/2/1/8/insights.png">
 
 ## 5.3. Validation Interviews
 

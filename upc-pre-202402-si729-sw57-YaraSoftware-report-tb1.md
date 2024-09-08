@@ -55,6 +55,35 @@
 | 2.2.4 | 02/09/2024 | Henry Reaño Delgadillo | Se agrega la foto del dueño de taller Enrique Reaño en Registro de entrevistas |
 | 2.2.5 | 03/09/2024 | Henry Reaño Delgadillo | Se agrega tres nuevos conceptos en Ubiquitous Language |
 | 3.0.0 | 05/09/2024 | Elmer Riva Rodriguez | Se agrega la estructura completa del informe |
+| 4.1.1.1 | 06/09/2024 | Elmer Riva | Se agregan enlaces de Figma y wireframes para pantallas de inicio de sesión y creación de cuenta |
+| 4.3.1.1 | 08/09/2024 | Jhosepmyr | Se agregan imágenes de wireframes para la landing page |
+| 4.3.2.1 | 08/09/2024 | Jhosepmyr | Se agregan wireframes y secciones de mock-up en el diseño de la landing page |
+| 4.4.1.1 | 08/09/2024 | Elmer Riva | Se actualizan imágenes y descripciones de wireframes para el cliente del taller |
+| 4.4.1.2 | 08/09/2024 | Elmer Riva | Se actualizan imágenes y descripciones de wireframes para el mecánico |
+| 4.4.1.3 | 08/09/2024 | Elmer Riva | Se actualizan imágenes y descripciones de wireframes para el dueño del taller |
+| 4.4.1.4 | 06/09/2024 | Elmer Riva | Se agregan imágenes de wireframes para la gestión de inventario, métricas y notificaciones |
+| 4.4.1.5 | 06/09/2024 | Elmer Riva | Se agregan wireframes relacionados con el cliente del taller |
+| 4.4.1.6 | 06/09/2024 | Jhosepmyr | Se agregan wireframes para la sección de registro de nuevo cliente |
+| 4.4.1.7 | 06/09/2024 | Elmer Riva | Se agregan wireframes relacionados con la gestión del dueño del taller |
+| 4.4.1.8 | 06/09/2024 | Elmer Riva | Se agregan wireframes para la sección vacía de personal |
+| 4.4.1.9 | 06/09/2024 | Elmer Riva | Se agregan wireframes para la edición de la información del personal |
+| 4.4.1.10 | 06/09/2024 | Jhosepmyr | Se agregan wireframes para la gestión de personal y el registro de nuevos mecánicos |
+| 4.4.2.1 | 08/09/2024 | Elmer Riva | Se agregan wireflows para la web en Desktop Web Browser |
+| 4.4.2.2 | 08/09/2024 | Elmer Riva | Se actualizan imágenes y descripciones de wireflow |
+| 4.4.2.3 | 07/09/2024 | Jhosepmyr | Se agregan wireflows para los objetivos de usuario: registrar un vehículo, acceder al historial de intervenciones del auto, acceder a la información del dispositivo IoT y agendar una cita |
+| 4.4.2.4 | 07/09/2024 | Elmer Riva | Se agregan wireflows para las tareas del mecánico y la gestión de intervenciones |
+| 4.4.2.5 | 06/09/2024 | Eric396 | Se agregan wireflows para las interacciones del dueño del taller y el cliente |
+| 4.4.2.6 | 06/09/2024 | Jhosepmyr | Se eliminan datos duplicados en una ubicación incorrecta |
+| 4.4.2.7 | 06/09/2024 | Jhosepmyr | Se agregan wireflows para la creación de cuenta, inicio de sesión, gestión de empleados, registro de clientes y vehículos, visualización y gestión de información de empleados y clientes |
+| 4.4.3.1 | 08/09/2024 | Elmer Riva | Se agregan wireflows para las interacciones del cliente y el taller |
+| 4.5.1.1 | 08/09/2024 | Elmer Riva | Se actualizan los enlaces a los videos explicativos de prototipos de aplicaciones web para desktop y móvil |
+| 4.5.2.1 | 07/09/2024 | Elmer Riva | Se agregan enlaces a los prototipos de aplicaciones web para cada user persona |
+| 4.6.1.1 | 07/09/2024 | Elmer Riva | Se agregan imágenes del modelo C4 en la arquitectura software dirigida por el dominio |
+| 4.6.2.1 | 07/09/2024 | Elmer Riva | Se agregan diagramas de contexto y contenedores en la arquitectura software dirigida por el dominio |
+| 4.6.3.1 | 07/09/2024 | Elmer Riva | Se agrega el diagrama de componentes de la arquitectura software dirigida por el dominio |
+| 4.7.1.1 | 07/09/2024 | Elmer Riva | Se agrega el diagrama de clases |
+| 4.7.2.1 | 08/09/2024 | Elmer Riva | Se actualiza el diccionario de clases |
+| 4.8.1.1 | 07/09/2024 | Jhosepmyr | Se agrega el diagrama de base de datos |
 
 <div style="page-break-after: always;"></div>
 

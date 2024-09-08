@@ -1364,151 +1364,158 @@ Enlace para acceder al [Figma](https://www.figma.com/design/PqvO9VXswNOC5KVgjpDS
 #### Wireframes asociados al dueño del taller
 
 #### Iniciar sesión 
-La imagen muestra la pantalla de inicio de sesión para la aplicación Workshop N-GINE. En esta sección, los usuarios pueden ingresar sus credenciales, como correo electrónico y contraseña, para acceder al sistema. Además, ofrece una opción para crear una cuenta nueva en caso de no estar registrado, invitando a los nuevos usuarios a unirse con el mensaje "¡Hola, Amigo!" y un botón para comenzar el proceso de registro.
+La imagen muestra la pantalla de inicio de sesión para la aplicación Workshop N-GINE. En esta sección, los usuarios pueden ingresar sus credenciales, como correo electrónico y contraseña, para acceder al sistema. Además, ofrece una opción para crear una cuenta nueva en caso de no estar registrado, invitando a los nuevos usuarios a unirse con el mensaje "Hello, Friend!" y un botón para iniciar sesión.
 <br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireframes/iniciar-sesion.png" width="1000px">
+  <img src="img/4/wireframes/workshop-owner/page-sign-in.png" width="1000px">
 </div>
 
 #### Crear cuenta 
-Esta imagen muestra la pantalla de creación de cuenta en Workshop N-GINE. Aquí, los usuarios que desean registrarse pueden completar sus datos, como nombre, correo electrónico, contraseña, y nombre del taller, para poder empezar a utilizar la plataforma. El lado izquierdo de la pantalla da la bienvenida a los usuarios recurrentes con el mensaje "¡Bienvenido de nuevo!" y proporciona la opción de iniciar sesión si ya tienen una cuenta creada.
+Esta imagen muestra la pantalla de creación de cuenta en Workshop N-GINE. Aquí, los usuarios que desean registrarse pueden completar sus datos, como nombre, correo electrónico, contraseña, y nombre del taller, para poder empezar a utilizar la plataforma. El lado izquierdo de la pantalla da la bienvenida a los usuarios recurrentes con el mensaje "Welcome again!" y proporciona la opción de iniciar sesión si ya tienen una cuenta creada.
 <br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireframes/crear-cuenta.png" width="1000px">
+  <img src="img/4/wireframes/workshop-owner/page-sign-up.png" width="1000px">
 </div>
 
 #### Gestión de personal
-En esta vista, se muestra una lista de los empleados registrados en el taller, presentados en formato de tarjetas. Cada tarjeta contiene el nombre del empleado. En la parte superior derecha, el usuario puede agregar nuevos mecánicos utilizando el botón "Nuevo mecánico", lo que permite un acceso rápido para añadir personal adicional.
+En esta vista, se muestra una lista de los empleados registrados en el taller, presentados en formato de tarjetas. Cada tarjeta contiene el nombre del empleado. En la parte superior derecha, el usuario puede agregar nuevos mecánicos utilizando el botón "New mechanic", lo que permite un acceso rápido para añadir personal adicional.
 <br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireframes/personal-window.png" width="1000px">
+  <img src="img/4/wireframes/workshop-owner/page-personal.png" width="1000px">
 </div>
 
 #### Registro de nuevo mecánico
 Esta imagen presenta el proceso de "Registro de nuevo personal" en Workshop N-GINE. Al seleccionar la opción "Nuevo mecánico", el dueño de taller puede ingresar los datos personales del nuevo empleado, como nombre, apellidos, tipo de documento, número de documento, edad y ubicación. Este formulario facilita la adición de nuevos miembros al equipo de trabajo, asegurando que toda la información relevante quede registrada.
 <br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireframes/personal-modal-creation.png" width="1000px">
+  <img src="img/4/wireframes/workshop-owner/page-personal-modal-creation.png" width="1000px">
 </div>
 
 #### Editar información de personal
 En esta pantalla se ofrece al dueño del taller la posibilidad de ajustar los detalles de un miembro del equipo. Aquí se pueden editar campos importantes como el nombre, apellidos, documento de identidad, edad y ubicación del empleado. Además, se incluyen botones que permiten actualizar la información o eliminar al mecánico del sistema.
 <br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireframes/personal-modal-editing.png" width="1000px">
+  <img src="img/4/wireframes/workshop-owner/page-personal-modal-editing.png" width="1000px">
 </div>
 
 #### Seccion personal vacía
 Cuando no hay personal registrado en el sistema, la pantalla mostrará un mensaje indicando la ausencia de personal. Se incluye un botón "Registrar" en el centro, que permite iniciar el proceso de incorporación del primer miembro del equipo de manera rápida
 <br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireframes/page-no-personal.png" width="1000px">
+  <img src="img/4/wireframes/workshop-owner/page-no-personal.png" width="1000px">
 </div>
 
 #### Gestión de clientes
-La imagen muestra la sección "Gestión de Clientes", donde el administrador del taller puede visualizar una lista detallada de los clientes registrados. En esta interfaz, se presentan los datos esenciales como el nombre completo, número de documento, y dirección de correo electrónico de cada cliente. Además, se permite agregar nuevos clientes a través de un botón dedicado. Este sistema simplifica la organización y acceso rápido a la información de los clientes, optimizando la interacción y gestión de los datos de los mismos.<br>
+La imagen muestra la sección "Clients", donde el administrador del taller puede visualizar una lista detallada de los clientes registrados. En esta interfaz, se presentan los datos esenciales como el nombre completo, número de documento, y dirección de correo electrónico de cada cliente. Además, se permite agregar nuevos clientes a través de un botón dedicado. Este sistema simplifica la organización y acceso rápido a la información de los clientes, optimizando la interacción y gestión de los datos de los mismos.<br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireframes/page-customers-management.png" width="1000px">
+  <img src="img/4/wireframes/workshop-owner/page-customers.png" width="1000px">
 </div>
 
 #### Registro de nuevo cliente
 En esta sección se permite al administrador registrar un nuevo cliente mediante un formulario sencillo que solicita datos personales como el nombre, apellidos, tipo y número de documento, así como la edad y ubicación. La opción de registro facilita la inclusión de nuevos clientes en el sistema de manera ágil, permitiendo que el taller mantenga actualizada su base de clientes con toda la información relevante.<br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireframes/page-customers-modal-creation.png" width="1000px">
+  <img src="img/4/wireframes/workshop-owner/page-customers-modal-creation .png" width="1000px">
 </div>
 
 #### Información de clientes y vehículos
 
-La imagen muestra la vista de "Información de Clientes y Vehículos", donde el administrador puede ver los detalles personales del cliente junto con la información de sus vehículos registrados en el sistema. Este formato ofrece una visión integral, permitiendo al taller gestionar tanto la información del cliente como de los vehículos en un solo lugar, optimizando la fluidez de la información y la eficiencia en el servicio al cliente.<br>
+La imagen muestra una vista con información de clientes y vehículos, donde el administrador puede ver los detalles personales del cliente junto con la información de sus vehículos registrados en el sistema. Este formato ofrece una visión integral, permitiendo al taller gestionar tanto la información del cliente como de los vehículos en un solo lugar, optimizando la fluidez de la información y la eficiencia en el servicio al cliente.<br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireframes/page-info-customers.png" width="1000px">
+  <img src="img/4/wireframes/workshop-owner/page-info-customers.png" width="1000px">
 </div>
 
 #### Registro de nuevo vehículo
 
 El formulario para registrar un nuevo vehículo permite al administrador añadir vehículos a la cuenta del cliente de manera rápida y sencilla. Los campos a llenar incluyen la placa del vehículo, la marca y el modelo. Esto facilita la actualización continua de la base de datos vehicular del taller, mejorando la precisión y el control sobre los vehículos atendidos en el establecimiento.<br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireframes/page-info-customers-modal-creation.png" width="1000px">
+  <img src="img/4/wireframes/workshop-owner/page-info-customers-modal-creation.png" width="1000px">
 </div>
 
 #### Registro de actividades del vehículo
 
 La interfaz de "Registro de Actividades" muestra un resumen visual de las intervenciones o reparaciones realizadas en un vehículo a lo largo del tiempo. Cada intervención incluye su estado, la fecha de realización y un enlace para ver más detalles. Este registro ayuda al taller y al cliente a realizar un seguimiento claro y ordenado del historial de mantenimiento del vehículo, mejorando la transparencia y el servicio brindado.<br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireframes/page-customers-car-registro-actividades.png" width="1000px">
+  <img src="img/4/wireframes/workshop-owner/page-customers-car-activities-log.png" width="1000px">
 </div>
 
 #### Información general de intervención
-Esta pantalla presenta la sección de "Información General de Intervención", donde el administrador del taller puede visualizar y gestionar los detalles clave de una intervención en curso. Los campos incluyen la modalidad del servicio (reparación o mantenimiento), la fecha programada, el mecánico líder asignado y una descripción opcional. Además, el estado de la intervención se muestra claramente en la parte superior derecha, permitiendo al administrador controlar el progreso o la finalización del servicio. Esta vista es esencial para llevar un seguimiento preciso y efectivo de los trabajos realizados en el taller.
+Esta pantalla presenta información general de intervención, donde el administrador del taller puede visualizar y gestionar los detalles clave de una intervención en curso. Los campos incluyen la modalidad del servicio (reparación o mantenimiento), la fecha programada, el mecánico líder asignado y una descripción opcional. Además, el estado de la intervención se muestra claramente en la parte superior derecha, permitiendo al administrador controlar el progreso o la finalización del servicio. Esta vista es esencial para llevar un seguimiento preciso y efectivo de los trabajos realizados en el taller.
 <br>
-<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/page-tasks2.png" width="1000px"> </div>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/workshop-owner/activities-log-general-information.png" width="1000px"> </div>
 
 #### Resumen de intervención
 La pantalla "Resumen de Intervención" permite ver el tipo de intervención realizada, junto con un campo de observaciones opcional para anotar detalles adicionales. Además, se presenta una lista de tareas relacionadas con la intervención, cada una con su respectivo estado para facilitar el control de avance. Esta vista está diseñada para que el administrador pueda tener una visión clara y detallada de todo el trabajo realizado en el vehículo, asegurando una correcta trazabilidad de las reparaciones y mantenimientos.<br>
 
-<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/page-tasks1.png" width="1000px"> </div>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/workshop-owner/activities-log-intervention-summary.png" width="1000px"> </div>
 
 #### Información IoT del vehículo
 
-La sección de "Información IoT" permite al administrador y al cliente visualizar el estado técnico de los componentes del vehículo en tiempo real. Cada parte se clasifica según su estado y, en caso de fallos, se proporciona el código de error. Esta funcionalidad permite una gestión más proactiva y preventiva, ofreciendo datos actualizados que pueden ayudar a anticipar problemas mecánicos y mejorar el mantenimiento preventivo del automóvil.<br>
+Esta pantalla permite al administrador y al cliente visualizar el estado técnico de los componentes del vehículo en tiempo real. Cada parte se clasifica según su estado y, en caso de fallos, se proporciona el código de error. Esta funcionalidad permite una gestión más preventiva, ofreciendo datos actualizados que pueden ayudar a anticipar problemas mecánicos y mejorar el mantenimiento preventivo del automóvil.<br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireframes/iot-info.png" width="1000px">
+  <img src="img/4/wireframes/workshop-owner/page-customers-car-iot-information.png" width="1000px">
 </div>
+
+#### Vista de intervenciones
+El wireframe muestra la sección "Interventions" que contiene un buscador y filtros de estado (Pendiente, En progreso, Completada, Todas). Se visualiza una tabla con las intervenciones listadas por cliente, auto, modalidad, fecha de registro, fecha de intervención y estado; y un botón permite programar nuevas intervenciones.
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-interventions.png" width="1000px">
+</div>
+
 
 #### Intervención de vehículo
 
 La imagen refleja la interfaz de gestión de una intervención, donde el administrador puede ingresar los detalles generales de la reparación o servicio que se está llevando a cabo. Los campos incluyen la modalidad del servicio, fecha programada, mecánico encargado y una descripción opcional. Esta sección permite al taller gestionar de manera eficiente los servicios realizados, con la posibilidad de modificar y actualizar información sobre la marcha.<br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireframes/intervention-to-vehicle.png" width="1000px">
+  <img src="img/4/wireframes/workshop-owner/page-interventions-general-info.png" width="1000px">
 </div>
 
 #### Resumen de intervención
 
 En el resumen de intervención, se puede observar el tipo de trabajo realizado, las observaciones, y las tareas que componen la intervención mecánica. Este apartado brinda un resumen claro y detallado de cada intervención, lo que permite al personal del taller y al cliente visualizar fácilmente las tareas realizadas y el estado de cada una de ellas. Esta transparencia contribuye a un servicio más eficiente y comprensible para todas las partes involucradas.<br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireframes/intervention-summary.png" width="1000px">
+  <img src="img/4/wireframes/workshop-owner/page-interventions-intervention-summary.png" width="1000px">
 </div>
 
 #### Inventario de existencias
 
 En esta pantalla se presenta el inventario de existencias del taller, donde se detallan las partes disponibles, la cantidad en stock y su respectivo límite. El sistema permite realizar un seguimiento detallado de los componentes disponibles, lo que ayuda a mantener el taller abastecido y evita la escasez de productos críticos. Además, se permite eliminar partes innecesarias o que ya no están en stock.<br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireframes/page-inventario-existencias.png" width="1000px">
+  <img src="img/4/wireframes/workshop-owner/page-inventory-stock.png" width="1000px">
 </div>
 
 #### Solicitudes de inventario
 
 La interfaz de "Solicitudes de Inventario" ofrece una vista detallada de las solicitudes de partes o componentes por parte de los mecánicos o administradores del taller. Se incluyen detalles como la cantidad solicitada, la ID de la intervención relacionada, la fecha de la solicitud y observaciones adicionales. Esto facilita la gestión y el control del flujo de materiales dentro del taller, asegurando que se cumplan las demandas en tiempo y forma.<br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireframes/page-inventario-solicitudes.png" width="1000px">
+  <img src="img/4/wireframes/workshop-owner/page-inventory-requests.png" width="1000px">
 </div>
 
 #### Métricas de intervenciones por día
 
 En la pantalla de "Métricas de intervenciones por día", el administrador puede visualizar el número de intervenciones realizadas en el taller durante cada día de la semana. Esta información es crucial para comprender los picos de demanda y optimizar la planificación de las intervenciones, permitiendo una mejor organización y uso de los recursos disponibles en el taller.<br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireframes/page-metricas-1.png" width="1000px">
+  <img src="img/4/wireframes/workshop-owner/page-metrics-1.png" width="1000px">
 </div>
 
 #### Métricas de intervenciones por mes
 
 La imagen refleja las "Métricas de intervenciones por mes", proporcionando una visión más amplia sobre el rendimiento del taller a lo largo de varios meses. Con esta información, el administrador puede detectar patrones de demanda estacionales o fluctuaciones en el volumen de trabajo, permitiendo ajustar la capacidad operativa del taller de manera efectiva.<br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireframes/page-metricas-2.png" width="1000px">
+  <img src="img/4/wireframes/workshop-owner/page-metrics-2.png" width="1000px">
 </div>
 
 #### Distribución de vehículos por marca
 
 En esta sección, se presenta un gráfico de torta que muestra la distribución porcentual de los vehículos atendidos en el taller, desglosada por marca. Esta información permite al administrador identificar qué marcas de vehículos son más frecuentes en el taller, lo que puede ayudar en la planificación de inventarios y en la especialización de los servicios ofrecidos.<br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireframes/page-metricas-3.png" width="1000px">
+  <img src="img/4/wireframes/workshop-owner/page-metrics-3.png" width="1000px">
 </div>
 
 #### Notificaciones
 
 La pantalla de "Notificaciones" muestra las alertas importantes para el administrador del taller, como recordatorios de citas, actualizaciones de estado de intervenciones, o avisos sobre inventario. Cada notificación incluye la hora y la fecha en la que fue emitida, así como un enlace para ir a la sección correspondiente y gestionar la acción requerida.<br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireframes/page-notificaciones.png" width="1000px">
+  <img src="img/4/wireframes/workshop-owner/page-notifications.png" width="1000px">
 </div>
 
 #### Wireframes asociados a los mecánicos

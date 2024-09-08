@@ -60,6 +60,7 @@
 | 3.3.0 | 06/09/2024 | Henry Reaño Delgadillo | Se agrega la tercera sección del Capítulo III: Requirements Specification |
 | 3.4.0 | 06/09/2024 | Henry Reaño Delgadillo | Se agrega la última sección del Capítulo III: Requirements Specification |
 | 5.0.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega una sección del Capítulo V: Product Implementation, Validation & Deployment |
+| 5.1.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a gestión de código fuente | 
 
 <div style="page-break-after: always;"></div>
 
@@ -2158,6 +2159,15 @@ A continuación, se presenta las herramientas y productos de software para el de
 | Git | Control de versiones | https://git-scm.com/ | 
 
 ### 5.1.2. Source Code Management
+
+A fecha de hoy, finalizando el sprint 1, consideramos necesario tener dos repositorios en el proyecto. A continuación lo detallo:
+
+| Repositorio | Link | 
+| ----------- | ----------- |
+| Informe | https://github.com/Web-Application-YaraSoftware/Informe |
+| Landing page | https://github.com/Web-Application-YaraSoftware/Landing-page |
+
+Vamos a implementar Conventional Commits, Semantic Versioning y una nomenclatura estandarizada para las ramas. Sin embargo, en el repositorio del informe, las ramas seguirán el formato "chapter" seguido del número correspondiente.
 
 ### 5.1.3. Source Code Style Guide & Conventions
 

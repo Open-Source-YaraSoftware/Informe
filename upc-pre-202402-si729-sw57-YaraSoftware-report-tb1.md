@@ -1523,32 +1523,51 @@ La pantalla de "Notificaciones" muestra las alertas importantes para el administ
 #### Mis tareas
 La sección Mis Tareas está diseñada para que los usuarios tengan un seguimiento detallado de las intervenciones asignadas. A través de una lista organizada, se muestra información clave como el cliente, el vehículo, la modalidad de reparación, el tipo de tarea asignada, y su estado actual.
 <br>
-<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mecanico/my-tasks.png" width="1000px"> </div>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/page-tasks.png" width="1000px"> </div>
 
 #### Primera etapa de una intervención como lider
 La primera etapa se enfoca en la recopilación de la información general del vehículo y el cliente, junto con un diagnóstico detallado proporcionado por el sistema IoT. En esta vista, se presentan los componentes del vehículo que muestran fallas, así como su estado y los códigos de falla registrados. Esta información es crucial para definir los próximos pasos en el proceso de intervención.
 <br>
-<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mecanico/information-step.png" width="1000px"> </div>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/page-leader-step-1.png" width="1000px"> </div>
 
 #### Segunda etapa de una intervención como lider
 En esta fase, Diagnóstico y preparación, los mecánicos asignados pueden visualizar y distribuir las tareas necesarias para completar la intervención. También se muestra el diagnóstico del vehículo, donde se identifica el tipo de reparación necesario y se pueden añadir observaciones específicas. Los mecánicos pueden gestionar las tareas distribuidas a cada uno para asegurar un control preciso del trabajo.
 <br>
-<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mecanico/diagnostic-prepa.png" width="1000px"> </div>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/page-leader-step-2.png" width="1000px"> </div>
 
 #### Tercera etapa, Ejecución
 En la fase de Ejecución, el progreso de las tareas asignadas se puede revisar de manera estructurada. Los mecánicos pueden agregar puntos de control para marcar las tareas finalizadas, así como solicitar repuestos específicos para completar la intervención.
+##### Tercera etapa para mecánico lider
 <br>
-<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mecanico/execution.png" width="1000px"> </div>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/page-leader-step-3.png" width="1000px"> </div>
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/page-leader-step-3-tracking.png" width="1000px"> </div>
 
-#### Cuarta etapa - supervisión
+##### Tercera etapa para mecánico asignado
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/page-assigned-step-2.png" width="1000px"> </div>
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/page-assigned-step-2-tracking.png" width="1000px"> </div>
+
+#### Cuarta etapa, supervisión
 En la fase final de Supervisión, se realiza un seguimiento del estado de todas las tareas completadas y pendientes. El jefe de taller o mecánico líder puede verificar que todas las intervenciones se hayan realizado de manera correcta y según lo planeado. Además, se muestra un resumen del tiempo total avanzado, lo que permite una evaluación de la eficiencia en el proceso de reparación.
 <br>
-<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mecanico/supervisor.png" width="1000px"> </div>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/page-leader-step-4.png" width="1000px"> </div>
+
+#### Información general de intervención
+Esta pantalla presenta información general de intervención, donde el administrador del taller puede visualizar y gestionar los detalles clave de una intervención en curso. Los campos incluyen la modalidad del servicio (reparación o mantenimiento), la fecha programada, el mecánico líder asignado y una descripción opcional. Además, el estado de la intervención se muestra claramente en la parte superior derecha, permitiendo al administrador controlar el progreso o la finalización del servicio. Esta vista es esencial para llevar un seguimiento preciso y efectivo de los trabajos realizados en el taller.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/step-1-activitie-log-general-information.png" width="1000px"> </div>
+
+#### Resumen de intervención
+La pantalla "Resumen de Intervención" permite ver el tipo de intervención realizada, junto con un campo de observaciones opcional para anotar detalles adicionales. Además, se presenta una lista de tareas relacionadas con la intervención, cada una con su respectivo estado para facilitar el control de avance. Esta vista está diseñada para que el administrador pueda tener una visión clara y detallada de todo el trabajo realizado en el vehículo, asegurando una correcta trazabilidad de las reparaciones y mantenimientos.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/step-1-activitie-log-interview-summary.png" width="1000px"> </div>
 
 #### Notificaciones
 La sección Notificaciones ofrece un resumen rápido de las actualizaciones importantes para el equipo de trabajo. Desde recordatorios sobre intervenciones hasta cambios en las tareas asignadas, los mecánicos y gestores pueden mantenerse informados de cualquier evento relevante. Cada notificación está organizada por fecha y hora para garantizar un flujo de trabajo ágil.
-
-<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mecanico/notifications.png" width="1000px"> </div>
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/mechanic-notifications.png" width="1000px"> </div>
 
 #### Wireframes asociados al cliente de taller
 

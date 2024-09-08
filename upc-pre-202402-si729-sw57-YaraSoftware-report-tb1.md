@@ -59,6 +59,35 @@
 | 3.2.0 | 06/09/2024 | Álvaro Orozco Torres | Se agrega la segunda sección del Capítulo III: Requirements Specification |
 | 3.3.0 | 06/09/2024 | Henry Reaño Delgadillo | Se agrega la tercera sección del Capítulo III: Requirements Specification |
 | 3.4.0 | 06/09/2024 | Henry Reaño Delgadillo | Se agrega la última sección del Capítulo III: Requirements Specification |
+| 4.1.1.1 | 06/09/2024 | Elmer Riva | Se agregan enlaces de Figma y wireframes para pantallas de inicio de sesión y creación de cuenta |
+| 4.3.1.1 | 08/09/2024 | Jhosepmyr | Se agregan imágenes de wireframes para la landing page |
+| 4.3.2.1 | 08/09/2024 | Jhosepmyr | Se agregan wireframes y secciones de mock-up en el diseño de la landing page |
+| 4.4.1.1 | 08/09/2024 | Elmer Riva | Se actualizan imágenes y descripciones de wireframes para el cliente del taller |
+| 4.4.1.2 | 08/09/2024 | Elmer Riva | Se actualizan imágenes y descripciones de wireframes para el mecánico |
+| 4.4.1.3 | 08/09/2024 | Elmer Riva | Se actualizan imágenes y descripciones de wireframes para el dueño del taller |
+| 4.4.1.4 | 06/09/2024 | Elmer Riva | Se agregan imágenes de wireframes para la gestión de inventario, métricas y notificaciones |
+| 4.4.1.5 | 06/09/2024 | Elmer Riva | Se agregan wireframes relacionados con el cliente del taller |
+| 4.4.1.6 | 06/09/2024 | Jhosepmyr | Se agregan wireframes para la sección de registro de nuevo cliente |
+| 4.4.1.7 | 06/09/2024 | Elmer Riva | Se agregan wireframes relacionados con la gestión del dueño del taller |
+| 4.4.1.8 | 06/09/2024 | Elmer Riva | Se agregan wireframes para la sección vacía de personal |
+| 4.4.1.9 | 06/09/2024 | Elmer Riva | Se agregan wireframes para la edición de la información del personal |
+| 4.4.1.10 | 06/09/2024 | Jhosepmyr | Se agregan wireframes para la gestión de personal y el registro de nuevos mecánicos |
+| 4.4.2.1 | 08/09/2024 | Elmer Riva | Se agregan wireflows para la web en Desktop Web Browser |
+| 4.4.2.2 | 08/09/2024 | Elmer Riva | Se actualizan imágenes y descripciones de wireflow |
+| 4.4.2.3 | 07/09/2024 | Jhosepmyr | Se agregan wireflows para los objetivos de usuario: registrar un vehículo, acceder al historial de intervenciones del auto, acceder a la información del dispositivo IoT y agendar una cita |
+| 4.4.2.4 | 07/09/2024 | Elmer Riva | Se agregan wireflows para las tareas del mecánico y la gestión de intervenciones |
+| 4.4.2.5 | 06/09/2024 | Eric396 | Se agregan wireflows para las interacciones del dueño del taller y el cliente |
+| 4.4.2.6 | 06/09/2024 | Jhosepmyr | Se eliminan datos duplicados en una ubicación incorrecta |
+| 4.4.2.7 | 06/09/2024 | Jhosepmyr | Se agregan wireflows para la creación de cuenta, inicio de sesión, gestión de empleados, registro de clientes y vehículos, visualización y gestión de información de empleados y clientes |
+| 4.4.3.1 | 08/09/2024 | Elmer Riva | Se agregan wireflows para las interacciones del cliente y el taller |
+| 4.5.1.1 | 08/09/2024 | Elmer Riva | Se actualizan los enlaces a los videos explicativos de prototipos de aplicaciones web para desktop y móvil |
+| 4.5.2.1 | 07/09/2024 | Elmer Riva | Se agregan enlaces a los prototipos de aplicaciones web para cada user persona |
+| 4.6.1.1 | 07/09/2024 | Elmer Riva | Se agregan imágenes del modelo C4 en la arquitectura software dirigida por el dominio |
+| 4.6.2.1 | 07/09/2024 | Elmer Riva | Se agregan diagramas de contexto y contenedores en la arquitectura software dirigida por el dominio |
+| 4.6.3.1 | 07/09/2024 | Elmer Riva | Se agrega el diagrama de componentes de la arquitectura software dirigida por el dominio |
+| 4.7.1.1 | 07/09/2024 | Elmer Riva | Se agrega el diagrama de clases |
+| 4.7.2.1 | 08/09/2024 | Elmer Riva | Se actualiza el diccionario de clases |
+| 4.8.1.1 | 07/09/2024 | Jhosepmyr | Se agrega el diagrama de base de datos |
 | 5.0.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega una sección del Capítulo V: Product Implementation, Validation & Deployment |
 | 5.1.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a gestión de código fuente | 
 | 5.2.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a convenciones en la codificación y configuración de despliegue |
@@ -2089,55 +2118,1597 @@ Para llevar un correcto orden del Product Backlog se utilizo la herramienta Pivo
 
 ### 4.1.1. General Style Guidelines
 
+### Branding
+#### Descripción general de la marca
+<div style="display: grid; justify-content: center; align-items: center;">
+<img src =  "img/4/YaraSoftware-logo.png">
+</div>
+
+<b>Yara Software</b> es una startup emergente fundada por jóvenes estudiantes de Ingeniería de Software, comprometidos con la creación de soluciones digitales personalizadas que optimizan y transforman procesos en sectores a menudo pasados por alto en la digitalización. Nos enfocamos en proporcionar herramientas tecnológicas innovadoras que favorecen el crecimiento y la eficiencia en diversas industrias. Y como primer producto de nuestra desarrolladora tenemos a un software enfocado en la gestión de talleres de mecánica automotriz.
+
+#### Misión:
+Nuestra misión es impulsar el desarrollo tecnológico en diversos sectores de la industria, favoreciendo el crecimiento económico a través de soluciones de software innovadoras, accesibles y adaptadas a las necesidades de sus usuarios.
+#### Visión:
+Como startup, aspiramos a ser reconocidos a nivel nacional por nuestro fuerte compromiso con la calidad y la excelencia, alcanzando afianzar a más de 10,000 usuarios a nivel nacional en los próximos cuatro años, posicionándonos como un referente en cuanto a desarrollo tecnológico e innovación en el país.
+
+#### Producto 
+Nuestro primer producto es un software especializado en la gestión de talleres de mecánica automotriz. Esta solución está diseñada para optimizar la administración de estos talleres, mediante herramientas como agenda de citas, distribución de tareas, control de inventario y métricas de rendimiento.
+
+#### Nombre de producto
+El nombre de nuestro producto es Workshop N-GINE. La idea surge de la combinación de las palabras “Workshop” y “Engine,” evocando la esencia de un taller de mecánica automotriz mediante la centralidad del motor en este ámbito. Asimismo, este nombre refleja la finalidad del software, que se centra en la creación de un sistema para optimizar la gestión de talleres.
+
+#### Logo de producto
+<div style="display: grid; justify-content: center; align-items: center;">
+<img src = "img/4/workShop-NGINE-logo.png">
+</div>
+
+El logo de Workshop N-GINE presenta un engranaje central rodeado por un círculo compuesto por dos flechas curvas que se entrelazan, formando un ciclo continuo. Especificamente, el engranaje central representa la maquinaria, herramientas que son el núcleo de la operación en un taller mecánico. Y las flechas curvas sugieren un ciclo de mejora continua, destacando el enfoque del software en la optimización constante de procesos.
+
+#### Color
+<div style="display: grid; justify-content: center; align-items: center;">
+<img src = "img/4/paleta-colores.png" width="600px">
+</div>
+Consideramos que los colores son protagonistas de la primera impresión de nuestros usuarios. Por lo tanto, nos hemos guiado de la psicología del color para seleccionar una paleta que refleje profesionalismo, confianza y eficiencia, características esenciales para WorkShop N-GINE.
+
+Los Primary Colors están compuestos por el azul intenso (#0067B8), el azul oscuro (#062865) y un azul claro (#EBF7FF). El azul intenso simboliza confianza, seguridad y profesionalismo, valores que son clave para un software destinado a la gestión de talleres automotrices. Este color tiene la capacidad de transmitir seriedad y estabilidad. El azul oscuro refuerza estas percepciones, además de añadir un toque de sofisticación. Por otro lado, el azul claro suaviza la paleta, aportando una sensación de frescura que facilita la navegación y hace que la interfaz sea más acogedora para el usuario.
+
+En los Secondary Colors se presentan diferentes tonalidades que añaden versatilidad a la paleta. Colores como el azul profundo (#011936) y el gris medio (#465362) permiten crear contrastes que destacan elementos clave en la interfaz. Asimismo, la elección de múltiples tonalidades dentro de los secundarios permite una mayor flexibilidad en el diseño, asegurando que se puedan resaltar distintos niveles de información sin perder la cohesión visual. Estas variaciones de tono también ayudan a dirigir la atención del usuario hacia áreas específicas de la interfaz.
+
+Los Wireframe Colors como el gris claro (#D9D9D9), el gris medio (#8E8E8E) y el negro (#282828) proporcionan una base neutra que es esencial para la estructura inicial del diseño. Estos colores permiten trabajar de manera eficiente en la maquetación sin que los detalles de color final distraigan del propósito de la funcionalidad.
+
+Los Alert Colors han sido seleccionados para garantizar que las notificaciones y alertas sean de rápida comprensión. El azul (#0397D3) para enlaces e información, el verde (#38C976) para éxito, el amarillo (#FFB84D) para advertencias, y el rojo (#FE5050) para errores aseguran que cada tipo de alerta sea inmediatamente identificable.
+
+#### Tipografía
+<div style="display: grid; justify-content: center; align-items: center;">
+<img src = "img/4/typography.png" width="600px">
+</div>
+La tipografía seleccionada para WorkShop N-GINE es Roboto, un tipo de letra ampliamente utilizado en el diseño moderno por su versatilidad y claridad. Roboto es una fuente de Google que combina un estilo limpio, lo que facilita la legibilidad tanto en tamaños grandes como pequeños.
+
+En cuanto al tono de comunicación, el uso de Roboto en varias dimensiones de peso y tamaño permite ajustar el tono visual de la interfaz de acuerdo con las necesidades de comunicación del momento. Para un tono más formal y serio, los tamaños más grandes y el uso de negritas (como en los encabezados) ayudan a establecer una jerarquía visual clara. En contraste, un tono más casual puede ser alcanzado utilizando tamaños más pequeños o regulares, lo que sugiere accesibilidad sin comprometer la profesionalidad.
+
+Además, la neutralidad de Roboto contribuye a que la comunicación sea respetuosa, al mismo tiempo que puede adaptarse a momentos de entusiasmo o incluso irreverencia si se juega con variaciones en el tamaño, peso y uso del color en el texto. Esta flexibilidad es fundamental para un producto como WorkShop N-GINE, que necesita conectar con diferentes tipos de usuarios en tres contextos variados.
+
+#### Tono de comunicación
+El tono de comunicación adoptará un enfoque serio, formal, respetuoso y sereno. Este tono refuerza la percepción de profesionalismo, que es esencial en un sistema que maneja aspectos críticos de la gestión de talleres automotrices. Asimismo, al mantener una comunicación serena y respetuosa, se busca generar confianza en los usuarios, asegurándoles que están interactuando con una solución técnica avanzada. Además, este tono promueve un ambiente de tranquilidad, alineándose con la misión de ofrecer un servicio de alta calidad.
+
 ### 4.1.2. Web Style Guidelines
+
+#### Componentes
+#### Menú desplegable de perfil
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/menu-desplegable-perfil.png" width="300px">
+</div>
+<br>
+El componente es un menú desplegable de perfil en Workshop N-GINE, implementado utilizando el componente "mat-menu" de Angular Material. Ubicado en ambos lados superiores de la pantalla, contiene íconos de usuario que permiten a los usuarios acceder y modificar su información de cuenta. Al hacer clic en estos íconos, se despliega un panel emergente donde se muestran diversas opciones y configuraciones relacionadas con el perfil del usuario.
+
+#### Header
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/header.png" width="400px">
+</div>
+<br>
+El componente es una barra de navegación implementada con mat-toolbar, que incluye íconos de perfil con menús desplegables mediante mat-menu en ambos extremos. Estos permiten al usuario acceder a opciones de cuenta y configuraciones, manteniendo un diseño simple y funcional.
+
+#### Rectangular buttons
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/back-next.png" width="300px">
+</div>
+<br>
+El componente es un botón de acción principal, sera implementado con mat-button de Angular Material. Su diseño minimalista permite realizar acciones clave, como enviar formularios o confirmar procesos, manteniendo una apariencia clara y funcional.
+
+#### Circular buttons
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/delete-edit.png" width="170px">
+</div>
+<br>
+El componente es un conjunto de botones de acción implementado con mat-button y mat-icon de Angular Material. Incluye opciones para eliminar, editar, cancelar y confirmar operaciones, permitiendo al usuario ejecutar las tareas vinculadas de manera intutitva
+
+#### Campo de búsqueda
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/input.png" width="170px">
+</div>
+<br>
+El componente es un campo de búsqueda implementado con mat-form-field y mat-icon. Permite al usuario realizar búsquedas dentro de la aplicación de manera clara y eficiente, con un diseño minimalista que incluye un ícono de lupa.
+
+#### Input con label
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/input-label-form.png" width="350px">
+</div>
+<br>
+El componente es un campo de entrada de texto, sera implementado con mat-form-field de Angular Material. Se utilizara dentro de un formulario para capturar información de manera clara y funcional.
+
+#### Sección de atajos
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/atajo.png" width="200px">
+</div>
+<br>
+El componente es una sección de atajos implementada con `Card` y `Button` de PrimeVue. Facilita el acceso rápido a funciones importantes de la plataforma, como la creación de clientes y la programación de citas, permitiendo acciones rápidas y eficientes con botones claramente definidos.
+
+#### User card
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/user-cards.png" width="150px">
+</div>
+<br>
+El componente es una tarjeta de perfil de usuario, diseñado para mostrar información clave sobre el usuario dentro de la plataforma, como el nombre, foto de perfil o roles asociados. Implementado con mat-card de Angular Material, esta tarjeta utiliza un diseño limpio. Este tipo de componente sera ideal para interfaces donde se requiere identificar rápidamente a los usuarios, permitiendo que se despliegue información básica del perfil, o seda acceso a funcionalides relacionadas al usuario. La flexibilidad de mat-card también permite añadir más detalles en futuras expansiones del componente, como botones de acción o información adicional; lo cual sera fundamental en varaciones de la tarjeta por cada usuario.
+
+#### Task card
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/task-card.png" width="170px">
+</div>
+<br>
+Es una tarjeta de tareas para mecánicos, que sera implementada con mat-card. Muestra información clave como el cliente, vehículo, fecha y modalidad del servicio. Asimismo, incluye un enlace para acceder a más detalles de la tarea.
+
+#### Menú desplegable
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/menu-mechanic.png" width="170px">
+</div>
+<br>
+Será implementado con mat-menu de Angular Material. Facilita la navegación ofreciendo acceso rápido a las principales funciones de la plataforma a través de una lista organizada de opciones.
+
+#### Column table
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/column-table.png" width="170px">
+</div>
+<br>
+El componente es una tabla de columnas a implementar con mat-table de Angular Material. Permite organizar datos de manera estructurada, con opciones de ordenación en cada columna mediante flechas desplegables, facilitando la gestión de la información.
+
+#### Notification card
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/notification.png" width="500px">
+</div>
+<br>
+Este componente de tarjeta de notificación puede implementarse utilizando mat-card de Angular Material para estructurar la notificación, y puede complementarse con mat-icon para incluir íconos que refuercen el tipo de alerta o mensaje. El diseño está orientado a destacar información clave para que el usuario gestione las notificaciones de manera eficiente.
+
+#### Resumen de intervención
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/componentes/intervention-summary.png" width="170px">
+</div>
+<br>
+Este componente de resumen de intervención facilita la presentación de información importante como el tipo de intervención, los responsables, y el tiempo invertido en la tarea. El uso de mat-card asegurara una disposición organizada para ofrecer a los usuarios acceso a los resultados de las actividades realizadas.
 
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
 
+Para organizar de manera eficiente y completa nuestra aplicación Workshop N-GINE, utilizaremos jerarquía visual para crear un organizador visual basada en una estructura jerárquica para diseñar un sistema que cumpla con las necesidades del usuario.
+
+***Dueño de Vehículo***
+
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/2/1/Organizador_sistema_duenoVehiculo.png" width="400px">
+</div>
+
+<br>
+
+***Mecánico***
+
+
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/2/1/Organizador_sistema_mecanico.png" width="400px">
+</div>
+
+<br>
+
+***Dueño de Taller***
+
+
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/2/1/Organizador_sistema_duenoTaller.png" width="1000px">
+</div>
+
+
+<br><br>
+Debido a la complejidad se han realizado tres organizadores visuales, uno por cada segmento objetivo. Analizando la organización para el dueño del taller: las secciones principales de esta organización son: Información, Personal, Clientes, Intervención, Obligación, Inventario, Métricas, y Notificaciones. 
+
+
+Cada sección principal puede contener contenidos secundarios, que representan tanto las funcionalidades encargadas de activar eventos, por ejemplo, botones, como secciones secundarias que tienen sus propios contenidos. A modo de ejemplo tenemos la sección "Intervención", la cual tiene varios contenidos secundarios como formato, progreso, etc. Estos son elementos interactivos que en conjunto crear la sección "intervención". Existe un contenido secundario "Intervención X", que hace referencia a cuando se presiona una intervención dentro de la sección. Esto es una sección secundaria ya que al presionarlo genera una nueva sección con varios contenidos secundarios en ella.
+
+También existen contenidos secundarios con los que se puede interactuar mediante la misma validación pero con diferentes condiciones que provoca distintos eventos. Estos contenidos secundarios aparecen con el color verde.
+
+En Workshop N-GINE, utilizaremos esquemas de categorización de contenido para optimizar la experiencia del usuario por defecto, sin necesidad de que el usuario realice una acción de búsqueda o filtrado previa, lo cual agilizará la gestión de datos que tenga que realizar el usuario. Las categorizaciones de contenido utilizadas son las siguientes:
+
+**Alfabético:** Utilizada para ordenar los clientes, personal, y el inventario. Permite al usuario buscar de una forma cómoda datos en los cuales el nombre es un elemento principal. 
+
+**Cronológico:** Utilizada para ordenar las intervenciones, obligaciones, y notificaciones. Permite al usuario buscar datos en los cuales la fecha resulta una prioridad.
+
 ### 4.2.2. Labeling Systems
+
+La interfaz de nuestra aplicación debe ser eficiente, pero también clara y sencilla para el usuario. Por ello las etiquetas utilizadas en nuestra aplicación deben de ser capaces de explicar en la menor cantidad de palabras su funcionalidad. Por ello hemos diseñado etiquetas para la navegación principal para las tres versiones de nuestra aplicación:
+
+***Dueño del taller***
+
+**Información:** Acceso a la información general del taller mecánico automotriz, con botones para editar, guardar y cancelar cambios.
+
+**Personal:** Acceso a la información del personal que trabaja en el taller.
+
+**Clientes:** Acceso a los datos de los clientes actuales del taller incluyendo su información general y  datos de sus vehículos.
+
+**Intervención:** Acceso a las herramientas para visualizar las intervenciones que se están realizando en el taller junto con sus datos generales y sus estados de cumplimiento y/o crear nuevas intervenciones.
+
+**Obligación:** Acceso a las intervenciones ya asignadas al personal según nivel de responsabilidad, las cuales se convierten en obligaciones. 
+
+**Inventario:** Acceso al inventario del taller.
+Métricas: Acceso a las métricas sobre el rendimiento del taller.
+
+**Notificaciones:** Acceso a la lista de notificaciones para el usuario.
+
+***Mecánico***
+
+**Obligación:** Acceso a las intervenciones ya asignadas al personal según nivel de responsabilidad, las cuales se convierten en obligaciones. 
+
+**Notificaciones:** Acceso a la lista de notificaciones para el usuario.
+
+***Dueño de vehículo***
+
+**Vehículos:** Acceso a los vehículos registrados del usuario con información detallada de estos
+
+**Notificaciones:** Acceso a la lista de notificaciones para el usuario.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
+Como desarrolladores de aplicaciones web, valorizamos como nos vemos frente a los motores de búsqueda y buscamos cumplir con SEO (Search Engine Optimizarion), el proceso para mejorar la visibilidad de un sitio web. Para ello utilizamos Meta tags, elementos de html que proveen información personalizada sobre nuestro sitio web. Hemos usado las mismas meta tags tanto para nuestra Landing Page como para nuestra aplicación web, salvo por su contenido en dos meta tags específicos:
+
+**Author:** Procedimiento estándar para definir el autor intelectual del sitio web: “YaraSoftware”
+
+**Viewport:**  Controla la apariencia de la aplicación para que se adapte a diferentes tipos de dispositivos: “width=device-width, initial-scale=1.0”
+
+**Charset:** Define el conjunto de caracteres utilizados: “UTF-8”
+
+**Keywords:**** Define palabras clave que pueden ayudar a ser encontrados por el motor de búsqueda: “taller, mecánico, gestión, automotriz, organizar”
+
+**Tittle:** Define el título con el que será visible en el navegador web como un resultado de búsqueda. La Landing Page y el sitio web tienen diferentes “Tittle”.
+
+**Description:** Provee de una descripción breve de la página que es visible desde el navegador web debajo del título de la página. La Landing Page y el sitio web tienen diferentes “Description”.
+
+***Landing Page***
+
+**Tittle:** “Workshop N-GINE | Gestiona tu taller y clientes en una sola aplicación ”
+
+**Description:** “Conoce nuestra aplicación de gestión de talleres mecánicos automotrices enfocado en brindar una buena experiencia a los talleres y sus clientes.”
+
+***Web Application***
+
+**Tittle:** “Sistema de gestión de taller de mecánica automotriz | Workshop N-GINE”
+
+**Description:** “Workshop N-GINE es una propuesta para todos los dueños de talleres mecánicos automotrices que desean una herramienta que mejore su relación con sus clientes y al mismo tiempo les permita gestionar mejor su taller”
+
 ### 4.2.4. Searching Systems
 
+Nuestras aplicaciones utilizaran sistemas de búsqueda avanzados para facilitar y mejorar la experiencia del usuario. Reconocemos que cuanta más información maneje una aplicación, más difícil le resulta al usuario poder trabajar a un nivel eficiente. Por ello nos hemos enfocado en implementar las siguientes herramientas que permitan a los usuarios manejar estos datos de forma rápida y simple:
+
+**Búsqueda por palabra clave:** El usuario puede ingresar una palabra clave en un buscador y el sistema le mostrará coincidencias. Esta herramienta está implementada en las secciones principales Personal, Clientes, e Intervención.
+
+**Filtro de intervenciones por estado:** El usuario puede apretar cuatro botones con filtros establecidos cuyos nombres son: “Pendientes”, “Progreso”, “Terminados”, “Todo”. Mediante estos, el usuario es capaz de filtrar y visualizar las intervenciones según su estado de culminación se forma rápida e intuitiva.
+
 ### 4.2.5. Navigation Systems
+
+En Yara Software nos preocupamos por que la navegación resulte lo más eficiente y cómoda para el usuario. La navegación está enfocada en conceptos como la usabilidad para que resulte útil al usuario mediante una interfaz. Hemos utilizado las siguientes técnicas para la Landing Page y la Aplicación:
+
+***Landing Page***
+
+**Barra de Menú superior:** Se mantiene siempre en el superior de la página mientras se desplaza hacia abajo. Tiene enlaces a las secciones: Conoce más, Beneficios, Testimonios, Nosotros, Plan, Contáctanos.
+
+**Scroll Down Interactivo:** Al interactuar con la página y ser redirigido a secciones de esta se producen transiciones y animaciones suaves.
+
+**Call to Action:** En las secciones Home, Conoce más, y Plan se encuentran botones de “Comenzar” 
+
+***Web Application***
+
+**Navegación principal:** Mediante un menú desplegable que aparece a la izquierda de la página. Contiene botones que redirigen a las secciones principales de la aplicación como por ejemplo Personal, que muestra la información detallada sobre el personal que trabaja en el taller.
+
+**Accesibilidad y Usabilidad:** Utilizamos el enfoque “Responsive Design” para que la navegación se mantenga eficiente al ser utilizada en desktop o dispositivos móviles. Empleamos tamaños de texto y contrastes de color adecuados para que la información de la interfaz se mantenga accesible dependiendo del nivel de habilidad visual del usuario. 
 
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
 
+#### Landing Page para Desktop Web Browser
+
+En primer lugar, se presenta la landing page vista desde un navegador web en escritorio. Esta página incluye secciones importantes para el usuario, donde se destacan los beneficios del producto, los planes de pago disponibles, así como la misión, visión y valores de la startup. Además, se incorpora un apartado que muestra las experiencias de los clientes con la aplicación y un formulario que permite a los usuarios enviar cualquier consulta especifica.
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/desktop/Header.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/desktop/Know-more.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/desktop/Benefits.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/desktop/Testimonials.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/desktop/About-us.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/desktop/Plans.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/desktop/Contact-form.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/desktop/Footer.png" width="1000px">
+</div>
+
+#### Landing Page para Mobile Web Browser
+
+Se presenta ahora la versión de la landing page optimizada para navegadores móviles. Esta mantiene los mismos contenidos que la versión de escritorio, pero adaptados a las proporciones de los dispositivos móviles. Contar con una landing page responsiva es fundamental, ya que facilita a los usuarios el acceso a la misma información sin dificultades, sin importar el dispositivo desde el cual ingresen.
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/mobile/1.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/mobile/2.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/landing-page/mobile/3.png" width="1000px">
+</div>
+
 ### 4.3.2. Landing Page Mock-up
+
+#### Landing Page para Desktop Web Browser
+
+El wireframe de la landing page para la vista en navegador de escritorio fue útil para estructurar la disposición de los elementos. Con este esquema en mano, se desarrolló el mock-up de la página, manteniendo los mismos contenidos previamente descritos. En la siguiente imagen se puede observar cómo se aplicaron la paleta de colores primarios y secundarios, así como la tipografía previamente definida.
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/desktop/Header.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/desktop/Know-more.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/desktop/Benefits.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/desktop/Testimonials.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/desktop/About-us.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/desktop/Plans.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/desktop/Contact-form.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/desktop/Footer.png" width="1000px">
+</div>
+
+
+#### Landing Page para Mobile Web Browser
+
+
+La versión mock-up de la landing page para navegadores móviles incorpora los mismos elementos descritos anteriormente. Se observa que el contraste de colores entre el fondo y el texto, junto con la tipografía elegida, garantiza una lectura fácil y comprensible tanto en dispositivos móviles como en escritorio.
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/mobile/1.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/mobile/2.png" width="1000px">
+</div>
+
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mockups/landing-page/mobile/3.png" width="1000px">
+</div>
 
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
+Enlace para acceder al [Figma](https://www.figma.com/design/PqvO9VXswNOC5KVgjpDSql/Sketch?node-id=138-1515&t=UuW8xHide0QWH0vh-1)
+
+### Web Application Wireframes para Desktop Web Browser
+
+#### Wireframes asociados al dueño del taller
+
+#### Iniciar sesión 
+La imagen muestra la pantalla de inicio de sesión para la aplicación Workshop N-GINE. En esta sección, los usuarios pueden ingresar sus credenciales, como correo electrónico y contraseña, para acceder al sistema. Además, ofrece una opción para crear una cuenta nueva en caso de no estar registrado, invitando a los nuevos usuarios a unirse con el mensaje "Hello, Friend!" y un botón para iniciar sesión.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-sign-in.png" width="1000px">
+</div>
+
+#### Crear cuenta 
+Esta imagen muestra la pantalla de creación de cuenta en Workshop N-GINE. Aquí, los usuarios que desean registrarse pueden completar sus datos, como nombre, correo electrónico, contraseña, y nombre del taller, para poder empezar a utilizar la plataforma. El lado izquierdo de la pantalla da la bienvenida a los usuarios recurrentes con el mensaje "Welcome again!" y proporciona la opción de iniciar sesión si ya tienen una cuenta creada.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-sign-up.png" width="1000px">
+</div>
+
+#### Gestión de personal
+En esta vista, se muestra una lista de los empleados registrados en el taller, presentados en formato de tarjetas. Cada tarjeta contiene el nombre del empleado. En la parte superior derecha, el usuario puede agregar nuevos mecánicos utilizando el botón "New mechanic", lo que permite un acceso rápido para añadir personal adicional.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-personal.png" width="1000px">
+</div>
+
+#### Registro de nuevo mecánico
+Esta imagen presenta el proceso de "Registro de nuevo personal" en Workshop N-GINE. Al seleccionar la opción "Nuevo mecánico", el dueño de taller puede ingresar los datos personales del nuevo empleado, como nombre, apellidos, tipo de documento, número de documento, edad y ubicación. Este formulario facilita la adición de nuevos miembros al equipo de trabajo, asegurando que toda la información relevante quede registrada.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-personal-modal-creation.png" width="1000px">
+</div>
+
+#### Editar información de personal
+En esta pantalla se ofrece al dueño del taller la posibilidad de ajustar los detalles de un miembro del equipo. Aquí se pueden editar campos importantes como el nombre, apellidos, documento de identidad, edad y ubicación del empleado. Además, se incluyen botones que permiten actualizar la información o eliminar al mecánico del sistema.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-personal-modal-editing.png" width="1000px">
+</div>
+
+#### Seccion personal vacía
+Cuando no hay personal registrado en el sistema, la pantalla mostrará un mensaje indicando la ausencia de personal. Se incluye un botón "Registrar" en el centro, que permite iniciar el proceso de incorporación del primer miembro del equipo de manera rápida
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-no-personal.png" width="1000px">
+</div>
+
+#### Gestión de clientes
+La imagen muestra la sección "Clients", donde el administrador del taller puede visualizar una lista detallada de los clientes registrados. En esta interfaz, se presentan los datos esenciales como el nombre completo, número de documento, y dirección de correo electrónico de cada cliente. Además, se permite agregar nuevos clientes a través de un botón dedicado. Este sistema simplifica la organización y acceso rápido a la información de los clientes, optimizando la interacción y gestión de los datos de los mismos.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-customers.png" width="1000px">
+</div>
+
+#### Registro de nuevo cliente
+En esta sección se permite al administrador registrar un nuevo cliente mediante un formulario sencillo que solicita datos personales como el nombre, apellidos, tipo y número de documento, así como la edad y ubicación. La opción de registro facilita la inclusión de nuevos clientes en el sistema de manera ágil, permitiendo que el taller mantenga actualizada su base de clientes con toda la información relevante.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-customers-modal-creation .png" width="1000px">
+</div>
+
+#### Información de clientes y vehículos
+
+La imagen muestra una vista con información de clientes y vehículos, donde el administrador puede ver los detalles personales del cliente junto con la información de sus vehículos registrados en el sistema. Este formato ofrece una visión integral, permitiendo al taller gestionar tanto la información del cliente como de los vehículos en un solo lugar, optimizando la fluidez de la información y la eficiencia en el servicio al cliente.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-info-customers.png" width="1000px">
+</div>
+
+#### Registro de nuevo vehículo
+
+El formulario para registrar un nuevo vehículo permite al administrador añadir vehículos a la cuenta del cliente de manera rápida y sencilla. Los campos a llenar incluyen la placa del vehículo, la marca y el modelo. Esto facilita la actualización continua de la base de datos vehicular del taller, mejorando la precisión y el control sobre los vehículos atendidos en el establecimiento.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-info-customers-modal-creation.png" width="1000px">
+</div>
+
+#### Registro de actividades del vehículo
+
+La interfaz de "Registro de Actividades" muestra un resumen visual de las intervenciones o reparaciones realizadas en un vehículo a lo largo del tiempo. Cada intervención incluye su estado, la fecha de realización y un enlace para ver más detalles. Este registro ayuda al taller y al cliente a realizar un seguimiento claro y ordenado del historial de mantenimiento del vehículo, mejorando la transparencia y el servicio brindado.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-customers-car-activities-log.png" width="1000px">
+</div>
+
+#### Información general de intervención
+Esta pantalla presenta información general de intervención, donde el administrador del taller puede visualizar y gestionar los detalles clave de una intervención en curso. Los campos incluyen la modalidad del servicio (reparación o mantenimiento), la fecha programada, el mecánico líder asignado y una descripción opcional. Además, el estado de la intervención se muestra claramente en la parte superior derecha, permitiendo al administrador controlar el progreso o la finalización del servicio. Esta vista es esencial para llevar un seguimiento preciso y efectivo de los trabajos realizados en el taller.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/workshop-owner/activities-log-general-information.png" width="1000px"> </div>
+
+#### Resumen de intervención
+La pantalla "Resumen de Intervención" permite ver el tipo de intervención realizada, junto con un campo de observaciones opcional para anotar detalles adicionales. Además, se presenta una lista de tareas relacionadas con la intervención, cada una con su respectivo estado para facilitar el control de avance. Esta vista está diseñada para que el administrador pueda tener una visión clara y detallada de todo el trabajo realizado en el vehículo, asegurando una correcta trazabilidad de las reparaciones y mantenimientos.<br>
+
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/workshop-owner/activities-log-intervention-summary.png" width="1000px"> </div>
+
+#### Información IoT del vehículo
+
+Esta pantalla permite al administrador y al cliente visualizar el estado técnico de los componentes del vehículo en tiempo real. Cada parte se clasifica según su estado y, en caso de fallos, se proporciona el código de error. Esta funcionalidad permite una gestión más preventiva, ofreciendo datos actualizados que pueden ayudar a anticipar problemas mecánicos y mejorar el mantenimiento preventivo del automóvil.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-customers-car-iot-information.png" width="1000px">
+</div>
+
+#### Vista de intervenciones
+El wireframe muestra la sección "Interventions" que contiene un buscador y filtros de estado (Pendiente, En progreso, Completada, Todas). Se visualiza una tabla con las intervenciones listadas por cliente, auto, modalidad, fecha de registro, fecha de intervención y estado; y un botón permite programar nuevas intervenciones.
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-interventions.png" width="1000px">
+</div>
+
+
+#### Intervención de vehículo
+
+La imagen refleja la interfaz de gestión de una intervención, donde el administrador puede ingresar los detalles generales de la reparación o servicio que se está llevando a cabo. Los campos incluyen la modalidad del servicio, fecha programada, mecánico encargado y una descripción opcional. Esta sección permite al taller gestionar de manera eficiente los servicios realizados, con la posibilidad de modificar y actualizar información sobre la marcha.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-interventions-general-info.png" width="1000px">
+</div>
+
+#### Resumen de intervención
+
+En el resumen de intervención, se puede observar el tipo de trabajo realizado, las observaciones, y las tareas que componen la intervención mecánica. Este apartado brinda un resumen claro y detallado de cada intervención, lo que permite al personal del taller y al cliente visualizar fácilmente las tareas realizadas y el estado de cada una de ellas. Esta transparencia contribuye a un servicio más eficiente y comprensible para todas las partes involucradas.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-interventions-intervention-summary.png" width="1000px">
+</div>
+
+#### Inventario de existencias
+
+En esta pantalla se presenta el inventario de existencias del taller, donde se detallan las partes disponibles, la cantidad en stock y su respectivo límite. El sistema permite realizar un seguimiento detallado de los componentes disponibles, lo que ayuda a mantener el taller abastecido y evita la escasez de productos críticos. Además, se permite eliminar partes innecesarias o que ya no están en stock.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-inventory-stock.png" width="1000px">
+</div>
+
+#### Solicitudes de inventario
+
+La interfaz de "Solicitudes de Inventario" ofrece una vista detallada de las solicitudes de partes o componentes por parte de los mecánicos o administradores del taller. Se incluyen detalles como la cantidad solicitada, la ID de la intervención relacionada, la fecha de la solicitud y observaciones adicionales. Esto facilita la gestión y el control del flujo de materiales dentro del taller, asegurando que se cumplan las demandas en tiempo y forma.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-inventory-requests.png" width="1000px">
+</div>
+
+#### Métricas de intervenciones por día
+
+En la pantalla de "Métricas de intervenciones por día", el administrador puede visualizar el número de intervenciones realizadas en el taller durante cada día de la semana. Esta información es crucial para comprender los picos de demanda y optimizar la planificación de las intervenciones, permitiendo una mejor organización y uso de los recursos disponibles en el taller.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-metrics-1.png" width="1000px">
+</div>
+
+#### Métricas de intervenciones por mes
+
+La imagen refleja las "Métricas de intervenciones por mes", proporcionando una visión más amplia sobre el rendimiento del taller a lo largo de varios meses. Con esta información, el administrador puede detectar patrones de demanda estacionales o fluctuaciones en el volumen de trabajo, permitiendo ajustar la capacidad operativa del taller de manera efectiva.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-metrics-2.png" width="1000px">
+</div>
+
+#### Distribución de vehículos por marca
+
+En esta sección, se presenta un gráfico de torta que muestra la distribución porcentual de los vehículos atendidos en el taller, desglosada por marca. Esta información permite al administrador identificar qué marcas de vehículos son más frecuentes en el taller, lo que puede ayudar en la planificación de inventarios y en la especialización de los servicios ofrecidos.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-metrics-3.png" width="1000px">
+</div>
+
+#### Notificaciones
+
+La pantalla de "Notificaciones" muestra las alertas importantes para el administrador del taller, como recordatorios de citas, actualizaciones de estado de intervenciones, o avisos sobre inventario. Cada notificación incluye la hora y la fecha en la que fue emitida, así como un enlace para ir a la sección correspondiente y gestionar la acción requerida.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireframes/workshop-owner/page-notifications.png" width="1000px">
+</div>
+
+#### Wireframes asociados a los mecánicos
+
+#### Mis tareas
+La sección Mis Tareas está diseñada para que los usuarios tengan un seguimiento detallado de las intervenciones asignadas. A través de una lista organizada, se muestra información clave como el cliente, el vehículo, la modalidad de reparación, el tipo de tarea asignada, y su estado actual.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/page-tasks.png" width="1000px"> </div>
+
+#### Primera etapa de una intervención como lider
+La primera etapa se enfoca en la recopilación de la información general del vehículo y el cliente, junto con un diagnóstico detallado proporcionado por el sistema IoT. En esta vista, se presentan los componentes del vehículo que muestran fallas, así como su estado y los códigos de falla registrados. Esta información es crucial para definir los próximos pasos en el proceso de intervención.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/page-leader-step-1.png" width="1000px"> </div>
+
+#### Segunda etapa de una intervención como lider
+En esta fase, Diagnóstico y preparación, los mecánicos asignados pueden visualizar y distribuir las tareas necesarias para completar la intervención. También se muestra el diagnóstico del vehículo, donde se identifica el tipo de reparación necesario y se pueden añadir observaciones específicas. Los mecánicos pueden gestionar las tareas distribuidas a cada uno para asegurar un control preciso del trabajo.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/page-leader-step-2.png" width="1000px"> </div>
+
+#### Tercera etapa, Ejecución
+En la fase de Ejecución, el progreso de las tareas asignadas se puede revisar de manera estructurada. Los mecánicos pueden agregar puntos de control para marcar las tareas finalizadas, así como solicitar repuestos específicos para completar la intervención.
+##### Tercera etapa para mecánico lider
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/page-leader-step-3.png" width="1000px"> </div>
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/page-leader-step-3-tracking.png" width="1000px"> </div>
+
+##### Tercera etapa para mecánico asignado
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/page-assigned-step-2.png" width="1000px"> </div>
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/page-assigned-step-2-tracking.png" width="1000px"> </div>
+
+#### Cuarta etapa, supervisión
+En la fase final de Supervisión, se realiza un seguimiento del estado de todas las tareas completadas y pendientes. El jefe de taller o mecánico líder puede verificar que todas las intervenciones se hayan realizado de manera correcta y según lo planeado. Además, se muestra un resumen del tiempo total avanzado, lo que permite una evaluación de la eficiencia en el proceso de reparación.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/page-leader-step-4.png" width="1000px"> </div>
+
+#### Información general de intervención
+Esta pantalla presenta información general de intervención, donde el administrador del taller puede visualizar y gestionar los detalles clave de una intervención en curso. Los campos incluyen la modalidad del servicio (reparación o mantenimiento), la fecha programada, el mecánico líder asignado y una descripción opcional. Además, el estado de la intervención se muestra claramente en la parte superior derecha, permitiendo al administrador controlar el progreso o la finalización del servicio. Esta vista es esencial para llevar un seguimiento preciso y efectivo de los trabajos realizados en el taller.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/step-1-activitie-log-general-information.png" width="1000px"> </div>
+
+#### Resumen de intervención
+La pantalla "Resumen de Intervención" permite ver el tipo de intervención realizada, junto con un campo de observaciones opcional para anotar detalles adicionales. Además, se presenta una lista de tareas relacionadas con la intervención, cada una con su respectivo estado para facilitar el control de avance. Esta vista está diseñada para que el administrador pueda tener una visión clara y detallada de todo el trabajo realizado en el vehículo, asegurando una correcta trazabilidad de las reparaciones y mantenimientos.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/step-1-activitie-log-interview-summary.png" width="1000px"> </div>
+
+#### Notificaciones
+La sección Notificaciones ofrece un resumen rápido de las actualizaciones importantes para el equipo de trabajo. Desde recordatorios sobre intervenciones hasta cambios en las tareas asignadas, los mecánicos lideres y asignados pueden mantenerse informados de cualquier evento relevante. Cada notificación está organizada por fecha y hora para garantizar un flujo de trabajo ágil.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/mechanic-notifications.png" width="1000px"> </div>
+
+#### Wireframes asociados al cliente de taller
+
+#### Vehículos
+En esta sección, los usuarios pueden visualizar una lista de sus vehículos registrados. Cada tarjeta de vehículo muestra información importante como el modelo, la marca, la última revisión y el estado actual de la cita. Si un vehículo tiene una cita pendiente, el usuario podrá notarlo fácilmente y proceder a agendar o verificar más detalles.
+<br> <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/client/page-my-cars.png" width="1000px"> </div>
+
+#### Registro de actividades
+Aquí se pueden observar las intervenciones pasadas realizadas en el vehículo. Cada una está representada en una línea de tiempo, facilitando la identificación rápida de intervenciones completadas. El usuario puede acceder a detalles adicionales de cada intervención y ver los técnicos responsables de cada servicio.
+<br> <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/client/activities-log.png" width="1000px"> </div>
+
+#### Información IoT
+Se incluye un monitoreo en tiempo real del estado de cada componente del vehículo. El sistema IoT detecta y reporta cualquier fallo en los componentes, mostrando los códigos de error asociados y facilitando así el diagnóstico y la reparación del vehículo.
+<br> <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/client/iot-information.png" width="1000px"> </div>
+
+#### Nueva Intervención
+La opción de "Nueva Intervención" permite a los usuarios agendar citas para intervenciones en sus vehículos. El usuario deberá seleccionar la placa del vehículo, la modalidad de servicio, la fecha de la intervención y una descripción opcional para proporcionar más contexto sobre el servicio que se solicita.
+<br> <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/client/new-intervention-modal.png" width="1000px"> </div>
+
+#### Registro Nuevo Carro
+Si un usuario desea añadir un vehículo nuevo, esta opción facilita el registro. El usuario solo necesita proporcionar la placa del vehículo, la marca y el modelo para crear el registro. Posteriormente, el vehículo será visible en la lista principal.
+<br> <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/client/new-car-modal.png" width="1000px"> </div>
+
+#### Detalles de la intervención
+El historial de intervenciones permite al usuario revisar el estado de cada tarea realizada en el vehículo. Se detalla la fecha, el técnico encargado y el estado de la intervención. También se puede visualizar notas relacionadas con la intervención en curso.
+<br> <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/client/activities-log-general-information.png" width="1000px"> </div>
+<br> <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/client/activities-log-intervention-summary.png" width="1000px"> </div>
+
+#### Notificaciones
+La sección Notificaciones ofrece un resumen rápido de las actualizaciones importantes para el cliente. Desde recordatorios sobre intervenciones hasta cambios en el estado del vehículo. Cada notificación está organizada por fecha y hora.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/wireframes/mechanic/mechanic-notifications.png" width="1000px"> </div>
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+Enlace para acceder al [Lucid Chart](https://lucid.app/lucidchart/fb26e9b9-b73b-458c-a066-ce7342dd4275/edit?viewport_loc=-22784%2C-3867%2C43177%2C23208%2C0_0&invitationId=inv_2df26de4-6d0c-46fb-9c95-77201218901e)
+
+#### User goal: Registro de cuenta
+User persona: Dueño de taller
+
+Explicación del flujo: El flujo de registro de cuenta en WorkShop N-GINE comienza con una pantalla de bienvenida que solicita al dueño del taller iniciar sesión o, si no tiene una cuenta, registrarse. Al presionar el botón "Create account", el usuario es redirigido a un formulario donde ingresa su nombre, correo electrónico y contraseña. Tras completar estos datos y hacer clic en "Crear", el usuario es llevado al panel principal de la aplicación, donde puede acceder a secciones clave como Personal, Clientes, Intervenciones, Mis Tareas, Inventario, Métricas y Notificaciones. La primera vista disponible es la sección de Personal vacia.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/1.png" width="1000px">
+</div>
+
+#### User goal: Acceder a la cuenta
+User persona: Dueño de taller, cliente de taller,  mecánico
+
+Explicación del flujo: El flujo de acceso a la cuenta en WorkShop N-GINE comienza en la pantalla de Inicio de sesión, donde el usuario (dueño de taller, mecánico o cliente) ingresa su correo electrónico y contraseña. Si ya tiene una cuenta, hace clic en Login. En caso contrario, puede elegir crear una nueva cuenta mediante el botón de registro. Una vez que el usuario accede, el sistema pregunta cuál es su rol (dueño, mecánico o cliente), lo que determina las funcionalidades a las que podrá acceder. Si es dueño del taller, el usuario es redirigido al panel de Personnel, donde puede gestionar el equipo de trabajo. Si es mecánico o cliente, el flujo lo dirige a la sección correspondiente, como My cars o Tasks.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/2.png" width="1000px">
+</div>
+
+#### Registrar personal
+User persona: Dueño de taller
+
+Explicación del flujo: Para registrar personal en el sistema, el dueño del taller accede a la sección de "Personnel" desde el menú principal. Si no hay personal registrado, se muestra un botón de "Register" en el centro de la pantalla. Si ya existen registros, el usuario puede agregar un nuevo miembro del personal haciendo clic en el botón "New mechanic", ubicado en la esquina superior derecha de la ventana de "Personnel". Al hacer clic, se despliega un formulario emergente que solicita información relevante del nuevo empleado, como nombre, apellidos, tipo y número de documento, edad y ubicación. Una vez que se completan todos los campos requeridos, el dueño del taller selecciona el botón "Crear". El nuevo miembro del personal queda registrado, aparece en la lista de empleados y se muestra un Success message en una ventana emergente.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/3.1.png" width="1000px">
+</div>
+
+#### Registrar cliente
+User persona: Dueño de taller
+
+Explicación del flujo: Para registrar a un cliente en el sistema, el dueño de taller inicia el flujo desde la ventana de "Clients" dentro del sistema. Desde esta vista, el usuario puede visualizar una lista de los clientes existentes, con información como nombre completo, número de documento y correo electrónico. Para agregar un nuevo cliente, el dueño de taller selecciona el botón "Nuevo cliente" en la esquina superior derecha de la pantalla. Al hacer clic en este botón, se despliega un formulario emergente donde el usuario debe ingresar los datos del nuevo cliente, como nombre, apellidos, tipo de documento, número de documento, edad y ubicación. Una vez completados todos los campos requeridos, el usuario hace clic en el botón "Crear". El nuevo cliente queda registrado en el sistema, su información se refleja en la lista principal de clientes y se muestra un Success message en una ventana emergente.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/3.2.png" width="1000px">
+</div>
+
+#### User Goal: Registrar vehículos de clientes.
+User Persona: Dueño de taller.
+
+Explicación del flujo: El flujo comienza cuando el dueño del taller accede a la interfaz de Clientes y selecciona un cliente específico para visualizar o actualizar la información de sus vehículos. Dentro del perfil del cliente, hay una sección donde se listan los vehículos asociados a dicho cliente, mostrando información relevante como marca, modelo, placa y estado del vehículo.
+
+Para registrar un nuevo vehículo, el dueño del taller hace clic en el botón "Add vehicle". Esto despliega un formulario que solicita información como la marca, el modelo, el número de placa, año de fabricación, y cualquier otra información relevante. Una vez que se ha completado el formulario correctamente, el dueño del taller hace clic en "Create". El sistema valida la información y, si es correcta, el vehículo se asocia automáticamente al cliente correspondiente y aparece en la lista de vehículos registrados. El formulario se cierra, y el dueño del taller puede visualizar el nuevo vehículo en el perfil del cliente.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/21.png" width="1000px">
+</div>
+
+
+#### Visualizar la lista de empleados
+User persona: Dueño de taller
+
+Explicación del flujo: Para visualizar la lista de empleados, el dueño del taller realiza login y accede a la sección de "Personnel" desde el menú principal, ubicado en el lateral izquierdo de la pantalla. Al ingresar a esta sección, se despliega una vista general que muestra todas las tarjetas de los empleados registrados, organizadas en formato de cuadrícula. Cada tarjeta contiene la información básica del empleado, como su nombre. En la parte superior, el dueño del taller cuenta con un campo de búsqueda que le permite filtrar la lista de empleados por palabras clave, facilitando la localización rápida de un empleado específico.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/4.png" width="1000px">
+</div>
+
+#### Manejar información de empleados
+User persona: Dueño de taller
+
+Explicación del flujo: el dueño del taller accede a la sección de "Personnel" desde el menú principal. En esta pantalla se despliegan las tarjetas de los empleados registrados. Al seleccionar una tarjeta de empleado, se abre un formulario emergente con la información completa del empleado, incluyendo campos como nombre, apellidos, tipo de documento, número de documento, edad y ubicación. El dueño del taller puede editar los datos y luego elegir entre dos opciones: actualizar la información del empleado o eliminarlo del sistema.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/5.png" width="1000px">
+</div>
+
+#### Visualizar lista de clientes.
+User persona: dueño de taller
+
+Explicación del flujo: el dueño del taller accede a la sección de "Clients" desde el menú principal. En esta pantalla se muestra una tabla que incluye información relevante de cada cliente, como su nombre completo, número de documento y correo electrónico. El dueño del taller puede ordenar y filtrar la información utilizando la barra de búsqueda o las flechas desplegables en los encabezados de las columnas. Esto facilita la gestión y consulta rápida de los datos de los clientes registrados en el sistema
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/6.png" width="1000px">
+</div>
+
+#### User Goal: Manejar información de clientes.
+User Persona: Dueño de taller.
+
+Explicación del flujo: el dueño del taller accede a la sección "Clients" desde el menú principal. Una vez en esta vista, selecciona un cliente de la lista, lo que le redirige a una nueva pantalla donde se muestran los detalles completos del cliente seleccionado, incluyendo nombre, apellidos, tipo de documento, número de documento, correo electrónico, edad y ubicación. En esta vista, el dueño del taller tiene la opción de guardar los datos modificados del cliente. Además, se muestra una sección donde puede visualizar los vehículos asociados al cliente.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/7.png" width="1000px">
+</div>
+
+#### User goal: Acceder al registro de intervenciones de un carro.
+User persona: Dueño de taller
+
+Explicación de flujo: el usuario comienza desde la interfaz principal del taller y accede a la sección de Clients, donde puede seleccionar un cliente y visualizar su información personal, junto con una lista de los vehículos asociados. Al hacer clic en uno de los vehículos registrados, se despliega una nueva vista con los detalles del vehículo, incluyendo una línea de tiempo que muestra el historial de todas las intervenciones realizadas en ese vehículo, organizadas de manera cronológica.
+
+El usuario puede revisar esta línea de tiempo para obtener una visión general de las intervenciones. Al hacer clic en una intervención específica, se accede a una vista detallada de la intervención, que incluye la modalidad, la fecha programada, los mecánicos asignados, y una descripción del trabajo realizado. Si la intervención ya está finalizada, se muestra con el estado correspondiente en el encabezado. Además, en esta sección, se puede visualizar la secuencia de tareas asignadas y completadas durante la intervención, permitiendo al usuario ver el progreso o el resultado final del trabajo realizado en su vehículo.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/22.1png" width="1000px">
+</div>
+
+#### User goal: : Acceder a información de dispositivo IoT.
+User persona: Dueño de taller
+
+Explicación del flujo: Al seleccionar un cliente específico, se despliega la información personal del cliente, incluyendo los vehículos que tiene asociados. El usuario, dueño de taller, selecciona uno de los vehículos registrados para acceder a su información detallada. Una vez seleccionado el vehículo, el dueño del taller accede a una interfaz donde puede ver el registro de actividades o elegir la opción de "IoT information". Esta última pestaña despliega todos los datos capturados por el dispositivo IoT instalado en el vehículo, proporcionando información detallada sobre los diferentes componentes del auto, su estado actual, y cualquier código de falla detectado. Esta información se presenta de manera clara y organizada, permitiendo que el dueño del taller tenga una visión rápida del estado del vehículo sin necesidad de realizar inspecciones manuales.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/23.1.png" width="1000px">
+</div>
+
+#### User goal: Agendar cita
+User persona: Cliente de taller
+
+Explicación del flujo: El flujo comienza cuando el usuario accede a la pantalla de "Intervenciones" en la cual se muestra una lista de las intervenciones actuales, organizadas en categorías como pendientes, en progreso, y terminadas. Para agendar una nueva intervención, el usuario hace clic en el botón "Sechedule intervention". Esto abre un formulario donde el usuario puede ingresar los datos requeridos, como el número de documento del cliente, la placa del vehículo, la modalidad de intervención, la fecha, el mecánico líder asignado, y una descripción opcional. Una vez que el formulario está completo, el usuario hace clic en "Schedule" para confirmar la cita. Si los campos ingresados son correctos, se registra la intervención y se muestra un mensaje de éxito indicando que la cita fue agendada con éxito. Finalmente, la nueva intervención se añade automáticamente a la lista de intervenciones en la pantalla principal. 
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/24.1.png" width="1000px">
+</div>
+
+
+#### User Goal: Visualizar intervenciones
+User Persona: Dueño de taller.
+
+Explicación del flujo: el dueño del taller accede a la sección "Interventions" desde el menú principal. Al cargar esta interfaz, se muestra una lista de todas las intervenciones registradas, con información relevante como el cliente, el auto, la modalidad del servicio, la fecha de registro, la fecha de intervención, y el estado de la misma (pendiente, en progreso, o terminada). El usuario puede utilizar la barra de búsqueda para filtrar intervenciones por palabras clave, lo que le permite encontrar intervenciones específicas más rápidamente. También tiene la opción de filtrar por estado de la intervención utilizando los botones de estado en la parte superior de la lista (pendientes, en progreso, terminadas, o todas). Si lo desea, puede ordenar las intervenciones al hacer clic en cualquiera de los campos de la tabla, como el nombre del cliente, el auto, o las fechas.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/8.png" width="1000px">
+</div>
+
+#### User Goal: Gestionar intervenciones
+User Persona: Dueño de taller.
+
+Explicación del flujo: el dueño del taller accede a la sección de "Intervenciones" desde el menú principal, donde puede visualizar todas las intervenciones registradas, ya sea pendientes, en progreso o terminadas. Al hacer clic en "Agendar intervención", se despliega un formulario para crear una nueva intervención. En este formulario, el dueño del taller debe completar información del cliente, como el número de documento, la placa del vehículo, la modalidad del servicio, la fecha de la intervención, el mecánico líder, y una descripción del servicio. Una vez completado el formulario y validada la información, el usuario puede hacer clic en "Agendar" para registrar la intervención. Esta nueva intervención aparecerá automáticamente en la lista con el estado "pendiente", facilitando la organización de las tareas y la asignación de responsabilidades a los mecánicos del taller. 
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/9.png" width="1000px">
+</div>
+
+#### User Goal: Visualizar detalles de intervención
+User Persona: Dueño de taller.
+Explicación del flujo: El flujo comienza cuando el dueño de taller accede a la lista de intervenciones pendientes, en progreso o terminadas. Al hacer clic en una intervención específica, se despliega una vista detallada que contiene dos pestañas principales: "General information" y "Intervention summary" En la pestaña "General information" el dueño de taller puede ver todos los datos clave de la intervención, tales como el cliente asociado, la placa del vehículo, la marca y modelo del auto, la modalidad del servicio (por ejemplo, reparación o mantenimiento), la fecha programada y el mecánico líder a cargo. Además, puede agregar observaciones opcionales relacionadas con la intervención en curso. En la pestaña "Intervention summary" se presenta un desglose de las tareas asignadas al equipo de mecánicos. El dueño de taller puede revisar el tipo de intervención y las observaciones relevantes del trabajo, así como una lista detallada de las tareas completadas y pendientes. Cada tarea está etiquetada con el nombre del mecánico asignado y el estado correspondiente (completado o pendiente), lo que permite una supervisión efectiva del progreso.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/10.png" width="1000px">
+</div>
+
+### User Goal: Gestionar solicitudes de inventario
+User persona: dueño de taller
+Explicación del flujo: En el flujo de gestión de solicitudes de inventario, el dueño del taller accede a la sección de "Inventory" desde el menú lateral, donde puede visualizar dos pestañas principales: "Stock" y "Requests". Al entrar en la pestaña de "Requests", el dueño del taller visualiza todas las solicitudes realizadas por los mecánicos, mostrando información clave como el nombre de la parte solicitada, la cantidad requerida, el nombre del mecánico solicitante, y la fecha de solicitud. El dueño puede seleccionar una o más solicitudes pendientes para resolverlas. Al hacer clic en el botón de "Resolve request", que es una checkbox, y a posterior se presiona el icono representativo de "Save", las solicitudes seleccionadas desaparecen de la lista y se notifica a los mecánicos correspondientes que las piezas solicitadas han sido aprobadas o resueltas. El flujo también permite ordenar las solicitudes por diferentes criterios, como nombre de la pieza o cantidad solicitada, facilitando la gestión eficiente del inventario y asegurando que el taller cuente con los repuestos necesarios para las intervenciones pendientes.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/11.png" width="1000px">
+</div>
+
+#### User goal: Obtener métricas de rendimiento.
+User Persona: Dueño de taller.
+
+Explicación del flujo: Comienza en la interfaz de Metrics, a la cual el usuario accede desde el menú principal. En esta pantalla, el dueño de taller puede visualizar gráficos con datos clave que muestran el rendimiento de su negocio. El primer gráfico presenta el número de intervenciones por día, permitiendo al usuario identificar los días más ocupados en el taller y, por lo tanto, optimizar la distribución de recursos. Al seleccionar diferentes opciones en el menú desplegable, el dueño puede cambiar la visualización a intervenciones por mes, lo que proporciona una visión a largo plazo del rendimiento del taller. Finalmente, el usuario también puede consultar gráficos de distribución porcentual de vehículos por marca, lo que le permite analizar las marcas de vehículos que más frecuentemente son atendidas.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/13.png" width="1000px">
+</div>
+
+#### User goal: Recibir notificaciones
+User Persona: Dueño de taller, mecánico, cliente de taller
+
+Explicación del flujo: En el flujo de recibir notificaciones, el usuario accede a la sección de "Notifications" desde el menú lateral. Al cargar la interfaz, se muestran todas las notificaciones que ha recibido, con información relevante como la fecha, la hora, el evento relacionado y un vínculo que lo lleva a la sección correspondiente. Las notificaciones están dispuestas en tarjetas individuales, organizadas en una lista vertical, lo que facilita la visualización cronológica de los eventos importantes. Si el usuario desea obtener más detalles sobre una notificación, puede hacer clic en el vínculo de "Ve a la sección", lo que lo redirige a la interfaz correspondiente dentro de la aplicación, permitiéndole tomar acciones o revisar información relacionada con la notificación recibida.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/14.png" width="1000px">
+</div>
+
+#### User Goal: Visualizar tareas pendientes como mecánico lider 
+User Persona: Mecánico.
+
+Explicación del flujo: En el flujo de visualización de tareas pendientes como mecánico líder, el usuario, que es un mecánico, accede a la sección "My Tasks" desde el menú lateral de la aplicación. Al ingresar, se carga una tabla con las tareas pendientes en las que el mecánico es líder, organizadas con campos como identificador de tarea, cliente, auto, fecha, modalidad, tipo de tarea y estado. Si el mecánico desea más información sobre alguna tarea específica, puede hacer clic en la tarea, lo que lo lleva a una pantalla detallada de la intervención. En esta pantalla, se despliegan las secciones clave como la información general del cliente y el vehículo, los detalles del diagnóstico y preparación, la ejecución de la intervención, y la supervisión de los procesos. Este flujo permite al mecánico tener una visión clara de sus responsabilidades, ayudando a gestionar de manera eficiente las intervenciones pendientes bajo su liderazgo.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/15.png" width="1000px">
+</div>
+
+#### User Goal: Visualizar tareas pendientes como mecánico asistente
+User Persona: Mecánico.
+
+Explicación del flujo: El mecánico accede a la sección My Tasks desde el menú lateral de la aplicación. Al ingresar, se carga una tabla con todas las tareas asignadas al mecánico, organizadas con campos como identificador de tarea, cliente, auto, fecha, modalidad, tipo de tarea y estado. El mecánico puede identificar fácilmente las tareas pendientes, ya que están claramente etiquetadas como "pendientes" o "en progreso". Si el mecánico necesita más detalles sobre alguna tarea específica, puede hacer clic en la tarea, lo que lo redirige a una pantalla detallada de la intervención. En esta pantalla, se despliega la información general del cliente y del vehículo, así como la etapa de ejecución de la intervención. 
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/16.png" width="1000px">
+</div>
+
+#### User goal: Consultar información de intervención
+User persona: Mecánico
+
+Explicación de flujo: En este flujo de consulta de información de intervención, el mecánico comienza en la interfaz de "My Tasks" donde se despliega una lista de intervenciones asignadas. Al seleccionar una intervención específica, el mecánico es redirigido a una pantalla con la información detallada de la intervención. Esta pantalla contiene varias secciones clave. En primer lugar, la "General information", que incluye detalles del cliente, el vehículo, la modalidad del servicio, las fechas de registro, inicio y finalización, y una descripción del servicio. A continuación, el mecánico puede acceder a la sección de "IoT information", donde se muestra un resumen del análisis OBD-IoT del vehículo, indicando el estado de los componentes y los códigos de error detectados. Adicionalmente, se presenta una lista de "Intervenciones Anteriores", lo que permite al mecánico revisar registros históricos relacionados con el vehículo. Si desea ver más detalles sobre alguna intervención previa, el mecánico puede hacer clic en "Read more", accediendo a una vista detallada de esa intervención específica. Cuando el mecánico selecciona "Read more" en la lista de intervenciones anteriores, accede a una vista detallada de la intervención específica. Esta vista está diseñada para proporcionar información clave que permita comprender en profundidad lo ocurrido durante la intervención pasada. En la parte superior de la pantalla, se muestran los detalles generales como el tipo de intervención (por ejemplo, reparación o mantenimiento), la fecha en que se realizó y el mecánico responsable de dicha intervención. En la sección de detalles técnicos, el mecánico puede ver un desglose de las tareas realizadas durante esa intervención, con información sobre los componentes del vehículo que fueron diagnosticados o reemplazados, junto con el estado final de esos componentes (por ejemplo, "reparado", "reemplazado", "sin cambios"). Si durante la intervención se detectaron códigos de error específicos mediante el sistema OBD-IoT, también se muestran estos códigos junto con su descripción, ayudando al mecánico a entender el problema que se atendió. Adicionalmente, se proporciona un campo de observaciones, donde el mecánico anterior pudo haber registrado notas importantes o recomendaciones para intervenciones futuras. Esto es especialmente útil para dar seguimiento a posibles problemas recurrentes o recomendaciones de mantenimiento preventivo.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/17.png" width="1000px">
+</div>
+
+#### User goal: Modelar diagnóstico de intervención.
+User Persona: Mecánico.
+
+Explicación de flujo: En la interfaz de diagnóstico y preparación de una intervención, el mecánico líder tiene la capacidad de modelar el diagnóstico de la intervención. Este flujo comienza con la visualización de las tareas asignadas para la intervención. El sistema carga la lista de tareas que se deben realizar, cada una de ellas asociada a un mecánico asignado. Si el mecánico desea añadir una nueva tarea, puede hacerlo completando un campo de texto con la descripción de la tarea, seleccionando un mecánico responsable y haciendo clic en el botón "Add". Esto añadirá la tarea a la lista y restablecerá el campo de texto para que pueda añadir otra tarea de manera inmediata. El flujo también incluye opciones para guardar los cambios realizados en las tareas. Al hacer clic en el icono de "Guardar cambios", el sistema registrará las modificaciones realizadas y mostrará un mensaje de éxito ("Changes saved"), confirmando que las tareas actualizadas han sido guardadas correctamente en el sistema.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/18.png" width="1000px">
+</div>
+
+#### User goal: Controlar ejecución de tareas
+User persona: Mecánico
+
+Explicación de flujo: El flujo comienza en la pestaña "Part request" dentro de la interfaz de ejecución de la intervención. Al ingresar, el mecánico tiene acceso a una lista de solicitudes de repuestos necesarios para completar las tareas asignadas a la intervención. Cada solicitud incluye detalles como el nombre del mecánico solicitante, el repuesto requerido, la cantidad solicitada y el estado actual de la solicitud.
+
+En esta etapa, el mecánico puede agregar nuevas solicitudes de repuestos mediante un formulario que permite seleccionar el repuesto necesario, verificar la cantidad disponible en el inventario, y definir la cantidad requerida. Una vez completada la información, el mecánico puede hacer clic en "Add" para incluir la nueva solicitud a la lista.
+
+Además, el mecánico tiene la opción de actualizar el estado de las solicitudes ya existentes. Puede seleccionar una o varias solicitudes, y luego hacer clic en "Save changes" para confirmar que los repuestos solicitados han sido gestionados. Esto también notifica a los mecánicos correspondientes que las piezas solicitadas están disponibles, permitiendo continuar con las tareas asignadas.
+
+Si el mecánico realiza cambios pero decide revertirlos antes de guardarlos, puede hacer clic en "Redone", lo que restaurará la lista de solicitudes al estado previo antes de las modificaciones. Una vez que todas las solicitudes de repuestos hayan sido atendidas, el mecánico puede proceder al seguimiento del avance de la intervención o continuar con la ejecución de las tareas pendientes.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/19.png" width="1000px">
+</div>
+
+#### User goal: Verificar cumplimiento de tareas
+User persona: Mecánico
+
+Explicación del flujo: El flujo comienza en la pestaña de Execution dentro de una intervención. En esta etapa, el mecánico líder accede al seguimiento de las tareas asignadas y revisa su estado. A medida que las tareas son completadas por los mecánicos asignados, el estado de cada tarea se actualiza en tiempo real, mostrando si están en progreso, pendientes o finalizadas. Una vez que todas las tareas en la pestaña de Execution han sido completadas, el mecánico líder puede pasar a la pestaña de Supervisión, que ofrece una visión más detallada del progreso total de la intervención. En esta pestaña, se muestra un resumen de todas las tareas realizadas, los tiempos registrados y el estado final de cada una. Si todas las tareas han sido completadas con éxito, el sistema habilita el botón "End" en la parte superior. Al hacer clic en este botón, el mecánico líder puede finalizar la intervención, lo que cambia su estado a "Finalizada" en todo el sistema. Finalmente, el sistema redirige al usuario a la ventana de tareas.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/20.png" width="1000px">
+</div>
+
+#### User Goal: Registrar su propio vehículo.
+User Persona: cliente de taller.
+
+Explicación del flujo: El flujo inicia cuando el dueño del carro, como cliente del taller, accede a su perfil dentro de la aplicación y navega a la sección de My cars. Si ya tiene vehículos registrados, se despliega una lista que muestra detalles de cada vehículo como marca, modelo, placa, estado de mantenimiento, entre otros.
+
+Si el dueño del carro desea agregar un nuevo vehículo, hace clic en el botón "Add vehicle", lo que abre un formulario para introducir la información del nuevo vehículo, como marca, modelo, número de placa, año de fabricación y otros detalles necesarios. Una vez que el cliente ha llenado todos los campos obligatorios correctamente, hace clic en "Register". El sistema valida la información ingresada, y si todo está en orden, el nuevo vehículo se agrega a la lista de vehículos registrados del cliente. El formulario se cierra automáticamente, y el cliente puede ver el nuevo vehículo registrado en su sección de My cars, con la opción de monitorear su estado o programar futuras intervenciones en el taller.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/21.2.png" width="1000px">
+</div>
+
+#### User goal: Acceder al registro de intervenciones de un carro.
+User persona: Cliente de taller
+
+Explicación de flujo: el usuario comienza desde la vista principal de sus vehículos registrados. Puede seleccionar uno de sus vehículos para visualizar su información detallada y el historial de intervenciones. Una vez seleccionado el vehículo, se despliega una nueva interfaz que muestra una línea de tiempo cronológica con todas las intervenciones asociadas al vehículo, permitiendo al usuario ver rápidamente un resumen de cada intervención, como la fecha y el tipo de servicio realizado.
+
+Al hacer clic en una intervención específica dentro de esta línea de tiempo, el usuario accede a los detalles completos de la intervención. En esta vista detallada, se muestra toda la información relevante de la intervención, como la modalidad, la fecha programada, el mecánico líder, las observaciones adicionales, y el estado de la intervención. Además, el usuario puede acceder a un resumen de las tareas ejecutadas durante la intervención, con un desglose de las tareas y su estado actual.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/22.2.png" width="1000px">
+</div>
+
+#### User goal: : Acceder a información de dispositivo IoT.
+User persona: Cliente de taller
+
+Explicación del flujo: El flujo comienza cuando el cliente del taller accede a la pantalla de "My cars", donde puede visualizar los autos que ha registrado, junto con información básica como la fecha de la última revisión y cualquier cita pendiente. Al seleccionar uno de los vehículos, el cliente es dirigido a una nueva pantalla que ofrece dos opciones: "Activities log", que muestra el historial de intervenciones, y "IoT information", que permite consultar el estado actual del vehículo. Al elegir "Información IoT", se despliega un panel con el estado de los distintos componentes del automóvil, acompañado de los códigos de error que han sido generados por el sistema. Esta información permite al cliente evaluar rápidamente el estado de su vehículo y, si es necesario, tomar la decisión de agendar una cita para mantenimiento o reparación. 
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/23.2.png" width="1000px">
+</div>
+
+#### User goal: Agendar cita
+User persona: Cliente de taller
+
+Explicación del flujo: El flujo para agendar una cita como cliente de taller comienza en la pantalla de detalles del vehículo, asociada a la opción My cars, donde el usuario visualiza el historial de intervenciones y la información IoT. El usuario selecciona el vehículo correspondiente y accede a la opción "Schedule appointment". Al hacer clic, se despliega un formulario donde el usuario debe ingresar la información relevante, como la placa del vehículo, la modalidad de la intervención (por ejemplo, reparación o mantenimiento), la fecha deseada y una descripción opcional de la intervención. Una vez que el usuario completa el formulario, hace clic en el botón "Schedule". Si los datos son correctos, la cita se registra en el sistema y se muestra un mensaje de éxito que indica que la cita ha sido agendada correctamente.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/wireflows/24.2.png" width="1000px">
+</div>
+
 ### 4.4.3. Web Applications Mock-ups
+Enlace para acceder al [Figma](https://www.figma.com/design/PqvO9VXswNOC5KVgjpDSql/Sketch?node-id=138-1515&t=UuW8xHide0QWH0vh-1)
+
+### Web Application mock-ups para Desktop Web Browser
+
+#### mock-ups asociados al dueño del taller
+
+#### Iniciar sesión 
+La imagen muestra la pantalla de inicio de sesión para la aplicación Workshop N-GINE. En esta sección, los usuarios pueden ingresar sus credenciales, como correo electrónico y contraseña, para acceder al sistema. Además, ofrece una opción para crear una cuenta nueva en caso de no estar registrado, invitando a los nuevos usuarios a unirse con el mensaje "Hello, Friend!" y un botón para iniciar sesión.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mock-ups/workshop-owner/page-sign-in.png" width="1000px">
+</div>
+
+#### Crear cuenta 
+Esta imagen muestra la pantalla de creación de cuenta en Workshop N-GINE. Aquí, los usuarios que desean registrarse pueden completar sus datos, como nombre, correo electrónico, contraseña, y nombre del taller, para poder empezar a utilizar la plataforma. El lado izquierdo de la pantalla da la bienvenida a los usuarios recurrentes con el mensaje "Welcome again!" y proporciona la opción de iniciar sesión si ya tienen una cuenta creada.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mock-ups/workshop-owner/page-sign-up.png" width="1000px">
+</div>
+
+#### Gestión de personal
+En esta vista, se muestra una lista de los empleados registrados en el taller, presentados en formato de tarjetas. Cada tarjeta contiene el nombre del empleado. En la parte superior derecha, el usuario puede agregar nuevos mecánicos utilizando el botón "New mechanic", lo que permite un acceso rápido para añadir personal adicional.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mock-ups/workshop-owner/page-personal.png" width="1000px">
+</div>
+
+#### Registro de nuevo mecánico
+Esta imagen presenta el proceso de "Registro de nuevo personal" en Workshop N-GINE. Al seleccionar la opción "Nuevo mecánico", el dueño de taller puede ingresar los datos personales del nuevo empleado, como nombre, apellidos, tipo de documento, número de documento, edad y ubicación. Este formulario facilita la adición de nuevos miembros al equipo de trabajo, asegurando que toda la información relevante quede registrada.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mock-ups/workshop-owner/page-personal-modal-creation.png" width="1000px">
+</div>
+
+#### Editar información de personal
+En esta pantalla se ofrece al dueño del taller la posibilidad de ajustar los detalles de un miembro del equipo. Aquí se pueden editar campos importantes como el nombre, apellidos, documento de identidad, edad y ubicación del empleado. Además, se incluyen botones que permiten actualizar la información o eliminar al mecánico del sistema.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mock-ups/workshop-owner/page-personal-modal-editing.png" width="1000px">
+</div>
+
+#### Seccion personal vacía
+Cuando no hay personal registrado en el sistema, la pantalla mostrará un mensaje indicando la ausencia de personal. Se incluye un botón "Registrar" en el centro, que permite iniciar el proceso de incorporación del primer miembro del equipo de manera rápida
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mock-ups/workshop-owner/page-no-personal.png" width="1000px">
+</div>
+
+#### Gestión de clientes
+La imagen muestra la sección "Clients", donde el administrador del taller puede visualizar una lista detallada de los clientes registrados. En esta interfaz, se presentan los datos esenciales como el nombre completo, número de documento, y dirección de correo electrónico de cada cliente. Además, se permite agregar nuevos clientes a través de un botón dedicado. Este sistema simplifica la organización y acceso rápido a la información de los clientes, optimizando la interacción y gestión de los datos de los mismos.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mock-ups/workshop-owner/page-customers.png" width="1000px">
+</div>
+
+#### Registro de nuevo cliente
+En esta sección se permite al administrador registrar un nuevo cliente mediante un formulario sencillo que solicita datos personales como el nombre, apellidos, tipo y número de documento, así como la edad y ubicación. La opción de registro facilita la inclusión de nuevos clientes en el sistema de manera ágil, permitiendo que el taller mantenga actualizada su base de clientes con toda la información relevante.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mock-ups/workshop-owner page-customers-modal-creation.png" width="1000px">
+</div>
+
+#### Información de clientes y vehículos
+
+La imagen muestra una vista con información de clientes y vehículos, donde el administrador puede ver los detalles personales del cliente junto con la información de sus vehículos registrados en el sistema. Este formato ofrece una visión integral, permitiendo al taller gestionar tanto la información del cliente como de los vehículos en un solo lugar, optimizando la fluidez de la información y la eficiencia en el servicio al cliente.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mock-ups/workshop-owner/page-info-customers.png" width="1000px">
+</div>
+
+#### Registro de nuevo vehículo
+
+El formulario para registrar un nuevo vehículo permite al administrador añadir vehículos a la cuenta del cliente de manera rápida y sencilla. Los campos a llenar incluyen la placa del vehículo, la marca y el modelo. Esto facilita la actualización continua de la base de datos vehicular del taller, mejorando la precisión y el control sobre los vehículos atendidos en el establecimiento.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mock-ups/workshop-owner/page-info-customers-modal-creation.png" width="1000px">
+</div>
+
+#### Registro de actividades del vehículo
+
+La interfaz de "Registro de Actividades" muestra un resumen visual de las intervenciones o reparaciones realizadas en un vehículo a lo largo del tiempo. Cada intervención incluye su estado, la fecha de realización y un enlace para ver más detalles. Este registro ayuda al taller y al cliente a realizar un seguimiento claro y ordenado del historial de mantenimiento del vehículo, mejorando la transparencia y el servicio brindado.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mock-ups/workshop-owner/page-customers-car-activities-log.png" width="1000px">
+</div>
+
+#### Información general de intervención
+Esta pantalla presenta información general de intervención, donde el administrador del taller puede visualizar y gestionar los detalles clave de una intervención en curso. Los campos incluyen la modalidad del servicio (reparación o mantenimiento), la fecha programada, el mecánico líder asignado y una descripción opcional. Además, el estado de la intervención se muestra claramente en la parte superior derecha, permitiendo al administrador controlar el progreso o la finalización del servicio. Esta vista es esencial para llevar un seguimiento preciso y efectivo de los trabajos realizados en el taller.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/workshop-owner/activities-log-general-information.png" width="1000px"> </div>
+
+#### Resumen de intervención
+La pantalla "Resumen de Intervención" permite ver el tipo de intervención realizada, junto con un campo de observaciones opcional para anotar detalles adicionales. Además, se presenta una lista de tareas relacionadas con la intervención, cada una con su respectivo estado para facilitar el control de avance. Esta vista está diseñada para que el administrador pueda tener una visión clara y detallada de todo el trabajo realizado en el vehículo, asegurando una correcta trazabilidad de las reparaciones y mantenimientos.<br>
+
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/workshop-owner/activities-log-intervention-summary.png" width="1000px"> </div>
+
+#### Información IoT del vehículo
+
+Esta pantalla permite al administrador y al cliente visualizar el estado técnico de los componentes del vehículo en tiempo real. Cada parte se clasifica según su estado y, en caso de fallos, se proporciona el código de error. Esta funcionalidad permite una gestión más preventiva, ofreciendo datos actualizados que pueden ayudar a anticipar problemas mecánicos y mejorar el mantenimiento preventivo del automóvil.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mock-ups/workshop-owner/page-customers-car-iot-information.png" width="1000px">
+</div>
+
+#### Vista de intervenciones
+El wireframe muestra la sección "Interventions" que contiene un buscador y filtros de estado (Pendiente, En progreso, Completada, Todas). Se visualiza una tabla con las intervenciones listadas por cliente, auto, modalidad, fecha de registro, fecha de intervención y estado; y un botón permite programar nuevas intervenciones.
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mock-ups/workshop-owner/page-interventions.png" width="1000px">
+</div>
+
+
+#### Intervención de vehículo
+
+La imagen refleja la interfaz de gestión de una intervención, donde el administrador puede ingresar los detalles generales de la reparación o servicio que se está llevando a cabo. Los campos incluyen la modalidad del servicio, fecha programada, mecánico encargado y una descripción opcional. Esta sección permite al taller gestionar de manera eficiente los servicios realizados, con la posibilidad de modificar y actualizar información sobre la marcha.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mock-ups/workshop-owner/page-interventions-general-info.png" width="1000px">
+</div>
+
+#### Resumen de intervención
+
+En el resumen de intervención, se puede observar el tipo de trabajo realizado, las observaciones, y las tareas que componen la intervención mecánica. Este apartado brinda un resumen claro y detallado de cada intervención, lo que permite al personal del taller y al cliente visualizar fácilmente las tareas realizadas y el estado de cada una de ellas. Esta transparencia contribuye a un servicio más eficiente y comprensible para todas las partes involucradas.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mock-ups/workshop-owner/page-interventions-intervention-summary.png" width="1000px">
+</div>
+
+#### Inventario de existencias
+
+En esta pantalla se presenta el inventario de existencias del taller, donde se detallan las partes disponibles, la cantidad en stock y su respectivo límite. El sistema permite realizar un seguimiento detallado de los componentes disponibles, lo que ayuda a mantener el taller abastecido y evita la escasez de productos críticos. Además, se permite eliminar partes innecesarias o que ya no están en stock.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mock-ups/workshop-owner/page-inventory-stock.png" width="1000px">
+</div>
+
+#### Solicitudes de inventario
+
+La interfaz de "Solicitudes de Inventario" ofrece una vista detallada de las solicitudes de partes o componentes por parte de los mecánicos o administradores del taller. Se incluyen detalles como la cantidad solicitada, la ID de la intervención relacionada, la fecha de la solicitud y observaciones adicionales. Esto facilita la gestión y el control del flujo de materiales dentro del taller, asegurando que se cumplan las demandas en tiempo y forma.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mock-ups/workshop-owner/page-inventory-requests.png" width="1000px">
+</div>
+
+#### Métricas de intervenciones por día
+
+En la pantalla de "Métricas de intervenciones por día", el administrador puede visualizar el número de intervenciones realizadas en el taller durante cada día de la semana. Esta información es crucial para comprender los picos de demanda y optimizar la planificación de las intervenciones, permitiendo una mejor organización y uso de los recursos disponibles en el taller.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mock-ups/workshop-owner/page-metrics-1.png" width="1000px">
+</div>
+
+#### Métricas de intervenciones por mes
+
+La imagen refleja las "Métricas de intervenciones por mes", proporcionando una visión más amplia sobre el rendimiento del taller a lo largo de varios meses. Con esta información, el administrador puede detectar patrones de demanda estacionales o fluctuaciones en el volumen de trabajo, permitiendo ajustar la capacidad operativa del taller de manera efectiva.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mock-ups/workshop-owner/page-metrics-2.png" width="1000px">
+</div>
+
+#### Distribución de vehículos por marca
+
+En esta sección, se presenta un gráfico de torta que muestra la distribución porcentual de los vehículos atendidos en el taller, desglosada por marca. Esta información permite al administrador identificar qué marcas de vehículos son más frecuentes en el taller, lo que puede ayudar en la planificación de inventarios y en la especialización de los servicios ofrecidos.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mock-ups/workshop-owner/page-metrics-3.png" width="1000px">
+</div>
+
+#### Notificaciones
+
+La pantalla de "Notificaciones" muestra las alertas importantes para el administrador del taller, como recordatorios de citas, actualizaciones de estado de intervenciones, o avisos sobre inventario. Cada notificación incluye la hora y la fecha en la que fue emitida, así como un enlace para ir a la sección correspondiente y gestionar la acción requerida.<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/mock-ups/workshop-owner/page-notifications.png" width="1000px">
+</div>
+
+#### Mock-ups asociados a los mecánicos
+
+#### Mis tareas
+La sección Mis Tareas está diseñada para que los usuarios tengan un seguimiento detallado de las intervenciones asignadas. A través de una lista organizada, se muestra información clave como el cliente, el vehículo, la modalidad de reparación, el tipo de tarea asignada, y su estado actual.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/mechanic/page-tasks.png" width="1000px"> </div>
+
+#### Primera etapa de una intervención como lider
+La primera etapa se enfoca en la recopilación de la información general del vehículo y el cliente, junto con un diagnóstico detallado proporcionado por el sistema IoT. En esta vista, se presentan los componentes del vehículo que muestran fallas, así como su estado y los códigos de falla registrados. Esta información es crucial para definir los próximos pasos en el proceso de intervención.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/mechanic/page-leader-step-1.png" width="1000px"> </div>
+
+#### Segunda etapa de una intervención como lider
+En esta fase, Diagnóstico y preparación, los mecánicos asignados pueden visualizar y distribuir las tareas necesarias para completar la intervención. También se muestra el diagnóstico del vehículo, donde se identifica el tipo de reparación necesario y se pueden añadir observaciones específicas. Los mecánicos pueden gestionar las tareas distribuidas a cada uno para asegurar un control preciso del trabajo.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/mechanic/page-leader-step-2.png" width="1000px"> </div>
+
+#### Tercera etapa, Ejecución
+En la fase de Ejecución, el progreso de las tareas asignadas se puede revisar de manera estructurada. Los mecánicos pueden agregar puntos de control para marcar las tareas finalizadas, así como solicitar repuestos específicos para completar la intervención.
+##### Tercera etapa para mecánico lider
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/mechanic/page-leader-step-3.png" width="1000px"> </div>
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/mechanic/page-leader-step-3-tracking.png" width="1000px"> </div>
+
+##### Tercera etapa para mecánico asignado
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/mechanic/page-assigned-step-2.png" width="1000px"> </div>
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/mechanic/page-assigned-step-2-tracking.png" width="1000px"> </div>
+
+#### Cuarta etapa, supervisión
+En la fase final de Supervisión, se realiza un seguimiento del estado de todas las tareas completadas y pendientes. El jefe de taller o mecánico líder puede verificar que todas las intervenciones se hayan realizado de manera correcta y según lo planeado. Además, se muestra un resumen del tiempo total avanzado, lo que permite una evaluación de la eficiencia en el proceso de reparación.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/mechanic/page-leader-step-4.png" width="1000px"> </div>
+
+#### Información general de intervención
+Esta pantalla presenta información general de intervención, donde el administrador del taller puede visualizar y gestionar los detalles clave de una intervención en curso. Los campos incluyen la modalidad del servicio (reparación o mantenimiento), la fecha programada, el mecánico líder asignado y una descripción opcional. Además, el estado de la intervención se muestra claramente en la parte superior derecha, permitiendo al administrador controlar el progreso o la finalización del servicio. Esta vista es esencial para llevar un seguimiento preciso y efectivo de los trabajos realizados en el taller.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/mechanic/step-1-activitie-log-general-information.png" width="1000px"> </div>
+
+#### Resumen de intervención
+La pantalla "Resumen de Intervención" permite ver el tipo de intervención realizada, junto con un campo de observaciones opcional para anotar detalles adicionales. Además, se presenta una lista de tareas relacionadas con la intervención, cada una con su respectivo estado para facilitar el control de avance. Esta vista está diseñada para que el administrador pueda tener una visión clara y detallada de todo el trabajo realizado en el vehículo, asegurando una correcta trazabilidad de las reparaciones y mantenimientos.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/mechanic/step-1-activitie-log-interview-summary.png" width="1000px"> </div>
+
+#### Notificaciones
+La sección Notificaciones ofrece un resumen rápido de las actualizaciones importantes para el equipo de trabajo. Desde recordatorios sobre intervenciones hasta cambios en las tareas asignadas, los mecánicos lideres y asignados pueden mantenerse informados de cualquier evento relevante. Cada notificación está organizada por fecha y hora para garantizar un flujo de trabajo ágil.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/mechanic/mechanic-notifications.png" width="1000px"> </div>
+
+#### Mock-ups asociados al cliente de taller
+
+#### Vehículos
+En esta sección, los usuarios pueden visualizar una lista de sus vehículos registrados. Cada tarjeta de vehículo muestra información importante como el modelo, la marca, la última revisión y el estado actual de la cita. Si un vehículo tiene una cita pendiente, el usuario podrá notarlo fácilmente y proceder a agendar o verificar más detalles.
+<br> <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/client/page-my-cars.png" width="1000px"> </div>
+
+#### Registro de actividades
+Aquí se pueden observar las intervenciones pasadas realizadas en el vehículo. Cada una está representada en una línea de tiempo, facilitando la identificación rápida de intervenciones completadas. El usuario puede acceder a detalles adicionales de cada intervención y ver los técnicos responsables de cada servicio.
+<br> <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/client/activities-log.png" width="1000px"> </div>
+
+#### Información IoT
+Se incluye un monitoreo en tiempo real del estado de cada componente del vehículo. El sistema IoT detecta y reporta cualquier fallo en los componentes, mostrando los códigos de error asociados y facilitando así el diagnóstico y la reparación del vehículo.
+<br> <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/client/iot-information.png" width="1000px"> </div>
+
+#### Nueva Intervención
+La opción de "Nueva Intervención" permite a los usuarios agendar citas para intervenciones en sus vehículos. El usuario deberá seleccionar la placa del vehículo, la modalidad de servicio, la fecha de la intervención y una descripción opcional para proporcionar más contexto sobre el servicio que se solicita.
+<br> <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/client/new-intervention-modal.png" width="1000px"> </div>
+
+#### Registro Nuevo Carro
+Si un usuario desea añadir un vehículo nuevo, esta opción facilita el registro. El usuario solo necesita proporcionar la placa del vehículo, la marca y el modelo para crear el registro. Posteriormente, el vehículo será visible en la lista principal.
+<br> <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/client/new-car-modal.png" width="1000px"> </div>
+
+#### Detalles de la intervención
+El historial de intervenciones permite al usuario revisar el estado de cada tarea realizada en el vehículo. Se detalla la fecha, el técnico encargado y el estado de la intervención. También se puede visualizar notas relacionadas con la intervención en curso.
+<br> <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/client/activities-log-general-information.png" width="1000px"> </div>
+<br> <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/client/activities-log-intervention-summary.png" width="1000px"> </div>
+
+#### Notificaciones
+La sección Notificaciones ofrece un resumen rápido de las actualizaciones importantes para el cliente. Desde recordatorios sobre intervenciones hasta cambios en el estado del vehículo. Cada notificación está organizada por fecha y hora.
+<br>
+<div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/mechanic/mechanic-notifications.png" width="1000px"> </div>
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
 ## 4.5. Web Applications Prototyping
 
+El propósito de esta sección es describir los posibles User Flows que se han diseñado para la aplicación web en navegador para desktop y mobile. A través de prototipos interactivos, se busca representar los flujos de interacción del usuario, mostrando cómo cada usuario, ya sea dueño del taller, mecánico o cliente, navega por la plataforma para completar sus tareas.
+
+A continuación, se presentan los enlaces a los videos explicativos que detallan los flujos de usuario relacionados:
+<br>
+<br>
+Enlace para acceder al video de explicación del [Web Application Prototyping en Desktop](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EQDDt5JYu4RNiKoEeWK5yIsB-FVvHmC0VUK2tQ3PcrsrTQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=29fVAp)
+
+Enlace para acceder al video de explicación del [Web Application Prototyping en Mobile](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EeL_TENVGtJEgeqo1F-PRPUByNw_WtCRx6Qj2WFdZtekmA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=gIVKlA)
+
+Asimismo, a continuación se presentan los enlaces que llevan a los flujos por cada user persona:
+Enlace para acceder al [Web Application prototype para Dueño de taller en Desktop](https://www.figma.com/proto/PqvO9VXswNOC5KVgjpDSql/Sketch?node-id=646-15803&node-type=FRAME&t=bjZZ32OEbZOtQ8Kq-1&scaling=min-zoom&content-scaling=fixed&page-id=138%3A1515&starting-point-node-id=646%3A15803&show-proto-sidebar=1)
+
+Enlace para acceder al [Web Application prototype para Dueño de taller en Mobile](https://www.figma.com/proto/PqvO9VXswNOC5KVgjpDSql/Sketch?node-id=818-21021&node-type=FRAME&t=Ea73gbC0hjTzKbpQ-1&scaling=min-zoom&content-scaling=fixed&page-id=138%3A1515&starting-point-node-id=818%3A21021&show-proto-sidebar=1)
+
+Enlace para acceder al [Web Application prototype para Mecanico en Desktop](https://www.figma.com/proto/PqvO9VXswNOC5KVgjpDSql/Sketch?node-id=569-20217&node-type=FRAME&t=7gVU3ZwNXM6TLi3z-1&scaling=min-zoom&content-scaling=fixed&page-id=138%3A1515&starting-point-node-id=569%3A20217&show-proto-sidebar=1)
+
+Enlace para acceder al [Web Application prototype para Mecanico en Mobile](https://www.figma.com/proto/PqvO9VXswNOC5KVgjpDSql/Sketch?node-id=837-26154&node-type=FRAME&t=CZYe5rS7aUEh0ODm-1&scaling=min-zoom&content-scaling=fixed&page-id=138%3A1515&starting-point-node-id=837%3A26154&show-proto-sidebar=1)
+
+Enlace para acceder al [Web Application prototype para Cliente de taller en Desktop](https://www.figma.com/proto/PqvO9VXswNOC5KVgjpDSql/Sketch?node-id=569-23587&node-type=FRAME&t=DjYjNwCQy27e8BfB-1&scaling=min-zoom&content-scaling=fixed&page-id=138%3A1515&starting-point-node-id=569%3A23587&show-proto-sidebar=1)
+
+Enlace para acceder al [Web Application prototype para Cliente de taller en Mobile](https://www.figma.com/proto/PqvO9VXswNOC5KVgjpDSql/Sketch?node-id=818-23532&node-type=FRAME&t=XjxMdzq3JYYDYEGk-1&scaling=min-zoom&content-scaling=fixed&page-id=138%3A1515&starting-point-node-id=818%3A23532&show-proto-sidebar=1)
+
+
 ## 4.6. Domain-Driven Software Architecture
+Esta sección presenta una visión general de la arquitectura basada en DDD, desglosada en diferentes niveles de detalle que van desde el contexto general del sistema hasta los componentes más específicos que lo constituyen.
 
 ### 4.6.1. Software Architecture Context Diagram
+Workshop N-GINE es un sistema centralizado para gestionar talleres automotrices. Interactúa con tres tipos de usuarios: el dueño del taller, quien gestiona el personal y clientes; los mecánicos, que supervisan y ejecutan tareas de reparación; y los clientes, que consultan el estado de sus vehículos. El sistema también se conecta con OBD IoT, que proporciona datos en tiempo real sobre los vehículos, y con Gmail para enviar notificaciones por correo electrónico. A continuación, presento el diagrama hecho en Structurizr:
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/c4model/structurizr-SystemContext.png" width="1000px">
+</div>
 
 ### 4.6.2. Software Architecture Container Diagrams
+El Container Diagram de Workshop N-GINE muestra los principales contenedores que forman parte del sistema y sus interacciones. El sistema está compuesto por una aplicación de página única (SPA), una API RESTful, y una base de datos central. Estos componentes permiten a los dueños de taller, mecánicos, y clientes interactuar con el sistema. Los usuarios acceden al sistema a través de una Landing Page que redirige a la SPA, donde se gestionan las principales operaciones. El sistema también recibe información de OBD IoT para los diagnósticos de vehículos y se apoya en Gmail para enviar notificaciones por correo.A continuación, presento el diagrama hecho en Structurizr:
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/c4model/structurizr-Container.png" width="1000px">
+</div>
 
 ### 4.6.3. Software Architecture Components Diagrams
+El Component Diagram de Workshop N-GINE desglosa los componentes principales que forman parte de la arquitectura del sistema, específicamente dentro de la API RESTful. Cada controlador maneja una parte del dominio del taller, como usuarios, vehículos, solicitudes, inventario, intervenciones, tareas y notificaciones. Los servicios asociados contienen la lógica de negocio para cada área, mientras que los repositorios se encargan de las operaciones CRUD con la base de datos. Además, el sistema interactúa con servicios externos, como el cliente API para obtener información de vehículos externos y el sistema OBD IoT para recibir diagnósticos en tiempo real.A continuación, presento el diagrama hecho en Structurizr:
+<br>
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/c4model/structurizr-Component.png" width="1000px">
+</div>
 
 ## 4.7. Software Object-Oriented Design
+En esta sección se describen los Diagramas de Clases, que representan la estructura del sistema, y el Diccionario de Clases, que documenta los atributos y métodos de cada clase utilizada.
 
 ### 4.7.1. Class Diagrams
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/classDiagram/classDiagram.png" width="1000px">
+</div>
 
 ### 4.7.2. Class Dictionary
+***Enum: RequestStatus***
+
+Enum auxiliar para representar los posibles estados de una solicitud de inventario
+
+| Valor | Descripción |
+|------------|------------------------------------------|
+| Pending | La solicitud está pendiente. |
+| Approved | La solicitud ha sido aprobada. |
+| Fulfilled | La solicitud ha sido cumplida. |
+| Rejected | La solicitud ha sido rechazada. |
+
+***Enum: Availability***
+
+Enum auxiliar para representar la disponibilidad de un mecánico
+
+| Valor | Descripción |
+| - | - |
+| Available | El mecánico está disponible para trabajar. |
+| Busy | El mecánico está ocupado con otros trabajos. |
+| NotAvailable | El mecánico no está disponible. |
+
+***Enum: UserRole***
+
+Enum auxiliar para representar los distintos tipos de usuarios
+
+| Valor | Descripción |
+| - | - |
+| Mechanic | Usuario que trabaja como mecánico. |
+| Customer | Usuario que es cliente del taller. |
+| WorkshopOwner | Usuario que es propietario del taller. |
+
+***Enum: TaskState***
+
+Enum auxiliar para representar el estado de una tarea de una intervención
+
+| Valor | Descripción |
+| - | - |
+| NotStarted | La tarea no ha comenzado. |
+| InProgress | La tarea está en progreso. |
+| Completed | La tarea ha sido completada. |
+| OnHold | La tarea está en espera. |
+| Cancelled | La tarea ha sido cancelada. |
+
+
+***User***
+Clase interface que modela a cualquier usuario de la aplicación, sea cliente, mecánico o dueño de taller.
+**Atributos**
+
+|Atributo|Tipo|Descripción|
+|-|-|-|
+|id|int|Identificador único del usuario.|
+|username|string|Nombre de usuario del usuario.|
+|password|string|Contraseña del usuario (almacenada de forma segura).|
+|firstName|string|Nombre de pila del usuario.|
+|lastName|string|Apellido del usuario.|
+|email|string|Dirección de correo electrónico del usuario.|
+|role|UserRole|Rol del usuario en el sistema (p.ej., Administrador, Mecánico).|
+|lastLogin|Date|Fecha y hora del último inicio de sesión del usuario.|
+
+**Métodos**
+
+|Método|Tipo|Descripción|
+|-|-|-|
+|updateProfile(firstName:string,lastName:string,email:string)|void|Actualiza el perfil del usuario con el nuevo nombre, apellido y correo electrónico.|
+|changePassword(newPassword:string)|void|Cambia la contraseña del usuario.|
+|login(username:string,password:string)|boolean|Autentica al usuario con el nombre de usuario y la contraseña proporcionados.|
+|logout()|void|Cierra la sesión del usuario actual.|
+|getRole()|UserRole|Obtiene el rol del usuario en el sistema.|
+|setRole(role:UserRole)|void|Asigna un nuevo rol al usuario.|
+|getLastLogin()|Date|Obtiene la fecha y hora del último inicio de sesión del usuario.|
+|getProfile()|UserProfile|Obtiene el perfil completo del usuario, incluyendo nombre, apellido, correo electrónico, y rol.|
+
+***Customer***
+Representa a los clientes del sistema, quienes pueden tener múltiples vehículos registrados y realizar solicitudes de servicio.
+
+**Atributos**
+|Atributo|Tipo|Descripción|
+|-|-|-|
+|id|int|Identificador único del cliente.|
+|username|string|Nombre de usuario del cliente.|
+|password|string|Contraseña del cliente (almacenada de forma segura).|
+|firstName|string|Nombre de pila del cliente.|
+|lastName|string|Apellido del cliente.|
+|email|string|Dirección de correo electrónico del cliente.|
+|phoneNumber|string|Número de teléfono del cliente.|
+|address|string|Dirección de residencia del cliente.|
+|vehicles|List<Vehicle>|Lista de vehículos asociados al cliente.|
+
+**Métodos**
+|Método|Tipo|Descripción|
+|-|-|-|
+|updateContactInfo(email:string,phoneNumber:string)|void|Actualiza la información de contacto del cliente, incluyendo correo electrónico y número de teléfono.|
+|addVehicle(vehicle:Vehicle)|void|Agrega un vehículo a la lista de vehículos del cliente.|
+|removeVehicle(vehicleId:int)|void|Elimina un vehículo de la lista de vehículos del cliente usando el identificador del vehículo.|
+|getVehicles()|List<Vehicle>|Obtiene la lista de vehículos asociados al cliente.|
+|getFullName()|string|Obtiene el nombre completo del cliente, combinando el nombre y apellido.|
+|getAddress()|string|Obtiene la dirección de residencia del cliente.|
+|getContactInfo()|string|Obtiene la información de contacto del cliente, incluyendo correo electrónico y número de teléfono.|
+|login(username:string,password:string)|boolean|Autentica al cliente con el nombre de usuario y la contraseña proporcionados.|
+|logout()|void|Cierra la sesión del cliente actual.|
+|getRole()|UserRole|Obtiene el rol del cliente en el sistema (p.ej., Cliente).|
+|setRole(role:UserRole)|void|Asigna un nuevo rol al cliente (si aplica).|
+|getLastLogin()|Date|Obtiene la fecha y hora del último inicio de sesión del cliente.|
+|getProfile()|UserProfile|Obtiene el perfil completo del cliente, incluyendo nombre, apellido, correo electrónico, y más.|
+
+***Mechanic***
+Representa a los mecánicos del sistema, quienes realizan las intervenciones y tareas asignadas en el taller.
+
+**Atributos**
+|Atributo|Tipo|Descripción|
+|-|-|-|
+|id|int|Identificador único del mecánico.|
+|username|string|Nombre de usuario del mecánico.|
+|password|string|Contraseña del mecánico (almacenada de forma segura).|
+|firstName|string|Nombre de pila del mecánico.|
+|lastName|string|Apellido del mecánico.|
+|email|string|Dirección de correo electrónico del mecánico.|
+|phoneNumber|string|Número de teléfono del mecánico.|
+|availability|Availability|Estado de disponibilidad del mecánico (p.ej., Disponible, Ocupado).|
+|assignedInterventions|List<Intervention>|Lista de intervenciones asignadas al mecánico.|
+|assignedTasks|List<Task>|Lista de tareas asignadas al mecánico.|
+|skills|List<string>|Lista de habilidades o especialidades del mecánico.|
+
+**Métodos**
+|Método|Tipo|Descripción|
+|-|-|-|
+|assignInterventions(interventions:List<Intervention>)|void|Asigna una lista de intervenciones al mecánico.|
+|assignTasks(tasks:List<Task>)|void|Asigna una lista de tareas al mecánico.|
+|updateAvailability(newAvailability:Availability)|void|Actualiza el estado de disponibilidad del mecánico.|
+|completeIntervention(intervention:Intervention)|void|Marca una intervención como completada por el mecánico.|
+|getPendingInterventions()|List<Intervention>|Obtiene la lista de intervenciones pendientes para el mecánico.|
+|getInterventionHistory()|List<Intervention>|Obtiene el historial de intervenciones realizadas por el mecánico.|
+|completeTask(task:Task)|void|Marca una tarea específica como completada.|
+|getPendingTasks()|List<Task>|Obtiene la lista de tareas pendientes para el mecánico.|
+|getTaskHistory()|List<Task>|Obtiene el historial de tareas realizadas por el mecánico.|
+|getSkills()|List<string>|Obtiene la lista de habilidades o especialidades del mecánico.|
+|getProfile()|UserProfile|Obtiene el perfil completo del mecánico, incluyendo nombre, apellido, correo electrónico, y más.|
+
+***WorkshopOwner***
+Representa a los propietarios de talleres, quienes gestionan los diferentes talleres en el sistema.
+
+**Atributos**
+|Atributo|Tipo|Descripción|
+|-|-|-|
+|id|int|Identificador único del propietario del taller.|
+|username|string|Nombre de usuario del propietario del taller.|
+|password|string|Contraseña del propietario (almacenada de forma segura).|
+|firstName|string|Nombre de pila del propietario.|
+|lastName|string|Apellido del propietario.|
+|email|string|Dirección de correo electrónico del propietario.|
+|phoneNumber|string|Número de teléfono del propietario.|
+|address|string|Dirección de residencia del propietario.|
+|workshops|List<Workshop>|Lista de talleres que el propietario gestiona.|
+
+**Métodos**
+|Método|Tipo|Descripción|
+|-|-|-|
+|updateContactInfo(email:string,phoneNumber:string)|void|Actualiza la información de contacto del propietario, incluyendo correo electrónico y número de teléfono.|
+|addWorkshop(workshop:Workshop)|void|Agrega un taller a la lista de talleres gestionados por el propietario.|
+|removeWorkshop(workshopId:int)|void|Elimina un taller de la lista de talleres gestionados por el propietario usando el identificador del taller.|
+|getWorkshops()|List<Workshop>|Obtiene la lista de talleres gestionados por el propietario.|
+|getFullName()|string|Obtiene el nombre completo del propietario, combinando el nombre y apellido.|
+|getAddress()|string|Obtiene la dirección de residencia del propietario.|
+|getContactInfo()|string|Obtiene la información de contacto del propietario, incluyendo correo electrónico y número de teléfono.|
+|login(username:string,password:string)|boolean|Autentica al propietario con el nombre de usuario y la contraseña proporcionados.|
+|logout()|void|Cierra la sesión del propietario actual.|
+|getRole()|UserRole|Obtiene el rol del propietario en el sistema (p.ej., Propietario de Taller).|
+|setRole(role:UserRole)|void|Asigna un nuevo rol al propietario (si aplica).|
+|getLastLogin()|Date|Obtiene la fecha y hora del último inicio de sesión del propietario.|
+|getProfile()|UserProfile|Obtiene el perfil completo del propietario, incluyendo nombre, apellido, correo electrónico, y más.|
+
+***Vehicle***
+Representa los vehículos a los cuales se realizan las intervenciones.
+**Atributos**
+| Atributo | Tipo | Descripcion |
+| - | - | - |
+| id | int | Identificador único. Se utiliza para distinguir de manera inequívoca a cada vehículo en el sistema |
+| licensePlate | string | Matricula del vehículo. Se utiliza para distinguir al vehículo en filtrados |
+| brand | string | Marca del vehículo. Se utiliza para distinguir al vehículo en filtrados |
+| model | string | Modelo del vehículo. Se utiliza para distinguir al vehículo en filtrados |
+| scanList | List<Scan> | Lista de scaneos realizados al vehículo. Cada scaneo contiene dentro suyo una lista de Code. |
+| owner | WorkshopCustomer | Dueño del vehículo. Se utiliza para distinguir al vehículo en filtrados. |
+**Métodos**
+| Método | Tipo | Descripción |
+| - | - | - |
+| addScan() | Scan |  | Obtiene un Scan que posteriormente sera ingresado dentro scanList.
+| getVehicleRecord() | List<Interventions> | Obtiene una lista de Interventions. Se utiliza para los registros de vehículos. | 
+
+***Workshop***
+Representa el taller mecánico.
+
+**Atributos**
+|Atributo|Tipo|Descripción|
+|-|-|-|
+|id|int|Identificador único del taller.|
+|name|string|Nombre del taller.|
+|location|string|Dirección o ubicación del taller.|
+|contactNumber|string|Número de teléfono de contacto del taller.|
+|owner|WorkshopOwner|Propietario del taller.|
+|mechanics|List<Mechanic>|Lista de mecánicos que trabajan en el taller.|
+|services|List<Service>|Lista de servicios ofrecidos en el taller.|
+|workingHours|string|Horario de funcionamiento del taller.|
+
+**Métodos**
+|Método|Tipo|Descripción|
+|-|-|-|
+|updateContactInfo(contactNumber:string)|void|Actualiza el número de teléfono de contacto del taller.|
+|addMechanic(mechanic:Mechanic)|void|Agrega un mecánico a la lista de mecánicos del taller.|
+|removeMechanic(mechanicId:int)|void|Elimina un mecánico de la lista de mecánicos del taller usando el identificador del mecánico.|
+|addService(service:Service)|void|Agrega un nuevo servicio a la lista de servicios ofrecidos por el taller.|
+|removeService(serviceId:int)|void|Elimina un servicio de la lista de servicios ofrecidos por el taller usando el identificador del servicio.|
+|getMechanics()|List<Mechanic>|Obtiene la lista de mecánicos que trabajan en el taller.|
+|getServices()|List<Service>|Obtiene la lista de servicios ofrecidos por el taller.|
+|getOwner()|WorkshopOwner|Obtiene el propietario del taller.|
+|getLocation()|string|Obtiene la dirección o ubicación del taller.|
+|getContactNumber()|string|Obtiene el número de teléfono de contacto del taller.|
+
+***InventoryItem***
+Representa los items que se almacenan en el taller y son gestionados por el inventario
+**Atributos**
+| Atributo | Tipo | Descripción |
+| - | - | - |
+| id | int | Identificador único del artículo en inventario. |
+| name | string | Nombre del artículo en inventario. |
+| description | string | Descripción detallada del artículo. |
+| quantity | int | Cantidad disponible del artículo en inventario. |
+| unitPrice | decimal | Precio unitario del artículo. |
+| category | string | Categoría a la que pertenece el artículo. |
+| supplier | string | Proveedor del artículo. |
+| reorderLevel | int | Nivel mínimo de existencias para reordenar. |
+| lastUpdated | Date | Fecha de la última actualización del inventario. |
+**Métodos**
+| Método | Tipo | Descripción |
+| - | - | - |
+| updateQuantity(newQuantity: int) | void | Actualiza la cantidad disponible del artículo en inventario. |
+| updatePrice(newPrice: decimal) | void | Actualiza el precio unitario del artículo en inventario. |
+| reorder() | void | Realiza el proceso de reordenar el artículo si la cantidad está por debajo del nivel de reorden. |
+| getDetails() | InventoryItemDetails | Obtiene los detalles completos del artículo en inventario, incluyendo nombre, descripción, cantidad, y más. |
+| getCategory() | string | Obtiene la categoría del artículo en inventario. |
+| getSupplier() | string | Obtiene el proveedor del artículo en inventario. |
+| getLastUpdated() | Date | Obtiene la fecha de la última actualización del inventario. |
+
+***ItemRequest***
+Representación de las solicitudes que realizan los mecánicos al inventario para realizar una tarea.
+
+**Atributos**
+|Atributo|Tipo|Descripción|
+|-|-|-|
+|id|int|Identificador único de la solicitud de material.|
+|requestDate|Date|Fecha en la que se realizó la solicitud.|
+|requiredByDate|Date|Fecha límite para recibir los materiales solicitados.|
+|status|RequestStatus|Estado actual de la solicitud (p.ej., Pendiente, Completado).|
+|items|List<InventoryItem>|Lista de artículos solicitados en la solicitud.|
+|totalCost|decimal|Costo total estimado de los artículos solicitados.|
+|requester|Mechanic|Mecánico o empleado que realizó la solicitud.|
+
+**Métodos**
+|Método|Tipo|Descripción|
+|-|-|-|
+|addItem(item:InventoryItem,quantity:int)|void|Agrega un artículo a la solicitud, especificando la cantidad necesaria.|
+|removeItem(itemId:int)|void|Elimina un artículo de la solicitud usando el identificador del artículo.|
+|updateStatus(newStatus:RequestStatus)|void|Actualiza el estado de la solicitud (p.ej., Pendiente, Completado).|
+|calculateTotalCost()|decimal|Calcula el costo total estimado de los artículos solicitados.|
+|getRequestDetails()|ItemRequestDetails|Obtiene los detalles completos de la solicitud, incluyendo artículos, fechas, estado y más.|
+|getItems()|List<InventoryItem>|Obtiene la lista de artículos solicitados en la solicitud.|
+|getStatus()|RequestStatus|Obtiene el estado actual de la solicitud.|
+|getTotalCost()|decimal|Obtiene el costo total estimado de los artículos solicitados.|
+|getRequester()|Mechanic|Obtiene el mecánico o empleado que realizó la solicitud.| 
+
+***Task***
+Representa a las tareas que los mecánicos deben realizar dentro de una intervención.
+
+**Atributos**
+|Atributo|Tipo|Descripción|
+|-|-|-|
+|id|int|Identificador único de la tarea. Se utiliza para distinguir cada tarea en el sistema.|
+|assistant|Mechanic|Mecánico asistente que está colaborando en la tarea.|
+|intervention|Interventions|Intervención a la que está asociada la tarea. Cada tarea está relacionada con una intervención específica.|
+|requestList|List<ItemRequest>|Lista de solicitudes de ítems necesarios para completar la tarea.|
+|state|TaskState|Estado actual de la tarea. Indica en qué fase se encuentra, por ejemplo, en progreso o completada.|
+
+**Métodos**
+|Método|Tipo|Descripción|
+|-|-|-|
+|updateTaskState(state:TaskState)|void|Actualiza el estado de la tarea según el nuevo estado proporcionado.|
+|getTaskDetails()|string|Obtiene los detalles de la tarea, incluyendo información clave sobre la intervención, el mecánico y las solicitudes.| 
+
+***Intervention***
+Representa a las intervenciones, que son el conjunto de actividades a realizar en el taller.
+**Atributos**
+| Atributo | Tipo | Descripcion |
+| - | - | - |
+| id | int | Identificador único de la intervención. |
+| leadMechanic | Mechanic | Mecánico principal o encargado de la intervención. |
+| vehicle | Vehicle | Vehículo asociado con la intervención. |
+| customer | Customer | Cliente que solicita la intervención. |
+| status | InterventionStatus | Estado actual de la intervención. |
+| registrationDate | Date | Fecha en la que se registró la intervención. |
+| acceptanceDate | Date | Fecha en la que se aceptó la intervención. |
+| completionDate | Date | Fecha en la que se completó la intervención. |
+| taskList | List<Task> |  Lista de tareas asociadas a la intervención. | 
+
+***Scan***
+Representa los escaneos realizados a un vehículo.
+
+**Atributos**
+| Atributo | Tipo | Descripcion |
+| - | - | - |
+| id | int | Identificador único. Se utiliza para distinguir de manera inequívoca a escaneo en el sistema |
+| scanDate | date | Fecha del escaneo realizado al vehículo. Se utiliza para distinguir al Scan en los filtrados. |
+| codeList | List<Code> | Lista de Code. Se utiliza para almacenar los Code respectivos de cada escaneo. Posteriormente se utilizaran para mostrarlo al usuario. |
+**Métodos**
+| Método | Tipo | Descripción |
+| - | - | - |
+| scanVehicle() | List<Code> | Obtiene una lista de Code. Se utiliza para insertar información en codeList |
+
+***Code***
+Representa los escaneos realizados a un vehículo.
+
+**Atributos**
+| Atributo | Tipo | Descripcion |
+| - | - | - |
+| id | int | Identificador único. Se utiliza para distinguir de manera inequívoca a escaneo en el sistema |
+| code | string| Código DTC del error. Se utiliza para informar al usuario fallas del vehículo |
+| Description | string | Descripción del código. Se utiliza para detallar los códigos de error. | 
+
+***Date***
+Representa la fecha y hora exacta hasta los segundos de algún evento.
+
+**Atributos**
+
+| Atributo | Tipo | Descripción |
+|----------|------|-------------|
+| year     | int  | El año de la fecha. |
+| month    | int  | El mes de la fecha (1 a 12). |
+| day      | int  | El día del mes (1 a 31). |
+| hour     | int  | La hora del día (0 a 23). |
+| minute   | int  | El minuto de la hora (0 a 59). |
+| second   | int  | El segundo del minuto (0 a 59). |
+
+**Métodos**
+
+| Método | Tipo | Descripción |
+| - | - | - |
+| toString() | string | Devuelve la fecha en formato de cadena (ej. YYYY-MM-DD). |
+| compareTo(otherDate: Date) | int  | Compara la fecha actual con otra fecha; devuelve un número negativo, cero o positivo según si la fecha es anterior, igual o posterior. |
 
 ## 4.8. Database Design
 
+Para el proyecto Workshop N-GINE se ha seleccionado el motor de base de datos MySQL debido a su escalabilidad y su interfaz intuitiva, lo cual facilita su uso. Esta elección se basa en la experiencia del equipo con motores de bases de datos similares, como Microsoft SQL Server, lo que asegura una transición fluida. MySQL ofrece la capacidad de expandir los recursos de la base de datos conforme el taller crezca permitiendo que el sistema maneje eficientemente mayores volúmenes de datos y las necesidades crecientes del negocio.
+
 ### 4.8.1. Database Diagram
+
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/4/databaseDiagram/databaseDiagram.png" width="1000px">
+</div>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management

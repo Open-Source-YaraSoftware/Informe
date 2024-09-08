@@ -64,6 +64,7 @@
 | 5.2.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a convenciones en la codificación y configuración de despliegue |
 | 5.3.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección de sprint planning 1 y sprint backlog 1 | 
 | 5.4.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega las secciones de evidencias e insights del sprint 1 |
+| 5.4.1 | 08/09/2024 | Henry Reaño Delgadillo | Se agrega nuevas fotos relacionadas a la landing page y correción de errores en los insights |
 
 <div style="page-break-after: always;"></div>
 
@@ -2468,42 +2469,37 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
 
 | Repository | Branch | Commit id | Commit message | Commit body | Commited on |
 | - | - | - | - | - | - |
-| Open-Source-YaraSoftware / Landing-page |  | 5e3f9bb398ca81cd655e3bc649255e2d171bdb22 | chore: add all required images for the entire project | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | 9bb4007d76994003db24c9ae76608330ed37db0a | chore: configure sass folder and import all components into main.scss | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | 3974cb03d4e26554bd9362891995d263e2b2fd66 | chore: set up global styles and add normalize, mixins, and variables | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | 650d57af23cdbb155ddaeeffac39b555bc035585 | chore: import Roboto font via Google Fonts link in index.html | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | 1937f6d1ceda82e273486ca12f8d70c70445c2f2 | feat: add header html section with navigation and banner | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | 86ac708701a2f0a199e601cfe7ab340c14116afe | feat: add SCSS component for buttonAction with hover effect and full-width styling | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | 9b7f312eb7dc4bd9f11dadd310794696b2d8e1ec | feat: add header styling with background image, overlay, and responsive layout | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | f54f80a0228d5d26e428a9ba0d9891fe3f40542a | feat: add responsive banner styling with image, content, and button layout | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | develop | 5e3f9bb398ca81cd655e3bc649255e2d171bdb22 | chore: add all required images for the entire project | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  develop | 9bb4007d76994003db24c9ae76608330ed37db0a | chore: configure sass folder and import all components into main.scss | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  develop | 3974cb03d4e26554bd9362891995d263e2b2fd66 | chore: set up global styles and add normalize, mixins, and variables | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  develop | 650d57af23cdbb155ddaeeffac39b555bc035585 | chore: import Roboto font via Google Fonts link in index.html | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  develop | 1937f6d1ceda82e273486ca12f8d70c70445c2f2 | feat: add header html section with navigation and banner | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  develop | 86ac708701a2f0a199e601cfe7ab340c14116afe | feat: add SCSS component for buttonAction with hover effect and full-width styling | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  develop | 9b7f312eb7dc4bd9f11dadd310794696b2d8e1ec | feat: add header styling with background image, overlay, and responsive layout | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  develop | f54f80a0228d5d26e428a9ba0d9891fe3f40542a | feat: add responsive banner styling with image, content, and button layout | ... | 08/09/2024 |
 | Open-Source-YaraSoftware / Landing-page |  | 2b3d1fc936238f202980b9b35e0c2f6a07c4ce83 | feat: add responsive navbar styling with dark mode and dynamic menu functionality | ... | 08/09/2024 |
 | Open-Source-YaraSoftware / Landing-page |  | 77c11649aaaa520e92008d6d081e81a44dce4f60 | feat: add toggle functionality for mobile menu and reset on resize | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | e410d8ab8170bf09953f246e85d0a70b2fc98ffb | feat: add functionality to change navbar color after scrolling past header | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | b5c803d3e867eada59b765d8ee84f35d2a8e30a3 | feat: add learn more section with header, image, and contact button | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | f85d871514d67ec29c5136f48b0bd13b5b641457 | feat: add our benefits section with cards detailing platform advantages | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | c6f36ec8ebd2fa128c77f4fff0985b970c00843c | feat: add responsive styling for our benefits section with card layout and grid adjustments | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | 25000c95c8c3a60943d0be13ec92085cc610d2fa | feat: add testimonials section with client feedback cards | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | c2b85b4d114d29cbc7c9c7cd991106af9e756699 | feat: add responsive styling for testimonials section with horizontal scroll and card hover effect | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | ba8726e8adbb3834ff6025d0973026197a016a4a | feat: add auto-scrolling carousel functionality with reverse direction at end | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | 64b1b758a6da3add09712d128b55aedbacf75c43 | fix: remove duplicate section tags | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | a14e96add7d95b8242f2746007c38e5512a6a51a | fix: remove duplicate header tag | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | c8dbb4a61bf1889e0beb0065bed2c695284399f5 | feat: add about us section with mission, vision, and values cards | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | 507a95956b723c248520d33a2e471b46d9736eea | feat: add responsive styling for about us section with card flipping effect | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | 671e481e5c4dc96ce7e4dedbb8d4397b4ecc6f98 | feat: add plans section with pricing cards for free, basic, and premium plans | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | 23c892fb608cbd35f67490e57b830ae7b60cf391 | feat: add responsive styling for the plans section with card layout and dark mode option for premium | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | 5b13f1a3c03efc06e65eaf541c5f111b439428dd | feat: add contact form section with inputs for name, email, phone, and message | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | 636e8c32bd44b3c1c2d0988a2c33ae279877e2af | feat: add responsive styling for contact form section with layout adjustments | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  |  | ... | ... | ... |
-| Open-Source-YaraSoftware / Landing-page |  |  | ... | ... | ... |
-| Open-Source-YaraSoftware / Landing-page |  |  | ... | ... | ... |
-| Open-Source-YaraSoftware / Landing-page |  |  | ... | ... | ... |
-| Open-Source-YaraSoftware / Landing-page |  |  | ... | ... | ... |
-| Open-Source-YaraSoftware / Landing-page |  |  | ... | ... | ... |
-| Open-Source-YaraSoftware / Landing-page |  |  | ... | ... | ... |
-| Open-Source-YaraSoftware / Landing-page |  |  | ... | ... | ... |
-| Open-Source-YaraSoftware / Landing-page |  |  | ... | ... | ... |
-| Open-Source-YaraSoftware / Landing-page |  |  | ... | ... | ... |
-| Open-Source-YaraSoftware / Landing-page |  |  | ... | ... | ... |
+| Open-Source-YaraSoftware / Landing-page | feature/footer  | e410d8ab8170bf09953f246e85d0a70b2fc98ffb | feat: add functionality to change navbar color after scrolling past header | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  feature/about-us | b5c803d3e867eada59b765d8ee84f35d2a8e30a3 | feat: add learn more section with header, image, and contact button | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/benefits | f85d871514d67ec29c5136f48b0bd13b5b641457 | feat: add our benefits section with cards detailing platform advantages | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/benefits | c6f36ec8ebd2fa128c77f4fff0985b970c00843c | feat: add responsive styling for our benefits section with card layout and grid adjustments | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | 25000c95c8c3a60943d0be13ec92085cc610d2fa | feat: add testimonials section with client feedback cards | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | c2b85b4d114d29cbc7c9c7cd991106af9e756699 | feat: add responsive styling for testimonials section with horizontal scroll and card hover effect | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | ba8726e8adbb3834ff6025d0973026197a016a4a | feat: add auto-scrolling carousel functionality with reverse direction at end | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | 64b1b758a6da3add09712d128b55aedbacf75c43 | fix: remove duplicate section tags | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | a14e96add7d95b8242f2746007c38e5512a6a51a | fix: remove duplicate header tag | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | c8dbb4a61bf1889e0beb0065bed2c695284399f5 | feat: add about us section with mission, vision, and values cards | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 507a95956b723c248520d33a2e471b46d9736eea | feat: add responsive styling for about us section with card flipping effect | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 671e481e5c4dc96ce7e4dedbb8d4397b4ecc6f98 | feat: add plans section with pricing cards for free, basic, and premium plans | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 23c892fb608cbd35f67490e57b830ae7b60cf391 | feat: add responsive styling for the plans section with card layout and dark mode option for premium | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 5b13f1a3c03efc06e65eaf541c5f111b439428dd | feat: add contact form section with inputs for name, email, phone, and message | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 636e8c32bd44b3c1c2d0988a2c33ae279877e2af | feat: add responsive styling for contact form section with layout adjustments | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | feat: add contact form section with inputs for name, email, phone, and message | 9e612093d32f77bccf751433cfb09f1dfd4b07a8 | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 9c03f279a6212a8137315f45c3e461c37c9d3beb | feat: add responsive styling for contact form section with layout adjustments | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | d1a8726bec3dc8279edfd5a9853be831dbea0134 | feat: add footer section with sign up, useful links, contact info, and legal details | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 152d4c6af5ad0414da4a89d5cdc2f79b53a89eb1 | feat: add responsive styling for footer with contact, sign-up, and legal sections | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 561b4bc27d17c62ed0795295110fc83d0a777c92 | fix: remove duplicate footer tag | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 40c00418fea99d1f830bb6b943665ddb16008180 | feat: add language switch functionality and static spanish page | ... | 08/09/2024 |
 
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review
 
@@ -2516,12 +2512,13 @@ En el desarrollo del sprint 1 se logró desplegar las funcionalidades descritas 
 El desarrollo de la Hero Section con una imagen imponente y llamativa para el usuario.
 <img src="img/5/2/1/4/hero.png">
 
-
 La sección About Us que describe nuestra empresa, nuestros valores y visión.
 <img src="img/5/2/1/4/about_us.png">
 
 La sección de planes, centrada en ser atractiva para el usuario.
 <img src="img/5/2/1/4/plans.png">
+
+Enlace de video de navegación landing page: ...
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -2538,7 +2535,7 @@ Para la entrega del Sprint número 1, se desplego al completo landing page la cu
 <img src="img/5/2/1/7/5.png">
 <img src="img/5/2/1/7/6.png">
 
-Enlace para acceder a la landing page: ...
+Enlace para acceder a la landing page: https://landing-page-workshop-n-gine.netlify.app/
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -2549,6 +2546,8 @@ Enlace para acceder a la landing page: ...
 | Álvaro Orozco Torres | Implementación del Formulario de Contacto |
 | Henry Reaño Delgadillo | Implementación de Planes |
 | Elmer Riva Rodriguez | Implementación de Beneficios y About Us |
+
+<img src="img/5/2/1/8/insights.png">
 
 ## 5.3. Validation Interviews
 

@@ -24,10 +24,6 @@
                 <td>20221C857</td>
             </tr>
             <tr>
-                <td>Orozco Torres, Álvaro Joaquín</td>
-                <td>202220783</td>
-            </tr>
-            <tr>
                 <td>Reaño Delgadillo, Henry Paolo</td>
                 <td>20221e247</td>
             </tr>
@@ -76,7 +72,7 @@
 | 4.4.2.2 | 08/09/2024 | Elmer Riva | Se actualizan imágenes y descripciones de wireflow |
 | 4.4.2.3 | 07/09/2024 | Jhosepmyr | Se agregan wireflows para los objetivos de usuario: registrar un vehículo, acceder al historial de intervenciones del auto, acceder a la información del dispositivo IoT y agendar una cita |
 | 4.4.2.4 | 07/09/2024 | Elmer Riva | Se agregan wireflows para las tareas del mecánico y la gestión de intervenciones |
-| 4.4.2.5 | 06/09/2024 | Eric396 | Se agregan wireflows para las interacciones del dueño del taller y el cliente |
+| 4.4.2.5 | 06/09/2024 | Eric Hernandez | Se agregan wireflows para las interacciones del dueño del taller y el cliente |
 | 4.4.2.6 | 06/09/2024 | Jhosepmyr | Se eliminan datos duplicados en una ubicación incorrecta |
 | 4.4.2.7 | 06/09/2024 | Jhosepmyr | Se agregan wireflows para la creación de cuenta, inicio de sesión, gestión de empleados, registro de clientes y vehículos, visualización y gestión de información de empleados y clientes |
 | 4.4.3.1 | 08/09/2024 | Elmer Riva | Se agregan wireflows para las interacciones del cliente y el taller |
@@ -94,6 +90,11 @@
 | 5.3.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección de sprint planning 1 y sprint backlog 1 | 
 | 5.4.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega las secciones de evidencias e insights del sprint 1 |
 | 5.4.1 | 08/09/2024 | Henry Reaño Delgadillo | Se agrega nuevas fotos relacionadas a la landing page y correción de errores en los insights |
+| 5.5.0 | 27/09/2024 | Henry Reaño Delgadillo | Se elimino la participación del miembro retirado del equipo |
+| 5.5.1 | 27/09/2024 | Henry Reaño Delgadillo | Se elimino imágenes innecesarias de la carpeta img |
+| 5.5.2 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigieron los User Persona y se añadieron descripciones a los mismos |
+| 5.5.3 | /09/2024 | Henry Reaño Delgadillo | Se corrigieron los User Journey Mapping y se añadieron descripciones a los mismos |
+| 5.5.4 | 27/09/2024 | Henry Reaño Delgadillo | Se agrega el Student Outcome hasta trabajo parcial |
 
 <div style="page-break-after: always;"></div>
 
@@ -283,8 +284,8 @@
 
 | Criterio Especifico | Acciones Realizadas | Conclusiones |
 | - | - | - |
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Jhosepmyr: <br> Eric: <br> Álvaro: <br> Henry: <br> Elmer: <br> | [Redaccion] |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | Jhosepmyr: <br> Eric: <br> Álvaro: <br> Henry: <br> Elmer: <br> | [Redaccion] |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Jhosepmyr:<br> TB1: En este entregable yo participe ordenando al equipo en ocasiones para fomentar el trabajo en equipo constante. <br> TP: Fungi de nuevo lider a partir de este nuevo entregable, proyecte nuevas reuniones y consegui unir al equipo para desarrollar todas las actividades deseadas. <br>Eric:<br> TB1: En este primer entregable participé en todas las reuniones de trabajo y aporté ideas y participé en los debates importantes. Me sentí una pieza importante del equipo al mismo tiempo que consideré que todos los demás lo fueron por igual.<br> TP: En el trabajo parcial manteni unido al equipo en las reuniones grupales donde avanzamos el trabajo, me sentí pieza importante del trabajo. <br> Henry: <br> TB1: En este entregable el trabajo en equipo me sentí una pieza clave del equipo, en momentos donde hay inconvenientes o problemas estuve ahí para apoyar a mis compañeros, así como ellos me apoyaron a mi a lo largo de estas semanas. <br> TP: A lo largo de este entregable me sentí más capacitado para poder ayudar al equipo mediante mis habilidades técnicas y habilidades blandas a través de las reuniones constantes que teníamos a lo largo de la semana para avanzar o para coordinar las actividades. <br> Elmer: <br> TB1: En este primer entregable, trabajé en equipo asumiendo un liderazgo conjunto con mis compañeros. Colaboramos activamente en la toma de decisiones clave, como los flujos de usuario y la arquitectura de la información. Además, distribuimos las responsabilidades de forma equitativa, lo que nos permitió compartir el liderazgo y aprovechar las fortalezas de cada uno para cumplir con los objetivos del proyecto de manera eficiente. <br> TP: Para esta entrega me mantuve bastante abierto a la opinión de los demás y debati acerca de lo que era más correcto para la elaboración del proyecto. | Por ahora, sentimos que cumplimos con este criterio debido a los videos de exposición que hemos realizado y las entrevistas que nos han permitido seguir con nuestro proyecto. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | Jhosepmyr: <br> TB1: Usualmente escribia por el grupo de discord para reunirnos y notificaba los avances que se realizaban en reuniones rápidas que teníamos a lo largo de los días <br> TP: Para este entregable me comunique bastante con el equipo mediante chat para asignarles las tareas que tienen pendientes y ayudarles en lo que necesiten. <br> Eric: <br>TB1: Para ayudar a crear un entorno colaborativo saludable trabajé en un entorno colaborativo con los demás miembros del equipo al mismo tiempo que mantuve puntualidad en el cumplimiento de las tareas del trabajo.<br> TP: Durante este entregable ayude a modificar algunos artefactos para comunicar mejor el entendimiento del proyecto a las personas que lo lean. <br> Henry: <br> TB1: A pesar de los problemas que pasamos en el transcurso de este entregable, siento que pudimos, como equipo, mantenernos unidos y cooperativos unos con otros. Al inicio nos costo mantener la constancia pero poco a poco mediante metas que nos propusimos en el equipo logramos el objetivo. <br> TP: Para el presente entregable asumí el rol de mejorar todos los errores del informe, para que se entienda al completo al momento de leerlo. Siento que hice un gran trabajo y que no solo levante los errores, sino que mejore por completo los artefactos que teníamos anteriormente. <br> Elmer: <br>TB1: En este primer entregable, creé un entorno colaborativo e inclusivo, donde todos los miembros del equipo pudieron participar activamente. Establecimos metas claras desde el principio, como definir los flujos de usuario y la estructura de la UI. Planificamos las tareas de manera organizada, asignando responsabilidades específicas. Por ejemplo, coordinamos el desarrollo de los prototipos interactivos y la revisión conjunta de los User Flow Diagrams, lo que nos permitió cumplir con los objetivos en tiempo. <br> TP: Para el trabajo parcial mantuve mi organización en equipo e incluse mejore como me comunicaba con mi equipo, de esta manera siento que aproveche mis habilidades para potenciar el trabajo que venimos elaborando a lo largo del ciclo. <br>| Como equipo consideramos que vamos cumpliendo este criterio debido al gran esmero y dedicación que le estamos poniendo al informe a lo largo de estas semanas.  |
 
 <div style="page-break-after: always;"></div>
 
@@ -305,7 +306,6 @@ Yara Software es una startup conformada por jóvenes estudiantes de la carrera d
 | - | - | - | - | - |
 | <img src = "img/1/1/2/Jhosepmyr.jpeg"> </img> | Jhosepmyr Orlando Gutiérrez Soto | 202317638 | Ingeniería de Software | Experiencia en desarrollo frontend y backend. Conocimiento alto en BlockChain. Determinación y seguridad en los trabajos en equipo |
 | <img src = "img/1/1/2/Eric.jpeg"> </img> | Eric Ernesto Hernández Tuiro | 20221C857 | Ingeniería de Software | Programación en C++ y Python. Resolución de problemas y resiliencia ante situaciones de presión. | 
-| <img src = "img/1/1/2/Alvaro.jpeg"> </img> | Álvaro Joaquín Orozco Torres | 202220783 | Ingeniería de Software | Diseño inclusivo, lineamientos de accesibilidad y programación en JavaScript y Python. Capacidad de análisis y resolución de problemas. | 
 | <img src = "img/1/1/2/Henry.jpeg"> </img> | Henry Paolo Reaño Delgadillo | 20221e247 | Ingeniería de Software | Programación en C++ y Javascript. Conocimiento intermedio sobre patrones de software. Capacidad alta para trabajar en equipo. | 
 | <img src = "img/1/1/2/Elmer.jpeg"> </img> | Elmer Augusto Riva Rodríguez | 202220829 | Ingeniería de Software | Diseño de experiencias de usuario y programación con C++ y Python. Competente en la gestión de proyectos grupales. |
 
@@ -934,13 +934,22 @@ Para los segmentos objetivo, se tuvo en cuenta principalmente características d
 
 <img src="img/2/3/1/Johan_Chavez.png">
 
+Johan Chávez representa el user persona del segmento objetivo dueño de taller, se ha modelado sus caracteristicas, metas, trasfondo, motivaciones, frustraciones y habilidades en base al analisis de las entrevistas realizadas anteriormente.
+Se destaca dentro de este user persona sus habilidades, las cuales van orientadas a la gestión de su taller mecánico, así como los canales que utiliza para comunicarse.
+
 ***Mecánicos***
 
 <img src="img/2/3/1/Edilberto_Sosa.png">
 
+Edilberto Sosa representa el user persona del segmento objetivo mecánicos, se ha modelado sus caracteristicas, metas, trasfondo, motivaciones, frustraciones y habilidades en base al analisis de las entrevistas realizadas anteriormente.
+Dentro de este user persona se destaca principalmente los canales que utiliza, así como sus motivaciones.
+
 ***Clientes de taller***
 
 <img src="img/2/3/1/Gonzalo_Mendoza.png">
+
+Gonzalo Mendoza representa el user persona del segmento objetivo cliente de taller, se ha modelado sus caracteristicas, metas, trasfondo, motivaciones, frustraciones y habilidades en base al analisis de las entrevistas realizadas anteriormente.
+Lo que destaca de este user persona son sus habilidades con respecto a la comunicación con un mecánico, además de sus motivaciones relacionadas al cuidado de su vehículo.
 
 ### 2.3.2. User Task Matrix
 
@@ -1008,13 +1017,19 @@ Se considerando los segmentos de Dueños de taller, Mecánicos y Clientes de tal
 
 <img src="img/2/3/3/Johan_Chavez.png">
 
+Dentro del User Journey Mapping del dueño de taller se modelo el proceso de un día de trabajo rutinario, haciendo especial enfásis en como vive las necesidades de su taller y las criticas que recibe de sus mecánicos con respecto a la gestión del taller. 
+
 ***Mecánicos***
 
 <img src="img/2/3/3/Edilberto_Sosa.png">
 
+Dentro del User Journey Mapping del mecánico se ha modelado el proceso de un día de trabajo rutinario, se hizo enfásis en la reparación de un vehículo y cómo actua el mecánico ante los inconvenientes que ocurren durante la intervención.
+
 ***Clientes de taller***
 
 <img src="img/2/3/3/Gonzalo_Mendoza.png">
+
+Dentro del User Journey Mapping del cliente de taller se modelo el caso de un cliente que busca un taller mecánico debido a que su vehículo ha sufrido un desperfecto. Se hace especial enfásis en la elección del taller, el tiempo de espera y la reflexión final del cliente de taller.
 
 ### 2.3.4. Empathy Mapping
 

@@ -95,6 +95,8 @@
 | 5.5.2 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigieron los User Persona y se añadieron descripciones a los mismos |
 | 5.5.3 | /09/2024 | Henry Reaño Delgadillo | Se corrigieron los User Journey Mapping y se añadieron descripciones a los mismos |
 | 5.5.4 | 27/09/2024 | Henry Reaño Delgadillo | Se agrega el Student Outcome hasta trabajo parcial |
+| 5.6.0 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigieron los AS-IS y añadieron descripciones a los mismos |
+
 
 <div style="page-break-after: always;"></div>
 
@@ -480,7 +482,7 @@ De acuerdo con datos de MarketWatch (2024), en Estados Unidos, el 49.5% de los v
         <td colspan="4">El objetivo de este análisis es evaluar el estado actual del mercado de software, identificando el alcance y las características de las soluciones existentes. Esto nos permitirá definir una propuesta de valor única y desarrollar una identidad distintiva para nuestro producto, asegurando que se diferencie claramente en el mercado y satisfaga necesidades no plenamente abordadas por la competencia.</td>
     </tr>
     <tr>
-        <td colspan="2">(En la cabecera colocar por cada competidor nombre y logo)</td>
+        <td colspan="2"></td>
         <th scope="col">Workshop N-GINE<img src="img/2/1/1/Workshop_N-GINE.png"></th>
         <th scope="col">Autodata<img src="img/2/1/1/Autodata.png"></th>
         <th scope="col">ServitechApp<img src="img/2/1/1/ServitechApp.png"></th>
@@ -1051,15 +1053,21 @@ Para realizar esta sección de As-Is Scenario Mapping, en grupo, empatizamos ima
 
 ***Dueños de taller***
 
-<img src="img/2/3/5/Johan_Chavez.png">
+<img src="img/2/3/5/Johan_Chavez.jpg">
+
+El presente AS-IS del dueño de taller modela el caso de recepción de un cliente hasta el control del inventario para la intervención de un vehículo del cliente que llega. Se hace enfásis en las emociones del dueño de taller con respecto a las situaciones que le aquejan en su taller. 
 
 ***Mecánicos***
 
-<img src="img/2/3/5/Edilberto_Sosa.png">
+<img src="img/2/3/5/Edilberto_Sosa.jpg">
+
+El caso modelado para el AS-IS del mecánico es la recepción de un cliente hasta la ejecución de las tareas de una intervención. Se modela cada paso y se refleja los sentimientos y quehaceres del mecánico en cada uno de ellos. El enfoque principal es entender lo que siente un mecánico en su flujo constante de intervenciones.
 
 ***Clientes de taller***
 
-<img src="img/2/3/5/Gonzalo_Mendoza.png">
+<img src="img/2/3/5/Gonzalo_Mendoza.jpg">
+
+En el AS-IS del cliente de taller se modela su llegada al taller hasta la espera de la intervención realizada a su vehículo. Pasos como la recepción de la proforma o la explicación del problema que tiene el vehículo nos permiten entender las necesidades del cliente y cómo se siente respecto a las situaciones que le ocurren en un taller mecánico.
 
 ## 2.4. Ubiquitous Language
 

@@ -92,6 +92,7 @@
 | 5.4.1 | 08/09/2024 | Henry Reaño Delgadillo | Se agrega nuevas fotos relacionadas a la landing page y correción de errores en los insights |
 | 5.5.0 | 08/09/2024 | Henry Reaño Delgadillo | Se elimino la participación del miembro retirado del equipo |
 | 5.5.1 | 08/09/2024 | Henry Reaño Delgadillo | Se elimino imágenes innecesarias de la carpeta img |
+| 5.5.2 | 08/09/2024 | Henry Reaño Delgadillo | Se corrigieron los User Persona y se añadieron descripciones a los mismos |
 
 
 <div style="page-break-after: always;"></div>
@@ -932,13 +933,22 @@ Para los segmentos objetivo, se tuvo en cuenta principalmente características d
 
 <img src="img/2/3/1/Johan_Chavez.png">
 
+Johan Chávez representa el user persona del segmento objetivo dueño de taller, se ha modelado sus caracteristicas, metas, trasfondo, motivaciones, frustraciones y habilidades en base al analisis de las entrevistas realizadas anteriormente.
+Se destaca dentro de este user persona sus habilidades, las cuales van orientadas a la gestión de su taller mecánico, así como los canales que utiliza para comunicarse.
+
 ***Mecánicos***
 
 <img src="img/2/3/1/Edilberto_Sosa.png">
 
+Edilberto Sosa representa el user persona del segmento objetivo mecánicos, se ha modelado sus caracteristicas, metas, trasfondo, motivaciones, frustraciones y habilidades en base al analisis de las entrevistas realizadas anteriormente.
+Dentro de este user persona se destaca principalmente los canales que utiliza, así como sus motivaciones.
+
 ***Clientes de taller***
 
 <img src="img/2/3/1/Gonzalo_Mendoza.png">
+
+Gonzalo Mendoza representa el user persona del segmento objetivo cliente de taller, se ha modelado sus caracteristicas, metas, trasfondo, motivaciones, frustraciones y habilidades en base al analisis de las entrevistas realizadas anteriormente.
+Lo que destaca de este user persona son sus habilidades con respecto a la comunicación con un mecánico, además de sus motivaciones relacionadas al cuidado de su vehículo.
 
 ### 2.3.2. User Task Matrix
 

@@ -93,6 +93,7 @@
 | 5.5.0 | 08/09/2024 | Henry Reaño Delgadillo | Se elimino la participación del miembro retirado del equipo |
 | 5.5.1 | 08/09/2024 | Henry Reaño Delgadillo | Se elimino imágenes innecesarias de la carpeta img |
 | 5.5.2 | 08/09/2024 | Henry Reaño Delgadillo | Se corrigieron los User Persona y se añadieron descripciones a los mismos |
+| 5.5.3 | 08/09/2024 | Henry Reaño Delgadillo | Se corrigieron los User Journey Mapping y se añadieron descripciones a los mismos |
 
 
 <div style="page-break-after: always;"></div>
@@ -1016,13 +1017,19 @@ Se considerando los segmentos de Dueños de taller, Mecánicos y Clientes de tal
 
 <img src="img/2/3/3/Johan_Chavez.png">
 
+Dentro del User Journey Mapping del dueño de taller se modelo el proceso de un día de trabajo rutinario, haciendo especial enfásis en como vive las necesidades de su taller y las criticas que recibe de sus mecánicos con respecto a la gestión del taller. 
+
 ***Mecánicos***
 
 <img src="img/2/3/3/Edilberto_Sosa.png">
 
+Dentro del User Journey Mapping del mecánico se ha modelado el proceso de un día de trabajo rutinario, se hizo enfásis en la reparación de un vehículo y cómo actua el mecánico ante los inconvenientes que ocurren durante la intervención.
+
 ***Clientes de taller***
 
 <img src="img/2/3/3/Gonzalo_Mendoza.png">
+
+Dentro del User Journey Mapping del cliente de taller se modelo el caso de un cliente que busca un taller mecánico debido a que su vehículo ha sufrido un desperfecto. Se hace especial enfásis en la elección del taller, el tiempo de espera y la reflexión final del cliente de taller.
 
 ### 2.3.4. Empathy Mapping
 

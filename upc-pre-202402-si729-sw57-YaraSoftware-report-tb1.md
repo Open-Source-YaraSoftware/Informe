@@ -97,6 +97,7 @@
 | 5.5.4 | 27/09/2024 | Henry Reaño Delgadillo | Se agrega el Student Outcome hasta trabajo parcial |
 | 5.6.0 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigieron los AS-IS y añadieron descripciones a los mismos |
 | 5.6.1 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigieron los TO-BE y añadieron descripciones a los mismos |
+| 5.6.2 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigio el Impact Mapping y se añadio una descripción para el mismo |
 
 <div style="page-break-after: always;"></div>
 
@@ -2075,6 +2076,8 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
 Es esta sección, elaboramos el impact mapping. Para ello, refinamos nuestras hipótesis desarrolladas durante el proceso Lean UX mediante SMART, reemplazamos los segmentos de clientes con los User Personas elaborados en el capítulo II y conectamos las funcionalidades que conducirían a estos a sus objetivos con los deliverables especificados en el Product Backlog.
 
 <img src="img/3/3/Impact_Mapping.png">
+
+Dentro del Impact Mapping podemos observar como todos los segmentos objetivos se encuentran vinculados a una acción que los representa y que a su vez los conecta con un business goal planteado anteriormente. Tanto dueño de taller, mecánico, cliente de taller toman un papel crucial para el cumplimiento de los objetivos planteados por la YaraSoftware. 
 
 ## 3.4. Product Backlog
 

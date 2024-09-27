@@ -91,6 +91,7 @@
 | 5.4.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega las secciones de evidencias e insights del sprint 1 |
 | 5.4.1 | 08/09/2024 | Henry Reaño Delgadillo | Se agrega nuevas fotos relacionadas a la landing page y correción de errores en los insights |
 | 5.5.0 | 08/09/2024 | Henry Reaño Delgadillo | Se elimino la participación del miembro retirado del equipo |
+| 5.5.1 | 08/09/2024 | Henry Reaño Delgadillo | Se elimino imágenes innecesarias de la carpeta img |
 
 
 <div style="page-break-after: always;"></div>

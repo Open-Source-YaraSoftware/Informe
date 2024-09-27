@@ -96,7 +96,7 @@
 | 5.5.3 | /09/2024 | Henry Reaño Delgadillo | Se corrigieron los User Journey Mapping y se añadieron descripciones a los mismos |
 | 5.5.4 | 27/09/2024 | Henry Reaño Delgadillo | Se agrega el Student Outcome hasta trabajo parcial |
 | 5.6.0 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigieron los AS-IS y añadieron descripciones a los mismos |
-
+| 5.6.1 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigieron los TO-BE y añadieron descripciones a los mismos |
 
 <div style="page-break-after: always;"></div>
 
@@ -1119,19 +1119,25 @@ En el AS-IS del cliente de taller se modela su llegada al taller hasta la espera
 
 ## 3.1. To-Be Scenario Mapping
 
-Se realizó una lluvia de ideas sobre cómo cambiaría la experiencia de nuestros usuarios mediante los features que habíamos proyectado durante la fase de Lean UX. De esa forma, pudimos determinar las áreas de mejora y el efecto concreto que tendrían.
+Se realizó una lluvia de ideas sobre cómo cambiaría la experiencia de nuestros usuarios mediante los features que habíamos proyectado durante la fase de Lean UX. De esa forma, pudimos determinar las áreas de mejora y el efecto concreto que tendrían. Se modelaron los mismos casos del escenario As-Is, aplicando ahora los features del proyecto.
 
 ***Dueños de taller***
 
 <img src="img/3/1/Johan_Chavez.jpg">
 
+Durante el proceso diseñado para el dueño de taller nos podemos dar cuenta que el mismo ya no tiene sentimientos negativos vinculados a la recepción de clientes, asignación de responsabilidades ni control de inventario, pues la solución le propone una mejora significativa con respecto a lo que anteriormente hacía.
+
 ***Mecánicos***
 
 <img src="img/3/1/Edilberto_Sosa.jpg">
 
+El mecánico utilizando la aplicación web nota un cambio radical en su forma de trabajo , no solo ha mejora en cuanto a eficiencia, sino también en comodidad. 
+
 ***Clientes de taller***
 
 <img src="img/3/1/Gonzalo_Mendoza.jpg">
+
+El cliente, probablemente sea el segmento objetivo que note más la diferencia con respecto a lo que vivía anteriormente. Notamos que la automatización mediante la aplicación web permite que el cliente sea un actor que unicamente se preocupa por su vehículo, más no por nada más. 
 
 ## 3.2. User Stories
 

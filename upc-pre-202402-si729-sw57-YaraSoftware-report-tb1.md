@@ -4275,29 +4275,83 @@ Cada mensaje de commit debe proporcionar suficiente información para entender e
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-El Lenguaje de Marcado de Hipertexto (HTML) es esencial para estructurar y presentar contenido en páginas web, siendo común nombrar la página principal como index.html. Algunas convenciones clave que incluiremos en nuestro código:
-Usar elementos en minúsculas y cerrar todos los elementos para asegurar compatibilidad y legibilidad.
-Escribir comentarios breves y evitar líneas de código largas.
-Incluir el atributo lang y especificar detalles como alt, ancho y altura en imágenes para accesibilidad.
-CSS es el lenguaje para dar estilo a las páginas web. Convenciones que utilizaremos:
-Mantener una nomenclatura coherente para clases e identificadores, con una indentación consistente y agrupación de propiedades relacionadas.
-Evitar selectores excesivamente específicos y duplicación de reglas.
-Probar el código en varios navegadores y dispositivos.
-JavaScript agrega interactividad a las páginas web. Las prácticas que utilizaremos son:
-Nomenclatura coherente para variables y funciones, evitando variables globales.
-Manejar errores con bloques try-catch, optimizar el código para rendimiento, y probar en diversos navegadores.
-Gherkin es un lenguaje usado para describir escenarios de prueba de forma legible. Recomendaciones clave:
-Usar un lenguaje claro con una estructura coherente basada en palabras clave como Feature, Scenario, Given, When, y Then.
-Evitar la duplicación de pasos y colaborar con el equipo para mejorar los escenarios.
+#### HTML: Buenas Prácticas
+
+Algunas prácticas recomendadas para mantener un código HTML coherente, sostenible y ordenado son las siguientes:
+
+- **Cerrar todos los elementos HTML**: Es fundamental cerrar cada etiqueta, por ejemplo: `<p>Este es un párrafo.</p>`.
+- **Uso exclusivo de minúsculas**: Aunque HTML permite usar mayúsculas y minúsculas en los nombres de los elementos y atributos, se recomienda usar solo minúsculas para mejorar la legibilidad y organización del código.
+- **Usar comillas para atributos con espacios**: Siempre rodear con comillas los atributos que contengan espacios.
+- **Incluir `alt`, `width` y `height` en las imágenes**: Para mejorar la accesibilidad y optimizar la carga del contenido, especificar siempre el texto alternativo (`alt`) y las dimensiones (`width` y `height`) de las imágenes. Ejemplo:
+
+```html
+<img src="abc.img" alt="nombre de la imagen" style="width:128px;height:128px">
+```
+#### CSS: Buenas Prácticas
+
+En el uso de CSS, estas son las recomendaciones para mantener un código limpio y fácil de mantener:
+
+- **Nombres de clases breves y descriptivos**: Los nombres de las clases deben ser concisos pero suficientemente descriptivos para indicar su función.
+- **Separar palabras con guiones en nombres de clases e IDs**: Se deben usar guiones para separar palabras en nombres de clases e identificadores.
+- **Omitir la unidad de medida para el valor 0**: No es necesario añadir una unidad de medida cuando el valor es 0 (por ejemplo, usar `0` en vez de `0px`).
+- **Separar cada declaración y selector en líneas nuevas**: Esto mejora la legibilidad del código al facilitar la lectura y el mantenimiento.
 
 ### 5.1.4. Software Deployment Configuration
 
-Netlify es una plataforma de alojamiento web y despliegue continuo que simplifica el lanzamiento de sitios web y aplicaciones estáticas. Funciona de la siguiente manera:
-Integración con repositorios Git: Se sincroniza con plataformas como GitHub, GitLab y Bitbucket. Cada vez que se actualiza el código en el repositorio, Netlify inicia automáticamente el proceso de construcción y despliegue.
-Proceso de construcción: Convierte el código (HTML, CSS, JavaScript) en un sitio estático, realizando tareas como la compilación de archivos y optimización de imágenes.
-Red CDN: Una vez construida, la aplicación es desplegada a través de su red de distribución de contenido (CDN) global, garantizando un rendimiento rápido y accesible.
-Vistas previas automáticas: Para cada rama de tu repositorio, genera vistas previas automáticas, facilitando la revisión de cambios antes de fusionarlos con la rama principal.
-Publicaciones automáticas: Configura despliegues automáticos para cada pull request o fusión, lo que garantiza que el sitio esté siempre actualizado con la última versión del código.
+## Despliegue de la Landing Page de Workshop N-GINE
+
+En esta sección, se detalla la configuración necesaria para el despliegue de la solución, incluyendo los pasos requeridos para ejecutar un despliegue o publicación efectiva de la **Landing Page**. Se explican los procedimientos que deben seguirse desde los repositorios de código fuente hasta la implementación final en el entorno de producción, asegurando que todos los componentes estén correctamente configurados y que la solución esté lista para su uso público. Esto implica la integración continua, pruebas automáticas y estrategias de despliegue que facilitan la transición del código desde el desarrollo hasta su disponibilidad final para los usuarios.
+
+### Despliegue de la Landing Page
+
+Para el despliegue eficiente del proyecto de la **Landing Page**, es imprescindible cumplir con ciertos prerrequisitos técnicos. Es necesario establecer una cuenta vinculada entre **GitHub** y **Netlify**. Adicionalmente, todos los archivos del proyecto deben estar organizados y alojados adecuadamente en un repositorio de GitHub. Una vez asegurado el cumplimiento de estos criterios, se procederá con los siguientes pasos para el despliegue:
+
+1. **Ingresar a Netlify**  
+   Accede a la plataforma utilizando tus credenciales de GitHub seleccionando la opción **"Log in with GitHub"**.  
+
+  <div style="display: grid; justify-content: center; align-items: center;">
+    <img src="img/5/2/1/1/netlify-1.png" width="600px">
+  </div>
+
+2. **Autorizar a Netlify**  
+   Otorga autorización a Netlify para acceder a tu cuenta de GitHub. Luego, navega a la sección **"Sites"** y selecciona **"Add new site"**, seguido de **"Import an existing project"** para iniciar el proceso de importación del proyecto.  
+
+  <div style="display: grid; justify-content: center; align-items: center;">
+    <img src="img/5/2/1/1/netlify-2.png" width="600px">
+  </div>
+
+3. **Seleccionar el repositorio**  
+   Selecciona la opción **"Deploy with GitHub"**. Configura el acceso al repositorio de tu organización y después elige el repositorio específico sobre el cual realizarás el despliegue.
+
+  <div style="display: grid; justify-content: center; align-items: center;">
+    <img src="img/5/2/1/1/netlify-3.png" width="600px">
+  </div>
+
+4. **Organización y proyecto**  
+   Si el repositorio se encuentra bajo una organización, elige la opción **"Add another organization"**. Luego, selecciona el proyecto específico asociado a esa organización.
+
+  <div style="display: grid; justify-content: center; align-items: center;">
+    <img src="img/5/2/1/1/netlify-4.png" width="600px">
+  </div>
+
+5. **Configurar el despliegue**  
+   Procede a configurar el despliegue especificando el equipo de Netlify correspondiente y la rama del repositorio que se utilizará para el despliegue, en este caso, la rama `main`.
+
+  <div style="display: grid; justify-content: center; align-items: center;">
+    <img src="img/5/2/1/1/netlify-5.png" width="600px">
+  </div>
+
+6. **Finalizar el despliegue**  
+   Espera a que la plataforma complete el proceso de despliegue. Una vez finalizado, serás redirigido automáticamente al inicio, donde se te mostrará el enlace a la página web recién desplegada.
+
+  <div style="display: grid; justify-content: center; align-items: center;">
+    <img src="img/5/2/1/1/netlify-6.png" width="600px">
+  </div>
+
+Con este procedimiento, la página desplegada quedará vinculada y autorizada con el repositorio de la organización. Cada vez que se realice un commit en la rama correspondiente, la **Landing Page** se actualizará automáticamente, eliminando la necesidad de repetir los pasos de despliegue previos.
+
+**[Enlace para acceder a la Landing Page](https://landing-page-workshop-n-gine.netlify.app/#learn-more)**.
+
 
 ## 5.2. Landing Page, Services & Applications Implementation
 

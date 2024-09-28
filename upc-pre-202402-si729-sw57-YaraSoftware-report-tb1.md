@@ -2874,7 +2874,7 @@ Explicación de flujo: el usuario comienza desde la interfaz principal del talle
 El usuario puede revisar esta línea de tiempo para obtener una visión general de las intervenciones. Al hacer clic en una intervención específica, se accede a una vista detallada de la intervención, que incluye la modalidad, la fecha programada, los mecánicos asignados, y una descripción del trabajo realizado. Si la intervención ya está finalizada, se muestra con el estado correspondiente en el encabezado. Además, en esta sección, se puede visualizar la secuencia de tareas asignadas y completadas durante la intervención, permitiendo al usuario ver el progreso o el resultado final del trabajo realizado en su vehículo.
 <br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireflows/22.1png" width="1000px">
+  <img src="img/4/wireflows/22.1.png" width="1000px">
 </div>
 
 #### User goal: : Acceder a información de dispositivo IoT.

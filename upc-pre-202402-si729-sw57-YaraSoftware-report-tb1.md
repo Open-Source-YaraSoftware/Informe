@@ -99,6 +99,7 @@
 | 5.6.1 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigieron los TO-BE y añadieron descripciones a los mismos |
 | 5.6.2 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigio el Impact Mapping y se añadio una descripción para el mismo |
 | 5.6.3 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigio los criterios de aceptación de los user stories |
+| 5.6.4 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigio la priorización del product backlog |
 
 <div style="page-break-after: always;"></div>
 
@@ -275,7 +276,6 @@
 [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 
 [Video About-the-Team](#video-about-the-team)
-
 
 [Bibliografía](#bibliografía)
 
@@ -696,6 +696,8 @@ PARTE III: Finalmente, haremos preguntas relacionadas a la naturaleza y caracter
 
 ### 2.2.2. Registro de entrevistas
 
+[text](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ES8DkIjICzxHuXzDnPTW-6wBRsy-hmMG7HxQOQzXi_SNUw?e=VeVmOs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzAwLjE0fX0%3D)
+
 <table>
     <tr>
         <th scope="col">Segmento</th>
@@ -713,6 +715,7 @@ PARTE III: Finalmente, haremos preguntas relacionadas a la naturaleza y caracter
         Familia: conviviente e hija<br>
         Dispositivo preferido: celular<br>
         Tipo de taller: mecánica y electrónica<br>
+        Tiempo de la entrevista: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ES8DkIjICzxHuXzDnPTW-6wBRsy-hmMG7HxQOQzXi_SNUw?e=BAHcae&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MC45NX19">0:00</a><br>
         <br>
         Erwin es responsable de la administración de su taller, además de participar activamente en el trabajo operativo. Actualmente, utiliza un cuaderno para llevar un control del trabajo realizado, especialmente para asegurar transparencia y seguimiento ante sus clientes. Sin embargo, no todos sus empleados siguen este mismo estándar, lo que genera una falta de consistencia en los registros. Entre las principales dificultades que enfrenta, destacan la obtención de repuestos y la falta de información sobre vehículos de marcas menos comunes. Aunque usa dispositivos como celulares y tablets junto con un escáner OBD para diagnósticos, el cual califica de indispensable debido a los modelos de vehículos de sus clientes.
         </td>
@@ -728,7 +731,7 @@ PARTE III: Finalmente, haremos preguntas relacionadas a la naturaleza y caracter
         Familia: conviviente e hija<br>
         Dispositivo preferido: celular<br>
         Tipo de taller: mecánica<br>
-        <br>
+        Tiempo de la entrevista: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ES8DkIjICzxHuXzDnPTW-6wBRsy-hmMG7HxQOQzXi_SNUw?e=wYAM7v&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6Mjk5LjkzfX0%3D">4:59</a><br>
         Enrique se encarga de las operaciones de mecánica general y de adaptación en su taller, trabajando como uno más de su equipo. A pesar de usar ocasionalmente cuadernos o su celular para llevar registros, prefiere no hacerlo, lo que podría estar relacionado con su extensa experiencia en el sector. No percibe dificultades significativas en su trabajo debido a su larga trayectoria, lo que le da una confianza natural en sus habilidades. Sin embargo, debido a que la mayoría de sus clientes poseen vehículos antiguos, no ve mucho valor en el uso de tecnologías como el escáner OBD.
         </td>
         <td><img src="img/2/2/2/Evidencia_Enrique.jpeg"></td>
@@ -743,6 +746,7 @@ PARTE III: Finalmente, haremos preguntas relacionadas a la naturaleza y caracter
         Familia: esposa y tres hijas<br>
         Dispositivo preferido: celular<br>
         Tipo de taller: mecánica y electrónica<br>
+        Tiempo de la entrevista: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ES8DkIjICzxHuXzDnPTW-6wBRsy-hmMG7HxQOQzXi_SNUw?e=1Rcf8a&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTk0LjI3fX0%3D">9:54</a><br>
         <br>
         Darío es responsable tanto de la parte operativa como administrativa de su taller. Destaca por su meticulosidad al documentar cada proceso de trabajo, asegurando que todos los pasos queden registrados en un sistema que no solo mejora el control operativo, sino que también optimiza la atención al cliente. Entre las principales dificultades que enfrenta, menciona los errores en los códigos de los manuales de autopartes, la complejidad de manejar solicitudes adicionales de los clientes, y los problemas que pueden surgir si un vehículo o repuesto falla durante las pruebas de calidad.<br>
         Darío utiliza una combinación de computadoras de escritorio y celulares en su trabajo diario, lo que refleja un enfoque moderno y tecnológico en la gestión de su taller. Además, realiza transmisiones en vivo de su negocio, lo que indica una apertura hacia el uso de nuevas tecnologías para promocionar y mejorar la comunicación con sus clientes. Destaca la importancia del escáner OBD en su labor, considerándolo indispensable, y resalta la necesidad de mantenerse actualizado constantemente para ofrecer un servicio de calidad.
@@ -759,6 +763,7 @@ PARTE III: Finalmente, haremos preguntas relacionadas a la naturaleza y caracter
         Estado civil: soltero<br>
         Familia: madre, padre y hermano<br>
         Dispositivo preferido: celular<br>
+        Tiempo de la entrevista: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ES8DkIjICzxHuXzDnPTW-6wBRsy-hmMG7HxQOQzXi_SNUw?e=PrjY8W&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6ODkzLjI5fX0%3D">14:53</a><br>
         Jheyson ha estado involucrado en la mecánica automotriz por cinco años, motivado por sus lazos familiares. En el taller que trabaja, las responsabilidades se distribuyen entre los mecánicos en función de las características del vehículo y la disponibilidad de cada uno. Su principal preocupación es tener acceso a información precisa sobre la estructura del vehículo para evitar daños durante las reparaciones, la cual obtiene a través de su jefe o investigando en internet usando su celular.<br>
         Utiliza proformas en papel para registrar las actividades realizadas y pendientes, lo que indica un enfoque manual y tradicional en su trabajo. Además, emplea un escáner OBD como herramienta de asistencia para identificar problemas en los vehículos mediante los códigos generados, para así saber por dónde comenzar su trabajo.
         <br>
@@ -774,6 +779,7 @@ PARTE III: Finalmente, haremos preguntas relacionadas a la naturaleza y caracter
         Estado civil: conviviente<br>
         Familia: conviviente e hijo<br>
         Dispositivo preferido: celular<br>
+        Tiempo de la entrevista: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ES8DkIjICzxHuXzDnPTW-6wBRsy-hmMG7HxQOQzXi_SNUw?e=Ld4i7N&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTE2Ny42Mn19">19:27</a><br>
         Lleva aproximadamente 20 años en la mecánica por su fascinación por el funcionamiento de los vehículos. En el taller que trabaja, las responsabilidades se distribuyen y asignan directamente según su importancia y complejidad al momento que un vehículo ingresa. Señala la importancia de obtener información por parte del cliente, la cuál se complementa con búsquedas por internet con su celular de ser necesario. Utiliza un cuaderno como registro del trabajo realizado donde es importante registrar el número de placa del vehículo. En el taller que trabaja, no se hace uso del escáner OBD, dado el tipo de vehículos que recibe en su taller por parte de sus clientes.
         <br>
         </td>
@@ -788,6 +794,7 @@ PARTE III: Finalmente, haremos preguntas relacionadas a la naturaleza y caracter
         Estado civil: soltero<br>
         Familia: padre, madre y hermano<br>
         Dispositivo preferido: celular<br>
+        Tiempo de la entrevista: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ES8DkIjICzxHuXzDnPTW-6wBRsy-hmMG7HxQOQzXi_SNUw?e=HnxDE0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTQ1Mi4wNH19">24:12</a><br>
         Lleva aproximadamente seis años trabajando en mecánica, impulsado por su fascinación por el funcionamiento de los vehículos. En el taller donde labora, las responsabilidades se asignan mediante una hoja de trabajo que describe el problema. Destaca la importancia de obtener información detallada del cliente, incluyendo sus primeras impresiones, y complementa estos datos con su conocimiento técnico y consultas realizadas a través de su celular. Utiliza una hoja de cálculo en Excel para registrar el trabajo realizado, asegurándose de anotar las actividades y las fechas correspondientes. En su trabajo, emplea un escáner OBD para obtener los valores necesarios y determinar la causa de los problemas.
         <br>
         </td>
@@ -804,6 +811,7 @@ PARTE III: Finalmente, haremos preguntas relacionadas a la naturaleza y caracter
         Estado civil: soltero<br>
         Familia: padre<br>
         Marca de vehículo: Mazda<br>
+        Tiempo de la entrevista: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ES8DkIjICzxHuXzDnPTW-6wBRsy-hmMG7HxQOQzXi_SNUw?e=BZc4qj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTc0Mi42Nn19">29:02</a>
         <br>
         Carlos, quien conduce un Mazda CX-5 prestado por un familiar, enfatiza la importancia del cuidado del vehículo debido a que no es de su propiedad. Aunque carece de conocimientos técnicos sobre su automóvil, ultimamente está interesado en aprender más. Indicó que confía en un mecánico recomendado, pero no lleva el auto al taller regularmente, solo cuando surgen problemas. La posibilidad de monitorear el estado del vehículo de manera constante le resulta atractiva, ya que reconoce que muchos problemas pueden pasar desapercibidos y requieren tiempo y esfuerzo para ser detectados. Además, le interesa la función de aforo y disponibilidad del taller, recordando una experiencia negativa relacionada con largas colas en el taller y cómo esta funcionalidad podría haberle evitado esa molestia.
         </td>
@@ -819,7 +827,7 @@ PARTE III: Finalmente, haremos preguntas relacionadas a la naturaleza y caracter
         Estado civil: soltera<br>
         Familia: madre<br>
         Marca de vehículo: Hyundai<br>
-        <br>
+        Tiempo de la entrevista: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ES8DkIjICzxHuXzDnPTW-6wBRsy-hmMG7HxQOQzXi_SNUw?e=HF2qOJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjAxNi45N319">33:36</a><br>
         María Angélica tiene 7 años de experiencia manejando, aunque a pesar de su tiempo al volante, no está familiarizada con los aspectos técnicos de su vehículo, lo que le genera preocupaciones sobre la transparencia de los servicios mecánicos. Considera importante el cuidado de su Hyundai Tucson y tiene un mecánico de confianza desde hace 3 años, al que acude solo cuando surgen problemas. La idea de un monitoreo constante del vehículo le parece útil, ya que le ayudaría a evitar accidentes y a mantener el vehículo en buen estado a largo plazo. También encuentra valiosa la funcionalidad que muestra el aforo y la disponibilidad del taller, dado su horario limitado, lo que le permitiría planificar mejor sus visitas al taller dado su tiempo limitado como estudiante.
         </td>
         <td><img src="img/2/2/2/Evidencia_Maria.png"></td>
@@ -834,13 +842,15 @@ PARTE III: Finalmente, haremos preguntas relacionadas a la naturaleza y caracter
         Estado civil: soltero<br>
         Familia: padre, madre y dos hermanos<br>
         Marca de vehículo: Nissan<br>
-        <br>
+        Tiempo de la entrevista: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ES8DkIjICzxHuXzDnPTW-6wBRsy-hmMG7HxQOQzXi_SNUw?e=VbozdH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjI4Ni4wOX19">38:05</a><br>
         Junior conduce el Nissan Máxima de su padre desde hace casi dos años y admite tener poco conocimiento sobre el funcionamiento técnico del vehículo. A pesar de ello, se preocupa por el cuidado del coche y confía en un mecánico para tareas como el cambio de aceite, que realiza periódicamente. Valora las funciones de monitoreo del estado del vehículo y el aforo del taller, ya que las percibe como herramientas útiles para evitar problemas graves en el futuro y reducir el tiempo de espera en el taller.
         <br>
         </td>
         <td><img src="img/2/2/2/Evidencia_Junior.png"></td>
     </tr>
 </table>
+
+Link de la entrevista completa <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ES8DkIjICzxHuXzDnPTW-6wBRsy-hmMG7HxQOQzXi_SNUw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=kwDdfv">aquí</a>
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -2482,52 +2492,53 @@ Para elaborar el Product backlog se priorizo por el método MoSCoW y se estimo a
 | 7 | SWR-09 | Internacionalización | Como visitante de landing page quiero que la landing page sea accesible en español e inglés para que pueda acceder a la información en el idioma que prefiera y proporcionar una experiencia adecuada para usuarios de diferentes regiones | 2 |
 | 8 | SWR-05 | About Us | Como dueño de taller visitante de landing page quiero conocer más sobre la empresa en la sección "About Us" para entender mejor la experiencia y credibilidad de la empresa detrás del producto antes de considerar una compra. | 2 |
 | 9 | SWR-08 | Footer | Como visitante de landing page quiero acceder a enlaces importantes en el footer para encontrar rápidamente información adicional, como políticas de privacidad, términos de servicio y detalles de contacto de la empresa | 3 |
-| 10 | TS-01 | Crear Usuario a través de la API RESTful | Como desarrollador quiero agregar un usuario a través de la API para que el usuario pueda registrarse y acceder al sistema del taller | 3 |
-| 11 | TS-15 | Consultar Usuario a través de la API RESTful | Como desarrollador quiero consultar los detalles de un usuario a través de la API para que se pueda obtener la información del usuario registrado. | 2 |
-| 12 | TS-09 | Actualizar Usuario a través de la API RESTful | Como desarrollador quiero actualizar un usuario a través de la API para que se puedan modificar los detalles de los usuarios existentes | 3 |
-| 13 | US-03 | Creación de cuentas de taller | Como dueño de taller quiero registrar a mis clientes y personal en el sistema para gestionar la información de las intervenciones y tareas en el taller | 3 |
-| 14 | US-06 | Clientes | Como dueño de taller quiero visualizar mi lista de clientes para saber quiénes son mis clientes | 3 |
-| 15 | US-04 | Personal | Como dueño de taller quiero visualizar mi lista de empleados saber qué empleados están registrados en el sistema | 2 |
-| 16 | TS-02 | Crear Vehículo a través de la API RESTful | Como desarrollador quiero agregar un vehículo a través de la API para que se pueda gestionar el vehículo de cada usuario. | 3 |
-| 17 | TS-16 | Consultar Vehículo a través de la API RESTful | Como desarrollador quiero consultar los detalles de un vehículo a través de la API para que se pueda obtener la información del vehículo registrado | 2 |
-| 18 | TS-10 | Actualizar Vehículo a través de la API RESTful | Como desarrollador quiero actualizar un vehículo a través de la API para que se puedan modificar los detalles de los vehículos existentes. | 3 |
-| 19 | US-21 | Registro de vehículos | Como usuario quiero poder registrar vehículos para poder asociar y monitorear su información mediante la aplicación | 2 |
-| 20 | TS-05 | Crear Intervención a través de la API RESTful | Como desarrollador quiero agregar una intervención a través de la API para que se registren las reparaciones y el mantenimiento realizados a un vehículo. | 3 |
-| 21 | TS-19 | Consultar Intervención a través de la API RESTful| Como desarrollador quiero consultar los detalles de una intervención a través de la API para que se pueda obtener la información de la intervención registrada. | 2 |
-| 22 | TS-13 | Actualizar Intervención a través de la API RESTful | Como desarrollador quiero actualizar una intervención a través de la API para que se puedan modificar los detalles de las intervenciones existentes | 3 |
-| 23 | TS-07 | Eliminar Intervención a través de la API RESTful | Como desarrollador quiero eliminar una intervención a través de la API para que se pueda eliminar una intervención del sistema | 3 |
-| 24 | US-09 | Creación de intervenciones | Como dueño de taller quiero poder gestionar las intervenciones de mi taller para organizar eficientemente a mis mecánicos | 5 |
-| 25 | TS-06 | Crear Tarea dentro de una Intervención a través de la API RESTful | Como desarrollador quiero agregar una tarea dentro de una intervención a través de la API para que las tareas asociadas a las intervenciones sean gestionadas correctamente. | 3 |
-| 26 | TS-20 | Consultar Tarea dentro de una Intervención a través de la API RESTful | Como desarrollador quiero consultar los detalles de una tarea dentro de una intervención a través de la API para que se pueda obtener la información de la tarea registrada. | 2 |
-| 27 | TS-08 | Eliminar Tarea a través de la API RESTful | Como desarrollador quiero eliminar una tarea a través de la API para que se pueda eliminar una tarea de una intervención del sistema | 3 |
-| 28 | TS-14 | Actualizar Tarea dentro de una Intervención a través de la API RESTful| Como desarrollador quiero actualizar una tarea dentro de una intervención a través de la API para que se puedan modificar los detalles de las tareas asociadas a una intervención. | 2 |
-| 29 | US-15 | Mis tareas (lider) | Como mecánico quiero poder visualizar mis tareas pendientes para poder hacer seguimiento del trabajo que queda por hacer en mis vehículos.| 3 |
-| 30 | US-16 | Mis tareas (asistente) | Como mecánico quiero poder visualizar mis tareas pendientes para poder hacer seguimiento del trabajo que queda por hacer en mis vehículos. | 2 |
-| 31 | US-17 | Información de intervención | Como mecánico quiero consultar información relevante de la intervención para realizar un mejor diagnóstico | 1 |
-| 32 | US-18 | Diagnóstico de intervención | Como mecánico quiero poder modelar el diagnóstico de intervención para registrar la secuencia de tareas que se deben realizar para terminar el trabajo | 3 |
-| 33 | US-19 | Ejecución de intervención | Como mecánico quiero controlar la ejecución de las tareas de una intervención para  controlar y conocer el desarrollo de las tareas correspondientes | 5 |
-| 34 | US-20 | Supervisión de intervención | Como mecánico quiero poder verificar el cumplimiento de todas las tareas de intervención para poder registrar el trabajo como terminado | 2 |
-| 35 | US-08 | Intervenciones | Como dueño de taller quiero visualizar las intervenciones para controlar los servicios realizados y pendientes en el taller | 2 |
-| 36 | US-10 | Detalles de intervención | Como dueño de taller quiero visualizar los detalles asociados a una intervención para tener un control claro y detallado del trabajo realizado y gestionar los cambios de los clientes | 5 |
-| 37 | US-07 | Detalles de clientes | Como dueño de taller quiero manejar información de mis clientes para mantener sus datos actualizados y aprovecharlos | 2 |
-| 38 | US-05 | Detalles de empleado | Como dueño de taller quiero manejar la información de mis empleados para gestionar sus cuentas | 2 |
-| 39 | US-22 | Registro de intervenciones | Como usuario quiero acceder al registro de intervenciones de un vehículo para utilizar la información para tomar mejores decisiones | 2 |
-| 40 | TS-04 | Crear Ítem de Inventario a través de la API RESTful | Como desarrollador quiero agregar un ítem de inventario a través de la API para que se tenga un control adecuado del inventario en el taller. | 3 |
-| 41 | TS-18 | Consultar Ítem de Inventario a través de la API RESTful | Como desarrollador quiero consultar los detalles de un ítem de inventario a través de la API para que se pueda obtener la información del ítem de inventario registrado. | 2 |
-| 42 | TS-12 | Actualizar Ítem de Inventario a través de la API RESTful | Como desarrollador Quiero actualizar un ítem de inventario a través de la API Para que se puedan modificar los detalles de los ítems de inventario existentes. | 3 |
-| 43 | US-11 | Existencias de inventario | Como dueño de taller quiero poder manejar existencias en mi inventario para asegurar que siempre haya disponibilidad de piezas y materiales necesarios para las intervenciones eficientemente | 2 |
-| 44 | TS-03 | Crear Solicitud a través de la API RESTful | Como desarrollador quiero agregar una solicitud a través de la API para que se pueda gestionar la necesidad de piezas y repuestos en el taller. | 3 |
-| 45 | TS-17 | Consultar Solicitud a través de la API RESTful | Como desarrollador quiero consultar los detalles de una solicitud a través de la API para que se pueda obtener la información de la solicitud registrada. | 2 |
-| 46 | TS-11 | Actualizar Solicitud a través de la API RESTful | Como desarrollador quiero actualizar una solicitud a través de la API para que se puedan modificar los detalles de las solicitudes existentes. | 3 |
-| 47 | US-12 | Solicitudes de inventario | Como dueño de taller quiero crear y manejar solicitudes de inventario realizadas por los mecánicos para conocer los materiales y repuestos necesarios para las intervenciones pendientes | 2 |
-| 48 | US-01 | Formulario de registro | Como dueño de taller quiero registrar una cuenta de usuario para empezar a utilizar la aplicación para gestionar mi taller | 2 |
-| 49 | US-02 | Pantalla de login | Como usuario quiero acceder a mi cuenta para usar las funcionalidades de la aplicación | 3 |
-| 50 | US-23 | Información IoT de vehículo | Como usuario quiero acceder a la información generada por el dispositivo IoT del vehículo para conocer el estado actual del vehículo más rápidamente | 3 |
-| 51 | US-24 | Agendar cita de intervención | Como usuario quiero agendar citas de intervención para ahorrarme tiempo | 2 |
-| 52 | TS-21 | Crear Notificación a través de la API RESTful | Como desarrollador quiero crear una notificación a través de la API para que se pueda generar una notificación asociada a un usuario. | 3 |
-| 53 | TS-22 | Consultar Notificación a través de la API RESTful | Como desarrollador quiero consultar los detalles de una notificación a través de la API para que se pueda obtener la información de una notificación específica asociada a un usuario. | 2 |
-| 54 | US-14 | Notificaciones | Como usuario quiero recibir notificaciones para estar al tanto y llevar un registro de eventos importantes de la aplicación | 5 |
-| 55 | US-13 | Métricas | Como dueño de taller quiero contar con métricas de rendimiento de mi negocio y características de clientes para conocer el rendimiento y tomar mejores decisiones que mejoren la eficiencia | 5 |
+| 10 | US-01 | Formulario de registro | Como dueño de taller quiero registrar una cuenta de usuario para empezar a utilizar la aplicación para gestionar mi taller | 2 |
+| 11 | US-02 | Pantalla de login | Como usuario quiero acceder a mi cuenta para usar las funcionalidades de la aplicación | 3 |
+| 12 | US-25 | Navegación dinámica por rol | Como usuario quiero tener a disposición los beneficios que me ofrece la aplicación web para sacarles provecho rápidament | 1 |
+| 13 | US-09 | Creación de intervenciones | Como dueño de taller quiero poder gestionar las intervenciones de mi taller para organizar eficientemente a mis mecánicos | 5 |
+| 14 | US-03 | Creación de cuentas de taller | Como dueño de taller quiero registrar a mis clientes y personal en el sistema para gestionar la información de las intervenciones y tareas en el taller | 3 |
+| 15 | US-08 | Intervenciones | Como dueño de taller quiero visualizar las intervenciones para controlar los servicios realizados y pendientes en el taller | 2 |
+| 16 | US-17 | Información de intervención | Como mecánico quiero consultar información relevante de la intervención para realizar un mejor diagnóstico | 1 |
+| 17 | US-15 | Mis tareas (lider) | Como mecánico quiero poder visualizar mis tareas pendientes para poder hacer seguimiento del trabajo que queda por hacer en mis vehículos.| 3 |
+| 18 | US-16 | Mis tareas (asistente) | Como mecánico quiero poder visualizar mis tareas pendientes para poder hacer seguimiento del trabajo que queda por hacer en mis vehículos. | 2 |
+| 19 | US-18 | Diagnóstico de intervención | Como mecánico quiero poder modelar el diagnóstico de intervención para registrar la secuencia de tareas que se deben realizar para terminar el trabajo | 3 |
+| 20 | US-19 | Ejecución de intervención | Como mecánico quiero controlar la ejecución de las tareas de una intervención para  controlar y conocer el desarrollo de las tareas correspondientes | 5 |
+| 21 | US-20 | Supervisión de intervención | Como mecánico quiero poder verificar el cumplimiento de todas las tareas de intervención para poder registrar el trabajo como terminado | 2 |
+| 22 | US-04 | Personal | Como dueño de taller quiero visualizar mi lista de empleados saber qué empleados están registrados en el sistema | 2 |
+| 23 | US-05 | Detalles de empleado | Como dueño de taller quiero manejar la información de mis empleados para gestionar sus cuentas | 2 |
+| 24 | US-06 | Clientes | Como dueño de taller quiero visualizar mi lista de clientes para saber quiénes son mis clientes | 3 |
+| 25 | US-07 | Detalles de clientes | Como dueño de taller quiero manejar información de mis clientes para mantener sus datos actualizados y aprovecharlos | 2 |
+| 26 | US-10 | Detalles de intervención | Como dueño de taller quiero visualizar los detalles asociados a una intervención para tener un control claro y detallado del trabajo realizado y gestionar los cambios de los clientes | 5 |
+| 27 | US-11 | Existencias de inventario | Como dueño de taller quiero poder manejar existencias en mi inventario para asegurar que siempre haya disponibilidad de piezas y materiales necesarios para las intervenciones eficientemente | 2 |
+| 28 | US-12 | Solicitudes de inventario | Como dueño de taller quiero crear y manejar solicitudes de inventario realizadas por los mecánicos para conocer los materiales y repuestos necesarios para las intervenciones pendientes | 2 |
+| 29 | US-21 | Registro de vehículos | Como usuario quiero poder registrar vehículos para poder asociar y monitorear su información mediante la aplicación | 2 |
+| 30 | US-22 | Registro de intervenciones | Como usuario quiero acceder al registro de intervenciones de un vehículo para utilizar la información para tomar mejores decisiones | 2 |
+| 31 | US-23 | Información IoT de vehículo | Como usuario quiero acceder a la información generada por el dispositivo IoT del vehículo para conocer el estado actual del vehículo más rápidamente | 3 |
+| 32 | US-24 | Agendar cita de intervención | Como usuario quiero agendar citas de intervención para ahorrarme tiempo | 2 |
+| 33 | US-13 | Métricas | Como dueño de taller quiero contar con métricas de rendimiento de mi negocio y características de clientes para conocer el rendimiento y tomar mejores decisiones que mejoren la eficiencia | 5 |
+| 34 | US-14 | Notificaciones | Como usuario quiero recibir notificaciones para estar al tanto y llevar un registro de eventos importantes de la aplicación | 5 |
+| 35 | TS-01 | Crear Usuario a través de la API RESTful | Como desarrollador quiero agregar un usuario a través de la API para que el usuario pueda registrarse y acceder al sistema del taller | 3 |
+| 36 | TS-10 | Actualizar Vehículo a través de la API RESTful | Como desarrollador quiero actualizar un vehículo a través de la API para que se puedan modificar los detalles de los vehículos existentes. | 3 |
+| 37 | TS-15 | Consultar Usuario a través de la API RESTful | Como desarrollador quiero consultar los detalles de un usuario a través de la API para que se pueda obtener la información del usuario registrado. | 2 |
+| 38 | TS-09 | Actualizar Usuario a través de la API RESTful | Como desarrollador quiero actualizar un usuario a través de la API para que se puedan modificar los detalles de los usuarios existentes | 3 |
+| 39 | TS-13 | Actualizar Intervención a través de la API RESTful | Como desarrollador quiero actualizar una intervención a través de la API para que se puedan modificar los detalles de las intervenciones existentes | 3 |
+| 40 | TS-07 | Eliminar Intervención a través de la API RESTful | Como desarrollador quiero eliminar una intervención a través de la API para que se pueda eliminar una intervención del sistema | 3 |
+| 41 | TS-19 | Consultar Intervención a través de la API RESTful| Como desarrollador quiero consultar los detalles de una intervención a través de la API para que se pueda obtener la información de la intervención registrada. | 2 |
+| 42 | TS-02 | Crear Vehículo a través de la API RESTful | Como desarrollador quiero agregar un vehículo a través de la API para que se pueda gestionar el vehículo de cada usuario. | 3 |
+| 43 | TS-05 | Crear Intervención a través de la API RESTful | Como desarrollador quiero agregar una intervención a través de la API para que se registren las reparaciones y el mantenimiento realizados a un vehículo. | 3 |
+| 44 | TS-06 | Crear Tarea dentro de una Intervención a través de la API RESTful | Como desarrollador quiero agregar una tarea dentro de una intervención a través de la API para que las tareas asociadas a las intervenciones sean gestionadas correctamente. | 3 |
+| 45 | TS-20 | Consultar Tarea dentro de una Intervención a través de la API RESTful | Como desarrollador quiero consultar los detalles de una tarea dentro de una intervención a través de la API para que se pueda obtener la información de la tarea registrada. | 2 |
+| 46 | TS-08 | Eliminar Tarea a través de la API RESTful | Como desarrollador quiero eliminar una tarea a través de la API para que se pueda eliminar una tarea de una intervención del sistema | 3 |
+| 47 | TS-03 | Crear Solicitud a través de la API RESTful | Como desarrollador quiero agregar una solicitud a través de la API para que se pueda gestionar la necesidad de piezas y repuestos en el taller. | 3 |
+| 48 | TS-22 | Consultar Notificación a través de la API RESTful | Como desarrollador quiero consultar los detalles de una notificación a través de la API para que se pueda obtener la información de una notificación específica asociada a un usuario. | 2 |
+| 49 | TS-16 | Consultar Vehículo a través de la API RESTful | Como desarrollador quiero consultar los detalles de un vehículo a través de la API para que se pueda obtener la información del vehículo registrado | 2 |
+| 50 | TS-18 | Consultar Ítem de Inventario a través de la API RESTful | Como desarrollador quiero consultar los detalles de un ítem de inventario a través de la API para que se pueda obtener la información del ítem de inventario registrado. | 2 |
+| 51 | TS-04 | Crear Ítem de Inventario a través de la API RESTful | Como desarrollador quiero agregar un ítem de inventario a través de la API para que se tenga un control adecuado del inventario en el taller. | 3 |
+| 52 | TS-14 | Actualizar Tarea dentro de una Intervención a través de la API RESTful| Como desarrollador quiero actualizar una tarea dentro de una intervención a través de la API para que se puedan modificar los detalles de las tareas asociadas a una intervención. | 2 |
+| 53 | TS-21 | Crear Notificación a través de la API RESTful | Como desarrollador quiero crear una notificación a través de la API para que se pueda generar una notificación asociada a un usuario. | 3 |
+| 54 | TS-11 | Actualizar Solicitud a través de la API RESTful | Como desarrollador quiero actualizar una solicitud a través de la API para que se puedan modificar los detalles de las solicitudes existentes. | 3 |
+| 55 | TS-17 | Consultar Solicitud a través de la API RESTful | Como desarrollador quiero consultar los detalles de una solicitud a través de la API para que se pueda obtener la información de la solicitud registrada. | 2 |
+| 56 | TS-12 | Actualizar Ítem de Inventario a través de la API RESTful | Como desarrollador Quiero actualizar un ítem de inventario a través de la API Para que se puedan modificar los detalles de los ítems de inventario existentes. | 3 |
 
 Para llevar un correcto orden del Product Backlog se utilizo la herramienta Pivotal Tracker. 
 

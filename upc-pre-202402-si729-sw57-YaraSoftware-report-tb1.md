@@ -100,6 +100,7 @@
 # Project Collaboration Insights
 
 <div style="page-break-after: always;"></div>
+<img src = "img/1/1/2/insignths.png"> </img> 
 
 # Contenido
 

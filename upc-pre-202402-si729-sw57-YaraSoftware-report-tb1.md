@@ -4145,35 +4145,133 @@ Para el proyecto Workshop N-GINE se ha seleccionado el motor de base de datos My
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
+En este apartado, el equipo define las decisiones y convenciones que asegurará la consistencia a lo largo del ciclo de vida del proyecto.Con el fin de establecer normativas claras para cada proceso a fin de mantener una uniformidad y eficiencia operativa.
 
 ### 5.1.1. Software Development Environment Configuration
 
-A continuación, se presenta las herramientas y productos de software para el desarrollo del producto. 
+Aquí se describe y proporciona las rutas específicas para acceder a los productos de software necesarios, diferenciando entre software basado en modelos SaaS (Software as a Service), para el cual se indica una ruta de referencia. Asimismo se respetan las restricciones impuestas sobre los productos de software y herramientas permitidas para su uso.
 
-| Nombre | Propósito | Ruta de referencia / Descarga |
-| ----------- | ----------- | ----------- |
-| Uxpresia | Elaboración de user personas, empathy maps, journey maps, impact maps | https://uxpressia.com/w/k4lMq |
-| Miro | As-Is To-Be Scenarios maps | https://miro.com/es/ | 
-| Figma | Elaboración de wireframes, mockups y prototipes | https://www.figma.com/ |
-| LucidChart | Elaboración de wireflows, user flows | https://www.lucidchart.com/ | 
-| Structurizer | Elaboracion de diagrama C4 | https://www.structurizr.com/ |
-| Draw.io | Elaboración de diagrama UML | https://app.diagrams.net/ |
-| Vertabelo | Diseño de bases de datos | https://vertabelo.com/ | 
-| SASS | Estilos en la landing page | https://sass-lang.com/ |
-| PrimeVue | Biblioteca de componentes de interfaz de usuario | https://primevue.org/ |
-| Pivotal Tracker | Control de proyectos | https://www.pivotaltracker.com/ |
-| Git | Control de versiones | https://git-scm.com/ | 
+#### Requirements Management
+
+**Trello**: Es una herramienta muy utilizada para la gestión de proyectos, especialmente en marcos de trabajo ágiles como Scrum.  
+**Utilidad en el proyecto**:
+- Gestión de tareas: Asignación y seguimiento de tareas individuales y de equipo.
+- Planificación de sprints: Organización y planificación de sprints en metodologías ágiles.
+- [Ruta de referencia](https://trello.com/)
+
+#### Product UX/UI Design
+
+| Nombre          | Propósito                                                              | Ruta de referencia / Descarga                |
+|-----------------|------------------------------------------------------------------------|----------------------------------------------|
+| Uxpressia       | Elaboración de user personas, empathy maps, journey maps, impact maps  | https://uxpressia.com/w/k4lMq                |
+| Miro            | As-Is To-Be Scenarios maps                                             | https://miro.com/es/                         |
+| Figma           | Elaboración de wireframes, mockups y prototipes                        | https://www.figma.com/                       |
+| LucidChart      | Elaboración de wireflows, user flows                                   | https://www.lucidchart.com/                  |
+| Structurizer    | Elaboración de diagrama C4                                             | https://www.structurizr.com/                 |
+| Draw.io         | Elaboración de diagrama UML                                            | https://app.diagrams.net/                    |
+| Vertabelo       | Diseño de bases de datos                                               | https://vertabelo.com/                       |
+
+#### Software Testing
+
+**Gherkin**: Es un lenguaje de etiquetado utilizado para describir casos de prueba de los criterios de aceptación de la estructura de una user story.  
+**Utilidad en el proyecto**:
+- Criterios de aceptación: Define claramente los criterios de aceptación de una user story.
+- Lenguaje claro: Usa un lenguaje sencillo y entendible por todos los miembros del equipo.
+- Estructura: Facilita la estructura de los escenarios de prueba utilizando palabras clave como Given, When, Then, And.
+- Automatización de pruebas: Integra fácilmente con herramientas de automatización de pruebas para ejecutar los escenarios definidos.
+- [Ruta de referencia](https://specflow.org/learn/gherkin/)
+
+#### Software Development
+
+| Nombre              | Propósito                                                | Ruta de referencia / Descarga                  |
+|---------------------|----------------------------------------------------------|-----------------------------------------------|
+| WebStorm            | IDE para el desarrollo frontend con soporte completo      | https://www.jetbrains.com/webstorm/           |
+| Angular Material    | Biblioteca de componentes de interfaz de usuario          | https://material.angular.io/                  |
+| Angular             | Framework de desarrollo frontend                         | https://angular.io/                           |
+| Spring Boot         | Framework para el desarrollo de backend en Java           | https://spring.io/projects/spring-boot        |
+| Typescript          | Lenguaje de programación para desarrollo de frontend      | https://www.typescriptlang.org/               |
+| Java                | Lenguaje de programación para desarrollo backend          | https://www.java.com/                         |
+| MySQL               | Sistema de gestión de bases de datos                      | https://www.mysql.com/                        |
+| HTML5               | Creación y estructura de páginas web                      | https://developer.mozilla.org/en-US/docs/Web/HTML |
+| CSS                 | Estilos y presentación de las páginas web                 | https://developer.mozilla.org/en-US/docs/Web/CSS  |
+
+#### Software Deployment
+
+**Netlify**: Plataforma de alojamiento web que permite el despliegue continuo, integración y gestión de sitios web estáticos y aplicaciones web modernas.  
+**Utilidad en el proyecto**:
+- Despliegue continuo: Automatiza el proceso de despliegue con cada cambio en el código.
+- Integración con Git: Sincronización con repositorios Git para despliegues automáticos.
+- [Ruta de referencia](https://www.netlify.com/)
+
+#### Software Documentation and Project Management
+
+| Nombre              | Propósito                     | Ruta de referencia / Descarga |
+|---------------------|-------------------------------|-------------------------------|
+| Pivotal Tracker      | Control de proyectos           | https://www.pivotaltracker.com/ |
+| Git                 | Control de versiones           | https://git-scm.com/           |
+| Github              | Plataforma de desarrollo       | https://github.com/            |
 
 ### 5.1.2. Source Code Management
 
-A fecha de hoy, finalizando el sprint 1, consideramos necesario tener dos repositorios en el proyecto. A continuación lo detallo:
+## Modelo Git Flow en Workshop N-GINE
 
-| Repositorio | Link | 
-| ----------- | ----------- |
-| Informe | https://github.com/Web-Application-YaraSoftware/Informe |
-| Landing page | https://github.com/Web-Application-YaraSoftware/Landing-page |
+En el proyecto **Workshop N-GINE** se adoptará el modelo **Git Flow**, implementando sus convenciones de flujo de trabajo para optimizar la organización y el control de versiones. Dada la centralidad de Git en esta metodología, su uso será crucial, y la gestión de los repositorios se realizará a través de **GitHub**. A continuación, se describe el funcionamiento de **Git Flow** como el workflow principal para el control de versiones. Además, se proporcionarán enlaces a los repositorios de GitHub que contienen los productos específicos: la **Landing Page** y los archivos **Gherkin**.
 
-Vamos a implementar Conventional Commits, Semantic Versioning y una nomenclatura estandarizada para las ramas. Sin embargo, en el repositorio del informe, las ramas seguirán el formato "chapter" seguido del número correspondiente.
+### Repositorios de GitHub:
+- **[Organización Workshop N-GINE en GitHub](https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-FrontEnd)**.
+- **[Repositorio de la Landing Page](https://github.com/Open-Source-YaraSoftware/Landing-page)**.
+- **[Repositorio del Informe](https://github.com/Web-Application-YaraSoftware/Informe)**.
+
+### Flujo de Trabajo Git Flow
+
+El modelo de flujo de trabajo adoptado para el desarrollo del proyecto se basa en la propuesta de **Vincent Driessen**, detallada en su documento "[A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)". Este enfoque estructura de manera eficiente las ramificaciones y la integración, facilitando la gestión del ciclo de vida del software.
+
+#### Estructura de Branches (ramas)
+
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/5/2/1/1/branches.png" width="400px">
+</div>
+
+1. **Main branch (Rama principal):**
+   - Esta rama es la columna vertebral del proyecto, albergando únicamente las versiones finales y estables del software. Los cambios solo se integrarán aquí tras una rigurosa fase de pruebas y validación en las ramas secundarias dedicadas.
+
+2. **Develop branch (Rama de desarrollo):**
+   - Funciona como el eje central del desarrollo activo. Aquí se realizan las integraciones diarias de los avances, sirviendo como plataforma para la consolidación del trabajo colaborativo y el mantenimiento de los avances continuos del proyecto.
+
+3. **Feature branches (Ramas de funcionalidad):**
+   - Cada nueva funcionalidad se desarrolla de manera independiente en su propia rama, permitiendo un enfoque modular del desarrollo. Estas ramas se nombran siguiendo un patrón descriptivo y único, como `feature/nombre-de-la-funcionalidad`. Una vez finalizadas, se integran de vuelta a la rama de desarrollo.
+
+4. **Release branches (Ramas de lanzamiento):**
+   - Estas ramas se derivan de la rama de desarrollo para preparar nuevas versiones del software, ajustando errores menores y asegurando que todo funcione correctamente antes de su lanzamiento oficial. Se emplea el sistema de **versionamiento semántico** para etiquetar estas versiones, por ejemplo, `release/1.0.0`.
+
+5. **Hotfix branches (Ramas de corrección):**
+   - Se establecen para resolver de manera urgente y eficiente los errores críticos encontrados en la rama principal que impactan negativamente la experiencia del usuario. Tras la corrección, se reintegran rápidamente a la rama principal y, posteriormente, a la rama de desarrollo para asegurar la coherencia del sistema.
+
+### Versionamiento Semántico
+
+Para la gestión y etiquetado de las versiones en las ramas de lanzamiento, se emplea el sistema de **Versionamiento Semántico** (Semantic Versioning 2.0.0). Este sistema permite clarificar el impacto de los cambios realizados mediante la estructura **MAJOR.MINOR.PATCH**, donde cada incremento en el número se basa en la naturaleza de las modificaciones:
+- **MAJOR:** cambios incompatibles.
+- **MINOR:** añadidos compatibles.
+- **PATCH:** correcciones de errores que no afectan la compatibilidad.
+
+### Convenciones de Commits
+
+Para estandarizar los mensajes de commits, se adoptará la especificación **Conventional Commits**, basada en las **Angular Commit Guidelines**. Cada commit deberá seguir la siguiente estructura para asegurar claridad y uniformidad en el historial de cambios:
+
+```bash
+git commit -m "<type>[optional scope]: <title>" -m "<description>"
+```
+### Tipos de Commits:
+
+- **chore:** cambios de mantenimiento o tareas menores que no modifican la funcionalidad del software.
+- **feat:** nueva característica para el usuario.
+- **fix:** corrección de un error para el usuario.
+- **docs:** cambios en la documentación.
+- **style:** formateo, faltas de ortografía, etc.; no cambia el código.
+- **refactor:** modificación del código que ni añade una característica ni corrige un error.
+- **test:** añadir pruebas faltantes o corregir pruebas existentes.
+
+Cada mensaje de commit debe proporcionar suficiente información para entender el cambio sin necesidad de referirse a fuentes externas.
 
 ### 5.1.3. Source Code Style Guide & Conventions
 

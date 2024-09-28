@@ -4774,193 +4774,123 @@ El objetivo del sprint es implementar la primera versión de la aplicación web,
     <th>Status (To-do / In-Process / To-Review / Done)</th>
   </tr>
   <tr>
-    <td>SWR-01</td>
-    <td>Hero Section</td>
-    <td>WI-01</td>
-    <td>Diseño de hero section</td>
-    <td>Creación del diseño visual de la sección hero, incluyendo la elección de colores, tipografía, y disposición de los elementos.</td>
+    <td>US-08</td>
+    <td>Intervenciones</td>
+    <td>TK-01</td>
+    <td>Implementación de las pantallas de intervención</td>
+    <td>Creacion de las listas de intervención, filtros y ordenamientos</td>
     <td>2</td>
     <td>Jhosepmyr Gutiérrez Soto</td>
     <td>Done</td>
   </tr>
   <tr>
-    <td>SWR-01</td>
-    <td>Hero Section</td>
-    <td>WI-02</td>
-    <td>Implementación de barra de navegación y menu</td>
-    <td>Desarrollo de la barra de navegación y el menú en la sección hero, asegurando que sea responsive y accesible.</td>
-    <td>1</td>
+    <td>US-15</td>
+    <td>Mis Actividaded (Líder)	</td>
+    <td>TK-02</td>
+    <td>Desarrollo de la vista de actividades para el líder</td>
+    <td>Desarrollo de visualizacion de tareas e información de la intervención del mecánico líder</td>
+    <td>2</td>
     <td>Jhosepmyr Gutiérrez Soto</td>
     <td>Done</td>
   </tr>
   <tr>
-    <td>SWR-01</td>
-    <td>Hero Section</td>
-    <td>WI-03</td>
-    <td>Inserción de imagen de hero section</td>
-    <td>Inserción y optimización de la imagen principal en la sección hero, asegurando que se cargue rápidamente.</td>
-    <td>1</td>
+    <td>US-16</td>
+    <td>Mis actividadades (asistente)</td>
+    <td>TK-03</td>
+    <td>Desarrollo de la vista de actividades para el asistente</td>
+    <td>Desarrollo de visualizacion de tareas del mecánico asistente</td>
+    <td>2</td>
     <td>Jhosepmyr Gutiérrez Soto</td>
     <td>Done</td>
   </tr>
   <tr>
-    <td>SWR-02</td>
-    <td>About the product</td>
-    <td>WI-04</td>
-    <td>Diseño de sección about the product</td>
-    <td>Diseño visual de la sección que describe el producto, con un enfoque en la usabilidad y la claridad de la información.</td>
+    <td>US-01</td>
+    <td>Formulario de registro</td>
+    <td>TK-04</td>
+    <td>Diseño de registro de usuario</td>
+    <td>Creación del formulario de registro de usuario</td>
+    <td>2</td>
+    <td>Elmer Riva Rodríguez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-05</td>
+    <td>Desarrollo de los detalles de una intervención</td>
+    <td>Desarrollo de la información IOT, registro de intervenciones, información general, y los detalles.</td>
+    <td>1</td>
+    <td>Eric Hernández Tuiro</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-06</td>
+    <td>Modelar el diagnóstico de intervención</td>
+    <td>Creación de la interfaz de secuencia de tareas para el mecánico</td>
     <td>3</td>
     <td>Jhosepmyr Gutiérrez Soto</td>
     <td>Done</td>
   </tr>
   <tr>
-    <td>SWR-02</td>
-    <td>About the product</td>
-    <td>WI-05</td>
-    <td>Resumen de sección about the product</td>
-    <td>Elaboración de un resumen atractivo y conciso que describa las características principales del producto.</td>
-    <td>1</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-02</td>
-    <td>About the product</td>
-    <td>WI-06</td>
-    <td>Imagen de about product</td>
-    <td>Inserción de imágenes relevantes que complementen la descripción del producto en la sección correspondiente.</td>
-    <td>1</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-03</td>
-    <td>Beneficios</td>
-    <td>WI-07</td>
-    <td>Diseño de beneficios</td>
-    <td>Diseño visual de la sección que destaca los beneficios del producto, utilizando íconos y texto conciso.</td>
+    <td>US-20</td>
+    <td>Supervisión de intervención</td>
+    <td>TK-07</td>
+    <td>Desarrollo de la interfaz de tareas del mecánico</td>
+    <td>Implementación de la verificación de las tareas completadas del mecánico</td>
     <td>2</td>
+    <td>Henry Reaño Delgadillo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-08</td>
+    <td>Implementación de solicitudes de inventario en las intervenciones</td>
+    <td>Desarrollo e implementación de la soliitud de inventario dentro de una intervención.</td>
+    <td>5</td>
     <td>Jhosepmyr Gutiérrez Soto</td>
     <td>Done</td>
   </tr>
   <tr>
-    <td>SWR-03</td>
-    <td>Beneficios</td>
-    <td>WI-08</td>
-    <td>Implementación de cards</td>
-    <td>Desarrollo e implementación de las cards en la sección de beneficios, asegurando interactividad y responsividad.</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>US-09</td>
+    <td>Creación de intervenciones</td>
+    <td>TK-09</td>
+    <td>Creación de las herramientas de creación de intervenciones</td>
+    <td>Creación de la interfaz de gestión y creación de intervenciones</td>
+    <td>5</td>
+    <td>Elmer Riva Rodríguez</td>
     <td>Done</td>
   </tr>
   <tr>
-    <td>SWR-04</td>
-    <td>Testimonios</td>
-    <td>WI-09</td>
-    <td>Diseño de testimonios</td>
-    <td>Creación del diseño visual de la sección de testimonios, enfocándose en la credibilidad y la estética.</td>
-    <td>1</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-04</td>
-    <td>Testimonios</td>
-    <td>WI-11</td>
-    <td>Consumo de API</td>
-    <td>Integración de una API para obtener y mostrar testimonios en tiempo real en la sección correspondiente.</td>
-    <td>1</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-04</td>
-    <td>Testimonios</td>
-    <td>WI-12</td>
-    <td>Animación de cards</td>
-    <td>Implementación de animaciones en las cards de testimonios para mejorar la interacción del usuario.</td>
+    <td>US-06</td>
+    <td>Clientes</td>
+    <td>TK-11</td>
+    <td>Implementación de lista de clientes</td>
+    <td>Desarrollo de lista de clientes y herramientas de filtrado.</td>
     <td>3</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Henry Paolo Reaño</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US-24</td>
+    <td>Agendar cita de intervención</td>
+    <td>TK-12</td>
+    <td>Implementación de registro de citas</td>
+    <td>Desarrollo de agendado de de citas de intervención</td>
+    <td>2</td>
+    <td>Eric Hernández Tuiro</td>
     <td>Done</td>
   </tr>
   <tr>
-    <td>SWR-05</td>
-    <td>About Us</td>
-    <td>WI-13</td>
-    <td>Diseño de about us</td>
-    <td>Creación del diseño visual para la sección de "About Us", incluyendo la historia y misión de la empresa.</td>
+    <td>US-07</td>
+    <td>Detalles de clientes</td>
+    <td>TK-13</td>
+    <td>Desarrollo de vista de información de clientes</td>
+    <td>Desarrollo de actualización de datos de los clientes</td>
     <td>2</td>
     <td>Elmer Augusto Riva Rodriguez</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-05</td>
-    <td>About Us</td>
-    <td>WI-14</td>
-    <td>Animación de about us</td>
-    <td>Desarrollo de animaciones para mejorar la presentación de la sección "About Us".</td>
-    <td>3</td>
-    <td>Elmer Augusto Riva Rodriguez</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-06</td>
-    <td>Planes</td>
-    <td>WI-15</td>
-    <td>Diseño de planes</td>
-    <td>Diseño visual de la sección de planes, presentando las opciones de suscripción o compra del producto.</td>
-    <td>2</td>
-    <td>Henry Paolo Reaño Delgadillo</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-06</td>
-    <td>Planes</td>
-    <td>WI-16</td>
-    <td>Implementación de cards</td>
-    <td>Desarrollo e implementación de las cards en la sección de planes, asegurando interactividad y responsividad.</td>
-    <td>2</td>
-    <td>Henry Paolo Reaño Delgadillo</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-07</td>
-    <td>Formulario</td>
-    <td>WI-17</td>
-    <td>Diseño de formulario de contacto</td>
-    <td>Creación del diseño visual para el formulario de contacto, asegurando que sea claro y fácil de usar.</td>
-    <td>2</td>
-    <td>Álvaro Orozco Torres</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-07</td>
-    <td>Formulario</td>
-    <td>WI-18</td>
-    <td>Implementación de formulario</td>
-    <td>Desarrollo e integración del formulario de contacto, incluyendo validación y envío de datos.</td>
-    <td>2</td>
-    <td>Álvaro Orozco Torres</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-08</td>
-    <td>Footer</td>
-    <td>WI-19</td>
-    <td>Diseño de footer</td>
-    <td>Diseño visual del pie de página (footer), incluyendo enlaces a secciones relevantes y redes sociales.</td>
-    <td>2</td>
-    <td>Henry Paolo Reaño Delgadillo</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>SWR-08</td>
-    <td>Footer</td>
-    <td>WI-20</td>
-    <td>Implementación de footer</td>
-    <td>Desarrollo del pie de página, asegurando que sea responsive y accesible.</td>
-    <td>2</td>
-    <td>Henry Paolo Reaño Delgadillo</td>
     <td>Done</td>
   </tr>
 </table>

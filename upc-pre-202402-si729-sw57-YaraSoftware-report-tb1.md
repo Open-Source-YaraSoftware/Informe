@@ -100,6 +100,8 @@
 | 5.6.2 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigio el Impact Mapping y se añadio una descripción para el mismo |
 | 5.6.3 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigio los criterios de aceptación de los user stories |
 | 5.6.4 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigio la priorización del product backlog |
+| 5.7.0 | 27/09/2024 | Henry Reaño Delgadillo | Se agrega el sprint 2 |
+
 
 <div style="page-break-after: always;"></div>
 
@@ -3305,7 +3307,7 @@ Explicación de flujo: el usuario comienza desde la interfaz principal del talle
 El usuario puede revisar esta línea de tiempo para obtener una visión general de las intervenciones. Al hacer clic en una intervención específica, se accede a una vista detallada de la intervención, que incluye la modalidad, la fecha programada, los mecánicos asignados, y una descripción del trabajo realizado. Si la intervención ya está finalizada, se muestra con el estado correspondiente en el encabezado. Además, en esta sección, se puede visualizar la secuencia de tareas asignadas y completadas durante la intervención, permitiendo al usuario ver el progreso o el resultado final del trabajo realizado en su vehículo.
 <br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireflows/22.1.png" width="1000px">
+  <img src="img/4/wireflows/22.1png" width="1000px">
 </div>
 
 #### User goal: : Acceder a información de dispositivo IoT.
@@ -3537,7 +3539,7 @@ La imagen muestra la sección "Clients", donde el administrador del taller puede
 #### Registro de nuevo cliente
 En esta sección se permite al administrador registrar un nuevo cliente mediante un formulario sencillo que solicita datos personales como el nombre, apellidos, tipo y número de documento, así como la edad y ubicación. La opción de registro facilita la inclusión de nuevos clientes en el sistema de manera ágil, permitiendo que el taller mantenga actualizada su base de clientes con toda la información relevante.<br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/mock-ups/workshop-owner/page-customers-modal-creation.png" width="1000px">
+  <img src="img/4/mock-ups/workshop-owner page-customers-modal-creation.png" width="1000px">
 </div>
 
 #### Información de clientes y vehículos
@@ -3725,151 +3727,6 @@ La sección Notificaciones ofrece un resumen rápido de las actualizaciones impo
 <div style="display: grid; justify-content: center; align-items: center;"> <img src="img/4/mock-ups/mechanic/mechanic-notifications.png" width="1000px"> </div>
 
 ### 4.4.4. Web Applications User Flow Diagrams
-Enlace para acceder al [Lucid Chart](https://lucid.app/lucidchart/fb26e9b9-b73b-458c-a066-ce7342dd4275/edit?viewport_loc=-22784%2C-3867%2C43177%2C23208%2C0_0&invitationId=inv_2df26de4-6d0c-46fb-9c95-77201218901e)
-
-#### User goal: Registro de cuenta
-User persona: Dueño de taller
-
-Explicación del flujo: El flujo registro de cuenta en WorkShop N-GINE comienza con una pantalla de bienvenida en la que el dueño del taller puede iniciar sesión o registrarse si aún no tiene una cuenta. Al presionar el botón "Create account", el usuario es redirigido al formulario de registro donde ingresa su nombre, correo electrónico, contraseña y nombre del taller. Si se completa correctamente el formulario y se presiona "Crear", el sistema redirige al usuario nuevamente a la pantalla de inicio de sesión con un mensaje de confirmación. Tras iniciar sesión exitosamente, el usuario es dirigido al panel principal de la aplicación, donde puede acceder a secciones clave. La primera vista disponible es la sección de Personal vacía, con un botón para añadir personal.
-
-Si los campos del formulario de registro no se llenan correctamente o hay errores en los datos ingresados, el usuario verá un mensaje de error emergente que indica el problema específico (por ejemplo, "correo electrónico inválido" o "contraseña no coincide"). El usuario deberá corregir los errores antes de poder continuar con el proceso de registro.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/userflows/1.png" width="1000px">
-</div>
-
-#### User goal: Acceder a la cuenta
-User persona: Dueño de taller, cliente de taller,  mecánico
-
-Explicación del flujo: El proceso de inicio de sesión en WorkShop N-GINE arranca con una pantalla donde el dueño del taller debe ingresar su correo electrónico y contraseña. Una vez completados estos campos y presionado el botón "Iniciar Sesión", el sistema verifica las credenciales ingresadas. Si las credenciales son correctas, el usuario es redirigido directamente al panel principal de la aplicación. Desde ahí, puede navegar por las secciones clave como Personal, Clientes, Intervenciones, Inventario, Métricas y Notificaciones. En este caso, el sistema mostrará la vista de Personal con una lista de empleados registrados. En caso de que los datos sean incorrectos, el sistema desplegará un mensaje emergente de error, detallando cuál es el problema (por ejemplo, "Contraseña incorrecta"). Esto obligará al usuario a corregir los campos antes de poder continuar con el inicio de sesión.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/userflows/2.png" width="1000px">
-</div>
-
-#### Registrar personal
-User persona: Dueño de taller
-
-Explicación del flujo: El proceso de gestión de personal en WorkShop N-GINE comienza cuando el dueño del taller accede a la sección de Personnel desde el panel principal. Si no hay empleados registrados, el sistema muestra un mensaje indicando "No registered personnel" y un botón para añadir nuevo personal. El usuario puede hacer clic en el botón New mechanic para iniciar el proceso de registro de un nuevo mecánico. Una vez que el usuario presiona el botón, aparece un formulario de registro donde se deben ingresar los datos del mecánico, como nombre, edad, ubicación, etc. Si los datos se completan correctamente, el usuario puede hacer clic en Save, y el sistema agregará el nuevo mecánico a la lista de personal, mostrando un mensaje de confirmación exitoso. Si el usuario no completa correctamente el formulario (por ejemplo, si falta algún dato obligatorio), se mostrará un mensaje de error emergente, indicando la necesidad de corregir los errores antes de poder continuar con el registro del nuevo mecánico.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/userflows/3.1.png" width="1000px">
-</div>
-
-#### Registrar cliente
-User persona: Dueño de taller
-
-Explicación del flujo: El flujo de gestión de clientes en WorkShop N-GINE inicia cuando el usuario accede a la sección de Clients desde el menú principal. Al visualizar la tabla de clientes registrados, puede decidir añadir un nuevo cliente presionando el botón New Client. Al hacerlo, se despliega una ventana modal de registro donde se ingresan los datos del cliente, como nombre, documento de identidad, edad y correo electrónico. Si los datos ingresados son correctos y únicos, el sistema guarda el nuevo cliente y actualiza la tabla de clientes, mostrando un mensaje de éxito que confirma la acción. En caso de que la información ingresada ya exista en el sistema (por ejemplo, si el documento de identidad coincide con un cliente registrado previamente), el sistema despliega un mensaje de error indicando que el cliente ya está registrado. El usuario deberá corregir los datos antes de poder completar el proceso de registro del nuevo cliente.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/userflows/3.2.png" width="1000px">
-</div>
-
-#### Visualizar la lista de empleados
-User persona: Dueño de taller
-
-Explicación del flujo: El flujo de acceso a la sección de Personnel en WorkShop N-GINE comienza con la pantalla de inicio de sesión. El usuario ingresa su correo electrónico y contraseña para acceder al sistema. Si las credenciales son correctas, se redirige al usuario a la vista de gestión de personal. Si el usuario tiene empleados registrados, se muestra una tabla en formato de tarjetas con los perfiles de los mecánicos. Si no hay personal registrado, la vista de Personnel mostrará un mensaje que indica "No registered personnel" y un botón Register para agregar nuevos empleados. De esta manera, el usuario puede gestionar el personal de su taller de forma rápida y eficiente.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/userflows/4.png" width="1000px">
-</div>
-
-#### Manejar información de empleados
-User persona: Dueño de taller
-
-Explicación del flujo: En el proceso de edición de información del personal en WorkShop N-GINE, el usuario accede primero a la vista de Personnel, donde se muestran los perfiles de los mecánicos en formato de tarjetas. El usuario selecciona el perfil que desea editar, lo que abre una ventana modal con la información actual del empleado. El usuario puede modificar los datos del mecánico, como nombre, apellido, y otros campos. Al presionar el botón Update, el sistema despliega un cuadro de confirmación, pidiendo al usuario verificar la acción. Si el usuario confirma, los cambios se guardan y el sistema muestra un mensaje emergente indicando que la operación fue exitosa. Si el proceso es exitoso, el sistema actualiza la información del mecánico en la tabla principal de Personnel, reflejando los nuevos datos ingresados.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/userflows/5.png" width="1000px">
-</div>
-
-#### Visualizar lista de clientes.
-User persona: dueño de taller
-
-Explicación del flujo: el usuario accede a la vista de Personnel desde el panel principal. Desde esta pantalla, puede seleccionar la opción Clients en el menú lateral para ser redirigido a la vista de gestión de clientes. Si el dueño del taller ya ha registrado clientes, el sistema muestra una tabla con la información de los clientes, incluyendo su nombre, documento de identidad y correo electrónico. En caso contrario, si no hay clientes registrados, se mostrará una pantalla vacía con un botón para añadir nuevos clientes.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/userflows/6.png" width="1000px">
-</div>
-
-#### User Goal: Manejar información de clientes.
-User Persona: Dueño de taller.
-
-Explicación del flujo:El proceso de gestión de clientes en WorkShop N-GINE comienza cuando el usuario accede a la sección de Clients desde el panel principal, donde puede ver una tabla con la información de los clientes registrados. Al seleccionar un cliente, el sistema muestra una nueva pantalla con los datos personales del cliente, como nombre, edad, y ubicación, además de los vehículos registrados a nombre del cliente. El usuario tiene la opción de editar la información del cliente. Si se realizan cambios, al presionar Confirm, el sistema verifica la validez de los nuevos datos. Si los datos ingresados ya existen en el sistema (por ejemplo, un número de identificación duplicado), se muestra un mensaje emergente de error indicando que el cliente ya está registrado. Si los cambios son exitosos, el sistema guarda la nueva información y muestra un mensaje de confirmación, actualizando tanto los datos del cliente como la tabla en la vista de Clients.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/userflows/7.png" width="1000px">
-</div>
-
-#### User Goal: Visualizar intervenciones
-User Persona: Dueño de taller.
-
-Explicación del flujo: el dueño del taller acceder a la vista de Interventions desde la pantalla de Personnel utilizando el menú lateral. Si hay intervenciones registradas, el sistema muestra una tabla con información detallada de cada intervención, incluyendo el cliente, el vehículo, el tipo de intervención, y el estado actual (por ejemplo, pendiente, en progreso, o completado). En caso de que no haya intervenciones registradas, la vista de Interventions mostrará un mensaje indicando que no se ha encontrado información sobre intervenciones. Esta vista permite al usuario gestionar fácilmente las intervenciones de los vehículos, programar nuevas o realizar un seguimiento del estado de las actuales.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/userflows/8.png" width="1000px">
-</div>
-
-#### User Goal: Gestionar intervenciones
-User Persona: Dueño de taller.
-
-Explicación del flujo: el dueño de taller accede a la sección de Interventions, donde puede ver una tabla con las intervenciones de los vehículos en diferentes estados: pendiente, en progreso y completado. Para agendar una nueva intervención, el usuario presiona el botón Schedule intervention, lo que abre un formulario modal donde se ingresan detalles como el número de documento del cliente, matrícula del vehículo, modalidad, y descripción de la intervención. Después de completar el formulario, el usuario hace clic en Schedule. Si la disponibilidad de horario es adecuada, el sistema registra la nueva intervención y actualiza la tabla, mostrando un mensaje de éxito. Sin embargo, si el horario seleccionado ya está ocupado o no es válido, el sistema despliega un mensaje de error emergente que indica que el horario no está disponible. El usuario deberá corregir los datos para proceder con la programación de la intervención.
- 
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/userflows/9.png" width="1000px">
-</div>
-
-#### User Goal: Visualizar detalles de intervención
-User Persona: Dueño de taller.
-Explicación del flujo: El flujo de actualización y gestión de una intervención en WorkShop N-GINE comienza con el usuario accediendo a la sección de Interventions. Aquí, el usuario selecciona una intervención específica de la lista, que lo redirige a una nueva vista donde se muestran los detalles de la intervención seleccionada. El usuario tiene la opción de actualizar el estado de la intervención, como pasarla a "En progreso" o "Completado". Si los datos ingresados son correctos y la intervención puede continuar según lo previsto, el sistema guarda los cambios y muestra un mensaje emergente de éxito. La intervención también se actualiza en la tabla principal, reflejando el nuevo estado. Si surge algún problema (por ejemplo, horarios de intervención en conflicto), el sistema desplegará un mensaje de error, pidiendo al usuario resolver el conflicto antes de continuar. El flujo asegura que los datos se gestionan de forma precisa y oportuna, permitiendo mantener control sobre el progreso de cada intervención en el taller.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/userflows/10.png" width="1000px">
-</div>
-
-#### User Goal: Gestionar solicitudes de inventario
-User persona: dueño de taller
-Explicación del flujo: El usuario accede a la sección de "Inventory" donde puede ver las partes disponibles. En esta pantalla, el usuario puede interactuar con dos funcionalidades: eliminar ítems o actualizar cantidades.
-
-Eliminar Ítems: El usuario selecciona varios ítems utilizando casillas de verificación. Una vez que el usuario elige los ítems que desea eliminar, aparece un cuadro de confirmación. Si el usuario confirma la acción, se muestra un mensaje emergente que confirma que los ítems han sido eliminados exitosamente del inventario.
-
-Actualizar Cantidades: El usuario también tiene la opción de modificar las cantidades de las partes en stock. Después de hacer los cambios deseados, el usuario guarda los ajustes, lo que genera un mensaje emergente que confirma que las cantidades han sido actualizadas correctamente.
-
-Si un ítem seleccionado para eliminación o actualización ya no existe en el inventario, el sistema mostrará un mensaje de error emergente notificando al usuario de la situación.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/userflows/11.png" width="1000px">
-</div>
-
-#### User goal: Gestionar solicitudes de inventario
-User persona: dueño de taller
-
-Explicación de flujo: El usuario ingresa a la sección de "Inventory" y selecciona ítems para realizar una solicitud marcando las casillas correspondientes. Una vez realizada la selección, aparece un cuadro de diálogo de confirmación para verificar la solicitud. Al presionar "Confirm", se muestra un mensaje emergente indicando que la solicitud ha sido satisfecha con éxito. Si los ítems solicitados no están disponibles, se muestra un mensaje de error.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/userflows/12.png" width="1000px">
-</div>
-
-#### User goal: Obtener métricas de rendimiento.
-User Persona: Dueño de taller.
-
-Explicación del flujo: El usuario accede a la sección de "Metrics" donde puede visualizar diferentes gráficos que muestran datos importantes. El primer gráfico muestra la cantidad de intervenciones por día de la semana, mientras que otro gráfico detalla la cantidad de intervenciones por mes. Además, el usuario puede ver un gráfico circular que muestra la distribución porcentual de vehículos por marca. Estas visualizaciones ayudan a entender el comportamiento de las intervenciones y la composición del parque vehicular.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/userflows/13.png" width="1000px">
-</div>
-
-#### User goal: Recibir notificaciones
-User Persona: Dueño de taller, mecánico, cliente de taller
-
-Explicación del flujo: El usuario accede a la sección de "Notifications" donde puede visualizar las notificaciones recientes en un formato de lista, junto con enlaces para redirigirlo a la sección relevante. Si hay notificaciones disponibles, se muestra la lista completa.
-
-En el caso de que no existan notificaciones, el usuario verá un mensaje que indica que no hay notificaciones por el momento y que debe volver más tarde.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/userflows/14.png" width="1000px">
-</div>
 
 ## 4.5. Web Applications Prototyping
 
@@ -3914,41 +3771,10 @@ El Container Diagram de Workshop N-GINE muestra los principales contenedores que
 </div>
 
 ### 4.6.3. Software Architecture Components Diagrams
-Los diagramas de componentes proporcionan una representación clara y detallada de los diferentes bounded contexts que estructuran la aplicación Workshop N-GINE. A continuación se presenta una breve descripción de cada contexto y los principales componentes que lo constituyen:
-
-#### Customer Relationship Management Bounded Context
-Este diagrama representa el contexto de Customer Relationship Management (CRM) dentro de la aplicación Workshop N-GINE. En este contexto, se gestionan los aspectos relacionados con los clientes, incluyendo la creación, actualización y consulta de información de clientes y la administración de la relación entre los clientes y sus vehículos.
+El Component Diagram de Workshop N-GINE desglosa los componentes principales que forman parte de la arquitectura del sistema, específicamente dentro de la API RESTful. Cada controlador maneja una parte del dominio del taller, como usuarios, vehículos, solicitudes, inventario, intervenciones, tareas y notificaciones. Los servicios asociados contienen la lógica de negocio para cada área, mientras que los repositorios se encargan de las operaciones CRUD con la base de datos. Además, el sistema interactúa con servicios externos, como el cliente API para obtener información de vehículos externos y el sistema OBD IoT para recibir diagnósticos en tiempo real.A continuación, presento el diagrama hecho en Structurizr:
 <br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/c4model/structurizr-crm.png" width="1000px">
-</div>
-
-#### Identity and Access Management Bounded Context
-Este diagrama representa el contexto de Identity and Access Management (IAM) dentro de la aplicación Workshop N-GINE, encargado de la autenticación, gestión de usuarios y control de roles. Su propósito es garantizar un acceso seguro y controlado a los recursos del sistema mediante la gestión de usuarios y sus respectivas autorizaciones.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/c4model/structurizr-iam.png" width="1000px">
-</div>
-
-#### Service Management Bounded Context
-El Service Management controla la planificación y ejecución de intervenciones en el taller. Los controladores de operaciones gestionan las intervenciones, y el manejador de comandos asigna tareas a mecánicos. La integración con IoT permite monitorear vehículos en tiempo real.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/c4model/structurizr-service-management.png" width="1000px">
-</div>
-
-#### Comunication Management Bounded Context
-Este diagrama ilustra la comunicación de la SPA con el Communication Controller, que maneja notificaciones internas y mensajes. El Notification Manager gestiona las alertas, mientras que el Message Command Handler se encarga del envío de mensajes externos a través del Messaging Facade. Todo se registra en el Notification Repository.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/c4model/structurizr-comunication-management.png" width="1000px">
-</div>
-
-#### Analytics Bounded context 
-El diagrama muestra cómo la SPA interactúa con el Analytics Controller, que coordina la recolección de métricas, manejo de datos históricos, generación de reportes y visualización de datos. Todos los datos analíticos se almacenan en el Analytics Repository, conectado a la base de datos.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/c4model/structurizr-analytics.png" width="1000px">
+  <img src="img/4/c4model/structurizr-Component.png" width="1000px">
 </div>
 
 ## 4.7. Software Object-Oriented Design
@@ -4319,61 +4145,213 @@ Para el proyecto Workshop N-GINE se ha seleccionado el motor de base de datos My
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
+En este apartado, el equipo define las decisiones y convenciones que asegurará la consistencia a lo largo del ciclo de vida del proyecto.Con el fin de establecer normativas claras para cada proceso a fin de mantener una uniformidad y eficiencia operativa.
 
 ### 5.1.1. Software Development Environment Configuration
 
-A continuación, se presenta las herramientas y productos de software para el desarrollo del producto. 
+Aquí se describe y proporciona las rutas específicas para acceder a los productos de software necesarios, diferenciando entre software basado en modelos SaaS (Software as a Service), para el cual se indica una ruta de referencia. Asimismo se respetan las restricciones impuestas sobre los productos de software y herramientas permitidas para su uso.
 
-| Nombre | Propósito | Ruta de referencia / Descarga |
-| ----------- | ----------- | ----------- |
-| Uxpresia | Elaboración de user personas, empathy maps, journey maps, impact maps | https://uxpressia.com/w/k4lMq |
-| Miro | As-Is To-Be Scenarios maps | https://miro.com/es/ | 
-| Figma | Elaboración de wireframes, mockups y prototipes | https://www.figma.com/ |
-| LucidChart | Elaboración de wireflows, user flows | https://www.lucidchart.com/ | 
-| Structurizer | Elaboracion de diagrama C4 | https://www.structurizr.com/ |
-| Draw.io | Elaboración de diagrama UML | https://app.diagrams.net/ |
-| Vertabelo | Diseño de bases de datos | https://vertabelo.com/ | 
-| SASS | Estilos en la landing page | https://sass-lang.com/ |
-| PrimeVue | Biblioteca de componentes de interfaz de usuario | https://primevue.org/ |
-| Pivotal Tracker | Control de proyectos | https://www.pivotaltracker.com/ |
-| Git | Control de versiones | https://git-scm.com/ | 
+#### Requirements Management
+
+**Trello**: Es una herramienta muy utilizada para la gestión de proyectos, especialmente en marcos de trabajo ágiles como Scrum.  
+**Utilidad en el proyecto**:
+- Gestión de tareas: Asignación y seguimiento de tareas individuales y de equipo.
+- Planificación de sprints: Organización y planificación de sprints en metodologías ágiles.
+- [Ruta de referencia](https://trello.com/)
+
+#### Product UX/UI Design
+
+| Nombre          | Propósito                                                              | Ruta de referencia / Descarga                |
+|-----------------|------------------------------------------------------------------------|----------------------------------------------|
+| Uxpressia       | Elaboración de user personas, empathy maps, journey maps, impact maps  | https://uxpressia.com/w/k4lMq                |
+| Miro            | As-Is To-Be Scenarios maps                                             | https://miro.com/es/                         |
+| Figma           | Elaboración de wireframes, mockups y prototipes                        | https://www.figma.com/                       |
+| LucidChart      | Elaboración de wireflows, user flows                                   | https://www.lucidchart.com/                  |
+| Structurizer    | Elaboración de diagrama C4                                             | https://www.structurizr.com/                 |
+| Draw.io         | Elaboración de diagrama UML                                            | https://app.diagrams.net/                    |
+| Vertabelo       | Diseño de bases de datos                                               | https://vertabelo.com/                       |
+
+#### Software Testing
+
+**Gherkin**: Es un lenguaje de etiquetado utilizado para describir casos de prueba de los criterios de aceptación de la estructura de una user story.  
+**Utilidad en el proyecto**:
+- Criterios de aceptación: Define claramente los criterios de aceptación de una user story.
+- Lenguaje claro: Usa un lenguaje sencillo y entendible por todos los miembros del equipo.
+- Estructura: Facilita la estructura de los escenarios de prueba utilizando palabras clave como Given, When, Then, And.
+- Automatización de pruebas: Integra fácilmente con herramientas de automatización de pruebas para ejecutar los escenarios definidos.
+- [Ruta de referencia](https://specflow.org/learn/gherkin/)
+
+#### Software Development
+
+| Nombre              | Propósito                                                | Ruta de referencia / Descarga                  |
+|---------------------|----------------------------------------------------------|-----------------------------------------------|
+| WebStorm            | IDE para el desarrollo frontend con soporte completo      | https://www.jetbrains.com/webstorm/           |
+| Angular Material    | Biblioteca de componentes de interfaz de usuario          | https://material.angular.io/                  |
+| Angular             | Framework de desarrollo frontend                         | https://angular.io/                           |
+| Spring Boot         | Framework para el desarrollo de backend en Java           | https://spring.io/projects/spring-boot        |
+| Typescript          | Lenguaje de programación para desarrollo de frontend      | https://www.typescriptlang.org/               |
+| Java                | Lenguaje de programación para desarrollo backend          | https://www.java.com/                         |
+| MySQL               | Sistema de gestión de bases de datos                      | https://www.mysql.com/                        |
+| HTML5               | Creación y estructura de páginas web                      | https://developer.mozilla.org/en-US/docs/Web/HTML |
+| CSS                 | Estilos y presentación de las páginas web                 | https://developer.mozilla.org/en-US/docs/Web/CSS  |
+
+#### Software Deployment
+
+**Netlify**: Plataforma de alojamiento web que permite el despliegue continuo, integración y gestión de sitios web estáticos y aplicaciones web modernas.  
+**Utilidad en el proyecto**:
+- Despliegue continuo: Automatiza el proceso de despliegue con cada cambio en el código.
+- Integración con Git: Sincronización con repositorios Git para despliegues automáticos.
+- [Ruta de referencia](https://www.netlify.com/)
+
+#### Software Documentation and Project Management
+
+| Nombre              | Propósito                     | Ruta de referencia / Descarga |
+|---------------------|-------------------------------|-------------------------------|
+| Pivotal Tracker      | Control de proyectos           | https://www.pivotaltracker.com/ |
+| Git                 | Control de versiones           | https://git-scm.com/           |
+| Github              | Plataforma de desarrollo       | https://github.com/            |
 
 ### 5.1.2. Source Code Management
 
-A fecha de hoy, finalizando el sprint 1, consideramos necesario tener dos repositorios en el proyecto. A continuación lo detallo:
+## Modelo Git Flow en Workshop N-GINE
 
-| Repositorio | Link | 
-| ----------- | ----------- |
-| Informe | https://github.com/Web-Application-YaraSoftware/Informe |
-| Landing page | https://github.com/Web-Application-YaraSoftware/Landing-page |
+En el proyecto **Workshop N-GINE** se adoptará el modelo **Git Flow**, implementando sus convenciones de flujo de trabajo para optimizar la organización y el control de versiones. Dada la centralidad de Git en esta metodología, su uso será crucial, y la gestión de los repositorios se realizará a través de **GitHub**. A continuación, se describe el funcionamiento de **Git Flow** como el workflow principal para el control de versiones. Además, se proporcionarán enlaces a los repositorios de GitHub que contienen los productos específicos: la **Landing Page** y los archivos **Gherkin**.
 
-Vamos a implementar Conventional Commits, Semantic Versioning y una nomenclatura estandarizada para las ramas. Sin embargo, en el repositorio del informe, las ramas seguirán el formato "chapter" seguido del número correspondiente.
+### Repositorios de GitHub:
+- **[Organización Workshop N-GINE en GitHub](https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-FrontEnd)**.
+- **[Repositorio de la Landing Page](https://github.com/Open-Source-YaraSoftware/Landing-page)**.
+- **[Repositorio del Informe](https://github.com/Web-Application-YaraSoftware/Informe)**.
+
+### Flujo de Trabajo Git Flow
+
+El modelo de flujo de trabajo adoptado para el desarrollo del proyecto se basa en la propuesta de **Vincent Driessen**, detallada en su documento "[A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)". Este enfoque estructura de manera eficiente las ramificaciones y la integración, facilitando la gestión del ciclo de vida del software.
+
+#### Estructura de Branches (ramas)
+
+<div style="display: grid; justify-content: center; align-items: center;">
+  <img src="img/5/2/1/1/branches.png" width="400px">
+</div>
+
+1. **Main branch (Rama principal):**
+   - Esta rama es la columna vertebral del proyecto, albergando únicamente las versiones finales y estables del software. Los cambios solo se integrarán aquí tras una rigurosa fase de pruebas y validación en las ramas secundarias dedicadas.
+
+2. **Develop branch (Rama de desarrollo):**
+   - Funciona como el eje central del desarrollo activo. Aquí se realizan las integraciones diarias de los avances, sirviendo como plataforma para la consolidación del trabajo colaborativo y el mantenimiento de los avances continuos del proyecto.
+
+3. **Feature branches (Ramas de funcionalidad):**
+   - Cada nueva funcionalidad se desarrolla de manera independiente en su propia rama, permitiendo un enfoque modular del desarrollo. Estas ramas se nombran siguiendo un patrón descriptivo y único, como `feature/nombre-de-la-funcionalidad`. Una vez finalizadas, se integran de vuelta a la rama de desarrollo.
+
+4. **Release branches (Ramas de lanzamiento):**
+   - Estas ramas se derivan de la rama de desarrollo para preparar nuevas versiones del software, ajustando errores menores y asegurando que todo funcione correctamente antes de su lanzamiento oficial. Se emplea el sistema de **versionamiento semántico** para etiquetar estas versiones, por ejemplo, `release/1.0.0`.
+
+5. **Hotfix branches (Ramas de corrección):**
+   - Se establecen para resolver de manera urgente y eficiente los errores críticos encontrados en la rama principal que impactan negativamente la experiencia del usuario. Tras la corrección, se reintegran rápidamente a la rama principal y, posteriormente, a la rama de desarrollo para asegurar la coherencia del sistema.
+
+### Versionamiento Semántico
+
+Para la gestión y etiquetado de las versiones en las ramas de lanzamiento, se emplea el sistema de **Versionamiento Semántico** (Semantic Versioning 2.0.0). Este sistema permite clarificar el impacto de los cambios realizados mediante la estructura **MAJOR.MINOR.PATCH**, donde cada incremento en el número se basa en la naturaleza de las modificaciones:
+- **MAJOR:** cambios incompatibles.
+- **MINOR:** añadidos compatibles.
+- **PATCH:** correcciones de errores que no afectan la compatibilidad.
+
+### Convenciones de Commits
+
+Para estandarizar los mensajes de commits, se adoptará la especificación **Conventional Commits**, basada en las **Angular Commit Guidelines**. Cada commit deberá seguir la siguiente estructura para asegurar claridad y uniformidad en el historial de cambios:
+
+```bash
+git commit -m "<type>[optional scope]: <title>" -m "<description>"
+```
+### Tipos de Commits:
+
+- **chore:** cambios de mantenimiento o tareas menores que no modifican la funcionalidad del software.
+- **feat:** nueva característica para el usuario.
+- **fix:** corrección de un error para el usuario.
+- **docs:** cambios en la documentación.
+- **style:** formateo, faltas de ortografía, etc.; no cambia el código.
+- **refactor:** modificación del código que ni añade una característica ni corrige un error.
+- **test:** añadir pruebas faltantes o corregir pruebas existentes.
+
+Cada mensaje de commit debe proporcionar suficiente información para entender el cambio sin necesidad de referirse a fuentes externas.
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-El Lenguaje de Marcado de Hipertexto (HTML) es esencial para estructurar y presentar contenido en páginas web, siendo común nombrar la página principal como index.html. Algunas convenciones clave que incluiremos en nuestro código:
-Usar elementos en minúsculas y cerrar todos los elementos para asegurar compatibilidad y legibilidad.
-Escribir comentarios breves y evitar líneas de código largas.
-Incluir el atributo lang y especificar detalles como alt, ancho y altura en imágenes para accesibilidad.
-CSS es el lenguaje para dar estilo a las páginas web. Convenciones que utilizaremos:
-Mantener una nomenclatura coherente para clases e identificadores, con una indentación consistente y agrupación de propiedades relacionadas.
-Evitar selectores excesivamente específicos y duplicación de reglas.
-Probar el código en varios navegadores y dispositivos.
-JavaScript agrega interactividad a las páginas web. Las prácticas que utilizaremos son:
-Nomenclatura coherente para variables y funciones, evitando variables globales.
-Manejar errores con bloques try-catch, optimizar el código para rendimiento, y probar en diversos navegadores.
-Gherkin es un lenguaje usado para describir escenarios de prueba de forma legible. Recomendaciones clave:
-Usar un lenguaje claro con una estructura coherente basada en palabras clave como Feature, Scenario, Given, When, y Then.
-Evitar la duplicación de pasos y colaborar con el equipo para mejorar los escenarios.
+#### HTML: Buenas Prácticas
+
+Algunas prácticas recomendadas para mantener un código HTML coherente, sostenible y ordenado son las siguientes:
+
+- **Cerrar todos los elementos HTML**: Es fundamental cerrar cada etiqueta, por ejemplo: `<p>Este es un párrafo.</p>`.
+- **Uso exclusivo de minúsculas**: Aunque HTML permite usar mayúsculas y minúsculas en los nombres de los elementos y atributos, se recomienda usar solo minúsculas para mejorar la legibilidad y organización del código.
+- **Usar comillas para atributos con espacios**: Siempre rodear con comillas los atributos que contengan espacios.
+- **Incluir `alt`, `width` y `height` en las imágenes**: Para mejorar la accesibilidad y optimizar la carga del contenido, especificar siempre el texto alternativo (`alt`) y las dimensiones (`width` y `height`) de las imágenes. Ejemplo:
+
+```html
+<img src="abc.img" alt="nombre de la imagen" style="width:128px;height:128px">
+```
+#### CSS: Buenas Prácticas
+
+En el uso de CSS, estas son las recomendaciones para mantener un código limpio y fácil de mantener:
+
+- **Nombres de clases breves y descriptivos**: Los nombres de las clases deben ser concisos pero suficientemente descriptivos para indicar su función.
+- **Separar palabras con guiones en nombres de clases e IDs**: Se deben usar guiones para separar palabras en nombres de clases e identificadores.
+- **Omitir la unidad de medida para el valor 0**: No es necesario añadir una unidad de medida cuando el valor es 0 (por ejemplo, usar `0` en vez de `0px`).
+- **Separar cada declaración y selector en líneas nuevas**: Esto mejora la legibilidad del código al facilitar la lectura y el mantenimiento.
 
 ### 5.1.4. Software Deployment Configuration
 
-Netlify es una plataforma de alojamiento web y despliegue continuo que simplifica el lanzamiento de sitios web y aplicaciones estáticas. Funciona de la siguiente manera:
-Integración con repositorios Git: Se sincroniza con plataformas como GitHub, GitLab y Bitbucket. Cada vez que se actualiza el código en el repositorio, Netlify inicia automáticamente el proceso de construcción y despliegue.
-Proceso de construcción: Convierte el código (HTML, CSS, JavaScript) en un sitio estático, realizando tareas como la compilación de archivos y optimización de imágenes.
-Red CDN: Una vez construida, la aplicación es desplegada a través de su red de distribución de contenido (CDN) global, garantizando un rendimiento rápido y accesible.
-Vistas previas automáticas: Para cada rama de tu repositorio, genera vistas previas automáticas, facilitando la revisión de cambios antes de fusionarlos con la rama principal.
-Publicaciones automáticas: Configura despliegues automáticos para cada pull request o fusión, lo que garantiza que el sitio esté siempre actualizado con la última versión del código.
+## Despliegue de la Landing Page de Workshop N-GINE
+
+En esta sección, se detalla la configuración necesaria para el despliegue de la solución, incluyendo los pasos requeridos para ejecutar un despliegue o publicación efectiva de la **Landing Page**. Se explican los procedimientos que deben seguirse desde los repositorios de código fuente hasta la implementación final en el entorno de producción, asegurando que todos los componentes estén correctamente configurados y que la solución esté lista para su uso público. Esto implica la integración continua, pruebas automáticas y estrategias de despliegue que facilitan la transición del código desde el desarrollo hasta su disponibilidad final para los usuarios.
+
+### Despliegue de la Landing Page
+
+Para el despliegue eficiente del proyecto de la **Landing Page**, es imprescindible cumplir con ciertos prerrequisitos técnicos. Es necesario establecer una cuenta vinculada entre **GitHub** y **Netlify**. Adicionalmente, todos los archivos del proyecto deben estar organizados y alojados adecuadamente en un repositorio de GitHub. Una vez asegurado el cumplimiento de estos criterios, se procederá con los siguientes pasos para el despliegue:
+
+1. **Ingresar a Netlify**  
+   Accede a la plataforma utilizando tus credenciales de GitHub seleccionando la opción **"Log in with GitHub"**.  
+
+  <div style="display: grid; justify-content: center; align-items: center;">
+    <img src="img/5/2/1/1/netlify-1.png" width="600px">
+  </div>
+
+2. **Autorizar a Netlify**  
+   Otorga autorización a Netlify para acceder a tu cuenta de GitHub. Luego, navega a la sección **"Sites"** y selecciona **"Add new site"**, seguido de **"Import an existing project"** para iniciar el proceso de importación del proyecto.  
+
+  <div style="display: grid; justify-content: center; align-items: center;">
+    <img src="img/5/2/1/1/netlify-2.png" width="600px">
+  </div>
+
+3. **Seleccionar el repositorio**  
+   Selecciona la opción **"Deploy with GitHub"**. Configura el acceso al repositorio de tu organización y después elige el repositorio específico sobre el cual realizarás el despliegue.
+
+  <div style="display: grid; justify-content: center; align-items: center;">
+    <img src="img/5/2/1/1/netlify-3.png" width="600px">
+  </div>
+
+4. **Organización y proyecto**  
+   Si el repositorio se encuentra bajo una organización, elige la opción **"Add another organization"**. Luego, selecciona el proyecto específico asociado a esa organización.
+
+  <div style="display: grid; justify-content: center; align-items: center;">
+    <img src="img/5/2/1/1/netlify-4.png" width="600px">
+  </div>
+
+5. **Configurar el despliegue**  
+   Procede a configurar el despliegue especificando el equipo de Netlify correspondiente y la rama del repositorio que se utilizará para el despliegue, en este caso, la rama `main`.
+
+  <div style="display: grid; justify-content: center; align-items: center;">
+    <img src="img/5/2/1/1/netlify-5.png" width="600px">
+  </div>
+
+6. **Finalizar el despliegue**  
+   Espera a que la plataforma complete el proceso de despliegue. Una vez finalizado, serás redirigido automáticamente al inicio, donde se te mostrará el enlace a la página web recién desplegada.
+
+  <div style="display: grid; justify-content: center; align-items: center;">
+    <img src="img/5/2/1/1/netlify-6.png" width="600px">
+  </div>
+
+Con este procedimiento, la página desplegada quedará vinculada y autorizada con el repositorio de la organización. Cada vez que se realice un commit en la rama correspondiente, la **Landing Page** se actualizará automáticamente, eliminando la necesidad de repetir los pasos de despliegue previos.
+
+**[Enlace para acceder a la Landing Page](https://landing-page-workshop-n-gine.netlify.app/#learn-more)**.
+
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -4639,6 +4617,280 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <td>Desarrollo del pie de página, asegurando que sea responsive y accesible.</td>
     <td>2</td>
     <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+#### 5.2.1.3. Development Evidence for Sprint Review
+
+| Repository | Branch | Commit id | Commit message | Commit body | Commited on |
+| - | - | - | - | - | - |
+| Open-Source-YaraSoftware / Landing-page | develop | 5e3f9bb398ca81cd655e3bc649255e2d171bdb22 | chore: add all required images for the entire project | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  develop | 9bb4007d76994003db24c9ae76608330ed37db0a | chore: configure sass folder and import all components into main.scss | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  develop | 3974cb03d4e26554bd9362891995d263e2b2fd66 | chore: set up global styles and add normalize, mixins, and variables | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  develop | 650d57af23cdbb155ddaeeffac39b555bc035585 | chore: import Roboto font via Google Fonts link in index.html | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  develop | 1937f6d1ceda82e273486ca12f8d70c70445c2f2 | feat: add header html section with navigation and banner | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  develop | 86ac708701a2f0a199e601cfe7ab340c14116afe | feat: add SCSS component for buttonAction with hover effect and full-width styling | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  develop | 9b7f312eb7dc4bd9f11dadd310794696b2d8e1ec | feat: add header styling with background image, overlay, and responsive layout | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  develop | f54f80a0228d5d26e428a9ba0d9891fe3f40542a | feat: add responsive banner styling with image, content, and button layout | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  | 2b3d1fc936238f202980b9b35e0c2f6a07c4ce83 | feat: add responsive navbar styling with dark mode and dynamic menu functionality | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  | 77c11649aaaa520e92008d6d081e81a44dce4f60 | feat: add toggle functionality for mobile menu and reset on resize | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/footer  | e410d8ab8170bf09953f246e85d0a70b2fc98ffb | feat: add functionality to change navbar color after scrolling past header | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page |  feature/about-us | b5c803d3e867eada59b765d8ee84f35d2a8e30a3 | feat: add learn more section with header, image, and contact button | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/benefits | f85d871514d67ec29c5136f48b0bd13b5b641457 | feat: add our benefits section with cards detailing platform advantages | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/benefits | c6f36ec8ebd2fa128c77f4fff0985b970c00843c | feat: add responsive styling for our benefits section with card layout and grid adjustments | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | 25000c95c8c3a60943d0be13ec92085cc610d2fa | feat: add testimonials section with client feedback cards | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | c2b85b4d114d29cbc7c9c7cd991106af9e756699 | feat: add responsive styling for testimonials section with horizontal scroll and card hover effect | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | ba8726e8adbb3834ff6025d0973026197a016a4a | feat: add auto-scrolling carousel functionality with reverse direction at end | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | 64b1b758a6da3add09712d128b55aedbacf75c43 | fix: remove duplicate section tags | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | a14e96add7d95b8242f2746007c38e5512a6a51a | fix: remove duplicate header tag | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | c8dbb4a61bf1889e0beb0065bed2c695284399f5 | feat: add about us section with mission, vision, and values cards | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 507a95956b723c248520d33a2e471b46d9736eea | feat: add responsive styling for about us section with card flipping effect | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 671e481e5c4dc96ce7e4dedbb8d4397b4ecc6f98 | feat: add plans section with pricing cards for free, basic, and premium plans | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 23c892fb608cbd35f67490e57b830ae7b60cf391 | feat: add responsive styling for the plans section with card layout and dark mode option for premium | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 5b13f1a3c03efc06e65eaf541c5f111b439428dd | feat: add contact form section with inputs for name, email, phone, and message | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 636e8c32bd44b3c1c2d0988a2c33ae279877e2af | feat: add responsive styling for contact form section with layout adjustments | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | feat: add contact form section with inputs for name, email, phone, and message | 9e612093d32f77bccf751433cfb09f1dfd4b07a8 | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 9c03f279a6212a8137315f45c3e461c37c9d3beb | feat: add responsive styling for contact form section with layout adjustments | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | d1a8726bec3dc8279edfd5a9853be831dbea0134 | feat: add footer section with sign up, useful links, contact info, and legal details | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 152d4c6af5ad0414da4a89d5cdc2f79b53a89eb1 | feat: add responsive styling for footer with contact, sign-up, and legal sections | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 561b4bc27d17c62ed0795295110fc83d0a777c92 | fix: remove duplicate footer tag | ... | 08/09/2024 |
+| Open-Source-YaraSoftware / Landing-page | ... | 40c00418fea99d1f830bb6b943665ddb16008180 | feat: add language switch functionality and static spanish page | ... | 08/09/2024 |
+
+#### 5.2.1.4. Testing Suite Evidence for Sprint Review
+
+Para este primer sprint no fue contemplada la evidencia de documentación de testeo.
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+
+En el desarrollo del sprint 1 se logró desplegar las funcionalidades descritas para la landing page al inicio del sprint. A continuación, algunas evidencias:
+
+El desarrollo de la Hero Section con una imagen imponente y llamativa para el usuario.
+<img src="img/5/2/1/4/hero.png">
+
+La sección About Us que describe nuestra empresa, nuestros valores y visión.
+<img src="img/5/2/1/4/about_us.png">
+
+La sección de planes, centrada en ser atractiva para el usuario.
+<img src="img/5/2/1/4/plans.png">
+
+Enlace de video de navegación landing page: ...
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+Para este primer sprint no fue contemplada la evidencia de documentación de los servicios.
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Para la entrega del Sprint número 1, se desplego al completo landing page la cual se pasará a detallar a continuación: 
+
+<img src="img/5/2/1/7/1.png">
+<img src="img/5/2/1/7/2.png">
+<img src="img/5/2/1/7/3.png">
+<img src="img/5/2/1/7/4.png">
+<img src="img/5/2/1/7/5.png">
+<img src="img/5/2/1/7/6.png">
+
+Enlace para acceder a la landing page: https://landing-page-workshop-n-gine.netlify.app/
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+
+| Alumno | Actividad |
+| ----------- | ----------- |
+| Jhosepmyr Gutiérrez Soto | Implementación de Hero Section, About the Product, Testimonios e Internacionalización |
+| Eric Hernandez Tuiro | Implementación del Footer |
+| Álvaro Orozco Torres | Implementación del Formulario de Contacto |
+| Henry Reaño Delgadillo | Implementación de Planes |
+| Elmer Riva Rodriguez | Implementación de Beneficios y About Us |
+
+<img src="img/5/2/1/8/insights.png">
+
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2
+
+<table>
+    <tr>
+        <th scope="row"><strong>Sprint #</strong></th>
+        <td>Sprint 2</td>
+    </tr>
+    <tr>
+        <td olspan="2"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+        <th scope="row">Date</th>
+        <td>2024/15/03</td>
+    </tr>
+    <tr>
+        <th scope="row">Time</th>
+        <td>20:00</td>
+    </tr>
+    <tr>
+        <th scope="row">Location</th>
+        <td>Videollamada grupal mediante la plataforma Discord</td>
+    </tr>
+    <tr>
+        <th scope="row">Prepared By</th>
+        <td>Jhosephmyr Gutierrez</td>
+    </tr>
+    <tr>
+        <th scope="row">Attendees (to planning meeting)</th>
+        <td> Henry Reaño Delgadillo, Elmer Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto </td>
+    </tr>
+    <tr>
+        <td olspan="2"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+        <th scope="row">Sprint 2 Goal</th>
+        <td>El foco del sprint 2 es planificar el desarrollo de la aplicación web. Creemos que entrega mayor visibilidad y facilidad de acceso a la información clave a potenciales clientes. Confirmaremos nuestra hipótesis cuando la aplicación web esté publicada y los usuarios puedan interactuar con ella.</td>
+    </tr>
+    <tr>
+        <th scope="row">Sprint 2 Velocity</th>
+        <td>20</td>
+    </tr>
+</table>
+
+#### 5.2.1.2. Sprint Backlog 2
+
+El objetivo del sprint es implementar la primera versión de la aplicación web, permitiendo a los usuarios que la usen sacar el máximo beneficio del mismo.
+
+<table border="1" style="width:100%; text-align: center;">
+  <tr>
+    <th colspan="2">Sprint #</th>
+    <th colspan="5">Sprint n</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="5">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>
+    <td>US-08</td>
+    <td>Intervenciones</td>
+    <td>TK-01</td>
+    <td>Implementación de las pantallas de intervención</td>
+    <td>Creacion de las listas de intervención, filtros y ordenamientos</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-15</td>
+    <td>Mis Actividaded (Líder)	</td>
+    <td>TK-02</td>
+    <td>Desarrollo de la vista de actividades para el líder</td>
+    <td>Desarrollo de visualizacion de tareas e información de la intervención del mecánico líder</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-16</td>
+    <td>Mis actividadades (asistente)</td>
+    <td>TK-03</td>
+    <td>Desarrollo de la vista de actividades para el asistente</td>
+    <td>Desarrollo de visualizacion de tareas del mecánico asistente</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-01</td>
+    <td>Formulario de registro</td>
+    <td>TK-04</td>
+    <td>Diseño de registro de usuario</td>
+    <td>Creación del formulario de registro de usuario</td>
+    <td>2</td>
+    <td>Elmer Riva Rodríguez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-05</td>
+    <td>Desarrollo de los detalles de una intervención</td>
+    <td>Desarrollo de la información IOT, registro de intervenciones, información general, y los detalles.</td>
+    <td>1</td>
+    <td>Eric Hernández Tuiro</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-06</td>
+    <td>Modelar el diagnóstico de intervención</td>
+    <td>Creación de la interfaz de secuencia de tareas para el mecánico</td>
+    <td>3</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-20</td>
+    <td>Supervisión de intervención</td>
+    <td>TK-07</td>
+    <td>Desarrollo de la interfaz de tareas del mecánico</td>
+    <td>Implementación de la verificación de las tareas completadas del mecánico</td>
+    <td>2</td>
+    <td>Henry Reaño Delgadillo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-08</td>
+    <td>Implementación de solicitudes de inventario en las intervenciones</td>
+    <td>Desarrollo e implementación de la soliitud de inventario dentro de una intervención.</td>
+    <td>5</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-09</td>
+    <td>Creación de intervenciones</td>
+    <td>TK-09</td>
+    <td>Creación de las herramientas de creación de intervenciones</td>
+    <td>Creación de la interfaz de gestión y creación de intervenciones</td>
+    <td>5</td>
+    <td>Elmer Riva Rodríguez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-06</td>
+    <td>Clientes</td>
+    <td>TK-11</td>
+    <td>Implementación de lista de clientes</td>
+    <td>Desarrollo de lista de clientes y herramientas de filtrado.</td>
+    <td>3</td>
+    <td>Henry Paolo Reaño</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td>US-24</td>
+    <td>Agendar cita de intervención</td>
+    <td>TK-12</td>
+    <td>Implementación de registro de citas</td>
+    <td>Desarrollo de agendado de de citas de intervención</td>
+    <td>2</td>
+    <td>Eric Hernández Tuiro</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-07</td>
+    <td>Detalles de clientes</td>
+    <td>TK-13</td>
+    <td>Desarrollo de vista de información de clientes</td>
+    <td>Desarrollo de actualización de datos de los clientes</td>
+    <td>2</td>
+    <td>Elmer Augusto Riva Rodriguez</td>
     <td>Done</td>
   </tr>
 </table>

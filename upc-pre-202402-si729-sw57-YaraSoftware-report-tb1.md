@@ -3373,7 +3373,7 @@ Explicación del flujo:El proceso de gestión de clientes en WorkShop N-GINE com
 #### User Goal: Visualizar intervenciones
 User Persona: Dueño de taller.
 
-Explicación del flujo: el dueño del taller acceder a la vista de Interventions desde la pantalla de Personnel utilizando el menú lateral. Si hay intervenciones registradas, el sistema muestra una tabla con información detallada de cada intervención, incluyendo el cliente, el vehículo, el tipo de intervención, y el estado actual (por ejemplo, pendiente, en progreso, o completado). En caso de que no haya intervenciones registradas, la vista de Interventions mostrará un mensaje indicando que no se ha encontrado información sobre intervenciones. Esta vista permite al usuario gestionar fácilmente las intervenciones de los vehículos, programar nuevas o realizar un seguimiento del estado de las actuales.
+Exxplicación del flujo: el dueño del taller acceder a la vista de Interventions desde la pantalla de Personnel utilizando el menú lateral. Si hay intervenciones registradas, el sistema muestra una tabla con información detallada de cada intervención, incluyendo el cliente, el vehículo, el tipo de intervención, y el estado actual (por ejemplo, pendiente, en progreso, o completado). En caso de que no haya intervenciones registradas, la vista de Interventions mostrará un mensaje indicando que no se ha encontrado información sobre intervenciones. Esta vista permite al usuario gestionar fácilmente las intervenciones de los vehículos, programar nuevas o realizar un seguimiento del estado de las actuales.
 <br>
 <div style="display: grid; justify-content: center; align-items: center;">
   <img src="img/4/userflows/8.png" width="1000px">

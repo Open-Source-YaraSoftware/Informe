@@ -4391,6 +4391,8 @@ Con este procedimiento, la página desplegada quedará vinculada y autorizada co
 
 #### 5.2.1.1. Sprint Planning 1
 
+El primer sprint se planificó durante reuniones de Discord. Para ello, se creó una tabla para documentar la información discutida.
+
 <table>
     <tr>
         <th scope="row"><strong>Sprint #</strong></th>
@@ -4655,6 +4657,10 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
 
 #### 5.2.1.3. Development Evidence for Sprint Review
 
+Se realizaron los avances con los commits correspondiente en el repositorio de la siguiente forma.
+
+Repositorio Landing Page: [Repositorio Landing Page](https://github.com/Open-Source-YaraSoftware/Landing-page)
+
 | Repository | Branch | Commit id | Commit message | Commited on |
 | - | :-: | - | - |  - |
 | Open-Source-YaraSoftware / Landing-page | develop | 5e3f9bb398ca81cd655e3bc649255e2d171bdb22 | chore: add all required images for the entire project |  08/09/2024 |
@@ -4695,11 +4701,26 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
 
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review
 
-Para este primer sprint no fue contemplada la evidencia de documentación de testeo.
+Se llevaron a cabo las pruebas de aceptación para las historias de usuario implementadas, empleando el lenguaje Gherkin en archivos feature. Estas pruebas fueron documentadas y almacenadas en el repositorio.
+
+Repositorio de Pruebas de Aceptación:
+
+|Repository|Branch|Commit Id|Commit Message|Commited on (Date)|
+|--|--|--|--|--|
+|Open-Source-YaraSoftware/AcceptanceTests|main||feat: added feature file for US|05/09/2024|
+|Open-Source-YaraSoftware/AcceptanceTests|main||feat: added feature file for US|05/09/2024|
+|Open-Source-YaraSoftware/AcceptanceTests|main||feat: added feature file for US|05/09/2024|
+|Open-Source-YaraSoftware/AcceptanceTests|main||feat: added feature file for US|05/09/2024|
+|Open-Source-YaraSoftware/AcceptanceTests|main||feat: added feature file for US|05/09/2024|
+|Open-Source-YaraSoftware/AcceptanceTests|main||feat: added feature file for US|05/09/2024|
+|Open-Source-YaraSoftware/AcceptanceTests|main||feat: added feature file for US|05/09/2024|
+
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-En el desarrollo del sprint 1 se logró desplegar las funcionalidades descritas para la landing page al inicio del sprint. A continuación, algunas evidencias:
+En esta parte se presentará el progreso alcanzado durante el primer sprint, enfocado en la implementación de la Landing Page estática. Para ilustrar este avance, se ha creado el siguiente video, que incluye una explicación y capturas que evidencian el desarrollo de la página web.
+
+URL del video: [Video Landing Page]()
 
 El desarrollo de la Hero Section con una imagen imponente y llamativa para el usuario.
 <img src="img/5/2/1/4/hero.png">
@@ -4710,11 +4731,11 @@ La sección About Us que describe nuestra empresa, nuestros valores y visión.
 La sección de planes, centrada en ser atractiva para el usuario.
 <img src="img/5/2/1/4/plans.png">
 
-Enlace de video de navegación landing page: ...
+
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-Para este primer sprint no fue contemplada la evidencia de documentación de los servicios.
+Durante este primer sprint, nos enfocamos únicamente en la creación de la Landing Page estática, por lo que no se trabajó con servicios web. Como resultado, en esta ocasión no se elaboró la documentación correspondiente al uso de servicios web.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
@@ -4744,6 +4765,8 @@ Enlace para acceder a la landing page: https://landing-page-workshop-n-gine.netl
 ### 5.2.2. Sprint 2
 
 #### 5.2.2.1. Sprint Planning 2
+
+Se planeó el segundo sprint a través de reuniones de Discord. Para ello, se hizo la siguiente tabla para registrar la información que se discutió.
 
 <table>
     <tr>

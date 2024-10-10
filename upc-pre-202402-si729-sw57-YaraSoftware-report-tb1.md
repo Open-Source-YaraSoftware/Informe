@@ -4703,17 +4703,19 @@ Repositorio Landing Page: [Repositorio Landing Page](https://github.com/Open-Sou
 
 Se llevaron a cabo las pruebas de aceptación para las historias de usuario implementadas, empleando el lenguaje Gherkin en archivos feature. Estas pruebas fueron documentadas y almacenadas en el repositorio.
 
-Repositorio de Pruebas de Aceptación:
+Repositorio de Pruebas de Aceptación: [Repositorio AcceptanceTests](https://github.com/Open-Source-YaraSoftware/AcceptanceTests)
 
 |Repository|Branch|Commit Id|Commit Message|Commited on (Date)|
 |--|--|--|--|--|
-|Open-Source-YaraSoftware/AcceptanceTests|main||feat: added feature file for US|05/09/2024|
-|Open-Source-YaraSoftware/AcceptanceTests|main||feat: added feature file for US|05/09/2024|
-|Open-Source-YaraSoftware/AcceptanceTests|main||feat: added feature file for US|05/09/2024|
-|Open-Source-YaraSoftware/AcceptanceTests|main||feat: added feature file for US|05/09/2024|
-|Open-Source-YaraSoftware/AcceptanceTests|main||feat: added feature file for US|05/09/2024|
-|Open-Source-YaraSoftware/AcceptanceTests|main||feat: added feature file for US|05/09/2024|
-|Open-Source-YaraSoftware/AcceptanceTests|main||feat: added feature file for US|05/09/2024|
+|Open-Source-YaraSoftware/AcceptanceTests|main|45f6eb55d3a4c65cd86edb41fc3f9da47726e555|feat: added feature file for SWR-01|05/09/2024|
+|Open-Source-YaraSoftware/AcceptanceTests|main|485aa9fcd9a59a73684ae605205b72c4b9c50c69|feat: added feature file for SWR-02|05/09/2024|
+|Open-Source-YaraSoftware/AcceptanceTests|main|d5c36f56fc807f82984472cef78e2ec2d3876689|feat: added feature file for SWR-03|05/09/2024|
+|Open-Source-YaraSoftware/AcceptanceTests|main|0b7fc0933a8588a07b3fd5b920ab29df9c69e50c|feat: added feature file for SWR-04|05/09/2024|
+|Open-Source-YaraSoftware/AcceptanceTests|main|f234b417fd1eecf5c984b796092e380f5b9f130d|feat: added feature file for SWR-05|05/09/2024|
+|Open-Source-YaraSoftware/AcceptanceTests|main|b39e1dc20c457306bf960e2313dc786bb27c2bf8|feat: added feature file for SWR-06|05/09/2024|
+|Open-Source-YaraSoftware/AcceptanceTests|main|03b574de02cadfc157255db68e98d8a27146bbd0|feat: added feature file for SWR-07|05/09/2024|
+|Open-Source-YaraSoftware/AcceptanceTests|main|af55c3cd1598749749ea02c89430db32c676778b|feat: added feature file for SWR-08|05/09/2024|
+|Open-Source-YaraSoftware/AcceptanceTests|main|96a2be53adbad77c5efe07e9321cfa750cae8ea9|feat: added feature file for SWR-09|05/09/2024|
 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review

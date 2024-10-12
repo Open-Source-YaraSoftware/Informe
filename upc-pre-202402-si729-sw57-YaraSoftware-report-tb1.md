@@ -31,6 +31,10 @@
                 <td>Riva Rodríguez, Elmer Augusto</td>
                 <td>202220829</td>
             </tr>
+            <tr>
+                <td>Quiñones Tintaya, Johan Jorge</td>
+                <td>202218183</td>
+            </tr>
         </table>
     </div>
     <p align="center">Agosto 2024</p>

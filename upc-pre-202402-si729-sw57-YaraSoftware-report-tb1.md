@@ -4926,9 +4926,13 @@ Enlace para acceder a la landing page: https://landing-page-workshop-n-gine.netl
     </tr>
 </table>
 
-#### 5.2.1.2. Sprint Backlog 2
+#### 5.2.2.2. Sprint Backlog 2
 
-El objetivo del sprint es implementar la primera versión de la aplicación web, permitiendo a los usuarios que la usen sacar el máximo beneficio del mismo.
+El objetivo del sprint es implementar la primera versión de la aplicación web, permitiendo a los usuarios que la usen sacar el máximo beneficio del mismo. Se utilizo Trello como herramienta para organizar y gestionar al equipo, con esta plataforma se pudo dividir las user stories logrando un desarrollo del sprint sea más manejable.
+
+<img src="">
+
+Link del Trello: 
 
 <table border="1" style="width:100%; text-align: center;">
   <tr>
@@ -5071,19 +5075,95 @@ El objetivo del sprint es implementar la primera versión de la aplicación web,
   </tr>
 </table>
 
-#### 5.2.1.3. Development Evidence for Sprint Review
+#### 5.2.2.3. Development Evidence for Sprint Review
 
-#### 5.2.1.4. Testing Suite Evidence for Sprint Review
+Se demuestra mediante una tabla los commits realizados para el sprint 2. 
 
-#### 5.2.1.5. Execution Evidence for Sprint Review
+| Repository | Branch | Commit id | Commit message | Commit body | Commited on |
+| - | - | - | - | - | - |
+| Open-Source-YaraSoftware / Web-application | feature/interventions | 680f6a5ca6b40342eda8239b904f1f31b9c6ea6e | feat(model): add entities matching class diagram | ... | 27/09/2024 |
+| Open-Source-YaraSoftware / Web-application | feature/interventions | 88376af588add6dcd20277f30e28e375c695712c | feat(model): add enums for intervention state, intervention type, task state, account state, code state, membership type, notification state, product request state, role | ... | 27/09/2024 |
+| Open-Source-YaraSoftware / Web-application | feature/interventions | 8dbdf42958617cb96b56324173ec7b9bbdcda729 | feat(interventions): add interventions service with get and post crud methods | ... | 27/09/2024 |
+| Open-Source-YaraSoftware / Web-application | feature/interventions | a26afe515bc3931c64f0c42a1fdb4c3aed0cf1c3 | feat(intervention-creation): add invocation of NewInterventionDialogComponent from InterventionsComponent | ... | 27/09/2024 |
+| Open-Source-YaraSoftware / Web-application | feature/interventions | a0aabc299765958aa60d181467b456e31c596a25 | feat(intervention-creation): add new intervention dialog component | ... | 27/09/2024 |
+| Open-Source-YaraSoftware / Web-application | feature/interventions | 1f8502a7f165c4dfaaf0b0d6b266b43fb0f23f32 | feat(interventions): add filtering functionality to the interventions component | ... | 27/09/2024 |
+| Open-Source-YaraSoftware / Web-application | feature/interventions | da5a3e2a9de0876d9d20c62eb68a6106c62cec84 | feat(interventions): update interventions component to add sorting functionality to the table | ... | 27/09/2024 |
+| Open-Source-YaraSoftware / Web-application | feature/interventions | 7683819bf0b39efd216b5bf58cab5405516dbd10 | feat(interventions): add interventions component with basic interface including table and buttons  | ... | 27/09/2024 |
+| Open-Source-YaraSoftware / Web-application | feature/my activities leader | a4594034f0a48dc5801a87e8fc106e43690abf88 | chore(api): update db.json to assign different mechanics as leaders for interventions | ... | 27/09/2024 |
+| Open-Source-YaraSoftware / Web-application | feature/my activities leader | e07c2bb49e78e8f2b342ff66486f3962995ff852 | feat(router): add new interventions page for leader and fix activity header navigation | ... | 27/09/2024 |
+| Open-Source-YaraSoftware / Web-application | feature/my activities leader | a09e56d253e717b36eab73bb2d2d46d602cc47d0 | feat(intervention-service): add method to fetch interventions where mechanic is leader | ... | 27/09/2024 |
+| Open-Source-YaraSoftware / Web-application | feature/my activities leader | ee253a0481d554ebd3667b1379e4e71486dc913b | refactor(intervention-page): reuse intervention logic and template for leader and assistant views  | ... | 27/09/2024 |
+| Open-Source-YaraSoftware / Web-application | feature/intervention informantion | cf587b217f9375521c51a0f517c538568717eba9 | eat(general-information): create components for intervention general information, vehicle IoT data, and previous interventions | ... | 28/09/2024 |
+| Open-Source-YaraSoftware / Web-application | feature/intervention informantion | 8568044dd795ba0ec055ffe3e18c1165a50adfb8 | feat(activity-page): add functionality and integrate components for mechanic's activity initiation | ... | 28/09/2024 |
+| Open-Source-YaraSoftware / Web-application | feature/clients | c1f4d27d4584eed04bc2423e18c4c00bb36611fe | feat(workshop-client): add WorkshopClient entity and service | ... | 28/09/2024 |
+| Open-Source-YaraSoftware / Web-application | feature/clients | 2b8370f3a40ba801a65158e0b6990ccb62e4de98 | chore: update db.json | ... | 28/09/2024 |
+| Open-Source-YaraSoftware / Web-application | feature/clients | 366d06cec543fa8f1607fc4917e19b46ec872e30 | feat(workshop-client): display clients in table with filtering and sorting | ... | 28/09/2024 |
+| Open-Source-YaraSoftware / Web-application | feature/personnel detail | c1f4d27d4584eed04bc2423e18c4c00bb36611fe |  | ... | 27/09/2024 |
 
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+
+| Open-Source-YaraSoftware / Web-application | feature/clients | c1f4d27d4584eed04bc2423e18c4c00bb36611fe |  | ... | 27/09/2024 |
+| Open-Source-YaraSoftware / Web-application | feature/clients | c1f4d27d4584eed04bc2423e18c4c00bb36611fe |  | ... | 27/09/2024 |
+| Open-Source-YaraSoftware / Web-application | feature/clients | c1f4d27d4584eed04bc2423e18c4c00bb36611fe |  | ... | 27/09/2024 |
+| Open-Source-YaraSoftware / Web-application | feature/clients | c1f4d27d4584eed04bc2423e18c4c00bb36611fe |  | ... | 27/09/2024 |
+
+
+| Open-Source-YaraSoftware / Web-application | feature/clients | c1f4d27d4584eed04bc2423e18c4c00bb36611fe |  | ... | 27/09/2024 |
+
+#### 5.2.2.4. Testing Suite Evidence for Sprint Review
+
+| Repository | Branch | Commit id | Commit message | Commit body | Commited on |
+| - | - | - | - | - | - |
+| - | - | - | - | - | - |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+US-08, US-09, US-17, US-18, US-19, US-20:
+
+<img src="img/5/2/2/5/interventions.png">
+
+US-15:
+
+<img src="img/5/2/2/5/my-activities-leader.png">
+
+US-16:
+
+<img src="img/5/2/2/5/my-activities-assistant.png">
+
+US-01:
+
+<img src="img/5/2/2/5/user-register.png">
+
+US-06, US-07:
+
+<img src="img/5/2/2/5/clients.png">
+
+US-24:
+
+<img src="img/5/2/2/5/new-intervention.png">
+
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 Para este primer sprint no fue contemplada la evidencia de documentación de los servicios.
 
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
+Para la entrega del sprint 2, se desplego la versión actualizada del Web Application funcional de acuerdo a los User Stories correspondientes.
+
+Web Application:
+
+<img src="img/5/2/2/7/1.png">
+<img src="img/5/2/2/7/2.png">
+<img src="img/5/2/2/7/3.png">
+<img src="img/5/2/2/7/4.png">
+<img src="img/5/2/2/7/5.png">
+<img src="img/5/2/2/7/6.png">
+<img src="img/5/2/2/7/7.png">
+<img src="img/5/2/2/7/8.png">
+
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
 
 <img src="img/5/2/1/8/insights-2.png">
 

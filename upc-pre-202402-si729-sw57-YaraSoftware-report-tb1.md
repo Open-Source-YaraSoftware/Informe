@@ -5098,17 +5098,7 @@ Se demuestra mediante una tabla los commits realizados para el sprint 2.
 | Open-Source-YaraSoftware / Web-application | feature/clients | c1f4d27d4584eed04bc2423e18c4c00bb36611fe | feat(workshop-client): add WorkshopClient entity and service | ... | 28/09/2024 |
 | Open-Source-YaraSoftware / Web-application | feature/clients | 2b8370f3a40ba801a65158e0b6990ccb62e4de98 | chore: update db.json | ... | 28/09/2024 |
 | Open-Source-YaraSoftware / Web-application | feature/clients | 366d06cec543fa8f1607fc4917e19b46ec872e30 | feat(workshop-client): display clients in table with filtering and sorting | ... | 28/09/2024 |
-| Open-Source-YaraSoftware / Web-application | feature/personnel detail | c1f4d27d4584eed04bc2423e18c4c00bb36611fe |  | ... | 27/09/2024 |
-
-
-
-| Open-Source-YaraSoftware / Web-application | feature/clients | c1f4d27d4584eed04bc2423e18c4c00bb36611fe |  | ... | 27/09/2024 |
-| Open-Source-YaraSoftware / Web-application | feature/clients | c1f4d27d4584eed04bc2423e18c4c00bb36611fe |  | ... | 27/09/2024 |
-| Open-Source-YaraSoftware / Web-application | feature/clients | c1f4d27d4584eed04bc2423e18c4c00bb36611fe |  | ... | 27/09/2024 |
-| Open-Source-YaraSoftware / Web-application | feature/clients | c1f4d27d4584eed04bc2423e18c4c00bb36611fe |  | ... | 27/09/2024 |
-
-
-| Open-Source-YaraSoftware / Web-application | feature/clients | c1f4d27d4584eed04bc2423e18c4c00bb36611fe |  | ... | 27/09/2024 |
+| Open-Source-YaraSoftware / Web-application | feature/personnel detail | c1f4d27d4584eed04bc2423e18c4c00bb36611fe |  | ... | 28/09/2024 |
 
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review
 

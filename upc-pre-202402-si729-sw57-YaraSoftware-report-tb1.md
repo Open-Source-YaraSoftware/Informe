@@ -5958,6 +5958,9 @@ Espera a que Railway complete la carga y construcción del proyecto. Una vez fin
 
 Al finalizar estos pasos, la URL de la web API estará lista para su uso y conexión con el frontend del proyecto. Es importante destacar que cualquier cambio que realices en la rama principal del repositorio de GitHub se reflejará automáticamente en el despliegue de la web API, lo cual permite mantener el proyecto actualizado sin necesidad de redesplegar manualmente.
 
+Enlace al Swagger
+[https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html/](https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html/)
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
 ## 5.3. Validation Interviews
@@ -5986,10 +5989,16 @@ Zippia. (2022). Mechanic demographics and statistics in the US. [https://www.zip
 
 # Anexos
 
-Video de entrevistas needfinding: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ES8DkIjICzxHuXzDnPTW-6wBRsy-hmMG7HxQOQzXi_SNUw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7n5NrB
+Enlace del video de entrevistas needfinding: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ES8DkIjICzxHuXzDnPTW-6wBRsy-hmMG7HxQOQzXi_SNUw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7n5NrB](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ES8DkIjICzxHuXzDnPTW-6wBRsy-hmMG7HxQOQzXi_SNUw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7n5NrB)
 
-Link video de exposición TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/EfpIw0O8nRRKrA5lHsKhF38BB3svbPoMRGD3otzwXkWVQw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CpvTvl
+Enlace del video de exposición TB1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/EfpIw0O8nRRKrA5lHsKhF38BB3svbPoMRGD3otzwXkWVQw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CpvTvl](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/EfpIw0O8nRRKrA5lHsKhF38BB3svbPoMRGD3otzwXkWVQw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CpvTvl)
 
-Link del video de exposicion TP: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317638_upc_edu_pe/EcldD9sbqhREjEKdnRwblBIBkWP5ea10KvFgO9Q2lkNBUw?e=M06edE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Enlace del video de exposicion TP: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317638_upc_edu_pe/EcldD9sbqhREjEKdnRwblBIBkWP5ea10KvFgO9Q2lkNBUw?e=M06edE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317638_upc_edu_pe/EcldD9sbqhREjEKdnRwblBIBkWP5ea10KvFgO9Q2lkNBUw?e=M06edE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-Link repositorio: https://github.com/Open-Source-YaraSoftware/Informe/tree/main
+Link repositorio: [https://github.com/Open-Source-YaraSoftware/Informe/tree/main](https://github.com/Open-Source-YaraSoftware/Informe/tree/main)
+
+Enlace a la landing page: [https://landing-page-workshop-n-gine.netlify.app/](https://landing-page-workshop-n-gine.netlify.app/)
+
+Enlace al Frontend:  [https://workshop-n-gine-frontend.netlify.app/](https://workshop-n-gine-frontend.netlify.app/)
+
+Swagger del backend: [https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html/](https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html/)

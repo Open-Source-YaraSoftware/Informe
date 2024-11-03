@@ -5908,6 +5908,9 @@ Para el sprint 3 se completaron historias de usuario relacionadas tanto al front
 #### Get en /api/v1/iot_devices
 <img src="img/5/2/3/6/get_iot_devices.png">
 
+### Task
+<img src="img/5/2/3/6/task.png">
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 Posterior al desarrollo completo del sprint 3, se procedió a utilizar Railway para el despliegue total del backend en la web.
@@ -5954,6 +5957,13 @@ Enlace al Swagger
 [https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html/](https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html/)
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
+#### Front End Insights
+<img src="img/5/2/1/8/TB2_FrontEnd.png">
+
+#### Back End Insights
+<img src="img/5/2/1/8/TB2_BackEnd.png">
+
+<div style="page-break-after: always;"></div>
 
 ## 5.3. Validation Interviews
 

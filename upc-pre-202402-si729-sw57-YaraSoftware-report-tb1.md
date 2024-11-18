@@ -4221,406 +4221,287 @@ El Container Diagram de Workshop N-GINE muestra los principales contenedores que
 ### 4.6.3. Software Architecture Components Diagrams
 Los diagramas de componentes proporcionan una representación clara y detallada de los diferentes bounded contexts que estructuran la aplicación Workshop N-GINE. A continuación se presenta una breve descripción de cada contexto y los principales componentes que lo constituyen:
 
-#### Customer Relationship Management Bounded Context
-Este diagrama representa el contexto de Customer Relationship Management (CRM) dentro de la aplicación Workshop N-GINE. En este contexto, se gestionan los aspectos relacionados con los clientes, incluyendo la creación, actualización y consulta de información de clientes y la administración de la relación entre los clientes y sus vehículos.
+#### Inventory management bounded context
+El diagrama de gestión de inventario muestra cómo una Single Page Application (SPA) interactúa con varios componentes para gestionar productos y solicitudes de inventario. Los controladores manejan las solicitudes API, mientras que los servicios de comando y consulta gestionan las operaciones de actualización y recuperación de datos. Los repositorios almacenan información en una base de datos central, lo que permite un flujo eficiente y directo de gestión de inventario y solicitudes.
+![inventoryManagement.png](img%2F4%2Fc4model%2FinventoryManagement.png)
+
+#### Service management bounded context
+El diagrama de contenedores ilustra la arquitectura de un sistema de gestión de servicios enfocado en la administración de intervenciones, vehículos y talleres mediante una Single Page Application (SPA). La SPA interactúa con varios controladores y servicios, organizados en consultas y comandos para manejar operaciones específicas de intervenciones, usuarios y datos de talleres. Los servicios externos gestionan la autenticación y perfilado de usuarios, mientras que los repositorios almacenan y recuperan datos esenciales en la base de datos, garantizando una arquitectura escalable y eficiente.
+![serviceManagement.png](img%2F4%2Fc4model%2FserviceManagement.png)
+
+#### Profile management bounded context
+El diagrama de gestión de perfiles muestra cómo una Single Page Application (SPA) interactúa con servicios para manejar roles, permisos y perfiles de usuario. Los controladores procesan solicitudes API relacionadas con la gestión de perfiles y roles, mientras que los servicios de comando realizan actualizaciones y sincronización con un sistema externo de IAM. Los servicios de consulta recuperan datos de perfiles y roles desde repositorios, los cuales almacenan esta información en una base de datos central. Todo el flujo asegura un manejo ordenado y preciso de datos de usuarios y permisos
+![profileManagement.png](img%2F4%2Fc4model%2FprofileManagement.png)
+
+#### Communication management bounded context
+El diagrama de gestión de comunicaciones muestra cómo una Single Page Application (SPA) se conecta a un controlador central para gestionar tareas de comunicación, como mensajes y notificaciones. Los servicios de comando manejan el envío y la actualización de mensajes, mientras que los servicios de consulta recuperan datos históricos y detalles de notificaciones. Los repositorios almacenan mensajes y datos de notificaciones en una base de datos, y los servicios externos (como Gmail y un SMS Gateway) se integran para enviar correos electrónicos y mensajes SMS, asegurando una comunicación eficiente y estructurada.
+![communication management.png](img%2F4%2Fc4model%2Fcommunication%20management.png)
+
+#### Subscription management bounded context
+El diagrama de gestión de suscripciones muestra cómo una Single Page Application (SPA) interactúa con controladores para manejar suscripciones y planes. Los controladores procesan solicitudes API para gestionar operaciones de suscripción y facturación. Los servicios de comando realizan acciones como la creación y actualización de suscripciones y planes, mientras que los servicios de consulta recuperan información relevante. Los datos se almacenan en repositorios conectados a una base de datos central, y el servicio de notificaciones envía correos electrónicos mediante Gmail para mantener a los usuarios informados sobre los cambios en sus suscripciones.
+![subscriptionManagement.png](img%2F4%2Fc4model%2FsubscriptionManagement.png)
+
+#### Billing management bounded context
+El diagrama de gestión de facturación muestra cómo una Single Page Application (SPA) se comunica con un controlador de facturación para gestionar la generación de facturas y el procesamiento de pagos. Los servicios de consulta y comando manejan la recuperación de datos y las actualizaciones para facturas y pagos. Los repositorios almacenan datos relacionados con facturas y pagos en una base de datos central. El servicio de notificaciones envía recordatorios y actualizaciones de facturación a los clientes a través de Gmail, mientras que un gateway de pago externo procesa los pagos de forma segura.## 4.7. Software Object-Oriented Design
+
+![billingManagement.png](img%2F4%2Fc4model%2FbillingManagement.png)
+
+#### Device management bounded context
+El diagrama de gestión de dispositivos describe cómo una Single Page Application (SPA) interactúa con un controlador para gestionar dispositivos y diagnósticos. Los servicios de comando y consulta se encargan de las operaciones de escritura y lectura de datos de los dispositivos, que se almacenan en un repositorio conectado a una base de datos. La fachada de gestión de dispositivos expone datos relevantes a otros contextos, mientras que el servicio de gestión de códigos procesa códigos y datos diagnósticos obtenidos de dispositivos IoT OBD integrados en vehículos. Esto permite una gestión eficiente de los dispositivos y la interpretación de información de diagnóstico en tiempo real.
 <br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/c4model/structurizr-crm.png" width="1000px">
-</div>
+![deviceManagement.png](img%2F4%2Fc4model%2FdeviceManagement.png)
 
 #### Identity and Access Management Bounded Context
 Este diagrama representa el contexto de Identity and Access Management (IAM) dentro de la aplicación Workshop N-GINE, encargado de la autenticación, gestión de usuarios y control de roles. Su propósito es garantizar un acceso seguro y controlado a los recursos del sistema mediante la gestión de usuarios y sus respectivas autorizaciones.
 <br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/c4model/structurizr-iam.png" width="1000px">
-</div>
+![structurizr-iam.png](img%2F4%2Fc4model%2Fstructurizr-iam.png)
 
-#### Service Management Bounded Context
-El Service Management controla la planificación y ejecución de intervenciones en el taller. Los controladores de operaciones gestionan las intervenciones, y el manejador de comandos asigna tareas a mecánicos. La integración con IoT permite monitorear vehículos en tiempo real.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/c4model/structurizr-service-management.png" width="1000px">
-</div>
-
-#### Comunication Management Bounded Context
-Este diagrama ilustra la comunicación de la SPA con el Communication Controller, que maneja notificaciones internas y mensajes. El Notification Manager gestiona las alertas, mientras que el Message Command Handler se encarga del envío de mensajes externos a través del Messaging Facade. Todo se registra en el Notification Repository.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/c4model/structurizr-comunication-management.png" width="1000px">
-</div>
-
-#### Analytics Bounded context 
-El diagrama muestra cómo la SPA interactúa con el Analytics Controller, que coordina la recolección de métricas, manejo de datos históricos, generación de reportes y visualización de datos. Todos los datos analíticos se almacenan en el Analytics Repository, conectado a la base de datos.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/c4model/structurizr-analytics.png" width="1000px">
-</div>
 
 ## 4.7. Software Object-Oriented Design
 En esta sección se describen los Diagramas de Clases, que representan la estructura del sistema, y el Diccionario de Clases, que documenta los atributos y métodos de cada clase utilizada.
 
 ### 4.7.1. Class Diagrams
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/classDiagram/classDiagram.png" width="1000px">
-</div>
+![class-diagram.png](img%2F4%2FclassDiagram%2Fclass-diagram.png)
 
 ### 4.7.2. Class Dictionary
-***Enum: RequestStatus***
+`Identity and Access Management`
 
-Enum auxiliar para representar los posibles estados de una solicitud de inventario
+**Class User**
 
-| Valor | Descripción |
-|------------|------------------------------------------|
-| Pending | La solicitud está pendiente. |
-| Approved | La solicitud ha sido aprobada. |
-| Fulfilled | La solicitud ha sido cumplida. |
-| Rejected | La solicitud ha sido rechazada. |
+Esta clase representa un aggregate root que encapsula la información de un usuario en el sistema. Contiene atributos como id, username, password, state, role y workshopId.
 
-***Enum: Availability***
+| Attribute  | Type          | Description                                                 |
+|------------|---------------|-------------------------------------------------------------|
+| id         | int           | Unique identifier for the user                              |
+| username   | string        | Username for the user account                               |
+| password   | string        | Password for the user account                               |
+| state      | AccountStatus | Status of the user account (e.g., active, inactive, hidden) |
+| role       | Role          | Role assigned to the user                                   |
+| workshopId | Long          | Identifier for the workshop associated with the user        |
 
-Enum auxiliar para representar la disponibilidad de un mecánico
+**Class Role**
 
-| Valor | Descripción |
-| - | - |
-| Available | El mecánico está disponible para trabajar. |
-| Busy | El mecánico está ocupado con otros trabajos. |
-| NotAvailable | El mecánico no está disponible. |
+Esta clase representa una entity que define los roles disponibles en el sistema. Contiene atributos como id y name.
 
-***Enum: UserRole***
+| Attribute | Type   | Description                    |
+|-----------|--------|--------------------------------|
+| id        | Long   | Unique identifier for the role |
+| name      | String | Name of the role               |
 
-Enum auxiliar para representar los distintos tipos de usuarios
+`Profile Management`
 
-| Valor | Descripción |
-| - | - |
-| Mechanic | Usuario que trabaja como mecánico. |
-| Customer | Usuario que es cliente del taller. |
-| WorkshopOwner | Usuario que es propietario del taller. |
+**Class Profile**
 
-***Enum: TaskState***
+Esta clase representa un aggregate root que encapsula la información de un perfil de usuario. Contiene atributos como id, firstName, lastName, dni, email, age, location y userId.
 
-Enum auxiliar para representar el estado de una tarea de una intervención
+| Attribute | Type    | Description                       |
+|-----------|---------|-----------------------------------|
+| id        | Long    | Unique identifier for the profile |
+| firstName | string  | First name of the user            |
+| lastName  | string  | Last name of the user             |
+| dni       | Number  | Identification number of the user |
+| email     | string  | Email address of the user         |
+| age       | Integer | Age of the user                   |
+| location  | String  | Location of the user              |
+| userId    | Long    | Identifier of the associated user |
 
-| Valor | Descripción |
-| - | - |
-| NotStarted | La tarea no ha comenzado. |
-| InProgress | La tarea está en progreso. |
-| Completed | La tarea ha sido completada. |
-| OnHold | La tarea está en espera. |
-| Cancelled | La tarea ha sido cancelada. |
+`Service Management`
+
+**Class Workshop**
+
+Esta clase representa un aggregate root que encapsula la información de un taller. Contiene atributos como id y name.
+
+| Attribute | Type   | Description                        |
+|-----------|--------|------------------------------------|
+| id        | Long   | Unique identifier for the workshop |
+| name      | String | Name of the workshop               |
+
+**Class Vehicle**
+
+Esta clase representa un aggregate root que encapsula la información de un vehículo. Contiene atributos como id, licensePlate, brand, model, image, userId y iotDeviceId.
+
+| Attribute    | Type   | Description                                               |
+|--------------|--------|-----------------------------------------------------------|
+| id           | Long   | Unique identifier for the vehicle                         |
+| licensePlate | String | License plate of the vehicle                              |
+| brand        | String | Brand of the vehicle                                      |
+| model        | String | Model of the vehicle                                      |
+| image        | String | Image URL of the vehicle                                  |
+| userId       | long   | Identifier of the user who owns the vehicle               |
+| iotDeviceId  | Long   | Identifier for the IoT device associated with the vehicle |
+
+**Class Intervention**
+
+Esta clase representa un aggregate root que encapsula la información de una intervención. Contiene atributos como id, workshopId, mechanicLeaderId, vehicleId, scheduledAt, startedAt, completedAt, type, status, taskList y description.
+
+| Attribute        | Type                 | Description                                                 |
+|------------------|----------------------|-------------------------------------------------------------|
+| id               | Long                 | Unique identifier for the intervention                      |
+| workshopId       | Long                 | Identifier of the workshop associated with the intervention |
+| mechanicLeaderId | Long                 | Identifier of the mechanic leader for the intervention      |
+| vehicleId        | Long                 | Identifier of the vehicle for the intervention              |
+| scheduledAt      | LocalDateTime        | Scheduled date and time for the intervention                |
+| startedAt        | LocalDateTime        | Start date and time of the intervention                     |
+| completedAt      | LocalDateTime        | Completion date and time of the intervention                |
+| type             | InterventionType     | Type of intervention (e.g., reparation, maintenance)        |
+| status           | InterventionStatuses | Current status of the intervention                          |
+| taskList         | List<Task>           | List of tasks associated with the intervention              |
+| description      | String               | Description of the intervention                             |
+
+**Class Task**
+
+Esta clase representa una entity que encapsula la información de una tarea. Contiene atributos como id, mechanicAssignedId, intervention, tracking, state y description.
+
+| Attribute          | Type             | Description                                                  |
+|--------------------|------------------|--------------------------------------------------------------|
+| id                 | Long             | Unique identifier for the task                               |
+| mechanicAssignedId | Long             | Identifier of the mechanic assigned to the task              |
+| intervention       | Intervention     | Intervention associated with the task                        |
+| tracking           | List<Checkpoint> | List of checkpoints tracking the task                        |
+| state              | TaskState        | Current state of the task (e.g., pending, in progress, done) |
+| description        | String           | Description of the task                                      |
+
+**Class Checkpoint**
+
+Esta clase representa una entity que encapsula la información de un checkpoint. Contiene atributos como id, name y task.
+
+| Attribute | Type   | Description                          |
+|-----------|--------|--------------------------------------|
+| id        | Long   | Unique identifier for the checkpoint |
+| name      | String | Name of the checkpoint               |
+| task      | Task   | Task associated with the checkpoint  |
+
+`Inventory Management`
+
+**Class Product**
+
+Esta clase representa un aggregate root que encapsula la información de un producto en el inventario. Contiene atributos como id, name, description, stockQuantity, lowStockThreshold y workshopId.
+
+| Attribute         | Type    | Description                                      |
+|-------------------|---------|--------------------------------------------------|
+| id                | Long    | Unique identifier for the product                |
+| name              | String  | Name of the product                              |
+| description       | String  | Description of the product                       |
+| stockQuantity     | Integer | Current stock quantity of the product            |
+| lowStockThreshold | Integer | Threshold quantity to trigger low stock alerts   |
+| workshopId        | Long    | Identifier of the workshop that owns the product |
+
+**Class ProductRequest**
+
+Esta clase representa un aggregate root que encapsula la información de una solicitud de producto. Contiene atributos como id, requestedQuantity, taskId, productId, workshopId y status.
+
+| Attribute         | Type                   | Description                                                       |
+|-------------------|------------------------|-------------------------------------------------------------------|
+| id                | Long                   | Unique identifier for the product request                         |
+| requestedQuantity | Integer                | Quantity of the product requested                                 |
+| taskId            | Long                   | Identifier of the task associated with the product request        |
+| productId         | Long                   | Identifier of the requested product                               |
+| workshopId        | Long                   | Identifier of the workshop making the request                     |
+| status            | ProductRequestStatuses | Status of the product request (e.g., pending, accepted, rejected) |
+
+`Device Management`
+
+**Class IoTDevice**
+
+Esta clase representa un aggregate root que encapsula la información de un dispositivo IoT. Contiene atributos como id, codeList, vehicleId.
+
+| Attribute | Type       | Description                                        |
+|-----------|------------|----------------------------------------------------|
+| id        | Long       | Unique identifier for the IoT device               |
+| codeList  | List<Code> | List of codes associated with the IoT device       |
+| vehicleId | Long       | Identifier of the vehicle linked to the IoT device |
+
+**Class Code**
+
+Esta clase representa una entity que encapsula la información de un código generado por un dispositivo IoT. Contiene atributos como id, component, errorCode, description, lastUpdated, iot, state.
+
+| Attribute   | Type      | Description                             |
+|-------------|-----------|-----------------------------------------|
+| id          | int       | Unique identifier for the code          |
+| component   | string    | Component name associated with the code |
+| errorCode   | string    | Error code generated by the IoT device  |
+| description | string    | Description of the error or code        |
+| lastUpdated | Date      | Date when the code was last updated     |
+| iot         | IoT       | IoT device associated with the code     |
+| state       | CodeState | State of the code (e.g., failed, good)  |
+
+`Communication Management`
+
+**Class Notification**
+
+Esta clase representa un aggregate root que encapsula la información de una notificación. Contiene atributos como id, date, content, userId, state, endpoint.
+
+| Attribute | Type              | Description                                             |
+|-----------|-------------------|---------------------------------------------------------|
+| id        | int               | Unique identifier for the notification                  |
+| date      | datetime          | Date and time when the notification was created         |
+| content   | string            | Content of the notification                             |
+| userId    | Long              | Identifier of the user associated with the notification |
+| state     | NotificationState | State of the notification (e.g., read, unread)          |
+| endpoint  | string            | Endpoint URL related to the notification                |
 
 
-***User***
-Clase interface que modela a cualquier usuario de la aplicación, sea cliente, mecánico o dueño de taller.
-**Atributos**
+`Subscription Management`
 
-|Atributo|Tipo|Descripción|
-|-|-|-|
-|id|int|Identificador único del usuario.|
-|username|string|Nombre de usuario del usuario.|
-|password|string|Contraseña del usuario (almacenada de forma segura).|
-|firstName|string|Nombre de pila del usuario.|
-|lastName|string|Apellido del usuario.|
-|email|string|Dirección de correo electrónico del usuario.|
-|role|UserRole|Rol del usuario en el sistema (p.ej., Administrador, Mecánico).|
-|lastLogin|Date|Fecha y hora del último inicio de sesión del usuario.|
+**Class SubscriptionItem**
 
-**Métodos**
+Esta clase representa un aggregate root que encapsula la información de un ítem de suscripción. Contiene atributos como id, workshopId, userId, planId, status, startedAt, endedAt, cancelledAt, isTrial, trialEndsAt.
 
-|Método|Tipo|Descripción|
-|-|-|-|
-|updateProfile(firstName:string,lastName:string,email:string)|void|Actualiza el perfil del usuario con el nuevo nombre, apellido y correo electrónico.|
-|changePassword(newPassword:string)|void|Cambia la contraseña del usuario.|
-|login(username:string,password:string)|boolean|Autentica al usuario con el nombre de usuario y la contraseña proporcionados.|
-|logout()|void|Cierra la sesión del usuario actual.|
-|getRole()|UserRole|Obtiene el rol del usuario en el sistema.|
-|setRole(role:UserRole)|void|Asigna un nuevo rol al usuario.|
-|getLastLogin()|Date|Obtiene la fecha y hora del último inicio de sesión del usuario.|
-|getProfile()|UserProfile|Obtiene el perfil completo del usuario, incluyendo nombre, apellido, correo electrónico, y rol.|
+| Attribute   | Type               | Description                                                                               |
+|-------------|--------------------|-------------------------------------------------------------------------------------------|
+| id          | Long               | Unique identifier for the subscription item                                               |
+| workshopId  | Long               | Identifier of the workshop associated with the subscription                               |
+| userId      | Long               | Identifier of the user who owns the subscription                                          |
+| planId      | Long               | Identifier of the associated plan                                                         |
+| status      | SubscriptionStatus | Current status of the subscription (e.g., pending activation, active, cancelled, expired) |
+| startedAt   | LocalDateTime      | Date and time when the subscription started                                               |
+| endedAt     | LocalDateTime      | Date and time when the subscription ended                                                 |
+| cancelledAt | LocalDateTime      | Date and time when the subscription was cancelled                                         |
+| isTrial     | Boolean            | Indicates if the subscription is a trial                                                  |
+| trialEndsAt | LocalDateTime      | Date and time when the trial period ends                                                  |
 
-***Customer***
-Representa a los clientes del sistema, quienes pueden tener múltiples vehículos registrados y realizar solicitudes de servicio.
+**Class Plan**
 
-**Atributos**
-|Atributo|Tipo|Descripción|
-|-|-|-|
-|id|int|Identificador único del cliente.|
-|username|string|Nombre de usuario del cliente.|
-|password|string|Contraseña del cliente (almacenada de forma segura).|
-|firstName|string|Nombre de pila del cliente.|
-|lastName|string|Apellido del cliente.|
-|email|string|Dirección de correo electrónico del cliente.|
-|phoneNumber|string|Número de teléfono del cliente.|
-|address|string|Dirección de residencia del cliente.|
-|vehicles|List<Vehicle>|Lista de vehículos asociados al cliente.|
+Esta clase representa una entity que encapsula la información de un plan de suscripción. Contiene atributos como id, price, durationInMonths, type, cycle, maxMechanics, maxClients, maxActiveInterventions, maxItems, metricsAvailable.
 
-**Métodos**
-|Método|Tipo|Descripción|
-|-|-|-|
-|updateContactInfo(email:string,phoneNumber:string)|void|Actualiza la información de contacto del cliente, incluyendo correo electrónico y número de teléfono.|
-|addVehicle(vehicle:Vehicle)|void|Agrega un vehículo a la lista de vehículos del cliente.|
-|removeVehicle(vehicleId:int)|void|Elimina un vehículo de la lista de vehículos del cliente usando el identificador del vehículo.|
-|getVehicles()|List<Vehicle>|Obtiene la lista de vehículos asociados al cliente.|
-|getFullName()|string|Obtiene el nombre completo del cliente, combinando el nombre y apellido.|
-|getAddress()|string|Obtiene la dirección de residencia del cliente.|
-|getContactInfo()|string|Obtiene la información de contacto del cliente, incluyendo correo electrónico y número de teléfono.|
-|login(username:string,password:string)|boolean|Autentica al cliente con el nombre de usuario y la contraseña proporcionados.|
-|logout()|void|Cierra la sesión del cliente actual.|
-|getRole()|UserRole|Obtiene el rol del cliente en el sistema (p.ej., Cliente).|
-|setRole(role:UserRole)|void|Asigna un nuevo rol al cliente (si aplica).|
-|getLastLogin()|Date|Obtiene la fecha y hora del último inicio de sesión del cliente.|
-|getProfile()|UserProfile|Obtiene el perfil completo del cliente, incluyendo nombre, apellido, correo electrónico, y más.|
+| Attribute              | Type         | Description                                       |
+|------------------------|--------------|---------------------------------------------------|
+| id                     | Long         | Unique identifier for the plan                    |
+| price                  | Decimal      | Price of the plan                                 |
+| durationInMonths       | Integer      | Duration of the plan in months                    |
+| type                   | PlanType     | Type of the plan (e.g., basic, standard, premium) |
+| cycle                  | BillingCycle | Billing cycle of the plan (e.g., monthly, annual) |
+| maxMechanics           | Integer      | Maximum number of mechanics allowed               |
+| maxClients             | Integer      | Maximum number of clients allowed                 |
+| maxActiveInterventions | Integer      | Maximum number of active interventions allowed    |
+| maxItems               | Integer      | Maximum number of items allowed in inventory      |
+| metricsAvailable       | Boolean      | Indicates if metrics are available with the plan  |
 
-***Mechanic***
-Representa a los mecánicos del sistema, quienes realizan las intervenciones y tareas asignadas en el taller.
 
-**Atributos**
-|Atributo|Tipo|Descripción|
-|-|-|-|
-|id|int|Identificador único del mecánico.|
-|username|string|Nombre de usuario del mecánico.|
-|password|string|Contraseña del mecánico (almacenada de forma segura).|
-|firstName|string|Nombre de pila del mecánico.|
-|lastName|string|Apellido del mecánico.|
-|email|string|Dirección de correo electrónico del mecánico.|
-|phoneNumber|string|Número de teléfono del mecánico.|
-|availability|Availability|Estado de disponibilidad del mecánico (p.ej., Disponible, Ocupado).|
-|assignedInterventions|List<Intervention>|Lista de intervenciones asignadas al mecánico.|
-|assignedTasks|List<Task>|Lista de tareas asignadas al mecánico.|
-|skills|List<string>|Lista de habilidades o especialidades del mecánico.|
+`Billing Management`
 
-**Métodos**
-|Método|Tipo|Descripción|
-|-|-|-|
-|assignInterventions(interventions:List<Intervention>)|void|Asigna una lista de intervenciones al mecánico.|
-|assignTasks(tasks:List<Task>)|void|Asigna una lista de tareas al mecánico.|
-|updateAvailability(newAvailability:Availability)|void|Actualiza el estado de disponibilidad del mecánico.|
-|completeIntervention(intervention:Intervention)|void|Marca una intervención como completada por el mecánico.|
-|getPendingInterventions()|List<Intervention>|Obtiene la lista de intervenciones pendientes para el mecánico.|
-|getInterventionHistory()|List<Intervention>|Obtiene el historial de intervenciones realizadas por el mecánico.|
-|completeTask(task:Task)|void|Marca una tarea específica como completada.|
-|getPendingTasks()|List<Task>|Obtiene la lista de tareas pendientes para el mecánico.|
-|getTaskHistory()|List<Task>|Obtiene el historial de tareas realizadas por el mecánico.|
-|getSkills()|List<string>|Obtiene la lista de habilidades o especialidades del mecánico.|
-|getProfile()|UserProfile|Obtiene el perfil completo del mecánico, incluyendo nombre, apellido, correo electrónico, y más.|
+**Class Invoice**
 
-***WorkshopOwner***
-Representa a los propietarios de talleres, quienes gestionan los diferentes talleres en el sistema.
+Esta clase representa un aggregate root que encapsula la información de una factura. Contiene atributos como id, subscriptionId, workshopId, planId, amount, status, issueDate, dueDate, paymentDate.
 
-**Atributos**
-|Atributo|Tipo|Descripción|
-|-|-|-|
-|id|int|Identificador único del propietario del taller.|
-|username|string|Nombre de usuario del propietario del taller.|
-|password|string|Contraseña del propietario (almacenada de forma segura).|
-|firstName|string|Nombre de pila del propietario.|
-|lastName|string|Apellido del propietario.|
-|email|string|Dirección de correo electrónico del propietario.|
-|phoneNumber|string|Número de teléfono del propietario.|
-|address|string|Dirección de residencia del propietario.|
-|workshops|List<Workshop>|Lista de talleres que el propietario gestiona.|
-
-**Métodos**
-|Método|Tipo|Descripción|
-|-|-|-|
-|updateContactInfo(email:string,phoneNumber:string)|void|Actualiza la información de contacto del propietario, incluyendo correo electrónico y número de teléfono.|
-|addWorkshop(workshop:Workshop)|void|Agrega un taller a la lista de talleres gestionados por el propietario.|
-|removeWorkshop(workshopId:int)|void|Elimina un taller de la lista de talleres gestionados por el propietario usando el identificador del taller.|
-|getWorkshops()|List<Workshop>|Obtiene la lista de talleres gestionados por el propietario.|
-|getFullName()|string|Obtiene el nombre completo del propietario, combinando el nombre y apellido.|
-|getAddress()|string|Obtiene la dirección de residencia del propietario.|
-|getContactInfo()|string|Obtiene la información de contacto del propietario, incluyendo correo electrónico y número de teléfono.|
-|login(username:string,password:string)|boolean|Autentica al propietario con el nombre de usuario y la contraseña proporcionados.|
-|logout()|void|Cierra la sesión del propietario actual.|
-|getRole()|UserRole|Obtiene el rol del propietario en el sistema (p.ej., Propietario de Taller).|
-|setRole(role:UserRole)|void|Asigna un nuevo rol al propietario (si aplica).|
-|getLastLogin()|Date|Obtiene la fecha y hora del último inicio de sesión del propietario.|
-|getProfile()|UserProfile|Obtiene el perfil completo del propietario, incluyendo nombre, apellido, correo electrónico, y más.|
-
-***Vehicle***
-Representa los vehículos a los cuales se realizan las intervenciones.
-**Atributos**
-| Atributo | Tipo | Descripcion |
-| - | - | - |
-| id | int | Identificador único. Se utiliza para distinguir de manera inequívoca a cada vehículo en el sistema |
-| licensePlate | string | Matricula del vehículo. Se utiliza para distinguir al vehículo en filtrados |
-| brand | string | Marca del vehículo. Se utiliza para distinguir al vehículo en filtrados |
-| model | string | Modelo del vehículo. Se utiliza para distinguir al vehículo en filtrados |
-| scanList | List<Scan> | Lista de scaneos realizados al vehículo. Cada scaneo contiene dentro suyo una lista de Code. |
-| owner | WorkshopCustomer | Dueño del vehículo. Se utiliza para distinguir al vehículo en filtrados. |
-**Métodos**
-| Método | Tipo | Descripción |
-| - | - | - |
-| addScan() | Scan |  | Obtiene un Scan que posteriormente sera ingresado dentro scanList.
-| getVehicleRecord() | List<Interventions> | Obtiene una lista de Interventions. Se utiliza para los registros de vehículos. | 
-
-***Workshop***
-Representa el taller mecánico.
-
-**Atributos**
-|Atributo|Tipo|Descripción|
-|-|-|-|
-|id|int|Identificador único del taller.|
-|name|string|Nombre del taller.|
-|location|string|Dirección o ubicación del taller.|
-|contactNumber|string|Número de teléfono de contacto del taller.|
-|owner|WorkshopOwner|Propietario del taller.|
-|mechanics|List<Mechanic>|Lista de mecánicos que trabajan en el taller.|
-|services|List<Service>|Lista de servicios ofrecidos en el taller.|
-|workingHours|string|Horario de funcionamiento del taller.|
-
-**Métodos**
-|Método|Tipo|Descripción|
-|-|-|-|
-|updateContactInfo(contactNumber:string)|void|Actualiza el número de teléfono de contacto del taller.|
-|addMechanic(mechanic:Mechanic)|void|Agrega un mecánico a la lista de mecánicos del taller.|
-|removeMechanic(mechanicId:int)|void|Elimina un mecánico de la lista de mecánicos del taller usando el identificador del mecánico.|
-|addService(service:Service)|void|Agrega un nuevo servicio a la lista de servicios ofrecidos por el taller.|
-|removeService(serviceId:int)|void|Elimina un servicio de la lista de servicios ofrecidos por el taller usando el identificador del servicio.|
-|getMechanics()|List<Mechanic>|Obtiene la lista de mecánicos que trabajan en el taller.|
-|getServices()|List<Service>|Obtiene la lista de servicios ofrecidos por el taller.|
-|getOwner()|WorkshopOwner|Obtiene el propietario del taller.|
-|getLocation()|string|Obtiene la dirección o ubicación del taller.|
-|getContactNumber()|string|Obtiene el número de teléfono de contacto del taller.|
-
-***InventoryItem***
-Representa los items que se almacenan en el taller y son gestionados por el inventario
-**Atributos**
-| Atributo | Tipo | Descripción |
-| - | - | - |
-| id | int | Identificador único del artículo en inventario. |
-| name | string | Nombre del artículo en inventario. |
-| description | string | Descripción detallada del artículo. |
-| quantity | int | Cantidad disponible del artículo en inventario. |
-| unitPrice | decimal | Precio unitario del artículo. |
-| category | string | Categoría a la que pertenece el artículo. |
-| supplier | string | Proveedor del artículo. |
-| reorderLevel | int | Nivel mínimo de existencias para reordenar. |
-| lastUpdated | Date | Fecha de la última actualización del inventario. |
-**Métodos**
-| Método | Tipo | Descripción |
-| - | - | - |
-| updateQuantity(newQuantity: int) | void | Actualiza la cantidad disponible del artículo en inventario. |
-| updatePrice(newPrice: decimal) | void | Actualiza el precio unitario del artículo en inventario. |
-| reorder() | void | Realiza el proceso de reordenar el artículo si la cantidad está por debajo del nivel de reorden. |
-| getDetails() | InventoryItemDetails | Obtiene los detalles completos del artículo en inventario, incluyendo nombre, descripción, cantidad, y más. |
-| getCategory() | string | Obtiene la categoría del artículo en inventario. |
-| getSupplier() | string | Obtiene el proveedor del artículo en inventario. |
-| getLastUpdated() | Date | Obtiene la fecha de la última actualización del inventario. |
-
-***ItemRequest***
-Representación de las solicitudes que realizan los mecánicos al inventario para realizar una tarea.
-
-**Atributos**
-|Atributo|Tipo|Descripción|
-|-|-|-|
-|id|int|Identificador único de la solicitud de material.|
-|requestDate|Date|Fecha en la que se realizó la solicitud.|
-|requiredByDate|Date|Fecha límite para recibir los materiales solicitados.|
-|status|RequestStatus|Estado actual de la solicitud (p.ej., Pendiente, Completado).|
-|items|List<InventoryItem>|Lista de artículos solicitados en la solicitud.|
-|totalCost|decimal|Costo total estimado de los artículos solicitados.|
-|requester|Mechanic|Mecánico o empleado que realizó la solicitud.|
-
-**Métodos**
-|Método|Tipo|Descripción|
-|-|-|-|
-|addItem(item:InventoryItem,quantity:int)|void|Agrega un artículo a la solicitud, especificando la cantidad necesaria.|
-|removeItem(itemId:int)|void|Elimina un artículo de la solicitud usando el identificador del artículo.|
-|updateStatus(newStatus:RequestStatus)|void|Actualiza el estado de la solicitud (p.ej., Pendiente, Completado).|
-|calculateTotalCost()|decimal|Calcula el costo total estimado de los artículos solicitados.|
-|getRequestDetails()|ItemRequestDetails|Obtiene los detalles completos de la solicitud, incluyendo artículos, fechas, estado y más.|
-|getItems()|List<InventoryItem>|Obtiene la lista de artículos solicitados en la solicitud.|
-|getStatus()|RequestStatus|Obtiene el estado actual de la solicitud.|
-|getTotalCost()|decimal|Obtiene el costo total estimado de los artículos solicitados.|
-|getRequester()|Mechanic|Obtiene el mecánico o empleado que realizó la solicitud.| 
-
-***Task***
-Representa a las tareas que los mecánicos deben realizar dentro de una intervención.
-
-**Atributos**
-|Atributo|Tipo|Descripción|
-|-|-|-|
-|id|int|Identificador único de la tarea. Se utiliza para distinguir cada tarea en el sistema.|
-|assistant|Mechanic|Mecánico asistente que está colaborando en la tarea.|
-|intervention|Interventions|Intervención a la que está asociada la tarea. Cada tarea está relacionada con una intervención específica.|
-|requestList|List<ItemRequest>|Lista de solicitudes de ítems necesarios para completar la tarea.|
-|state|TaskState|Estado actual de la tarea. Indica en qué fase se encuentra, por ejemplo, en progreso o completada.|
-
-**Métodos**
-|Método|Tipo|Descripción|
-|-|-|-|
-|updateTaskState(state:TaskState)|void|Actualiza el estado de la tarea según el nuevo estado proporcionado.|
-|getTaskDetails()|string|Obtiene los detalles de la tarea, incluyendo información clave sobre la intervención, el mecánico y las solicitudes.| 
-
-***Intervention***
-Representa a las intervenciones, que son el conjunto de actividades a realizar en el taller.
-**Atributos**
-| Atributo | Tipo | Descripcion |
-| - | - | - |
-| id | int | Identificador único de la intervención. |
-| leadMechanic | Mechanic | Mecánico principal o encargado de la intervención. |
-| vehicle | Vehicle | Vehículo asociado con la intervención. |
-| customer | Customer | Cliente que solicita la intervención. |
-| status | InterventionStatus | Estado actual de la intervención. |
-| registrationDate | Date | Fecha en la que se registró la intervención. |
-| acceptanceDate | Date | Fecha en la que se aceptó la intervención. |
-| completionDate | Date | Fecha en la que se completó la intervención. |
-| taskList | List<Task> |  Lista de tareas asociadas a la intervención. | 
-
-***Scan***
-Representa los escaneos realizados a un vehículo.
-
-**Atributos**
-| Atributo | Tipo | Descripcion |
-| - | - | - |
-| id | int | Identificador único. Se utiliza para distinguir de manera inequívoca a escaneo en el sistema |
-| scanDate | date | Fecha del escaneo realizado al vehículo. Se utiliza para distinguir al Scan en los filtrados. |
-| codeList | List<Code> | Lista de Code. Se utiliza para almacenar los Code respectivos de cada escaneo. Posteriormente se utilizaran para mostrarlo al usuario. |
-**Métodos**
-| Método | Tipo | Descripción |
-| - | - | - |
-| scanVehicle() | List<Code> | Obtiene una lista de Code. Se utiliza para insertar información en codeList |
-
-***Code***
-Representa los escaneos realizados a un vehículo.
-
-**Atributos**
-| Atributo | Tipo | Descripcion |
-| - | - | - |
-| id | int | Identificador único. Se utiliza para distinguir de manera inequívoca a escaneo en el sistema |
-| code | string| Código DTC del error. Se utiliza para informar al usuario fallas del vehículo |
-| Description | string | Descripción del código. Se utiliza para detallar los códigos de error. | 
-
-***Date***
-Representa la fecha y hora exacta hasta los segundos de algún evento.
-
-**Atributos**
-
-| Atributo | Tipo | Descripción |
-|----------|------|-------------|
-| year     | int  | El año de la fecha. |
-| month    | int  | El mes de la fecha (1 a 12). |
-| day      | int  | El día del mes (1 a 31). |
-| hour     | int  | La hora del día (0 a 23). |
-| minute   | int  | El minuto de la hora (0 a 59). |
-| second   | int  | El segundo del minuto (0 a 59). |
-
-**Métodos**
-
-| Método | Tipo | Descripción |
-| - | - | - |
-| toString() | string | Devuelve la fecha en formato de cadena (ej. YYYY-MM-DD). |
-| compareTo(otherDate: Date) | int  | Compara la fecha actual con otra fecha; devuelve un número negativo, cero o positivo según si la fecha es anterior, igual o posterior. |
+| Attribute      | Type          | Description                                                   |
+|----------------|---------------|---------------------------------------------------------------|
+| id             | Long          | Unique identifier for the invoice                             |
+| subscriptionId | Long          | Identifier of the associated subscription                     |
+| workshopId     | Long          | Identifier of the workshop linked to the invoice              |
+| planId         | Long          | Identifier of the plan related to the invoice                 |
+| amount         | Integer       | Amount to be paid in the invoice                              |
+| status         | InvoiceStatus | Current status of the invoice (e.g., pending, paid, rejected) |
+| issueDate      | LocalDateTime | Date and time when the invoice was issued                     |
+| dueDate        | LocalDateTime | Date and time when the invoice is due                         |
+| paymentDate    | LocalDateTime | Date and time when the invoice was paid                       |
 
 ## 4.8. Database Design
 
 Para el proyecto Workshop N-GINE se ha seleccionado el motor de base de datos MySQL debido a su escalabilidad y su interfaz intuitiva, lo cual facilita su uso. Esta elección se basa en la experiencia del equipo con motores de bases de datos similares, como Microsoft SQL Server, lo que asegura una transición fluida. MySQL ofrece la capacidad de expandir los recursos de la base de datos conforme el taller crezca permitiendo que el sistema maneje eficientemente mayores volúmenes de datos y las necesidades crecientes del negocio.
 
 ### 4.8.1. Database Diagram
-
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/databaseDiagram/databaseDiagram.png" width="1000px">
-</div>
+![database-diagram.png](img%2F4%2FdatabaseDiagram%2Fdatabase-diagram.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
@@ -4700,6 +4581,8 @@ En el proyecto **Workshop N-GINE** se adoptará el modelo **Git Flow**, implemen
 - **[Organización Workshop N-GINE en GitHub](https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-FrontEnd)**.
 - **[Repositorio de la Landing Page](https://github.com/Open-Source-YaraSoftware/Landing-page)**.
 - **[Repositorio del Informe](https://github.com/Web-Application-YaraSoftware/Informe)**.
+- **[Repositorio del FrontEnd](https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-FrontEnd)**.
+- **[Repositorio del BackEnd](https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform)**.
 
 ### Flujo de Trabajo Git Flow
 
@@ -4830,6 +4713,45 @@ Para el despliegue eficiente del proyecto de la **Landing Page**, es imprescindi
 Con este procedimiento, la página desplegada quedará vinculada y autorizada con el repositorio de la organización. Cada vez que se realice un commit en la rama correspondiente, la **Landing Page** se actualizará automáticamente, eliminando la necesidad de repetir los pasos de despliegue previos.
 
 **[Enlace para acceder a la Landing Page](https://landing-page-workshop-n-gine.netlify.app/#learn-more)**.
+
+**Frontend Web Application Deployment**
+
+La aplicación web se desplegará en Netlify, una plataforma de alojamiento web y despliegue continuo.
+Se seguirán los siguientes pasos para el despliegue de la aplicación web, considerando que se ha realizado la configuración de la landing page:
+
+1. Conectar el repositorio de la aplicación web en GitHub a Netlify.
+   ![Step1-frontend-web-application](img/5/1/4/frontend/step1.png)
+2. Configurar las opciones de despliegue, como el directorio de construcción y las variables de entorno.
+   ![Step2-frontend-web-application](img/5/1/4/frontend/step2.png)
+   ![Step3-frontend-web-application](img/5/1/4/frontend/step3.png)
+3. Desplegar la aplicación web en Netlify.
+   ![Step4-frontend-web-application](img/5/1/4/frontend/step4.png)
+
+Enlace para acceder a la aplicación web desplegada:
+
+[https://open-workshop-n-gine.netlify.app/](https://open-workshop-n-gine.netlify.app/)
+
+**Web Services Deployment**
+
+La API RESTful se desplegará en Railway, una plataforma de alojamiento web y despliegue continuo.
+Se seguirán los siguientes pasos para el despliegue de la API RESTful:
+
+1. Acceder a Railway con una cuenta de GitHub.
+   ![Step1-web-services](img/5/1/4/backend/ingresarRailway.png)
+2. Crear un nuevo proyecto en Railway y configurar la base de datos.
+   ![Step2-web-services](img/5/1/4/backend/newProject.png)
+3. Obtener las credenciales de la base de datos y configurar la conexión en el proyecto de la API.
+   ![Step3-web-services](img/5/1/4/backend/getUrl.png)
+4. Preparar el archivo Dockerfile en el proyecto de la API.
+   ![Step4-web-services](img/5/1/4/backend/addDocker.png)
+5. Agregar el proyecto desde GitHub a Railway y configurar el despliegue.
+   ![Step5-web-services](img/5/1/4/backend/newService.png)
+6. Cargar y configurar el proyecto en Railway.
+   ![Step6-web-services](img/5/1/4/backend/docker.png)
+
+Enlace para acceder a la documentación Swagger de la API RESTful desplegada:
+
+[https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html](https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html)
 
 
 ## 5.2. Landing Page, Services & Applications Implementation

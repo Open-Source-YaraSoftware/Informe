@@ -28,10 +28,6 @@
                 <td>202220829</td>
             </tr>
             <tr>
-                <td>Lopez de la Cruz, Mauro Fabricio</td>
-                <td>202220829</td>
-            </tr>
-            <tr>
                 <td>Quiñonez Tintaya Jojan Jorge</td>
                 <td>202218183</td>
             </tr>
@@ -111,14 +107,82 @@
 
 # Project Collaboration Insights
 
-#### Front End Insights
-<img src="img/5/2/1/8/TB2_FrontEnd.png">
+URL del repositorio para el reporte del proyecto:
 
-#### Back End Insights
-<img src="img/5/2/1/8/TB2_BackEnd.png">
+[https://github.com/Open-Source-YaraSoftware/Informe](https://github.com/Open-Source-YaraSoftware/Informe)
+
+**TB1**
+
+Para el desarrollo del informe perteneciente a la entrega del TB1, se dividio la implementacion de secciones de la siguiente forma para cada integrante:
+
+| Integrantes              | Tareas Asignadas                                                                                                                                                                    |
+|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Eric Hernandez Tuiro     | Descripcion de la startup, desarrollo del Lean UX Process, diseño de las entrevistas, desarrollo de los artefactos y arquitectura de informacion.                                   |
+| Elmer Riva Rodriguez     | Desarrollo de las user stories, diseño de la guia de estilos general, diseño de la landing page , diseño de los user flow de la aplicacion web y desarrollo de la arquitectura DDD. |
+| Jhosepmyr Gutierrez Soto | Diseño de los wireframes y mockups de la aplicacion web, desarrollo de la arquitectura DDD, desarollo del diagrama de clases y el diagrama de base de datos.                        |
+
+**TP**
+
+Para el desarrollo del informe perteneciente a la entrega del TP, se dividio la implementacion de secciones de la siguiente forma para cada integrante:
+
+| Integrantes              | Tareas Asignadas                                                                                                                                                   |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Eric Hernandez Tuiro     | Correccion de los artefactos, correccion de las user stories y completar el diseño de la aplicacion web.                                                           |
+| Elmer Riva Rodriguez     | Correccion de la arquitectura C4, completar los user flows y user goals, completar Testing Suite Evidence for Sprint Review y Execution Evidence for Sprint Review |
+| Jhosepmyr Gutierrez Soto | Correccion del diagrama de clases y base de datos, completar el sprint planning 2, completar Development Evidence for Sprint Review.                               |
+
+
+**TB2**
+
+Para el desarrollo del informe perteneciente a la entrega del TB2, se dividio la implementacion de secciones de la siguiente forma para cada integrante:
+
+| Integrantes              | Tareas Asignadas                                                                                                                                    |
+|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Eric Hernandez Tuiro     | Elaboración de video about the product. Elaboración de entrevistas de validación.                                                                   |
+| Elmer Riva Rodriguez     | Evaluación según heurísticas, análisis de entrevistas de validación. Testing Suite Evidence for Sprint Review, Execution Evidence for Sprint Review |
+| Jhosepmyr Gutierrez Soto | Correccion del diagrama de clases y base de datos, y desarrollo Sprint Planning 3, Development Evidence for Sprint Review                           |
+
+**TF**
+
+Para el desarrollo del informe perteneciente a la entrega del TF, se dividio la implementacion de secciones de la siguiente forma para cada integrante:
+
+| Integrantes                 | Tareas Asignadas                                                                                           |
+|-----------------------------|------------------------------------------------------------------------------------------------------------|
+| Eric Hernandez Tuiro        | Elaboración y grabación de entrevistas de validación, incluyendo evaluación de cumplimiento de heurísticas |
+| Elmer Riva Rodriguez        | Execution Evidence for Sprint Review, Evaluación de del informe en general, y sprint 4 organización.       |
+| Jhosepmyr Gutierrez Soto    | Actualización del c4 modeling, sprint planning 4                                                           |
+| Jojan JorgeQuiñonez Tintaya | Corrección de errores en el informe, actualización de la bibliografía, actualización de los anexos.        |
+
+El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización Web-Application-YaraSoftware, donde cada integrante subió sus avances y se realizó una revisión constante de los mismos para asegurar la calidad del informe.
+
+**Github Collaboration Insights**
+
+Github también presenta una herramienta de timeline de las ramas y los procesos de merge que se han realizado en el proyecto. Estas mismas ramas se crearon siguiendo el flujo de trabajo de GitFlow, donde se crearon ramas de feature para cada sección del informe y se realizaron los merges correspondientes a la rama de desarrollo.
+
+Los integrantes son:
+* Jhosepmyr Orlando Gutiérrez Soto (jhosepmyr)
+* Eric Ernesto Hernández Tuiro (Eric396)
+* Elmer Augusto Riva Rodríguez (elmer-riva)
+* Jojan Jorge Quiñonez Tintaya (johaanq)
+
+Se explicará el proceso de la division de las ramas más importantes:
+* **main**: Rama principal del proyecto, donde se encuentran los cambios finales y aprobados del proyecto.
+* **develop**: Rama de desarrollo, donde se encuentran los cambios en desarrollo y se realizan los merges de las ramas de feature.
+* **feature-chapter-n**: Ramas de feature para cada sección del informe, donde se realizan los cambios correspondientes a cada sección del informe.
+* **feature-sprint-n**: Ramas de feature para cada sprint, donde se realizan los cambios correspondientes a cada sprint del proyecto.
+* **hotfix**: Ramas de hotfix para correcciones de errores críticos en el proyecto.
+
+![Network Graph](img/1/collaboration-insights/network_graph.png)
+
+Los siguientes gráficos muestran la cantidad de commits y líneas de código agregadas por cada integrante del equipo en el proyecto.
+
+![Commits_Graph](img/1/collaboration-insights/commits_over_time.png)
+
+El siguiente gráfico muestra la cantidad de commits realizados en la semana con mayor actividad en el proyecto.
+
+![Commits_timeline](img/1/collaboration-insights/commits_timeline.png)
 
 <div style="page-break-after: always;"></div>
-<img src = "img/1/1/2/insignths.png"> </img> 
 
 # Contenido
 

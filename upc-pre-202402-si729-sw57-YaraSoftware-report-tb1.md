@@ -5207,60 +5207,43 @@ Enlace para acceder a la landing page: https://open-workshop-n-gine-landing-page
 ### 5.2.2. Sprint 2
 
 #### 5.2.2.1. Sprint Planning 2
+A continuación, se presenta el resumen de la planificación del sprint 2, donde se detalla el objetivo del sprint, las user stories a implementar, la velocidad del equipo y la suma de los puntos de historia.
 
-<table>
-    <tr>
-        <th scope="row"><strong>Sprint #</strong></th>
-        <td>Sprint 2</td>
-    </tr>
-    <tr>
-        <td olspan="2"><strong>Sprint Planning Background</strong></td>
-    </tr>
-    <tr>
-        <th scope="row">Date</th>
-        <td>2024/15/03</td>
-    </tr>
-    <tr>
-        <th scope="row">Time</th>
-        <td>20:00</td>
-    </tr>
-    <tr>
-        <th scope="row">Location</th>
-        <td>Videollamada grupal mediante la plataforma Discord</td>
-    </tr>
-    <tr>
-        <th scope="row">Prepared By</th>
-        <td>Jhosephmyr Gutierrez</td>
-    </tr>
-    <tr>
-        <th scope="row">Attendees (to planning meeting)</th>
-        <td> Henry Reaño Delgadillo, Elmer Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto </td>
-    </tr>
-    <tr>
-        <td olspan="2"><strong>Sprint Goal & User Stories</strong></td>
-    </tr>
-    <tr>
-        <th scope="row">Sprint 2 Goal</th>
-        <td>El foco del sprint 2 es planificar el desarrollo de la aplicación web. Creemos que entrega mayor visibilidad y facilidad de acceso a la información clave a potenciales clientes. Confirmaremos nuestra hipótesis cuando la aplicación web esté publicada y los usuarios puedan interactuar con ella.</td>
-    </tr>
-    <tr>
-        <th scope="row">Sprint 2 Velocity</th>
-        <td>20</td>
-    </tr>
-</table>
+| **Sprint #**                    | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Date                            | 2024/09/18                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Time                            | 20:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Location                        | Videollamada grupal mediante la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Prepared By                     | Jhosepmyr Orlando Gutierrez Soto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Attendees (to planning meeting) | Elmer Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Sprint 1 Review Summary         | En el primer sprint, el equipo logró implementar la landing page de Workshop N-Gine, que incluye las secciones de hero, about the product, beneficios, testimonios, about us, planes, formulario y footer. Los miembros del equipo expresaron su satisfacción con los resultados alcanzados, pero no se inmiscuye la falta de organización.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Sprint 1 Retrospective          | Aciertos: El equipo logró implementar la landing page de Workshop N-Gine con todas las secciones planificadas. La colaboración y comunicación entre los miembros del equipo fueron efectivas, lo que permitió cumplir con los objetivos del sprint. La utilización de Trello para la gestión de tareas facilitó la organización y seguimiento del progreso. <br> Oportunidades de mejora: Se identificó la necesidad de mejorar la planificación y estimación de tiempos para evitar sobrecargas de trabajo. También se sugirió realizar reuniones diarias de seguimiento para asegurar que todos los miembros del equipo estén alineados y puedan resolver cualquier inconveniente de manera oportuna. Además, se propuso mejorar la documentación de las tareas y procesos para facilitar la comprensión y continuidad del trabajo.  |
+| Sprint Goal & User Stories      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Sprint 2 Goal                   | Nuestro enfoque está en implementar las funcionalidades principales del frontend para gestionar clientes, personal, intervenciones, inventario y notificaciones, asegurando que la navegación se adapte a los roles específicos de los usuarios. <br> Creemos que esto entregará una experiencia de usuario fluida y mejorará la eficiencia operativa al permitir que los mecánicos y administradores gestionen fácilmente información clave y procesos dentro de la plataforma. <br> Esto se confirmará cuando los usuarios puedan navegar por la aplicación según su rol, ver y gestionar clientes, personal, intervenciones y existencias de inventario sin errores, y recibir notificaciones relevantes.                                                                                                                           |
+| Sprint 2 Velocity               | 35                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Sum of Story Points             | 35                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
 #### 5.2.2.2. Sprint Backlog 2
+En el segundo sprint, el equipo se enfocará en implementar las funcionalidades principales del frontend para gestionar clientes, personal, intervenciones, inventario y notificaciones, asegurando que la navegación se adapte a los roles específicos de los usuarios. Creemos que esto entregará una experiencia de usuario fluida y mejorará la eficiencia operativa al permitir que los mecánicos y administradores gestionen fácilmente información clave y procesos dentro de la plataforma. Esto se confirmará cuando los usuarios puedan navegar por la aplicación según su rol, ver y gestionar clientes, personal, intervenciones y existencias de inventario sin errores, y recibir notificaciones relevantes.
 
-El objetivo del sprint es implementar la primera versión de la aplicación web, permitiendo a los usuarios que la usen sacar el máximo beneficio del mismo. Se utilizo Trello como herramienta para organizar y gestionar al equipo, con esta plataforma se pudo dividir las user stories logrando un desarrollo del sprint sea más manejable.
+Esto con el enfoque de la entrega del MVP de la aplicación.
 
-<img src="img/5/2/2/2/trello_board.jpg">
+Asimismo, la herramienta de organización Trello se utilizó para dividir las tareas en user stories y work items, y se asignaron a los miembros del equipo para su implementación.
 
-Link del Trello: 
+De ese modo, el objetivo principal del sprint es construir la aplicación web con su respectivo fake api, logrando que sea atrayente y funcional para los usuarios.
+
+![sprint-backlog-2](img/5/2/2/2/trello_board_sprint_2.png)
+
+Enlace al tablero de Trello:
+[https://trello.com/b/u6jq9evy/sprint-2](https://trello.com/b/u6jq9evy/sprint-2)
+
+A continuación, se procede a detallar en una tabla las user story vinculadas a sus tareas, con una breve descripción, estimación en horas y qué miembro del equipo la llevo a cabo.
 
 <table border="1" style="width:100%; text-align: center;">
   <tr>
     <th colspan="2">Sprint #</th>
-    <th colspan="5">Sprint n</th>
+    <th colspan="5">Sprint 2</th>
   </tr>
   <tr>
     <th colspan="2">User Story</th>
@@ -5274,195 +5257,170 @@ Link del Trello:
     <th>Description</th>
     <th>Estimation (Hours)</th>
     <th>Assigned To</th>
-    <th>Status (To-do / In-Process / To-Review / Done)</th>
+    <th>Status</th>
   </tr>
-  <tr>
-    <td>US-08</td>
-    <td>Intervenciones</td>
-    <td>TK-01</td>
-    <td>Implementación de las pantallas de intervención</td>
-    <td>Creacion de las listas de intervención, filtros y ordenamientos</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US-15</td>
-    <td>Mis Actividaded (Líder)	</td>
-    <td>TK-02</td>
-    <td>Desarrollo de la vista de actividades para el líder</td>
-    <td>Desarrollo de visualizacion de tareas e información de la intervención del mecánico líder</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US-16</td>
-    <td>Mis actividadades (asistente)</td>
-    <td>TK-03</td>
-    <td>Desarrollo de la vista de actividades para el asistente</td>
-    <td>Desarrollo de visualizacion de tareas del mecánico asistente</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US-01</td>
-    <td>Formulario de registro</td>
-    <td>TK-04</td>
-    <td>Diseño de registro de usuario</td>
-    <td>Creación del formulario de registro de usuario</td>
-    <td>2</td>
-    <td>Elmer Riva Rodríguez</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US-17</td>
-    <td>Información de intervención</td>
-    <td>TK-05</td>
-    <td>Desarrollo de los detalles de una intervención</td>
-    <td>Desarrollo de la información IOT, registro de intervenciones, información general, y los detalles.</td>
-    <td>1</td>
-    <td>Eric Hernández Tuiro</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US-18</td>
-    <td>Diagnóstico de intervención</td>
-    <td>TK-06</td>
-    <td>Modelar el diagnóstico de intervención</td>
-    <td>Creación de la interfaz de secuencia de tareas para el mecánico</td>
-    <td>3</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US-20</td>
-    <td>Supervisión de intervención</td>
-    <td>TK-07</td>
-    <td>Desarrollo de la interfaz de tareas del mecánico</td>
-    <td>Implementación de la verificación de las tareas completadas del mecánico</td>
-    <td>2</td>
-    <td>Henry Reaño Delgadillo</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US-19</td>
-    <td>Ejecución de intervención</td>
-    <td>TK-08</td>
-    <td>Implementación de solicitudes de inventario en las intervenciones</td>
-    <td>Desarrollo e implementación de la soliitud de inventario dentro de una intervención.</td>
-    <td>5</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US-09</td>
-    <td>Creación de intervenciones</td>
-    <td>TK-09</td>
-    <td>Creación de las herramientas de creación de intervenciones</td>
-    <td>Creación de la interfaz de gestión y creación de intervenciones</td>
-    <td>5</td>
-    <td>Elmer Riva Rodríguez</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US-06</td>
-    <td>Clientes</td>
-    <td>TK-11</td>
-    <td>Implementación de lista de clientes</td>
-    <td>Desarrollo de lista de clientes y herramientas de filtrado.</td>
-    <td>3</td>
-    <td>Henry Paolo Reaño</td>
-    <td>To Do</td>
-  </tr>
-  <tr>
-    <td>US-24</td>
-    <td>Agendar cita de intervención</td>
-    <td>TK-12</td>
-    <td>Implementación de registro de citas</td>
-    <td>Desarrollo de agendado de de citas de intervención</td>
-    <td>2</td>
-    <td>Eric Hernández Tuiro</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US-07</td>
-    <td>Detalles de clientes</td>
-    <td>TK-13</td>
-    <td>Desarrollo de vista de información de clientes</td>
-    <td>Desarrollo de actualización de datos de los clientes</td>
-    <td>2</td>
-    <td>Elmer Augusto Riva Rodriguez</td>
-    <td>Done</td>
-  </tr>
+  <tr><td>US-06</td><td>Clientes</td><td>TK-01</td><td>Crear interfaz de lista de clientes</td><td>Desarrollar pantalla para lista de clientes</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-06</td><td>Clientes</td><td>TK-02</td><td>Implementar filtrado</td><td>Agregar funcionalidad de filtrado en lista</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-06</td><td>Clientes</td><td>TK-03</td><td>Visualización básica de clientes</td><td>Implementar vista preliminar de clientes</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-06</td><td>Clientes</td><td>TK-04</td><td>Acceso a registrar nuevo cliente</td><td>Permitir registro de nuevos clientes</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-07</td><td>Detalles de cliente</td><td>TK-05</td><td>Crear interfaz de detalles de cliente</td><td>Crear pantalla para detalles del cliente</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-07</td><td>Detalles de cliente</td><td>TK-06</td><td>Editar y actualizar datos</td><td>Habilitar edición y actualización de cliente</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-07</td><td>Detalles de cliente</td><td>TK-07</td><td>Confirmación de cambio de correo</td><td>Mostrar confirmación al actualizar correo</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-07</td><td>Detalles de cliente</td><td>TK-08</td><td>Eliminar cliente</td><td>Implementar eliminación de cliente</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-07</td><td>Detalles de cliente</td><td>TK-09</td><td>Restaurar cliente</td><td>Habilitar restauración de cliente eliminado</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-04</td><td>Personal</td><td>TK-10</td><td>Crear interfaz de lista de personal</td><td>Desarrollar pantalla para lista de personal</td><td>3</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-04</td><td>Personal</td><td>TK-11</td><td>Visualización básica de personal en ventana flotante</td><td>Implementar vista básica en ventana flotante</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-05</td><td>Detalles de empleado</td><td>TK-12</td><td>Crear interfaz de detalles de personal</td><td>Implementar vista de detalles para el personal</td><td>3</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-05</td><td>Detalles de empleado</td><td>TK-13</td><td>Editar y actualizar datos</td><td>Habilitar edición de detalles de personal</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-05</td><td>Detalles de empleado</td><td>TK-14</td><td>Confirmación de cambio de correo</td><td>Mostrar confirmación al cambiar correo</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-08</td><td>Intervenciones</td><td>TK-15</td><td>Eliminar personal</td><td>Implementar funcionalidad de eliminación</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-08</td><td>Intervenciones</td><td>TK-16</td><td>Implementar filtrado por texto y estado</td><td>Filtrar lista de intervenciones</td><td>3</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-08</td><td>Intervenciones</td><td>TK-17</td><td>Ordenamiento por campos</td><td>Ordenar intervenciones por campos específicos</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-10</td><td>Detalles de intervención</td><td>TK-18</td><td>Crear detalles de intervención</td><td>Implementar detalles de intervención</td><td>3</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-10</td><td>Detalles de intervención</td><td>TK-19</td><td>Modificar intervención</td><td>Habilitar modificación de detalles</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-10</td><td>Detalles de intervención</td><td>TK-20</td><td>Guardar cambios</td><td>Implementar guardado de cambios en intervención</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-10</td><td>Detalles de intervención</td><td>TK-21</td><td>Cancelar intervención</td><td>Funcionalidad para cancelar intervención</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-09</td><td>Creación de intervenciones</td><td>TK-22</td><td>Crear formulario de intervención</td><td>Implementar formulario para crear intervención</td><td>3</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-09</td><td>Creación de intervenciones</td><td>TK-23</td><td>Validar datos del formulario</td><td>Validar datos antes de enviar formulario</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-09</td><td>Creación de intervenciones</td><td>TK-24</td><td>Enviar datos al backend</td><td>Enviar datos del formulario al backend</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-09</td><td>Creación de intervenciones</td><td>TK-25</td><td>Mostrar mensaje de éxito o error</td><td>Implementar mensajes al completar acción</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-11</td><td>Existencias de inventario</td><td>TK-26</td><td>Crear la interfaz de inventario</td><td>Implementar interfaz de existencias de inventario</td><td>3</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-11</td><td>Existencias de inventario</td><td>TK-27</td><td>Añadir entrada de inventario</td><td>Agregar funcionalidad para añadir existencias</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-11</td><td>Existencias de inventario</td><td>TK-28</td><td>Modificar entrada de inventario</td><td>Habilitar modificación de existencias</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-11</td><td>Existencias de inventario</td><td>TK-29</td><td>Guardar cambios de inventario</td><td>Guardar cambios realizados en inventario</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-12</td><td>Solicitudes de inventario</td><td>TK-30</td><td>Ordenar por campos</td><td>Ordenar solicitudes por campos específicos</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-12</td><td>Solicitudes de inventario</td><td>TK-31</td><td>Crear interfaz de solicitudes de inventario</td><td>Implementar interfaz para solicitudes de inventario</td><td>3</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-12</td><td>Solicitudes de inventario</td><td>TK-32</td><td>Guardar cambios en solicitudes</td><td>Guardar modificaciones en solicitudes</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-12</td><td>Solicitudes de inventario</td><td>TK-33</td><td>Deshacer cambios</td><td>Habilitar opción para deshacer cambios</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-12</td><td>Solicitudes de inventario</td><td>TK-34</td><td>Ordenar solicitudes por campos</td><td>Ordenar solicitudes por criterios definidos</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-14</td><td>Notificaciones</td><td>TK-35</td><td>Crear la interfaz de notificaciones</td><td>Implementar pantalla para ver notificaciones</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-14</td><td>Notificaciones</td><td>TK-36</td><td>Vincular notificaciones a eventos</td><td>Asociar eventos con notificaciones</td><td>3</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-15</td><td>Mis tareas (líder)</td><td>TK-37</td><td>Mostrar lista de tareas</td><td>Listar tareas asignadas al líder</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-15</td><td>Mis tareas (líder)</td><td>TK-38</td><td>Mostrar etiqueta de líder</td><td>Mostrar rol líder en las tareas</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-15</td><td>Mis tareas (líder)</td><td>TK-39</td><td>Acceso a más información</td><td>Proveer acceso detallado a tareas</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-16</td><td>Mis tareas (asistente)</td><td>TK-40</td><td>Mostrar lista de tareas del asistente</td><td>Listar tareas asignadas al asistente</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-16</td><td>Mis tareas (asistente)</td><td>TK-41</td><td>Mostrar etiqueta de asistente</td><td>Mostrar rol asistente en tareas</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-16</td><td>Mis tareas (asistente)</td><td>TK-42</td><td>Acceso a más información</td><td>Proveer detalles de las tareas</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-21</td><td>Registro de vehículos</td><td>TK-43</td><td>Mostrar lista de vehículos</td><td>Implementar listado de vehículos</td><td>3</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-21</td><td>Registro de vehículos</td><td>TK-44</td><td>Agregar vehículo</td><td>Funcionalidad para agregar vehículo</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-21</td><td>Registro de vehículos</td><td>TK-45</td><td>Validar datos del vehículo</td><td>Validar la información del vehículo</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-21</td><td>Registro de vehículos</td><td>TK-46</td><td>Mostrar mensaje de éxito</td><td>Mostrar mensaje al registrar vehículo</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-24</td><td>Validaciones de citas</td><td>TK-47</td><td>Validar datos de la cita</td><td>Comprobar validez de los datos ingresados</td><td>3</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-24</td><td>Validaciones de citas</td><td>TK-48</td><td>Mostrar confirmación de cita</td><td>Mostrar confirmación tras agendar cita</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-24</td><td>Validaciones de citas</td><td>TK-49</td><td>Manejo de errores de fecha</td><td>Gestionar errores en selección de fecha</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-25</td><td>Navegación dinámica por rol</td><td>TK-50</td><td>Manejo de roles y permisos</td><td>Gestionar roles y permisos de usuario</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-25</td><td>Navegación dinámica por rol</td><td>TK-51</td><td>Crear barra de navegación dinámica</td><td>Desarrollar barra de navegación por rol</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-25</td><td>Navegación dinámica por rol</td><td>TK-52</td><td>Añadir guardias de ruta</td><td>Implementar guardias de acceso a rutas</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
 </table>
 
 #### 5.2.2.3. Development Evidence for Sprint Review
-
 Se demuestra mediante una tabla los commits realizados para el sprint 2. 
 
-| Repository | Branch | Commit id | Commit message | Commit body | Commited on |
-| - | - | - | - | - | - |
-| Open-Source-YaraSoftware / Web-application | feature/interventions | 680f6a5ca6b40342eda8239b904f1f31b9c6ea6e | feat(model): add entities matching class diagram | ... | 27/09/2024 |
-| Open-Source-YaraSoftware / Web-application | feature/interventions | 88376af588add6dcd20277f30e28e375c695712c | feat(model): add enums for intervention state, intervention type, task state, account state, code state, membership type, notification state, product request state, role | ... | 27/09/2024 |
-| Open-Source-YaraSoftware / Web-application | feature/interventions | 8dbdf42958617cb96b56324173ec7b9bbdcda729 | feat(interventions): add interventions service with get and post crud methods | ... | 27/09/2024 |
-| Open-Source-YaraSoftware / Web-application | feature/interventions | a26afe515bc3931c64f0c42a1fdb4c3aed0cf1c3 | feat(intervention-creation): add invocation of NewInterventionDialogComponent from InterventionsComponent | ... | 27/09/2024 |
-| Open-Source-YaraSoftware / Web-application | feature/interventions | a0aabc299765958aa60d181467b456e31c596a25 | feat(intervention-creation): add new intervention dialog component | ... | 27/09/2024 |
-| Open-Source-YaraSoftware / Web-application | feature/interventions | 1f8502a7f165c4dfaaf0b0d6b266b43fb0f23f32 | feat(interventions): add filtering functionality to the interventions component | ... | 27/09/2024 |
-| Open-Source-YaraSoftware / Web-application | feature/interventions | da5a3e2a9de0876d9d20c62eb68a6106c62cec84 | feat(interventions): update interventions component to add sorting functionality to the table | ... | 27/09/2024 |
-| Open-Source-YaraSoftware / Web-application | feature/interventions | 7683819bf0b39efd216b5bf58cab5405516dbd10 | feat(interventions): add interventions component with basic interface including table and buttons  | ... | 27/09/2024 |
-| Open-Source-YaraSoftware / Web-application | feature/my activities leader | a4594034f0a48dc5801a87e8fc106e43690abf88 | chore(api): update db.json to assign different mechanics as leaders for interventions | ... | 27/09/2024 |
-| Open-Source-YaraSoftware / Web-application | feature/my activities leader | e07c2bb49e78e8f2b342ff66486f3962995ff852 | feat(router): add new interventions page for leader and fix activity header navigation | ... | 27/09/2024 |
-| Open-Source-YaraSoftware / Web-application | feature/my activities leader | a09e56d253e717b36eab73bb2d2d46d602cc47d0 | feat(intervention-service): add method to fetch interventions where mechanic is leader | ... | 27/09/2024 |
-| Open-Source-YaraSoftware / Web-application | feature/my activities leader | ee253a0481d554ebd3667b1379e4e71486dc913b | refactor(intervention-page): reuse intervention logic and template for leader and assistant views  | ... | 27/09/2024 |
-| Open-Source-YaraSoftware / Web-application | feature/intervention informantion | cf587b217f9375521c51a0f517c538568717eba9 | eat(general-information): create components for intervention general information, vehicle IoT data, and previous interventions | ... | 28/09/2024 |
-| Open-Source-YaraSoftware / Web-application | feature/intervention informantion | 8568044dd795ba0ec055ffe3e18c1165a50adfb8 | feat(activity-page): add functionality and integrate components for mechanic's activity initiation | ... | 28/09/2024 |
-| Open-Source-YaraSoftware / Web-application | feature/clients | c1f4d27d4584eed04bc2423e18c4c00bb36611fe | feat(workshop-client): add WorkshopClient entity and service | ... | 28/09/2024 |
-| Open-Source-YaraSoftware / Web-application | feature/clients | 2b8370f3a40ba801a65158e0b6990ccb62e4de98 | chore: update db.json | ... | 28/09/2024 |
-| Open-Source-YaraSoftware / Web-application | feature/clients | 366d06cec543fa8f1607fc4917e19b46ec872e30 | feat(workshop-client): display clients in table with filtering and sorting | ... | 28/09/2024 |
-| Open-Source-YaraSoftware / Web-application | feature/personnel detail | c1f4d27d4584eed04bc2423e18c4c00bb36611fe |  | ... | 28/09/2024 |
+| Repository                                 | Branch                            | Commit id                                | Commit message                                                                                                                                                            | Commit body | Commited on |
+|--------------------------------------------|-----------------------------------|------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-------------|
+| Open-Source-YaraSoftware / Web-application | feature/interventions             | 680f6a5ca6b40342eda8239b904f1f31b9c6ea6e | feat(model): add entities matching class diagram                                                                                                                          | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/interventions             | 88376af588add6dcd20277f30e28e375c695712c | feat(model): add enums for intervention state, intervention type, task state, account state, code state, membership type, notification state, product request state, role | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/interventions             | 8dbdf42958617cb96b56324173ec7b9bbdcda729 | feat(interventions): add interventions service with get and post crud methods                                                                                             | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/interventions             | a26afe515bc3931c64f0c42a1fdb4c3aed0cf1c3 | feat(intervention-creation): add invocation of NewInterventionDialogComponent from InterventionsComponent                                                                 | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/interventions             | a0aabc299765958aa60d181467b456e31c596a25 | feat(intervention-creation): add new intervention dialog component                                                                                                        | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/interventions             | 1f8502a7f165c4dfaaf0b0d6b266b43fb0f23f32 | feat(interventions): add filtering functionality to the interventions component                                                                                           | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/interventions             | da5a3e2a9de0876d9d20c62eb68a6106c62cec84 | feat(interventions): update interventions component to add sorting functionality to the table                                                                             | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/interventions             | 7683819bf0b39efd216b5bf58cab5405516dbd10 | feat(interventions): add interventions component with basic interface including table and buttons                                                                         | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/my activities leader      | a4594034f0a48dc5801a87e8fc106e43690abf88 | chore(api): update db.json to assign different mechanics as leaders for interventions                                                                                     | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/my activities leader      | e07c2bb49e78e8f2b342ff66486f3962995ff852 | feat(router): add new interventions page for leader and fix activity header navigation                                                                                    | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/my activities leader      | a09e56d253e717b36eab73bb2d2d46d602cc47d0 | feat(intervention-service): add method to fetch interventions where mechanic is leader                                                                                    | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/my activities leader      | ee253a0481d554ebd3667b1379e4e71486dc913b | refactor(intervention-page): reuse intervention logic and template for leader and assistant views                                                                         | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/intervention informantion | cf587b217f9375521c51a0f517c538568717eba9 | eat(general-information): create components for intervention general information, vehicle IoT data, and previous interventions                                            | ...         | 28/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/intervention informantion | 8568044dd795ba0ec055ffe3e18c1165a50adfb8 | feat(activity-page): add functionality and integrate components for mechanic's activity initiation                                                                        | ...         | 28/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/clients                   | c1f4d27d4584eed04bc2423e18c4c00bb36611fe | feat(workshop-client): add WorkshopClient entity and service                                                                                                              | ...         | 28/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/clients                   | 2b8370f3a40ba801a65158e0b6990ccb62e4de98 | chore: update db.json                                                                                                                                                     | ...         | 28/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/clients                   | 366d06cec543fa8f1607fc4917e19b46ec872e30 | feat(workshop-client): display clients in table with filtering and sorting                                                                                                | ...         | 28/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/personnel detail          | c1f4d27d4584eed04bc2423e18c4c00bb36611fe |                                                                                                                                                                           | ...         | 28/09/2024  |
 
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review
 
-| Repository | Branch | Commit id | Commit message | Commit body | Commited on |
-| - | - | - | - | - | - |
-| - | - | - | - | - | - |
+Para el sprint 2, se continúa utilizando los Acceptance Criteria de las historias de usuario para realizar las pruebas de aceptación.
+De ese modo Gherkin se ha utilizado para la creación de escenarios de prueba.
+A continuación, se presentan las evidencias de las pruebas realizadas:
+
+| Repository                                                    | Branch                                   | Commit Id                                | Commit Message                                                                                    | Commit Message Body                                                                                                                                                                                                                                                                                                                                                                                                    | Commited on(Date)        |
+|---------------------------------------------------------------|------------------------------------------|------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | a5ee8f2b170a6bf86f9ece503306fc82cbf09ac9 | feat(personnel-management): add BDD scenarios for viewing and filtering employees                 | - Added scenario for displaying an empty employee list with a prompt to register. - Included scenario for showing a list of registered employees with their basic details. - Defined outline scenarios for filtering employees by name and status. - Provided example data for search and filter functionalities.                                                                                                      | Fri Nov 15 21:20:21 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | fddad283b58ab503f24595e8e769159c291792a5 | feat(employee-management): add BDD scenarios for managing employee information                    | - Added scenario for viewing details of an active employee. - Included scenario for updating employee contact information. - Created scenario for updating and confirming employee email change. - Added scenario for soft deleting an employee and marking them as inactive. - Defined scenario for restoring an inactive employee to active status.                                                                  | Fri Nov 15 21:20:41 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 4a338f673d6206ddbfa8954831695180ac279dd8 | feat(client-management): add BDD scenarios for client visualization and filtering                 | - Implemented scenario for viewing client list with basic details. - Added scenario outlines for filtering clients by name and status. - Included scenario for responsiveness on mobile devices. - Added scenario for handling an empty client list with appropriate messaging. - Created scenario for navigating a large client list efficiently. - Defined scenario for sorting clients by various criteria.         | Fri Nov 15 21:21:01 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | d286192b56d2d035fe7f8e5053e76c053db09f66 | feat(client-management): add BDD scenarios for managing client information                        | - Created scenario for viewing active client details, including registered vehicles. - Implemented scenario for updating client contact and address information. - Added scenario for updating and confirming client email address change. - Defined scenario for deleting a client with state change to inactive and confirmation prompt. - Included scenario for restoring an inactive client back to active status. | Fri Nov 15 21:21:26 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 0a31ccfe1274c6145a4fddf3d8aec114ded0f5ab | feat(interventions-management): add BDD scenarios for viewing and filtering interventions         | - Added scenario for displaying a list of interventions with key details. - Implemented scenarios for filtering interventions by text and by status. - Included scenarios for sorting interventions by date and by status. - Ensured comprehensive testing of intervention management features.                                                                                                                        | Fri Nov 15 21:21:59 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 032c462dfac20ff8627b9c33ee87ea7ada4d403b | feat(interventions-creation): add scenarios for creating and managing interventions               | - Included scenarios for creating interventions from both list view and vehicle details. - Added validation for incomplete data and incorrect date formats. - Defined mechanics assignment logic and restrictions based on availability. - Enhanced mobile responsiveness for intervention form.                                                                                                                       | Fri Nov 15 21:22:16 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 045923fcb99641d30e050b9376c5eedb2829813a | feat(interventions-details): add detailed scenarios for viewing and managing intervention details | - Added scenarios for viewing general details and summaries of interventions. - Enabled modification and validation of intervention fields. - Included cancel options and ensured mobile responsiveness. - Handled errors for non-existing interventions with appropriate redirection.                                                                                                                                 | Fri Nov 15 21:22:32 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 812bdedfab7483649d95f8a8b4efca0d02009bef | feat(inventory-management): implement scenarios for inventory stock management                    | - Added scenarios for viewing stock details and creating new inventory entries. - Implemented validation and error handling for invalid data and duplicate entries. - Enhanced usability with notifications for stock limits and responsive design adjustments. - Enabled modification, deletion, and undo operations for inventory items with user feedback.                                                          | Fri Nov 15 21:22:53 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 62f55b91ea261b149db5a25d1dc99130aa41d1c3 | feat(inventory-requests): add scenarios for managing inventory requests                           | - Implemented viewing, filtering, and sorting of inventory requests by mechanics and parts. - Added error handling for invalid input and duplicate requests. - Integrated notifications for request approvals and rejections. - Improved responsiveness for mobile devices and user interface adaptability.                                                                                                            | Fri Nov 15 21:23:21 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | b755b6f2b4a593cde263ad2c4b7a6911531c21e3 | feat(notifications): implement scenarios for viewing and managing notifications                   | - Added functionality for filtering, marking as read, deleting, and navigating from notifications. - Integrated unread notification counter and responsive design for mobile. - Implemented automatic notifications for new intervention requests and low inventory alerts.                                                                                                                                            | Fri Nov 15 21:23:36 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 624ea9e659ace648020bb95624923e9bdfbb7b72 | feat(activities-leader): add scenarios for managing leader interventions                          | - Added views for leader interventions with assignment and filtering options. - Enabled task assignments and notifications for assigned mechanics. - Implemented error handling for unselected mechanic assignments and intervention access. - Integrated mobile responsiveness for leader activities section.                                                                                                         | Fri Nov 15 21:23:52 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 8626f53e561ebdf1f84e16e0151cde45750e548b | feat(assistant-activities): add scenarios for managing assistant intervention activities          | - Added visualization for assistant interventions with detailed task updates. - Implemented filtering and notifications for task assignments and status updates. - Enabled task completion and mobile responsiveness for efficient task management.                                                                                                                                                                    | Fri Nov 15 21:24:10 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 667b417afd7d6d413dcb8b406a15ff94b912d411 | feat(vehicle-management): implement scenarios for vehicle registration and updates                | - Added vehicle visualization, registration, and deletion features with validation checks. - Enabled detailed vehicle information and responsive mobile-friendly interface. - Included notifications for vehicle registration and deletion events.                                                                                                                                                                     | Fri Nov 15 21:24:32 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 692c953dd81bdb3cff0f1ba26a1fed5890c92f42 | feat(role-based-navigation): implement dynamic navigation and role-based redirection              | - Added scenarios for redirecting users based on their roles and validating access permissions. - Enhanced user experience with responsive design on mobile devices. - Included error handling and notifications for role updates and invalid roles.                                                                                                                                                                   | Fri Nov 15 21:24:50 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 98fffb4d309ca7bdb91b2f42a7737664a676a662 | Merge pull request #2 from Web-Application-YaraSoftware/feature/testing-frontend-web-application  | Feature/testing frontend web application                                                                                                                                                                                                                                                                                                                                                                               | Fri Nov 15 21:28:02 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | develop                                  | 76304930feac1e39535fa8f38b5f3a1e48a61691 | Merge pull request #3 from Web-Application-YaraSoftware/develop                                   | Develop                                                                                                                                                                                                                                                                                                                                                                                                                | Fri Nov 15 21:28:20 2024 |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
+En el sprint 2 se alcanzó un desarrollo parcial de la aplicación web, que permite al usuario navegar por ciertas funcionalidades de la aplicación.
+A continuación algunas evidencias en imágen de las vistas implementadas
 
-US-08, US-09, US-17, US-18, US-19, US-20:
-
+**Intervention list**
 <img src="img/5/2/2/5/interventions.png">
 
-US-15:
+**New intervention form**
+![img.png](img%2F5%2F2%2F2%2F5%2Fimg.png)
 
+**Activities page for mechanic leader**
 <img src="img/5/2/2/5/my-activities-leader.png">
 
-US-16:
-
+**Activities page for mechanic leader**
 <img src="img/5/2/2/5/my-activities-assistant.png">
 
-US-01:
-
+**User registration**
 <img src="img/5/2/2/5/user-register.png">
 
-US-06, US-07:
-
+**Clients list**
 <img src="img/5/2/2/5/clients.png">
 
-US-24:
-
+**New intervetion form**
 <img src="img/5/2/2/5/new-intervention.png">
 
+Link del video de navegación del mvp del sprint 2: [https://drive.google.com/file/d/190W1O8JpLb5_Rf7snszvRNPgcTQOwleN/view?usp=drive_link](https://drive.google.com/file/d/190W1O8JpLb5_Rf7snszvRNPgcTQOwleN/view?usp=drive_link=)
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
+Para el sprint 2, únicamente se planificó el desarrollo del frontend y para no verse limitados por la falta de servicios, se decidió utilizar un servicio de backend falso para simular las respuestas de la API.
 
-Para este primer sprint no fue contemplada la evidencia de documentación de los servicios.
+En este caso se utilizó JSON Server, una herramienta que permite crear una API RESTful en cuestión de segundos, a partir de un archivo JSON.
+
+Sin embargo, por las limitaciones de la herramienta, no se pudo implementar todas las funcionalidades de la API, por lo que se decidió implementar las operaciones CRUD y por atributos para las intervenciones, tareas, productos, solicitudes de productos y perfiles.
+
+Enlace para acceder al servicio de backend falso: [JSON Server](https://my-json-server.typicode.com/Web-Application-YaraSoftware/Json-Server-Api)
+
+| Endpoint             | Descripción                                                                          |
+|----------------------|--------------------------------------------------------------------------------------|
+| **/interventions**   | Se implemento las operaciones CRUD y por atributos para las intervenciones           |
+| **/tasks**           | Se implemento las operaciones CRUD y por atributos para las tareas                   |
+| **/products**        | Se implemento las operaciones CRUD y por atributos para los productos                |
+| **/productRequests** | Se implemento las operaciones CRUD y por atributos para las solicitudes de productos |
+| **/profiles**        | Se implemento las operaciones CRUD y por atributos para los perfiles                 |
+
+| Repository                                                   | Branch | Commit Id                                | Commit Message        | Commit Message Body   | Commited on(Date)        |
+|--------------------------------------------------------------|--------|------------------------------------------|-----------------------|-----------------------|--------------------------|
+| https://github.com/Open-Source-YaraSoftware/Json-Server-Api  | main   | 93ba6766244194dff2ef7691d5ebc07b09681fd0 | chore: update db.json | chore: update db.json | Fri Nov 15 22:58:49 2024 |
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-Para la entrega del sprint 2, se desplego la versión actualizada del Web Application funcional de acuerdo a los User Stories correspondientes.
+Para la entrega del 2 sprint, se desplegó el frontend web application.
+
+Ante lo mencionado, se certifica que el frontend de la aplicación web se encuentra desplegado correctamente en Netlify, usando la rama principal del repositorio(`main`).
+De ese modo, se incluyen las configuraciones necesarias para el despliegue de la aplicación:
+* Command: `npm run build`
+* Publish directory: `dist`
+* Production branch: `main`
+
+![Certificado de despliegue](img/5/2/3/7/certificate-frontend-netlify.png)
 
 Web Application:
 
@@ -5475,10 +5433,13 @@ Web Application:
 <img src="img/5/2/2/7/7.png">
 <img src="img/5/2/2/7/8.png">
 
-
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
-<img src="img/5/2/1/8/insights-2.png">
+| Alumno                   | Actividad                                                                                                                                                                                                                     |
+|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| Jhosepmyr Gutiérrez Soto | Desarrollo del routing entre pages, elaboración del json-server, componente table de clientes, componente de barra de navegación lateral y header, componente table de las actividades de los mecánicos asistentes y lideres. |
+| Eric Hernandez Tuiro     | Elaboración de los componentes table de los productos de inventario y las solicitudes y, componente card de las notificaciones.                                                                                               |
+| Elmer Riva Rodriguez     | Desarrollo de los componentes table de mecánicos, table de intervenciones y desplegable de informacion de intervencion                                                                                                        |
 
 <img src="img/5/2/1/8/insights-2.png">
 

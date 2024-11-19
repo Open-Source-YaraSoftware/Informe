@@ -4776,7 +4776,7 @@ Para el despliegue eficiente del proyecto de la **Landing Page**, es imprescindi
 
 Con este procedimiento, la página desplegada quedará vinculada y autorizada con el repositorio de la organización. Cada vez que se realice un commit en la rama correspondiente, la **Landing Page** se actualizará automáticamente, eliminando la necesidad de repetir los pasos de despliegue previos.
 
-**[Enlace para acceder a la Landing Page](https://landing-page-workshop-n-gine.netlify.app/#learn-more)**.
+**[Enlace para acceder a la Landing Page](https://open-workshop-n-gine-landing-page.netlify.app/)**.
 
 **Frontend Web Application Deployment**
 

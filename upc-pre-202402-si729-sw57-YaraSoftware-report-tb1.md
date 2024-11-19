@@ -5172,7 +5172,8 @@ La sección About Us que describe nuestra empresa, nuestros valores y visión.
 La sección de planes, centrada en ser atractiva para el usuario.
 <img src="img/5/2/1/4/plans.png">
 
-Enlace de video de navegación landing page: ...
+Enlace de video de navegación landing page: 
+[https://drive.google.com/file/d/1w33bih2qCpKFsAKJjp8YoJXjjCLJKXj7/view](https://drive.google.com/file/d/1w33bih2qCpKFsAKJjp8YoJXjjCLJKXj7/view)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -5189,17 +5190,17 @@ Para la entrega del Sprint número 1, se desplego al completo landing page la cu
 <img src="img/5/2/1/7/5.png">
 <img src="img/5/2/1/7/6.png">
 
-Enlace para acceder a la landing page: https://landing-page-workshop-n-gine.netlify.app/
+Enlace para acceder a la landing page: https://open-workshop-n-gine-landing-page.netlify.app/index-es.html
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-| Alumno | Actividad |
-| ----------- | ----------- |
+| Alumno                   | Actividad                                                                             |
+|--------------------------|---------------------------------------------------------------------------------------|
 | Jhosepmyr Gutiérrez Soto | Implementación de Hero Section, About the Product, Testimonios e Internacionalización |
-| Eric Hernandez Tuiro | Implementación del Footer |
-| Álvaro Orozco Torres | Implementación del Formulario de Contacto |
-| Henry Reaño Delgadillo | Implementación de Planes |
-| Elmer Riva Rodriguez | Implementación de Beneficios y About Us |
+| Eric Hernandez Tuiro     | Implementación del Footer                                                             |
+| Álvaro Orozco Torres     | Implementación del Formulario de Contacto                                             |
+| Henry Reaño Delgadillo   | Implementación de Planes                                                              |
+| Elmer Riva Rodriguez     | Implementación de Beneficios y About Us                                               |
 
 <img src="img/5/2/1/8/insights.png">
 

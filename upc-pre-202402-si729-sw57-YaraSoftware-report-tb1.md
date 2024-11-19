@@ -4817,6 +4817,45 @@ Enlace para acceder a la documentación Swagger de la API RESTful desplegada:
 
 [https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html](https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html)
 
+**Frontend Web Application Deployment**
+
+La aplicación web se desplegará en Netlify, una plataforma de alojamiento web y despliegue continuo.
+Se seguirán los siguientes pasos para el despliegue de la aplicación web, considerando que se ha realizado la configuración de la landing page:
+
+1. Conectar el repositorio de la aplicación web en GitHub a Netlify.
+   ![Step1-frontend-web-application](img/5/1/4/frontend/step1.png)
+2. Configurar las opciones de despliegue, como el directorio de construcción y las variables de entorno.
+   ![Step2-frontend-web-application](img/5/1/4/frontend/step2.png)
+   ![Step3-frontend-web-application](img/5/1/4/frontend/step3.png)
+3. Desplegar la aplicación web en Netlify.
+   ![Step4-frontend-web-application](img/5/1/4/frontend/step4.png)
+
+Enlace para acceder a la aplicación web desplegada:
+
+[https://open-workshop-n-gine.netlify.app/](https://open-workshop-n-gine.netlify.app/)
+
+**Web Services Deployment**
+
+La API RESTful se desplegará en Railway, una plataforma de alojamiento web y despliegue continuo.
+Se seguirán los siguientes pasos para el despliegue de la API RESTful:
+
+1. Acceder a Railway con una cuenta de GitHub.
+   ![Step1-web-services](img/5/1/4/backend/ingresarRailway.png)
+2. Crear un nuevo proyecto en Railway y configurar la base de datos.
+   ![Step2-web-services](img/5/1/4/backend/newProject.png)
+3. Obtener las credenciales de la base de datos y configurar la conexión en el proyecto de la API.
+   ![Step3-web-services](img/5/1/4/backend/getUrl.png)
+4. Preparar el archivo Dockerfile en el proyecto de la API.
+   ![Step4-web-services](img/5/1/4/backend/addDocker.png)
+5. Agregar el proyecto desde GitHub a Railway y configurar el despliegue.
+   ![Step5-web-services](img/5/1/4/backend/newService.png)
+6. Cargar y configurar el proyecto en Railway.
+   ![Step6-web-services](img/5/1/4/backend/docker.png)
+
+Enlace para acceder a la documentación Swagger de la API RESTful desplegada:
+
+[https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html](https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html)
+
 
 ## 5.2. Landing Page, Services & Applications Implementation
 

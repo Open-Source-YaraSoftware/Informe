@@ -24,12 +24,12 @@
                 <td>20221C857</td>
             </tr>
             <tr>
-                <td>Reaño Delgadillo, Henry Paolo</td>
-                <td>20221e247</td>
-            </tr>
-            <tr>
                 <td>Riva Rodríguez, Elmer Augusto</td>
                 <td>202220829</td>
+            </tr>
+            <tr>
+                <td>Quiñonez Tintaya Jojan Jorge</td>
+                <td>202218183</td>
             </tr>
         </table>
     </div>
@@ -37,78 +37,204 @@
 </body>
 
 # Registro de Versiones del Informe
-| Versión | Fecha | Autor | Descripción de la modificación |
-| ----------- | ----------- | ----------- | ----------- |
-| 0.0.0 | 20/08/2024 | Álvaro Orozco Torres | Se agrega la carátula y la tabla de control de versiones |
-| 1.0.0 | 01/09/2024 | Henry Reaño Delgadillo | Se agrega la primera sección del Capítulo I: Introducción |
-| 1.1.0 | 01/09/2024 | Álvaro Orozco Torres | Se agrega la segunda y tercera sección del Capítulo I: Introducción<br>Se agrega la bibliografía |
-| 2.0.0 | 01/09/2024 | Álvaro Orozco Torres | Se agrega la primera y segunda sección del Capítulo II: Requirements Elicitation & Analysis |
-| 2.1.0 | 01/09/2024 | Henry Reaño Delgadillo | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis | 
-| 2.2.0 | 02/09/2024 | Álvaro Orozco Torres | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis | 
-| 2.2.1 | 02/09/2024 | Álvaro Orozco Torres | Se corrige la omisión de añadir el índice correspondiente a las nuevas secciones | 
-| 2.2.2 | 02/09/2024 | Álvaro Orozco Torres | Se corrige el formato de presentación de el As-Is Scenario Mapping |
-| 2.2.3 | 02/09/2024 | Henry Reaño Delgadillo | Se agrega el link de las entrevistas de Needfinding en la sección Anexos |
-| 2.2.4 | 02/09/2024 | Henry Reaño Delgadillo | Se agrega la foto del dueño de taller Enrique Reaño en Registro de entrevistas |
-| 2.2.5 | 03/09/2024 | Henry Reaño Delgadillo | Se agrega tres nuevos conceptos en Ubiquitous Language |
-| 3.0.0 | 05/09/2024 | Elmer Riva Rodriguez | Se agrega la estructura completa del informe |
-| 3.1.0 | 06/09/2024 | Álvaro Orozco Torres | Se agrega la primera sección del Capítulo III: Requirements Specification |
-| 3.2.0 | 06/09/2024 | Álvaro Orozco Torres | Se agrega la segunda sección del Capítulo III: Requirements Specification |
-| 3.3.0 | 06/09/2024 | Henry Reaño Delgadillo | Se agrega la tercera sección del Capítulo III: Requirements Specification |
-| 3.4.0 | 06/09/2024 | Henry Reaño Delgadillo | Se agrega la última sección del Capítulo III: Requirements Specification |
-| 4.1.1.1 | 06/09/2024 | Elmer Riva | Se agregan enlaces de Figma y wireframes para pantallas de inicio de sesión y creación de cuenta |
-| 4.3.1.1 | 08/09/2024 | Jhosepmyr | Se agregan imágenes de wireframes para la landing page |
-| 4.3.2.1 | 08/09/2024 | Jhosepmyr | Se agregan wireframes y secciones de mock-up en el diseño de la landing page |
-| 4.4.1.1 | 08/09/2024 | Elmer Riva | Se actualizan imágenes y descripciones de wireframes para el cliente del taller |
-| 4.4.1.2 | 08/09/2024 | Elmer Riva | Se actualizan imágenes y descripciones de wireframes para el mecánico |
-| 4.4.1.3 | 08/09/2024 | Elmer Riva | Se actualizan imágenes y descripciones de wireframes para el dueño del taller |
-| 4.4.1.4 | 06/09/2024 | Elmer Riva | Se agregan imágenes de wireframes para la gestión de inventario, métricas y notificaciones |
-| 4.4.1.5 | 06/09/2024 | Elmer Riva | Se agregan wireframes relacionados con el cliente del taller |
-| 4.4.1.6 | 06/09/2024 | Jhosepmyr | Se agregan wireframes para la sección de registro de nuevo cliente |
-| 4.4.1.7 | 06/09/2024 | Elmer Riva | Se agregan wireframes relacionados con la gestión del dueño del taller |
-| 4.4.1.8 | 06/09/2024 | Elmer Riva | Se agregan wireframes para la sección vacía de personal |
-| 4.4.1.9 | 06/09/2024 | Elmer Riva | Se agregan wireframes para la edición de la información del personal |
-| 4.4.1.10 | 06/09/2024 | Jhosepmyr | Se agregan wireframes para la gestión de personal y el registro de nuevos mecánicos |
-| 4.4.2.1 | 08/09/2024 | Elmer Riva | Se agregan wireflows para la web en Desktop Web Browser |
-| 4.4.2.2 | 08/09/2024 | Elmer Riva | Se actualizan imágenes y descripciones de wireflow |
-| 4.4.2.3 | 07/09/2024 | Jhosepmyr | Se agregan wireflows para los objetivos de usuario: registrar un vehículo, acceder al historial de intervenciones del auto, acceder a la información del dispositivo IoT y agendar una cita |
-| 4.4.2.4 | 07/09/2024 | Elmer Riva | Se agregan wireflows para las tareas del mecánico y la gestión de intervenciones |
-| 4.4.2.5 | 06/09/2024 | Eric Hernandez | Se agregan wireflows para las interacciones del dueño del taller y el cliente |
-| 4.4.2.6 | 06/09/2024 | Jhosepmyr | Se eliminan datos duplicados en una ubicación incorrecta |
-| 4.4.2.7 | 06/09/2024 | Jhosepmyr | Se agregan wireflows para la creación de cuenta, inicio de sesión, gestión de empleados, registro de clientes y vehículos, visualización y gestión de información de empleados y clientes |
-| 4.4.3.1 | 08/09/2024 | Elmer Riva | Se agregan wireflows para las interacciones del cliente y el taller |
-| 4.5.1.1 | 08/09/2024 | Elmer Riva | Se actualizan los enlaces a los videos explicativos de prototipos de aplicaciones web para desktop y móvil |
-| 4.5.2.1 | 07/09/2024 | Elmer Riva | Se agregan enlaces a los prototipos de aplicaciones web para cada user persona |
-| 4.6.1.1 | 07/09/2024 | Elmer Riva | Se agregan imágenes del modelo C4 en la arquitectura software dirigida por el dominio |
-| 4.6.2.1 | 07/09/2024 | Elmer Riva | Se agregan diagramas de contexto y contenedores en la arquitectura software dirigida por el dominio |
-| 4.6.3.1 | 07/09/2024 | Elmer Riva | Se agrega el diagrama de componentes de la arquitectura software dirigida por el dominio |
-| 4.7.1.1 | 07/09/2024 | Elmer Riva | Se agrega el diagrama de clases |
-| 4.7.2.1 | 08/09/2024 | Elmer Riva | Se actualiza el diccionario de clases |
-| 4.8.1.1 | 07/09/2024 | Jhosepmyr | Se agrega el diagrama de base de datos |
-| 5.0.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega una sección del Capítulo V: Product Implementation, Validation & Deployment |
-| 5.1.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a gestión de código fuente | 
-| 5.2.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a convenciones en la codificación y configuración de despliegue |
-| 5.3.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección de sprint planning 1 y sprint backlog 1 | 
-| 5.4.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega las secciones de evidencias e insights del sprint 1 |
-| 5.4.1 | 08/09/2024 | Henry Reaño Delgadillo | Se agrega nuevas fotos relacionadas a la landing page y correción de errores en los insights |
-| 5.5.0 | 27/09/2024 | Henry Reaño Delgadillo | Se elimino la participación del miembro retirado del equipo |
-| 5.5.1 | 27/09/2024 | Henry Reaño Delgadillo | Se elimino imágenes innecesarias de la carpeta img |
-| 5.5.2 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigieron los User Persona y se añadieron descripciones a los mismos |
-| 5.5.3 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigieron los User Journey Mapping y se añadieron descripciones a los mismos |
-| 5.5.4 | 27/09/2024 | Henry Reaño Delgadillo | Se agrega el Student Outcome hasta trabajo parcial |
-| 5.6.0 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigieron los AS-IS y añadieron descripciones a los mismos |
-| 5.6.1 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigieron los TO-BE y añadieron descripciones a los mismos |
-| 5.6.2 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigio el Impact Mapping y se añadio una descripción para el mismo |
-| 5.6.3 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigio los criterios de aceptación de los user stories |
-| 5.6.4 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigio la priorización del product backlog |
-| 5.7.0 | 27/09/2024 | Henry Reaño Delgadillo | Se agrega el sprint 2 |
+| Versión  | Fecha | Autor                          | Descripción de la modificación                                                                                                                                                              |
+|----------| ----------- |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0.0.0    | 20/08/2024 | Álvaro Orozco Torres           | Se agrega la carátula y la tabla de control de versiones                                                                                                                                    |
+| 1.0.0    | 01/09/2024 | Henry Reaño Delgadillo         | Se agrega la primera sección del Capítulo I: Introducción                                                                                                                                   |
+| 1.1.0    | 01/09/2024 | Álvaro Orozco Torres           | Se agrega la segunda y tercera sección del Capítulo I: Introducción<br>Se agrega la bibliografía                                                                                            |
+| 2.0.0    | 01/09/2024 | Álvaro Orozco Torres           | Se agrega la primera y segunda sección del Capítulo II: Requirements Elicitation & Analysis                                                                                                 |
+| 2.1.0    | 01/09/2024 | Henry Reaño Delgadillo         | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis                                                                                           | 
+| 2.2.0    | 02/09/2024 | Álvaro Orozco Torres           | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis                                                                                           | 
+| 2.2.1    | 02/09/2024 | Álvaro Orozco Torres           | Se corrige la omisión de añadir el índice correspondiente a las nuevas secciones                                                                                                            | 
+| 2.2.2    | 02/09/2024 | Álvaro Orozco Torres           | Se corrige el formato de presentación de el As-Is Scenario Mapping                                                                                                                          |
+| 2.2.3    | 02/09/2024 | Henry Reaño Delgadillo         | Se agrega el link de las entrevistas de Needfinding en la sección Anexos                                                                                                                    |
+| 2.2.4    | 02/09/2024 | Henry Reaño Delgadillo         | Se agrega la foto del dueño de taller Enrique Reaño en Registro de entrevistas                                                                                                              |
+| 2.2.5    | 03/09/2024 | Henry Reaño Delgadillo         | Se agrega tres nuevos conceptos en Ubiquitous Language                                                                                                                                      |
+| 3.0.0    | 05/09/2024 | Elmer Riva Rodriguez           | Se agrega la estructura completa del informe                                                                                                                                                |
+| 3.1.0    | 06/09/2024 | Álvaro Orozco Torres           | Se agrega la primera sección del Capítulo III: Requirements Specification                                                                                                                   |
+| 3.2.0    | 06/09/2024 | Álvaro Orozco Torres           | Se agrega la segunda sección del Capítulo III: Requirements Specification                                                                                                                   |
+| 3.3.0    | 06/09/2024 | Henry Reaño Delgadillo         | Se agrega la tercera sección del Capítulo III: Requirements Specification                                                                                                                   |
+| 3.4.0    | 06/09/2024 | Henry Reaño Delgadillo         | Se agrega la última sección del Capítulo III: Requirements Specification                                                                                                                    |
+| 4.1.1.1  | 06/09/2024 | Elmer Riva                     | Se agregan enlaces de Figma y wireframes para pantallas de inicio de sesión y creación de cuenta                                                                                            |
+| 4.3.1.1  | 08/09/2024 | Jhosepmyr                      | Se agregan imágenes de wireframes para la landing page                                                                                                                                      |
+| 4.3.2.1  | 08/09/2024 | Jhosepmyr                      | Se agregan wireframes y secciones de mock-up en el diseño de la landing page                                                                                                                |
+| 4.4.1.1  | 08/09/2024 | Elmer Riva                     | Se actualizan imágenes y descripciones de wireframes para el cliente del taller                                                                                                             |
+| 4.4.1.2  | 08/09/2024 | Elmer Riva                     | Se actualizan imágenes y descripciones de wireframes para el mecánico                                                                                                                       |
+| 4.4.1.3  | 08/09/2024 | Elmer Riva                     | Se actualizan imágenes y descripciones de wireframes para el dueño del taller                                                                                                               |
+| 4.4.1.4  | 06/09/2024 | Elmer Riva                     | Se agregan imágenes de wireframes para la gestión de inventario, métricas y notificaciones                                                                                                  |
+| 4.4.1.5  | 06/09/2024 | Elmer Riva                     | Se agregan wireframes relacionados con el cliente del taller                                                                                                                                |
+| 4.4.1.6  | 06/09/2024 | Jhosepmyr                      | Se agregan wireframes para la sección de registro de nuevo cliente                                                                                                                          |
+| 4.4.1.7  | 06/09/2024 | Elmer Riva                     | Se agregan wireframes relacionados con la gestión del dueño del taller                                                                                                                      |
+| 4.4.1.8  | 06/09/2024 | Elmer Riva                     | Se agregan wireframes para la sección vacía de personal                                                                                                                                     |
+| 4.4.1.9  | 06/09/2024 | Elmer Riva                     | Se agregan wireframes para la edición de la información del personal                                                                                                                        |
+| 4.4.1.10 | 06/09/2024 | Jhosepmyr                      | Se agregan wireframes para la gestión de personal y el registro de nuevos mecánicos                                                                                                         |
+| 4.4.2.1  | 08/09/2024 | Elmer Riva                     | Se agregan wireflows para la web en Desktop Web Browser                                                                                                                                     |
+| 4.4.2.2  | 08/09/2024 | Elmer Riva                     | Se actualizan imágenes y descripciones de wireflow                                                                                                                                          |
+| 4.4.2.3  | 07/09/2024 | Jhosepmyr                      | Se agregan wireflows para los objetivos de usuario: registrar un vehículo, acceder al historial de intervenciones del auto, acceder a la información del dispositivo IoT y agendar una cita |
+| 4.4.2.4  | 07/09/2024 | Elmer Riva                     | Se agregan wireflows para las tareas del mecánico y la gestión de intervenciones                                                                                                            |
+| 4.4.2.5  | 06/09/2024 | Eric Hernandez                 | Se agregan wireflows para las interacciones del dueño del taller y el cliente                                                                                                               |
+| 4.4.2.6  | 06/09/2024 | Jhosepmyr                      | Se eliminan datos duplicados en una ubicación incorrecta                                                                                                                                    |
+| 4.4.2.7  | 06/09/2024 | Jhosepmyr                      | Se agregan wireflows para la creación de cuenta, inicio de sesión, gestión de empleados, registro de clientes y vehículos, visualización y gestión de información de empleados y clientes   |
+| 4.4.3.1  | 08/09/2024 | Elmer Riva                     | Se agregan wireflows para las interacciones del cliente y el taller                                                                                                                         |
+| 4.5.1.1  | 08/09/2024 | Elmer Riva                     | Se actualizan los enlaces a los videos explicativos de prototipos de aplicaciones web para desktop y móvil                                                                                  |
+| 4.5.2.1  | 07/09/2024 | Elmer Riva                     | Se agregan enlaces a los prototipos de aplicaciones web para cada user persona                                                                                                              |
+| 4.6.1.1  | 07/09/2024 | Elmer Riva                     | Se agregan imágenes del modelo C4 en la arquitectura software dirigida por el dominio                                                                                                       |
+| 4.6.2.1  | 07/09/2024 | Elmer Riva                     | Se agregan diagramas de contexto y contenedores en la arquitectura software dirigida por el dominio                                                                                         |
+| 4.6.3.1  | 07/09/2024 | Elmer Riva                     | Se agrega el diagrama de componentes de la arquitectura software dirigida por el dominio                                                                                                    |
+| 4.7.1.1  | 07/09/2024 | Elmer Riva                     | Se agrega el diagrama de clases                                                                                                                                                             |
+| 4.7.2.1  | 08/09/2024 | Elmer Riva                     | Se actualiza el diccionario de clases                                                                                                                                                       |
+| 4.8.1.1  | 07/09/2024 | Jhosepmyr                      | Se agrega el diagrama de base de datos                                                                                                                                                      |
+| 5.0.0    | 07/09/2024 | Henry Reaño Delgadillo         | Se agrega una sección del Capítulo V: Product Implementation, Validation & Deployment                                                                                                       |
+| 5.1.0    | 07/09/2024 | Henry Reaño Delgadillo         | Se agrega la sección correspondiente a gestión de código fuente                                                                                                                             | 
+| 5.2.0    | 07/09/2024 | Henry Reaño Delgadillo         | Se agrega la sección correspondiente a convenciones en la codificación y configuración de despliegue                                                                                        |
+| 5.3.0    | 07/09/2024 | Henry Reaño Delgadillo         | Se agrega la sección de sprint planning 1 y sprint backlog 1                                                                                                                                | 
+| 5.4.0    | 07/09/2024 | Henry Reaño Delgadillo         | Se agrega las secciones de evidencias e insights del sprint 1                                                                                                                               |
+| 5.4.1    | 08/09/2024 | Henry Reaño Delgadillo         | Se agrega nuevas fotos relacionadas a la landing page y correción de errores en los insights                                                                                                |
+| 5.5.0    | 27/09/2024 | Henry Reaño Delgadillo         | Se elimino la participación del miembro retirado del equipo                                                                                                                                 |
+| 5.5.1    | 27/09/2024 | Henry Reaño Delgadillo         | Se elimino imágenes innecesarias de la carpeta img                                                                                                                                          |
+| 5.5.2    | 27/09/2024 | Henry Reaño Delgadillo         | Se corrigieron los User Persona y se añadieron descripciones a los mismos                                                                                                                   |
+| 5.5.3    | 27/09/2024 | Henry Reaño Delgadillo         | Se corrigieron los User Journey Mapping y se añadieron descripciones a los mismos                                                                                                           |
+| 5.5.4    | 27/09/2024 | Henry Reaño Delgadillo         | Se agrega el Student Outcome hasta trabajo parcial                                                                                                                                          |
+| 5.6.0    | 27/09/2024 | Henry Reaño Delgadillo         | Se corrigieron los AS-IS y añadieron descripciones a los mismos                                                                                                                             |
+| 5.6.1    | 27/09/2024 | Henry Reaño Delgadillo         | Se corrigieron los TO-BE y añadieron descripciones a los mismos                                                                                                                             |
+| 5.6.2    | 27/09/2024 | Henry Reaño Delgadillo         | Se corrigio el Impact Mapping y se añadio una descripción para el mismo                                                                                                                     |
+| 5.6.3    | 27/09/2024 | Henry Reaño Delgadillo         | Se corrigio los criterios de aceptación de los user stories                                                                                                                                 |
+| 5.6.4    | 27/09/2024 | Henry Reaño Delgadillo         | Se corrigio la priorización del product backlog                                                                                                                                             |
+| 5.7.0    | 27/09/2024 | Henry Reaño Delgadillo         | Se agrega el sprint 2                                                                                                                                                                       |
+| 6.0.0    | 25/09/2024 | Elmer Augusto Riva Rodriguez   | Se agrega resultado de estudiantes para presentación parcial                                                                                                                                |
+| 6.1.0    | 25/09/2024 | Elmer Augusto Riva Rodriguez   | Se agregan archivos y colaboraciones para insight de colaboración                                                                                                                           |
+| 6.2.0    | 25/09/2024 | Elmer Augusto Riva Rodriguez   | Se agrega enlace de exposición a Anexos                                                                                                                                                     |
+| 6.3.0    | 31/10/2024 | Elmer Augusto Riva Rodriguez   | Planificación de sprint y backlog del sprint 3                                                                                                                                              |
+| 6.4.0    | 31/10/2024 | Eric Hernández                 | Evidencia de desarrollo para revisión de sprint 2                                                                                                                                           |
+| 6.5.0    | 31/10/2024 | Elmer Augusto Riva Rodriguez   | Agrega tareas al sprint backlog 3                                                                                                                                                           |
+| 6.6.0    | 31/10/2024 | Eric Hernández                 | Evidencia de desarrollo para revisión de sprint                                                                                                                                             |
+| 6.7.0    | 31/10/2024 | Elmer Augusto Riva Rodriguez   | Documentación de servicios para revisión de sprint                                                                                                                                          |
+| 6.8.0    | 31/10/2024 | Elmer Augusto Riva Rodriguez   | Evidencia de despliegue de software para revisión de sprint                                                                                                                                 |
+| 6.9.0    | 31/10/2024 | Elmer Augusto Riva Rodriguez   | Se agregan videos de 'About The Product', 'About The Team', y exposición                                                                                                                    |
+| 7.0.0    | 15/11/2024 | Jhosepmyr Gutierrez Soto       | Se actualizan los criterios de aceptación de las historias de usuario                                                                                                                       |
+| 7.1.0    | 15/11/2024 | Jhosepmyr Gutierrez Soto       | Se agregan wire flows faltantes                                                                                                                                                             |
+| 7.2.0    | 15/11/2024 | Jhosepmyr Gutierrez Soto       | Se añaden capturas de pantalla de videos de prototipos y se actualizan enlaces                                                                                                              |
+| 7.3.0    | 15/11/2024 | Jhosepmyr Gutierrez Soto       | Se actualiza la imagen del diagrama de clases y el diccionario de clases DDD                                                                                                                |
+| 7.4.0    | 15/11/2024 | Jhosepmyr Gutierrez Soto       | Se actualiza el diagrama de base de datos relacionado con DDD                                                                                                                               |
+| 7.5.0    | 15/11/2024 | Eric Hernández                 | Se agrega configuración adicional del entorno de desarrollo de software                                                                                                                     |
+| 7.6.0    | 15/11/2024 | Eric Hernández                 | Se mejora la sección de gestión de código fuente                                                                                                                                            |
+| 7.7.0    | 15/11/2024 | Eric Hernández                 | Se añaden más convenciones relacionadas con el estado                                                                                                                                       |
+| 7.8.0    | 15/11/2024 | Eric Hernández                 | Se agregan más detalles a la configuración de despliegue de software                                                                                                                        |
+| 7.9.0    | 15/11/2024 | Eric Hernández                 | Se mejora el objetivo del sprint, se actualiza la tabla de Trello y se agregan commits faltantes                                                                                            |
+| 8.0.0    | 15/11/2024 | Eric Hernández                 | Se agregan pruebas y evidencias de ejecución para revisión de sprint                                                                                                                        |
+| 8.1.0    | 15/11/2024 | Jhosepmyr Gutierrez Soto       | Se renombraron columnas en la tabla de evidencia de desarrollo para revisión de sprint                                                                                                      |
+| 8.2.0    | 15/11/2024 | Jhosepmyr Gutierrez Soto       | Se agregó evidencia de la suite de pruebas para revisión de sprint                                                                                                                          |
+| 8.3.0    | 15/11/2024 | Jhosepmyr Gutierrez Soto       | Se actualizaron evidencias de ejecución para revisión de sprint                                                                                                                             |
+| 8.4.0    | 15/11/2024 | Jhosepmyr Gutierrez Soto       | Se actualizó la documentación de servicios para revisión de sprint                                                                                                                          |
+| 8.5.0    | 15/11/2024 | Jhosepmyr Gutierrez Soto       | Se agregaron detalles previos a la evidencia de despliegue de software                                                                                                                      |
+| 8.6.0    | 16/11/2024 | Eric Hernández                 | Se agrega planificación de sprint y actualización de sprint backlog 2                                                                                                                       |
+| 8.7.0    | 16/11/2024 | Eric Hernández                 | Se agregan tareas faltantes a historias de usuario relacionadas                                                                                                                             |
+| 8.8.0    | 16/11/2024 | Eric Hernández                 | Se añaden evidencias de pruebas para revisión de sprint                                                                                                                                     |
+| 8.9.0    | 16/11/2024 | Jhosepmyr Gutierrez Soto       | Se actualizan evidencias de ejecución para revisión de sprint                                                                                                                               |
+| 9.0.0    | 16/11/2024 | Jhosepmyr Gutierrez Soto       | Se actualiza la documentación de servicios para revisión de sprint                                                                                                                          |
+| 9.1.0    | 16/11/2024 | Jhosepmyr Gutierrez Soto       | Se agregan más evidencias para insights de colaboración en equipo durante el sprint                                                                                                         |
+| 9.2.0    | 16/11/2024 | Jhosepmyr Gutierrez Soto       | Se mejora el objetivo del sprint 3 y se actualiza la captura de pantalla de Trello                                                                                                          |
+| 9.3.0    | 16/11/2024 | Jhosepmyr Gutierrez Soto       | Se agregan más evidencias para la colaboración en equipo durante el sprint 3                                                                                                                |
+| 9.4.0    | 16/11/2024 | Jhosepmyr Gutierrez Soto       | Se agregan detalles adicionales a la evidencia de despliegue de software para revisión de sprint                                                                                            |
+| 9.5.0    | 16/11/2024 | Jhosepmyr Gutierrez Soto       | Se eliminan imágenes innecesarias                                                                                                                                                           |
+| 9.6.0    | 16/11/2024 | Eric Hernández                 | Se agregaron más evidencias de colaboración en equipo durante el sprint                                                                                                                     |
+| 9.7.0    | 16/11/2024 | Eric Hernández                 | Se actualizaron historias técnicas y el backlog del producto                                                                                                                                |
+| 9.8.0    | 16/11/2024 | Eric Hernández                 | Se planificó el sprint 3 con una mejor definición del objetivo                                                                                                                              |
+| 9.9.0    | 16/11/2024 | Eric Hernández                 | Se actualizó el sprint backlog 3 y se cambiaron capturas de pantalla de Trello                                                                                                              |
+| 10.0.0   | 17/11/2024 | Jhosepmyr Gutierrez Soto       | Se añadieron commits faltantes a la evidencia de desarrollo para revisión de sprint 3                                                                                                       |
+| 10.1.0   | 17/11/2024 | Jhosepmyr Gutierrez Soto       | Se añadieron commits faltantes a la suite de pruebas para revisión de sprint 3                                                                                                              |
+| 10.2.0   | 17/11/2024 | Jhosepmyr Gutierrez Soto       | Se actualizaron evidencias de ejecución para revisión de sprint 3                                                                                                                           |
+| 10.3.0   | 17/11/2024 | Jhosepmyr Gutierrez Soto       | Se actualizó la documentación de servicios para revisión de sprint 3                                                                                                                        |
+| 10.4.0   | 17/11/2024 | Jhosepmyr Gutierrez Soto       | Se actualizaron evidencias de despliegue de software y colaboración en equipo para sprint 3                                                                                                 |
+| 10.5.0   | 17/11/2024 | Jhosepmyr Gutierrez Soto       | Se eliminaron imágenes innecesarias                                                                                                                                                         |
+| 10.6.0   | 18/11/2024 | Elmer Augusto Riva Rodriguez   | Se elimina una imagen repetida                                                                                                                                                              |
+| 10.7.0   | 18/11/2024 | Elmer Augusto Riva Rodriguez   | Se refactoriza el diagrama de componentes para cada contexto delimitado (C4 Modeling)                                                                                                       |
+| 10.8.0   | 18/11/2024 | Elmer Augusto Riva Rodriguez   | Se agregó reflexión de la asignación final (ABET)                                                                                                                                           |
+| 10.9.0   | 18/11/2024 | Eric Hernández                 | Se implementó la sección de validaciones, incluyendo entrevistas, imágenes y evaluación heurística                                                                                          |
+| 11.0.0   | 18/11/2024 | Eric Hernández                 | Se corrigió un error en las tablas de validaciones                                                                                                                                          |
+| 11.1.0   | 18/11/2024 | Elmer Augusto Riva Rodriguez   | Se actualizaron insights                                                                                                                                                                    |
 
 
 <div style="page-break-after: always;"></div>
 
 # Project Collaboration Insights
 
+URL del repositorio para el reporte del proyecto:
+
+[https://github.com/Open-Source-YaraSoftware/Informe](https://github.com/Open-Source-YaraSoftware/Informe)
+
+**TB1**
+
+Para el desarrollo del informe perteneciente a la entrega del TB1, se dividio la implementacion de secciones de la siguiente forma para cada integrante:
+
+| Integrantes              | Tareas Asignadas                                                                                                                                                                    |
+|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Eric Hernandez Tuiro     | Descripcion de la startup, desarrollo del Lean UX Process, diseño de las entrevistas, desarrollo de los artefactos y arquitectura de informacion.                                   |
+| Elmer Riva Rodriguez     | Desarrollo de las user stories, diseño de la guia de estilos general, diseño de la landing page , diseño de los user flow de la aplicacion web y desarrollo de la arquitectura DDD. |
+| Jhosepmyr Gutierrez Soto | Diseño de los wireframes y mockups de la aplicacion web, desarrollo de la arquitectura DDD, desarollo del diagrama de clases y el diagrama de base de datos.                        |
+
+**TP**
+
+Para el desarrollo del informe perteneciente a la entrega del TP, se dividio la implementacion de secciones de la siguiente forma para cada integrante:
+
+| Integrantes              | Tareas Asignadas                                                                                                                                                   |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Eric Hernandez Tuiro     | Correccion de los artefactos, correccion de las user stories y completar el diseño de la aplicacion web.                                                           |
+| Elmer Riva Rodriguez     | Correccion de la arquitectura C4, completar los user flows y user goals, completar Testing Suite Evidence for Sprint Review y Execution Evidence for Sprint Review |
+| Jhosepmyr Gutierrez Soto | Correccion del diagrama de clases y base de datos, completar el sprint planning 2, completar Development Evidence for Sprint Review.                               |
+
+
+**TB2**
+
+Para el desarrollo del informe perteneciente a la entrega del TB2, se dividio la implementacion de secciones de la siguiente forma para cada integrante:
+
+| Integrantes              | Tareas Asignadas                                                                                                                                    |
+|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Eric Hernandez Tuiro     | Elaboración de video about the product. Elaboración de entrevistas de validación.                                                                   |
+| Elmer Riva Rodriguez     | Evaluación según heurísticas, análisis de entrevistas de validación. Testing Suite Evidence for Sprint Review, Execution Evidence for Sprint Review |
+| Jhosepmyr Gutierrez Soto | Correccion del diagrama de clases y base de datos, y desarrollo Sprint Planning 3, Development Evidence for Sprint Review                           |
+
+**TF**
+
+Para el desarrollo del informe perteneciente a la entrega del TF, se dividio la implementacion de secciones de la siguiente forma para cada integrante:
+
+| Integrantes                 | Tareas Asignadas                                                                                           |
+|-----------------------------|------------------------------------------------------------------------------------------------------------|
+| Eric Hernandez Tuiro        | Elaboración y grabación de entrevistas de validación, incluyendo evaluación de cumplimiento de heurísticas |
+| Elmer Riva Rodriguez        | Execution Evidence for Sprint Review, Evaluación de del informe en general, y sprint 4 organización.       |
+| Jhosepmyr Gutierrez Soto    | Actualización del c4 modeling, sprint planning 4                                                           |
+| Jojan JorgeQuiñonez Tintaya | Corrección de errores en el informe, actualización de la bibliografía, actualización de los anexos.        |
+
+El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización Web-Application-YaraSoftware, donde cada integrante subió sus avances y se realizó una revisión constante de los mismos para asegurar la calidad del informe.
+
+**Github Collaboration Insights**
+
+Github también presenta una herramienta de timeline de las ramas y los procesos de merge que se han realizado en el proyecto. Estas mismas ramas se crearon siguiendo el flujo de trabajo de GitFlow, donde se crearon ramas de feature para cada sección del informe y se realizaron los merges correspondientes a la rama de desarrollo.
+
+Los integrantes son:
+* Jhosepmyr Orlando Gutiérrez Soto (jhosepmyr)
+* Eric Ernesto Hernández Tuiro (Eric396)
+* Elmer Augusto Riva Rodríguez (elmer-riva)
+* Jojan Jorge Quiñonez Tintaya (johaanq)
+
+Se explicará el proceso de la division de las ramas más importantes:
+* **main**: Rama principal del proyecto, donde se encuentran los cambios finales y aprobados del proyecto.
+* **develop**: Rama de desarrollo, donde se encuentran los cambios en desarrollo y se realizan los merges de las ramas de feature.
+* **feature-chapter-n**: Ramas de feature para cada sección del informe, donde se realizan los cambios correspondientes a cada sección del informe.
+* **feature-sprint-n**: Ramas de feature para cada sprint, donde se realizan los cambios correspondientes a cada sprint del proyecto.
+* **hotfix**: Ramas de hotfix para correcciones de errores críticos en el proyecto.
+
+![Network Graph](img/1/collaboration-insights/network_graph.png)
+
+Los siguientes gráficos muestran la cantidad de commits y líneas de código agregadas por cada integrante del equipo en el proyecto.
+
+![Commits_Graph](img/1/collaboration-insights/commits_over_time.png)
+
+El siguiente gráfico muestra la cantidad de commits realizados en la semana con mayor actividad en el proyecto.
+
+![Commits_timeline](img/1/collaboration-insights/commits_timeline.png)
+
 <div style="page-break-after: always;"></div>
-<img src = "img/1/1/2/insignths.png"> </img> 
 
 # Contenido
 
@@ -289,10 +415,10 @@
 
 **ABET – EAC - Student Outcome 3** Capacidad de comunicarse efectivamente con un rango de audiencias. 
 
-| Criterio Especifico | Acciones Realizadas | Conclusiones |
-| - | - | - |
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Jhosepmyr:<br> TB1: En este entregable yo participe ordenando al equipo en ocasiones para fomentar el trabajo en equipo constante. <br> TP: Fungi de nuevo lider a partir de este nuevo entregable, proyecte nuevas reuniones y consegui unir al equipo para desarrollar todas las actividades deseadas. <br>Eric:<br> TB1: En este primer entregable participé en todas las reuniones de trabajo y aporté ideas y participé en los debates importantes. Me sentí una pieza importante del equipo al mismo tiempo que consideré que todos los demás lo fueron por igual.<br> TP: En el trabajo parcial manteni unido al equipo en las reuniones grupales donde avanzamos el trabajo, me sentí pieza importante del trabajo. <br> Henry: <br> TB1: En este entregable el trabajo en equipo me sentí una pieza clave del equipo, en momentos donde hay inconvenientes o problemas estuve ahí para apoyar a mis compañeros, así como ellos me apoyaron a mi a lo largo de estas semanas. <br> TP: A lo largo de este entregable me sentí más capacitado para poder ayudar al equipo mediante mis habilidades técnicas y habilidades blandas a través de las reuniones constantes que teníamos a lo largo de la semana para avanzar o para coordinar las actividades. <br> Elmer: <br> TB1: En este primer entregable, trabajé en equipo asumiendo un liderazgo conjunto con mis compañeros. Colaboramos activamente en la toma de decisiones clave, como los flujos de usuario y la arquitectura de la información. Además, distribuimos las responsabilidades de forma equitativa, lo que nos permitió compartir el liderazgo y aprovechar las fortalezas de cada uno para cumplir con los objetivos del proyecto de manera eficiente. <br> TP: Para esta entrega me mantuve bastante abierto a la opinión de los demás y debati acerca de lo que era más correcto para la elaboración del proyecto. | Por ahora, sentimos que cumplimos con este criterio debido a los videos de exposición que hemos realizado y las entrevistas que nos han permitido seguir con nuestro proyecto. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | Jhosepmyr: <br> TB1: Usualmente escribia por el grupo de discord para reunirnos y notificaba los avances que se realizaban en reuniones rápidas que teníamos a lo largo de los días <br> TP: Para este entregable me comunique bastante con el equipo mediante chat para asignarles las tareas que tienen pendientes y ayudarles en lo que necesiten. <br> Eric: <br>TB1: Para ayudar a crear un entorno colaborativo saludable trabajé en un entorno colaborativo con los demás miembros del equipo al mismo tiempo que mantuve puntualidad en el cumplimiento de las tareas del trabajo.<br> TP: Durante este entregable ayude a modificar algunos artefactos para comunicar mejor el entendimiento del proyecto a las personas que lo lean. <br> Henry: <br> TB1: A pesar de los problemas que pasamos en el transcurso de este entregable, siento que pudimos, como equipo, mantenernos unidos y cooperativos unos con otros. Al inicio nos costo mantener la constancia pero poco a poco mediante metas que nos propusimos en el equipo logramos el objetivo. <br> TP: Para el presente entregable asumí el rol de mejorar todos los errores del informe, para que se entienda al completo al momento de leerlo. Siento que hice un gran trabajo y que no solo levante los errores, sino que mejore por completo los artefactos que teníamos anteriormente. <br> Elmer: <br>TB1: En este primer entregable, creé un entorno colaborativo e inclusivo, donde todos los miembros del equipo pudieron participar activamente. Establecimos metas claras desde el principio, como definir los flujos de usuario y la estructura de la UI. Planificamos las tareas de manera organizada, asignando responsabilidades específicas. Por ejemplo, coordinamos el desarrollo de los prototipos interactivos y la revisión conjunta de los User Flow Diagrams, lo que nos permitió cumplir con los objetivos en tiempo. <br> TP: Para el trabajo parcial mantuve mi organización en equipo e incluse mejore como me comunicaba con mi equipo, de esta manera siento que aproveche mis habilidades para potenciar el trabajo que venimos elaborando a lo largo del ciclo. <br>| Como equipo consideramos que vamos cumpliendo este criterio debido al gran esmero y dedicación que le estamos poniendo al informe a lo largo de estas semanas.  |
+| Criterio Especifico                                                    | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia.   | Jhosepmyr:<br> TB1: En este entregable yo participe ordenando al equipo en ocasiones para fomentar el trabajo en equipo constante. <br> TP: Fungi de nuevo lider a partir de este nuevo entregable, proyecte nuevas reuniones y consegui unir al equipo para desarrollar todas las actividades deseadas.<br> TB2: Contribuí a redactar las instrucciones para desplegar el backend de la aplicación elaborada, es to con el objetivo de que futuros developers puedan comprender y replicar el despliegue por su cuenta. <br> TF: Participé activamente en la presentación de los logros y conclusiones del proyecto, contribuyendo al desarrollo de la documentación que reflejó los resultados obtenidos. Además, colaboré en la identificación de áreas de mejora para optimizar las futuras fases del proyecto. <br>Eric:<br> TB1: En este primer entregable participé en todas las reuniones de trabajo y aporté ideas y participé en los debates importantes. Me sentí una pieza importante del equipo al mismo tiempo que consideré que todos los demás lo fueron por igual.<br> TP: En el trabajo parcial manteni unido al equipo en las reuniones grupales donde avanzamos el trabajo, me sentí pieza importante del trabajo. <br> TB2: Realicé avances en el back-end de la aplicación web. Los endpoints creados se encuentran debidamente documentados gracias al uso de la herramienta de swagger-ui. <br> TF: El mantener una comunicación constante con el público objetivo fue esencial para garantizar que sus expectativas se cumplieran de manera efectiva. El equipo implementó reuniones periódicas y utilizó plataformas como GitHub, lo que favoreció una excelente coordinación, trabajo colaborativo y alineación con los objetivos del proyecto. <br> TF: Se llevaron a cabo entrevistas de validación con los usuarios para evaluar su experiencia con la aplicación. Este proceso permitió transmitir el progreso del proyecto, obtener retroalimentación significativa y garantizar que se cumplieran los estándares de satisfacción del cliente. <br> Elmer: <br> TB1: En este primer entregable, trabajé en equipo asumiendo un liderazgo conjunto con mis compañeros. Colaboramos activamente en la toma de decisiones clave, como los flujos de usuario y la arquitectura de la información. Además, distribuimos las responsabilidades de forma equitativa, lo que nos permitió compartir el liderazgo y aprovechar las fortalezas de cada uno para cumplir con los objetivos del proyecto de manera eficiente. <br> TP: Para esta entrega me mantuve bastante abierto a la opinión de los demás y debati acerca de lo que era más correcto para la elaboración del proyecto. <br> TB2: Contribui con la elaboracion del back end y desarrollo del front end de manera que se pueda realizar un avance significativo y bajo los criterios establecidos, manteniendo en cuenta los deseos del cliente. <br> TF: Al elaborar el documento, se destacó la importancia de una comunicación escrita clara y precisa. Hicimos uso de herramientas como WhatsApp, Discord y GitHub para mantener a todos informados sobre los avances, discutir obstáculos y solicitar retroalimentación, lo que fortaleció el trabajo en equipo y permitió la resolución de problemas de manera efectiva. <br> Johan: <br> TB2: En este segundo entregable, mantuve una conunicación constante para facilitar el flujo del trabajo. A medida que avanzaba los cambios, recibia y aplicaba feedback de mis compañeros así me aseguraba de adaptarme a este nuevo proyecto. <br> TF: Durante la elaboración del proyecto se tuvo que comunicar de forma activa al público objetivo el desarrollo del mismo para así lograr mantenernos en línea con lo solicitado  | Consideramos que hemos cumplido con este criterio, ya que las exposiciones orales y entrevistas realizadas han sido fundamentales para mantener a todos informados y continuar con el desarrollo del proyecto. La participación activa en las reuniones y el feedback constante nos ha permitido avanzar correctamente. Un ejemplo concreto fue la reunión con el cliente donde pudimos esclarecer detalles importantes para el futuro desarrollo del proyecto, ajustando nuestras metas a sus expectativas. También, la retroalimentación de los usuarios durante las entrevistas nos permitió mejorar áreas clave de la aplicación, lo que fortaleció la relación con ellos y garantizó su satisfacción.                                                                                                                                                             |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | Jhosepmyr: <br> TB1: Usualmente escribia por el grupo de discord para reunirnos y notificaba los avances que se realizaban en reuniones rápidas que teníamos a lo largo de los días <br> TP: Para este entregable me comunique bastante con el equipo mediante chat para asignarles las tareas que tienen pendientes y ayudarles en lo que necesiten. <br> TB2: Se organizaron reuniones con el equipo de trabajo para conocer los avances constantes durante el sprint, además de realizar un video de presentación con lo realizado durante el sprint 2. <br> TF: En la presentación final, el equipo expuso de manera clara los logros alcanzados durante el proyecto, presentando además un video resumen del Sprint 4. La comunicación constante a través de reuniones permitió cumplir eficientemente con los objetivos establecidos y asegurar una coordinación adecuada <br> Eric: <br>TB1: Para ayudar a crear un entorno colaborativo saludable trabajé en un entorno colaborativo con los demás miembros del equipo al mismo tiempo que mantuve puntualidad en el cumplimiento de las tareas del trabajo.<br> TP: Durante este entregable ayude a modificar algunos artefactos para comunicar mejor el entendimiento del proyecto a las personas que lo lean. <br> TB2: En la presentación del proyecto se explica a detalle el desarrollo del tercer sprint y la organización del código del proyecto. Se incluye el proceso de deployment y los insights de la colaboración del equipo durante el sprint. <br> Elmer: <br>TB1: En este primer entregable, creé un entorno colaborativo e inclusivo, donde todos los miembros del equipo pudieron participar activamente. Establecimos metas claras desde el principio, como definir los flujos de usuario y la estructura de la UI. Planificamos las tareas de manera organizada, asignando responsabilidades específicas. Por ejemplo, coordinamos el desarrollo de los prototipos interactivos y la revisión conjunta de los User Flow Diagrams, lo que nos permitió cumplir con los objetivos en tiempo. <br> TP: Para el trabajo parcial mantuve mi organización en equipo e incluse mejore como me comunicaba con mi equipo, de esta manera siento que aproveche mis habilidades para potenciar el trabajo que venimos elaborando a lo largo del ciclo. <br> TB2: Realice el sprint backlog del sprint 3, ademas de organizar sprint en trello para la documentacion de avances y organizacion de entregables. <br> TF: En el entregable final, el equipo colaboró estrechamente para establecer metas precisas, asegurando el correcto funcionamiento de la aplicación y una experiencia de usuario óptima. Se asignaron responsabilidades, se resolvieron errores y se mejoró la nomenclatura del código, lo que permitió un desarrollo más organizado y eficiente a futuro. <br> Johan: <br> TB2: Para este entregable, mantuve una comunicación escrita constante con el equipo para asegurar un buen progreso. Avance por parte del backend payment, membership y transaction, para el frontend mockups de login y signup, recibi igual feedbacks de mis compañeros para que mi avance se acople al proyecto. <br> TF: Para el entregable final, se priorizó asegurar que la aplicación funcionara correctamente y brindara una excelente experiencia al usuario. Se realizaron correcciones de bugs y ajustes en la nomenclatura del código, con el objetivo de facilitar un desarrollo futuro más estructurado y fluido.                                                                                                                                                                                                                                                                            | Consideramos que hemos avanzado satisfactoriamente en este criterio, ya que el esfuerzo continuo en la comunicación escrita ha permitido que el equipo mantenga un alto nivel de colaboración, asegurando una coordinación eficaz en todas las fases del proyecto. Un ejemplo claro de esto fue el uso de Trello, donde pudimos organizar de manera visual las tareas del sprint, asignar responsabilidades y hacer seguimiento de los avances en tiempo real. Además, las reuniones y la documentación a través de herramientas como GitHub permitieron que todos los miembros del equipo estuvieran alineados en cuanto a los avances, bloqueos y expectativas. La comunicación escrita efectiva también fue crucial para asegurar que el cliente recibiera actualizaciones regulares sobre el progreso del proyecto, lo que aumentó su confianza en nuestro equipo. |
 
 <div style="page-break-after: always;"></div>
 
@@ -313,8 +439,10 @@ Yara Software es una startup conformada por jóvenes estudiantes de la carrera d
 | - | - | - | - | - |
 | <img src = "img/1/1/2/Jhosepmyr.jpeg"> </img> | Jhosepmyr Orlando Gutiérrez Soto | 202317638 | Ingeniería de Software | Experiencia en desarrollo frontend y backend. Conocimiento alto en BlockChain. Determinación y seguridad en los trabajos en equipo |
 | <img src = "img/1/1/2/Eric.jpeg"> </img> | Eric Ernesto Hernández Tuiro | 20221C857 | Ingeniería de Software | Programación en C++ y Python. Resolución de problemas y resiliencia ante situaciones de presión. | 
-| <img src = "img/1/1/2/Henry.jpeg"> </img> | Henry Paolo Reaño Delgadillo | 20221e247 | Ingeniería de Software | Programación en C++ y Javascript. Conocimiento intermedio sobre patrones de software. Capacidad alta para trabajar en equipo. | 
 | <img src = "img/1/1/2/Elmer.jpeg"> </img> | Elmer Augusto Riva Rodríguez | 202220829 | Ingeniería de Software | Diseño de experiencias de usuario y programación con C++ y Python. Competente en la gestión de proyectos grupales. |
+| <img src = "img/1/1/2/Elmer"> </img> | Jojan Jorge Quiñonez Tintaya | 202218183 | Ingeniería de Software | He adquirido una base sólida en algoritmos y programación orientada a objetos, lo que me permite enfrentar desafíos de desarrollo con eficacia. |
+| <img src = "img/1/1/2/Elmer"> </img> | Mauro Fabricio Lopez de la Cruz | 202218183 | Ingeniería de Software | Tengo conocomiento en c++ , python, html ,css, javascript. Me considero una persona amable con capacidad de tener una muy buena comunnicacion en trabajos en grupo para el desarrollo de proyectos dando y ayudando en la solucion de problemas . |
+
 
 ## 1.2. Solution Profile
 
@@ -436,6 +564,7 @@ Obstáculos:
 + Creemos que lograremos el 20% de nuestros clientes use la suscripción premium si clientes de taller logran sentirse más satisfechos con el servicio mediante sistema de aforo del taller
 
 #### 1.2.2.4. Lean UX Canvas
+![lean-ux-canvas.png](img%2F1%2F1%2F3%2Flean-ux-canvas.png)
 
 ## 1.3. Segmentos objetivo
 
@@ -699,7 +828,7 @@ PARTE III: Finalmente, haremos preguntas relacionadas a la naturaleza y caracter
 
 ### 2.2.2. Registro de entrevistas
 
-[text](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ES8DkIjICzxHuXzDnPTW-6wBRsy-hmMG7HxQOQzXi_SNUw?e=VeVmOs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzAwLjE0fX0%3D)
+[Link del video de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ES8DkIjICzxHuXzDnPTW-6wBRsy-hmMG7HxQOQzXi_SNUw?e=VeVmOs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzAwLjE0fX0%3D)
 
 <table>
     <tr>
@@ -1168,7 +1297,7 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="4">US-01</td>
+        <td scope="row" rowspan="4">US-01</td>
         <td rowspan="4">Formulario de registro</td>
         <td rowspan="4">Como dueño de taller quiero registrar una cuenta de usuario para empezar a utilizar la aplicación para gestionar mi taller</td>
         <td>Scenario: Registro exitoso
@@ -1205,7 +1334,7 @@ And el dueño de taller permanece en la página de registro</td>
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="4">US-02</td>
+        <td scope="row" rowspan="4">US-02</td>
         <td rowspan="4">Pantalla de login</td>
         <td rowspan="4">Como usuario quiero acceder a mi cuenta para usar las funcionalidades de la aplicación</td>
         <td>Scenario: Inicio de sesión exitoso
@@ -1219,14 +1348,14 @@ Then el sistema carga la información de su cuenta y accede a la pantalla princi
         <td>Scenario: Datos inválidos en el login
 Given que el usuario está en la pagina de login
 And ha completado los campos requeridos con datos que no están asociados a una cuenta
-When el usuario ordena  "Entrar"
+When el usuario ordena "Entrar"
 Then el sistema muestra un mensaje de error indicando que los datos son inválidos
 And el usuario permanece en la pantalla de login
 </td>
     </tr>
     <tr>
         <td>Scenario: Datos incompletos en el login
-Given que el usuario está en la pagina de login
+Given que el usuario está en la página de login
 And no ha completado todos los campos requeridos
 When el usuario ordena "Entrar"
 Then el sistema muestra un mensaje de error indicando que los datos son inválidos
@@ -1238,13 +1367,13 @@ And el usuario permanece en la pantalla de login
 Scenario Outline: Validación de datos en el login
 Given que el usuario está en la página de login
 And completa el campo <campo> con <dato>
-When el usuario ordena  "Entrar"
+When el usuario ordena "Entrar"
 Then el sistema muestra el mensaje de error "<mensaje de error>"
 And el usuario permanece en la pantalla de login</td>
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="4">US-03</td>
+        <td scope="row" rowspan="4">US-03</td>
         <td rowspan="4">Creación de cuentas de taller</td>
         <td rowspan="4">Como dueño de taller quiero registrar a mis clientes y personal en el sistema para gestionar la información de las intervenciones y tareas en el taller</td>
         <td>Scenario Outline: Registro exitoso
@@ -1281,7 +1410,7 @@ And el dueño de taller permanece en la página de registro
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="4">US-04</td>
+        <td scope="row" rowspan="4">US-04</td>
         <td rowspan="4">Personal</td>
         <td rowspan="4">Como dueño de taller quiero visualizar mi lista de empleados saber qué empleados están registrados en el sistema</td>
         <td>Scenario: Sin empleados
@@ -1314,7 +1443,7 @@ Then el sistema muestra la información básica de los empleados que presenten c
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="5">US-05</td>
+        <td scope="row" rowspan="5">US-05</td>
         <td rowspan="5">Detalles de empleado</td>
         <td rowspan="5">Como dueño de taller quiero manejar la información de mis empleados para gestionar sus cuentas</td>
         <td>Scenario: Detalles de empleado
@@ -1354,7 +1483,7 @@ Then el sistema muestra la información completa de dicho empleado</td>
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="3">US-06</td>
+        <td scope="row" rowspan="3">US-06</td>
         <td rowspan="3">Clientes</td>
         <td rowspan="3">Como dueño de taller quiero visualizar mi lista de clientes para saber quiénes son mis clientes</td>
         <td>Scenario: Lista de clientes
@@ -1380,7 +1509,7 @@ Then el sistema muestra la información básica de los clientes que presenten co
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="5">US-07</td>
+        <td scope="row" rowspan="5">US-07</td>
         <td rowspan="5">Detalles de clientes</td>
         <td rowspan="5">Como dueño de taller quiero manejar información de mis clientes para mantener sus datos actualizados y aprovecharlos</td>
         <td>Scenario: Detalles de cliente
@@ -1420,7 +1549,7 @@ Then el sistema muestra la información completa de dicho cliente</td>
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="4">US-08</td>
+        <td scope="row" rowspan="4">US-08</td>
         <td rowspan="4">Intervenciones</td>
         <td rowspan="4">Como dueño de taller quiero visualizar las intervenciones para controlar los servicios realizados y pendientes en el taller</td>
         <td>Scenario: Lista de intervenciones
@@ -1452,7 +1581,7 @@ Then el sistema ordena y muestra las intervenciones según el campo seleccionado
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="4">US-09</td>
+        <td scope="row" rowspan="4">US-09</td>
         <td rowspan="4">Creación de intervenciones</td>
         <td rowspan="4">Como dueño de taller quiero poder gestionar las intervenciones de mi taller para organizar eficientemente a mis mecánicos</td>
         <td>Scenario: Crear intervención desde mis intervenciones
@@ -1485,7 +1614,7 @@ Then el sistema muestra un mensaje de error indicando los campos que requieren c
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="5">US-10</td>
+        <td scope="row" rowspan="5">US-10</td>
         <td rowspan="5">Detalles de intervención</td>
         <td rowspan="5">Como dueño de taller quiero visualizar los detalles asociados a una intervención para tener un control claro y detallado del trabajo realizado y gestionar los cambios de los clientes</td>
         <td>Scenario: Detalles de generales de intervención
@@ -1524,7 +1653,7 @@ Then el sistema elimina la intervención</td>
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="6">US-11</td>
+        <td scope="row" rowspan="6">US-11</td>
         <td rowspan="6">Existencias de inventario</td>
         <td rowspan="6">Como dueño de taller quiero poder manejar existencias en mi inventario para asegurar que siempre haya disponibilidad de piezas y materiales necesarios para las intervenciones eficientemente</td>
         <td>Scenario: Visualización de existencias
@@ -1571,7 +1700,7 @@ Then el sistema ordena las entradas de inventario según el campo seleccionado</
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="4">US-12</td>
+        <td scope="row" rowspan="4">US-12</td>
         <td rowspan="4">Solicitudes de inventario</td>
         <td rowspan="4">Como dueño de taller quiero manejar solicitudes de inventario realizadas por los mecánicos para conocer los materiales y repuestos necesarios para las intervenciones pendientes</td>
         <td>Scenario: Visualización de solicitudes de inventario
@@ -1605,7 +1734,7 @@ Then el sistema ordena y muestra las solicitudes de inventario según el campo s
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="4">US-13</td>
+        <td scope="row" rowspan="4">US-13</td>
         <td rowspan="4">Métricas</td>
         <td rowspan="4">Como dueño de taller quiero contar con métricas de rendimiento de mi negocio y características de clientes para conocer el rendimiento y tomar mejores decisiones que mejoren la eficiencia</td>
         <td>Scenario: Total de intervenciones por día
@@ -1634,7 +1763,7 @@ Then el sistema muestra un gráfico de barras que indique la distribución porce
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="2">US-14</td>
+        <td scope="row" rowspan="2">US-14</td>
         <td rowspan="2">Notificaciones</td>
         <td rowspan="2">Como usuario quiero recibir notificaciones para estar al tanto y llevar un registro de eventos importantes de la aplicación</td>
         <td>Scenario: Visualización de notificaciones
@@ -1652,7 +1781,7 @@ Then el sistema redirige al vinculo asociado</td>
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="2">US-15</td>
+        <td scope="row" rowspan="2">US-15</td>
         <td rowspan="2">US-15 Mis tareas (líder)</td>
         <td rowspan="2">Como mecánico quiero poder visualizar las intervenciones donde funjo como líder para asignar tareas a mis compañeros</td>
         <td>Scenario: Visualización de tareas
@@ -1670,7 +1799,7 @@ Then el sistema muestra detalles de la intervención con secciones información,
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="2">US-16</td>
+        <td scope="row" rowspan="2">US-16</td>
         <td rowspan="2">US-16 Mis tareas (asistente)</td>
         <td rowspan="2">Como mecánico quiero poder visualizar mis tareas pendientes para poder hacer seguimiento del trabajo que queda por hacer en mis vehículos.</td>
         <td>Scenario: Visualización de tareas
@@ -1688,7 +1817,7 @@ Then el sistema muestra detalles de la intervención con secciones información 
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="4">US-17</td>
+        <td scope="row" rowspan="4">US-17</td>
         <td rowspan="4">Información de intervención</td>
         <td rowspan="4">Como mecánico quiero consultar información relevante de la intervención para realizar un mejor diagnóstico</td>
         <td>Scenario: Información IoT
@@ -1700,7 +1829,7 @@ Then el sistema muestra un resumen de la información más reciente obtenida por
     <tr>
         <td>Scenario: Información general
 Given el mecánico se encuentra en los detalles de una intervención
-When se se carga el contenido de la intervención
+When se carga el contenido de la intervención
 Then el sistema muestra la información general de la intervención como cliente, vehículo, modalidad, fecha, entre otros.</td>
     </tr>
     <tr>
@@ -1718,7 +1847,7 @@ Then el sistema muestra los detalles de la intervención seleccionada</td>
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="5">US-18</td>
+        <td scope="row" rowspan="5">US-18</td>
         <td rowspan="5">Diagnóstico de intervención</td>
         <td rowspan="5">Como mecánico quiero poder modelar el diagnóstico de intervención para registrar la secuencia de tareas que se deben realizar para terminar el trabajo</td>
         <td>Scenario: Distribución de tareas
@@ -1766,7 +1895,7 @@ And regresa al estado previo del último guardado</td>
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="4">US-19</td>
+        <td scope="row" rowspan="4">US-19</td>
         <td rowspan="4">Ejecución de intervención</td>
         <td rowspan="4">Como mecánico quiero poder modelar el diagnóstico de intervención para registrar la secuencia de tareas que se deben realizar para terminar el trabajo</td>
         <td>Scenario: Visualización de solicitudes de inventario
@@ -1799,7 +1928,7 @@ Then se muestra el registro de las tareas completadas </td>
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="3">US-20</td>
+        <td scope="row" rowspan="3">US-20</td>
         <td rowspan="3">Supervisión de intervención</td>
         <td rowspan="3">Como mecánico quiero poder verificar el cumplimiento de todas las tareas de intervención para poder registrar el trabajo como terminado</td>
         <td>Scenario: Visualización de estado de tareas
@@ -1828,7 +1957,7 @@ And muestra un mensaje de intervención terminada exitosamente</td>
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="6">US-21</td>
+        <td scope="row" rowspan="6">US-21</td>
         <td rowspan="6">Registro de vehículos</td>
         <td rowspan="6">Como usuario quiero poder registrar vehículos para poder asociar y monitorear su información mediante la aplicación</td>
         <td>Scenario: Visualización de vehículos
@@ -1872,7 +2001,7 @@ Then el sistema elimina el vehículo correspondiente de su lista de vehículos</
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="2">US-22</td>
+        <td scope="row" rowspan="2">US-22</td>
         <td rowspan="2">Linea de tiempo de registro de intervenciones</td>
         <td rowspan="2">Como usuario quiero acceder al registro de intervenciones de un vehículo para utilizar la información para tomar mejores decisiones</td>
         <td>Scenario: Línea de tiempo de historial de intervenciones
@@ -1891,7 +2020,7 @@ Then el sistema muestra la información completa correspondiente a dicha interve
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="2">US-23</td>
+        <td scope="row" rowspan="2">US-23</td>
         <td rowspan="2">Información IoT de vehículo</td>
         <td rowspan="2">Como usuario quiero acceder a la información generada por el dispositivo IoT del vehículo para conocer el estado actual del vehículo más rápidamente</td>
         <td>Scenario: Mostrar información IoT
@@ -1909,7 +2038,7 @@ Then el sistema muestra un mensaje con el significado del código de error</td>
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="3">US-24</td>
+        <td scope="row" rowspan="3">US-24</td>
         <td rowspan="3">Agendar cita de intervención</td>
         <td rowspan="3">Como usuario quiero agendar citas de intervención para ahorrarme tiempo</td>
         <td>Scenario: Registro exitoso
@@ -1938,7 +2067,7 @@ And permanece en la página de registro</td>
     </tr>
     <!---->
     <tr>
-        <th scope="row" rowspan="1">US-25</td>
+        <td scope="row" rowspan="1">US-25</td>
         <td rowspan="1">Agendar cita de intervención</td>
         <td rowspan="1">Como usuario quiero agendar citas de intervención para ahorrarme tiempo</td>
         <td>Scenario: Redirección a rol
@@ -1950,526 +2079,819 @@ Then el sistema carga la información de su cuenta
 And carga las <secciones> correspondientes a su cuenta en la pantalla principal</td>
         <td rowspan="1">EP-05</td>
     <!---->
-    <tr>
-        <th scope="row" rowspan="2">TS-01</td>
-        <td rowspan="2">Crear Usuario a través de la API RESTful</td>
-        <td rowspan="2">Como desarrollador Quiero agregar un usuario a través de la API Para que el usuario pueda registrarse y acceder al sistema del taller.</td>
-        <td>Scenario: Crear usuario con datos válidos<br>Given el endpoint "/api/v1/user" está disponible<br>When se envía una solicitud POST con valores válidos para nombre, email y contraseña<br>Then se recibe un estado 201<br>And el recurso Usuario se incluye en el cuerpo de la respuesta con un nuevo Id y los valores registrados para nombre, email y fecha de registro.</td>
-        <td rowspan="2"> EP-02</td>
-    </tr>
-    <tr>
-        <td>Scenario: Crear usuario con datos inválidos<br>Given el endpoint "/api/v1/user" está disponible<br>When se envía una solicitud POST con valores inválidos o faltantes para nombre, email o contraseña<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="3">TS-02</td>
-        <td rowspan="3">Crear Vehículo a través de la API RESTful</td>
-        <td rowspan="3">Como desarrollador Quiero agregar un vehículo a través de la API Para que se pueda gestionar el vehículo de cada usuario.</td>
-        <td>Scenario: Crear vehículo con datos válidos<br>Given el endpoint "/api/v1/vehicle" está disponible<br>When se envía una solicitud POST con valores válidos para placa, marca, modelo<br>Then se recibe un estado 201<br>And el recurso Vehículo se incluye en el cuerpo de la respuesta con un nuevo Id y los valores registrados para placa, marca, modelo.</td>
-        <td rowspan="3"> EP-02</td>
-    </tr>
-    <tr>
-        <td>Scenario: Crear vehículo con datos inválidos<br>Given el endpoint "/api/v1/vehicle" está disponible<br>When se envía una solicitud POST con valores inválidos o faltantes para placa, marca, modelo.<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
-    </tr>
-    <tr>
-        <td>Scenario: Crear vehículo con placa duplicada<br>Given el endpoint "/api/v1/vehicle" está disponible<br>And ya existe un recurso Vehículo con el mismo valor para placa<br>When se envía una solicitud POST con valores válidos para placa, marca, modelo.<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta con el valor "Este vehículo ya ha sido creado".</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="2">TS-03</td>
-        <td rowspan="2">Crear Solicitud a través de la API RESTful</td>
-        <td rowspan="2">Como desarrollador Quiero agregar una solicitud a través de la API Para que se pueda gestionar la necesidad de piezas y repuestos en el taller.</td>
-        <td>Scenario: Crear solicitud con datos válidos<br>Given el endpoint "/api/v1/request" está disponible<br>When se envía una solicitud POST con valores válidos para idMecanico, repuesto y cantidad<br>Then se recibe un estado 201<br>And el recurso Solicitud se incluye en el cuerpo de la respuesta con un nuevo Id y los valores registrados para idMecanico, repuesto y cantidad.</td>
-        <td rowspan="2"> EP-02</td>
-    </tr>
-    <tr>
-        <td>Scenario: Crear solicitud con datos inválidos<br>Given el endpoint "/api/v1/request" está disponible<br>When se envía una solicitud POST con valores inválidos o faltantes para idMecanico, repuesto o cantidad<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="2">TS-04</td>
-        <td rowspan="2">Crear Ítem de Inventario a través de la API RESTful</td>
-        <td rowspan="2">Como desarrollador Quiero agregar un ítem de inventario a través de la API Para que se tenga un control adecuado del inventario en el taller.</td>
-        <td>Scenario: Crear ítem de inventario con datos válidos<br>Given el endpoint "/api/v1/inventory/item" está disponible<br>When se envía una solicitud POST con valores válidos para nombre y cantidad<br>Then se recibe un estado 201<br>And el recurso Ítem de Inventario se incluye en el cuerpo de la respuesta con un nuevo Id y los valores registrados para nombre y cantidad.</td>
-        <td rowspan="2"> EP-02</td>
-    </tr>
-    <tr>
-        <td>Scenario: Crear ítem de inventario con datos inválidos<br>Given el endpoint "/api/v1/inventory/item" está disponible<br>When se envía una solicitud POST con valores inválidos o faltantes para nombre o cantidad<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="2">TS-05</td>
-        <td rowspan="2">Crear Intervención a través de la API RESTful</td>
-        <td rowspan="2">Como desarrollador Quiero agregar una intervención a través de la API Para que se registren las reparaciones y el mantenimiento realizados a un vehículo.</td>
-        <td>Scenario: Crear intervención con datos válidos<br>Given el endpoint "/api/v1/intervention" está disponible<br>When se envía una solicitud POST con valores válidos para vehículoId, mecánicoId y descripción<br>Then se recibe un estado 201<br>And el recurso Intervención se incluye en el cuerpo de la respuesta con un nuevo Id y los valores registrados para vehículoId, mecánicoId y descripción.</td>
-        <td rowspan="2"> EP-02</td>
-    </tr>
-    <tr>
-        <td>Scenario: Crear intervención con datos inválidos<br>Given el endpoint "/api/v1/intervention" está disponible<br>When se envía una solicitud POST con valores inválidos o faltantes para vehículoId, mecánicoId o descripción<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="2">TS-06</td>
-        <td rowspan="2">Crear Tarea dentro de una Intervención a través de la API RESTful</td>
-        <td rowspan="2">Como desarrollador Quiero agregar una tarea dentro de una intervención a través de la API Para que las tareas asociadas a las intervenciones sean gestionadas correctamente.</td>
-        <td>Scenario: Crear tarea con datos válidos<br>Given el endpoint "/api/v1/intervention/{interventionId}/task" está disponible<br>When se envía una solicitud POST con valores válidos para mecánicoId y descripción<br>Then se recibe un estado 201<br>And el recurso Tarea se incluye en el cuerpo de la respuesta con un nuevo Id y los valores registrados para  mecánicoId y descripción</td>
-        <td rowspan="2"> EP-02</td>
-    </tr>
-    <tr>
-        <td>Scenario: Crear tarea con datos inválidos<br>Given el endpoint "/api/v1/intervention/{interventionId}/task" está disponible<br>When se envía una solicitud POST con valores inválidos o faltantes para  mecánicoId o descripción<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="2">TS-07</td>
-        <td rowspan="2">Eliminar Intervención a través de la API RESTful</td>
-        <td rowspan="2">Como desarrollador Quiero eliminar una intervención a través de la API Para que se pueda eliminar una intervención del sistema.</td>
-        <td>Scenario: Eliminar intervención existente<br>Given el endpoint "/api/v1/intervention/{id}" está disponible<br>When se envía una solicitud DELETE con el ID de una intervención existente<br>Then se recibe un estado 204<br>And la intervención se elimina del sistema.</td>
-        <td rowspan="2"> EP-02</td>
-    </tr>
-    <tr>
-        <td>Scenario: Eliminar intervención inexistente<br>Given el endpoint "/api/v1/intervention/{id}" está disponible<br>When se envía una solicitud DELETE con el ID de una intervención que no existe<br>Then se recibe un estado 404<br>And se incluye un mensaje de error en el cuerpo de la respuesta con el valor "La intervención no fue encontrada".</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="2">TS-08</td>
-        <td rowspan="2">Eliminar Tarea a través de la API RESTful</td>
-        <td rowspan="2">Como desarrollador Quiero eliminar una tarea a través de la API Para que se pueda eliminar una tarea de una intervención del sistema.</td>
-        <td>Scenario: Eliminar tarea existente<br>Given el endpoint "/api/v1/intervention/{interventionId}/task/{taskId}" está disponible<br>When se envía una solicitud DELETE con el ID de una tarea existente dentro de una intervención<br>Then se recibe un estado 204<br>And la tarea se elimina del sistema.</td>
-        <td rowspan="2"> EP-02</td>
-    </tr>
-    <tr>
-        <td>Scenario: Eliminar tarea inexistente<br>Given el endpoint "/api/v1/intervention/{interventionId}/task/{taskId}" está disponible<br>When se envía una solicitud DELETE con el ID de una tarea que no existe dentro de una intervención<br>Then se recibe un estado 404<br>And se incluye un mensaje de error en el cuerpo de la respuesta con el valor "La tarea no fue encontrada".</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="2">TS-09</td>
-        <td rowspan="2">Actualizar Usuario a través de la API RESTful</td>
-        <td rowspan="2">Como desarrollador Quiero actualizar un usuario a través de la API Para que se puedan modificar los detalles de los usuarios existentes.</td>
-        <td>Scenario: Actualizar usuario con datos válidos<br>Given el endpoint "/api/v1/user/{id}" está disponible<br>When se envía una solicitud PUT con valores válidos para nombre, email y contraseña<br>Then se recibe un estado 200<br>And el recurso Usuario se actualiza con los nuevos valores en el cuerpo de la respuesta.</td>
-        <td rowspan="2"> EP-02</td>
-    </tr>
-    <tr>
-        <td>Scenario: Actualizar usuario con datos inválidos<br>Given el endpoint "/api/v1/user/{id}" está disponible<br>When se envía una solicitud PUT con valores inválidos o faltantes para nombre, email o contraseña<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="2">TS-10</td>
-        <td rowspan="2">Actualizar Vehículo a través de la API RESTful</td>
-        <td rowspan="2">Como desarrollador Quiero actualizar un vehículo a través de la API Para que se puedan modificar los detalles de los vehículos existentes.</td>
-        <td>Scenario: Actualizar vehículo con datos válidos<br>Given el endpoint "/api/v1/vehicle/{id}" está disponible<br>When se envía una solicitud PUT con valores válidos para placa, marca, modelo y usuarioId<br>Then se recibe un estado 200<br>And el recurso Vehículo se actualiza con los nuevos valores en el cuerpo de la respuesta.</td>
-        <td rowspan="2"> EP-02</td>
-    </tr>
-    <tr>
-        <td>Scenario: Actualizar vehículo con datos inválidos<br>Given el endpoint "/api/v1/vehicle/{id}" está disponible<br>When se envía una solicitud PUT con valores inválidos o faltantes para placa, marca, modelo o usuarioId<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="2">TS-11</td>
-        <td rowspan="2">Actualizar Solicitud a través de la API RESTful</td>
-        <td rowspan="2">Como desarrollador Quiero actualizar una solicitud a través de la API Para que se puedan modificar los detalles de las solicitudes existentes.</td>
-        <td>Scenario: Actualizar solicitud con datos válidos<br>Given el endpoint "/api/v1/request/{id}" está disponible<br>When se envía una solicitud PUT con valores válidos para idMecanico, repuesto y cantidad<br>Then se recibe un estado 200<br>And el recurso Solicitud se actualiza con los nuevos valores en el cuerpo de la respuesta.</td>
-        <td rowspan="2"> EP-02</td>
-    </tr>
-    <tr>
-        <td>Scenario: Actualizar solicitud con datos inválidos<br>Given el endpoint "/api/v1/request/{id}" está disponible<br>When se envía una solicitud PUT con valores inválidos o faltantes para idMecanico, repuesto o cantidad<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="2">TS-12</td>
-        <td rowspan="2">Actualizar Ítem de Inventario a través de la API RESTful</td>
-        <td rowspan="2">Como desarrollador Quiero actualizar un ítem de inventario a través de la API Para que se puedan modificar los detalles de los ítems de inventario existentes.</td>
-        <td>Scenario: Actualizar ítem de inventario con datos válidos<br>Given el endpoint "/api/v1/inventory/item/{id}" está disponible<br>When se envía una solicitud PUT con valores válidos para nombre y cantidad<br>Then se recibe un estado 200<br>And el recurso Ítem de Inventario se actualiza con los nuevos valores en el cuerpo de la respuesta.</td>
-        <td rowspan="2"> EP-02</td>
-    </tr>
-    <tr>
-        <td>Scenario: Actualizar ítem de inventario con datos inválidos<br>Given el endpoint "/api/v1/inventory/item/{id}" está disponible<br>When se envía una solicitud PUT con valores inválidos o faltantes para nombre o cantidad<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="2">TS-13</td>
-        <td rowspan="2">Actualizar Intervención a través de la API RESTful</td>
-        <td rowspan="2">Como desarrollador Quiero actualizar una intervención a través de la API Para que se puedan modificar los detalles de las intervenciones existentes.</td>
-        <td>Scenario: Actualizar intervención con datos válidos<br>Given el endpoint "/api/v1/intervention/{id}" está disponible<br>When se envía una solicitud PUT con valores válidos para vehículoId, mecánicoId y descripción<br>Then se recibe un estado 200<br>And el recurso Intervención se actualiza con los nuevos valores en el cuerpo de la respuesta.</td>
-        <td rowspan="2"> EP-02</td>
-    </tr>
-    <tr>
-        <td>Scenario: Actualizar intervención con datos inválidos<br>Given el endpoint "/api/v1/intervention/{id}" está disponible<br>When se envía una solicitud PUT con valores inválidos o faltantes para vehículoId, mecánicoId o descripción<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="2">TS-14</td>
-        <td rowspan="2">Actualizar Tarea dentro de una Intervención a través de la API RESTful</td>
-        <td rowspan="2">Como desarrollador Quiero actualizar una tarea dentro de una intervención a través de la API Para que se puedan modificar los detalles de las tareas asociadas a una intervención.</td>
-        <td>Scenario: Actualizar tarea con datos válidos<br>Given el endpoint "/api/v1/intervention/{interventionId}/task/{taskId}" está disponible<br>When se envía una solicitud PUT con valores válidos para mecánicoID y descripción<br>Then se recibe un estado 200<br>And el recurso Tarea se actualiza con los nuevos valores en el cuerpo de la respuesta.</td>
-        <td rowspan="2"> EP-02</td>
-    </tr>
-    <tr>
-        <td>Scenario: Actualizar tarea con datos inválidos<br>Given el endpoint "/api/v1/intervention/{interventionId}/task/{taskId}" está disponible<br>When se envía una solicitud PUT con valores inválidos o faltantes para mecánicoID o descripción<br>Then se recibe un estado 400<br>And se incluye un mensaje de error en el cuerpo de la respuesta.</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="2">TS-15</td>
-        <td rowspan="2">Consultar Usuario a través de la API RESTful</td>
-        <td rowspan="2">Como desarrollador Quiero consultar los detalles de un usuario a través de la API Para que se pueda obtener la información del usuario registrado.</td>
-        <td>Scenario: Consultar usuario existente<br>Given el endpoint "/api/v1/user/{id}" está disponible<br>When se envía una solicitud GET con el ID de un usuario existente<br>Then se recibe un estado 200<br>And se incluye el recurso Usuario en el cuerpo de la respuesta con los valores registrados.</td>
-        <td rowspan="2"> EP-02</td>
-    </tr>
-    <tr>
-        <td>Scenario: Consultar usuario inexistente<br>Given el endpoint "/api/v1/user/{id}" está disponible<br>When se envía una solicitud GET con el ID de un usuario que no existe<br>Then se recibe un estado 404<br>And se incluye un mensaje de error en el cuerpo de la respuesta con el valor "El usuario no fue encontrado".</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="2">TS-16</td>
-        <td rowspan="2">Consultar Vehículo a través de la API RESTful</td>
-        <td rowspan="2">Como desarrollador Quiero consultar los detalles de un vehículo a través de la API Para que se pueda obtener la información del vehículo registrado.</td>
-        <td>Scenario: Consultar vehículo existente<br>Given el endpoint "/api/v1/vehicle/{id}" está disponible<br>When se envía una solicitud GET con el ID de un vehículo existente<br>Then se recibe un estado 200<br>And se incluye el recurso Vehículo en el cuerpo de la respuesta con los valores registrados.</td>
-        <td rowspan="2"> EP-02</td>
-    </tr>
-    <tr>
-        <td>Scenario: Consultar vehículo inexistente<br>Given el endpoint "/api/v1/vehicle/{id}" está disponible<br>When se envía una solicitud GET con el ID de un vehículo que no existe<br>Then se recibe un estado 404<br>And se incluye un mensaje de error en el cuerpo de la respuesta con el valor "El vehículo no fue encontrado".</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="2">TS-17</td>
-        <td rowspan="2">Consultar Solicitud a través de la API RESTful</td>
-        <td rowspan="2">Como desarrollador Quiero consultar los detalles de una solicitud a través de la API Para que se pueda obtener la información de la solicitud registrada.</td>
-        <td>Scenario: Consultar solicitud existente<br>Given el endpoint "/api/v1/request/{id}" está disponible<br>When se envía una solicitud GET con el ID de una solicitud existente<br>Then se recibe un estado 200<br>And se incluye el recurso Solicitud en el cuerpo de la respuesta con los valores registrados.</td>
-        <td rowspan="2"> EP-02</td>
-    </tr>
-    <tr>
-        <td>Scenario: Consultar solicitud inexistente<br>Given el endpoint "/api/v1/request/{id}" está disponible<br>When se envía una solicitud GET con el ID de una solicitud que no existe<br>Then se recibe un estado 404<br>And se incluye un mensaje de error en el cuerpo de la respuesta con el valor "La solicitud no fue encontrada"</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="2">TS-18</td>
-        <td rowspan="2">Consultar Ítem de Inventario a través de la API RESTful</td>
-        <td rowspan="2">Como desarrollador Quiero consultar los detalles de un ítem de inventario a través de la API Para que se pueda obtener la información del ítem de inventario registrado.</td>
-        <td>Scenario: Consultar ítem de inventario existente<br>Given el endpoint "/api/v1/inventory/item/{id}" está disponible<br>When se envía una solicitud GET con el ID de un ítem de inventario existente<br>Then se recibe un estado 200<br>And se incluye el recurso Ítem de Inventario en el cuerpo de la respuesta con los valores registrados.</td>
-        <td rowspan="2"> EP-02</td>
-    </tr>
-    <tr>
-        <td>Scenario: Consultar ítem de inventario inexistente<br>Given el endpoint "/api/v1/inventory/item/{id}" está disponible<br>When se envía una solicitud GET con el ID de un ítem de inventario que no existe<br>Then se recibe un estado 404<br>And se incluye un mensaje de error en el cuerpo de la respuesta con el valor "El ítem de inventario no fue encontrado".</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="2">TS-19</td>
-        <td rowspan="2">Consultar Intervención a través de la API RESTful</td>
-        <td rowspan="2">Como desarrollador Quiero consultar los detalles de una intervención a través de la API Para que se pueda obtener la información de la intervención registrada.</td>
-        <td>Scenario: Consultar intervención existente<br>Given el endpoint "/api/v1/intervention/{id}" está disponible<br>When se envía una solicitud GET con el ID de una intervención existente<br>Then se recibe un estado 200<br>And se incluye el recurso Intervención en el cuerpo de la respuesta con los valores registrados.</td>
-        <td rowspan="2"> EP-02</td>
-    </tr>
-    <tr>
-        <td>Scenario: Consultar intervención inexistente<br>Given el endpoint "/api/v1/intervention/{id}" está disponible<br>When se envía una solicitud GET con el ID de una intervención que no existe<br>Then se recibe un estado 404<br>And se incluye un mensaje de error en el cuerpo de la respuesta con el valor "La intervención no fue encontrada".</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="2">TS-20</td>
-        <td rowspan="2">Consultar Tarea dentro de una Intervención a través de la API RESTful</td>
-        <td rowspan="2">Como desarrollador Quiero consultar los detalles de una tarea dentro de una intervención a través de la API Para que se pueda obtener la información de la tarea registrada.</td>
-        <td>Scenario: Consultar tarea existente<br>Given el endpoint "/api/v1/intervention/{interventionId}/task/{taskId}" está disponible<br>When se envía una solicitud GET con el ID de una tarea existente dentro de una intervención<br>Then se recibe un estado 200<br>And se incluye el recurso Tarea en el cuerpo de la respuesta con los valores registrados.</td>
-        <td rowspan="2"> EP-02</td>
-    </tr>
-    <tr>
-        <td>Scenario: Consultar tarea inexistente<br>Given el endpoint "/api/v1/intervention/{interventionId}/task/{taskId}" está disponible<br>When se envía una solicitud GET con el ID de una tarea que no existe dentro de una intervención<br>Then se recibe un estado 404<br>And se incluye un mensaje de error en el cuerpo de la respuesta con el valor "La tarea no fue encontrada".</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="1">TS-21</td>
-        <td rowspan="1">Crear Notificación a través de la API RESTful</td>
-        <td rowspan="1">Como desarrollador Quiero crear una notificación a través de la API Para que se pueda generar una notificación asociada a un usuario.</td>
-        <td>Scenario: Crear notificación con datos válidos<br>Given el endpoint "/api/v1/user/{userId}/notification" está disponible<br>When se envía una solicitud POST con un cuerpo que incluye mensaje<br>Then se recibe un estado 201<br>And el recurso Notificación se crea con los valores proporcionados en el cuerpo de la respuesta.</td>
-        <td rowspan="1"> EP-02</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="2">TS-22</td>
-        <td rowspan="2">Consultar Notificación a través de la API RESTful</td>
-        <td rowspan="2">Como desarrollador Quiero consultar los detalles de una notificación a través de la API Para que se pueda obtener la información de una notificación específica asociada a un usuario.</td>
-        <td>Scenario: Consultar notificación existente<br>Given el endpoint "/api/v1/user/{userId}/notification/{notificationId}" está disponible<br>When se envía una solicitud GET con el ID de una notificación existente dentro de un usuario<br>Then se recibe un estado 200<br>And se incluye el recurso Notificación en el cuerpo de la respuesta con los valores registrados.</td>
-        <td rowspan="2"> EP-02</td>
-    </tr>
-    <tr>
-        <td>Scenario: Consultar notificación inexistente<br>Given el endpoint "/api/v1/user/{userId}/notification/{notificationId}" está disponible<br>When se envía una solicitud GET con el ID de una notificación que no existe dentro de un usuario<br>Then se recibe un estado 404<br>And se incluye un mensaje de error en el cuerpo de la respuesta con el valor "La notificación no fue encontrada".</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="5">SWR-01</td>
-        <td rowspan="5">Hero Section</td>
-        <td rowspan="5">Como visitante de landing page quiero ver una presentación clara y atractiva en la hero section que hacen mis clientes para captar rápidamente la propuesta de valor del sitio y decidir si el producto o servicio es relevante para mi taller</td>
-        <td>Visibilidad: La hero section debe ocupar la parte superior visible de la página sin necesidad de hacer scroll.</td>
-        <td rowspan="5">EP-01</td>
-    </tr>
-    <tr>
-        <td>Propuesta de Valor: Debe haber un mensaje claro y conciso que explique la propuesta de valor del producto.</td>
-    </tr>
-    <tr>
-        <td>Diseño Atractivo: Debe incluir una imagen que atraiga al usuario</td>
-    </tr>
-    <tr>
-        <td>Llamada a la Acción: Debe haber al menos un botón de llamada a la acción visible que dirija a los usuarios a la sección Contáctanos.</td>
-    </tr>
-    <tr>
-        <td>Responsividad: La hero section debe ser completamente funcional y visualmente atractiva en dispositivos móviles y de escritorio.</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="3">SWR-02</td>
-        <td rowspan="3">About the Product</td>
-        <td rowspan="3">Como visitante de landing page quiero leer una descripción detallada del producto para entender cómo el producto puede resolver mis problemas específicos y mejorar la gestión de mi taller</td>
-        <td>Descripción Clara: La sección debe contener una descripción precisa del producto</td>
-        <td rowspan="3">EP-01</td>
-    </tr>
-    <tr>
-        <td>Beneficios Relevantes: Debe explicar cómo cada característica del producto se traduce en beneficios</td>
-    </tr>
-    <tr>
-        <td>Contenido Visual: La sección debe incluir un vídeo que dé a conocer las funcionalidades del producto</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="4">SWR-03</td>
-        <td rowspan="4">Beneficios</td>
-        <td rowspan="4">Como visitante de landing page quiero ver una lista de beneficios potenciales para evaluar de manera rápida cómo el producto puede contribuir a la eficiencia y éxito de mi taller</td>
-        <td>Lista de Beneficios: La sección debe listar claramente los principales beneficios del producto de manera ordenada y destacada.</td>
-        <td rowspan="4">EP-01</td>
-    </tr>
-    <tr>
-        <td>Claridad: Cada beneficio debe estar descrito de forma clara y breve, utilizando viñetas o un formato de lista para facilitar la lectura.</td>
-    </tr>
-    <tr>
-        <td>Relevancia: Los beneficios listados deben ser relevantes para los problemas comunes que enfrenta un dueño de taller.</td>
-    </tr>
-    <tr>
-        <td>Visualización: Debe haber elementos visuales, como íconos o imágenes, que acompañen cada beneficio para facilitar la comprensión.</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="3">SWR-04</td>
-        <td rowspan="3">Testimonios</td>
-        <td rowspan="3">Como visitante de landing page quiero leer testimonios de otros usuarios que han utilizado la aplicación web para evaluar de manera rápida cómo el producto puede contribuir a la eficiencia y éxito de mi taller</td>
-        <td>Testimonios: La sección debe mostrar testimonios genuinos de clientes, preferiblemente con nombres y detalles del negocio.</td>
-        <td rowspan="3">EP-01</td>
-    </tr>
-    <tr>
-        <td>Formato Atractivo: Los testimonios deben estar presentados de manera clara y visualmente atractiva, utilizando citas o bloques de texto destacados.</td>
-    </tr>
-    <tr>
-        <td>Autenticidad: Deben incluir fotos o logotipos de los clientes, si es posible, para aumentar la credibilidad.</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="3">SWR-05</td>
-        <td rowspan="3">About Us</td>
-        <td rowspan="3">Como visitante de landing page quiero conocer más sobre la empresa en la sección "About Us" para entender mejor la experiencia y credibilidad de la empresa detrás del producto antes de considerar una compra.</td>
-        <td>Historia de la Empresa: La sección debe proporcionar una descripción clara de la historia y misión de la empresa.</td>
-        <td rowspan="3">EP-01</td>
-    </tr>
-    <tr>
-        <td>Equipo: Debe incluir información sobre el equipo clave de la empresa, como biografías cortas y fotos.</td>
-    </tr>
-    <tr>
-        <td>Diseño: La información debe estar presentada de manera visualmente atractiva y fácil de leer.</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="5">SWR-06</td>
-        <td rowspan="5">Planes y precios</td>
-        <td rowspan="5">Como visitante de landing page quiero ver los planes y precios disponibles en la sección "Planes y precios" para comparar las opciones y decidir cuál se ajusta mejor a mi presupuesto y necesidades.</td>
-        <td>Lista de Planes: La sección debe mostrar claramente todos los planes disponibles con sus respectivos precios.</td>
-        <td rowspan="5">EP-01</td>
-    </tr>
-    <tr>
-        <td>Comparación de Características: Debe haber una comparación clara de las características incluidas en cada plan.</td>
-    </tr>
-    <tr>
-        <td>Transparencia: Los precios deben ser claramente visibles y sin cargos ocultos.</td>
-    </tr>
-    <tr>
-        <td>Llamada a la Acción: Debe haber botones o enlaces que permitan a los usuarios seleccionar un plan o contactar para obtener más información.</td>
-    </tr>
-    <tr>
-        <td>Diseño: La sección debe estar diseñada de manera que facilite la comparación y toma de decisiones, usando tablas o listas claras.</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="5">SWR-07</td>
-        <td rowspan="5">Formulario de contacto</td>
-        <td rowspan="5">Como visitante de landing page quiero encontrar un formulario de contacto fácil de usar para poder hacer preguntas específicas sobre el producto y recibir asistencia antes de tomar una decisión de compra.</td>
-        <td>Accesibilidad: El formulario debe ser fácilmente accesible desde la página de contacto.</td>
-        <td rowspan="5">EP-01</td>
-    </tr>
-    <tr>
-        <td>Campos Relevantes: Debe incluir campos para nombre, correo electrónico, mensaje y cualquier otra información necesaria para una consulta efectiva.</td>
-    </tr>
-    <tr>
-        <td>Validación: Debe haber validación en los campos para asegurar que la información ingresada es correcta (por ejemplo, validación de formato de correo electrónico).</td>
-    </tr>
-    <tr>
-        <td>Confirmación: Debe haber un mensaje de confirmación que indique al usuario que su mensaje ha sido enviado correctamente.</td>
-    </tr>
-    <tr>
-        <td>Estética: El formulario debe estar diseñado de manera limpia y fácil de usar, tanto en dispositivos móviles como de escritorio.</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="4">SWR-08</td>
-        <td rowspan="4">Footer</td>
-        <td rowspan="4">Como visitante de landing page quiero acceder a enlaces importantes en el footer para encontrar rápidamente información adicional, como políticas de privacidad, términos de servicio y detalles de contacto de la empresa</td>
-        <td>Enlaces Importantes: El footer debe incluir enlaces a políticas de privacidad, términos de servicio y detalles de contacto.</td>
-        <td rowspan="4">EP-01</td>
-    </tr>
-    <tr>
-        <td>Información de Contacto: Debe haber información de contacto accesible, como dirección de correo electrónico y número de teléfono.</td>
-    </tr>
-    <tr>
-        <td>Redes Sociales: Debe haber enlaces a las redes sociales de la empresa, si están disponibles.</td>
-    </tr>
-    <tr>
-        <td>Diseño Consistente: El footer debe estar diseñado de manera que sea coherente con el resto del sitio web y visualmente accesible.</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="4">SWR-09</td>
-        <td rowspan="4">Internacionalización</td>
-        <td rowspan="4">Como visitante de landing page quiero que la landing page sea accesible en español e inglés para que pueda acceder a la información en el idioma que prefiera y proporcionar una experiencia adecuada para usuarios de diferentes regiones</td>
-        <td>Soporte para Idiomas: La landing page debe ofrecer versiones en español e inglés.</td>
-        <td rowspan="4">EP-09</td>
-    </tr>
-    <tr>
-        <td>Selector de Idioma: Debe haber un selector de idioma visible y accesible que permita a los usuarios cambiar entre español e inglés.</td>
-    </tr>
-    <tr>
-        <td>Traducción Completa: Todo el contenido de la página, incluidos textos, botones, y mensajes, debe estar traducido correctamente y ser coherente en ambos idiomas.</td>
-    </tr>
-    <tr>
-        <td>Manejo de Enlaces: Los enlaces y botones de navegación deben redirigir a las versiones correspondientes del sitio en el idioma seleccionado.</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="6">EP-01</td>
-        <td rowspan="6">Landing Page</td>
-        <td rowspan="6">Como visitante de la landing page quiero tener acceso a toda la información relevante sobre el producto, precios, testimonios y medios de contacto para evaluar si el producto es adecuado para mi taller y obtener asistencia fácilmente</td>
-        <td>Scenario: Visualización de la presentación y propuesta de valor<br>Given un visitante accede a la landing page<br>When llega a la sección de "Hero" y "About the Product"<br>Then debe poder visualizar una presentación clara y atractiva del producto y leer una descripción detallada que explique cómo el producto puede mejorar la gestión de su taller</td>
-        <td rowspan="6">SWR-01<br>SWR-02<br>SWR-03<br>SWR-04<br>SWR-05<br>SWR-06<br>SWR-07<br>SWR-08<br>SWR-09</td>
-    </tr>
-    <tr>
-        <td>Scenario: Visualización de beneficios y testimonios<br>Given un visitante accede a la landing page<br>When navega a la sección de beneficios y testimonios<br>Then debe poder ver una lista de beneficios potenciales y leer testimonios de otros usuarios para evaluar cómo el producto puede contribuir a la eficiencia de su taller</td>
-    </tr>
-    <tr>
-        <td>Scenario: Visualización de planes, precios y detalles de la empresa<br>Given un visitante accede a la landing page<br>When llega a la sección de "Planes y precios" y "About Us"<br>Then debe poder comparar los planes y precios disponibles, y conocer la experiencia y credibilidad de la empresa detrás del producto</td>
-    </tr>
-    <tr>
-        <td>Scenario: Uso del formulario de contacto<br>Given un visitante necesita hacer preguntas sobre el producto<br>When navega a la sección de contacto<br>Then debe poder encontrar y utilizar un formulario de contacto fácil de usar para recibir asistencia antes de tomar una decisión de compra</td>
-    </tr>
-    <tr>
-        <td>Scenario: Acceso a enlaces importantes en el footer<br>Given un visitante está interesado en más detalles legales y de contacto<br>When llega al footer de la página<br>Then debe poder acceder a enlaces importantes como políticas de privacidad, términos de servicio, y detalles de contacto de la empresa</td>
-    </tr>
-    <tr>
-        <td>Scenario: Acceso a la landing page en múltiples idiomas<br>Given un visitante de una región de habla hispana o inglesa accede a la landing page<br>When cambia el idioma entre español e inglés<br>Then debe poder acceder a toda la información de la página en su idioma preferido</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="7">EP-02</td>
-        <td rowspan="7">RESTful API</td>
-        <td rowspan="7">Como equipo de desarrollo quiero proporcionar una API RESTful completa para gestionar usuarios, vehículos, intervenciones, tareas, inventario y notificaciones para que los desarrolladores puedan interactuar de manera eficiente con el sistema de gestión del taller</td>
-        <td>Scenario: Gestión de usuarios<br>Given un desarrollador desea gestionar usuarios en el sistema<br>When utiliza los endpoints de la API RESTful<br>Then debe poder crear, consultar, actualizar y eliminar usuarios</td>
-        <td rowspan="7">TS-01<br>TS-02<br>TS-03<br>TS-04<br>TS-05<br>TS-06<br>TS-07<br>TS-08<br>TS-09<br>TS-10<br>TS-11<br>TS-12<br>TS-13<br>TS-14<br>TS-15<br>TS-16<br>TS-17<br>TS-18<br>TS-19<br>TS-20<br>TS-21<br>TS-22</td>
-    </tr>
-    <tr>
-        <td>Scenario: Gestión de vehículos<br>Given un desarrollador desea gestionar vehículos en el sistema<br>When utiliza los endpoints de la API RESTful<br>Then debe poder crear, consultar, actualizar y eliminar vehículos</td>
-    </tr>
-    <tr>
-        <td>Scenario: Gestión de intervenciones<br>Given un desarrollador desea gestionar intervenciones en el sistema<br>When utiliza los endpoints de la API RESTful<br>Then debe poder crear, consultar, actualizar y eliminar intervenciones</td>
-    </tr>
-    <tr>
-        <td>Scenario: Gestión de tareas dentro de intervenciones<br>Given un desarrollador desea gestionar tareas dentro de una intervención<br>When utiliza los endpoints de la API RESTful<br>Then debe poder crear, consultar, actualizar y eliminar tareas asociadas a una intervención</td>
-    </tr>
-    <tr>
-        <td>Scenario: Gestión de inventario<br>Given un desarrollador desea gestionar el inventario del taller<br>When utiliza los endpoints de la API RESTful<br>Then debe poder crear, consultar, actualizar y eliminar ítems de inventario</td>
-    </tr>
-    <tr>
-        <td>Scenario: Gestión de solicitudes de repuestos<br>Given un desarrollador desea gestionar solicitudes de repuestos en el sistema<br>When utiliza los endpoints de la API RESTful<br>Then debe poder crear, consultar y actualizar solicitudes de repuestos</td>
-    </tr>
-    <tr>
-        <td>Scenario: Gestión de notificaciones<br>Given un desarrollador desea gestionar notificaciones en el sistema<br>When utiliza los endpoints de la API RESTful<br>Then debe poder crear, consultar y actualizar notificaciones</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="6">EP-03</td>
-        <td rowspan="6">Control de intervenciones</td>
-        <td rowspan="6">Como dueño de taller o mecánico quiero gestionar y controlar las intervenciones, tareas y vehículos de manera eficiente para asegurarme de que las reparaciones se realicen correctamente y que el taller funcione sin problemas</td>
-        <td>Scenario: Visualización de listas de clientes, empleados e intervenciones<br>Given el dueño de taller desea gestionar su taller<br>When accede a la interfaz de clientes, empleados o intervenciones<br>Then debe poder visualizar las listas con la información básica de cada uno para saber quiénes están registrados y qué intervenciones están en curso</td>
-        <td rowspan="6">US-04<br>US-06<br>US-08<br>US-09<br>US-10<br>US-15<br>US-16<br>US-17<br>US-18<br>US-19<br>US-20</td>
-    </tr>
-    <tr>
-        <td>Scenario: Gestión de intervenciones<br>Given el dueño de taller desea organizar las reparaciones en el taller<br>When accede a la interfaz de intervenciones<br>Then debe poder crear, modificar y asignar intervenciones a los mecánicos para mantener el control sobre el trabajo en curso</td>
-    </tr>
-    <tr>
-        <td>Scenario: Detalles de intervención y registro de diagnóstico<br>Given un mecánico o dueño de taller desea ver o actualizar una intervención<br>When accede a los detalles de una intervención<br>Then debe poder visualizar el estado actual, registrar diagnósticos, actualizar tareas, y modificar el progreso de la intervención</td>
-    </tr>
-    <tr>
-        <td>Scenario: Visualización y gestión de tareas por mecánico<br>Given un mecánico tiene tareas asignadas en el taller<br>When accede a su lista de "Mis tareas"<br>Then debe poder visualizar sus tareas pendientes, marcar tareas como completadas, y actualizar el estado de las mismas</td>
-    </tr>
-    <tr>
-        <td>Scenario: Supervisión de la intervención<br>Given un mecánico está finalizando una intervención<br>When accede a la interfaz de supervisión de intervención<br>Then debe poder verificar que todas las tareas estén completadas y marcar la intervención como finalizada</td>
-    </tr>
-    <tr>
-        <td>Scenario: Registro y asociación de vehículos<br>Given un dueño de taller desea gestionar los vehículos asociados al taller<br>When accede a la interfaz de vehículos<br>Then debe poder registrar nuevos vehículos y asociarlos a futuras intervenciones<br>And los mecánicos no deben tener acceso para registrar o asociar vehículos</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="2">EP-04</td>
-        <td rowspan="2">Gestión de inventarios y repuestos</td>
-        <td rowspan="2">Como dueño de taller quiero gestionar eficientemente las existencias de inventario y las solicitudes de repuestos para asegurar que siempre haya disponibilidad de materiales necesarios para las intervenciones y poder manejar las solicitudes realizadas por los mecánicos</td>
-        <td>Scenario: Manejo de existencias de inventario<br>Given el dueño de taller necesita mantener un inventario adecuado<br>When accede a la interfaz de inventario<br>Then debe poder gestionar las existencias de piezas y materiales, asegurando que la disponibilidad esté siempre actualizada y sea suficiente para las intervenciones</td>
-        <td rowspan="2">US-11<br>US-12</td>
-    </tr>
-    <tr>
-        <td>Scenario: Creación y manejo de solicitudes de inventario<br>Given los mecánicos realizan solicitudes de inventario<br>When el dueño de taller accede a las solicitudes<br>Then debe poder crear, revisar y manejar esas solicitudes para asegurar que los materiales y repuestos necesarios para las intervenciones sean aprobados y gestionados de manera efectiva</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="8">EP-05</td>
-        <td rowspan="8">Registro y trazabilidad de información</td>
-        <td rowspan="8">Como usuario de la aplicación (dueño de taller o cliente) quiero gestionar y acceder a información detallada sobre notificaciones, métricas, vehículos, intervenciones, y datos de clientes y empleados para mantenerme informado, tomar decisiones basadas en datos y asegurar una gestión eficiente de todas las operaciones</td>
-        <td>Scenario: Recepción de notificaciones<br>Given un usuario está utilizando la aplicación<br>When se produce un evento importante<br>Then el usuario debe recibir notificaciones para estar al tanto y llevar un registro de estos eventos importantes</td>
-        <td rowspan="8">US-05<br>US-07<br>US-13<br>US-14<br>US-21<br>US-22<br>US-23<br>US-24</td>
-    </tr>
-    <tr>
-        <td>Scenario: Acceso a métricas de rendimiento<br>Given el dueño de taller desea evaluar el rendimiento de su negocio<br>When accede a las métricas<br>Then debe poder consultar las métricas de rendimiento del negocio y las características de los clientes para tomar decisiones informadas y mejorar la eficiencia</td>
-    </tr>
-    <tr>
-        <td>Scenario: Registro y monitoreo de vehículos<br>Given un usuario necesita registrar un vehículo<br>When accede a la interfaz de vehículos<br>Then debe poder registrar y asociar vehículos para monitorear su información y estado mediante la aplicación</td>
-    </tr>
-    <tr>
-        <td>Scenario: Acceso a información IoT del vehículo<br>Given un usuario tiene un vehículo con dispositivo IoT<br>When accede a la información del dispositivo<br>Then debe poder ver el estado actual del vehículo más rápidamente para tomar decisiones informadas</td>
-    </tr>
-    <tr>
-        <td>Scenario: Agendar citas de intervención<br>Given un usuario desea programar una intervención<br>When accede a la interfaz de citas<br>Then debe poder agendar citas de intervención para optimizar su tiempo</td>
-    </tr>
-    <tr>
-        <td>Scenario: Manejo de intervenciones<br>Given un usuario necesita revisar el historial de intervenciones<br>When accede al registro de intervenciones<br>Then debe poder consultar la información sobre intervenciones previas para tomar decisiones informadas</td>
-    </tr>
-    <tr>
-        <td>Scenario: Manejo de información de clientes<br>Given el dueño de taller necesita actualizar información de clientes<br>When accede a la interfaz de detalles de clientes<br>Then debe poder gestionar y mantener actualizados los datos de sus clientes para aprovechar la información disponible</td>
-    </tr>
-    <tr>
-        <td>Scenario: Manejo de información de empleados<br>Given el dueño de taller necesita gestionar la información de empleados<br>When accede a la interfaz de detalles de empleados<br>Then debe poder actualizar y gestionar las cuentas de sus empleados para asegurar una administración eficiente</td>
-    </tr>
-    <!---->
-    <tr>
-        <th scope="row" rowspan="3">EP-06</td>
-        <td rowspan="3">Cuentas y gestión de credenciales</td>
-        <td rowspan="3">Como dueño de taller o usuario de la aplicación quiero registrar y gestionar cuentas de usuario para acceder a las funcionalidades de la aplicación y administrar la información de mi taller y equipo de trabajo para comenzar a utilizar la aplicación de manera efectiva y gestionar el taller de manera eficiente</td>
-        <td>Scenario: Registro de cuenta de usuario<br>Given un dueño de taller necesita usar la aplicación<br>When accede al formulario de registro<br>Then debe poder registrar una cuenta de usuario para empezar a gestionar su taller</td>
-        <td rowspan="3">US-01<br>US-02<br>US-03</td>
-    </tr>
-    <tr>
-        <td>Scenario: Acceso a la cuenta<br>Given un usuario tiene una cuenta en la aplicación<br>When accede a la pantalla de login<br>Then debe poder iniciar sesión para utilizar las funcionalidades de la aplicación</td>
-    </tr>
-    <tr>
-        <td>Scenario: Creación de cuentas para clientes y personal<br>Given el dueño de taller necesita gestionar la información de su taller<br>When registra clientes y personal en el sistema<br>Then debe poder crear cuentas para ellos para gestionar las intervenciones y tareas en el taller</td>
-    </tr>
+<tr>
+    <th scope="row" rowspan="4">TS-01</th>
+    <td rowspan="4">Manage Interventions through RESTful API</td>
+    <td rowspan="4">Como Developer, quiero gestionar intervenciones a través del API, para que estén disponibles las funcionalidades de creación, actualización y estado de las intervenciones en la aplicación.</td>
+    <td>Scenario: Retrieve all Interventions<br>
+        Given: El endpoint GET /api/v1/interventions está disponible<br>
+        When: Se envía una solicitud GET sin parámetros<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El cuerpo de la respuesta incluye una lista de todas las Interventions
+    </td>
+    <td rowspan="4">EP-01</td>
+</tr>
+<tr>
+    <td>Scenario: Create a new Intervention<br>
+        Given: El endpoint POST /api/v1/interventions está disponible<br>
+        When: Se envía una solicitud POST con valores para workshopId, mechanicLeaderId, vehicleId, scheduledAt, type, status, y description<br>
+        Then: Se recibe una respuesta con estado 201<br>
+        And: El cuerpo de la respuesta incluye la nueva Intervention con un id único
+    </td>
+</tr>
+<tr>
+    <td>Scenario: Retrieve details of a specific Intervention<br>
+        Given: El endpoint GET /api/v1/interventions/{interventionId} está disponible<br>
+        When: Se envía una solicitud GET con un interventionId válido<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El cuerpo de la respuesta incluye los detalles de la Intervention
+    </td>
+</tr>
+<tr>
+    <td>Scenario: Update an existing Intervention<br>
+        Given: El endpoint PUT /api/v1/interventions/{interventionId} está disponible<br>
+        When: Se envía una solicitud PUT con un interventionId válido y nuevos valores para actualizar<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: Los detalles de la Intervention se actualizan correctamente
+    </td>
+</tr>
+<!---->
+
+<!---->
+<tr>
+    <th scope="row" rowspan="3">TS-02</th>
+    <td rowspan="3">Manage Intervention Status through RESTful API</td>
+    <td rowspan="3">Como Developer, quiero gestionar los estados de las intervenciones a través del API, para que estén disponibles las funcionalidades de seguimiento del progreso y confirmación o cancelación de las intervenciones.</td>
+    <td>Scenario: Mark an Intervention as In Progress<br>
+        Given: El endpoint POST /api/v1/interventions/{interventionId}/in-progresses está disponible<br>
+        When: Se envía una solicitud POST con un interventionId válido<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El estado de la Intervention se actualiza a IN_PROGRESS
+    </td>
+    <td rowspan="3">EP-01</td>
+</tr>
+<tr>
+    <td>Scenario: Confirm an Intervention<br>
+        Given: El endpoint POST /api/v1/interventions/{interventionId}/confirmations está disponible<br>
+        When: Se envía una solicitud POST con un interventionId válido<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El estado de la Intervention se actualiza a COMPLETED
+    </td>
+</tr>
+<tr>
+    <td>Scenario: Cancel an Intervention<br>
+        Given: El endpoint POST /api/v1/interventions/{interventionId}/cancellations está disponible<br>
+        When: Se envía una solicitud POST con un interventionId válido<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El estado de la Intervention se actualiza a CANCELED
+    </td>
+</tr>
+<!---->
+
+<!---->
+<tr>
+    <th scope="row" rowspan="4">TS-03</th>
+    <td rowspan="4">Manage Tasks within an Intervention through RESTful API</td>
+    <td rowspan="4">Como Developer, quiero gestionar las tareas dentro de una intervención a través del API, para que estén disponibles las funcionalidades de creación, actualización y eliminación de tareas en la aplicación.</td>
+    <td>Scenario: Retrieve all Tasks for an Intervention<br>
+        Given: El endpoint GET /api/v1/interventions/{interventionId}/tasks está disponible<br>
+        When: Se envía una solicitud GET con un interventionId válido<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El cuerpo de la respuesta incluye una lista de todas las Tasks asociadas a la Intervention
+    </td>
+    <td rowspan="4">EP-01</td>
+</tr>
+<tr>
+    <td>Scenario: Create a new Task for an Intervention<br>
+        Given: El endpoint POST /api/v1/interventions/{interventionId}/tasks está disponible<br>
+        When: Se envía una solicitud POST con valores para mechanicAssignedId, state, y description<br>
+        Then: Se recibe una respuesta con estado 201<br>
+        And: El cuerpo de la respuesta incluye la nueva Task
+    </td>
+</tr>
+<tr>
+    <td>Scenario: Update a Task within an Intervention<br>
+        Given: El endpoint PUT /api/v1/interventions/{interventionId}/tasks/{taskId} está disponible<br>
+        When: Se envía una solicitud PUT con un taskId válido y nuevos valores para actualizar<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: Los detalles de la Task se actualizan correctamente
+    </td>
+</tr>
+<tr>
+    <td>Scenario: Delete a Task from an Intervention<br>
+        Given: El endpoint DELETE /api/v1/interventions/{interventionId}/tasks/{taskId} está disponible<br>
+        When: Se envía una solicitud DELETE con un taskId válido<br>
+        Then: Se recibe una respuesta con estado 204<br>
+        And: La Task se elimina de la Intervention
+    </td>
+</tr>
+<!---->
+
+<!---->
+<tr>
+    <th scope="row" rowspan="2">TS-04</th>
+    <td rowspan="2">Manage Task State Transitions through RESTful API</td>
+    <td rowspan="2">Como Developer, quiero gestionar las transiciones de estado de las tareas a través del API, para que estén disponibles las funcionalidades de inicio y confirmación de tareas en la aplicación.</td>
+    <td>Scenario: Mark a Task as In Progress<br>
+        Given: El endpoint POST /api/v1/interventions/{interventionId}/tasks/{taskId}/in-progresses está disponible<br>
+        When: Se envía una solicitud POST con un taskId válido<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El estado de la Task se actualiza a IN_PROGRESS
+    </td>
+    <td rowspan="2">EP-01</td>
+</tr>
+<tr>
+    <td>Scenario: Confirm a Task<br>
+        Given: El endpoint POST /api/v1/interventions/{interventionId}/tasks/{taskId}/confirmations está disponible<br>
+        When: Se envía una solicitud POST con un taskId válido<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El estado de la Task se actualiza a DONE
+    </td>
+</tr>
+<!---->
+
+<!---->
+<tr>
+    <th scope="row" rowspan="4">TS-05</th>
+    <td rowspan="4">Manage Checkpoints for Tasks through RESTful API</td>
+    <td rowspan="4">Como Developer, quiero gestionar los checkpoints de una tarea a través del API, para que estén disponibles las funcionalidades de seguimiento detallado en la aplicación.</td>
+    <td>Scenario: Retrieve all Checkpoints for a Task<br>
+        Given: El endpoint GET /api/v1/interventions/{interventionId}/tasks/{taskId}/checkpoints está disponible<br>
+        When: Se envía una solicitud GET con un taskId válido<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El cuerpo de la respuesta incluye una lista de todos los Checkpoints asociados a la Task
+    </td>
+    <td rowspan="4">EP-01</td>
+</tr>
+<tr>
+    <td>Scenario: Create a new Checkpoint for a Task<br>
+        Given: El endpoint POST /api/v1/interventions/{interventionId}/tasks/{taskId}/checkpoints está disponible<br>
+        When: Se envía una solicitud POST con valores para name<br>
+        Then: Se recibe una respuesta con estado 201<br>
+        And: El cuerpo de la respuesta incluye el nuevo Checkpoint
+    </td>
+</tr>
+<tr>
+    <td>Scenario: Update a Checkpoint for a Task<br>
+        Given: El endpoint PUT /api/v1/interventions/{interventionId}/tasks/{taskId}/checkpoints/{checkpointId} está disponible<br>
+        When: Se envía una solicitud PUT con un checkpointId válido y nuevos valores para actualizar<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: Los detalles del Checkpoint se actualizan correctamente
+    </td>
+</tr>
+<tr>
+    <td>Scenario: Delete a Checkpoint from a Task<br>
+        Given: El endpoint DELETE /api/v1/interventions/{interventionId}/tasks/{taskId}/checkpoints/{checkpointId} está disponible<br>
+        When: Se envía una solicitud DELETE con un checkpointId válido<br>
+        Then: Se recibe una respuesta con estado 204<br>
+        And: El Checkpoint se elimina de la Task
+    </td>
+</tr>
+<!---->
+<tr>
+    <th scope="row" rowspan="3">TS-06</th>
+    <td rowspan="3">Manage Workshops through RESTful API</td>
+    <td rowspan="3">Como Developer, quiero gestionar talleres a través del API, para que estén disponibles las funcionalidades de visualización, creación y actualización de talleres en la aplicación.</td>
+    <td>Scenario: Retrieve details of a specific Workshop<br>
+        Given: El endpoint GET /api/v1/workshops/{workshopId} está disponible<br>
+        When: Se envía una solicitud GET con un workshopId válido<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El cuerpo de la respuesta incluye los detalles del Workshop
+    </td>
+    <td rowspan="3">EP-02</td>
+</tr>
+<tr>
+    <td>Scenario: Update an existing Workshop<br>
+        Given: El endpoint PUT /api/v1/workshops/{workshopId} está disponible<br>
+        When: Se envía una solicitud PUT con un workshopId válido y nuevos valores para actualizar<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: Los detalles del Workshop se actualizan correctamente
+    </td>
+</tr>
+<tr>
+    <td>Scenario: Create a new Workshop<br>
+        Given: El endpoint POST /api/v1/workshops está disponible<br>
+        When: Se envía una solicitud POST con valores para name<br>
+        Then: Se recibe una respuesta con estado 201<br>
+        And: El cuerpo de la respuesta incluye el nuevo Workshop con un id único y el name registrado
+    </td>
+</tr>
+<!---->
+
+<!---->
+<tr>
+    <th scope="row" rowspan="1">TS-07</th>
+    <td rowspan="1">Retrieve Workshop Interventions through RESTful API</td>
+    <td rowspan="1">Como Developer, quiero obtener todas las intervenciones asociadas a un taller a través del API, para que estén disponibles las funcionalidades de planificación y gestión de intervenciones en la aplicación.</td>
+    <td>Scenario: Retrieve all Interventions for a Workshop<br>
+        Given: El endpoint GET /api/v1/workshops/{workshopId}/interventions está disponible<br>
+        When: Se envía una solicitud GET con un workshopId válido<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El cuerpo de la respuesta incluye una lista de todas las Interventions asociadas al Workshop
+    </td>
+    <td>EP-02</td>
+</tr>
+<!---->
+
+<!---->
+<tr>
+    <th scope="row" rowspan="2">TS-08</th>
+    <td rowspan="2">Manage Clients within a Workshop through RESTful API</td>
+    <td rowspan="2">Como Developer, quiero gestionar los clientes de un taller a través del API, para que estén disponibles las funcionalidades de creación y recuperación de clientes en la aplicación.</td>
+    <td>Scenario: Retrieve all Clients for a Workshop<br>
+        Given: El endpoint GET /api/v1/workshops/{workshopId}/clients está disponible<br>
+        When: Se envía una solicitud GET con un workshopId válido<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El cuerpo de la respuesta incluye una lista de todos los Clients asociados al Workshop
+    </td>
+    <td rowspan="2">EP-02</td>
+</tr>
+<tr>
+    <td>Scenario: Add a new Client to a Workshop<br>
+        Given: El endpoint POST /api/v1/workshops/{workshopId}/clients está disponible<br>
+        When: Se envía una solicitud POST con valores para el nuevo cliente<br>
+        Then: Se recibe una respuesta con estado 201<br>
+        And: El cuerpo de la respuesta incluye el nuevo Client con un id único y los valores registrados
+    </td>
+</tr>
+<!---->
+
+<!---->
+<tr>
+    <th scope="row" rowspan="2">TS-09</th>
+    <td rowspan="2">Manage Mechanics within a Workshop through RESTful API</td>
+    <td rowspan="2">Como Developer, quiero gestionar los mecánicos de un taller a través del API, para que estén disponibles las funcionalidades de asignación y gestión de mecánicos en la aplicación.</td>
+    <td>Scenario: Retrieve all Mechanics for a Workshop<br>
+        Given: El endpoint GET /api/v1/workshops/{workshopId}/mechanics está disponible<br>
+        When: Se envía una solicitud GET con un workshopId válido<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El cuerpo de la respuesta incluye una lista de todos los Mechanics asociados al Workshop
+    </td>
+    <td rowspan="2">EP-02</td>
+</tr>
+<tr>
+    <td>Scenario: Add a new Mechanic to a Workshop<br>
+        Given: El endpoint POST /api/v1/workshops/{workshopId}/mechanics está disponible<br>
+        When: Se envía una solicitud POST con valores para el nuevo mecánico<br>
+        Then: Se recibe una respuesta con estado 201<br>
+        And: El cuerpo de la respuesta incluye el nuevo Mechanic con un id único y los valores registrados
+    </td>
+</tr>
+<!---->
+<tr>
+    <th scope="row" rowspan="4">TS-10</th>
+    <td rowspan="4">Manage Products through RESTful API</td>
+    <td rowspan="4">Como Developer, quiero gestionar los productos a través del API, para que estén disponibles las funcionalidades de creación, actualización y eliminación de productos en la aplicación.</td>
+    <td>Scenario: Retrieve all Products<br>
+        Given: El endpoint GET /api/v1/products está disponible<br>
+        When: Se envía una solicitud GET sin parámetros<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El cuerpo de la respuesta incluye una lista de todos los Products
+    </td>
+    <td rowspan="4">EP-02</td>
+</tr>
+<tr>
+    <td>Scenario: Create a new Product<br>
+        Given: El endpoint POST /api/v1/products está disponible<br>
+        When: Se envía una solicitud POST con valores para name, description, stockQuantity, lowStockThreshold, y workshopId<br>
+        Then: Se recibe una respuesta con estado 201<br>
+        And: El cuerpo de la respuesta incluye el nuevo Product con un id único y los valores registrados
+    </td>
+</tr>
+<tr>
+    <td>Scenario: Update an existing Product<br>
+        Given: El endpoint PUT /api/v1/products/{productId} está disponible<br>
+        When: Se envía una solicitud PUT con un productId válido y nuevos valores para actualizar<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: Los detalles del Product se actualizan correctamente
+    </td>
+</tr>
+<tr>
+    <td>Scenario: Delete a Product<br>
+        Given: El endpoint DELETE /api/v1/products/{productId} está disponible<br>
+        When: Se envía una solicitud DELETE con un productId válido<br>
+        Then: Se recibe una respuesta con estado 204<br>
+        And: El Product se elimina de manera permanente
+    </td>
+</tr>
+<!---->
+<tr>
+    <th scope="row" rowspan="5">TS-11</th>
+    <td rowspan="5">Manage Product Requests through RESTful API</td>
+    <td rowspan="5">Como Developer, quiero gestionar las solicitudes de productos a través del API, para que estén disponibles las funcionalidades de creación, actualización y aceptación o rechazo de solicitudes en la aplicación.</td>
+    <td>Scenario: Retrieve all Product Requests<br>
+        Given: El endpoint GET /api/v1/product-requests está disponible<br>
+        When: Se envía una solicitud GET sin parámetros<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El cuerpo de la respuesta incluye una lista de todas las Product Requests
+    </td>
+    <td rowspan="5">EP-03</td>
+</tr>
+<tr>
+    <td>Scenario: Create a new Product Request<br>
+        Given: El endpoint POST /api/v1/product-requests está disponible<br>
+        When: Se envía una solicitud POST con valores para requestedQuantity, taskId, productId, workshopId, y status<br>
+        Then: Se recibe una respuesta con estado 201<br>
+        And: El cuerpo de la respuesta incluye la nueva Product Request con un id único y los valores registrados
+    </td>
+</tr>
+<tr>
+    <td>Scenario: Update an existing Product Request<br>
+        Given: El endpoint PUT /api/v1/product-requests/{productRequestId} está disponible<br>
+        When: Se envía una solicitud PUT con un productRequestId válido y nuevos valores para actualizar<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: Los detalles de la Product Request se actualizan correctamente
+    </td>
+</tr>
+<tr>
+    <td>Scenario: Accept a Product Request<br>
+        Given: El endpoint POST /api/v1/product-requests/{productRequestId}/accept está disponible<br>
+        When: Se envía una solicitud POST con un productRequestId válido<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El estado de la Product Request se actualiza a ACCEPTED
+    </td>
+</tr>
+<tr>
+    <td>Scenario: Reject a Product Request<br>
+        Given: El endpoint POST /api/v1/product-requests/{productRequestId}/reject está disponible<br>
+        When: Se envía una solicitud POST con un productRequestId válido<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El estado de la Product Request se actualiza a REJECTED
+    </td>
+</tr>
+<!---->
+<tr>
+    <th scope="row" rowspan="5">TS-12</th>
+    <td rowspan="5">Manage Vehicles through RESTful API</td>
+    <td rowspan="5">Como Developer, quiero gestionar vehículos a través del API, para que estén disponibles las funcionalidades de creación, actualización, recuperación y eliminación de vehículos en la aplicación.</td>
+    <td>Scenario: Retrieve all Vehicles<br>
+        Given: El endpoint GET /api/v1/vehicles está disponible<br>
+        When: Se envía una solicitud GET sin parámetros<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El cuerpo de la respuesta incluye una lista de todos los Vehicles
+    </td>
+    <td rowspan="5">EP-04</td>
+</tr>
+<tr>
+    <td>Scenario: Create a new Vehicle<br>
+        Given: El endpoint POST /api/v1/vehicles está disponible<br>
+        When: Se envía una solicitud POST con valores para licensePlate, brand, model, image, userId, y iotDeviceId<br>
+        Then: Se recibe una respuesta con estado 201<br>
+        And: El cuerpo de la respuesta incluye un nuevo Vehicle con un id único y todos los valores registrados
+    </td>
+</tr>
+<tr>
+    <td>Scenario: Retrieve details of a specific Vehicle<br>
+        Given: El endpoint GET /api/v1/vehicles/{vehicleId} está disponible<br>
+        When: Se envía una solicitud GET con un vehicleId válido<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El cuerpo de la respuesta incluye los detalles del Vehicle
+    </td>
+</tr>
+<tr>
+    <td>Scenario: Update an existing Vehicle<br>
+        Given: El endpoint PUT /api/v1/vehicles/{vehicleId} está disponible<br>
+        When: Se envía una solicitud PUT con un vehicleId válido y nuevos valores para actualizar<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: Los detalles del Vehicle se actualizan correctamente
+    </td>
+</tr>
+<tr>
+    <td>Scenario: Delete a Vehicle<br>
+        Given: El endpoint DELETE /api/v1/vehicles/{vehicleId} está disponible<br>
+        When: Se envía una solicitud DELETE con un vehicleId válido<br>
+        Then: Se recibe una respuesta con estado 204<br>
+        And: El Vehicle se elimina de manera permanente
+    </td>
+</tr>
+<!---->
+<tr>
+    <th scope="row" rowspan="1">TS-13</th>
+    <td rowspan="1">Manage IoT Devices through RESTful API</td>
+    <td rowspan="1">Como Developer, quiero recuperar dispositivos IoT asociados a un vehículo a través del API, para que estén disponibles las funcionalidades de monitoreo y gestión de dispositivos IoT en la aplicación.</td>
+    <td>Scenario: Retrieve all IoT Devices for a Vehicle<br>
+        Given: El endpoint GET /api/v1/iot-devices está disponible<br>
+        When: Se envía una solicitud GET con un vehicleId como parámetro de consulta<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El cuerpo de la respuesta incluye una lista de todos los IoTDevices asociados al vehicleId especificado
+    </td>
+    <td>EP-05</td>
+</tr>
+<!---->
+<tr>
+    <th scope="row" rowspan="3">TS-14</th>
+    <td rowspan="3">Manage Profiles through RESTful API</td>
+    <td rowspan="3">Como Developer, quiero gestionar perfiles a través del API, para que estén disponibles las funcionalidades de visualización y actualización de perfiles en la aplicación.</td>
+    <td>Scenario: Retrieve all Profiles<br>
+        Given: El endpoint GET /api/v1/profiles está disponible<br>
+        When: Se envía una solicitud GET sin parámetros<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El cuerpo de la respuesta incluye una lista de todos los Profiles
+    </td>
+    <td rowspan="3">EP-06</td>
+</tr>
+<tr>
+    <td>Scenario: Retrieve details of a specific Profile<br>
+        Given: El endpoint GET /api/v1/profiles/{profileId} está disponible<br>
+        When: Se envía una solicitud GET con un profileId válido<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El cuerpo de la respuesta incluye los detalles del Profile, como firstName, lastName, dni, email, age, location, y userId
+    </td>
+</tr>
+<tr>
+    <td>Scenario: Update an existing Profile<br>
+        Given: El endpoint PUT /api/v1/profiles/{profileId} está disponible<br>
+        When: Se envía una solicitud PUT con un profileId válido y nuevos valores para actualizar<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: Los detalles del Profile se actualizan correctamente
+    </td>
+</tr>
+<!---->
+<tr>
+    <th scope="row" rowspan="2">TS-15</th>
+    <td rowspan="2">Manage User Authentication and Registration through RESTful API</td>
+    <td rowspan="2">Como Developer, quiero gestionar el registro y autenticación de usuarios a través del API, para que estén disponibles las funcionalidades de creación de cuentas y gestión de sesiones en la aplicación.</td>
+    <td>Scenario: User Registration (Sign-Up)<br>
+        Given: El endpoint POST /api/v1/authentication/sign-up está disponible<br>
+        When: Se envía una solicitud POST con valores para username, password, state, role, y workshopId<br>
+        Then: Se recibe una respuesta con estado 201<br>
+        And: El cuerpo de la respuesta incluye un nuevo User con un id único y los valores registrados<br>
+        And: La contraseña se almacena de manera segura (hash)
+    </td>
+    <td rowspan="2">EP-07</td>
+</tr>
+<tr>
+    <td>Scenario: User Authentication (Sign-In)<br>
+        Given: El endpoint POST /api/v1/authentication/sign-in está disponible<br>
+        When: Se envía una solicitud POST con valores para username y password<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El cuerpo de la respuesta incluye un token de autenticación válido si las credenciales son correctas<br>
+        And: Se recibe una respuesta con estado 401 si las credenciales son incorrectas
+    </td>
+</tr>
+<!---->
+<tr>
+    <th scope="row">TS-16</th>
+    <td>Manage Notifications through RESTful API</td>
+    <td>Como Developer, quiero recuperar notificaciones para un usuario a través del API, para que estén disponibles las funcionalidades de mostrar y gestionar notificaciones en la aplicación.</td>
+    <td>Scenario: Retrieve all Notifications for a User<br>
+        Given: El endpoint GET /api/v1/notifications está disponible<br>
+        When: Se envía una solicitud GET con un userId como parámetro de consulta<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El cuerpo de la respuesta incluye una lista de todas las Notifications asociadas al userId, con detalles como date, content, state, y endpoint
+    </td>
+    <td>EP-08</td>
+</tr>
+<!---->
+<tr>
+    <th scope="row">TS-17</th>
+    <td>Manage Plans through RESTful API</td>
+    <td>Como Developer, quiero poder visualizar todos los planes a través del API, para que estén disponibles las funcionalidades de selección y comparación de planes en la aplicación.</td>
+    <td>Scenario: Retrieve all Plans<br>
+        Given: El endpoint GET /api/v1/plans está disponible<br>
+        When: Se envía una solicitud GET sin parámetros<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El cuerpo de la respuesta incluye una lista de todos los Plans con detalles como price, durationInMonths, type, cycle, y restricciones como maxMechanics, maxClients, y metricsAvailable
+    </td>
+    <td>EP-09</td>
+</tr>
+<!---->
+<tr>
+    <th scope="row" rowspan="4">TS-18</th>
+    <td rowspan="4">Manage Subscriptions through RESTful API</td>
+    <td rowspan="4">Como Developer, quiero gestionar las suscripciones a través del API, para que estén disponibles las funcionalidades de creación, recuperación y cancelación de suscripciones para talleres en la aplicación.</td>
+    <td>Scenario: Retrieve all Subscriptions for a Workshop<br>
+        Given: El endpoint GET /api/v1/subscriptions está disponible<br>
+        When: Se envía una solicitud GET con un workshopId como parámetro de consulta<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El cuerpo de la respuesta incluye una lista de todas las SubscriptionItems asociadas al workshopId, con detalles como status, startedAt, endedAt, isTrial, y trialEndsAt
+    </td>
+    <td rowspan="4">EP-10</td>
+</tr>
+<tr>
+    <td>Scenario: Create a new Subscription<br>
+        Given: El endpoint POST /api/v1/subscriptions está disponible<br>
+        When: Se envía una solicitud POST con valores para workshopId, userId, planId, y otros detalles necesarios<br>
+        Then: Se recibe una respuesta con estado 201<br>
+        And: El cuerpo de la respuesta incluye la nueva SubscriptionItem con un id único y los valores registrados
+    </td>
+</tr>
+<tr>
+    <td>Scenario: Retrieve the Latest Subscription for a Workshop<br>
+        Given: El endpoint GET /api/v1/subscriptions/latest está disponible<br>
+        When: Se envía una solicitud GET con un workshopId como parámetro de consulta<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El cuerpo de la respuesta incluye la última SubscriptionItem activa o relevante asociada al workshopId
+    </td>
+</tr>
+<tr>
+    <td>Scenario: Cancel an Existing Subscription<br>
+        Given: El endpoint POST /api/v1/subscriptions/{subscriptionId}/cancel está disponible<br>
+        When: Se envía una solicitud POST con un subscriptionId válido<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El estado de la SubscriptionItem se actualiza a CANCELLED, y cancelledAt se establece con la fecha y hora actuales
+    </td>
+</tr>
+<!---->
+<tr>
+    <th scope="row" rowspan="2">TS-19</th>
+    <td rowspan="2">Manage Invoices through RESTful API</td>
+    <td rowspan="2">Como Developer, quiero gestionar las facturas a través del API, para que estén disponibles las funcionalidades de creación y recuperación de facturas para talleres en la aplicación.</td>
+    <td>Scenario: Create a new Invoice<br>
+        Given: El endpoint POST /api/invoices está disponible<br>
+        When: Se envía una solicitud POST con valores para subscriptionId, workshopId, planId, amount, status, issueDate, dueDate, y paymentDate<br>
+        Then: Se recibe una respuesta con estado 201<br>
+        And: El cuerpo de la respuesta incluye la nueva Invoice con un id único y los valores registrados
+    </td>
+    <td rowspan="2">EP-11</td>
+</tr>
+<tr>
+    <td>Scenario: Retrieve all Invoices for a Workshop<br>
+        Given: El endpoint GET /api/invoices está disponible<br>
+        When: Se envía una solicitud GET con un workshopId como parámetro de consulta<br>
+        Then: Se recibe una respuesta con estado 200<br>
+        And: El cuerpo de la respuesta incluye una lista de todas las Invoices asociadas al workshopId, con detalles como amount, status, issueDate, dueDate, y paymentDate
+    </td>
+</tr>
+<!---->
+<tr>
+    <td scope="row" rowspan="5">SWR-01</td>
+    <td rowspan="5">Hero Section</td>
+    <td rowspan="5">Como visitante de landing page quiero ver una presentación clara y atractiva en la hero section que hacen mis clientes para captar rápidamente la propuesta de valor del sitio y decidir si el producto o servicio es relevante para mi taller</td>
+    <td>Visibilidad: La hero section debe ocupar la parte superior visible de la página sin necesidad de hacer scroll.</td>
+    <td rowspan="5">EP-01</td>
+</tr>
+<tr>
+    <td>Propuesta de Valor: Debe haber un mensaje claro y conciso que explique la propuesta de valor del producto.</td>
+</tr>
+<tr>
+    <td>Diseño Atractivo: Debe incluir una imagen que atraiga al usuario</td>
+</tr>
+<tr>
+    <td>Llamada a la Acción: Debe haber al menos un botón de llamada a la acción visible que dirija a los usuarios a la sección Contáctanos.</td>
+</tr>
+<tr>
+    <td>Responsividad: La hero section debe ser completamente funcional y visualmente atractiva en dispositivos móviles y de escritorio.</td>
+</tr>
+<!---->
+<tr>
+    <td scope="row" rowspan="3">SWR-02</td>
+    <td rowspan="3">About the Product</td>
+    <td rowspan="3">Como visitante de landing page quiero leer una descripción detallada del producto para entender cómo el producto puede resolver mis problemas específicos y mejorar la gestión de mi taller</td>
+    <td>Descripción Clara: La sección debe contener una descripción precisa del producto</td>
+    <td rowspan="3">EP-01</td>
+</tr>
+<tr>
+    <td>Beneficios Relevantes: Debe explicar cómo cada característica del producto se traduce en beneficios</td>
+</tr>
+<tr>
+    <td>Contenido Visual: La sección debe incluir un vídeo que dé a conocer las funcionalidades del producto</td>
+</tr>
+<!---->
+<tr>
+    <td scope="row" rowspan="4">SWR-03</td>
+    <td rowspan="4">Beneficios</td>
+    <td rowspan="4">Como visitante de landing page quiero ver una lista de beneficios potenciales para evaluar de manera rápida cómo el producto puede contribuir a la eficiencia y éxito de mi taller</td>
+    <td>Lista de Beneficios: La sección debe listar claramente los principales beneficios del producto de manera ordenada y destacada.</td>
+    <td rowspan="4">EP-01</td>
+</tr>
+<tr>
+    <td>Claridad: Cada beneficio debe estar descrito de forma clara y breve, utilizando viñetas o un formato de lista para facilitar la lectura.</td>
+</tr>
+<tr>
+    <td>Relevancia: Los beneficios listados deben ser relevantes para los problemas comunes que enfrenta un dueño de taller.</td>
+</tr>
+<tr>
+    <td>Visualización: Debe haber elementos visuales, como íconos o imágenes, que acompañen cada beneficio para facilitar la comprensión.</td>
+</tr>
+<!---->
+<tr>
+    <td scope="row" rowspan="3">SWR-04</td>
+    <td rowspan="3">Testimonios</td>
+    <td rowspan="3">Como visitante de landing page quiero leer testimonios de otros usuarios que han utilizado la aplicación web para evaluar de manera rápida cómo el producto puede contribuir a la eficiencia y éxito de mi taller</td>
+    <td>Testimonios: La sección debe mostrar testimonios genuinos de clientes, preferiblemente con nombres y detalles del negocio.</td>
+    <td rowspan="3">EP-01</td>
+</tr>
+<tr>
+    <td>Formato Atractivo: Los testimonios deben estar presentados de manera clara y visualmente atractiva, utilizando citas o bloques de texto destacados.</td>
+</tr>
+<tr>
+    <td>Autenticidad: Deben incluir fotos o logotipos de los clientes, si es posible, para aumentar la credibilidad.</td>
+</tr>
+<!---->
+<tr>
+    <td scope="row" rowspan="3">SWR-05</td>
+    <td rowspan="3">About Us</td>
+    <td rowspan="3">Como visitante de landing page quiero conocer más sobre la empresa en la sección "About Us" para entender mejor la experiencia y credibilidad de la empresa detrás del producto antes de considerar una compra.</td>
+    <td>Historia de la Empresa: La sección debe proporcionar una descripción clara de la historia y misión de la empresa.</td>
+    <td rowspan="3">EP-01</td>
+</tr>
+<tr>
+    <td>Equipo: Debe incluir información sobre el equipo clave de la empresa, como biografías cortas y fotos.</td>
+</tr>
+<tr>
+    <td>Diseño: La información debe estar presentada de manera visualmente atractiva y fácil de leer.</td>
+</tr>
+<!---->
+<tr>
+    <td scope="row" rowspan="5">SWR-06</td>
+    <td rowspan="5">Planes y precios</td>
+    <td rowspan="5">Como visitante de landing page quiero ver los planes y precios disponibles en la sección "Planes y precios" para comparar las opciones y decidir cuál se ajusta mejor a mi presupuesto y necesidades.</td>
+    <td>Lista de Planes: La sección debe mostrar claramente todos los planes disponibles con sus respectivos precios.</td>
+    <td rowspan="5">EP-01</td>
+</tr>
+<tr>
+    <td>Comparación de Características: Debe haber una comparación clara de las características incluidas en cada plan.</td>
+</tr>
+<tr>
+    <td>Transparencia: Los precios deben ser claramente visibles y sin cargos ocultos.</td>
+</tr>
+<tr>
+    <td>Llamada a la Acción: Debe haber botones o enlaces que permitan a los usuarios seleccionar un plan o contactar para obtener más información.</td>
+</tr>
+<tr>
+    <td>Diseño: La sección debe estar diseñada de manera que facilite la comparación y toma de decisiones, usando tablas o listas claras.</td>
+</tr>
+<!---->
+<tr>
+    <td scope="row" rowspan="5">SWR-07</td>
+    <td rowspan="5">Formulario de contacto</td>
+    <td rowspan="5">Como visitante de landing page quiero encontrar un formulario de contacto fácil de usar para poder hacer preguntas específicas sobre el producto y recibir asistencia antes de tomar una decisión de compra.</td>
+    <td>Accesibilidad: El formulario debe ser fácilmente accesible desde la página de contacto.</td>
+    <td rowspan="5">EP-01</td>
+</tr>
+<tr>
+    <td>Campos Relevantes: Debe incluir campos para nombre, correo electrónico, mensaje y cualquier otra información necesaria para una consulta efectiva.</td>
+</tr>
+<tr>
+    <td>Validación: Debe haber validación en los campos para asegurar que la información ingresada es correcta (por ejemplo, validación de formato de correo electrónico).</td>
+</tr>
+<tr>
+    <td>Confirmación: Debe haber un mensaje de confirmación que indique al usuario que su mensaje ha sido enviado correctamente.</td>
+</tr>
+<tr>
+    <td>Estética: El formulario debe estar diseñado de manera limpia y fácil de usar, tanto en dispositivos móviles como de escritorio.</td>
+</tr>
+<!---->
+<tr>
+    <td scope="row" rowspan="4">SWR-08</td>
+    <td rowspan="4">Footer</td>
+    <td rowspan="4">Como visitante de landing page quiero acceder a enlaces importantes en el footer para encontrar rápidamente información adicional, como políticas de privacidad, términos de servicio y detalles de contacto de la empresa</td>
+    <td>Enlaces Importantes: El footer debe incluir enlaces a políticas de privacidad, términos de servicio y detalles de contacto.</td>
+    <td rowspan="4">EP-01</td>
+</tr>
+<tr>
+    <td>Información de Contacto: Debe haber información de contacto accesible, como dirección de correo electrónico y número de teléfono.</td>
+</tr>
+<tr>
+    <td>Redes Sociales: Debe haber enlaces a las redes sociales de la empresa, si están disponibles.</td>
+</tr>
+<tr>
+    <td>Diseño Consistente: El footer debe estar diseñado de manera que sea coherente con el resto del sitio web y visualmente accesible.</td>
+</tr>
+<!---->
+<tr>
+    <td scope="row" rowspan="4">SWR-09</td>
+    <td rowspan="4">Internacionalización</td>
+    <td rowspan="4">Como visitante de landing page quiero que la landing page sea accesible en español e inglés para que pueda acceder a la información en el idioma que prefiera y proporcionar una experiencia adecuada para usuarios de diferentes regiones</td>
+    <td>Soporte para Idiomas: La landing page debe ofrecer versiones en español e inglés.</td>
+    <td rowspan="4">EP-09</td>
+</tr>
+<tr>
+    <td>Selector de Idioma: Debe haber un selector de idioma visible y accesible que permita a los usuarios cambiar entre español e inglés.</td>
+</tr>
+<tr>
+    <td>Traducción Completa: Todo el contenido de la página, incluidos textos, botones, y mensajes, debe estar traducido correctamente y ser coherente en ambos idiomas.</td>
+</tr>
+<tr>
+    <td>Manejo de Enlaces: Los enlaces y botones de navegación deben redirigir a las versiones correspondientes del sitio en el idioma seleccionado.</td>
+</tr>
+<!---->
+<tr>
+    <td scope="row" rowspan="6">EP-01</td>
+    <td rowspan="6">Landing Page</td>
+    <td rowspan="6">Como visitante de la landing page quiero tener acceso a toda la información relevante sobre el producto, precios, testimonios y medios de contacto para evaluar si el producto es adecuado para mi taller y obtener asistencia fácilmente</td>
+    <td>Scenario: Visualización de la presentación y propuesta de valor<br>Given un visitante accede a la landing page<br>When llega a la sección de "Hero" y "About the Product"<br>Then debe poder visualizar una presentación clara y atractiva del producto y leer una descripción detallada que explique cómo el producto puede mejorar la gestión de su taller</td>
+    <td rowspan="6">SWR-01<br>SWR-02<br>SWR-03<br>SWR-04<br>SWR-05<br>SWR-06<br>SWR-07<br>SWR-08<br>SWR-09</td>
+</tr>
+<tr>
+    <td>Scenario: Visualización de beneficios y testimonios<br>Given un visitante accede a la landing page<br>When navega a la sección de beneficios y testimonios<br>Then debe poder ver una lista de beneficios potenciales y leer testimonios de otros usuarios para evaluar cómo el producto puede contribuir a la eficiencia de su taller</td>
+</tr>
+<tr>
+    <td>Scenario: Visualización de planes, precios y detalles de la empresa<br>Given un visitante accede a la landing page<br>When llega a la sección de "Planes y precios" y "About Us"<br>Then debe poder comparar los planes y precios disponibles, y conocer la experiencia y credibilidad de la empresa detrás del producto</td>
+</tr>
+<tr>
+    <td>Scenario: Uso del formulario de contacto<br>Given un visitante necesita hacer preguntas sobre el producto<br>When navega a la sección de contacto<br>Then debe poder encontrar y utilizar un formulario de contacto fácil de usar para recibir asistencia antes de tomar una decisión de compra</td>
+</tr>
+<tr>
+    <td>Scenario: Acceso a enlaces importantes en el footer<br>Given un visitante está interesado en más detalles legales y de contacto<br>When llega al footer de la página<br>Then debe poder acceder a enlaces importantes como políticas de privacidad, términos de servicio, y detalles de contacto de la empresa</td>
+</tr>
+<tr>
+    <td>Scenario: Acceso a la landing page en múltiples idiomas<br>Given un visitante de una región de habla hispana o inglesa accede a la landing page<br>When cambia el idioma entre español e inglés<br>Then debe poder acceder a toda la información de la página en su idioma preferido</td>
+</tr>
+<!---->
+<tr>
+    <td scope="row" rowspan="7">EP-02</td>
+    <td rowspan="7">RESTful API</td>
+    <td rowspan="7">Como equipo de desarrollo quiero proporcionar una API RESTful completa para gestionar usuarios, vehículos, intervenciones, tareas, inventario y notificaciones para que los desarrolladores puedan interactuar de manera eficiente con el sistema de gestión del taller</td>
+    <td>Scenario: Gestión de usuarios<br>Given un desarrollador desea gestionar usuarios en el sistema<br>When utiliza los endpoints de la API RESTful<br>Then debe poder crear, consultar, actualizar y eliminar usuarios</td>
+    <td rowspan="7">TS-01<br>TS-02<br>TS-03<br>TS-04<br>TS-05<br>TS-06<br>TS-07<br>TS-08<br>TS-09<br>TS-10<br>TS-11<br>TS-12<br>TS-13<br>TS-14<br>TS-15<br>TS-16<br>TS-17<br>TS-18<br>TS-19<br>TS-20<br>TS-21<br>TS-22</td>
+</tr>
+<tr>
+    <td>Scenario: Gestión de vehículos<br>Given un desarrollador desea gestionar vehículos en el sistema<br>When utiliza los endpoints de la API RESTful<br>Then debe poder crear, consultar, actualizar y eliminar vehículos</td>
+</tr>
+<tr>
+    <td>Scenario: Gestión de intervenciones<br>Given un desarrollador desea gestionar intervenciones en el sistema<br>When utiliza los endpoints de la API RESTful<br>Then debe poder crear, consultar, actualizar y eliminar intervenciones</td>
+</tr>
+<tr>
+    <td>Scenario: Gestión de tareas dentro de intervenciones<br>Given un desarrollador desea gestionar tareas dentro de una intervención<br>When utiliza los endpoints de la API RESTful<br>Then debe poder crear, consultar, actualizar y eliminar tareas asociadas a una intervención</td>
+</tr>
+<tr>
+    <td>Scenario: Gestión de inventario<br>Given un desarrollador desea gestionar el inventario del taller<br>When utiliza los endpoints de la API RESTful<br>Then debe poder crear, consultar, actualizar y eliminar ítems de inventario</td>
+</tr>
+<tr>
+    <td>Scenario: Gestión de solicitudes de repuestos<br>Given un desarrollador desea gestionar solicitudes de repuestos en el sistema<br>When utiliza los endpoints de la API RESTful<br>Then debe poder crear, consultar y actualizar solicitudes de repuestos</td>
+</tr>
+<tr>
+    <td>Scenario: Gestión de notificaciones<br>Given un desarrollador desea gestionar notificaciones en el sistema<br>When utiliza los endpoints de la API RESTful<br>Then debe poder crear, consultar y actualizar notificaciones</td>
+</tr>
+<!---->
+<tr>
+    <td scope="row" rowspan="6">EP-03</td>
+    <td rowspan="6">Control de intervenciones</td>
+    <td rowspan="6">Como dueño de taller o mecánico quiero gestionar y controlar las intervenciones, tareas y vehículos de manera eficiente para asegurarme de que las reparaciones se realicen correctamente y que el taller funcione sin problemas</td>
+    <td>Scenario: Visualización de listas de clientes, empleados e intervenciones<br>Given el dueño de taller desea gestionar su taller<br>When accede a la interfaz de clientes, empleados o intervenciones<br>Then debe poder visualizar las listas con la información básica de cada uno para saber quiénes están registrados y qué intervenciones están en curso</td>
+    <td rowspan="6">US-04<br>US-06<br>US-08<br>US-09<br>US-10<br>US-15<br>US-16<br>US-17<br>US-18<br>US-19<br>US-20</td>
+</tr>
+<tr>
+    <td>Scenario: Gestión de intervenciones<br>Given el dueño de taller desea organizar las reparaciones en el taller<br>When accede a la interfaz de intervenciones<br>Then debe poder crear, modificar y asignar intervenciones a los mecánicos para mantener el control sobre el trabajo en curso</td>
+</tr>
+<tr>
+    <td>Scenario: Detalles de intervención y registro de diagnóstico<br>Given un mecánico o dueño de taller desea ver o actualizar una intervención<br>When accede a los detalles de una intervención<br>Then debe poder visualizar el estado actual, registrar diagnósticos, actualizar tareas, y modificar el progreso de la intervención</td>
+</tr>
+<tr>
+    <td>Scenario: Visualización y gestión de tareas por mecánico<br>Given un mecánico tiene tareas asignadas en el taller<br>When accede a su lista de "Mis tareas"<br>Then debe poder visualizar sus tareas pendientes, marcar tareas como completadas, y actualizar el estado de las mismas</td>
+</tr>
+<tr>
+    <td>Scenario: Supervisión de la intervención<br>Given un mecánico está finalizando una intervención<br>When accede a la interfaz de supervisión de intervención<br>Then debe poder verificar que todas las tareas estén completadas y marcar la intervención como finalizada</td>
+</tr>
+<tr>
+    <td>Scenario: Registro y asociación de vehículos<br>Given un dueño de taller desea gestionar los vehículos asociados al taller<br>When accede a la interfaz de vehículos<br>Then debe poder registrar nuevos vehículos y asociarlos a futuras intervenciones<br>And los mecánicos no deben tener acceso para registrar o asociar vehículos</td>
+</tr>
+<!---->
+<tr>
+    <td scope="row" rowspan="2">EP-04</td>
+    <td rowspan="2">Gestión de inventarios y repuestos</td>
+    <td rowspan="2">Como dueño de taller quiero gestionar eficientemente las existencias de inventario y las solicitudes de repuestos para asegurar que siempre haya disponibilidad de materiales necesarios para las intervenciones y poder manejar las solicitudes realizadas por los mecánicos</td>
+    <td>Scenario: Manejo de existencias de inventario<br>Given el dueño de taller necesita mantener un inventario adecuado<br>When accede a la interfaz de inventario<br>Then debe poder gestionar las existencias de piezas y materiales, asegurando que la disponibilidad esté siempre actualizada y sea suficiente para las intervenciones</td>
+    <td rowspan="2">US-11<br>US-12</td>
+</tr>
+<tr>
+    <td>Scenario: Creación y manejo de solicitudes de inventario<br>Given los mecánicos realizan solicitudes de inventario<br>When el dueño de taller accede a las solicitudes<br>Then debe poder crear, revisar y manejar esas solicitudes para asegurar que los materiales y repuestos necesarios para las intervenciones sean aprobados y gestionados de manera efectiva</td>
+</tr>
+<!---->
+<tr>
+    <td scope="row" rowspan="8">EP-05</td>
+    <td rowspan="8">Registro y trazabilidad de información</td>
+    <td rowspan="8">Como usuario de la aplicación (dueño de taller o cliente) quiero gestionar y acceder a información detallada sobre notificaciones, métricas, vehículos, intervenciones, y datos de clientes y empleados para mantenerme informado, tomar decisiones basadas en datos y asegurar una gestión eficiente de todas las operaciones</td>
+    <td>Scenario: Recepción de notificaciones<br>Given un usuario está utilizando la aplicación<br>When se produce un evento importante<br>Then el usuario debe recibir notificaciones para estar al tanto y llevar un registro de estos eventos importantes</td>
+    <td rowspan="8">US-05<br>US-07<br>US-13<br>US-14<br>US-21<br>US-22<br>US-23<br>US-24</td>
+</tr>
+<tr>
+    <td>Scenario: Acceso a métricas de rendimiento<br>Given el dueño de taller desea evaluar el rendimiento de su negocio<br>When accede a las métricas<br>Then debe poder consultar las métricas de rendimiento del negocio y las características de los clientes para tomar decisiones informadas y mejorar la eficiencia</td>
+</tr>
+<tr>
+    <td>Scenario: Registro y monitoreo de vehículos<br>Given un usuario necesita registrar un vehículo<br>When accede a la interfaz de vehículos<br>Then debe poder registrar y asociar vehículos para monitorear su información y estado mediante la aplicación</td>
+</tr>
+<tr>
+    <td>Scenario: Acceso a información IoT del vehículo<br>Given un usuario tiene un vehículo con dispositivo IoT<br>When accede a la información del dispositivo<br>Then debe poder ver el estado actual del vehículo más rápidamente para tomar decisiones informadas</td>
+</tr>
+<tr>
+    <td>Scenario: Agendar citas de intervención<br>Given un usuario desea programar una intervención<br>When accede a la interfaz de citas<br>Then debe poder agendar citas de intervención para optimizar su tiempo</td>
+</tr>
+<tr>
+    <td>Scenario: Manejo de intervenciones<br>Given un usuario necesita revisar el historial de intervenciones<br>When accede al registro de intervenciones<br>Then debe poder consultar la información sobre intervenciones previas para tomar decisiones informadas</td>
+</tr>
+<tr>
+    <td>Scenario: Manejo de información de clientes<br>Given el dueño de taller necesita actualizar información de clientes<br>When accede a la interfaz de detalles de clientes<br>Then debe poder gestionar y mantener actualizados los datos de sus clientes para aprovechar la información disponible</td>
+</tr>
+<tr>
+    <td>Scenario: Manejo de información de empleados<br>Given el dueño de taller necesita gestionar la información de empleados<br>When accede a la interfaz de detalles de empleados<br>Then debe poder actualizar y gestionar las cuentas de sus empleados para asegurar una administración eficiente</td>
+</tr>
+<!---->
+<tr>
+    <td scope="row" rowspan="3">EP-06</td>
+    <td rowspan="3">Cuentas y gestión de credenciales</td>
+    <td rowspan="3">Como dueño de taller o usuario de la aplicación quiero registrar y gestionar cuentas de usuario para acceder a las funcionalidades de la aplicación y administrar la información de mi taller y equipo de trabajo para comenzar a utilizar la aplicación de manera efectiva y gestionar el taller de manera eficiente</td>
+    <td>Scenario: Registro de cuenta de usuario<br>Given un dueño de taller necesita usar la aplicación<br>When accede al formulario de registro<br>Then debe poder registrar una cuenta de usuario para empezar a gestionar su taller</td>
+    <td rowspan="3">US-01<br>US-02<br>US-03</td>
+</tr>
+<tr>
+    <td>Scenario: Acceso a la cuenta<br>Given un usuario tiene una cuenta en la aplicación<br>When accede a la pantalla de login<br>Then debe poder iniciar sesión para utilizar las funcionalidades de la aplicación</td>
+</tr>
+<tr>
+    <td>Scenario: Creación de cuentas para clientes y personal<br>Given el dueño de taller necesita gestionar la información de su taller<br>When registra clientes y personal en el sistema<br>Then debe poder crear cuentas para ellos para gestionar las intervenciones y tareas en el taller</td>
+</tr>
 </table>
 
 ## 3.3. Impact Mapping
@@ -2484,68 +2906,66 @@ Dentro del Impact Mapping podemos observar como todos los segmentos objetivos se
 
 Para elaborar el Product backlog se priorizo por el método MoSCoW y se estimo a través de story points con la escala de Fibonacci.
 
-| # Orden | User Story ID | Título | Descripción | Story points (1/2/3/5/8) |
-| - | -| - | - | - |
-| 1 | SWR-01 | Hero Section | Como visitante de landing page quiero ver una presentación clara y atractiva en la hero section que hacen mis clientes para captar rápidamente la propuesta de valor del sitio y decidir si el producto o servicio es relevante para mi taller | 1 |
-| 2 | SWR-03 | Beneficios | Como visitante de landing page quiero ver una lista de beneficios potenciales para evaluar de manera rápida cómo el producto puede contribuir a la eficiencia y éxito de mi taller | 2 |
-| 3 | SWR-07 | Formulario de contacto | Como visitante de landing page quiero encontrar un formulario de contacto fácil de usar para poder hacer preguntas específicas sobre el producto y recibir asistencia antes de tomar una decisión de compra. | 2 |
-| 4 | SWR-06 | Planes y precios | Como visitante de landing page quiero ver los planes y precios disponibles en la sección "Planes y precios" para comparar las opciones y decidir cuál se ajusta mejor a mi presupuesto y necesidades. | 2 |
-| 5 | SWR-02 | About the Product | Como visitante de landing page quiero leer una descripción detallada del producto para entender cómo el producto puede resolver mis problemas específicos y mejorar la gestión de mi taller | 1 |
-| 6 | SWR-04 | Testimonios | Como visitante de landing page quiero leer testimonios de otros usuarios que han utilizado la aplicación web para evaluar de manera rápida cómo el producto puede contribuir a la eficiencia y éxito de mi taller | 3 |
-| 7 | SWR-09 | Internacionalización | Como visitante de landing page quiero que la landing page sea accesible en español e inglés para que pueda acceder a la información en el idioma que prefiera y proporcionar una experiencia adecuada para usuarios de diferentes regiones | 2 |
-| 8 | SWR-05 | About Us | Como dueño de taller visitante de landing page quiero conocer más sobre la empresa en la sección "About Us" para entender mejor la experiencia y credibilidad de la empresa detrás del producto antes de considerar una compra. | 2 |
-| 9 | SWR-08 | Footer | Como visitante de landing page quiero acceder a enlaces importantes en el footer para encontrar rápidamente información adicional, como políticas de privacidad, términos de servicio y detalles de contacto de la empresa | 3 |
-| 10 | US-01 | Formulario de registro | Como dueño de taller quiero registrar una cuenta de usuario para empezar a utilizar la aplicación para gestionar mi taller | 2 |
-| 11 | US-02 | Pantalla de login | Como usuario quiero acceder a mi cuenta para usar las funcionalidades de la aplicación | 3 |
-| 12 | US-25 | Navegación dinámica por rol | Como usuario quiero tener a disposición los beneficios que me ofrece la aplicación web para sacarles provecho rápidament | 1 |
-| 13 | US-09 | Creación de intervenciones | Como dueño de taller quiero poder gestionar las intervenciones de mi taller para organizar eficientemente a mis mecánicos | 5 |
-| 14 | US-03 | Creación de cuentas de taller | Como dueño de taller quiero registrar a mis clientes y personal en el sistema para gestionar la información de las intervenciones y tareas en el taller | 3 |
-| 15 | US-08 | Intervenciones | Como dueño de taller quiero visualizar las intervenciones para controlar los servicios realizados y pendientes en el taller | 2 |
-| 16 | US-17 | Información de intervención | Como mecánico quiero consultar información relevante de la intervención para realizar un mejor diagnóstico | 1 |
-| 17 | US-15 | Mis tareas (lider) | Como mecánico quiero poder visualizar mis tareas pendientes para poder hacer seguimiento del trabajo que queda por hacer en mis vehículos.| 3 |
-| 18 | US-16 | Mis tareas (asistente) | Como mecánico quiero poder visualizar mis tareas pendientes para poder hacer seguimiento del trabajo que queda por hacer en mis vehículos. | 2 |
-| 19 | US-18 | Diagnóstico de intervención | Como mecánico quiero poder modelar el diagnóstico de intervención para registrar la secuencia de tareas que se deben realizar para terminar el trabajo | 3 |
-| 20 | US-19 | Ejecución de intervención | Como mecánico quiero controlar la ejecución de las tareas de una intervención para  controlar y conocer el desarrollo de las tareas correspondientes | 5 |
-| 21 | US-20 | Supervisión de intervención | Como mecánico quiero poder verificar el cumplimiento de todas las tareas de intervención para poder registrar el trabajo como terminado | 2 |
-| 22 | US-04 | Personal | Como dueño de taller quiero visualizar mi lista de empleados saber qué empleados están registrados en el sistema | 2 |
-| 23 | US-05 | Detalles de empleado | Como dueño de taller quiero manejar la información de mis empleados para gestionar sus cuentas | 2 |
-| 24 | US-06 | Clientes | Como dueño de taller quiero visualizar mi lista de clientes para saber quiénes son mis clientes | 3 |
-| 25 | US-07 | Detalles de clientes | Como dueño de taller quiero manejar información de mis clientes para mantener sus datos actualizados y aprovecharlos | 2 |
-| 26 | US-10 | Detalles de intervención | Como dueño de taller quiero visualizar los detalles asociados a una intervención para tener un control claro y detallado del trabajo realizado y gestionar los cambios de los clientes | 5 |
-| 27 | US-11 | Existencias de inventario | Como dueño de taller quiero poder manejar existencias en mi inventario para asegurar que siempre haya disponibilidad de piezas y materiales necesarios para las intervenciones eficientemente | 2 |
-| 28 | US-12 | Solicitudes de inventario | Como dueño de taller quiero crear y manejar solicitudes de inventario realizadas por los mecánicos para conocer los materiales y repuestos necesarios para las intervenciones pendientes | 2 |
-| 29 | US-21 | Registro de vehículos | Como usuario quiero poder registrar vehículos para poder asociar y monitorear su información mediante la aplicación | 2 |
-| 30 | US-22 | Registro de intervenciones | Como usuario quiero acceder al registro de intervenciones de un vehículo para utilizar la información para tomar mejores decisiones | 2 |
-| 31 | US-23 | Información IoT de vehículo | Como usuario quiero acceder a la información generada por el dispositivo IoT del vehículo para conocer el estado actual del vehículo más rápidamente | 3 |
-| 32 | US-24 | Agendar cita de intervención | Como usuario quiero agendar citas de intervención para ahorrarme tiempo | 2 |
-| 33 | US-13 | Métricas | Como dueño de taller quiero contar con métricas de rendimiento de mi negocio y características de clientes para conocer el rendimiento y tomar mejores decisiones que mejoren la eficiencia | 5 |
-| 34 | US-14 | Notificaciones | Como usuario quiero recibir notificaciones para estar al tanto y llevar un registro de eventos importantes de la aplicación | 5 |
-| 35 | TS-01 | Crear Usuario a través de la API RESTful | Como desarrollador quiero agregar un usuario a través de la API para que el usuario pueda registrarse y acceder al sistema del taller | 3 |
-| 36 | TS-10 | Actualizar Vehículo a través de la API RESTful | Como desarrollador quiero actualizar un vehículo a través de la API para que se puedan modificar los detalles de los vehículos existentes. | 3 |
-| 37 | TS-15 | Consultar Usuario a través de la API RESTful | Como desarrollador quiero consultar los detalles de un usuario a través de la API para que se pueda obtener la información del usuario registrado. | 2 |
-| 38 | TS-09 | Actualizar Usuario a través de la API RESTful | Como desarrollador quiero actualizar un usuario a través de la API para que se puedan modificar los detalles de los usuarios existentes | 3 |
-| 39 | TS-13 | Actualizar Intervención a través de la API RESTful | Como desarrollador quiero actualizar una intervención a través de la API para que se puedan modificar los detalles de las intervenciones existentes | 3 |
-| 40 | TS-07 | Eliminar Intervención a través de la API RESTful | Como desarrollador quiero eliminar una intervención a través de la API para que se pueda eliminar una intervención del sistema | 3 |
-| 41 | TS-19 | Consultar Intervención a través de la API RESTful| Como desarrollador quiero consultar los detalles de una intervención a través de la API para que se pueda obtener la información de la intervención registrada. | 2 |
-| 42 | TS-02 | Crear Vehículo a través de la API RESTful | Como desarrollador quiero agregar un vehículo a través de la API para que se pueda gestionar el vehículo de cada usuario. | 3 |
-| 43 | TS-05 | Crear Intervención a través de la API RESTful | Como desarrollador quiero agregar una intervención a través de la API para que se registren las reparaciones y el mantenimiento realizados a un vehículo. | 3 |
-| 44 | TS-06 | Crear Tarea dentro de una Intervención a través de la API RESTful | Como desarrollador quiero agregar una tarea dentro de una intervención a través de la API para que las tareas asociadas a las intervenciones sean gestionadas correctamente. | 3 |
-| 45 | TS-20 | Consultar Tarea dentro de una Intervención a través de la API RESTful | Como desarrollador quiero consultar los detalles de una tarea dentro de una intervención a través de la API para que se pueda obtener la información de la tarea registrada. | 2 |
-| 46 | TS-08 | Eliminar Tarea a través de la API RESTful | Como desarrollador quiero eliminar una tarea a través de la API para que se pueda eliminar una tarea de una intervención del sistema | 3 |
-| 47 | TS-03 | Crear Solicitud a través de la API RESTful | Como desarrollador quiero agregar una solicitud a través de la API para que se pueda gestionar la necesidad de piezas y repuestos en el taller. | 3 |
-| 48 | TS-22 | Consultar Notificación a través de la API RESTful | Como desarrollador quiero consultar los detalles de una notificación a través de la API para que se pueda obtener la información de una notificación específica asociada a un usuario. | 2 |
-| 49 | TS-16 | Consultar Vehículo a través de la API RESTful | Como desarrollador quiero consultar los detalles de un vehículo a través de la API para que se pueda obtener la información del vehículo registrado | 2 |
-| 50 | TS-18 | Consultar Ítem de Inventario a través de la API RESTful | Como desarrollador quiero consultar los detalles de un ítem de inventario a través de la API para que se pueda obtener la información del ítem de inventario registrado. | 2 |
-| 51 | TS-04 | Crear Ítem de Inventario a través de la API RESTful | Como desarrollador quiero agregar un ítem de inventario a través de la API para que se tenga un control adecuado del inventario en el taller. | 3 |
-| 52 | TS-14 | Actualizar Tarea dentro de una Intervención a través de la API RESTful| Como desarrollador quiero actualizar una tarea dentro de una intervención a través de la API para que se puedan modificar los detalles de las tareas asociadas a una intervención. | 2 |
-| 53 | TS-21 | Crear Notificación a través de la API RESTful | Como desarrollador quiero crear una notificación a través de la API para que se pueda generar una notificación asociada a un usuario. | 3 |
-| 54 | TS-11 | Actualizar Solicitud a través de la API RESTful | Como desarrollador quiero actualizar una solicitud a través de la API para que se puedan modificar los detalles de las solicitudes existentes. | 3 |
-| 55 | TS-17 | Consultar Solicitud a través de la API RESTful | Como desarrollador quiero consultar los detalles de una solicitud a través de la API para que se pueda obtener la información de la solicitud registrada. | 2 |
-| 56 | TS-12 | Actualizar Ítem de Inventario a través de la API RESTful | Como desarrollador Quiero actualizar un ítem de inventario a través de la API Para que se puedan modificar los detalles de los ítems de inventario existentes. | 3 |
+| # Orden | User Story ID | Título                                                          | Descripción                                                                                                                                                                                                                                    | Story points (1/2/3/5/8) |
+|---------|---------------|-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| 1       | SWR-01        | Hero Section                                                    | Como visitante de landing page quiero ver una presentación clara y atractiva en la hero section que hacen mis clientes para captar rápidamente la propuesta de valor del sitio y decidir si el producto o servicio es relevante para mi taller | 1                        |
+| 2       | SWR-03        | Beneficios                                                      | Como visitante de landing page quiero ver una lista de beneficios potenciales para evaluar de manera rápida cómo el producto puede contribuir a la eficiencia y éxito de mi taller                                                             | 2                        |
+| 3       | SWR-07        | Formulario de contacto                                          | Como visitante de landing page quiero encontrar un formulario de contacto fácil de usar para poder hacer preguntas específicas sobre el producto y recibir asistencia antes de tomar una decisión de compra.                                   | 2                        |
+| 4       | SWR-06        | Planes y precios                                                | Como visitante de landing page quiero ver los planes y precios disponibles en la sección "Planes y precios" para comparar las opciones y decidir cuál se ajusta mejor a mi presupuesto y necesidades.                                          | 2                        |
+| 5       | SWR-02        | About the Product                                               | Como visitante de landing page quiero leer una descripción detallada del producto para entender cómo el producto puede resolver mis problemas específicos y mejorar la gestión de mi taller                                                    | 1                        |
+| 6       | SWR-04        | Testimonios                                                     | Como visitante de landing page quiero leer testimonios de otros usuarios que han utilizado la aplicación web para evaluar de manera rápida cómo el producto puede contribuir a la eficiencia y éxito de mi taller                              | 3                        |
+| 7       | SWR-09        | Internacionalización                                            | Como visitante de landing page quiero que la landing page sea accesible en español e inglés para que pueda acceder a la información en el idioma que prefiera y proporcionar una experiencia adecuada para usuarios de diferentes regiones     | 2                        |
+| 8       | SWR-05        | About Us                                                        | Como dueño de taller visitante de landing page quiero conocer más sobre la empresa en la sección "About Us" para entender mejor la experiencia y credibilidad de la empresa detrás del producto antes de considerar una compra.                | 2                        |
+| 9       | SWR-08        | Footer                                                          | Como visitante de landing page quiero acceder a enlaces importantes en el footer para encontrar rápidamente información adicional, como políticas de privacidad, términos de servicio y detalles de contacto de la empresa                     | 3                        |
+| 13      | US-03         | Creación de cuentas de taller                                   | Como dueño de taller quiero registrar a mis clientes y personal en el sistema para gestionar la información de las intervenciones y tareas en el taller                                                                                        | 3                        |
+| 14      | US-06         | Clientes                                                        | Como dueño de taller quiero visualizar mi lista de clientes para saber quiénes son mis clientes                                                                                                                                                | 3                        |
+| 15      | US-04         | Personal                                                        | Como dueño de taller quiero visualizar mi lista de empleados saber qué empleados están registrados en el sistema                                                                                                                               | 2                        |
+| 19      | US-21         | Registro de vehículos                                           | Como usuario quiero poder registrar vehículos para poder asociar y monitorear su información mediante la aplicación                                                                                                                            | 2                        |
+| 24      | US-09         | Creación de intervenciones                                      | Como dueño de taller quiero poder gestionar las intervenciones de mi taller para organizar eficientemente a mis mecánicos                                                                                                                      | 5                        |
+| 29      | US-15         | Mis tareas (lider)                                              | Como mecánico quiero poder visualizar mis tareas pendientes para poder hacer seguimiento del trabajo que queda por hacer en mis vehículos.                                                                                                     | 3                        |
+| 30      | US-16         | Mis tareas (asistente)                                          | Como mecánico quiero poder visualizar mis tareas pendientes para poder hacer seguimiento del trabajo que queda por hacer en mis vehículos.                                                                                                     | 2                        |
+| 31      | US-17         | Información de intervención                                     | Como mecánico quiero consultar información relevante de la intervención para realizar un mejor diagnóstico                                                                                                                                     | 1                        |
+| 32      | US-18         | Diagnóstico de intervención                                     | Como mecánico quiero poder modelar el diagnóstico de intervención para registrar la secuencia de tareas que se deben realizar para terminar el trabajo                                                                                         | 3                        |
+| 33      | US-19         | Ejecución de intervención                                       | Como mecánico quiero controlar la ejecución de las tareas de una intervención para  controlar y conocer el desarrollo de las tareas correspondientes                                                                                           | 5                        |
+| 34      | US-20         | Supervisión de intervención                                     | Como mecánico quiero poder verificar el cumplimiento de todas las tareas de intervención para poder registrar el trabajo como terminado                                                                                                        | 2                        |
+| 35      | US-08         | Intervenciones                                                  | Como dueño de taller quiero visualizar las intervenciones para controlar los servicios realizados y pendientes en el taller                                                                                                                    | 2                        |
+| 36      | US-10         | Detalles de intervención                                        | Como dueño de taller quiero visualizar los detalles asociados a una intervención para tener un control claro y detallado del trabajo realizado y gestionar los cambios de los clientes                                                         | 5                        |
+| 37      | US-07         | Detalles de clientes                                            | Como dueño de taller quiero manejar información de mis clientes para mantener sus datos actualizados y aprovecharlos                                                                                                                           | 2                        |
+| 38      | US-05         | Detalles de empleado                                            | Como dueño de taller quiero manejar la información de mis empleados para gestionar sus cuentas                                                                                                                                                 | 2                        |
+| 39      | US-22         | Registro de intervenciones                                      | Como usuario quiero acceder al registro de intervenciones de un vehículo para utilizar la información para tomar mejores decisiones                                                                                                            | 2                        |
+| 43      | US-11         | Existencias de inventario                                       | Como dueño de taller quiero poder manejar existencias en mi inventario para asegurar que siempre haya disponibilidad de piezas y materiales necesarios para las intervenciones eficientemente                                                  | 2                        |
+| 47      | US-12         | Solicitudes de inventario                                       | Como dueño de taller quiero crear y manejar solicitudes de inventario realizadas por los mecánicos para conocer los materiales y repuestos necesarios para las intervenciones pendientes                                                       | 2                        |
+| 48      | US-01         | Formulario de registro                                          | Como dueño de taller quiero registrar una cuenta de usuario para empezar a utilizar la aplicación para gestionar mi taller                                                                                                                     | 2                        |
+| 49      | US-02         | Pantalla de login                                               | Como usuario quiero acceder a mi cuenta para usar las funcionalidades de la aplicación                                                                                                                                                         | 3                        |
+| 50      | US-23         | Información IoT de vehículo                                     | Como usuario quiero acceder a la información generada por el dispositivo IoT del vehículo para conocer el estado actual del vehículo más rápidamente                                                                                           | 3                        |
+| 51      | US-24         | Agendar cita de intervención                                    | Como usuario quiero agendar citas de intervención para ahorrarme tiempo                                                                                                                                                                        | 2                        |
+| 54      | US-14         | Notificaciones                                                  | Como usuario quiero recibir notificaciones para estar al tanto y llevar un registro de eventos importantes de la aplicación                                                                                                                    | 5                        |
+| 55      | US-13         | Métricas                                                        | Como dueño de taller quiero contar con métricas de rendimiento de mi negocio y características de clientes para conocer el rendimiento y tomar mejores decisiones que mejoren la eficiencia                                                    | 5                        |
+| 56      | TS-01         | Manage Interventions through RESTful API                        | Como Developer, quiero gestionar intervenciones a través del API, para que estén disponibles las funcionalidades de creación, actualización y estado de las intervenciones en la aplicación                                                    | 3                        |
+| 57      | TS-02         | Manage Intervention Status through RESTful API                  | Como Developer, quiero gestionar los estados de las intervenciones a través del API, para que estén disponibles las funcionalidades de seguimiento del progreso y confirmación o cancelación de las intervenciones                             | 2                        |
+| 58      | TS-03         | Manage Tasks within an Intervention through RESTful API         | Como Developer, quiero gestionar las tareas dentro de una intervención a través del API, para que estén disponibles las funcionalidades de creación, actualización y eliminación de tareas en la aplicación                                    | 3                        |
+| 59      | TS-04         | Manage Task State Transitions through RESTful API               | Como Developer, quiero gestionar las transiciones de estado de las tareas a través del API, para que estén disponibles las funcionalidades de inicio y confirmación de tareas en la aplicación                                                 | 2                        |
+| 60      | TS-05         | Manage Checkpoints for Tasks through RESTful API                | Como Developer, quiero gestionar los checkpoints de una tarea a través del API, para que estén disponibles las funcionalidades de seguimiento detallado en la aplicación                                                                       | 3                        |
+| 61      | TS-06         | Manage Workshops through RESTful API                            | Como Developer, quiero gestionar talleres a través del API, para que estén disponibles las funcionalidades de visualización, creación y actualización de talleres en la aplicación                                                             | 2                        |
+| 62      | TS-07         | Retrieve Workshop Interventions through RESTful API             | Como Developer, quiero obtener todas las intervenciones asociadas a un taller a través del API, para que estén disponibles las funcionalidades de planificación y gestión de intervenciones en la aplicación                                   | 1                        |
+| 63      | TS-08         | Manage Clients within a Workshop through RESTful API            | Como Developer, quiero gestionar los clientes de un taller a través del API, para que estén disponibles las funcionalidades de creación y recuperación de clientes en la aplicación                                                            | 2                        |
+| 64      | TS-09         | Manage Mechanics within a Workshop through RESTful API          | Como Developer, quiero gestionar los mecánicos de un taller a través del API, para que estén disponibles las funcionalidades de asignación y gestión de mecánicos en la aplicación                                                             | 2                        |
+| 65      | TS-10         | Manage Products through RESTful API                             | Como Developer, quiero gestionar los productos a través del API, para que estén disponibles las funcionalidades de creación, actualización y eliminación de productos en la aplicación                                                         | 3                        |
+| 66      | TS-11         | Manage Product Requests through RESTful API                     | Como Developer, quiero gestionar las solicitudes de productos a través del API, para que estén disponibles las funcionalidades de creación, actualización y aceptación o rechazo de solicitudes en la aplicación                               | 3                        |
+| 67      | TS-12         | Manage Vehicles through RESTful API                             | Como Developer, quiero gestionar vehículos a través del API, para que estén disponibles las funcionalidades de creación, actualización, recuperación y eliminación de vehículos en la aplicación                                               | 3                        |
+| 68      | TS-13         | Manage IoT Devices through RESTful API                          | Como Developer, quiero recuperar dispositivos IoT asociados a un vehículo a través del API, para que estén disponibles las funcionalidades de monitoreo y gestión de dispositivos IoT en la aplicación                                         | 1                        |
+| 69      | TS-14         | Manage Profiles through RESTful API                             | Como Developer, quiero gestionar perfiles a través del API, para que estén disponibles las funcionalidades de visualización y actualización de perfiles en la aplicación                                                                       | 2                        |
+| 70      | TS-15         | Manage User Authentication and Registration through RESTful API | Como Developer, quiero gestionar el registro y autenticación de usuarios a través del API, para que estén disponibles las funcionalidades de creación de cuentas y gestión de sesiones en la aplicación                                        | 3                        |
+| 71      | TS-16         | Manage Notifications through RESTful API                        | Como Developer, quiero recuperar notificaciones para un usuario a través del API, para que estén disponibles las funcionalidades de mostrar y gestionar notificaciones en la aplicación                                                        | 2                        |
+| 72      | TS-17         | Manage Plans through RESTful API                                | Como Developer, quiero poder visualizar todos los planes a través del API, para que estén disponibles las funcionalidades de selección y comparación de planes en la aplicación                                                                | 1                        |
+| 73      | TS-18         | Manage Subscriptions through RESTful API                        | Como Developer, quiero gestionar las suscripciones a través del API, para que estén disponibles las funcionalidades de creación, recuperación y cancelación de suscripciones para talleres en la aplicación                                    | 3                        |
+| 74      | TS-19         | Manage Invoices through RESTful API                             | Como Developer, quiero gestionar las facturas a través del API, para que estén disponibles las funcionalidades de creación y recuperación de facturas para talleres en la aplicación                                                           | 3                        |
 
-Para llevar un correcto orden del Product Backlog se utilizo la herramienta Pivotal Tracker. 
+Para llevar un correcto orden del Product Backlog se utilizó la herramienta Pivotal Tracker.
 
- <img src="img/3/4/Pivotal.png">
+![Pivotal Tracker](img/3/4/Pivotal.png)
+Enlace a Pivotal Tracker: [https://www.pivotaltracker.com/n/projects/2716371](https://www.pivotaltracker.com/n/projects/2716371)
+
 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
@@ -3307,9 +3727,7 @@ Explicación de flujo: el usuario comienza desde la interfaz principal del talle
 
 El usuario puede revisar esta línea de tiempo para obtener una visión general de las intervenciones. Al hacer clic en una intervención específica, se accede a una vista detallada de la intervención, que incluye la modalidad, la fecha programada, los mecánicos asignados, y una descripción del trabajo realizado. Si la intervención ya está finalizada, se muestra con el estado correspondiente en el encabezado. Además, en esta sección, se puede visualizar la secuencia de tareas asignadas y completadas durante la intervención, permitiendo al usuario ver el progreso o el resultado final del trabajo realizado en su vehículo.
 <br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/wireflows/22.1png" width="1000px">
-</div>
+![22.1.png](img%2F4%2Fwireflows%2F22.1.png)
 
 #### User goal: : Acceder a información de dispositivo IoT.
 User persona: Dueño de taller
@@ -3540,7 +3958,7 @@ La imagen muestra la sección "Clients", donde el administrador del taller puede
 #### Registro de nuevo cliente
 En esta sección se permite al administrador registrar un nuevo cliente mediante un formulario sencillo que solicita datos personales como el nombre, apellidos, tipo y número de documento, así como la edad y ubicación. La opción de registro facilita la inclusión de nuevos clientes en el sistema de manera ágil, permitiendo que el taller mantenga actualizada su base de clientes con toda la información relevante.<br>
 <div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/mock-ups/workshop-owner page-customers-modal-creation.png" width="1000px">
+  <img src="img/4/mock-ups/workshop-owner/page-customers-modal-creation.png" width="1000px">
 </div>
 
 #### Información de clientes y vehículos
@@ -3919,406 +4337,287 @@ El Container Diagram de Workshop N-GINE muestra los principales contenedores que
 ### 4.6.3. Software Architecture Components Diagrams
 Los diagramas de componentes proporcionan una representación clara y detallada de los diferentes bounded contexts que estructuran la aplicación Workshop N-GINE. A continuación se presenta una breve descripción de cada contexto y los principales componentes que lo constituyen:
 
-#### Customer Relationship Management Bounded Context
-Este diagrama representa el contexto de Customer Relationship Management (CRM) dentro de la aplicación Workshop N-GINE. En este contexto, se gestionan los aspectos relacionados con los clientes, incluyendo la creación, actualización y consulta de información de clientes y la administración de la relación entre los clientes y sus vehículos.
+#### Inventory management bounded context
+El diagrama de gestión de inventario muestra cómo una Single Page Application (SPA) interactúa con varios componentes para gestionar productos y solicitudes de inventario. Los controladores manejan las solicitudes API, mientras que los servicios de comando y consulta gestionan las operaciones de actualización y recuperación de datos. Los repositorios almacenan información en una base de datos central, lo que permite un flujo eficiente y directo de gestión de inventario y solicitudes.
+![inventoryManagement.png](img%2F4%2Fc4model%2FinventoryManagement.png)
+
+#### Service management bounded context
+El diagrama de contenedores ilustra la arquitectura de un sistema de gestión de servicios enfocado en la administración de intervenciones, vehículos y talleres mediante una Single Page Application (SPA). La SPA interactúa con varios controladores y servicios, organizados en consultas y comandos para manejar operaciones específicas de intervenciones, usuarios y datos de talleres. Los servicios externos gestionan la autenticación y perfilado de usuarios, mientras que los repositorios almacenan y recuperan datos esenciales en la base de datos, garantizando una arquitectura escalable y eficiente.
+![serviceManagement.png](img%2F4%2Fc4model%2FserviceManagement.png)
+
+#### Profile management bounded context
+El diagrama de gestión de perfiles muestra cómo una Single Page Application (SPA) interactúa con servicios para manejar roles, permisos y perfiles de usuario. Los controladores procesan solicitudes API relacionadas con la gestión de perfiles y roles, mientras que los servicios de comando realizan actualizaciones y sincronización con un sistema externo de IAM. Los servicios de consulta recuperan datos de perfiles y roles desde repositorios, los cuales almacenan esta información en una base de datos central. Todo el flujo asegura un manejo ordenado y preciso de datos de usuarios y permisos
+![profileManagement.png](img%2F4%2Fc4model%2FprofileManagement.png)
+
+#### Communication management bounded context
+El diagrama de gestión de comunicaciones muestra cómo una Single Page Application (SPA) se conecta a un controlador central para gestionar tareas de comunicación, como mensajes y notificaciones. Los servicios de comando manejan el envío y la actualización de mensajes, mientras que los servicios de consulta recuperan datos históricos y detalles de notificaciones. Los repositorios almacenan mensajes y datos de notificaciones en una base de datos, y los servicios externos (como Gmail y un SMS Gateway) se integran para enviar correos electrónicos y mensajes SMS, asegurando una comunicación eficiente y estructurada.
+![communication management.png](img%2F4%2Fc4model%2Fcommunication%20management.png)
+
+#### Subscription management bounded context
+El diagrama de gestión de suscripciones muestra cómo una Single Page Application (SPA) interactúa con controladores para manejar suscripciones y planes. Los controladores procesan solicitudes API para gestionar operaciones de suscripción y facturación. Los servicios de comando realizan acciones como la creación y actualización de suscripciones y planes, mientras que los servicios de consulta recuperan información relevante. Los datos se almacenan en repositorios conectados a una base de datos central, y el servicio de notificaciones envía correos electrónicos mediante Gmail para mantener a los usuarios informados sobre los cambios en sus suscripciones.
+![subscriptionManagement.png](img%2F4%2Fc4model%2FsubscriptionManagement.png)
+
+#### Billing management bounded context
+El diagrama de gestión de facturación muestra cómo una Single Page Application (SPA) se comunica con un controlador de facturación para gestionar la generación de facturas y el procesamiento de pagos. Los servicios de consulta y comando manejan la recuperación de datos y las actualizaciones para facturas y pagos. Los repositorios almacenan datos relacionados con facturas y pagos en una base de datos central. El servicio de notificaciones envía recordatorios y actualizaciones de facturación a los clientes a través de Gmail, mientras que un gateway de pago externo procesa los pagos de forma segura.## 4.7. Software Object-Oriented Design
+
+![billingManagement.png](img%2F4%2Fc4model%2FbillingManagement.png)
+
+#### Device management bounded context
+El diagrama de gestión de dispositivos describe cómo una Single Page Application (SPA) interactúa con un controlador para gestionar dispositivos y diagnósticos. Los servicios de comando y consulta se encargan de las operaciones de escritura y lectura de datos de los dispositivos, que se almacenan en un repositorio conectado a una base de datos. La fachada de gestión de dispositivos expone datos relevantes a otros contextos, mientras que el servicio de gestión de códigos procesa códigos y datos diagnósticos obtenidos de dispositivos IoT OBD integrados en vehículos. Esto permite una gestión eficiente de los dispositivos y la interpretación de información de diagnóstico en tiempo real.
 <br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/c4model/structurizr-crm.png" width="1000px">
-</div>
+![deviceManagement.png](img%2F4%2Fc4model%2FdeviceManagement.png)
 
 #### Identity and Access Management Bounded Context
 Este diagrama representa el contexto de Identity and Access Management (IAM) dentro de la aplicación Workshop N-GINE, encargado de la autenticación, gestión de usuarios y control de roles. Su propósito es garantizar un acceso seguro y controlado a los recursos del sistema mediante la gestión de usuarios y sus respectivas autorizaciones.
 <br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/c4model/structurizr-iam.png" width="1000px">
-</div>
+![structurizr-iam.png](img%2F4%2Fc4model%2Fstructurizr-iam.png)
 
-#### Service Management Bounded Context
-El Service Management controla la planificación y ejecución de intervenciones en el taller. Los controladores de operaciones gestionan las intervenciones, y el manejador de comandos asigna tareas a mecánicos. La integración con IoT permite monitorear vehículos en tiempo real.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/c4model/structurizr-service-management.png" width="1000px">
-</div>
-
-#### Comunication Management Bounded Context
-Este diagrama ilustra la comunicación de la SPA con el Communication Controller, que maneja notificaciones internas y mensajes. El Notification Manager gestiona las alertas, mientras que el Message Command Handler se encarga del envío de mensajes externos a través del Messaging Facade. Todo se registra en el Notification Repository.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/c4model/structurizr-comunication-management.png" width="1000px">
-</div>
-
-#### Analytics Bounded context 
-El diagrama muestra cómo la SPA interactúa con el Analytics Controller, que coordina la recolección de métricas, manejo de datos históricos, generación de reportes y visualización de datos. Todos los datos analíticos se almacenan en el Analytics Repository, conectado a la base de datos.
-<br>
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/c4model/structurizr-analytics.png" width="1000px">
-</div>
 
 ## 4.7. Software Object-Oriented Design
 En esta sección se describen los Diagramas de Clases, que representan la estructura del sistema, y el Diccionario de Clases, que documenta los atributos y métodos de cada clase utilizada.
 
 ### 4.7.1. Class Diagrams
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/classDiagram/classDiagram.png" width="1000px">
-</div>
+![class-diagram.png](img%2F4%2FclassDiagram%2Fclass-diagram.png)
 
 ### 4.7.2. Class Dictionary
-***Enum: RequestStatus***
+`Identity and Access Management`
 
-Enum auxiliar para representar los posibles estados de una solicitud de inventario
+**Class User**
 
-| Valor | Descripción |
-|------------|------------------------------------------|
-| Pending | La solicitud está pendiente. |
-| Approved | La solicitud ha sido aprobada. |
-| Fulfilled | La solicitud ha sido cumplida. |
-| Rejected | La solicitud ha sido rechazada. |
+Esta clase representa un aggregate root que encapsula la información de un usuario en el sistema. Contiene atributos como id, username, password, state, role y workshopId.
 
-***Enum: Availability***
+| Attribute  | Type          | Description                                                 |
+|------------|---------------|-------------------------------------------------------------|
+| id         | int           | Unique identifier for the user                              |
+| username   | string        | Username for the user account                               |
+| password   | string        | Password for the user account                               |
+| state      | AccountStatus | Status of the user account (e.g., active, inactive, hidden) |
+| role       | Role          | Role assigned to the user                                   |
+| workshopId | Long          | Identifier for the workshop associated with the user        |
 
-Enum auxiliar para representar la disponibilidad de un mecánico
+**Class Role**
 
-| Valor | Descripción |
-| - | - |
-| Available | El mecánico está disponible para trabajar. |
-| Busy | El mecánico está ocupado con otros trabajos. |
-| NotAvailable | El mecánico no está disponible. |
+Esta clase representa una entity que define los roles disponibles en el sistema. Contiene atributos como id y name.
 
-***Enum: UserRole***
+| Attribute | Type   | Description                    |
+|-----------|--------|--------------------------------|
+| id        | Long   | Unique identifier for the role |
+| name      | String | Name of the role               |
 
-Enum auxiliar para representar los distintos tipos de usuarios
+`Profile Management`
 
-| Valor | Descripción |
-| - | - |
-| Mechanic | Usuario que trabaja como mecánico. |
-| Customer | Usuario que es cliente del taller. |
-| WorkshopOwner | Usuario que es propietario del taller. |
+**Class Profile**
 
-***Enum: TaskState***
+Esta clase representa un aggregate root que encapsula la información de un perfil de usuario. Contiene atributos como id, firstName, lastName, dni, email, age, location y userId.
 
-Enum auxiliar para representar el estado de una tarea de una intervención
+| Attribute | Type    | Description                       |
+|-----------|---------|-----------------------------------|
+| id        | Long    | Unique identifier for the profile |
+| firstName | string  | First name of the user            |
+| lastName  | string  | Last name of the user             |
+| dni       | Number  | Identification number of the user |
+| email     | string  | Email address of the user         |
+| age       | Integer | Age of the user                   |
+| location  | String  | Location of the user              |
+| userId    | Long    | Identifier of the associated user |
 
-| Valor | Descripción |
-| - | - |
-| NotStarted | La tarea no ha comenzado. |
-| InProgress | La tarea está en progreso. |
-| Completed | La tarea ha sido completada. |
-| OnHold | La tarea está en espera. |
-| Cancelled | La tarea ha sido cancelada. |
+`Service Management`
+
+**Class Workshop**
+
+Esta clase representa un aggregate root que encapsula la información de un taller. Contiene atributos como id y name.
+
+| Attribute | Type   | Description                        |
+|-----------|--------|------------------------------------|
+| id        | Long   | Unique identifier for the workshop |
+| name      | String | Name of the workshop               |
+
+**Class Vehicle**
+
+Esta clase representa un aggregate root que encapsula la información de un vehículo. Contiene atributos como id, licensePlate, brand, model, image, userId y iotDeviceId.
+
+| Attribute    | Type   | Description                                               |
+|--------------|--------|-----------------------------------------------------------|
+| id           | Long   | Unique identifier for the vehicle                         |
+| licensePlate | String | License plate of the vehicle                              |
+| brand        | String | Brand of the vehicle                                      |
+| model        | String | Model of the vehicle                                      |
+| image        | String | Image URL of the vehicle                                  |
+| userId       | long   | Identifier of the user who owns the vehicle               |
+| iotDeviceId  | Long   | Identifier for the IoT device associated with the vehicle |
+
+**Class Intervention**
+
+Esta clase representa un aggregate root que encapsula la información de una intervención. Contiene atributos como id, workshopId, mechanicLeaderId, vehicleId, scheduledAt, startedAt, completedAt, type, status, taskList y description.
+
+| Attribute        | Type                 | Description                                                 |
+|------------------|----------------------|-------------------------------------------------------------|
+| id               | Long                 | Unique identifier for the intervention                      |
+| workshopId       | Long                 | Identifier of the workshop associated with the intervention |
+| mechanicLeaderId | Long                 | Identifier of the mechanic leader for the intervention      |
+| vehicleId        | Long                 | Identifier of the vehicle for the intervention              |
+| scheduledAt      | LocalDateTime        | Scheduled date and time for the intervention                |
+| startedAt        | LocalDateTime        | Start date and time of the intervention                     |
+| completedAt      | LocalDateTime        | Completion date and time of the intervention                |
+| type             | InterventionType     | Type of intervention (e.g., reparation, maintenance)        |
+| status           | InterventionStatuses | Current status of the intervention                          |
+| taskList         | List<Task>           | List of tasks associated with the intervention              |
+| description      | String               | Description of the intervention                             |
+
+**Class Task**
+
+Esta clase representa una entity que encapsula la información de una tarea. Contiene atributos como id, mechanicAssignedId, intervention, tracking, state y description.
+
+| Attribute          | Type             | Description                                                  |
+|--------------------|------------------|--------------------------------------------------------------|
+| id                 | Long             | Unique identifier for the task                               |
+| mechanicAssignedId | Long             | Identifier of the mechanic assigned to the task              |
+| intervention       | Intervention     | Intervention associated with the task                        |
+| tracking           | List<Checkpoint> | List of checkpoints tracking the task                        |
+| state              | TaskState        | Current state of the task (e.g., pending, in progress, done) |
+| description        | String           | Description of the task                                      |
+
+**Class Checkpoint**
+
+Esta clase representa una entity que encapsula la información de un checkpoint. Contiene atributos como id, name y task.
+
+| Attribute | Type   | Description                          |
+|-----------|--------|--------------------------------------|
+| id        | Long   | Unique identifier for the checkpoint |
+| name      | String | Name of the checkpoint               |
+| task      | Task   | Task associated with the checkpoint  |
+
+`Inventory Management`
+
+**Class Product**
+
+Esta clase representa un aggregate root que encapsula la información de un producto en el inventario. Contiene atributos como id, name, description, stockQuantity, lowStockThreshold y workshopId.
+
+| Attribute         | Type    | Description                                      |
+|-------------------|---------|--------------------------------------------------|
+| id                | Long    | Unique identifier for the product                |
+| name              | String  | Name of the product                              |
+| description       | String  | Description of the product                       |
+| stockQuantity     | Integer | Current stock quantity of the product            |
+| lowStockThreshold | Integer | Threshold quantity to trigger low stock alerts   |
+| workshopId        | Long    | Identifier of the workshop that owns the product |
+
+**Class ProductRequest**
+
+Esta clase representa un aggregate root que encapsula la información de una solicitud de producto. Contiene atributos como id, requestedQuantity, taskId, productId, workshopId y status.
+
+| Attribute         | Type                   | Description                                                       |
+|-------------------|------------------------|-------------------------------------------------------------------|
+| id                | Long                   | Unique identifier for the product request                         |
+| requestedQuantity | Integer                | Quantity of the product requested                                 |
+| taskId            | Long                   | Identifier of the task associated with the product request        |
+| productId         | Long                   | Identifier of the requested product                               |
+| workshopId        | Long                   | Identifier of the workshop making the request                     |
+| status            | ProductRequestStatuses | Status of the product request (e.g., pending, accepted, rejected) |
+
+`Device Management`
+
+**Class IoTDevice**
+
+Esta clase representa un aggregate root que encapsula la información de un dispositivo IoT. Contiene atributos como id, codeList, vehicleId.
+
+| Attribute | Type       | Description                                        |
+|-----------|------------|----------------------------------------------------|
+| id        | Long       | Unique identifier for the IoT device               |
+| codeList  | List<Code> | List of codes associated with the IoT device       |
+| vehicleId | Long       | Identifier of the vehicle linked to the IoT device |
+
+**Class Code**
+
+Esta clase representa una entity que encapsula la información de un código generado por un dispositivo IoT. Contiene atributos como id, component, errorCode, description, lastUpdated, iot, state.
+
+| Attribute   | Type      | Description                             |
+|-------------|-----------|-----------------------------------------|
+| id          | int       | Unique identifier for the code          |
+| component   | string    | Component name associated with the code |
+| errorCode   | string    | Error code generated by the IoT device  |
+| description | string    | Description of the error or code        |
+| lastUpdated | Date      | Date when the code was last updated     |
+| iot         | IoT       | IoT device associated with the code     |
+| state       | CodeState | State of the code (e.g., failed, good)  |
+
+`Communication Management`
+
+**Class Notification**
+
+Esta clase representa un aggregate root que encapsula la información de una notificación. Contiene atributos como id, date, content, userId, state, endpoint.
+
+| Attribute | Type              | Description                                             |
+|-----------|-------------------|---------------------------------------------------------|
+| id        | int               | Unique identifier for the notification                  |
+| date      | datetime          | Date and time when the notification was created         |
+| content   | string            | Content of the notification                             |
+| userId    | Long              | Identifier of the user associated with the notification |
+| state     | NotificationState | State of the notification (e.g., read, unread)          |
+| endpoint  | string            | Endpoint URL related to the notification                |
 
 
-***User***
-Clase interface que modela a cualquier usuario de la aplicación, sea cliente, mecánico o dueño de taller.
-**Atributos**
+`Subscription Management`
 
-|Atributo|Tipo|Descripción|
-|-|-|-|
-|id|int|Identificador único del usuario.|
-|username|string|Nombre de usuario del usuario.|
-|password|string|Contraseña del usuario (almacenada de forma segura).|
-|firstName|string|Nombre de pila del usuario.|
-|lastName|string|Apellido del usuario.|
-|email|string|Dirección de correo electrónico del usuario.|
-|role|UserRole|Rol del usuario en el sistema (p.ej., Administrador, Mecánico).|
-|lastLogin|Date|Fecha y hora del último inicio de sesión del usuario.|
+**Class SubscriptionItem**
 
-**Métodos**
+Esta clase representa un aggregate root que encapsula la información de un ítem de suscripción. Contiene atributos como id, workshopId, userId, planId, status, startedAt, endedAt, cancelledAt, isTrial, trialEndsAt.
 
-|Método|Tipo|Descripción|
-|-|-|-|
-|updateProfile(firstName:string,lastName:string,email:string)|void|Actualiza el perfil del usuario con el nuevo nombre, apellido y correo electrónico.|
-|changePassword(newPassword:string)|void|Cambia la contraseña del usuario.|
-|login(username:string,password:string)|boolean|Autentica al usuario con el nombre de usuario y la contraseña proporcionados.|
-|logout()|void|Cierra la sesión del usuario actual.|
-|getRole()|UserRole|Obtiene el rol del usuario en el sistema.|
-|setRole(role:UserRole)|void|Asigna un nuevo rol al usuario.|
-|getLastLogin()|Date|Obtiene la fecha y hora del último inicio de sesión del usuario.|
-|getProfile()|UserProfile|Obtiene el perfil completo del usuario, incluyendo nombre, apellido, correo electrónico, y rol.|
+| Attribute   | Type               | Description                                                                               |
+|-------------|--------------------|-------------------------------------------------------------------------------------------|
+| id          | Long               | Unique identifier for the subscription item                                               |
+| workshopId  | Long               | Identifier of the workshop associated with the subscription                               |
+| userId      | Long               | Identifier of the user who owns the subscription                                          |
+| planId      | Long               | Identifier of the associated plan                                                         |
+| status      | SubscriptionStatus | Current status of the subscription (e.g., pending activation, active, cancelled, expired) |
+| startedAt   | LocalDateTime      | Date and time when the subscription started                                               |
+| endedAt     | LocalDateTime      | Date and time when the subscription ended                                                 |
+| cancelledAt | LocalDateTime      | Date and time when the subscription was cancelled                                         |
+| isTrial     | Boolean            | Indicates if the subscription is a trial                                                  |
+| trialEndsAt | LocalDateTime      | Date and time when the trial period ends                                                  |
 
-***Customer***
-Representa a los clientes del sistema, quienes pueden tener múltiples vehículos registrados y realizar solicitudes de servicio.
+**Class Plan**
 
-**Atributos**
-|Atributo|Tipo|Descripción|
-|-|-|-|
-|id|int|Identificador único del cliente.|
-|username|string|Nombre de usuario del cliente.|
-|password|string|Contraseña del cliente (almacenada de forma segura).|
-|firstName|string|Nombre de pila del cliente.|
-|lastName|string|Apellido del cliente.|
-|email|string|Dirección de correo electrónico del cliente.|
-|phoneNumber|string|Número de teléfono del cliente.|
-|address|string|Dirección de residencia del cliente.|
-|vehicles|List<Vehicle>|Lista de vehículos asociados al cliente.|
+Esta clase representa una entity que encapsula la información de un plan de suscripción. Contiene atributos como id, price, durationInMonths, type, cycle, maxMechanics, maxClients, maxActiveInterventions, maxItems, metricsAvailable.
 
-**Métodos**
-|Método|Tipo|Descripción|
-|-|-|-|
-|updateContactInfo(email:string,phoneNumber:string)|void|Actualiza la información de contacto del cliente, incluyendo correo electrónico y número de teléfono.|
-|addVehicle(vehicle:Vehicle)|void|Agrega un vehículo a la lista de vehículos del cliente.|
-|removeVehicle(vehicleId:int)|void|Elimina un vehículo de la lista de vehículos del cliente usando el identificador del vehículo.|
-|getVehicles()|List<Vehicle>|Obtiene la lista de vehículos asociados al cliente.|
-|getFullName()|string|Obtiene el nombre completo del cliente, combinando el nombre y apellido.|
-|getAddress()|string|Obtiene la dirección de residencia del cliente.|
-|getContactInfo()|string|Obtiene la información de contacto del cliente, incluyendo correo electrónico y número de teléfono.|
-|login(username:string,password:string)|boolean|Autentica al cliente con el nombre de usuario y la contraseña proporcionados.|
-|logout()|void|Cierra la sesión del cliente actual.|
-|getRole()|UserRole|Obtiene el rol del cliente en el sistema (p.ej., Cliente).|
-|setRole(role:UserRole)|void|Asigna un nuevo rol al cliente (si aplica).|
-|getLastLogin()|Date|Obtiene la fecha y hora del último inicio de sesión del cliente.|
-|getProfile()|UserProfile|Obtiene el perfil completo del cliente, incluyendo nombre, apellido, correo electrónico, y más.|
+| Attribute              | Type         | Description                                       |
+|------------------------|--------------|---------------------------------------------------|
+| id                     | Long         | Unique identifier for the plan                    |
+| price                  | Decimal      | Price of the plan                                 |
+| durationInMonths       | Integer      | Duration of the plan in months                    |
+| type                   | PlanType     | Type of the plan (e.g., basic, standard, premium) |
+| cycle                  | BillingCycle | Billing cycle of the plan (e.g., monthly, annual) |
+| maxMechanics           | Integer      | Maximum number of mechanics allowed               |
+| maxClients             | Integer      | Maximum number of clients allowed                 |
+| maxActiveInterventions | Integer      | Maximum number of active interventions allowed    |
+| maxItems               | Integer      | Maximum number of items allowed in inventory      |
+| metricsAvailable       | Boolean      | Indicates if metrics are available with the plan  |
 
-***Mechanic***
-Representa a los mecánicos del sistema, quienes realizan las intervenciones y tareas asignadas en el taller.
 
-**Atributos**
-|Atributo|Tipo|Descripción|
-|-|-|-|
-|id|int|Identificador único del mecánico.|
-|username|string|Nombre de usuario del mecánico.|
-|password|string|Contraseña del mecánico (almacenada de forma segura).|
-|firstName|string|Nombre de pila del mecánico.|
-|lastName|string|Apellido del mecánico.|
-|email|string|Dirección de correo electrónico del mecánico.|
-|phoneNumber|string|Número de teléfono del mecánico.|
-|availability|Availability|Estado de disponibilidad del mecánico (p.ej., Disponible, Ocupado).|
-|assignedInterventions|List<Intervention>|Lista de intervenciones asignadas al mecánico.|
-|assignedTasks|List<Task>|Lista de tareas asignadas al mecánico.|
-|skills|List<string>|Lista de habilidades o especialidades del mecánico.|
+`Billing Management`
 
-**Métodos**
-|Método|Tipo|Descripción|
-|-|-|-|
-|assignInterventions(interventions:List<Intervention>)|void|Asigna una lista de intervenciones al mecánico.|
-|assignTasks(tasks:List<Task>)|void|Asigna una lista de tareas al mecánico.|
-|updateAvailability(newAvailability:Availability)|void|Actualiza el estado de disponibilidad del mecánico.|
-|completeIntervention(intervention:Intervention)|void|Marca una intervención como completada por el mecánico.|
-|getPendingInterventions()|List<Intervention>|Obtiene la lista de intervenciones pendientes para el mecánico.|
-|getInterventionHistory()|List<Intervention>|Obtiene el historial de intervenciones realizadas por el mecánico.|
-|completeTask(task:Task)|void|Marca una tarea específica como completada.|
-|getPendingTasks()|List<Task>|Obtiene la lista de tareas pendientes para el mecánico.|
-|getTaskHistory()|List<Task>|Obtiene el historial de tareas realizadas por el mecánico.|
-|getSkills()|List<string>|Obtiene la lista de habilidades o especialidades del mecánico.|
-|getProfile()|UserProfile|Obtiene el perfil completo del mecánico, incluyendo nombre, apellido, correo electrónico, y más.|
+**Class Invoice**
 
-***WorkshopOwner***
-Representa a los propietarios de talleres, quienes gestionan los diferentes talleres en el sistema.
+Esta clase representa un aggregate root que encapsula la información de una factura. Contiene atributos como id, subscriptionId, workshopId, planId, amount, status, issueDate, dueDate, paymentDate.
 
-**Atributos**
-|Atributo|Tipo|Descripción|
-|-|-|-|
-|id|int|Identificador único del propietario del taller.|
-|username|string|Nombre de usuario del propietario del taller.|
-|password|string|Contraseña del propietario (almacenada de forma segura).|
-|firstName|string|Nombre de pila del propietario.|
-|lastName|string|Apellido del propietario.|
-|email|string|Dirección de correo electrónico del propietario.|
-|phoneNumber|string|Número de teléfono del propietario.|
-|address|string|Dirección de residencia del propietario.|
-|workshops|List<Workshop>|Lista de talleres que el propietario gestiona.|
-
-**Métodos**
-|Método|Tipo|Descripción|
-|-|-|-|
-|updateContactInfo(email:string,phoneNumber:string)|void|Actualiza la información de contacto del propietario, incluyendo correo electrónico y número de teléfono.|
-|addWorkshop(workshop:Workshop)|void|Agrega un taller a la lista de talleres gestionados por el propietario.|
-|removeWorkshop(workshopId:int)|void|Elimina un taller de la lista de talleres gestionados por el propietario usando el identificador del taller.|
-|getWorkshops()|List<Workshop>|Obtiene la lista de talleres gestionados por el propietario.|
-|getFullName()|string|Obtiene el nombre completo del propietario, combinando el nombre y apellido.|
-|getAddress()|string|Obtiene la dirección de residencia del propietario.|
-|getContactInfo()|string|Obtiene la información de contacto del propietario, incluyendo correo electrónico y número de teléfono.|
-|login(username:string,password:string)|boolean|Autentica al propietario con el nombre de usuario y la contraseña proporcionados.|
-|logout()|void|Cierra la sesión del propietario actual.|
-|getRole()|UserRole|Obtiene el rol del propietario en el sistema (p.ej., Propietario de Taller).|
-|setRole(role:UserRole)|void|Asigna un nuevo rol al propietario (si aplica).|
-|getLastLogin()|Date|Obtiene la fecha y hora del último inicio de sesión del propietario.|
-|getProfile()|UserProfile|Obtiene el perfil completo del propietario, incluyendo nombre, apellido, correo electrónico, y más.|
-
-***Vehicle***
-Representa los vehículos a los cuales se realizan las intervenciones.
-**Atributos**
-| Atributo | Tipo | Descripcion |
-| - | - | - |
-| id | int | Identificador único. Se utiliza para distinguir de manera inequívoca a cada vehículo en el sistema |
-| licensePlate | string | Matricula del vehículo. Se utiliza para distinguir al vehículo en filtrados |
-| brand | string | Marca del vehículo. Se utiliza para distinguir al vehículo en filtrados |
-| model | string | Modelo del vehículo. Se utiliza para distinguir al vehículo en filtrados |
-| scanList | List<Scan> | Lista de scaneos realizados al vehículo. Cada scaneo contiene dentro suyo una lista de Code. |
-| owner | WorkshopCustomer | Dueño del vehículo. Se utiliza para distinguir al vehículo en filtrados. |
-**Métodos**
-| Método | Tipo | Descripción |
-| - | - | - |
-| addScan() | Scan |  | Obtiene un Scan que posteriormente sera ingresado dentro scanList.
-| getVehicleRecord() | List<Interventions> | Obtiene una lista de Interventions. Se utiliza para los registros de vehículos. | 
-
-***Workshop***
-Representa el taller mecánico.
-
-**Atributos**
-|Atributo|Tipo|Descripción|
-|-|-|-|
-|id|int|Identificador único del taller.|
-|name|string|Nombre del taller.|
-|location|string|Dirección o ubicación del taller.|
-|contactNumber|string|Número de teléfono de contacto del taller.|
-|owner|WorkshopOwner|Propietario del taller.|
-|mechanics|List<Mechanic>|Lista de mecánicos que trabajan en el taller.|
-|services|List<Service>|Lista de servicios ofrecidos en el taller.|
-|workingHours|string|Horario de funcionamiento del taller.|
-
-**Métodos**
-|Método|Tipo|Descripción|
-|-|-|-|
-|updateContactInfo(contactNumber:string)|void|Actualiza el número de teléfono de contacto del taller.|
-|addMechanic(mechanic:Mechanic)|void|Agrega un mecánico a la lista de mecánicos del taller.|
-|removeMechanic(mechanicId:int)|void|Elimina un mecánico de la lista de mecánicos del taller usando el identificador del mecánico.|
-|addService(service:Service)|void|Agrega un nuevo servicio a la lista de servicios ofrecidos por el taller.|
-|removeService(serviceId:int)|void|Elimina un servicio de la lista de servicios ofrecidos por el taller usando el identificador del servicio.|
-|getMechanics()|List<Mechanic>|Obtiene la lista de mecánicos que trabajan en el taller.|
-|getServices()|List<Service>|Obtiene la lista de servicios ofrecidos por el taller.|
-|getOwner()|WorkshopOwner|Obtiene el propietario del taller.|
-|getLocation()|string|Obtiene la dirección o ubicación del taller.|
-|getContactNumber()|string|Obtiene el número de teléfono de contacto del taller.|
-
-***InventoryItem***
-Representa los items que se almacenan en el taller y son gestionados por el inventario
-**Atributos**
-| Atributo | Tipo | Descripción |
-| - | - | - |
-| id | int | Identificador único del artículo en inventario. |
-| name | string | Nombre del artículo en inventario. |
-| description | string | Descripción detallada del artículo. |
-| quantity | int | Cantidad disponible del artículo en inventario. |
-| unitPrice | decimal | Precio unitario del artículo. |
-| category | string | Categoría a la que pertenece el artículo. |
-| supplier | string | Proveedor del artículo. |
-| reorderLevel | int | Nivel mínimo de existencias para reordenar. |
-| lastUpdated | Date | Fecha de la última actualización del inventario. |
-**Métodos**
-| Método | Tipo | Descripción |
-| - | - | - |
-| updateQuantity(newQuantity: int) | void | Actualiza la cantidad disponible del artículo en inventario. |
-| updatePrice(newPrice: decimal) | void | Actualiza el precio unitario del artículo en inventario. |
-| reorder() | void | Realiza el proceso de reordenar el artículo si la cantidad está por debajo del nivel de reorden. |
-| getDetails() | InventoryItemDetails | Obtiene los detalles completos del artículo en inventario, incluyendo nombre, descripción, cantidad, y más. |
-| getCategory() | string | Obtiene la categoría del artículo en inventario. |
-| getSupplier() | string | Obtiene el proveedor del artículo en inventario. |
-| getLastUpdated() | Date | Obtiene la fecha de la última actualización del inventario. |
-
-***ItemRequest***
-Representación de las solicitudes que realizan los mecánicos al inventario para realizar una tarea.
-
-**Atributos**
-|Atributo|Tipo|Descripción|
-|-|-|-|
-|id|int|Identificador único de la solicitud de material.|
-|requestDate|Date|Fecha en la que se realizó la solicitud.|
-|requiredByDate|Date|Fecha límite para recibir los materiales solicitados.|
-|status|RequestStatus|Estado actual de la solicitud (p.ej., Pendiente, Completado).|
-|items|List<InventoryItem>|Lista de artículos solicitados en la solicitud.|
-|totalCost|decimal|Costo total estimado de los artículos solicitados.|
-|requester|Mechanic|Mecánico o empleado que realizó la solicitud.|
-
-**Métodos**
-|Método|Tipo|Descripción|
-|-|-|-|
-|addItem(item:InventoryItem,quantity:int)|void|Agrega un artículo a la solicitud, especificando la cantidad necesaria.|
-|removeItem(itemId:int)|void|Elimina un artículo de la solicitud usando el identificador del artículo.|
-|updateStatus(newStatus:RequestStatus)|void|Actualiza el estado de la solicitud (p.ej., Pendiente, Completado).|
-|calculateTotalCost()|decimal|Calcula el costo total estimado de los artículos solicitados.|
-|getRequestDetails()|ItemRequestDetails|Obtiene los detalles completos de la solicitud, incluyendo artículos, fechas, estado y más.|
-|getItems()|List<InventoryItem>|Obtiene la lista de artículos solicitados en la solicitud.|
-|getStatus()|RequestStatus|Obtiene el estado actual de la solicitud.|
-|getTotalCost()|decimal|Obtiene el costo total estimado de los artículos solicitados.|
-|getRequester()|Mechanic|Obtiene el mecánico o empleado que realizó la solicitud.| 
-
-***Task***
-Representa a las tareas que los mecánicos deben realizar dentro de una intervención.
-
-**Atributos**
-|Atributo|Tipo|Descripción|
-|-|-|-|
-|id|int|Identificador único de la tarea. Se utiliza para distinguir cada tarea en el sistema.|
-|assistant|Mechanic|Mecánico asistente que está colaborando en la tarea.|
-|intervention|Interventions|Intervención a la que está asociada la tarea. Cada tarea está relacionada con una intervención específica.|
-|requestList|List<ItemRequest>|Lista de solicitudes de ítems necesarios para completar la tarea.|
-|state|TaskState|Estado actual de la tarea. Indica en qué fase se encuentra, por ejemplo, en progreso o completada.|
-
-**Métodos**
-|Método|Tipo|Descripción|
-|-|-|-|
-|updateTaskState(state:TaskState)|void|Actualiza el estado de la tarea según el nuevo estado proporcionado.|
-|getTaskDetails()|string|Obtiene los detalles de la tarea, incluyendo información clave sobre la intervención, el mecánico y las solicitudes.| 
-
-***Intervention***
-Representa a las intervenciones, que son el conjunto de actividades a realizar en el taller.
-**Atributos**
-| Atributo | Tipo | Descripcion |
-| - | - | - |
-| id | int | Identificador único de la intervención. |
-| leadMechanic | Mechanic | Mecánico principal o encargado de la intervención. |
-| vehicle | Vehicle | Vehículo asociado con la intervención. |
-| customer | Customer | Cliente que solicita la intervención. |
-| status | InterventionStatus | Estado actual de la intervención. |
-| registrationDate | Date | Fecha en la que se registró la intervención. |
-| acceptanceDate | Date | Fecha en la que se aceptó la intervención. |
-| completionDate | Date | Fecha en la que se completó la intervención. |
-| taskList | List<Task> |  Lista de tareas asociadas a la intervención. | 
-
-***Scan***
-Representa los escaneos realizados a un vehículo.
-
-**Atributos**
-| Atributo | Tipo | Descripcion |
-| - | - | - |
-| id | int | Identificador único. Se utiliza para distinguir de manera inequívoca a escaneo en el sistema |
-| scanDate | date | Fecha del escaneo realizado al vehículo. Se utiliza para distinguir al Scan en los filtrados. |
-| codeList | List<Code> | Lista de Code. Se utiliza para almacenar los Code respectivos de cada escaneo. Posteriormente se utilizaran para mostrarlo al usuario. |
-**Métodos**
-| Método | Tipo | Descripción |
-| - | - | - |
-| scanVehicle() | List<Code> | Obtiene una lista de Code. Se utiliza para insertar información en codeList |
-
-***Code***
-Representa los escaneos realizados a un vehículo.
-
-**Atributos**
-| Atributo | Tipo | Descripcion |
-| - | - | - |
-| id | int | Identificador único. Se utiliza para distinguir de manera inequívoca a escaneo en el sistema |
-| code | string| Código DTC del error. Se utiliza para informar al usuario fallas del vehículo |
-| Description | string | Descripción del código. Se utiliza para detallar los códigos de error. | 
-
-***Date***
-Representa la fecha y hora exacta hasta los segundos de algún evento.
-
-**Atributos**
-
-| Atributo | Tipo | Descripción |
-|----------|------|-------------|
-| year     | int  | El año de la fecha. |
-| month    | int  | El mes de la fecha (1 a 12). |
-| day      | int  | El día del mes (1 a 31). |
-| hour     | int  | La hora del día (0 a 23). |
-| minute   | int  | El minuto de la hora (0 a 59). |
-| second   | int  | El segundo del minuto (0 a 59). |
-
-**Métodos**
-
-| Método | Tipo | Descripción |
-| - | - | - |
-| toString() | string | Devuelve la fecha en formato de cadena (ej. YYYY-MM-DD). |
-| compareTo(otherDate: Date) | int  | Compara la fecha actual con otra fecha; devuelve un número negativo, cero o positivo según si la fecha es anterior, igual o posterior. |
+| Attribute      | Type          | Description                                                   |
+|----------------|---------------|---------------------------------------------------------------|
+| id             | Long          | Unique identifier for the invoice                             |
+| subscriptionId | Long          | Identifier of the associated subscription                     |
+| workshopId     | Long          | Identifier of the workshop linked to the invoice              |
+| planId         | Long          | Identifier of the plan related to the invoice                 |
+| amount         | Integer       | Amount to be paid in the invoice                              |
+| status         | InvoiceStatus | Current status of the invoice (e.g., pending, paid, rejected) |
+| issueDate      | LocalDateTime | Date and time when the invoice was issued                     |
+| dueDate        | LocalDateTime | Date and time when the invoice is due                         |
+| paymentDate    | LocalDateTime | Date and time when the invoice was paid                       |
 
 ## 4.8. Database Design
 
 Para el proyecto Workshop N-GINE se ha seleccionado el motor de base de datos MySQL debido a su escalabilidad y su interfaz intuitiva, lo cual facilita su uso. Esta elección se basa en la experiencia del equipo con motores de bases de datos similares, como Microsoft SQL Server, lo que asegura una transición fluida. MySQL ofrece la capacidad de expandir los recursos de la base de datos conforme el taller crezca permitiendo que el sistema maneje eficientemente mayores volúmenes de datos y las necesidades crecientes del negocio.
 
 ### 4.8.1. Database Diagram
-
-<div style="display: grid; justify-content: center; align-items: center;">
-  <img src="img/4/databaseDiagram/databaseDiagram.png" width="1000px">
-</div>
+![database-diagram.png](img%2F4%2FdatabaseDiagram%2Fdatabase-diagram.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
@@ -4398,6 +4697,8 @@ En el proyecto **Workshop N-GINE** se adoptará el modelo **Git Flow**, implemen
 - **[Organización Workshop N-GINE en GitHub](https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-FrontEnd)**.
 - **[Repositorio de la Landing Page](https://github.com/Open-Source-YaraSoftware/Landing-page)**.
 - **[Repositorio del Informe](https://github.com/Web-Application-YaraSoftware/Informe)**.
+- **[Repositorio del FrontEnd](https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-FrontEnd)**.
+- **[Repositorio del BackEnd](https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform)**.
 
 ### Flujo de Trabajo Git Flow
 
@@ -4527,7 +4828,85 @@ Para el despliegue eficiente del proyecto de la **Landing Page**, es imprescindi
 
 Con este procedimiento, la página desplegada quedará vinculada y autorizada con el repositorio de la organización. Cada vez que se realice un commit en la rama correspondiente, la **Landing Page** se actualizará automáticamente, eliminando la necesidad de repetir los pasos de despliegue previos.
 
-**[Enlace para acceder a la Landing Page](https://landing-page-workshop-n-gine.netlify.app/#learn-more)**.
+**[Enlace para acceder a la Landing Page](https://open-workshop-n-gine-landing-page.netlify.app/)**.
+
+**Frontend Web Application Deployment**
+
+La aplicación web se desplegará en Netlify, una plataforma de alojamiento web y despliegue continuo.
+Se seguirán los siguientes pasos para el despliegue de la aplicación web, considerando que se ha realizado la configuración de la landing page:
+
+1. Conectar el repositorio de la aplicación web en GitHub a Netlify.
+   ![Step1-frontend-web-application](img/5/1/4/frontend/step1.png)
+2. Configurar las opciones de despliegue, como el directorio de construcción y las variables de entorno.
+   ![Step2-frontend-web-application](img/5/1/4/frontend/step2.png)
+   ![Step3-frontend-web-application](img/5/1/4/frontend/step3.png)
+3. Desplegar la aplicación web en Netlify.
+   ![Step4-frontend-web-application](img/5/1/4/frontend/step4.png)
+
+Enlace para acceder a la aplicación web desplegada:
+
+[https://open-workshop-n-gine.netlify.app/](https://open-workshop-n-gine.netlify.app/)
+
+**Web Services Deployment**
+
+La API RESTful se desplegará en Railway, una plataforma de alojamiento web y despliegue continuo.
+Se seguirán los siguientes pasos para el despliegue de la API RESTful:
+
+1. Acceder a Railway con una cuenta de GitHub.
+   ![Step1-web-services](img/5/1/4/backend/ingresarRailway.png)
+2. Crear un nuevo proyecto en Railway y configurar la base de datos.
+   ![Step2-web-services](img/5/1/4/backend/newProject.png)
+3. Obtener las credenciales de la base de datos y configurar la conexión en el proyecto de la API.
+   ![Step3-web-services](img/5/1/4/backend/getUrl.png)
+4. Preparar el archivo Dockerfile en el proyecto de la API.
+   ![Step4-web-services](img/5/1/4/backend/addDocker.png)
+5. Agregar el proyecto desde GitHub a Railway y configurar el despliegue.
+   ![Step5-web-services](img/5/1/4/backend/newService.png)
+6. Cargar y configurar el proyecto en Railway.
+   ![Step6-web-services](img/5/1/4/backend/docker.png)
+
+Enlace para acceder a la documentación Swagger de la API RESTful desplegada:
+
+[https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html](https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html)
+
+**Frontend Web Application Deployment**
+
+La aplicación web se desplegará en Netlify, una plataforma de alojamiento web y despliegue continuo.
+Se seguirán los siguientes pasos para el despliegue de la aplicación web, considerando que se ha realizado la configuración de la landing page:
+
+1. Conectar el repositorio de la aplicación web en GitHub a Netlify.
+   ![Step1-frontend-web-application](img/5/1/4/frontend/step1.png)
+2. Configurar las opciones de despliegue, como el directorio de construcción y las variables de entorno.
+   ![Step2-frontend-web-application](img/5/1/4/frontend/step2.png)
+   ![Step3-frontend-web-application](img/5/1/4/frontend/step3.png)
+3. Desplegar la aplicación web en Netlify.
+   ![Step4-frontend-web-application](img/5/1/4/frontend/step4.png)
+
+Enlace para acceder a la aplicación web desplegada:
+
+[https://open-workshop-n-gine.netlify.app/](https://open-workshop-n-gine.netlify.app/)
+
+**Web Services Deployment**
+
+La API RESTful se desplegará en Railway, una plataforma de alojamiento web y despliegue continuo.
+Se seguirán los siguientes pasos para el despliegue de la API RESTful:
+
+1. Acceder a Railway con una cuenta de GitHub.
+   ![Step1-web-services](img/5/1/4/backend/ingresarRailway.png)
+2. Crear un nuevo proyecto en Railway y configurar la base de datos.
+   ![Step2-web-services](img/5/1/4/backend/newProject.png)
+3. Obtener las credenciales de la base de datos y configurar la conexión en el proyecto de la API.
+   ![Step3-web-services](img/5/1/4/backend/getUrl.png)
+4. Preparar el archivo Dockerfile en el proyecto de la API.
+   ![Step4-web-services](img/5/1/4/backend/addDocker.png)
+5. Agregar el proyecto desde GitHub a Railway y configurar el despliegue.
+   ![Step5-web-services](img/5/1/4/backend/newService.png)
+6. Cargar y configurar el proyecto en Railway.
+   ![Step6-web-services](img/5/1/4/backend/docker.png)
+
+Enlace para acceder a la documentación Swagger de la API RESTful desplegada:
+
+[https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html](https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html)
 
 
 ## 5.2. Landing Page, Services & Applications Implementation
@@ -4536,61 +4915,39 @@ Con este procedimiento, la página desplegada quedará vinculada y autorizada co
 
 #### 5.2.1.1. Sprint Planning 1
 
-<table>
-    <tr>
-        <th scope="row"><strong>Sprint #</strong></th>
-        <td>Sprint 1</td>
-    </tr>
-    <tr>
-        <td olspan="2"><strong>Sprint Planning Background</strong></td>
-    </tr>
-    <tr>
-        <th scope="row">Date</th>
-        <td>2024/09/03</td>
-    </tr>
-    <tr>
-        <th scope="row">Time</th>
-        <td>21:00</td>
-    </tr>
-    <tr>
-        <th scope="row">Location</th>
-        <td>Videollamada grupal mediante la plataforma Discord</td>
-    </tr>
-    <tr>
-        <th scope="row">Prepared By</th>
-        <td>Álvaro Orozco Torres</td>
-    </tr>
-    <tr>
-        <th scope="row">Attendees (to planning meeting)</th>
-        <td> Álvaro Orozco Torres, Henry Reaño Delgadillo, Elmer Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto </td>
-    </tr>
-    <tr>
-        <td olspan="2"><strong>Sprint Goal & User Stories</strong></td>
-    </tr>
-    <tr>
-        <th scope="row">Sprint 1 Goal</th>
-        <td>Nuestro foco se encuentra en crear e implementar una landing page atractiva para el producto. Creemos que entrega mayor visibilidad y facilidad de acceso a la información clave a potenciales clientes. Confirmaremos nuestra hipótesis cuando la landing page esté publica y los usuarios puedan interactuar con ella.</td>
-    </tr>
-    <tr>
-        <th scope="row">Sprint 1 Velocity</th>
-        <td>20</td>
-    </tr>
-</table>
+| **Sprint #**                    | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Date                            | 2024/09/03                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Time                            | 21:00                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Location                        | Videollamada grupal mediante la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                 |
+| Prepared By                     | Jhosepmyr Orlando Gutierrez Soto                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Attendees (to planning meeting) | Elmer Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto                                                                                                                                                                                                                                                                                                                                                              |
+| Sprint Goal & User Stories      |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sprint 1 Goal                   | Nuestro enfoque está en crear una landing page inicial que presente claramente nuestro producto y a nuestro equipo a los visitantes. <br> Creemos que esto entregará una primera impresión sólida y generará interés en los visitantes potenciales de nuestro sitio web. <br> Esto se confirmará cuando la landing page esté en línea y comencemos a recibir visitas y suscripciones a través de un formulario básico de contacto. |
+| Sprint 1 Velocity               | 20                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sum of Story Points             | 20                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+
 
 #### 5.2.1.2. Sprint Backlog 1
 
-El objetivo del sprint es crear una landing page atractiva e interactiva que permita al usuario familiarizarse con los valores que ofrece el producto. Además, busca principalmente incentivar al usuario a adquirir un plan de suscripción para aprovechar al máximo las funcionalidades disponibles.
+En el primer sprint backlog, el equipo se centrará en la creación de la landing page inicial del producto Workshop.
 
-Durante todo el sprint 1 se llevo llevo un registro de las tareas completadas en Trello, como se puede observar:
+La herramienta de gestión de proyectos Trello se utilizará para organizar y priorizar las tareas del sprint.
 
-<img src="img/5/2/1/2/trello_board.png">
+Esta herramienta permite a los miembros del equipo colaborar en la definición de las tareas, asignarlas a los miembros del equipo y realizar un seguimiento del progreso.
 
-A continuación, se procedera a detallar en una tabla las user story vinculadas a sus tareas, con una breve descripción, estimación en horas y que miembro del equipo la llevo acabo.
+![trello_board_sprint_1](img/5/2/1/2/trello_board_sprint_1.png)
+
+Enlace al tablero de Trello del Sprint 1:
+[https://trello.com/b/PvVqjtgB/sprint-1](https://trello.com/b/PvVqjtgB/sprint-1)
+
+A continuación, se procede a detallar en una tabla las user story vinculadas a sus tareas, con una breve descripción, estimación en horas y que miembro del equipo la llevo acabo.
 
 <table border="1" style="width:100%; text-align: center;">
   <tr>
     <th colspan="2">Sprint #</th>
-    <th colspan="5">Sprint n</th>
+    <th colspan="5">Sprint 1</th>
   </tr>
   <tr>
     <th colspan="2">User Story</th>
@@ -4743,7 +5100,7 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <td>Diseño de planes</td>
     <td>Diseño visual de la sección de planes, presentando las opciones de suscripción o compra del producto.</td>
     <td>2</td>
-    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
     <td>Done</td>
   </tr>
   <tr>
@@ -4753,7 +5110,7 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <td>Implementación de cards</td>
     <td>Desarrollo e implementación de las cards en la sección de planes, asegurando interactividad y responsividad.</td>
     <td>2</td>
-    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
     <td>Done</td>
   </tr>
   <tr>
@@ -4763,7 +5120,7 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <td>Diseño de formulario de contacto</td>
     <td>Creación del diseño visual para el formulario de contacto, asegurando que sea claro y fácil de usar.</td>
     <td>2</td>
-    <td>Álvaro Orozco Torres</td>
+    <td>Elmer Augusto Riva Rodriguez</td>
     <td>Done</td>
   </tr>
   <tr>
@@ -4773,7 +5130,7 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <td>Implementación de formulario</td>
     <td>Desarrollo e integración del formulario de contacto, incluyendo validación y envío de datos.</td>
     <td>2</td>
-    <td>Álvaro Orozco Torres</td>
+    <td>Elmer Augusto Riva Rodriguez</td>
     <td>Done</td>
   </tr>
   <tr>
@@ -4783,7 +5140,7 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <td>Diseño de footer</td>
     <td>Diseño visual del pie de página (footer), incluyendo enlaces a secciones relevantes y redes sociales.</td>
     <td>2</td>
-    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Hernández Tuiro, Eric Ernesto</td>
     <td>Done</td>
   </tr>
   <tr>
@@ -4793,50 +5150,66 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <td>Implementación de footer</td>
     <td>Desarrollo del pie de página, asegurando que sea responsive y accesible.</td>
     <td>2</td>
-    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Hernández Tuiro, Eric Ernesto</td>
     <td>Done</td>
   </tr>
 </table>
 
 #### 5.2.1.3. Development Evidence for Sprint Review
 
-| Repository | Branch | Commit id | Commit message | Commit body | Commited on |
-| - | - | - | - | - | - |
-| Open-Source-YaraSoftware / Landing-page | develop | 5e3f9bb398ca81cd655e3bc649255e2d171bdb22 | chore: add all required images for the entire project | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  develop | 9bb4007d76994003db24c9ae76608330ed37db0a | chore: configure sass folder and import all components into main.scss | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  develop | 3974cb03d4e26554bd9362891995d263e2b2fd66 | chore: set up global styles and add normalize, mixins, and variables | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  develop | 650d57af23cdbb155ddaeeffac39b555bc035585 | chore: import Roboto font via Google Fonts link in index.html | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  develop | 1937f6d1ceda82e273486ca12f8d70c70445c2f2 | feat: add header html section with navigation and banner | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  develop | 86ac708701a2f0a199e601cfe7ab340c14116afe | feat: add SCSS component for buttonAction with hover effect and full-width styling | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  develop | 9b7f312eb7dc4bd9f11dadd310794696b2d8e1ec | feat: add header styling with background image, overlay, and responsive layout | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  develop | f54f80a0228d5d26e428a9ba0d9891fe3f40542a | feat: add responsive banner styling with image, content, and button layout | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | 2b3d1fc936238f202980b9b35e0c2f6a07c4ce83 | feat: add responsive navbar styling with dark mode and dynamic menu functionality | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | 77c11649aaaa520e92008d6d081e81a44dce4f60 | feat: add toggle functionality for mobile menu and reset on resize | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | feature/footer  | e410d8ab8170bf09953f246e85d0a70b2fc98ffb | feat: add functionality to change navbar color after scrolling past header | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  feature/about-us | b5c803d3e867eada59b765d8ee84f35d2a8e30a3 | feat: add learn more section with header, image, and contact button | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | feature/benefits | f85d871514d67ec29c5136f48b0bd13b5b641457 | feat: add our benefits section with cards detailing platform advantages | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | feature/benefits | c6f36ec8ebd2fa128c77f4fff0985b970c00843c | feat: add responsive styling for our benefits section with card layout and grid adjustments | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | feature/testimonials | 25000c95c8c3a60943d0be13ec92085cc610d2fa | feat: add testimonials section with client feedback cards | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | feature/testimonials | c2b85b4d114d29cbc7c9c7cd991106af9e756699 | feat: add responsive styling for testimonials section with horizontal scroll and card hover effect | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | feature/testimonials | ba8726e8adbb3834ff6025d0973026197a016a4a | feat: add auto-scrolling carousel functionality with reverse direction at end | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | feature/testimonials | 64b1b758a6da3add09712d128b55aedbacf75c43 | fix: remove duplicate section tags | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | feature/testimonials | a14e96add7d95b8242f2746007c38e5512a6a51a | fix: remove duplicate header tag | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | c8dbb4a61bf1889e0beb0065bed2c695284399f5 | feat: add about us section with mission, vision, and values cards | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | 507a95956b723c248520d33a2e471b46d9736eea | feat: add responsive styling for about us section with card flipping effect | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | 671e481e5c4dc96ce7e4dedbb8d4397b4ecc6f98 | feat: add plans section with pricing cards for free, basic, and premium plans | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | 23c892fb608cbd35f67490e57b830ae7b60cf391 | feat: add responsive styling for the plans section with card layout and dark mode option for premium | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | 5b13f1a3c03efc06e65eaf541c5f111b439428dd | feat: add contact form section with inputs for name, email, phone, and message | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | 636e8c32bd44b3c1c2d0988a2c33ae279877e2af | feat: add responsive styling for contact form section with layout adjustments | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | feat: add contact form section with inputs for name, email, phone, and message | 9e612093d32f77bccf751433cfb09f1dfd4b07a8 | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | 9c03f279a6212a8137315f45c3e461c37c9d3beb | feat: add responsive styling for contact form section with layout adjustments | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | d1a8726bec3dc8279edfd5a9853be831dbea0134 | feat: add footer section with sign up, useful links, contact info, and legal details | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | 152d4c6af5ad0414da4a89d5cdc2f79b53a89eb1 | feat: add responsive styling for footer with contact, sign-up, and legal sections | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | 561b4bc27d17c62ed0795295110fc83d0a777c92 | fix: remove duplicate footer tag | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | 40c00418fea99d1f830bb6b943665ddb16008180 | feat: add language switch functionality and static spanish page | ... | 08/09/2024 |
+Los principales avances del sprint 1 fueron la creación de la landing page inicial del producto Workshop, que incluye las secciones de hero, about the product, beneficios, testimonios, about us, planes, formulario y footer.
+De ese modo, se presentan las evidencias de desarrollo de las tareas realizadas en el sprint 1.
+
+| Repository                              | Branch               | Commit id                                                                      | Commit message                                                                                       | Commit body | Commited on |
+|-----------------------------------------|----------------------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-------------|-------------|
+| Open-Source-YaraSoftware / Landing-page | develop              | 5e3f9bb398ca81cd655e3bc649255e2d171bdb22                                       | chore: add all required images for the entire project                                                | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | develop              | 9bb4007d76994003db24c9ae76608330ed37db0a                                       | chore: configure sass folder and import all components into main.scss                                | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | develop              | 3974cb03d4e26554bd9362891995d263e2b2fd66                                       | chore: set up global styles and add normalize, mixins, and variables                                 | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | develop              | 650d57af23cdbb155ddaeeffac39b555bc035585                                       | chore: import Roboto font via Google Fonts link in index.html                                        | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | develop              | 1937f6d1ceda82e273486ca12f8d70c70445c2f2                                       | feat: add header html section with navigation and banner                                             | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | develop              | 86ac708701a2f0a199e601cfe7ab340c14116afe                                       | feat: add SCSS component for buttonAction with hover effect and full-width styling                   | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | develop              | 9b7f312eb7dc4bd9f11dadd310794696b2d8e1ec                                       | feat: add header styling with background image, overlay, and responsive layout                       | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | develop              | f54f80a0228d5d26e428a9ba0d9891fe3f40542a                                       | feat: add responsive banner styling with image, content, and button layout                           | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page |                      | 2b3d1fc936238f202980b9b35e0c2f6a07c4ce83                                       | feat: add responsive navbar styling with dark mode and dynamic menu functionality                    | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page |                      | 77c11649aaaa520e92008d6d081e81a44dce4f60                                       | feat: add toggle functionality for mobile menu and reset on resize                                   | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | feature/footer       | e410d8ab8170bf09953f246e85d0a70b2fc98ffb                                       | feat: add functionality to change navbar color after scrolling past header                           | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | feature/about-us     | b5c803d3e867eada59b765d8ee84f35d2a8e30a3                                       | feat: add learn more section with header, image, and contact button                                  | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | feature/benefits     | f85d871514d67ec29c5136f48b0bd13b5b641457                                       | feat: add our benefits section with cards detailing platform advantages                              | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | feature/benefits     | c6f36ec8ebd2fa128c77f4fff0985b970c00843c                                       | feat: add responsive styling for our benefits section with card layout and grid adjustments          | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | 25000c95c8c3a60943d0be13ec92085cc610d2fa                                       | feat: add testimonials section with client feedback cards                                            | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | c2b85b4d114d29cbc7c9c7cd991106af9e756699                                       | feat: add responsive styling for testimonials section with horizontal scroll and card hover effect   | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | ba8726e8adbb3834ff6025d0973026197a016a4a                                       | feat: add auto-scrolling carousel functionality with reverse direction at end                        | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | 64b1b758a6da3add09712d128b55aedbacf75c43                                       | fix: remove duplicate section tags                                                                   | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | a14e96add7d95b8242f2746007c38e5512a6a51a                                       | fix: remove duplicate header tag                                                                     | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | c8dbb4a61bf1889e0beb0065bed2c695284399f5                                       | feat: add about us section with mission, vision, and values cards                                    | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | 507a95956b723c248520d33a2e471b46d9736eea                                       | feat: add responsive styling for about us section with card flipping effect                          | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | 671e481e5c4dc96ce7e4dedbb8d4397b4ecc6f98                                       | feat: add plans section with pricing cards for free, basic, and premium plans                        | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | 23c892fb608cbd35f67490e57b830ae7b60cf391                                       | feat: add responsive styling for the plans section with card layout and dark mode option for premium | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | 5b13f1a3c03efc06e65eaf541c5f111b439428dd                                       | feat: add contact form section with inputs for name, email, phone, and message                       | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | 636e8c32bd44b3c1c2d0988a2c33ae279877e2af                                       | feat: add responsive styling for contact form section with layout adjustments                        | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | feat: add contact form section with inputs for name, email, phone, and message | 9e612093d32f77bccf751433cfb09f1dfd4b07a8                                                             | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | 9c03f279a6212a8137315f45c3e461c37c9d3beb                                       | feat: add responsive styling for contact form section with layout adjustments                        | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | d1a8726bec3dc8279edfd5a9853be831dbea0134                                       | feat: add footer section with sign up, useful links, contact info, and legal details                 | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | 152d4c6af5ad0414da4a89d5cdc2f79b53a89eb1                                       | feat: add responsive styling for footer with contact, sign-up, and legal sections                    | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | 561b4bc27d17c62ed0795295110fc83d0a777c92                                       | fix: remove duplicate footer tag                                                                     | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | 40c00418fea99d1f830bb6b943665ddb16008180                                       | feat: add language switch functionality and static spanish page                                      | ...         | 08/09/2024  |
 
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review
+Para el Sprint 1, se realizó una serie de pruebas en relación con los user stories implementados de la landing page de Workshop N-Gine.
+A continuación, se presentan las evidencias de las pruebas realizadas:
 
-Para este primer sprint no fue contemplada la evidencia de documentación de testeo.
+| Repository                                                    | Branch  | Commit Id                                | Commit Message                                                                           | Commit Message Body                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Commited on(Date)        |
+|---------------------------------------------------------------|---------|------------------------------------------|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | main    | eb378bb661d9eeeea0f6549850b6f9137ad77f9d | chore: initial commit                                                                    | chore: initial commit                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Fri Nov 15 16:44:51 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | develop | e770b9c0b906cb4462d535f8e4a9a48f1274698a | feat(hero-section): define behavior-driven development (BDD) scenarios for landing page  | - Added a Gherkin feature file for the Hero Section of the landing page. - Defined scenarios to ensure visibility and clarity of the Hero Section message. - Included conditions for the presence of a visually appealing image and a prominent call-to-action button. - Created a scenario outline for responsiveness across mobile, tablet, and desktop devices.                                                                                                                                                                                                                                                                                                                                                                                                                             | Fri Nov 15 16:47:51 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | develop | 1ea5d41f5371f11e84fc8f75fcc2289bc90d4948 | feat(about-product-section): define BDD scenarios for the landing page section           | - Added a Gherkin feature file for the "About the Product" section of the landing page. - Defined scenarios to ensure clear and understandable product descriptions for workshop owners. - Specified conditions for highlighting product benefits in a relevant manner. - Included a scenario for embedding a playable product video and ensuring easy navigation within the section. - Created a scenario to confirm the responsiveness of the content, especially on mobile devices.                                                                                                                                                                                                                                                                                                         | Fri Nov 15 16:48:17 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | develop | 5feb7559008c2a9a53bd111e4111ee62fd913d13 | feat(benefits-section): add BDD scenarios for benefits section on landing page           | - Defined feature and scenarios for the Benefits section on the landing page. - Ensured a clear and organized presentation format for the benefits list. - Emphasized relevance and clarity of each benefit for workshop owners. - Included visual elements alongside benefits for improved comprehension and engagement. - Created a scenario outline for verifying specific benefits with accompanying descriptions and icons. - Added a scenario to validate the responsiveness of the Benefits section on mobile devices.                                                                                                                                                                                                                                                                  | Fri Nov 15 16:48:41 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | develop | 5a8d0fed0f4d1814b43bd3ad839c1d42b4d8cf4b | feat(testimonials-section): add BDD scenarios for testimonials section on landing page   | - Defined feature and scenarios for showcasing customer testimonials on the landing page. - Ensured the display of at least three genuine testimonials with client names and detailed feedback. - Included requirements for visually attractive presentation using styled text quotes and consistent design. - Added a scenario to validate responsiveness and proper layout on mobile devices. - Created a scenario outline for verifying specific testimonials, including client role and accompanying photo.                                                                                                                                                                                                                                                                                | Fri Nov 15 16:48:57 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | develop | 2e22208951bf5657a07bd8568db6f5b465e0dd13 | feat(about-us-section): add BDD scenarios for "About Us" section on landing page         | - Added feature definition and scenarios for the "About Us" section. - Included details for displaying the company's history, mission, and vision clearly and concisely. - Described requirements for visually appealing and easy-to-read design consistent with the overall landing page. - Ensured the section is responsive on mobile devices, with well-organized content and no horizontal scrolling needed. - Provided an example table outlining specific content, such as the mission, vision, and values.                                                                                                                                                                                                                                                                             | Fri Nov 15 16:49:23 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | develop | 582a83c7c1cb4f2a0bb540c1e849d6776b596dde | feat(pricing-section): add BDD scenarios for "Plans and Pricing" section on landing page | - Added feature definition and detailed scenarios for displaying the "Plans and Pricing" section. - Specified requirements for listing three plans: "Free Plan," "Basic Plan," and "Premium Plan," with corresponding prices. - Described expectations for clearly presenting features, ensuring transparent pricing, and including a call-to-action for each plan. - Outlined the need for a user-friendly comparison design, using columns or tables, and highlighted visual distinction for the "Premium Plan." - Provided scenario outline with examples to verify specific features for each plan and their respective values.                                                                                                                                                            | Fri Nov 15 16:49:42 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | develop | 963e2771d45c0228a057c54e0c66f355752905b2 | feat(contact-form): add BDD scenarios for "Contact Form" section on landing page         | - Defined feature requirements for the "Contact Form" section, emphasizing accessibility and usability. - Detailed scenarios for the visibility and accessibility of the form, including a clear "CONTACT US" title and guiding message. - Outlined required form fields: "Name," "Email," "Phone," and "Message." - Added a scenario outline for field validation with examples for different cases, specifying error handling and acceptance criteria. - Included expectations for a successful form submission with a confirmation message. - Described the need for a responsive design, ensuring usability across various device dimensions. - Highlighted aesthetic requirements, ensuring a clean and organized layout with clearly labeled fields and a clickable "CONTACT US" button. | Fri Nov 15 16:50:07 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | develop | 7c749f0adb00f67a2dcf0dd509e89ddbbf330b26 | feat(i18n-landing-page): add BDD scenarios for internationalization of the landing page  | - Introduced support for both Spanish and English to provide a multilingual experience. - Described a scenario for default language setting and an accessible language switcher. - Included scenarios for a visible language selector with "ES" and "EN" options and the ability to switch languages seamlessly. - Added outline scenarios for content translation, ensuring all sections and text elements are accurately localized. - Addressed language handling in URLs, ensuring proper redirection to localized versions of sections. - Emphasized language persistence, maintaining the selected language.                                                                                                                                                                              | Fri Nov 15 16:50:59 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | main    | 80629aeffc37b4c2ff55583c9be8078e0b2a3c1f | Merge pull request #1 from Web-Application-YaraSoftware/develop                          | Develop                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Fri Nov 15 16:51:54 2024 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
@@ -4851,7 +5224,8 @@ La sección About Us que describe nuestra empresa, nuestros valores y visión.
 La sección de planes, centrada en ser atractiva para el usuario.
 <img src="img/5/2/1/4/plans.png">
 
-Enlace de video de navegación landing page: ...
+Enlace de video de navegación landing page: 
+[https://drive.google.com/file/d/1w33bih2qCpKFsAKJjp8YoJXjjCLJKXj7/view](https://drive.google.com/file/d/1w33bih2qCpKFsAKJjp8YoJXjjCLJKXj7/view)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -4868,73 +5242,1616 @@ Para la entrega del Sprint número 1, se desplego al completo landing page la cu
 <img src="img/5/2/1/7/5.png">
 <img src="img/5/2/1/7/6.png">
 
-Enlace para acceder a la landing page: https://landing-page-workshop-n-gine.netlify.app/
+Enlace para acceder a la landing page: https://open-workshop-n-gine-landing-page.netlify.app/index-es.html
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-| Alumno | Actividad |
-| ----------- | ----------- |
+| Alumno                   | Actividad                                                                             |
+|--------------------------|---------------------------------------------------------------------------------------|
 | Jhosepmyr Gutiérrez Soto | Implementación de Hero Section, About the Product, Testimonios e Internacionalización |
-| Eric Hernandez Tuiro | Implementación del Footer |
-| Álvaro Orozco Torres | Implementación del Formulario de Contacto |
-| Henry Reaño Delgadillo | Implementación de Planes |
-| Elmer Riva Rodriguez | Implementación de Beneficios y About Us |
+| Eric Hernandez Tuiro     | Implementación del Footer                                                             |
+| Álvaro Orozco Torres     | Implementación del Formulario de Contacto                                             |
+| Henry Reaño Delgadillo   | Implementación de Planes                                                              |
+| Elmer Riva Rodriguez     | Implementación de Beneficios y About Us                                               |
 
 <img src="img/5/2/1/8/insights.png">
 
 ### 5.2.2. Sprint 2
 
 #### 5.2.2.1. Sprint Planning 2
+A continuación, se presenta el resumen de la planificación del sprint 2, donde se detalla el objetivo del sprint, las user stories a implementar, la velocidad del equipo y la suma de los puntos de historia.
 
-<table>
-    <tr>
-        <th scope="row"><strong>Sprint #</strong></th>
-        <td>Sprint 2</td>
-    </tr>
-    <tr>
-        <td olspan="2"><strong>Sprint Planning Background</strong></td>
-    </tr>
-    <tr>
-        <th scope="row">Date</th>
-        <td>2024/15/03</td>
-    </tr>
-    <tr>
-        <th scope="row">Time</th>
-        <td>20:00</td>
-    </tr>
-    <tr>
-        <th scope="row">Location</th>
-        <td>Videollamada grupal mediante la plataforma Discord</td>
-    </tr>
-    <tr>
-        <th scope="row">Prepared By</th>
-        <td>Jhosephmyr Gutierrez</td>
-    </tr>
-    <tr>
-        <th scope="row">Attendees (to planning meeting)</th>
-        <td> Henry Reaño Delgadillo, Elmer Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto </td>
-    </tr>
-    <tr>
-        <td olspan="2"><strong>Sprint Goal & User Stories</strong></td>
-    </tr>
-    <tr>
-        <th scope="row">Sprint 2 Goal</th>
-        <td>El foco del sprint 2 es planificar el desarrollo de la aplicación web. Creemos que entrega mayor visibilidad y facilidad de acceso a la información clave a potenciales clientes. Confirmaremos nuestra hipótesis cuando la aplicación web esté publicada y los usuarios puedan interactuar con ella.</td>
-    </tr>
-    <tr>
-        <th scope="row">Sprint 2 Velocity</th>
-        <td>20</td>
-    </tr>
-</table>
+| **Sprint #**                    | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Date                            | 2024/09/18                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Time                            | 20:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Location                        | Videollamada grupal mediante la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Prepared By                     | Jhosepmyr Orlando Gutierrez Soto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Attendees (to planning meeting) | Elmer Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Sprint 1 Review Summary         | En el primer sprint, el equipo logró implementar la landing page de Workshop N-Gine, que incluye las secciones de hero, about the product, beneficios, testimonios, about us, planes, formulario y footer. Los miembros del equipo expresaron su satisfacción con los resultados alcanzados, pero no se inmiscuye la falta de organización.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Sprint 1 Retrospective          | Aciertos: El equipo logró implementar la landing page de Workshop N-Gine con todas las secciones planificadas. La colaboración y comunicación entre los miembros del equipo fueron efectivas, lo que permitió cumplir con los objetivos del sprint. La utilización de Trello para la gestión de tareas facilitó la organización y seguimiento del progreso. <br> Oportunidades de mejora: Se identificó la necesidad de mejorar la planificación y estimación de tiempos para evitar sobrecargas de trabajo. También se sugirió realizar reuniones diarias de seguimiento para asegurar que todos los miembros del equipo estén alineados y puedan resolver cualquier inconveniente de manera oportuna. Además, se propuso mejorar la documentación de las tareas y procesos para facilitar la comprensión y continuidad del trabajo.  |
+| Sprint Goal & User Stories      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Sprint 2 Goal                   | Nuestro enfoque está en implementar las funcionalidades principales del frontend para gestionar clientes, personal, intervenciones, inventario y notificaciones, asegurando que la navegación se adapte a los roles específicos de los usuarios. <br> Creemos que esto entregará una experiencia de usuario fluida y mejorará la eficiencia operativa al permitir que los mecánicos y administradores gestionen fácilmente información clave y procesos dentro de la plataforma. <br> Esto se confirmará cuando los usuarios puedan navegar por la aplicación según su rol, ver y gestionar clientes, personal, intervenciones y existencias de inventario sin errores, y recibir notificaciones relevantes.                                                                                                                           |
+| Sprint 2 Velocity               | 35                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Sum of Story Points             | 35                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
-#### 5.2.1.2. Sprint Backlog 2
+#### 5.2.2.2. Sprint Backlog 2
+En el segundo sprint, el equipo se enfocará en implementar las funcionalidades principales del frontend para gestionar clientes, personal, intervenciones, inventario y notificaciones, asegurando que la navegación se adapte a los roles específicos de los usuarios. Creemos que esto entregará una experiencia de usuario fluida y mejorará la eficiencia operativa al permitir que los mecánicos y administradores gestionen fácilmente información clave y procesos dentro de la plataforma. Esto se confirmará cuando los usuarios puedan navegar por la aplicación según su rol, ver y gestionar clientes, personal, intervenciones y existencias de inventario sin errores, y recibir notificaciones relevantes.
 
-El objetivo del sprint es implementar la primera versión de la aplicación web, permitiendo a los usuarios que la usen sacar el máximo beneficio del mismo.
+Esto con el enfoque de la entrega del MVP de la aplicación.
+
+Asimismo, la herramienta de organización Trello se utilizó para dividir las tareas en user stories y work items, y se asignaron a los miembros del equipo para su implementación.
+
+De ese modo, el objetivo principal del sprint es construir la aplicación web con su respectivo fake api, logrando que sea atrayente y funcional para los usuarios.
+
+![sprint-backlog-2](img/5/2/2/2/trello_board_sprint_2.png)
+
+Enlace al tablero de Trello:
+[https://trello.com/b/u6jq9evy/sprint-2](https://trello.com/b/u6jq9evy/sprint-2)
+
+A continuación, se procede a detallar en una tabla las user story vinculadas a sus tareas, con una breve descripción, estimación en horas y qué miembro del equipo la llevo a cabo.
 
 <table border="1" style="width:100%; text-align: center;">
   <tr>
     <th colspan="2">Sprint #</th>
-    <th colspan="5">Sprint n</th>
+    <th colspan="5">Sprint 2</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="5">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
+  <tr><td>US-06</td><td>Clientes</td><td>TK-01</td><td>Crear interfaz de lista de clientes</td><td>Desarrollar pantalla para lista de clientes</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-06</td><td>Clientes</td><td>TK-02</td><td>Implementar filtrado</td><td>Agregar funcionalidad de filtrado en lista</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-06</td><td>Clientes</td><td>TK-03</td><td>Visualización básica de clientes</td><td>Implementar vista preliminar de clientes</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-06</td><td>Clientes</td><td>TK-04</td><td>Acceso a registrar nuevo cliente</td><td>Permitir registro de nuevos clientes</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-07</td><td>Detalles de cliente</td><td>TK-05</td><td>Crear interfaz de detalles de cliente</td><td>Crear pantalla para detalles del cliente</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-07</td><td>Detalles de cliente</td><td>TK-06</td><td>Editar y actualizar datos</td><td>Habilitar edición y actualización de cliente</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-07</td><td>Detalles de cliente</td><td>TK-07</td><td>Confirmación de cambio de correo</td><td>Mostrar confirmación al actualizar correo</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-07</td><td>Detalles de cliente</td><td>TK-08</td><td>Eliminar cliente</td><td>Implementar eliminación de cliente</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-07</td><td>Detalles de cliente</td><td>TK-09</td><td>Restaurar cliente</td><td>Habilitar restauración de cliente eliminado</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-04</td><td>Personal</td><td>TK-10</td><td>Crear interfaz de lista de personal</td><td>Desarrollar pantalla para lista de personal</td><td>3</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-04</td><td>Personal</td><td>TK-11</td><td>Visualización básica de personal en ventana flotante</td><td>Implementar vista básica en ventana flotante</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-05</td><td>Detalles de empleado</td><td>TK-12</td><td>Crear interfaz de detalles de personal</td><td>Implementar vista de detalles para el personal</td><td>3</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-05</td><td>Detalles de empleado</td><td>TK-13</td><td>Editar y actualizar datos</td><td>Habilitar edición de detalles de personal</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-05</td><td>Detalles de empleado</td><td>TK-14</td><td>Confirmación de cambio de correo</td><td>Mostrar confirmación al cambiar correo</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-08</td><td>Intervenciones</td><td>TK-15</td><td>Eliminar personal</td><td>Implementar funcionalidad de eliminación</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-08</td><td>Intervenciones</td><td>TK-16</td><td>Implementar filtrado por texto y estado</td><td>Filtrar lista de intervenciones</td><td>3</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-08</td><td>Intervenciones</td><td>TK-17</td><td>Ordenamiento por campos</td><td>Ordenar intervenciones por campos específicos</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-10</td><td>Detalles de intervención</td><td>TK-18</td><td>Crear detalles de intervención</td><td>Implementar detalles de intervención</td><td>3</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-10</td><td>Detalles de intervención</td><td>TK-19</td><td>Modificar intervención</td><td>Habilitar modificación de detalles</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-10</td><td>Detalles de intervención</td><td>TK-20</td><td>Guardar cambios</td><td>Implementar guardado de cambios en intervención</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-10</td><td>Detalles de intervención</td><td>TK-21</td><td>Cancelar intervención</td><td>Funcionalidad para cancelar intervención</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-09</td><td>Creación de intervenciones</td><td>TK-22</td><td>Crear formulario de intervención</td><td>Implementar formulario para crear intervención</td><td>3</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-09</td><td>Creación de intervenciones</td><td>TK-23</td><td>Validar datos del formulario</td><td>Validar datos antes de enviar formulario</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-09</td><td>Creación de intervenciones</td><td>TK-24</td><td>Enviar datos al backend</td><td>Enviar datos del formulario al backend</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-09</td><td>Creación de intervenciones</td><td>TK-25</td><td>Mostrar mensaje de éxito o error</td><td>Implementar mensajes al completar acción</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-11</td><td>Existencias de inventario</td><td>TK-26</td><td>Crear la interfaz de inventario</td><td>Implementar interfaz de existencias de inventario</td><td>3</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-11</td><td>Existencias de inventario</td><td>TK-27</td><td>Añadir entrada de inventario</td><td>Agregar funcionalidad para añadir existencias</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-11</td><td>Existencias de inventario</td><td>TK-28</td><td>Modificar entrada de inventario</td><td>Habilitar modificación de existencias</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-11</td><td>Existencias de inventario</td><td>TK-29</td><td>Guardar cambios de inventario</td><td>Guardar cambios realizados en inventario</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-12</td><td>Solicitudes de inventario</td><td>TK-30</td><td>Ordenar por campos</td><td>Ordenar solicitudes por campos específicos</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-12</td><td>Solicitudes de inventario</td><td>TK-31</td><td>Crear interfaz de solicitudes de inventario</td><td>Implementar interfaz para solicitudes de inventario</td><td>3</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-12</td><td>Solicitudes de inventario</td><td>TK-32</td><td>Guardar cambios en solicitudes</td><td>Guardar modificaciones en solicitudes</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-12</td><td>Solicitudes de inventario</td><td>TK-33</td><td>Deshacer cambios</td><td>Habilitar opción para deshacer cambios</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-12</td><td>Solicitudes de inventario</td><td>TK-34</td><td>Ordenar solicitudes por campos</td><td>Ordenar solicitudes por criterios definidos</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-14</td><td>Notificaciones</td><td>TK-35</td><td>Crear la interfaz de notificaciones</td><td>Implementar pantalla para ver notificaciones</td><td>2</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-14</td><td>Notificaciones</td><td>TK-36</td><td>Vincular notificaciones a eventos</td><td>Asociar eventos con notificaciones</td><td>3</td><td>Eric Hernández Tuiro</td><td>Done</td></tr>
+  <tr><td>US-15</td><td>Mis tareas (líder)</td><td>TK-37</td><td>Mostrar lista de tareas</td><td>Listar tareas asignadas al líder</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-15</td><td>Mis tareas (líder)</td><td>TK-38</td><td>Mostrar etiqueta de líder</td><td>Mostrar rol líder en las tareas</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-15</td><td>Mis tareas (líder)</td><td>TK-39</td><td>Acceso a más información</td><td>Proveer acceso detallado a tareas</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-16</td><td>Mis tareas (asistente)</td><td>TK-40</td><td>Mostrar lista de tareas del asistente</td><td>Listar tareas asignadas al asistente</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-16</td><td>Mis tareas (asistente)</td><td>TK-41</td><td>Mostrar etiqueta de asistente</td><td>Mostrar rol asistente en tareas</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-16</td><td>Mis tareas (asistente)</td><td>TK-42</td><td>Acceso a más información</td><td>Proveer detalles de las tareas</td><td>2</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-21</td><td>Registro de vehículos</td><td>TK-43</td><td>Mostrar lista de vehículos</td><td>Implementar listado de vehículos</td><td>3</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-21</td><td>Registro de vehículos</td><td>TK-44</td><td>Agregar vehículo</td><td>Funcionalidad para agregar vehículo</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-21</td><td>Registro de vehículos</td><td>TK-45</td><td>Validar datos del vehículo</td><td>Validar la información del vehículo</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-21</td><td>Registro de vehículos</td><td>TK-46</td><td>Mostrar mensaje de éxito</td><td>Mostrar mensaje al registrar vehículo</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-24</td><td>Validaciones de citas</td><td>TK-47</td><td>Validar datos de la cita</td><td>Comprobar validez de los datos ingresados</td><td>3</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-24</td><td>Validaciones de citas</td><td>TK-48</td><td>Mostrar confirmación de cita</td><td>Mostrar confirmación tras agendar cita</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-24</td><td>Validaciones de citas</td><td>TK-49</td><td>Manejo de errores de fecha</td><td>Gestionar errores en selección de fecha</td><td>2</td><td>Elmer Augusto Riva Rodriguez</td><td>Done</td></tr>
+  <tr><td>US-25</td><td>Navegación dinámica por rol</td><td>TK-50</td><td>Manejo de roles y permisos</td><td>Gestionar roles y permisos de usuario</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-25</td><td>Navegación dinámica por rol</td><td>TK-51</td><td>Crear barra de navegación dinámica</td><td>Desarrollar barra de navegación por rol</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+  <tr><td>US-25</td><td>Navegación dinámica por rol</td><td>TK-52</td><td>Añadir guardias de ruta</td><td>Implementar guardias de acceso a rutas</td><td>3</td><td>Jhosepmyr Gutiérrez Soto</td><td>Done</td></tr>
+</table>
+
+#### 5.2.2.3. Development Evidence for Sprint Review
+Se demuestra mediante una tabla los commits realizados para el sprint 2. 
+
+| Repository                                 | Branch                            | Commit id                                | Commit message                                                                                                                                                            | Commit body | Commited on |
+|--------------------------------------------|-----------------------------------|------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-------------|
+| Open-Source-YaraSoftware / Web-application | feature/interventions             | 680f6a5ca6b40342eda8239b904f1f31b9c6ea6e | feat(model): add entities matching class diagram                                                                                                                          | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/interventions             | 88376af588add6dcd20277f30e28e375c695712c | feat(model): add enums for intervention state, intervention type, task state, account state, code state, membership type, notification state, product request state, role | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/interventions             | 8dbdf42958617cb96b56324173ec7b9bbdcda729 | feat(interventions): add interventions service with get and post crud methods                                                                                             | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/interventions             | a26afe515bc3931c64f0c42a1fdb4c3aed0cf1c3 | feat(intervention-creation): add invocation of NewInterventionDialogComponent from InterventionsComponent                                                                 | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/interventions             | a0aabc299765958aa60d181467b456e31c596a25 | feat(intervention-creation): add new intervention dialog component                                                                                                        | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/interventions             | 1f8502a7f165c4dfaaf0b0d6b266b43fb0f23f32 | feat(interventions): add filtering functionality to the interventions component                                                                                           | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/interventions             | da5a3e2a9de0876d9d20c62eb68a6106c62cec84 | feat(interventions): update interventions component to add sorting functionality to the table                                                                             | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/interventions             | 7683819bf0b39efd216b5bf58cab5405516dbd10 | feat(interventions): add interventions component with basic interface including table and buttons                                                                         | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/my activities leader      | a4594034f0a48dc5801a87e8fc106e43690abf88 | chore(api): update db.json to assign different mechanics as leaders for interventions                                                                                     | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/my activities leader      | e07c2bb49e78e8f2b342ff66486f3962995ff852 | feat(router): add new interventions page for leader and fix activity header navigation                                                                                    | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/my activities leader      | a09e56d253e717b36eab73bb2d2d46d602cc47d0 | feat(intervention-service): add method to fetch interventions where mechanic is leader                                                                                    | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/my activities leader      | ee253a0481d554ebd3667b1379e4e71486dc913b | refactor(intervention-page): reuse intervention logic and template for leader and assistant views                                                                         | ...         | 27/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/intervention informantion | cf587b217f9375521c51a0f517c538568717eba9 | eat(general-information): create components for intervention general information, vehicle IoT data, and previous interventions                                            | ...         | 28/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/intervention informantion | 8568044dd795ba0ec055ffe3e18c1165a50adfb8 | feat(activity-page): add functionality and integrate components for mechanic's activity initiation                                                                        | ...         | 28/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/clients                   | c1f4d27d4584eed04bc2423e18c4c00bb36611fe | feat(workshop-client): add WorkshopClient entity and service                                                                                                              | ...         | 28/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/clients                   | 2b8370f3a40ba801a65158e0b6990ccb62e4de98 | chore: update db.json                                                                                                                                                     | ...         | 28/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/clients                   | 366d06cec543fa8f1607fc4917e19b46ec872e30 | feat(workshop-client): display clients in table with filtering and sorting                                                                                                | ...         | 28/09/2024  |
+| Open-Source-YaraSoftware / Web-application | feature/personnel detail          | c1f4d27d4584eed04bc2423e18c4c00bb36611fe |                                                                                                                                                                           | ...         | 28/09/2024  |
+
+#### 5.2.2.4. Testing Suite Evidence for Sprint Review
+
+Para el sprint 2, se continúa utilizando los Acceptance Criteria de las historias de usuario para realizar las pruebas de aceptación.
+De ese modo Gherkin se ha utilizado para la creación de escenarios de prueba.
+A continuación, se presentan las evidencias de las pruebas realizadas:
+
+| Repository                                                    | Branch                                   | Commit Id                                | Commit Message                                                                                    | Commit Message Body                                                                                                                                                                                                                                                                                                                                                                                                    | Commited on(Date)        |
+|---------------------------------------------------------------|------------------------------------------|------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | a5ee8f2b170a6bf86f9ece503306fc82cbf09ac9 | feat(personnel-management): add BDD scenarios for viewing and filtering employees                 | - Added scenario for displaying an empty employee list with a prompt to register. - Included scenario for showing a list of registered employees with their basic details. - Defined outline scenarios for filtering employees by name and status. - Provided example data for search and filter functionalities.                                                                                                      | Fri Nov 15 21:20:21 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | fddad283b58ab503f24595e8e769159c291792a5 | feat(employee-management): add BDD scenarios for managing employee information                    | - Added scenario for viewing details of an active employee. - Included scenario for updating employee contact information. - Created scenario for updating and confirming employee email change. - Added scenario for soft deleting an employee and marking them as inactive. - Defined scenario for restoring an inactive employee to active status.                                                                  | Fri Nov 15 21:20:41 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 4a338f673d6206ddbfa8954831695180ac279dd8 | feat(client-management): add BDD scenarios for client visualization and filtering                 | - Implemented scenario for viewing client list with basic details. - Added scenario outlines for filtering clients by name and status. - Included scenario for responsiveness on mobile devices. - Added scenario for handling an empty client list with appropriate messaging. - Created scenario for navigating a large client list efficiently. - Defined scenario for sorting clients by various criteria.         | Fri Nov 15 21:21:01 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | d286192b56d2d035fe7f8e5053e76c053db09f66 | feat(client-management): add BDD scenarios for managing client information                        | - Created scenario for viewing active client details, including registered vehicles. - Implemented scenario for updating client contact and address information. - Added scenario for updating and confirming client email address change. - Defined scenario for deleting a client with state change to inactive and confirmation prompt. - Included scenario for restoring an inactive client back to active status. | Fri Nov 15 21:21:26 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 0a31ccfe1274c6145a4fddf3d8aec114ded0f5ab | feat(interventions-management): add BDD scenarios for viewing and filtering interventions         | - Added scenario for displaying a list of interventions with key details. - Implemented scenarios for filtering interventions by text and by status. - Included scenarios for sorting interventions by date and by status. - Ensured comprehensive testing of intervention management features.                                                                                                                        | Fri Nov 15 21:21:59 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 032c462dfac20ff8627b9c33ee87ea7ada4d403b | feat(interventions-creation): add scenarios for creating and managing interventions               | - Included scenarios for creating interventions from both list view and vehicle details. - Added validation for incomplete data and incorrect date formats. - Defined mechanics assignment logic and restrictions based on availability. - Enhanced mobile responsiveness for intervention form.                                                                                                                       | Fri Nov 15 21:22:16 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 045923fcb99641d30e050b9376c5eedb2829813a | feat(interventions-details): add detailed scenarios for viewing and managing intervention details | - Added scenarios for viewing general details and summaries of interventions. - Enabled modification and validation of intervention fields. - Included cancel options and ensured mobile responsiveness. - Handled errors for non-existing interventions with appropriate redirection.                                                                                                                                 | Fri Nov 15 21:22:32 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 812bdedfab7483649d95f8a8b4efca0d02009bef | feat(inventory-management): implement scenarios for inventory stock management                    | - Added scenarios for viewing stock details and creating new inventory entries. - Implemented validation and error handling for invalid data and duplicate entries. - Enhanced usability with notifications for stock limits and responsive design adjustments. - Enabled modification, deletion, and undo operations for inventory items with user feedback.                                                          | Fri Nov 15 21:22:53 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 62f55b91ea261b149db5a25d1dc99130aa41d1c3 | feat(inventory-requests): add scenarios for managing inventory requests                           | - Implemented viewing, filtering, and sorting of inventory requests by mechanics and parts. - Added error handling for invalid input and duplicate requests. - Integrated notifications for request approvals and rejections. - Improved responsiveness for mobile devices and user interface adaptability.                                                                                                            | Fri Nov 15 21:23:21 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | b755b6f2b4a593cde263ad2c4b7a6911531c21e3 | feat(notifications): implement scenarios for viewing and managing notifications                   | - Added functionality for filtering, marking as read, deleting, and navigating from notifications. - Integrated unread notification counter and responsive design for mobile. - Implemented automatic notifications for new intervention requests and low inventory alerts.                                                                                                                                            | Fri Nov 15 21:23:36 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 624ea9e659ace648020bb95624923e9bdfbb7b72 | feat(activities-leader): add scenarios for managing leader interventions                          | - Added views for leader interventions with assignment and filtering options. - Enabled task assignments and notifications for assigned mechanics. - Implemented error handling for unselected mechanic assignments and intervention access. - Integrated mobile responsiveness for leader activities section.                                                                                                         | Fri Nov 15 21:23:52 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 8626f53e561ebdf1f84e16e0151cde45750e548b | feat(assistant-activities): add scenarios for managing assistant intervention activities          | - Added visualization for assistant interventions with detailed task updates. - Implemented filtering and notifications for task assignments and status updates. - Enabled task completion and mobile responsiveness for efficient task management.                                                                                                                                                                    | Fri Nov 15 21:24:10 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 667b417afd7d6d413dcb8b406a15ff94b912d411 | feat(vehicle-management): implement scenarios for vehicle registration and updates                | - Added vehicle visualization, registration, and deletion features with validation checks. - Enabled detailed vehicle information and responsive mobile-friendly interface. - Included notifications for vehicle registration and deletion events.                                                                                                                                                                     | Fri Nov 15 21:24:32 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 692c953dd81bdb3cff0f1ba26a1fed5890c92f42 | feat(role-based-navigation): implement dynamic navigation and role-based redirection              | - Added scenarios for redirecting users based on their roles and validating access permissions. - Enhanced user experience with responsive design on mobile devices. - Included error handling and notifications for role updates and invalid roles.                                                                                                                                                                   | Fri Nov 15 21:24:50 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-frontend-web-application | 98fffb4d309ca7bdb91b2f42a7737664a676a662 | Merge pull request #2 from Web-Application-YaraSoftware/feature/testing-frontend-web-application  | Feature/testing frontend web application                                                                                                                                                                                                                                                                                                                                                                               | Fri Nov 15 21:28:02 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | develop                                  | 76304930feac1e39535fa8f38b5f3a1e48a61691 | Merge pull request #3 from Web-Application-YaraSoftware/develop                                   | Develop                                                                                                                                                                                                                                                                                                                                                                                                                | Fri Nov 15 21:28:20 2024 |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+En el sprint 2 se alcanzó un desarrollo parcial de la aplicación web, que permite al usuario navegar por ciertas funcionalidades de la aplicación.
+A continuación algunas evidencias en imágen de las vistas implementadas
+
+**Intervention list**
+<img src="img/5/2/2/5/interventions.png">
+
+**New intervention form**
+![img.png](img%2F5%2F2%2F2%2F5%2Fimg.png)
+
+**Activities page for mechanic leader**
+<img src="img/5/2/2/5/my-activities-leader.png">
+
+**Activities page for mechanic leader**
+<img src="img/5/2/2/5/my-activities-assistant.png">
+
+**User registration**
+<img src="img/5/2/2/5/user-register.png">
+
+**Clients list**
+<img src="img/5/2/2/5/clients.png">
+
+**New intervetion form**
+<img src="img/5/2/2/5/new-intervention.png">
+
+Link del video de navegación del mvp del sprint 2: [https://drive.google.com/file/d/190W1O8JpLb5_Rf7snszvRNPgcTQOwleN/view?usp=drive_link](https://drive.google.com/file/d/190W1O8JpLb5_Rf7snszvRNPgcTQOwleN/view?usp=drive_link=)
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+Para el sprint 2, únicamente se planificó el desarrollo del frontend y para no verse limitados por la falta de servicios, se decidió utilizar un servicio de backend falso para simular las respuestas de la API.
+
+En este caso se utilizó JSON Server, una herramienta que permite crear una API RESTful en cuestión de segundos, a partir de un archivo JSON.
+
+Sin embargo, por las limitaciones de la herramienta, no se pudo implementar todas las funcionalidades de la API, por lo que se decidió implementar las operaciones CRUD y por atributos para las intervenciones, tareas, productos, solicitudes de productos y perfiles.
+
+Enlace para acceder al servicio de backend falso: [JSON Server](https://my-json-server.typicode.com/Web-Application-YaraSoftware/Json-Server-Api)
+
+| Endpoint             | Descripción                                                                          |
+|----------------------|--------------------------------------------------------------------------------------|
+| **/interventions**   | Se implemento las operaciones CRUD y por atributos para las intervenciones           |
+| **/tasks**           | Se implemento las operaciones CRUD y por atributos para las tareas                   |
+| **/products**        | Se implemento las operaciones CRUD y por atributos para los productos                |
+| **/productRequests** | Se implemento las operaciones CRUD y por atributos para las solicitudes de productos |
+| **/profiles**        | Se implemento las operaciones CRUD y por atributos para los perfiles                 |
+
+| Repository                                                   | Branch | Commit Id                                | Commit Message        | Commit Message Body   | Commited on(Date)        |
+|--------------------------------------------------------------|--------|------------------------------------------|-----------------------|-----------------------|--------------------------|
+| https://github.com/Open-Source-YaraSoftware/Json-Server-Api  | main   | 93ba6766244194dff2ef7691d5ebc07b09681fd0 | chore: update db.json | chore: update db.json | Fri Nov 15 22:58:49 2024 |
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Para la entrega del 2 sprint, se desplegó el frontend web application.
+
+Ante lo mencionado, se certifica que el frontend de la aplicación web se encuentra desplegado correctamente en Netlify, usando la rama principal del repositorio(`main`).
+De ese modo, se incluyen las configuraciones necesarias para el despliegue de la aplicación:
+* Command: `npm run build`
+* Publish directory: `dist`
+* Production branch: `main`
+
+![Certificado de despliegue](img/5/2/3/7/certificate-frontend-netlify.png)
+
+Web Application:
+
+<img src="img/5/2/2/7/1.png">
+<img src="img/5/2/2/7/2.png">
+<img src="img/5/2/2/7/3.png">
+<img src="img/5/2/2/7/4.png">
+<img src="img/5/2/2/7/5.png">
+<img src="img/5/2/2/7/6.png">
+<img src="img/5/2/2/7/7.png">
+<img src="img/5/2/2/7/8.png">
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+| Alumno                   | Actividad                                                                                                                                                                                                                     |
+|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| Jhosepmyr Gutiérrez Soto | Desarrollo del routing entre pages, elaboración del json-server, componente table de clientes, componente de barra de navegación lateral y header, componente table de las actividades de los mecánicos asistentes y lideres. |
+| Eric Hernandez Tuiro     | Elaboración de los componentes table de los productos de inventario y las solicitudes y, componente card de las notificaciones.                                                                                               |
+| Elmer Riva Rodriguez     | Desarrollo de los componentes table de mecánicos, table de intervenciones y desplegable de informacion de intervencion                                                                                                        |
+
+<img src="img/5/2/1/8/insights-2.png">
+
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+Se planeó el tercer sprint a través de reuniones de Discord. Para ello, se hizo la siguiente tabla para registrar la información que se discutió.
+
+| **Sprint #**                    | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Date                            | 2024/10/14                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Time                            | 20:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Location                        | Videollamada grupal mediante la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Prepared By                     | Jhosepmyr Orlando Gutierrez Soto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Attendees (to planning meeting) | Elmer Riva Rodriguez, Eric Hernandez Tuiro, Jhosepmyr Gutiérrez Soto, Johan Jorge Quiñones Tintaya                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Sprint 2 Review Summary         | En el Sprint 2, el equipo logró implementar las funcionalidades principales del frontend, abarcando la gestión de clientes, personal, intervenciones, inventario y notificaciones. Todas las User Stories planificadas fueron completadas, y el MVP fue desplegado exitosamente en Netlify, utilizando un fake API con JSON Server para simular las respuestas del backend. Las pruebas BDD garantizaron la funcionalidad y calidad de las características desarrolladas, confirmando el cumplimiento de los criterios de aceptación. El feedback destacó la experiencia de usuario fluida y la calidad del trabajo entregado. Sin embargo, se identificaron desafíos relacionados con la estimación de tiempos, lo que generó cargas de trabajo desiguales hacia el final del sprint. A pesar de ello, la colaboración y uso de herramientas como Trello fueron clave para alcanzar los objetivos.     |
+| Sprint 2 Retrospective          | Entre los aciertos del sprint, se destacó la comunicación efectiva del equipo mediante Discord y la organización a través de Trello, lo que permitió cumplir con las tareas asignadas de manera eficiente. Además, las implementaciones técnicas fueron de alta calidad, alineándose con los objetivos del sprint y las expectativas del Product Owner. Como áreas de mejora, se identificó la necesidad de optimizar la planificación de tiempos para evitar sobrecargas y de establecer reuniones diarias para resolver bloqueos rápidamente. Asimismo, se propuso detallar más la documentación de tareas y procesos, lo que facilitaría la continuidad y comprensión del trabajo en futuros sprints.                                                                                                                                                                                                |
+| Sprint Goal & User Stories      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Sprint 3 Goal                   | Nuestro enfoque está en ofrecer mayor informacion del producto y del equipo,brindar soporte completo al proceso de ejecución de intervenciones y generar métricas, y permitir incrementar las posibilidades de nuevas características. <br> Creemos que esto facilitará la elección del producto y generará confianza a los visitantes, aumentará la eficiencia operativa de las intervenciones y mejorará la toma de decisiones para mecánicos y dueños de talleres, y permitirá implementar nuevas funcionalidades para los desarrolladores. <br> Esto se confirmará cuando los usuarios se suscriban y se vuelvan clientes, cuando los mecánicos registren todo el ciclo de vida de una intervencion y los dueños del taller revisen los reportes, y cuando se desarrollen los endpoints relacionados a los talleres, vehiculos, aparatos IoTs, intervenciones, notificaciones, perfiles y usuarios. |
+| Sprint 3 Velocity               | 65                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Sum of Story Points             | 65                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+
+#### 5.2.3.2. Sprint Backlog 3
+
+En el sprint 3, el equipo completo en gran medida el frontend y el backend de la web application.
+Asimismo, se agregó los videos de presentación del equipo y del producto en la sección "About Us".
+
+La herramienta de gestión de proyectos utilizada para el sprint 3 fue Trello, donde se registraron las tareas a realizar y su estado.
+
+![Trello Sprint 3](img/5/2/3/2/trello_board_3.png)
+
+Enlace al tablero de Trello:
+[https://trello.com/b/O8R426lO/sprint-3](https://trello.com/b/O8R426lO/sprint-3)
+
+A continuación, se procede a detallar en una tabla las user story y technical stories vinculadas a sus tareas, con una breve descripción, estimación en horas y qué miembro del equipo la llevo a cabo.
+
+<table border="1" style="width:100%; text-align: center;">
+  <tr>
+    <th colspan="2">Sprint #</th>
+    <th colspan="5">Sprint 2</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="5">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>  
+    <td>US-24</td>
+    <td>Agendar cita de intervención</td>
+    <td>TK-01</td>
+    <td>Crear formulario de agendar cita</td>
+    <td>Diseñar y crear un formulario que permita a los usuarios ingresar los detalles de la cita, como fecha, modalidad y notas opcionales.</td>
+    <td>3</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-24</td>
+    <td>Agendar cita de intervención</td>
+    <td>TK-02</td>
+    <td>Agregar validación de fecha de cita</td>
+    <td>Implementar validaciones para asegurar que las fechas ingresadas no sean en el pasado o días no laborables.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-24</td>
+    <td>Agendar cita de intervención</td>
+    <td>TK-03</td>
+    <td>Agregar mensaje de confirmación de cita</td>
+    <td>Mostrar un mensaje de confirmación amigable cuando la cita se haya registrado correctamente, y redirigir a la página de información del vehículo.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-04</td>
+    <td>Crear formulario de registro de clientes y personal</td>
+    <td>Diseñar un formulario que permita al dueño del taller ingresar los datos básicos de los clientes y personal, como nombre, correo electrónico y teléfono.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-05</td>
+    <td>Agregar validaciones a los campos del formulario</td>
+    <td>Implementar validaciones para los campos obligatorios, asegurando que los datos se ingresen en el formato correcto.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-06</td>
+    <td>Mostrar mensajes de error en el registro</td>
+    <td>Agregar mensajes claros y descriptivos cuando los datos ingresados sean inválidos o falten campos obligatorios.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-01</td>
+    <td>Formulario de registro</td>
+    <td>TK-07</td>
+    <td>Crear página de registro de usuario</td>
+    <td>Diseñar la interfaz para la página de registro que permita al dueño del taller ingresar datos como nombre, correo electrónico y contraseña.</td>
+    <td>3</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-01</td>
+    <td>Formulario de registro</td>
+    <td>TK-08</td>
+    <td>Implementar validación de campos requeridos</td>
+    <td>Agregar validaciones para asegurarse de que todos los campos necesarios estén completos antes de enviar el formulario.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-01</td>
+    <td>Formulario de registro</td>
+    <td>TK-09</td>
+    <td>Agregar mensaje de confirmación de registro</td>
+    <td>Mostrar un mensaje al usuario indicando que el registro fue exitoso y que se ha enviado un correo de confirmación.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-10</td>
+    <td>Crear interfaz para mostrar detalles de intervención</td>
+    <td>Diseñar una interfaz que muestre información importante de la intervención, como cliente, vehículo, y modalidad.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-11</td>
+    <td>Mostrar información de IoT</td>
+    <td>Agregar una sección en la pantalla de detalles de la intervención que muestre un resumen de la información más reciente del análisis OBD-IoT.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-12</td>
+    <td>Implementar botón para acceso a intervenciones anteriores</td>
+    <td>Incluir un botón que permita a los usuarios acceder al historial de intervenciones realizadas.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-13</td>
+    <td>Crear lista de tareas dentro del diagnóstico</td>
+    <td>Diseñar una lista que muestre las tareas asignadas para la intervención, con opciones para añadir y eliminar tareas.</td>
+    <td>3</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-14</td>
+    <td>Agregar funcionalidad para añadir nuevas tareas</td>
+    <td>Permitir al usuario líder redactar una tarea y seleccionar un mecánico para asignarla.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-15</td>
+    <td>Implementar botón de guardar y deshacer cambios</td>
+    <td>Agregar botones para guardar las tareas asignadas o deshacer cambios realizados, con mensajes de confirmación.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-16</td>
+    <td>Crear lista de solicitudes de inventario</td>
+    <td>Diseñar una sección que muestre las solicitudes de inventario pendientes, indicando el mecánico solicitante y la cantidad solicitada.</td>
+    <td>3</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-17</td>
+    <td>Agregar funcionalidad de seguimiento de tareas</td>
+    <td>Implementar un sistema para registrar y mostrar el progreso de las tareas completadas en una intervención.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-18</td>
+    <td>Mostrar opciones de guardar y deshacer cambios</td>
+    <td>Permitir que el usuario guarde cambios realizados o deshaga modificaciones con un solo clic.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-20</td>
+    <td>Supervisión de intervención</td>
+    <td>TK-19</td>
+    <td>Crear interfaz de supervisión de tareas</td>
+    <td>Diseñar una pantalla que muestre el estado de cada tarea asignada en la intervención y permita verificar su finalización.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-20</td>
+    <td>Supervisión de intervención</td>
+    <td>TK-20</td>
+    <td>Implementar botón de finalizar intervención</td>
+    <td>Agregar un botón que permita marcar la intervención como finalizada cuando todas las tareas estén completas.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-20</td>
+    <td>Supervisión de intervención</td>
+    <td>TK-21</td>
+    <td>Mostrar mensaje de éxito al finalizar intervención</td>
+    <td>Desplegar un mensaje de éxito cuando la intervención se haya finalizado correctamente.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-23</td>
+    <td>Información IoT de vehículo</td>
+    <td>TK-22</td>
+    <td>Crear sección de información IoT en los detalles del vehículo</td>
+    <td>Diseñar una interfaz que muestre información relevante del dispositivo IoT, como componentes y códigos de error.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-23</td>
+    <td>Información IoT de vehículo</td>
+    <td>TK-23</td>
+    <td>Agregar funcionalidad para ver detalles de códigos de error</td>
+    <td>Permitir que el usuario haga clic en un código de error para ver su significado y posibles soluciones.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-22</td>
+    <td>Línea de tiempo de registro de intervenciones</td>
+    <td>TK-24</td>
+    <td>Crear línea de tiempo de intervenciones</td>
+    <td>Diseñar una visualización que muestre las intervenciones de un vehículo en orden cronológico.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-22</td>
+    <td>Línea de tiempo de registro de intervenciones</td>
+    <td>TK-25</td>
+    <td>Implementar botón para acceder a detalles de intervención</td>
+    <td>Agregar un botón que permita a los usuarios ver la información completa de una intervención específica.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-13</td>
+    <td>Métricas</td>
+    <td>TK-26</td>
+    <td>Crear histograma para intervenciones por día</td>
+    <td>Diseñar un gráfico que muestre el número de intervenciones realizadas por día de manera visualmente atractiva.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-13</td>
+    <td>Métricas</td>
+    <td>TK-27</td>
+    <td>Implementar gráfico de torta para marcas de vehículos</td>
+    <td>Agregar un gráfico de torta que muestre la distribución de las marcas de vehículos atendidos en el taller.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-13</td>
+    <td>Métricas</td>
+    <td>TK-28</td>
+    <td>Agregar gráfico de barras para tipos de intervención</td>
+    <td>Diseñar un gráfico de barras que indique la distribución porcentual de los diferentes tipos de intervenciones.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-02</td>
+    <td>Pantalla de login</td>
+    <td>TK-29</td>
+    <td>Diseñar pantalla de login de usuario</td>
+    <td>Crear la interfaz de login que permita a los usuarios ingresar su nombre de usuario y contraseña.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-02</td>
+    <td>Pantalla de login</td>
+    <td>TK-30</td>
+    <td>Agregar validaciones de entrada de datos</td>
+    <td>Implementar validaciones para asegurar que los campos de usuario y contraseña no estén vacíos y cumplan con los requisitos mínimos.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-02</td>
+    <td>Pantalla de login</td>
+    <td>TK-31</td>
+    <td>Mostrar mensajes de error para datos inválidos</td>
+    <td>Desplegar mensajes de error descriptivos si las credenciales ingresadas no son válidas.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-01</td>
+    <td>Manage Interventions through RESTful API</td>
+    <td>TK-32</td>
+    <td>Crear endpoint para obtener todas las intervenciones</td>
+    <td>Implementar un endpoint GET /api/v1/interventions que devuelva una lista de todas las intervenciones registradas.</td>
+    <td>3</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-01</td>
+    <td>Manage Interventions through RESTful API</td>
+    <td>TK-33</td>
+    <td>Crear endpoint para registrar una nueva intervención</td>
+    <td>Implementar un endpoint POST /api/v1/interventions que permita registrar una intervención con datos como workshopId, mechanicLeaderId, vehicleId, y descripción.</td>
+    <td>3</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-01</td>
+    <td>Manage Interventions through RESTful API</td>
+    <td>TK-34</td>
+    <td>Crear endpoint para obtener detalles de una intervención específica</td>
+    <td>Implementar un endpoint GET /api/v1/interventions/{interventionId} que devuelva los detalles de una intervención específica.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-01</td>
+    <td>Manage Interventions through RESTful API</td>
+    <td>TK-35</td>
+    <td>Crear endpoint para actualizar una intervención existente</td>
+    <td>Implementar un endpoint PUT /api/v1/interventions/{interventionId} que permita actualizar los datos de una intervención con un interventionId válido.</td>
+    <td>3</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-02</td>
+    <td>Manage Intervention Status through RESTful API</td>
+    <td>TK-36</td>
+    <td>Crear endpoint para marcar intervención como en progreso</td>
+    <td>Implementar un endpoint POST /api/v1/interventions/{interventionId}/in-progresses que actualice el estado de una intervención a IN_PROGRESS.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-02</td>
+    <td>Manage Intervention Status through RESTful API</td>
+    <td>TK-37</td>
+    <td>Crear endpoint para confirmar una intervención</td>
+    <td>Implementar un endpoint POST /api/v1/interventions/{interventionId}/confirmations que actualice el estado de una intervención a COMPLETED.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-02</td>
+    <td>Manage Intervention Status through RESTful API</td>
+    <td>TK-38</td>
+    <td>Crear endpoint para cancelar una intervención</td>
+    <td>Implementar un endpoint POST /api/v1/interventions/{interventionId}/cancellations que actualice el estado de una intervención a CANCELED.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-03</td>
+    <td>Manage Tasks within an Intervention through RESTful API</td>
+    <td>TK-39</td>
+    <td>Crear endpoint para obtener todas las tareas de una intervención</td>
+    <td>Implementar un endpoint GET /api/v1/interventions/{interventionId}/tasks que devuelva todas las tareas asociadas a una intervención.</td>
+    <td>3</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-03</td>
+    <td>Manage Tasks within an Intervention through RESTful API</td>
+    <td>TK-40</td>
+    <td>Crear endpoint para registrar una nueva tarea en una intervención</td>
+    <td>Implementar un endpoint POST /api/v1/interventions/{interventionId}/tasks que permita crear una nueva tarea con datos como mechanicAssignedId y descripción.</td>
+    <td>3</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-03</td>
+    <td>Manage Tasks within an Intervention through RESTful API</td>
+    <td>TK-41</td>
+    <td>Crear endpoint para actualizar una tarea específica</td>
+    <td>Implementar un endpoint PUT /api/v1/interventions/{interventionId}/tasks/{taskId} que permita actualizar los detalles de una tarea.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-03</td>
+    <td>Manage Tasks within an Intervention through RESTful API</td>
+    <td>TK-42</td>
+    <td>Crear endpoint para eliminar una tarea de una intervención</td>
+    <td>Implementar un endpoint DELETE /api/v1/interventions/{interventionId}/tasks/{taskId} que elimine una tarea específica de una intervención.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-04</td>
+    <td>Manage Task State Transitions through RESTful API</td>
+    <td>TK-43</td>
+    <td>Crear endpoint para marcar una tarea como en progreso</td>
+    <td>Implementar un endpoint POST /api/v1/interventions/{interventionId}/tasks/{taskId}/in-progresses que actualice el estado de una tarea a IN_PROGRESS.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-04</td>
+    <td>Manage Task State Transitions through RESTful API</td>
+    <td>TK-44</td>
+    <td>Crear endpoint para confirmar una tarea</td>
+    <td>Implementar un endpoint POST /api/v1/interventions/{interventionId}/tasks/{taskId}/confirmations que actualice el estado de una tarea a DONE.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-05</td>
+    <td>Manage Checkpoints for Tasks through RESTful API</td>
+    <td>TK-45</td>
+    <td>Crear endpoint para obtener todos los checkpoints de una tarea</td>
+    <td>Implementar un endpoint GET /api/v1/interventions/{interventionId}/tasks/{taskId}/checkpoints que devuelva una lista de todos los checkpoints asociados a una tarea.</td>
+    <td>3</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-05</td>
+    <td>Manage Checkpoints for Tasks through RESTful API</td>
+    <td>TK-46</td>
+    <td>Crear endpoint para añadir un nuevo checkpoint a una tarea</td>
+    <td>Implementar un endpoint POST /api/v1/interventions/{interventionId}/tasks/{taskId}/checkpoints que permita crear un nuevo checkpoint.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-05</td>
+    <td>Manage Checkpoints for Tasks through RESTful API</td>
+    <td>TK-47</td>
+    <td>Crear endpoint para actualizar un checkpoint</td>
+    <td>Implementar un endpoint PUT /api/v1/interventions/{interventionId}/tasks/{taskId}/checkpoints/{checkpointId} que permita actualizar un checkpoint existente.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-05</td>
+    <td>Manage Checkpoints for Tasks through RESTful API</td>
+    <td>TK-48</td>
+    <td>Crear endpoint para eliminar un checkpoint</td>
+    <td>Implementar un endpoint DELETE /api/v1/interventions/{interventionId}/tasks/{taskId}/checkpoints/{checkpointId} que elimine un checkpoint.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-06</td>
+    <td>Manage Workshops through RESTful API</td>
+    <td>TK-49</td>
+    <td>Crear endpoint para obtener detalles de un taller</td>
+    <td>Implementar un endpoint GET /api/v1/workshops/{workshopId} que devuelva los detalles de un taller específico.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-06</td>
+    <td>Manage Workshops through RESTful API</td>
+    <td>TK-50</td>
+    <td>Crear endpoint para actualizar un taller existente</td>
+    <td>Implementar un endpoint PUT /api/v1/workshops/{workshopId} que permita actualizar los datos de un taller.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-06</td>
+    <td>Manage Workshops through RESTful API</td>
+    <td>TK-51</td>
+    <td>Crear endpoint para registrar un nuevo taller</td>
+    <td>Implementar un endpoint POST /api/v1/workshops que permita crear un nuevo taller con un nombre y detalles.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-07</td>
+    <td>Retrieve Workshop Interventions through RESTful API</td>
+    <td>TK-52</td>
+    <td>Crear endpoint para obtener todas las intervenciones de un taller</td>
+    <td>Implementar un endpoint GET /api/v1/workshops/{workshopId}/interventions que devuelva una lista de todas las intervenciones asociadas a un taller.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-08</td>
+    <td>Manage Clients within a Workshop through RESTful API</td>
+    <td>TK-53</td>
+    <td>Crear endpoint para obtener todos los clientes de un taller</td>
+    <td>Implementar un endpoint GET /api/v1/workshops/{workshopId}/clients que devuelva una lista de todos los clientes asociados a un taller.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-08</td>
+    <td>Manage Clients within a Workshop through RESTful API</td>
+    <td>TK-54</td>
+    <td>Crear endpoint para añadir un nuevo cliente a un taller</td>
+    <td>Implementar un endpoint POST /api/v1/workshops/{workshopId}/clients que permita registrar un nuevo cliente.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-09</td>
+    <td>Manage Mechanics within a Workshop through RESTful API</td>
+    <td>TK-55</td>
+    <td>Crear endpoint para obtener todos los mecánicos de un taller</td>
+    <td>Implementar un endpoint GET /api/v1/workshops/{workshopId}/mechanics que devuelva una lista de todos los mecánicos asociados a un taller.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-09</td>
+    <td>Manage Mechanics within a Workshop through RESTful API</td>
+    <td>TK-56</td>
+    <td>Crear endpoint para añadir un nuevo mecánico a un taller</td>
+    <td>Implementar un endpoint POST /api/v1/workshops/{workshopId}/mechanics que permita registrar un nuevo mecánico.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-10</td>
+    <td>Manage Products through RESTful API</td>
+    <td>TK-57</td>
+    <td>Crear endpoint para obtener todos los productos</td>
+    <td>Implementar un endpoint GET /api/v1/products que devuelva una lista de todos los productos registrados.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-10</td>
+    <td>Manage Products through RESTful API</td>
+    <td>TK-58</td>
+    <td>Crear endpoint para registrar un nuevo producto</td>
+    <td>Implementar un endpoint POST /api/v1/products que permita crear un nuevo producto con datos como nombre y cantidad en inventario.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-10</td>
+    <td>Manage Products through RESTful API</td>
+    <td>TK-59</td>
+    <td>Crear endpoint para actualizar un producto existente</td>
+    <td>Implementar un endpoint PUT /api/v1/products/{productId} que permita actualizar los detalles de un producto.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-10</td>
+    <td>Manage Products through RESTful API</td>
+    <td>TK-60</td>
+    <td>Crear endpoint para eliminar un producto</td>
+    <td>Implementar un endpoint DELETE /api/v1/products/{productId} que elimine un producto del sistema.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-11</td>
+    <td>Manage Product Requests through RESTful API</td>
+    <td>TK-61</td>
+    <td>Crear endpoint para obtener todas las solicitudes de productos</td>
+    <td>Implementar un endpoint GET /api/v1/product-requests que devuelva una lista de todas las solicitudes de productos.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-11</td>
+    <td>Manage Product Requests through RESTful API</td>
+    <td>TK-62</td>
+    <td>Crear endpoint para registrar una nueva solicitud de producto</td>
+    <td>Implementar un endpoint POST /api/v1/product-requests que permita crear una nueva solicitud con detalles como cantidad y estado.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-11</td>
+    <td>Manage Product Requests through RESTful API</td>
+    <td>TK-63</td>
+    <td>Crear endpoint para actualizar una solicitud de producto</td>
+    <td>Implementar un endpoint PUT /api/v1/product-requests/{productRequestId} que permita actualizar los detalles de una solicitud.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-11</td>
+    <td>Manage Product Requests through RESTful API</td>
+    <td>TK-64</td>
+    <td>Crear endpoint para aceptar una solicitud de producto</td>
+    <td>Implementar un endpoint POST /api/v1/product-requests/{productRequestId}/accept que actualice el estado de la solicitud a ACCEPTED.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-11</td>
+    <td>Manage Product Requests through RESTful API</td>
+    <td>TK-65</td>
+    <td>Crear endpoint para rechazar una solicitud de producto</td>
+    <td>Implementar un endpoint POST /api/v1/product-requests/{productRequestId}/reject que actualice el estado de la solicitud a REJECTED.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-12</td>
+    <td>Manage Vehicles through RESTful API</td>
+    <td>TK-66</td>
+    <td>Crear endpoint para obtener todos los vehículos</td>
+    <td>Implementar un endpoint GET /api/v1/vehicles que devuelva una lista de todos los vehículos registrados.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-12</td>
+    <td>Manage Vehicles through RESTful API</td>
+    <td>TK-67</td>
+    <td>Crear endpoint para registrar un nuevo vehículo</td>
+    <td>Implementar un endpoint POST /api/v1/vehicles que permita crear un nuevo vehículo con datos como placa y marca.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-12</td>
+    <td>Manage Vehicles through RESTful API</td>
+    <td>TK-68</td>
+    <td>Crear endpoint para obtener detalles de un vehículo específico</td>
+    <td>Implementar un endpoint GET /api/v1/vehicles/{vehicleId} que devuelva los detalles de un vehículo.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-12</td>
+    <td>Manage Vehicles through RESTful API</td>
+    <td>TK-69</td>
+    <td>Crear endpoint para actualizar un vehículo existente</td>
+    <td>Implementar un endpoint PUT /api/v1/vehicles/{vehicleId} que permita actualizar los datos de un vehículo.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-12</td>
+    <td>Manage Vehicles through RESTful API</td>
+    <td>TK-70</td>
+    <td>Crear endpoint para eliminar un vehículo</td>
+    <td>Implementar un endpoint DELETE /api/v1/vehicles/{vehicleId} que elimine un vehículo del sistema.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-13</td>
+    <td>Manage IoT Devices through RESTful API</td>
+    <td>TK-71</td>
+    <td>Crear endpoint para obtener dispositivos IoT de un vehículo</td>
+    <td>Implementar un endpoint GET /api/v1/iot-devices que devuelva una lista de dispositivos IoT asociados a un vehículo mediante el vehicleId.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-14</td>
+    <td>Manage Profiles through RESTful API</td>
+    <td>TK-72</td>
+    <td>Crear endpoint para obtener todos los perfiles</td>
+    <td>Implementar un endpoint GET /api/v1/profiles que devuelva una lista de todos los perfiles registrados.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-14</td>
+    <td>Manage Profiles through RESTful API</td>
+    <td>TK-73</td>
+    <td>Crear endpoint para obtener detalles de un perfil específico</td>
+    <td>Implementar un endpoint GET /api/v1/profiles/{profileId} que devuelva los detalles de un perfil específico.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-14</td>
+    <td>Manage Profiles through RESTful API</td>
+    <td>TK-74</td>
+    <td>Crear endpoint para actualizar un perfil existente</td>
+    <td>Implementar un endpoint PUT /api/v1/profiles/{profileId} que permita actualizar los datos de un perfil.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-16</td>
+    <td>Manage Notifications through RESTful API</td>
+    <td>TK-77</td>
+    <td>Crear endpoint para obtener notificaciones de un usuario</td>
+    <td>Implementar un endpoint GET /api/v1/notifications que devuelva una lista de notificaciones para un usuario con detalles como fecha y contenido.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+#### 5.2.3.3. Development Evidence for Sprint Review
+Para el sprint 3, se implementaron las funcionalidades restantes del frontend para la ejecución de tareas y la gestión de checkpoints en una intervention, así como la visualización de la línea de tiempo de intervenciones y la información de IoT de un vehículo.
+
+Por otro lado, se desarrolló la pantalla de login y se implementaron las validaciones de entrada de datos y mensajes de error para datos inválidos.
+
+En cuanto a la API REST, se crearon endpoints para gestionar tareas, transiciones de estado de tareas, checkpoints, talleres, clientes, mecánicos, productos, solicitudes de productos, vehículos, dispositivos IoT, perfiles y notificaciones.
+
+Asimismo, se agregaron los videos About the product y el About the team en la landing page del sistema.
+
+De esa manera, se completaron todas las historias de usuario y tareas técnicas planificadas para el sprint 3.
+
+A continuación, se presenta la evidencia de desarrollo para la revisión del sprint 3:
+
+#### Commits FrontEnd Application 
+[https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-FrontEnd/commits/develop/](https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-FrontEnd/commits/develop/)
+
+| Branch                            | Id Commit                                | Cabecera                                                                                                                                                             | Cuerpo                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|-----------------------------------|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| develop                           | 1f7d5fbb6bdd9c05dc1869dc53b522267c8a029c | Merge pull request #48 from Open-Source-YaraSoftware/feature/intervention-log-timeline                                                                               | Feature/intervention log timeline                                                                                                                                                                                                                                                                                                                                                                                                  |
+| feature/intervention-log-timeline | 23bec15dab3f2a46f9de40c4e609532d0ed00600 | feat(intervention-detail): implement task data fetching and integrate with intervention summary component                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-log-timeline | 4c4575a28f55bc1745b13c5be365365fd9619e89 | feat(intervention-summary): implement intervention summary component to manage tasks, checkpoints, and product usage with delegated display to task detail component |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 951d9d94503f25a21729a59098a8979e4a548c90 | chore: layout modified                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-log-timeline | a689eda855db5b65b72f07662f0899ddcaceb5b4 | feat(task-detail): add table to display replacement parts used in the task.                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-log-timeline | 7f6c897c8ed3ea871edbeda14816f8b939e3e905 | feat(task-detail): add task detail component to display task and checkpoint details.                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 14ffcffd2e3a3345a58733bce0d03369d036099e | Merge pull request #46 from Open-Source-YaraSoftware/feature/inventory-requests                                                                                      | Feature/inventory requests                                                                                                                                                                                                                                                                                                                                                                                                         |
+| feature/inventory-requests        | 2e2b04150970992a48693b36b3ef13773f6ff9d0 | Merge pull request #45 from Open-Source-YaraSoftware/hotfix/inventory-request                                                                                        | Hotfix/inventory request                                                                                                                                                                                                                                                                                                                                                                                                           |
+| feature/inventory-requests        | 0870590d8a36323a6c1c5928da7c53b426adf0f1 | Merge branch 'feature/inventory-requests' into hotfix/inventory-request                                                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/inventory-requests        | ba11f0fce0718642dd500f64faa3a6ace2279845 | refactor(requests): update component logic and HTML template for request handling                                                                                    | - Updated TypeScript logic to fetch and display mechanic names based on task data. - Added a method to retrieve all tasks and map them to the corresponding requests. - Changed column name from 'amount' to 'requestedQuantity' for clarity in the HTML template. - Updated 'mechanic' column to display mechanic names dynamically. - Added matSort to all header cells for sorting functionality.                               |
+| feature/inventory-requests        | 19469ba3bcd5ea0c71243f508f8f83a82f367bf9 | fix(product-request): resolve incorrect API calls and status handling                                                                                                | - Fixed incorrect API calls when retrieving requests by `taskId`. - Corrected status filtering in `getByWorkshopId` to ensure proper data retrieval (status=0).                                                                                                                                                                                                                                                                    |
+| feature/inventory-requests        | d6a02c54a2f37e52e8be1222a6638397d5291815 | refactor(product-request): update entity structure                                                                                                                   | - Removed `Workshop` and `Task` entities in favor of `workshopId` and `taskId` numeric fields. - Replaced `requestedDate` string type with a `Date` type, and added default date handling. - Added `observation` field for additional notes. - Simplified constructor initialization.                                                                                                                                              |
+| develop                           | efd4d31a1961f8a9c4ca42a9d5169dabaecbd135 | Merge pull request #44 from Open-Source-YaraSoftware/feature/my-activities-leader                                                                                    | feat(activity): add finish intervention logic and confirmation dialog                                                                                                                                                                                                                                                                                                                                                              |
+| feature/my-activities-leader      | dd7b9288def8d0a1facebf3ba8aaab630bed14b5 | feat(activity): add finish intervention logic and confirmation dialog                                                                                                | - Added `onFinishIntervention` method to handle intervention completion with confirmation dialog. - Integrated intervention state update through `InterventionsService` with feedback notification.                                                                                                                                                                                                                                |
+| develop                           | 299641a3aa1787bd24a178a50ddf6165b6ae78c8 | Merge pull request #43 from Open-Source-YaraSoftware/feature/my-activities-leader                                                                                    | Feature/my activities leader                                                                                                                                                                                                                                                                                                                                                                                                       |
+| feature/my-activities-leader      | 95e1eb80a389b5d0ea16778db8eba1f35765d08f | refactor(activity): include execution step load trigger on step change                                                                                               | - Added ViewChild reference for execution step to trigger the load function on step change. - Updated `notify` method to call `load` for the execution step on selection.                                                                                                                                                                                                                                                          |
+| develop                           | d5dd63dee0005740e091fdda1282a2bda7db21ed | refactor(activity): include execution step load trigger on step change                                                                                               | - Added ViewChild reference for execution step to trigger the load function on step change. - Updated `notify` method to call `load` for the execution step on selection.                                                                                                                                                                                                                                                          |
+| feature/task                      | 5960b7c9af07f493ed9e0a133fbfa7a7be642c84 | fix(task): set task id initialization to prevent duplication                                                                                                         | - Changed the Task class constructor to initialize `id` as 0 - Prevents possible duplication when assigning random value - Ensures a safer mechanism for handling unique IDs                                                                                                                                                                                                                                                       |
+| develop                           | 5ffd04987f3826561d39573c4e66dda9a37aa559 | refactor(routes): update and remove unused routes                                                                                                                    | - Removed unused routes for clients, personnel, and vehicles - Consolidated and cleaned up routes under home path for better structure - Updated route titles and path assignments for improved readability and consistency                                                                                                                                                                                                        |
+| develop                           | 4d78914431af9e82b016cae2a7227c2206530e5c | Merge pull request #42 from Open-Source-YaraSoftware/develop                                                                                                         | Develop                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| develop                           | 939612da731fff30a8d179244eb2552e56b7baaa | Merge pull request #41 from Open-Source-YaraSoftware/feature/intervention-supervision                                                                                | Feature/intervention supervision                                                                                                                                                                                                                                                                                                                                                                                                   |
+| feature/intervention-supervision  | 7343c2844564bc225005e2a92f6f008d31ab7df4 | feat(activity-monitoring): implement ActivityMonitoringComponent to track task status and assigned mechanics                                                         | - Added task table to display task description, assigned mechanic, and task state - Integrated personnel data to show mechanic names in the task list - Used MatTable with sorting and pagination for a better user experience                                                                                                                                                                                                     |
+| feature/intervention-supervision  | 40c2c815854a9fe82fdd995d3412db02dd4bf6c8 | refactor(task-state): simplify TaskState enum by removing unnecessary states                                                                                         | - Removed AWAITING_COMPONENTS and AWAITING_REASSIGNMENT states                                                                                                                                                                                                                                                                                                                                                                     |
+| develop                           | b71c9bceb6f595959db8a6028d2ebb04a76bf329 | Merge pull request #40 from Open-Source-YaraSoftware/feature/notifications                                                                                           | Feature/notifications                                                                                                                                                                                                                                                                                                                                                                                                              |
+| feature/notifications             | 63cc8513aae5a1b5dff7df77dec19e44f97f65d1 | feat(notifications): update components, services, entities, and new-mechanic-dialog to match new notification route                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | c446d9300ad08992a5c60962fefc9a137809a26d | Merge pull request #39 from Open-Source-YaraSoftware/develop                                                                                                         | Develop                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| develop                           | 2d97fc5c58271bfef8638c0f6760815f62863137 | Merge pull request #38 from Open-Source-YaraSoftware/feature/inventory-requests                                                                                      | Feature/inventory requests                                                                                                                                                                                                                                                                                                                                                                                                         |
+| feature/inventory-requests        | f6ddd4a546d39e6add1dcc9fa7f7d226021ea48d | Merge branch 'develop' into feature/inventory-requests                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 646ab664d8e13ff0516c650ff65227855ea928fa | Merge pull request #36 from Open-Source-YaraSoftware/feature/intervention-execution                                                                                  | Feature/intervention execution                                                                                                                                                                                                                                                                                                                                                                                                     |
+| feature/intervention-execution    | 0d3f1a96a1195768bdbf5b4d24a04b5402892490 | Merge branch 'develop' into feature/intervention-execution                                                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-execution    | 6fe08da972c58863db4eab101446323910db7031 | feat(task-product-request-list): update TaskProductRequestListComponent to support new ProductRequestState values                                                    | - Added support for displaying the new ProductRequestState (REJECTED, APPROVED) in the status column - Used enum mapping to show human-readable status values in the table                                                                                                                                                                                                                                                         |
+| feature/intervention-execution    | 7a3f27440b2d7e51790b2dd12c4e9984d889c73f | feat(product-request-state): update ProductRequestState enum to include REJECTED and APPROVED states                                                                 | - Added REJECTED and APPROVED states to handle additional product request statuses                                                                                                                                                                                                                                                                                                                                                 |
+| feature/intervention-execution    | 95ba849120bd597e8cd933fcb2eac042daf5099e | feat(activity-requests): integrate confirmation dialogs and notification messages for product management actions                                                     | - Added confirmation dialogs for update and delete operations on product requests and task product usage - Integrated NotificationMessagesService to show success or error messages based on the result of actions - Enhanced user experience by asking for confirmation before critical actions                                                                                                                                   |
+| develop                           | b7f24a8b72fed528732caa7b1517f9e8ca789347 | feat(requests): update requests page with new functionalities                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | db014d32fc1fa033b5d75c15aa2110b2266dbf2b | feat(product-request): update product-request service                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 124a01592d5514cc6ff5af43dee96e1c65b8d3f9 | feat(product-request): update product-request enum entity                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | ca4d0341540ff0ed4772eb25cd86105940748cc9 | feat(product-request): update product-request entity                                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 62b6797a5c3b93a4e1f52aa661b124b0b3146ae1 | Merge pull request #35 from Open-Source-YaraSoftware/feature/sign-up                                                                                                 | feat: make sign-up page responsive                                                                                                                                                                                                                                                                                                                                                                                                 |
+| develop                           | 7e2e0915af399dd571243f17b2e6b44cea18032a | feat: make sign-up page responsive                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | b57c27b777c36b3d8db5d0fc22bae7a53fca853c | Merge pull request #34 from Open-Source-YaraSoftware/feature/login                                                                                                   | feat: make login page responsive                                                                                                                                                                                                                                                                                                                                                                                                   |
+| develop                           | 810259eb70b4418fd5293dbfa8447f63f52de8d8 | feat: make login page responsive                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 6e5638703e29003397ed730df0453ee8ff4d534d | refactor(activity-requests): restructure ActivityRequestsComponent to use TaskProductStockList and TaskProductRequestList components                                 | - Extracted product stock and product request tables into their respective components - Simplified main template by delegating list rendering to child components - Adjusted styling for better alignment and options display                                                                                                                                                                                                      |
+| develop                           | 6288c45bc79da25be3489f5966cd5873f6b0c233 | refactor(task-product-request-list): extract product request table into a standalone component                                                                       | - Moved product request table from ActivityRequest component to TaskProductRequestListComponent - Added input properties for productsRequested and isEditMode - Implemented output events for delete and edit actions - Integrated MatTable with sorting and pagination                                                                                                                                                            |
+| develop                           | 0a4681327ee71dea6dcaabc1bd88d3cafc5127bb | refactor(task-product-stock-list): extract task product stock table into a standalone component                                                                      | - Moved task product usage table from ActivityRequest component to TaskProductStockListComponent - Added input properties for taskProductsUsage, isEditMode, and productsStock - Implemented output events for delete and edit actions - Integrated MatTable with sorting and pagination - Updated table logic to map product stock names based on productStockId                                                                  |
+| develop                           | f15567c70cf0c4e1153dfac309c9312fc58f3dab | style(dialog): adjust dialog layout and width for better responsiveness                                                                                              | - Set dialog width to 90% and max-width to 30rem for better scaling on different screen sizes - Applied consistent margin and spacing for dialog content and buttons                                                                                                                                                                                                                                                               |
+| develop                           | 002fb545527fb8a90aa1efb51d9d6824586018e7 | feat(activity-execution): add task completion logic and notification system                                                                                          | - Implemented task finish confirmation dialog with a completion message - Integrated NotificationMessagesService to display success messages upon task completion - Added logic to move to the next task after completing the current one                                                                                                                                                                                          |
+| develop                           | bd438e81284b50287cffad7ccfdb77120c3c0d09 | feat(notification-messages-service): create NotificationMessagesService to display custom snackbar messages                                                          | - Integrated BaseMessageComponent for displaying messages with dynamic content and style - Configured snackbar with position, duration, and custom data including message and level                                                                                                                                                                                                                                                |
+| develop                           | 290fabb20da050583d3cdb661dad859735b37121 | feat(base-message): implement BaseMessageComponent for displaying snackbar messages                                                                                  | - Added dynamic styling based on message level (success, warning, error) - Integrated material icons for visual feedback depending on the message level - Implemented getLevelClass and getIcon methods to return appropriate class and icon based on level                                                                                                                                                                        |
+| develop                           | 26faff85f57941dc841b9a6ae8ded29f0d3e9927 | feat(activity-tracking): implement form and list for managing checkpoints in tasks                                                                                   | - Added form for creating and updating checkpoints with validation - Displayed list of checkpoints with edit and delete actions - Integrated CheckpointService to handle CRUD operations - Added dynamic UI behavior for edit mode and form reset - Included hover effect on list items to reveal action buttons                                                                                                                   |
+| develop                           | 2896d7104976a35c3334ae43a2e1d7ea441957db | feat(checkpoint-service): create CheckpointService for managing checkpoints                                                                                          | - Extends BaseService to handle Checkpoint entities - Implements method getAllByTaskId to retrieve checkpoints by task ID - Added error handling and retry logic to HTTP requests                                                                                                                                                                                                                                                  |
+| develop                           | 84f0f7b995a80dc3d14a309331f9598cd80a50c1 | feat(checkpoint): add taskId property to Checkpoint class for task association                                                                                       | - Introduced taskId property to link checkpoints with specific tasks - Updated constructor to accept taskId and support object destructuring                                                                                                                                                                                                                                                                                       |
+| feature/intervention-detail       | 223da2288b7a9626b184fe7d4468de86bbeaba77 | feat(intervention-detail): add methods to update intervention data and implement confirmation dialog                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-detail       | f72d7014b21d6f953c4b5879fbdd6d7ec3f334b8 | refactor(confirmation-dialog): ensure dialog returns true/false when closed for confirm/dismiss actions                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-detail       | 6941894ccd206305b56bca07203eab6bb5ae660c | feat(general-information): add method to update intervention details and adjust form field visibility based on user role                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 2a2ee4a4421dc42ed3f2de49a850eae60543ef8e | feat(activity-requests): implement form and table components for managing product requests and product usage                                                         | - Added form with dynamic fields for selecting required parts or entering other part details - Implemented tables for displaying products requested and task products usage - Integrated services to handle CRUD operations for product requests and task product usage - Added logic for form validation and resetting after submission - Included edit and delete functionality for both product requests and task product usage |
+| develop                           | 67e33a3d2057baf2aad03f6570d249b0493a42f1 | feat(activity-execution-header): implement ActivityExecutionHeader component for task management and option selection                                                | - Added dynamic task and option selection using signals for reactivity - Integrated TaskService to fetch tasks by intervention ID - Implemented component logic for switching between 'requests' and 'tracking' views - Styled the component with CSS for layout and responsive design                                                                                                                                             |
+| develop                           | f20d1e32f349d7785d3ea410d3385df496fe1c82 | feat(task-product-usage-service): create TaskProductUsageService for handling task product usage operations                                                          | - Extends BaseService to manage TaskProductUsage entities - Implements method getAllByTaskId to retrieve product usage by task ID - Added error handling and retry logic to HTTP requests                                                                                                                                                                                                                                          |
+| develop                           | f3357e599ba2df2acfc76206724bcedfd8decff9 | feat(product-stock-service): create ProductStockService to manage product stock operations                                                                           | - Extends BaseService to handle ProductStock entities - Sets resourceEndpoint to '/products-stock' for API requests                                                                                                                                                                                                                                                                                                                |
+| develop                           | 27cdbce6f643e9089638943987cfbcea5ecc3796 | feat(product-request-service): create ProductRequestService for handling product requests                                                                            | - Extends BaseService to manage ProductRequest entities - Implements method getAllByTaskId to retrieve product requests by task ID - Added error handling and retry logic to HTTP requests                                                                                                                                                                                                                                         |
+| develop                           | f4a84bd72f78825e499f0ab400fb4d68e8b9d93a | feat(task-product-usage): add TaskProductUsage class to track product usage in tasks                                                                                 | - Added properties to store taskId, productStockId, quantityUsed, and dateUsed - Implemented constructor with object destructuring for initialization                                                                                                                                                                                                                                                                              |
+| develop                           | 346fa1c86c23a87d0587cf2924c5d16a4d4e41d0 | refactor(product-type): remove unnecessary properties and references from ProductType class                                                                          | - Removed productStockList property - Simplified ProductType class structure                                                                                                                                                                                                                                                                                                                                                       |
+| develop                           | 165e7bfb7624d958ab62cbe9d7be63a73eadb282 | refactor(product-stock): update ProductStock class with simplified properties and constructor                                                                        | - Removed direct reference to Workshop entity and replaced with workshopId - Replaced taskStockList with limit property - Added name property for better identification - Refined constructor to accept object destructuring for initialization                                                                                                                                                                                    |
+| develop                           | 0a59fa85247ee487b13db3cc053666eb280489a7 | refactor(product-request): update ProductRequest class with simplified structure and constructor                                                                     | - Removed direct references to Workshop and Task entities - Replaced workshop and task with workshopId and taskId - Added observation property for additional information - Refined constructor to accept object destructuring for initialization                                                                                                                                                                                  |
+| develop                           | d4b21d2e9d051edb312040f0734bc225e94bf693 | Merge pull request #32 from Open-Source-YaraSoftware/feature/inventory-stock                                                                                         | Feature/inventory stock                                                                                                                                                                                                                                                                                                                                                                                                            |
+| feature/inventory-stock           | e12ccc40424f98155fd7e4780aabcd5c6cc4a865 | feat(items): update items component with new functionalities                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 3cf38f15a61afe3f00a18136716fc2e5b264c785 | feat(edit-item-dialog): add edit item dialog component                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | df28df35d36706ce922b53c7858a8d1f0393f4bd | feat(inventory-header): update inventory-header component                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 36f760f57d26b44d4256695a5d6537f75365893f | feat(product-stock): add product-stock service                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 0eb9e254931deeea0fcc4d0beb96ee7d59d8f0c0 | feat(product-stock): update product-stock entity with new attributes                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 3ca571da32d6e05a5086908e5137b21298bcda80 | Merge pull request #30 from Open-Source-YaraSoftware/feature/header-content                                                                                          | feat: add Log-in and Register buttons to header-content                                                                                                                                                                                                                                                                                                                                                                            |
+| feature/header-content            | 588bc8dcc392f709c551c90d19de79a318948702 | feat: add Log-in and Register buttons to header-content                                                                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | a6eebdfef25b895763f72ea0f0db72cecfccaadd | Merge pull request #29 from Open-Source-YaraSoftware/feature/sign-up                                                                                                 | feat: add sign-up component functionality                                                                                                                                                                                                                                                                                                                                                                                          |
+| feature/sign-up                   | 71448721b8dc22f7ded86257f36be7a3707c5291 | feat: add sign-up component functionality                                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 39488b1f9abe44be73caf6479b7909c3e8b986f0 | Merge pull request #28 from Open-Source-YaraSoftware/feature/login                                                                                                   | feat: add login component functionality                                                                                                                                                                                                                                                                                                                                                                                            |
+| feature/login                     | 57f4ca4f38eefd44f80a6b6b4e1c337183406386 | feat: add login component functionality                                                                                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 2874961754626da03b9068ce6adfc151a1b9161f | Merge pull request #27 from Open-Source-YaraSoftware/feature/new-client-dialog                                                                                       | feat(clients): Add new-client-dialog for new client registration                                                                                                                                                                                                                                                                                                                                                                   |
+| feature/new-client-dialog         | b0c0aa0fa74ebe11e35c00b6f88712e1d520f01d | feat(clients): Add new-client-dialog for new client registration                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-detail       | c8799d960e1a6284e5cc92dfd0d3425331fc98c7 | feat(intervention-detail): add intervention detail component with intervention, personnel and vehicle data integration                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/general-information       | 20a27a3b1453099a47906e43886f301d364adb0e | feat(general-information): add general information component with basic information display                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/vehicle-service           | d1977262eabeb9267c207d58532a9bf9bb3d028f | feat(vehicle-service): add getByClientDni method                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 1921acfe0952d106499051af2e8b0256bc8c4371 | chore: add replace underscore pipe to use on enums                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 50dbd35345f9b3e587d33894b67a5490240d40a9 | Merge pull request #26 from Open-Source-YaraSoftware/develop                                                                                                         | Develop                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| develop                           | 3a0f80d784faf9c4a8efb76be339e87de06dbc09 | Merge pull request #25 from Open-Source-YaraSoftware/feature/vehicle-iot-information                                                                                 | feat(vehicle-iot-information): add iot information to vehicle detail …                                                                                                                                                                                                                                                                                                                                                             |
+| feature/vehicle-iot-information   | 5e08fb8ef8a543838d68687b90a647a5db56a2cb | feat(vehicle-iot-information): add iot information to vehicle detail component.                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | b71a55a44c163a8d730758fb678f8549abbe3574 | Merge pull request #24 from Open-Source-YaraSoftware/feature/intervention-log-timeline                                                                               | Feature/intervention log timeline                                                                                                                                                                                                                                                                                                                                                                                                  |
+| feature/intervention-log-timeline | 9c779010e6c5ee408caa3344b90ff843a2fa8162 | feature(intervention-log-timeline): add activity log to vehicle detail component                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-log-timeline | fc331703b607211da17ca5cbc3ec9d652c66c6a7 | feature(intervention-log-timeline): add redirection method to vehicle detail page                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-log-timeline | b0fa381460fedbbd150026c33cbb587cb88aef0a | refactor(previous-interventions): add boolean flag to activate the expansion panel                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 4a7cc284f2247c83c573e72bf45d96693c4f8c22 | Merge pull request #22 from Open-Source-YaraSoftware/feature/intervention-diagnostic                                                                                 | Feature/intervention diagnostic                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-diagnostic   | 9484438ee1871d58c247c3ba87aba74be0260537 | feat(activity-diagnostic-preparation): create parent component to manage task and intervention diagnostics                                                           | - Add activity diagnostic preparation component to use task-distribution and intervention-diagnostic - Provide data to child components and handle logic confirmation                                                                                                                                                                                                                                                              |
+| feature/intervention-diagnostic   | 75f5b428e7307776b721e10a08ac90cd112936df | feat(intervention-diagnostic): create component with HTML, styles, and intervention update logic                                                                     | - Add intervention diagnostic component with HTML schema and styles - Implement logic to update intervention type and optional description - Add functionality to reset values if changes are detected                                                                                                                                                                                                                             |
+| feature/intervention-diagnostic   | 390f208978e7e4304d83b9180cbd968a293a29b8 | feat(task-distribution): create component with HTML, styles, and task management logic                                                                               | - Add task distribution component with HTML schema and styles - Implement logic to add, delete, and update tasks in an intervention                                                                                                                                                                                                                                                                                                |
+| feature/intervention-diagnostic   | ab5d46935e2507ab24a1d4b4fd6753e303dc74c1 | feat(task): add endpoint to get task list by intervention ID                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-diagnostic   | 49d4fa5484a657147032297928b8cbf31f7c087b | refactor(entities): update Checkpoint, Intervention, Mechanic, and Task entities                                                                                     | - Remove Task property from Checkpoint entity - Add description field to Intervention entity - Remove embedded list of tasks from Mechanic entity - Rename mechanic to assistant in Task entity, keeping the same type                                                                                                                                                                                                             |
+| feature/vehicle-registration      | 180efc62ab80302be7e76d8bc7c1aa835a3855b3 | feature(vehicle-registration): add new vehicle dialog component                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/client-detail             | 8978d49c67ab376d33ca1261521421e030ea08b2 | refactor(client-detail): encapsulate logic for better readability and separation of concerns                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/client-detail             | 71499c8ed3ccbcc1728cbaf8b1c71530714da061 | refactor(client-detail): encapsulate logic for better readability and separation of concerns                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 8a932652c9e1ccf1d0ce75b55b7637809a659c3f | Merge pull request #21 from Open-Source-YaraSoftware/feature/client-detail                                                                                           | Feature/client detail                                                                                                                                                                                                                                                                                                                                                                                                              |
+| feature/client-detail             | 2ba46a8f10f232f5fe32050be2abc75a69cc7c40 | feat(client-detail): add delete and update methods for client management                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/client-detail             | 35069c156492838d699889625baba1dfc757e9e4 | feat(client-detail): implement service consumption to retrieve client and vehicles data                                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/client-detail             | 7ba796b0d7dc9f0d48ec3764367a424bf739b768 | feat(client-detail): add client detail component layout                                                                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/vehicle                   | 8bc380cdf3d665010aa9c83bba734f617b652964 | refactor: update vehicle entity with new attributes                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/user                      | ceda0d81639483336285ddcdfd6d87f36ce43964 | refactor: update user entity with new attributes                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/vehicle-service           | 7e238bff1e7ec6d281e514c488f11e33f1bda94a | feat(vehicle-service): add vehicle service with method to get vehicles by client ID                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| notifications                     | 95166ae36ccfb204720c344eee7bffcbc9261fa7 | feat(notifications): add notification page                                                                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| notifications                     | 778fc89afe5fa93738bdd42f43eba0810cbdc6d2 | feat(notifications): add notification-item component                                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| notifications                     | a6fe4eeb68cc4eae4a4adf022226532e20c3440b | feat(notifications): add notification service                                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| notifications                     | fdead7dc97238100d45f4e9b7b3b53813d9dab11 | feat(notifications): add notification entity, notification-manager entity and notification-state enum                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/vehicle-item              | ebf3dd1176c209469161065cef40ad177fa1096d | feat(vehicle-item): add last intervention date display                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/vehicle-item              | c962332835d12571226c0010b36acca25706ca16 | feat(vehicle-item): add vehicle item component with vehicle image and details display                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/confirmation-dialog       | 5d2fffa5c22e5fffa44f7dfb68c135d36be1204d | feat(confirmation-dialog): add base confirmation dialog component                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+
+#### Commits BackEnd Application
+[https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform/commits/develop/](https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform/commits/develop/)
+
+| Branch                          | Id Commit                                | Cabecera                                                                                                                       | Cuerpo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|---------------------------------|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| develop                         | 42b2356f193549ed3cc0d63d41c1ee9adf3baf30 | feat: add Intervention entity to establish relationship with Task aggregate                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 01e4a78b9f195672fecce91b2396374a961e14f1 | Merge pull request #19 from Open-Source-YaraSoftware/feature/manage-task                                                       | Feature/manage task                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| feature/manage-task             | 25879c2b67b220d251e2e1917fc6662d6f532202 | feat(tasks): add endpoints for task and checkpoint management to TaskController                                                | - Added `POST /{taskId}/complete` endpoint to mark a task as completed. - Implemented `POST /{taskId}/checkpoint` endpoint to create a checkpoint associated with a specific task. - Created `POST /` endpoint for creating new tasks, with validation for successful creation. - Added `DELETE /{taskId}/checkpoints/{checkpointId}` endpoint to delete a specific checkpoint within a task. - Created `DELETE /{taskId}` endpoint to delete a task by its ID. - Added `PUT /{taskId}/checkpoints/{checkpointId}` endpoint to update a specific checkpoint. - Implemented `PUT /{taskId}` endpoint to update task details. |
+| develop                         | 38fc8c49d21f61f678f838eb1a8c894532cfdf95 | feat(tasks): add TaskCommandService and TaskCommandServiceImpl to include necessary methods for task command execution         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | d987b6d18d0000ef629fddb12e1de477123bbfa8 | feat(tasks): add necessary commands for task and checkpoint management                                                         | - Added `CompleteTaskCommand` for marking tasks as completed. - Introduced `CreateCheckpointCommand` and `CreateTaskCommand` to handle creation of checkpoints and tasks. - Implemented `DeleteCheckpointCommand` and `DeleteTaskCommand` for deletion operations. - Added `UpdateCheckpointCommand` and `UpdateTaskCommand` to manage updates to checkpoints and tasks. - Updated `TaskCommandService` and `TaskCommandServiceImpl` to support new commands. - Modified `TaskResource` and `TasksController` to integrate command handling.                                                                                |
+| develop                         | fb792d97f4ace59de4dadcb55e8c6bf5a79cdba3 | feat(tasks): enhance Task entity with state management and checkpoint operations                                               | - Added `completeTask` method to mark a task as completed. - Implemented `addCheckpoint` and `deleteCheckpoint` methods for managing checkpoints within a task. - Introduced `updateTask` method to modify task details, including description, state, and inventory request state. - Added `getAllCheckpoints` method to retrieve all checkpoints associated with a task. - Created `startSuppliesRequest` method to initiate an inventory request for the task.                                                                                                                                                           |
+| develop                         | fcd0fe973bb98cb3d447b5a80c3036ec0148aba5 | feat(tasks): add TasksController with endpoints for task and checkpoint retrieval                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | efdff7307d3467035eee29767358220e1081b392 | feat(tasks): add resources and assemblers for task and checkpoint management                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 97b4ebcbede637d2b84578b5b3e94a9d3553911d | feat(tasks): add TaskRepository with custom query methods                                                                      | - findAllByInterventionId to retrieve tasks by intervention ID. - findAllByInterventionIdAndAssistantId to filter tasks by intervention ID and assistant ID. - Included existence checks for tasks based on description and intervention ID.                                                                                                                                                                                                                                                                                                                                                                                |
+| develop                         | 59c214aef47826424652dbc152422abbe3e48499 | feat(tasks) add TaskQueryServiceImpl to implement TaskQueryService methods                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 95285654505a4456efc05fdafc0cbd7cea843a8d | feat(tasks) add TaskQueryService interface for handling task-related queries                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | dadd2a9032a820aef06cda1f3afdee86cce0245f | feat(tracking): add TaskState and InventoryRequestState as value objects                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 1a4b2de514047d8b7e6e22b25c66924aa2b6336c | feat(tracking): add Checkpoint entity for task checkpoints.                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 0228ebd600d7771a33eb41e8a9ca9f01c981b913 | feat(tasks): implement queries for task and intervention details                                                               | - Added GetAllCheckpointsByTaskIdQuery.java to retrieve all checkpoints associated with a specific task. - Added GetAllTasksByInterventionIdAndAssistantIdQuery.java for querying tasks within an intervention filtered by assistant. - Added GetAllTasksByInterventionIdQuery.java to list all tasks for a given intervention. - Added GetTaskByIdQuery.java to fetch task details by task ID.                                                                                                                                                                                                                             |
+| develop                         | 4acf937fde709ccf7e07965defa78f374d686e40 | fix(task): add Task aggregate root entity with JPA annotations and JavaDocs                                                    | - Included fields: id, description, tracking, state, inventoryRequestState, interventionId, and assistantId. - Implemented default and parameterized constructors.                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| develop                         | b43615e0c9d781865931f8a15e4f90ffa4006836 | Merge: d2dca77 2d9a184                                                                                                         | Merge branch 'develop' of https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform into develop                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| develop                         | 2d9a184696052a9937e03d4c0570ce0fc28228ad | Merge: 285989a e5f6446                                                                                                         | Merge pull request #16 from Open-Source-YaraSoftware/feature/manage-workshop                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Feature/manage workshop |
+| origin/feature/manage-workshop  | e5f6446ddb5a849e34d2fed1c4931dc680c1e4d0 | feat(service): add Workshop REST Controller for managing workshop resources                                                    | - Implemented `WorkshopController` with endpoints to manage workshops, mechanics, and clients. - Added endpoint to create a new workshop and retrieve its details. - Added endpoints to get all clients and mechanics associated with a workshop. - Added endpoints to create new clients and mechanics for a specific workshop. - Integrated `WorkshopCommandService` and `WorkshopQueryService` for command and query operations.                                                                                                                                                                                         |
+| feature/manage-workshop         | c33ad46a5e4abdba7dc56533650eaa657ac350a2 | feat(service): add resource assemblers for Client, Mechanic, and Workshop transformations                                      | - Implemented `CreateClientCommandFromResourceAssembler` to transform `CreateClientResource` into `CreateClientCommand` with workshop ID. - Implemented `CreateMechanicCommandFromResourceAssembler` to transform `CreateMechanicResource` into `CreateMechanicCommand` with workshop ID. - Implemented `CreateWorkshopCommandFromResourceAssembler` to convert `CreateWorkshopResource` into `CreateWorkshopCommand`. - Added `WorkshopResourceFromEntityAssembler` for mapping `Workshop` entity to `WorkshopResource` for data retrieval.                                                                                |
+| feature/manage-workshop         | d8ae8fabb8c597d31552ea950ac3ee49d3517b75 | feat(service): add REST resources for creating and retrieving Workshop, Client, and Mechanic                                   | - Created `CreateClientResource`, `CreateMechanicResource`, and `CreateWorkshopResource` for handling input validation during client, mechanic, and workshop creation. - Added `WorkshopResource` for workshop data retrieval. - Implemented validation checks to ensure mandatory fields are present and properly formatted.                                                                                                                                                                                                                                                                                               |
+| feature/manage-workshop         | 15bf52ba72afee939eeee4e3c265163a896e474e | feat(service): implement WorkshopCommandService with Workshop, Client, and Mechanic creation                                   | - Added `WorkshopCommandService` interface for handling workshop, client, and mechanic creation commands. - Implemented `WorkshopCommandServiceImpl`: - Created workshop with `CreateWorkshopCommand`. - Integrated IAM and Profile services for creating clients and mechanics: - Generates user ID with appropriate role. - Creates corresponding profile for each user. - Added validation to prevent duplicate workshops and ensure workshop existence before client/mechanic creation.                                                                                                                                 |
+| feature/manage-workshop         | db4967aefdd45152c5660fc13afccda2290c194b | feat(service): add WorkshopQueryService and WorkshopQueryServiceImpl                                                           | - Defined `WorkshopQueryService` interface for workshop-related queries. - Implemented `WorkshopQueryServiceImpl` for handling `GetWorkshopByIdQuery`, `GetAllClientsByWorkshopIdQuery`, and `GetAllMechanicsByWorkshopIdQuery`. - Integrated `ExternalIamService` for fetching client and mechanic user IDs by workshop.                                                                                                                                                                                                                                                                                                   |
+| feature/manage-workshop         | 6e48b36b44b6925784d8936b41abd5392e15ece1 | feat(service): add JPA repository for `Workshop` entity                                                                        | - Created `WorkshopRepository` extending `JpaRepository` for database operations on `Workshop`. - Added method `existsByName` to check for the existence of a workshop by name.                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/manage-workshop         | 4428f939b9581623c63602a8cd7f1a5d2f0f0217 | feat(service): integrate external profile creation service with `ExternalProfilesService`                                      | - Added `ExternalProfilesService` to facilitate profile creation through `ProfilesContextFacade`. - Implemented `createProfile` method, wrapping profile ID result in `ProfileId` for consistent value object handling.                                                                                                                                                                                                                                                                                                                                                                                                     |
+| feature/manage-workshop         | 1603e7387117a43d92132527b1739f6143b482b8 | feat(service): integrate external IAM service for client and mechanic user operations                                          | - Added `ExternalIamService` to interact with `IamContextFacade`. - `fetchAllUsersByWorkshopIdAndRoleIsClient` and `fetchAllUsersByWorkshopIdAndRoleIsMechanic` methods retrieve users by workshop ID with specific roles. - `createUserWithRoleMechanic` and `createUserWithRoleClient` methods create users with predefined roles and wrap results in `UserId`.                                                                                                                                                                                                                                                           |
+| feature/manage-workshop         | 834446dda9b1de3ec5bf2f38f12613aee6c0867d | feat(service): add queries for retrieving clients, mechanics, and workshop by ID                                               | - Added `GetAllClientsByWorkshopIdQuery` to fetch clients by `workshopId`, with validation. - Added `GetAllMechanicsByWorkshopIdQuery` for mechanics by `workshopId`, ensuring positive ID. - Added `GetWorkshopByIdQuery` to retrieve a workshop by its ID, validating non-null and positive values.                                                                                                                                                                                                                                                                                                                       |
+| feature/manage-workshop         | e68a3151492dbc30de02249bbe717460b8037e86 | feat(service): add command records for creating client, mechanic, and workshop                                                 | - Introduced `CreateClientCommand` and `CreateMechanicCommand` with validations for user details and `workshopId`. - Added `CreateWorkshopCommand` with a validation on `name` to ensure it is not null or blank.                                                                                                                                                                                                                                                                                                                                                                                                           |
+| feature/manage-workshop         | f30976f837a4af481a79b18218e6c57280df60fa | feat(service): add Workshop aggregate root                                                                                     | - Introduced `Workshop` aggregate root with `id` and unique `name` fields. - Ensured validation on `name` with `@NotBlank` and uniqueness constraint.                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| feature/manage-workshop         | 5fe2f2bb6f18efc6573c554538866177803052ae | feat(service): add value objects ProfileId and UserId                                                                          | - Added `ProfileId` and `UserId` value objects as embeddable JPA entities with validation.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| feature/manage-workshop         | b461c2c0618287a2b59cea99f72afbffac2a0985 | refactor(profiles): annotate ProfilesContextFacadeImpl as Service                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 285989afaada3c28f77cc6cba66ccf9136bfbfd3 | Merge: ebf0522 2d45399                                                                                                         | Merge pull request #15 from Open-Source-YaraSoftware/feature/user-registration-login                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | feat(IAM): extend IamContextFacade with specific role-based user crea… |
+| feature/user-registration-login | 2d453992658e22853defcfa513af8d540b431cf1 | feat(IAM): extend IamContextFacade with specific role-based user creation methods                                              | - Added `createUserWithRoleMechanic` and `createUserWithRoleClient` methods to `IamContextFacade`. - Implemented in `IamContextFacadeImpl` to support streamlined user creation with pre-set roles (Mechanic or Client).                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                         | ebf0522b1c725f0bc836e87a8d49067c0eb2ec86 | Merge: 0f46226 f9b171a                                                                                                         | Merge pull request #14 from Open-Source-YaraSoftware/feature/manage-iot-device                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Feature/manage iot device |
+| feature/manage-iot-device       | f9b171a9dd56bff2100cc7e98712eb3e15bd1cb2 | feat(interfaces): add IotDeviceController for IoT device management endpoints                                                  | - Implemented `IotDeviceController` with endpoint to retrieve IoT devices by vehicle ID. - Integrated `IotDeviceQueryService` to handle queries for IoT devices associated with a specific vehicle. - Used `IotDeviceResourceFromEntityAssembler` to transform IoT device entities into API resources. - Configured API response with appropriate error handling and status codes.                                                                                                                                                                                                                                          |
+| feature/manage-iot-device       | 4f2c87e7fccca80e76442bf52462dd8c59185dd2 | feat(interfaces): add IotDeviceResource and transform class for IoT device representation                                      | - Created `IotDeviceResource` to structure IoT device data for REST API responses, including fields for ID, code list, and vehicle ID. - Implemented `IotDeviceResourceFromEntityAssembler` to convert `IotDevice` entities into `IotDeviceResource` format for consistent API output.                                                                                                                                                                                                                                                                                                                                      |
+| feature/manage-iot-device       | 7958a74ce2c7f75f17562eb27b01183bb10affac | feat(application-infrastructure): implement query service implementation and repository for IoT device retrieval by vehicle ID | - Implemented `IotDeviceQueryServiceImpl` to handle `GetAllIotDeviceByVehicleIdQuery`, retrieving IoT devices based on vehicle ID. - Added `IotDeviceRepository` with a custom method `findAllByVehicleId` to fetch devices associated with a specific vehicle.                                                                                                                                                                                                                                                                                                                                                             |
+| feature/manage-iot-device       | 72c8f81706f672408a5bfe7aa629e3b18abf2819 | feat(domain): add query and query service for retrieving IoT devices by vehicle ID                                             | - Added `GetAllIotDeviceByVehicleIdQuery` to query all IoT devices associated with a specific vehicle ID. - Implemented `IotDeviceQueryService` interface with method to handle IoT device retrieval based on vehicle ID.                                                                                                                                                                                                                                                                                                                                                                                                   |
+| feature/manage-iot-device       | 4b3665985af7e43d12d92364bced0939fabaff8c | feat(domain): add Code entity and CodeState value object for device error tracking                                             | - Implemented `Code` entity with fields for component, error code, description, last updated date, and state. - Configured many-to-one relationship with `IotDevice` aggregate for associating error codes with IoT devices. - Added `CodeState` enum as a value object to represent the state of a code, with values `FAILED` and `GOOD`. - Included JSON serialization handling for relationships with `IotDevice`.                                                                                                                                                                                                       |
+| feature/manage-iot-device       | 05ddc1b05de608ed9b1feba3c9e5ccff1b828714 | feat(domain): add IotDevice aggregate root for IoT device management                                                           | - Implemented `IotDevice` aggregate root with fields for ID, vehicle ID, and a list of related codes. - Configured one-to-many relationship with `Code` entity for code management associated with each IoT device. - Included JSON serialization handling with `JsonManagedReference` for code list.                                                                                                                                                                                                                                                                                                                       |
+| develop                         | 0f4622657bd12de314655bac17497c226dc599f2 | Merge: f8aeabb bad0a80                                                                                                         | Merge pull request #13 from Open-Source-YaraSoftware/feature/profiles-resource                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | refactor(Profiles): split ProfilesContextFacade into interface and im… |
+| feature/profiles-resource       | bad0a80d361a44a6c620d8423f00d97329e39647 | refactor(Profiles): split ProfilesContextFacade into interface and implementation, update package structure                    | - Refactored `ProfilesContextFacade` into `ProfilesContextFacade` interface and `ProfilesContextFacadeImpl` implementation. - Moved `ProfilesContextFacadeImpl` to `application.acl` package, keeping interface in `interfaces.acl` package for improved separation of concerns and flexibility in implementation.                                                                                                                                                                                                                                                                                                          |
+| develop                         | f8aeabbad7bcd9085e55babb7b760725be45f798 | Merge: 9539e47 ffd6e11                                                                                                         | Merge pull request #12 from Open-Source-YaraSoftware/feature/user-registration-login                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Feature/user registration login |
+| feature/user-registration-login | ffd6e113abce5aca5ac7f13e21c608007a118344 | refactor(IAM): update IamContextFacade for role-based user retrieval and rename to IamContextFacadeImpl                        | - Refactored `IamContextFacade` to `IamContextFacadeImpl` and updated package to `application.acl`. - Replaced `getAllUsersByRoleAndWorkshop` with `fetchAllUserByWorkshopAndRoleIsClient`, `fetchAllUserByWorkshopAndRoleIsMechanic`, and `fetchAllUserByWorkshopAndRoleIsOwner`. - Implemented role-specific queries for improved data separation and clearer API interactions.                                                                                                                                                                                                                                           |
+| feature/user-registration-login | e24e423a4f03dad6906403e690f550008dfc02d3 | refactor(IAM): update UserQueryService and UserQueryServiceImpl for role-specific user queries                                 | - Updated `UserQueryService` with methods to handle owner, client, and mechanic queries based on workshop ID. - Implemented the respective methods in `UserQueryServiceImpl`, allowing retrieval of users by workshop and specific roles. - Added handling for `Roles.WORKSHOP_OWNER`, `Roles.CLIENT`, and `Roles.MECHANIC` within `UserQueryServiceImpl`.                                                                                                                                                                                                                                                                  |
+| feature/user-registration-login | 1cc26344aab96b27195d30c5b187a76ef4bc9fcb | refactor(IAM): update repositories for role and user retrieval by workshop                                                     | - Updated `RoleRepository` to include `findByName` method, allowing roles to be retrieved by `Roles` enum. - Refined `UserRepository` by adding `findAllByWorkshopIdAndRoleIs` to retrieve users based on `workshopId` and role, enhancing flexibility for role-specific user queries.                                                                                                                                                                                                                                                                                                                                      |
+| feature/user-registration-login | 30aa735399f1271c9c0f58f91d6b7135ec7d9645 | feat(IAM): add queries for user roles within a workshop context                                                                | - Added `GetAllUsersByWorkshopAndRoleIsClientQuery`, `GetAllUsersByWorkshopAndRoleIsMechanicQuery`, and `GetAllUsersByWorkshopAndRoleIsOwnerQuery` to fetch users based on role type within a specific workshop. - Each query ensures `workshopId` is a positive number, providing validation at construction.                                                                                                                                                                                                                                                                                                              |
+| develop                         | d2dca776c6a950ad695d4ce149a56640b4bf2b18 | Merge: 9539e47 e9f2063                                                                                                         | Merge pull request #11 from Open-Source-YaraSoftware/feature/transaction                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | feat(payment): implement Transaction entity and related services |
+| feature/transaction             | e9f206391fecc525ac54af37f790aa8185cda1ff | feat(payment): implement Transaction entity and related services                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 0c68000fe4a3fe3a6ef5849ea01d966e6ccb0dd0 | Merge: 7a93b47 c1f6356                                                                                                         | Merge pull request #10 from Open-Source-YaraSoftware/feature/payment                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | feat(payment): add Payment domain and application layer support |
+| feature/payment                 | c1f6356e209b01284f6d8f71825203889800d72c | feat(payment): add Payment domain and application layer support                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 7a93b4794b8a1963c21325b61f36e310475cd854 | Merge: 684858d 692dc66                                                                                                         | Merge pull request #9 from Open-Source-YaraSoftware/feature/membership                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | feat: implement Membership domain, infrastructure and services |
+| feature/membership              | 692dc66d0b90fa254a39e1caafd399ff848cdfc7 | feat: add membership endpoints                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/payment                 | 9328f4121510c1f5015c85d999387d434c7c8b1b | feat(payment): add Membership command and query definitions in domain                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 684858d169a4935a4e85b2a133bd2338dfec4bb8 | Merge: 9539e47 0b57cbe                                                                                                         | Merge pull request #8 from Open-Source-YaraSoftware/feature/membership                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | feat(payment): add Membership command and query service implementations |
+| feature/membership              | 0b57cbe2f5926033bc082f9c4693def476b193f5 | feat(payment): add Membership command and query service implementations                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 9539e47971703b2ffd4d728c8d8cbdaf49224868 | Merge: 6eb1403 6fc3886                                                                                                         | Merge pull request #7 from Open-Source-YaraSoftware/feature/manage-vehicle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Feature/manage vehicle |
+| feature/manage-vehicle          | 6fc3886ccf9e9d83687b3655264c853f9b758ab0 | feat(interfaces-controller): add VehiclesController for vehicle management endpoints                                           | - Implemented `VehiclesController` with endpoints to fetch all vehicles by client ID, retrieve a specific vehicle by ID, and create a new vehicle. - Integrated `VehicleQueryService` and `VehicleCommandService` to handle vehicle queries and commands. - Used `VehicleResourceFromEntityAssembler` to transform vehicle entities into API resources. - Configured API responses with appropriate HTTP status codes and error handling.                                                                                                                                                                                   |
+| feature/manage-vehicle          | 0a28e6b88c2dbaf147e781d5ed18ba34c82c78b0 | feat(interfaces): add VehicleResourceFromEntityAssembler for transforming vehicle entities to resources                        | - Implemented `VehicleResourceFromEntityAssembler` to convert `Vehicle` entities into `VehicleResource` format for API responses. - Streamlined data transformation for consistent vehicle data presentation in REST responses.                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/manage-vehicle          | f9702236c8a82d27535cfa72b059482e81615770 | feat(interfaces): add REST resources for vehicle creation and retrieval                                                        | - Added `CreateVehicleResource` to structure data for vehicle creation requests, including license plate, brand, model, client ID, and IoT device ID. - Implemented `VehicleResource` to format vehicle data in API responses, including ID, registration date, and related identifiers.                                                                                                                                                                                                                                                                                                                                    |
+| feature/manage-vehicle          | 0c289ce87b241745a0ded7e10d0708ead6d83aa9 | feat(application): implement command and query services for vehicle management                                                 | - Added `VehicleCommandServiceImpl` to handle `CreateVehicleCommand`, creating and saving a new vehicle. - Implemented `VehicleQueryServiceImpl` to handle `GetAllVehiclesByClientIdQuery` and `GetVehicleByIdQuery`, retrieving vehicles by client ID and vehicle ID. - Integrated `VehicleRepository` to manage vehicle persistence and data retrieval.                                                                                                                                                                                                                                                                   |
+| feature/manage-vehicle          | 4347a9aaab4457c75d9a5baa12b492130655c4fe | feat(infrastructure): add VehicleRepository for vehicle persistence                                                            | - Implemented `VehicleRepository` interface extending `JpaRepository` to manage `Vehicle` entities. - Added `findAllByClientId` method to retrieve vehicles associated with a specific client ID.                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| feature/manage-vehicle          | 4694aa573e68d354a3f3292e72f9efea41c571ee | feat(domain): add vehicle commands and command service interface                                                               | - Implemented `CreateVehicleCommand` to create a new vehicle with license plate, brand, model, client ID, and IoT device ID. - Added `VehicleCommandService` interface with `handle` method to process vehicle creation commands.                                                                                                                                                                                                                                                                                                                                                                                           |
+| feature/manage-vehicle          | a4f55ae49685d6ab94e6affe1f3b5b23b2b384f6 | feat(domain): add vehicle queries and query service interface                                                                  | - Added `GetAllVehiclesByClientIdQuery` to retrieve all vehicles associated with a specific client ID. - Implemented `GetVehicleByIdQuery` to fetch vehicle details based on vehicle ID. - Created `VehicleQueryService` interface with methods to handle vehicle queries, providing a list of vehicles by client ID or a specific vehicle by ID.                                                                                                                                                                                                                                                                           |
+| feature/manage-vehicle          | 148314f93e7a6b5a33f7d30a376614c61ba660cf | feat(domain): add Vehicle aggregate root for managing vehicle information                                                      | - Implemented `Vehicle` aggregate with fields for `licensePlate`, `brand`, `model`, `registrationDate`, `clientId`, and `iotDeviceId`. - Added `getFullName` method to return the full name of the vehicle based on brand and model. - Configured `Vehicle` as an entity with JPA annotations for persistence.                                                                                                                                                                                                                                                                                                              |
+| develop                         | 6eb1403b035119745d7415c01188f3fbec3987ba | Merge: 2e568b6 6907ad6                                                                                                         | Merge pull request #6 from Open-Source-YaraSoftware/feature/profiles-resource                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Feature/profiles resource |
+| feature/profiles-resource       | 6907ad618677fe17a9844208c88748fb0d8db1a3 | Merge: 06e606b c267c36                                                                                                         | Merge pull request #5 from Open-Source-YaraSoftware/hot-fix/profiles-resource                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |  |
+| feature/profiles-resource       | c267c36c7a46435340b562140dc34eadb65ec086 | fix(profile): unify endpoints with identical RequestParam values to adhere to REST practices                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 2e568b6582131cd6ac5cd23da152f9b5113b2669 | Merge: f005790 06e606b                                                                                                         | Merge pull request #4 from Open-Source-YaraSoftware/feature/profiles-resource                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Feature/profiles resource |
+| feature/profiles-resource       | 06e606b0d995c72fae7adbf496607a2608450b5c | feat(profile): add ProfilesContextFacade to facilitate inbound operations for profile creation and updates                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/profiles-resource       | 57915ce2c6f420eafac5889bea01e33d02a8090b | feat(profile): add two endpoints to handle creation and updating of profiles                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/profiles-resource       | 0b28c5c8ebc05fbcf44eb99d568184e1472249aa | feat(profile): add CreateProfileCommandFromResourceAssembler, and CreateProfileResource                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/profiles-resource       | 73168a76ab4202d5fc9217a13b56fdbb70c1b040 | feat(profile): add UpdateProfileCommandFromResourceAssembler, and UpdateProfileResource                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/profiles-resource       | 4ba54141c3f66f9e3dd001813e8a8f494cd7143e | feat(profile): add updateProfileInformation method to Profile entity to update profile details                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/profiles-resource       | c5760a90d77b55a7ce0487b256f8b9b396947a61 | feat(profile): add ProfileCommandService interface and implement ProfileCommandServiceImpl class                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/profiles-resource       | a06e49ef0537a55ff5b9b43081bf06de37c5eca2 | feat(profile): add CreateProfileCommand and UpdateProfileCommand                                                               | - Added CreateProfileCommand to handle profile creation. - Added UpdateProfileCommand to handle profile updates.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| feature/profiles-resource       | a0ea4b8adddb8a8bac521f80e941284765db2a6f | feat(profile): add ProfilesController for managing profile retrieval endpoints                                                 | - Included methods to handle profile queries by ID, DNI, and User ID.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| feature/profiles-resource       | f550eb43be5a81facd304ba21f54f40fdf5d26cc | feat(profile): add ProfileResource and ProfileResourceFromEntityAssembler                                                      | - Created ProfileResource class to represent profile data in API responses. - Implemented ProfileResourceFromEntityAssembler class to convert Profile entities to ProfileResource.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| feature/profiles-resource       | 89037d6342c6a3e21592cad6ef0db9059f80ecef | feat(profile): add ProfileQueryService interface and implement ProfileQueryServiceImpl class                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/profiles-resource       | 933db980771548992ca0ce4d67fa9c3cc1be9b07 | feat(profile): add ProfileRepository interface for managing Profile entities                                                   | - Added ProfileRepository interface extending JpaRepository for CRUD operations. - Included methods to check existence and retrieve profiles by User ID, DNI, and email. - Provided Javadoc comments for better understanding and documentation.                                                                                                                                                                                                                                                                                                                                                                            |
+| feature/profiles-resource       | 0cd28ca46aa379a6c189a3c502b883edd2e18bfd | feat(profile): add queries to retrieve profile by id, user id, and dni                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/profiles-resource       | c3427434a84fefec17c5911433e4b8aeab36e9fa | feat(profile): add profile entity as aggregate root in profile context                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | f00579001b79000f7445943949a9d42d707106da | Merge: 9c61505 416fc94                                                                                                         | Merge pull request #3 from Open-Source-YaraSoftware/feature/consult-notifications                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | refactor(services-controller): update logic and nomenclature of funct… |
+| feature/consult-notifications   | 416fc9499bb2fa9647c43ed5b45330f3f416fda0 | refactor(services-controller): update logic and nomenclature of functions for better performance                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 9c6150583c9d3679c5ca0985d50b31a516da0a7a | Merge: 7f65351 3dd2c98                                                                                                         | Merge pull request #2 from Open-Source-YaraSoftware/feature/consult-notifications                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Feature/consult notifications |
+| feature/consult-notifications   | 3dd2c98596eec6c874adb2dbdb1514cd1b690ebc | feat(interfaces): add NotificationsController for notification management endpoints                                            | - Implemented `NotificationsController` with endpoints to fetch all notifications for a user and mark a notification as read. - Integrated `NotificationCommandService` and `NotificationQueryService` for handling command and query operations. - Added data transformation using `NotificationResourceFromEntityAssembler` and `ReadNotificationCommandFromResourceAssembler`. - Configured OpenAPI tags and documentation for clear endpoint descriptions.                                                                                                                                                              |
+| feature/consult-notifications   | 2a2f34fe55139b2bdd4ecaa506b781b67488765f | feat(interfaces): add transformation classes for converting between entities, resources, and commands                          | - Implemented `NotificationResourceFromEntityAssembler` to convert `Notification` entities to `NotificationResource` for API responses. - Added `ReadNotificationCommandFromResourceAssembler` to convert `ReadNotificationResource` to `ReadNotificationCommand` for command handling.                                                                                                                                                                                                                                                                                                                                     |
+| feature/consult-notifications   | c83218b83026a5ee78e204a75f687bb08129e983 | feat(interfaces): add REST resources for notification details and read actions                                                 | - Implemented `NotificationResource` to structure notification data for REST responses, including ID, date, content, user ID, state, and endpoint. - Created `ReadNotificationResource` to handle read notification actions via REST API.                                                                                                                                                                                                                                                                                                                                                                                   |
+| feature/consult-notifications   | e97897dcb662e2a255121af7017cdf00f7fc1e0b | feat(application): add command and query service implementations for notification management                                   | - Implemented `NotificationCommandServiceImpl` to handle `ReadNotificationCommand`, marking notifications as read. - Added `NotificationQueryServiceImpl` to process `GetAllNotificationsByUserIdQuery`, retrieving notifications based on user ID. - Integrated `NotificationRepository` for persistence and data retrieval in command and query services.                                                                                                                                                                                                                                                                 |
+| feature/consult-notifications   | d8405746b3a8eea4b3aa85d9813d00a33165abb0 | feat(infrastructure): add NotificationRepository for persistence                                                               | - Implemented `NotificationRepository` interface extending `JpaRepository` to handle CRUD operations for Notification entities. - Enabled repository layer for managing notifications in the database.                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| feature/consult-notifications   | a224d0b0eef450ca4db158edaf208ce314fd72ba | feat(domain): add command and query service interfaces for notification management                                             | - Implemented `NotificationCommandService` interface to handle commands like `ReadNotificationCommand` for marking notifications as read. - Added `NotificationQueryService` interface to handle queries such as `GetAllNotificationsByUserIdQuery`, returning notifications by user ID.                                                                                                                                                                                                                                                                                                                                    |
+| feature/consult-notifications   | 79e52c8c5c6c48e75f54dc7295f7cc282f5c76b5 | feat(domain): add notification commands and queries for notification management                                                | - Added `GetAllNotificationsByUserIdQuery` to retrieve all notifications associated with a specific user. - Implemented `ReadNotificationCommand` to handle marking a notification as read based on its ID.                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| feature/consult-notifications   | bb62be36cd5cd2774a366370481b885f9d940df3 | feat(domain): add Notification aggregate and NotificationState value object in communication domain                            | - Implemented `Notification` aggregate with properties for managing notifications, including `id`, `date`, `content`, `userId`, `state`, and `endpoint`. - Created `NotificationState` enum as a value object to represent read and unread states for notifications. - Included methods in `Notification` for marking notifications as read.                                                                                                                                                                                                                                                                                |
+| develop                         | 7f653513be5642c838441949a9f65ff858e5b974 | Merge: 84715ea 4a23765                                                                                                         | Merge pull request #1 from Open-Source-YaraSoftware/feature/user-registration-login                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Feature/user registration login |
+| feature/user-registration-login | 4a2376554c3a0d8abaa74bcd1bd93fc015c4f3f9 | feat(IAM): add IamContextFacade for user management and role-based queries                                                     | - Added `IamContextFacade` with methods for fetching users by role and workshop and creating new users. - Integrated `UserCommandService` and `UserQueryService` to manage user creation and retrieval. - Incorporated `RoleRepository` to retrieve roles during user creation and filtering.                                                                                                                                                                                                                                                                                                                               |
+| feature/user-registration-login | 13d86e4a6b7ad7e21d44b7073b4b63b0aa1332ee | feat(IAM): add AuthenticationController with sign-in and sign-up endpoints                                                     | - Added `signIn` endpoint to authenticate users and return `AuthenticateUserResource` on success. - Added `signUp` endpoint to register new users, responding with `UserResource` upon successful creation. - Integrated resource assemblers for transforming entities to response resources. - Included Swagger annotations for API documentation on authentication management.                                                                                                                                                                                                                                            |
+| feature/user-registration-login | e711e1aa86629ea474abdb7cf1c9ca0a5e16e442 | feat(IAM): add resource assemblers for REST API transformation                                                                 | - Implemented `AuthenticateUserResourceFromEntityAssembler` for transforming `User` entity to `AuthenticateUserResource`. - Added `SignInCommandFromResourceAssembler` to convert `SignInResource` to `SignInCommand`. - Created `SignUpCommandFromResourceAssembler` to convert `SignUpResource` to `SignUpCommand`. - Added `UserResourceFromEntityAssembler` to transform `User` entity to `UserResource`. - Ensures clean transformation layer between domain model and API resources.                                                                                                                                  |
+| feature/user-registration-login | affa609c40e64973417120033a1bdf54bf78187f | feat(IAM): add REST resources for user authentication and registration                                                         | - Added `AuthenticateUserResource` for authenticated user data. - Added `SignInResource` for user login input. - Added `SignUpResource` for user registration input. - Added `UserResource` to represent user data in responses. - Each resource includes validation to ensure required fields are present.                                                                                                                                                                                                                                                                                                                 |
+| feature/user-registration-login | 98e28136f97d461b5b2781d1ae78f3566e3b03f5 | feat(IAM): add ApplicationReadyEvent handler to seed roles at startup                                                          | - Created `IamApplicationReadyEventHandler` to handle `ApplicationReadyEvent` for role seeding. - `on(ApplicationReadyEvent)` triggers `loadRolesData()` to execute `SeedRolesCommand` using `RoleCommandService`. - Logs the start and completion of the role-seeding process with timestamps.                                                                                                                                                                                                                                                                                                                             |
+| feature/user-registration-login | f99f8475a634ca9a1ac232ce40a38d880c4b33aa | feat(IAM): add command and query services for user and role operations                                                         | - Added `RoleCommandServiceImpl` to handle role seeding with `SeedRolesCommand`. - Created `UserCommandServiceImpl` to handle `SignUpCommand`, `SignInCommand`, and `CreateUserCommand` with validations and repository integration. - Implemented `UserQueryServiceImpl` to manage `GetAllUsersByRoleAndWorkshopQuery` with query logic for retrieving users by role and workshop ID.                                                                                                                                                                                                                                      |
+| feature/user-registration-login | 97821d49b18b02ea5ca02f9f39b6b17f15008461 | feat(IAM): add command and query records for user and role operations                                                          | - Created `CreateUserCommand` for user creation with validations for username, password, role, and workshop ID. - Added `SeedRolesCommand` for initializing role data. - Defined `GetAllUsersByRoleAndWorkshopQuery` to retrieve users filtered by role and workshop ID, with validation checks.                                                                                                                                                                                                                                                                                                                            |
+| feature/user-registration-login | 11890cdd496b3677a46459b603a199c16f86f2cd | feat(IAM): implement RoleRepository and UserRepository JPA repositories                                                        | - Created `RoleRepository` to check role existence by name. - Implemented `UserRepository` for user lookup by username and filtering by role and workshop ID.                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| feature/user-registration-login | de617e0314c073868d6a2653b03ec2118da0e632 | feat(IAM): add UserCommandService, UserQueryService, and RoleCommandService interfaces                                         | - Defined `UserCommandService` to handle user creation, sign-up, and sign-in commands. - Added `UserQueryService` for querying users by role and workshop. - Introduced `RoleCommandService` to handle role seeding with `SeedRolesCommand`.                                                                                                                                                                                                                                                                                                                                                                                |
+| feature/user-registration-login | 7d1a4e337b0756eb1c890be10c90abe4fada8798 | feat(IAM): add SignInCommand and SignUpCommand records with validation                                                         | - Introduced `SignInCommand` for user login with validations on username and password fields. - Introduced `SignUpCommand` for new user registration with validations on username, password, role, and workshop ID fields.                                                                                                                                                                                                                                                                                                                                                                                                  |
+| feature/user-registration-login | 3ecac146e74dd64dcf10b7f295a3eed9655ebb67 | feat(IAM): add enums for AccountStatuses and Roles                                                                             | - Created AccountStatuses enum with values: ACTIVE, INACTIVE, LOCKED, and DELETED. - Created Roles enum with values: MECHANIC, WORKSHOP_OWNER, and CLIENT.                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| feature/user-registration-login | 617131b25dab5eecd9640e8b9e42289ced17a382 | feat(IAM): create User and Role entities with validation and enumeration support                                               | - Added User entity with fields: username, password, role, workshopId, and status. - Introduced Role entity with enumeration support for Roles. - Integrated JPA annotations for entity persistence.                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| feature/user-registration-login | ba01300342f18b74ad9a304012109dc2186e267a | chore(IAM): add commons-lang3 dependency to pom.xml                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 84715ea392d555178980179539aeb1b2bd19e9a3 | docs: added open api configuration bean                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | f24cf0b9cc5913e02d1e7e0a598229725eb2cd06 | docs: added open api documentation dependency                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 54ebab164c8a2a53678ae0192a80550517a23ce4 | feat(orm): setup persistence physical naming strategy                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 780f965f7c3649e739781898110fef3bfa3a7912 | feat(orm): setup persistence physical naming strategy                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | d4a86feef0ab06f8d219151e40229ab4e51029d3 | chore: add pluralize dependency                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 06ebd422fe861021091c68e69c39b2f60d29275a | chore: add application parameters for development and production                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | ed2afc9e22387f8864086bf9795b7858b4d86083 | docs: add documentation file                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | e140efdca278ca53e0bcb8b5331241ef147db55f | chore: setup project                                                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+
+#### 5.2.3.4. Testing Suite Evidence for Sprint Review
+
+Para el sprint 3, se continúa utilizando los Acceptance Criteria de las historias de usuario para realizar las pruebas de aceptación.
+De ese modo Gherkin se ha utilizado para la creación de escenarios de prueba.
+A continuación, se presentan las evidencias de las pruebas realizadas:
+
+| Repository                                                    | Branch                            | Commit Id                                | Commit Message                                                                            | Commit Message Body                                                                                                                                                                                                                                                                                                  | Commited on (Date) |
+|---------------------------------------------------------------|-----------------------------------|------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-back-web-services | 34ac1b865da7564b966e8957eec7482745b46755 | feat: add Gherkin scenarios for notification management                                   | - Define scenarios for retrieving all notifications for a user <br> - Handle cases where there are no notifications or the userId is invalid <br> - Ensure proper response structure for successful and error cases                                                                                                  | 16/11/2024         |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-back-web-services | 0b905df004457ac011398d683c7543ab601da569 | feat: add Gherkin scenarios for profile management                                        | - Define scenarios for retrieving all profiles, including handling empty results <br> - Add scenarios for viewing and updating specific profiles with error handling for invalid data <br> - Handle cases for non-existent profiles and provide appropriate error messages                                           | 16/11/2024         |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-back-web-services | c97fa1dac49080db8f2edac24809ba81a5bb2ad5 | feat: add Gherkin scenarios for IoT device management                                     | - Define scenarios for retrieving all IoT devices associated with a vehicle <br> - Handle cases where there are no IoT devices or the vehicleId is invalid <br> - Ensure proper response structure for successful and error cases                                                                                    | 16/11/2024         |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-back-web-services | 5ec796d16b765eb8a8425522dd6d262625a2cd18 | feat: add Gherkin scenarios for vehicle management                                        | - Define scenarios for retrieving all vehicles, including handling empty results <br> - Add scenarios for creating vehicles with validation for missing or invalid values <br> - Include scenarios for retrieving, updating, and handling non-existent vehicle data                                                  | 16/11/2024         |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-back-web-services | 27016a7d3ad25cc55914844021369eeeefe08c04 | feat: add Gherkin scenarios for product request management                                | - Define scenarios for retrieving, creating, updating, and managing product requests <br> - Include validation for missing, invalid, and non-existent product request data <br> - Add scenarios for accepting and rejecting product requests with appropriate error handling                                         | 16/11/2024         |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-back-web-services | cbcecf16bff2fc27a699f8cebb8082678e3adee5 | feat: add Gherkin scenarios for product management                                        | - Define scenarios for retrieving all products, including empty result handling <br> - Add scenarios for creating products with validation for missing or invalid values <br> - Include scenarios for updating and deleting products, with error handling for non-existent productIds                                | 16/11/2024         |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-back-web-services | d02d5e24b6434b69c508140140df5f2d1479d524 | feat: add Gherkin scenarios for managing mechanics in a workshop                          | - Define scenarios for retrieving all mechanics associated with a workshop <br> - Include scenarios for adding new mechanics with validation for missing or invalid values <br> - Handle cases where there are no mechanics or the workshop does not exist                                                           | 16/11/2024         |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-back-web-services | 19aba48509570efa92d098af76b2a31402c3eee1 | feat: add Gherkin scenarios for managing clients in a workshop                            | - Define scenarios for retrieving all clients associated with a workshop <br> - Include scenarios for adding new clients with data validation <br> - Handle cases where there are no clients or the workshop does not exist                                                                                          | 16/11/2024         |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-back-web-services | 96ec680fb6c3488f9d6412129ec419d719b01c25 | feat: add Gherkin scenarios for retrieving workshop interventions                         | - Define scenarios for retrieving all interventions associated with a workshop <br> - Handle cases where there are no interventions or the workshop does not exist <br> - Ensure proper response structure for successful and error cases                                                                            | 16/11/2024         |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-back-web-services | 85473d217f2badf198bfcf760a5b801e4c29c270 | feat: add Gherkin scenarios for workshop management                                       | - Define scenarios for retrieving, creating, and updating workshop details <br> - Include error handling for invalid workshopId and data validation issues <br> - Ensure proper response structure for successful and error cases                                                                                    | 16/11/2024         |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-back-web-services | c3d6fd0797e6c8799ae9f8669954496fac0c33c8 | feat: add Gherkin scenarios for task checkpoint management                                | - Define scenarios for retrieving all checkpoints, including empty results and error cases <br> - Add scenarios for creating, updating, and deleting checkpoints with proper validation <br> - Handle errors for non-existent checkpoints and invalid data inputs                                                    | 16/11/2024         |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-back-web-services | 0c992030e332efe18fa35c41e57726d6be6ef3a5 | feat: add Gherkin scenarios for task state transitions                                    | - Define scenarios for marking tasks as in progress, including handling errors for already in-progress or completed tasks <br> - Add scenarios for confirming tasks, with validation for incorrect task states and non-existent tasks <br> - Ensure proper error handling and response structure for invalid taskIds | 16/11/2024         |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-back-web-services | 323a7b830b30e621a770d37fa1e190b1b4dcefca | feat: add Gherkin scenarios for task management in interventions                          | - Define scenarios for retrieving all tasks, including handling empty results and errors <br> - Add scenarios for creating tasks with validation for missing or invalid values <br> - Implement scenarios for updating and deleting tasks, with appropriate error handling                                           | 16/11/2024         |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-back-web-services | a7630d66ef0f4e5826261d7134be8a777dc07bc1 | feat: add Gherkin scenarios for intervention status management                            | - Implement scenarios for marking an intervention as in progress, completed, or canceled <br> - Handle cases where the intervention is already in the target status <br> - Include validation for invalid interventionId and appropriate error responses                                                             | 16/11/2024         |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | feature/testing-back-web-services | b704672b0d7bd1a227f95fdc03074ffe3ad4c62b | feat: add Gherkin scenarios for intervention management                                   | - Define scenarios for retrieving all interventions, including handling empty results <br> - Add scenarios for creating new interventions with valid and invalid data <br> - Include scenarios for retrieving and updating specific interventions, with error cases                                                  | 16/11/2024         |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | develop                           | 47888bdcbc58f36964bbf9fb2158df69bb0bd597 | Merge pull request #4 from Web-Application-YaraSoftware/feature/testing-back-web-services | Feature/testing back web services                                                                                                                                                                                                                                                                                    | 16/11/2024         |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | main                              | 73dbbbe1d15232c03a6ac6e27d9113901ed59d0e | Merge pull request #5 from Web-Application-YaraSoftware/develop                           | Develop                                                                                                                                                                                                                                                                                                              | 16/11/2024         |
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+Para el sprint 3 se completaron historias de usuario relacionadas tanto al front end como el back end. A continuacion se presentan imagenes de las vistas implementadas, asi como los recursos y endpoints del Backend implementados.
+
+### Landing Page
+#### About the product video
+![AboutTheProduct.png](img%2F5%2F2%2F3%2F5%2FAboutTheProduct.png)
+
+#### About the team video
+![AboutTheTeam.png](img%2F5%2F2%2F3%2F5%2FAboutTheTeam.png)
+
+**Enlace para visualizar el video explicativo de la landing page**: [https://drive.google.com/file/d/1eiAHfb8HoGUVidkvYjMNT-1JM9geaL7P/view?usp=drive_link](https://drive.google.com/file/d/1eiAHfb8HoGUVidkvYjMNT-1JM9geaL7P/view?usp=drive_link)
+
+### FrontEnd
+
+#### Lista de Clientes
+
+<img src="img/5/2/3/5/clients.png">
+
+#### Detalle de clientes
+
+<img src="img/5/2/3/5/personal_information.png">
+
+#### Lista de Intervenciones
+
+<img src="img/5/2/3/5/activity_log.png">
+
+#### Existencias de inventario
+
+<img src="img/5/2/3/5/inventory_stock.png">
+
+#### Solicitudes de inventario
+
+<img src="img/5/2/3/5/inventory_request.png">
+
+#### Mis tareas (líder)
+
+<img src="img/5/2/3/5/activities_assistant.png">
+
+#### Información de intervención
+
+<img src="img/5/2/3/5/activities_information.png">
+
+#### Diagnóstico de intervención
+
+<img src="img/5/2/3/5/diagnostic.png">
+
+#### Ejecución de intervención
+
+<img src="img/5/2/3/5/execution.png">
+
+#### Supervisión de intervención
+
+<img src="img/5/2/3/5/supervision.png">
+
+#### Registro de intervenciones
+
+<img src="img/5/2/3/5/interventions_list.png">
+
+**Enlace para visualizar el video explicativo del FrontEnd**: [https://drive.google.com/file/d/19AXQdGpMMfOzpdvj2R1OeLQ9wNpG4QXS/view?usp=drive_link](https://drive.google.com/file/d/19AXQdGpMMfOzpdvj2R1OeLQ9wNpG4QXS/view?usp=drive_link)
+
+### BackEnd
+#### Authentication resource
+![authentication.png](img%2F5%2F2%2F3%2F5%2Fauthentication.png)
+
+### Notifications resource
+![notificationsResource.png](img%2F5%2F2%2F3%2F5%2FnotificationsResource.png)
+
+### Profiles resource
+![profiles.png](img%2F5%2F2%2F3%2F5%2Fprofiles.png)
+
+### Vehicles resource
+![vehicleResource.png](img%2F5%2F2%2F3%2F5%2FvehicleResource.png)
+
+### Workshops resource
+![workshopsResource.png](img%2F5%2F2%2F3%2F5%2FworkshopsResource.png)
+
+### Devices resource
+![devicesResource.png](img%2F5%2F2%2F3%2F5%2FdevicesResource.png)
+
+### Task resource
+![tasksResource.png](img%2F5%2F2%2F3%2F5%2FtasksResource.png)
+
+**Enlace para visualizar el video de explicación de los logros en el backend:** [https://drive.google.com/file/d/1sMVIRohR3GbNkfEdoQCGJLUUR29tffAI/view?usp=drive_link](https://drive.google.com/file/d/1sMVIRohR3GbNkfEdoQCGJLUUR29tffAI/view?usp=drive_link)
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el desarrollo del sprint 3, los logros alcanzados en el backend fueron los siguientes:
+
+- **Funcionalidad de gestión de talleres**: Incluye creación y administración de datos relacionados con clientes y mecánicos, así como la consulta de intervenciones por taller.
+- **Funcionalidad de gestión de productos**: Soporte para la administración del inventario del taller, creación, actualización y eliminación de productos.
+- **Funcionalidad de gestión de solicitudes de productos**: Implementada para permitir la creación, aceptación y rechazo de solicitudes de producto, con manejo adecuado de estados.
+- **Funcionalidad de gestión de vehículos**: Permite la administración de vehículos asociados a usuarios, con detalles completos y soporte CRUD.
+- **Funcionalidad de gestión de dispositivos IoT**: Para la vinculación de dispositivos con vehículos, proporcionando datos como códigos de error y estado en tiempo real.
+- **Funcionalidad de gestión de perfiles**: Incluye la creación, actualización y consulta de perfiles por usuario o mediante parámetros como DNI.
+- **Funcionalidad de gestión de notificaciones**: Mecanismo de notificaciones por usuario, con operaciones para marcar como leídas y gestionar estados.
+
+La siguiente tabla detalla las operaciones clave de los endpoints, seguidas de las imágenes que ilustran su ejecución.
+
+| Endpoint                            | Operación | Parámetros               | Descripción                                       | Ejemplo de Uso                                            | Explicación del Response                                       | 	 URL                                                                                        |
+|-------------------------------------|-----------|--------------------------|---------------------------------------------------|-----------------------------------------------------------|----------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| /api/v1/authentication/sign-up      | POST      | UserResource             | Crea un nuevo usuario en el sistema.              | POST /api/v1/authentication/sign-up                       | Crea un nuevo usuario en el sistema.                           | https://workshop-n-gine-platform-production.up.railway.app/api/v1/authentication/sign-up     |
+| /api/v1/authentication/sign-in      | POST      | SignInResource           | Inicia sesión en el sistema.                      | POST /api/v1/authentication/sign-in                       | Inicia sesión en el sistema.                                   | https://workshop-n-gine-platform-production.up.railway.app/api/v1/authentication/sign-in     |
+| /api/v1/notifications/{id}/read     | POST      | ReadNotificationResource | Marca una notificación como leída.                | POST /api/v1/notifications/{id}/read                      | Marca una notificación como leída.                             | https://workshop-n-gine-platform-production.up.railway.app/api/v1/notifications/{id}/read    |
+| /api/v1/notifications/{userId}      | GET       |                          | Obtiene todas las notificaciones de un usuario.   | GET /api/v1/notifications/{userId}                        | Obtiene todas las notificaciones de un usuario.                | https://workshop-n-gine-platform-production.up.railway.app/api/v1/notifications/{userId}     |
+| /api/v1/profiles/{id}               | GET       |                          | Obtiene un perfil por ID.                         | GET /api/v1/profiles/{id}                                 | Obtiene un perfil por ID.                                      | https://workshop-n-gine-platform-production.up.railway.app/api/v1/profiles/{id}              |
+| /api/v1/profiles/{dni}              | GET       |                          | Obtiene un perfil por DNI.                        | GET /api/v1/profiles/{dni}                                | Obtiene un perfil por DNI.                                     | https://workshop-n-gine-platform-production.up.railway.app/api/v1/profiles/{dni}             |
+| /api/v1/profiles                    | POST      | ProfileResource          | Crea un nuevo perfil.                             | POST /api/v1/profiles                                     | Crea un nuevo perfil.                                          | https://workshop-n-gine-platform-production.up.railway.app/api/v1/profiles                   |
+| /api/v1/profiles                    | PUT       | ProfileResource          | Actualiza un perfil existente.                    | PUT /api/v1/profiles                                      | Actualiza un perfil existente.                                 | https://workshop-n-gine-platform-production.up.railway.app/api/v1/profiles                   |
+| /api/v1/vehicles/client/{clientId}  | GET       |                          | Obtiene todos los vehículos de un cliente.        | GET /api/v1/vehicles/client/{clientId}                    | Obtiene todos los vehículos de un cliente.                     | https://workshop-n-gine-platform-production.up.railway.app/api/v1/vehicles/client/{clientId} |   
+| /api/v1/vehicles/{id}               | GET       |                          | Obtiene un vehículo por ID.                       | GET /api/v1/vehicles/{id}                                 | Obtiene un vehículo por ID.                                    | https://workshop-n-gine-platform-production.up.railway.app/api/v1/vehicles/{id}              |
+| /api/v1/vehicles                    | POST      | VehicleResource          | Crea un nuevo vehículo.                           | POST /api/v1/vehicles                                     | Crea un nuevo vehículo.                                        | https://workshop-n-gine-platform-production.up.railway.app/api/v1/vehicles                   |
+| /api/v1/workshop                    | POST      | WorkshopResource         | Crea un nuevo taller.                             | POST /api/v1/workshop                                     | Crea un nuevo taller.                                          | https://workshop-n-gine-platform-production.up.railway.app/api/v1/workshop                   |
+| /api/v1/workshop/client             | POST      | ClientResource           | Crea un nuevo cliente.                            | POST /api/v1/workshop/client                              | Crea un nuevo cliente.                                         | https://workshop-n-gine-platform-production.up.railway.app/api/v1/workshop/client            |
+| /api/v1/workshop/mechanic           | POST      | MechanicResource         | Crea un nuevo mecánico.                           | POST /api/v1/workshop/mechanic                            | Crea un nuevo mecánico.                                        | https://workshop-n-gine-platform-production.up.railway.app/api/v1/workshop/mechanic          |
+| /api/v1/workshop/clients            | GET       |                          | Obtiene todos los clientes de un taller.          | GET /api/v1/workshop/clients                              | Obtiene todos los clientes de un taller.                       | https://workshop-n-gine-platform-production.up.railway.app/api/v1/workshop/clients           |
+| /api/v1/workshop/mechanics          | GET       |                          | Obtiene todos los mecánicos de un taller.         | GET /api/v1/workshop/mechanics                            | Obtiene todos los mecánicos de un taller.                      | https://workshop-n-gine-platform-production.up.railway.app/api/v1/workshop/mechanics         |
+| /api/v1/workshop/{id}               | GET       |                          | Obtiene un taller por ID.                         | GET /api/v1/workshop/{id}                                 | Obtiene un taller por ID.                                      | https://workshop-n-gine-platform-production.up.railway.app/api/v1/workshop/{id}              |
+| /api/v1/iot_devices                 | GET       |                          | Obtiene todos los dispositivos IoT.               | GET /api/v1/iot_devices                                   | Obtiene todos los dispositivos IoT.                            | https://workshop-n-gine-platform-production.up.railway.app/api/v1/iot_devices                |
+| /api/v1/task                        | POST      | TaskResource             | Crea una nueva tarea.                             | POST /api/v1/task                                         | Crea una nueva tarea.                                          | https://workshop-n-gine-platform-production.up.railway.app/api/v1/task                       |
+
+Se prosigue con las imagenes de los endpoints en ejecución:
+
+### Authentication
+#### Post en /api/v1/authentication/sign-up
+<img src="img/5/2/3/6/post_authentication_sign_up.png">
+
+#### Post en /api/v1/authentication/sign-in
+<img src="img/5/2/3/6/post_authentication_sign_in.png">
+
+### Notifications
+#### Post en /api/v1/notifications/{id}/read
+<img src="img/5/2/3/6/post_notification_by_id_read.png">
+
+#### Get en /api/v1/notifications/{userId}
+<img src="img/5/2/3/6/get_notification_by_user.png">
+
+### Profiles
+#### Get en /api/v1/profiles/{id}
+<img src="img/5/2/3/6/get_profiles_id.png">
+
+#### Get en /api/v1/profiles/{dni}
+<img src="img/5/2/3/6/get_profiles_id_dni.png">
+
+#### Post en /api/v1/profiles
+<img src="img/5/2/3/6/post_profiles.png">
+
+#### Put en /api/v1/profiles
+<img src="img/5/2/3/6/put_profiles.png">
+
+### Vehicles
+#### Get en /api/v1/vehicles/client/{clientId}
+<img src="img/5/2/3/6/get_vehicles_client.png">
+
+#### Get en /api/v1/vehicles/{id}
+<img src="img/5/2/3/6/get_vehicles_id.png">
+
+#### Post en /api/v1/vehicles
+<img src="img/5/2/3/6/post_vehicles.png">
+
+### Workshop
+#### Post en /api/v1/workshop
+<img src="img/5/2/3/6/post_workshop.png">
+
+#### Post en /api/v1/workshop/client
+<img src="img/5/2/3/6/post_workshop_client.png">
+
+#### Post en /api/v1/workshop/mechanic
+<img src="img/5/2/3/6/post_workshop_mechanic.png">
+
+#### Get en /api/v1/workshop/clients
+<img src="img/5/2/3/6/get_workshop_all_clients.png">
+
+#### Get en /api/v1/workshop/mechanics
+<img src="img/5/2/3/6/get_workshop_all_mehcanics.png">
+
+#### Get en /api/v1/workshop/{id}
+<img src="img/5/2/3/6/get_workshop_id.png">
+
+### Devices
+#### Get en /api/v1/iot_devices
+<img src="img/5/2/3/6/get_iot_devices.png">
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+Para la entrega del 3 sprint, se desplegó la nueva versión del frontend web application, también de la landing page y primera versión del backend web services.
+
+**Despliegue de la Landing page en Netlify**
+El despliegue de la landing page en Netlify se ha actualizado automáticamente después de haber realizado la fusión de la rama de desarrollo `develop` con la rama principal `main`.
+Este proceso ha permitido que la landing page se actualice automáticamente en la URL [https://open-workshop-n-gine-landing-page.netlify.app/index-es.html](https://open-workshop-n-gine-landing-page.netlify.app/index-es.html)
+
+![deployLanding.png](img%2F5%2F2%2F3%2F7%2FdeployLanding.png)
+
+- Captura de pantalla landing page desplegada en Netlify:
+![landingDesplegada.png](img%2F5%2F2%2F3%2F7%2FlandingDesplegada.png)
+
+**Despliegue del Backend en Railway**
+#### Cargar y Configurar el Proyecto en Railway
+Espera a que Railway complete la carga y construcción del proyecto. Una vez finalizado, habilita el puerto de acceso público y establece un dominio personalizado o acorde a las configuraciones de inicio para tu API.
+
+![img_2.png](img%2F5%2F2%2F3%2F7%2Fimg_2.png)
+
+Al realizar lo anterior, la URL de la web API estará lista para su uso y conexión con el frontend del proyecto. Es importante destacar que cualquier cambio que realices en la rama principal del repositorio de GitHub se reflejará automáticamente en el despliegue de la web API, lo cual permite mantener el proyecto actualizado sin necesidad de redesplegar manualmente.
+
+Enlace al Swagger
+[https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html/](https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html/)
+
+- Captura de pantalla backend desplegado en Railway:
+![BackendDesplegado.png](img%2F5%2F2%2F3%2F7%2FBackendDesplegado.png)
+
+**Despliegue del Frontend en Netlify**
+
+El despliegue del frontend web application en Netlify se ha actualizado automáticamente después de haber realizado la fusión de la rama de desarrollo `develop` con la rama principal `main`.
+Este proceso ha permitido que la web application se actualice automáticamente en la URL [https://open-workshop-n-gine.netlify.app/](https://open-workshop-n-gine.netlify.app/)
+
+![img.png](img%2F5%2F2%2F3%2F7%2Fimg.png)
+
+- Captura de pantalla frontend web application:
+![img_1.png](img%2F5%2F2%2F3%2F7%2Fimg_1.png)
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+| Alumno                             | Actividad                                                                                                                             |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Gutiérrez Soto, Jhosepmyr Orlando  | Desarrollo del back end, mejora y reestructuración de componentes del front end, y agregar videos About The Teman y About The Product |
+| Hernández Tuiro, Eric Ernesto      | Desarrollo del back end, y mejora de componentes del front end                                                                        |
+| Riva Rodríguez, Elmer Augusto      | Desarrollo del back end, y mejora y reestructuración de componentes del front end                                                     |
+| Quiñonez Tintaya Jojan Jorge       | Desarrollo del back end, y mejora de componentes del front end                                                                        |
+
+#### Front End Insights
+<img src="img/5/2/1/8/TB2_FrontEnd.png">
+
+#### Back End Insights
+<img src="img/5/2/1/8/TB2_BackEnd.png">
+
+#### Landing page insights
+![img.png](img%2F5%2F2%2F1%2F8%2Fimg.png)
+
+<div style="page-break-after: always;"></div>
+
+### 5.2.4 Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+| **Sprint #**                    | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Date                            | 2024/11/02                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Time                            | 20:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Location                        | Videollamada grupal mediante la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Prepared By                     | Jhosepmyr Orlando Gutierrez Soto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Attendees (to planning meeting) | Elmer Riva Rodriguez, Eric Hernandez Tuiro, Jhosepmyr Gutiérrez Soto y Jhojan                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Sprint 3 Review Summary         | En el Sprint 3, se implementaron funcionalidades clave como la gestión de intervenciones, talleres, productos, vehículos, dispositivos IoT y notificaciones, mejorando significativamente el backend de la aplicación. Sin embargo, enfrentamos problemas técnicos que retrasaron algunas tareas y limitaron nuestra capacidad para realizar pruebas exhaustivas. Además, no se logró presentar los avances al Product Owner, lo que afectó la retroalimentación esperada.                                                                                                                                                                                                                                         |
+| Sprint 3 Retrospective Summary  | El equipo destacó logros como la comunicación efectiva y la calidad del código, pero reconoció problemas en la gestión del tiempo y en la disponibilidad de recursos técnicos, lo que generó presión al final del sprint. Se acordó ajustar la planificación y mejorar las pruebas y validaciones para evitar estos inconvenientes en futuros sprints.                                                                                                                                                                                                                                                                                                                                                             |
+| Sprint Goal & User Stories      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sprint 3 Goal                   | Nuestro enfoque está en completar la integración del frontend con el backend real ,brindar soporte completo a  la autenticación y autorizacion para control de acceso con tokens, y asegurar que la landing page esté optimizada y lista para atraer nuevos visitantes. <br> Creemos que esto entregará una experiencia de usuario más segura y fluida, facilitará la gestión y autenticación de manera eficiente, y aumentará la confianza de los visitantes en el producto. <br> Esto se confirmará cuando los usuarios puedan registrarse, iniciar sesión e interactuar con la aplicacion web usando el backend real, y cuando la landing page esté completamente funcional para captar y convertir visitantes. |
+| Sprint 3 Velocity               | 34                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sum of Story Points             | 34                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+
+#### 5.2.4.2. Sprint Backlog 4
+
+En el sprint 4, el equipo completo satisfactoriamente la conexion entre el backend y frontend.
+
+De ese modo, la herramienta de gestión de proyectos utilizada para el sprint 4 fue Trello, donde se registraron las tareas a realizar y su estado.
+
+![Trello Sprint 4](img/5/2/4/2/trello_board_4.png)
+
+Enlace al tablero de Trello:
+[https://trello.com/b/JLzWDsTp/sprint-4](https://trello.com/b/JLzWDsTp/sprint-4)
+
+A continuación, se procede a detallar en una tabla las user story y technical stories vinculadas a sus tareas, con una breve descripción, estimación en horas y qué miembro del equipo la llevo a cabo.
+
+<table border="1" style="width:100%; text-align: center;">
+  <tr>
+    <th colspan="2">Sprint #</th>
+    <th colspan="5">Sprint 3</th>
   </tr>
   <tr>
     <th colspan="2">User Story</th>
@@ -4951,142 +6868,661 @@ El objetivo del sprint es implementar la primera versión de la aplicación web,
     <th>Status (To-do / In-Process / To-Review / Done)</th>
   </tr>
   <tr>
-    <td>US-08</td>
-    <td>Intervenciones</td>
+    <td>TS-15</td>
+    <td>Manage User Authentication</td>
     <td>TK-01</td>
-    <td>Implementación de las pantallas de intervención</td>
-    <td>Creacion de las listas de intervención, filtros y ordenamientos</td>
+    <td>Crear endpoint para registrar nuevos usuarios</td>
+    <td>Implementar un endpoint POST que permita el registro de nuevos usuarios.</td>
     <td>2</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
+    <td>Erick Hernandez</td>
+    <td>Not done</td>
   </tr>
   <tr>
-    <td>US-15</td>
-    <td>Mis Actividaded (Líder)	</td>
+    <td>TS-15</td>
+    <td>Manage User Authentication</td>
     <td>TK-02</td>
-    <td>Desarrollo de la vista de actividades para el líder</td>
-    <td>Desarrollo de visualizacion de tareas e información de la intervención del mecánico líder</td>
+    <td>Crear endpoint para iniciar sesión de usuarios</td>
+    <td>Implementar un endpoint POST para la autenticación de usuarios.</td>
     <td>2</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
+    <td>Erick Hernandez</td>
+    <td>Not Done</td>
   </tr>
   <tr>
-    <td>US-16</td>
-    <td>Mis actividadades (asistente)</td>
+    <td>TS-17</td>
+    <td>Manage Plans</td>
     <td>TK-03</td>
-    <td>Desarrollo de la vista de actividades para el asistente</td>
-    <td>Desarrollo de visualizacion de tareas del mecánico asistente</td>
+    <td>Crear endpoint para obtener todos los planes disponibles</td>
+    <td>Implementar un endpoint GET que devuelva una lista de planes.</td>
     <td>2</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
+    <td>Erick Hernandez</td>
+    <td>Not done</td>
+  </tr>
+  <tr>
+    <td>TS-18</td>
+    <td>Manage Subscriptions</td>
+    <td>TK-04</td>
+    <td>Crear endpoint para obtener las suscripciones de un taller</td>
+    <td>Implementar un endpoint GET que devuelva las suscripciones asociadas a un taller.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Not done</td>
+  </tr>
+  <tr>
+    <td>TS-18</td>
+    <td>Manage Subscriptions</td>
+    <td>TK-05</td>
+    <td>Crear endpoint para añadir una nueva suscripción</td>
+    <td>Implementar un endpoint POST para crear una suscripción.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Not done</td>
+  </tr>
+  <tr>
+    <td>TS-18</td>
+    <td>Manage Subscriptions</td>
+    <td>TK-06</td>
+    <td>Crear endpoint para obtener la última suscripción activa</td>
+    <td>Implementar un endpoint GET que devuelva la última suscripción activa.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Not done</td>
+  </tr>
+  <tr>
+    <td>TS-18</td>
+    <td>Manage Subscriptions</td>
+    <td>TK-07</td>
+    <td>Crear endpoint para cancelar una suscripción</td>
+    <td>Implementar un endpoint POST que actualice el estado de la suscripción a cancelada.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Not done</td>
+  </tr>
+  <tr>
+    <td>TS-19</td>
+    <td>Manage Invoices</td>
+    <td>TK-08</td>
+    <td>Crear endpoint para generar una factura</td>
+    <td>Implementar un endpoint POST que permita crear una factura basada en una suscripción.</td>
+    <td>3</td>
+    <td>Erick Hernandez</td>
+    <td>Not done</td>
+  </tr>
+  <tr>
+    <td>TS-19</td>
+    <td>Manage Invoices</td>
+    <td>TK-09</td>
+    <td>Crear endpoint para obtener todas las facturas de un taller</td>
+    <td>Implementar un endpoint GET que devuelva todas las facturas de un taller.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Not done</td>
   </tr>
   <tr>
     <td>US-01</td>
     <td>Formulario de registro</td>
-    <td>TK-04</td>
-    <td>Diseño de registro de usuario</td>
-    <td>Creación del formulario de registro de usuario</td>
+    <td>TK-10</td>
+    <td>Actualizar el formulario de registro para que se conecte al backend</td>
+    <td>Conectar el formulario de registro con la API de backend.</td>
     <td>2</td>
-    <td>Elmer Riva Rodríguez</td>
-    <td>Done</td>
+    <td>Elmer Riva</td>
+    <td>Not done</td>
   </tr>
   <tr>
-    <td>US-17</td>
-    <td>Información de intervención</td>
-    <td>TK-05</td>
-    <td>Desarrollo de los detalles de una intervención</td>
-    <td>Desarrollo de la información IOT, registro de intervenciones, información general, y los detalles.</td>
-    <td>1</td>
-    <td>Eric Hernández Tuiro</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US-18</td>
-    <td>Diagnóstico de intervención</td>
-    <td>TK-06</td>
-    <td>Modelar el diagnóstico de intervención</td>
-    <td>Creación de la interfaz de secuencia de tareas para el mecánico</td>
-    <td>3</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US-20</td>
-    <td>Supervisión de intervención</td>
-    <td>TK-07</td>
-    <td>Desarrollo de la interfaz de tareas del mecánico</td>
-    <td>Implementación de la verificación de las tareas completadas del mecánico</td>
+    <td>US-02</td>
+    <td>Pantalla de login</td>
+    <td>TK-11</td>
+    <td>Adaptar la pantalla de login para que se conecte al backend</td>
+    <td>Implementar la conexión de la pantalla de login con la API de autenticación.</td>
     <td>2</td>
-    <td>Henry Reaño Delgadillo</td>
+    <td>Elmer Riva</td>
     <td>Done</td>
   </tr>
   <tr>
-    <td>US-19</td>
-    <td>Ejecución de intervención</td>
-    <td>TK-08</td>
-    <td>Implementación de solicitudes de inventario en las intervenciones</td>
-    <td>Desarrollo e implementación de la soliitud de inventario dentro de una intervención.</td>
-    <td>5</td>
-    <td>Jhosepmyr Gutiérrez Soto</td>
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-12</td>
+    <td>Ajustar la creación de cuentas de taller para que se conecte al backend</td>
+    <td>Vincular la creación de cuentas de taller con el backend.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
     <td>Done</td>
   </tr>
   <tr>
-    <td>US-09</td>
-    <td>Creación de intervenciones</td>
-    <td>TK-09</td>
-    <td>Creación de las herramientas de creación de intervenciones</td>
-    <td>Creación de la interfaz de gestión y creación de intervenciones</td>
-    <td>5</td>
-    <td>Elmer Riva Rodríguez</td>
+    <td>US-04</td>
+    <td>Personal</td>
+    <td>TK-13</td>
+    <td>Revisar y conectar la vista de personal al backend</td>
+    <td>Conectar la vista de gestión de personal con la API del backend.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-05</td>
+    <td>Detalles de empleado</td>
+    <td>TK-14</td>
+    <td>Configurar la vista de detalles de empleado para que se conecte al backend</td>
+    <td>Vincular la vista de detalles del empleado con la API del backend.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
     <td>Done</td>
   </tr>
   <tr>
     <td>US-06</td>
     <td>Clientes</td>
-    <td>TK-11</td>
-    <td>Implementación de lista de clientes</td>
-    <td>Desarrollo de lista de clientes y herramientas de filtrado.</td>
-    <td>3</td>
-    <td>Henry Paolo Reaño</td>
-    <td>To Do</td>
-  </tr>
-  <tr>
-    <td>US-24</td>
-    <td>Agendar cita de intervención</td>
-    <td>TK-12</td>
-    <td>Implementación de registro de citas</td>
-    <td>Desarrollo de agendado de de citas de intervención</td>
+    <td>TK-15</td>
+    <td>Enlazar la vista de clientes para que se conecte al backend</td>
+    <td>Conectar la gestión de clientes con el backend.</td>
     <td>2</td>
-    <td>Eric Hernández Tuiro</td>
+    <td>Jhosepmyr Gutierrez</td>
     <td>Done</td>
   </tr>
   <tr>
     <td>US-07</td>
-    <td>Detalles de clientes</td>
-    <td>TK-13</td>
-    <td>Desarrollo de vista de información de clientes</td>
-    <td>Desarrollo de actualización de datos de los clientes</td>
+    <td>Detalles de cliente</td>
+    <td>TK-16</td>
+    <td>Hacer que la vista de detalles de cliente se conecte al backend</td>
+    <td>Vincular la vista de detalles del cliente con la API.</td>
     <td>2</td>
-    <td>Elmer Augusto Riva Rodriguez</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-08</td>
+    <td>Intervenciones</td>
+    <td>TK-17</td>
+    <td>Conectar la vista de intervenciones al backend</td>
+    <td>Implementar la conexión de la vista de intervenciones con la API.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-09</td>
+    <td>Creación de intervenciones</td>
+    <td>TK-18</td>
+    <td>Ajustar la funcionalidad de creación de intervenciones para que se conecte al backend</td>
+    <td>Vincular la creación de intervenciones con el backend.</td>
+    <td>3</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-10</td>
+    <td>Detalles de intervención</td>
+    <td>TK-19</td>
+    <td>Configurar la vista de detalles de intervención para que se conecte al backend</td>
+    <td>Conectar la vista de detalles de intervención con la API.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-11</td>
+    <td>Existencias de inventario</td>
+    <td>TK-20</td>
+    <td>Conectar la vista de existencias de inventario al backend</td>
+    <td>Enlazar la vista de existencias con la API de inventario.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-12</td>
+    <td>Solicitudes de inventario</td>
+    <td>TK-21</td>
+    <td>Ajustar la vista de solicitudes de inventario para que se conecte al backend</td>
+    <td>Conectar la gestión de solicitudes de inventario con el backend.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-14</td>
+    <td>Notificaciones</td>
+    <td>TK-22</td>
+    <td>Integrar el sistema de notificaciones para que se conecte al backend</td>
+    <td>Vincular la funcionalidad de notificaciones con la API.</td>
+    <td>3</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-15</td>
+    <td>Mis tareas (líder)</td>
+    <td>TK-23</td>
+    <td>Sincronizar la vista de tareas del líder para que se conecte al backend</td>
+    <td>Conectar la vista de tareas del líder con la API del backend.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-16</td>
+    <td>Mis tareas (asistente)</td>
+    <td>TK-24</td>
+    <td>Hacer que la vista de tareas del asistente se conecte al backend</td>
+    <td>Enlazar la vista de tareas del asistente con la API.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-25</td>
+    <td>Conectar la vista de información de intervención al backend</td>
+    <td>Vincular la vista de información de intervención con el backend.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-26</td>
+    <td>Ajustar el diagnóstico de intervención para que se conecte al backend</td>
+    <td>Implementar la conexión del diagnóstico de intervención con el backend.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-27</td>
+    <td>Configurar la ejecución de intervención para que se conecte al backend</td>
+    <td>Vincular la ejecución de intervención con la API.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-20</td>
+    <td>Supervisión de intervención</td>
+    <td>TK-28</td>
+    <td>Hacer que la supervisión de intervención se conecte al backend</td>
+    <td>Conectar la supervisión de intervención con la API del backend.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-21</td>
+    <td>Registro de vehículos</td>
+    <td>TK-29</td>
+    <td>Conectar el registro de vehículos al backend</td>
+    <td>Vincular el registro de vehículos con la API del backend.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-22</td>
+    <td>Registro de intervenciones</td>
+    <td>TK-30</td>
+    <td>Sincronizar el registro de intervenciones para que se conecte al backend</td>
+    <td>Conectar la gestión del registro de intervenciones con la API.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-23</td>
+    <td>Información IoT de vehículo</td>
+    <td>TK-31</td>
+    <td>Ajustar la vista de información IoT para que se conecte al backend</td>
+    <td>Implementar la conexión de la vista de información IoT con el backend.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-24</td>
+    <td>Agendar cita de intervención</td>
+    <td>TK-32</td>
+    <td>Integrar la funcionalidad de agendar citas para que se conecte al backend</td>
+    <td>Conectar la funcionalidad de agendar citas con la API del backend.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
     <td>Done</td>
   </tr>
 </table>
 
-#### 5.2.1.3. Development Evidence for Sprint Review
+#### 5.2.4.3. Development Evidence for Sprint Review
 
-#### 5.2.1.4. Testing Suite Evidence for Sprint Review
+Para el sprint 4, se refactorizo el uso de los endpoints en el frontend y adaptando los responses y requests.
 
-#### 5.2.1.5. Execution Evidence for Sprint Review
+En cuento a la API REST, se crearon ,as endpoints para gestionar interventions, workshops, tasks, mechanics, clients, y inventory. Asimismo, se agregó la autorizacion y autenticacion mediante tokenizacion.
 
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+De esa manera, se completaron gran parte de las historias de usuario y tareas técnicas planificadas para el sprint 4.
 
-Para este primer sprint no fue contemplada la evidencia de documentación de los servicios.
+A continuación, se presenta la evidencia de desarrollo para la revisión del sprint 4:
 
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+| Repositorio                                                           | Rama                           | Id Commit                                | Cabecera                                                                                                                                                     | Cuerpo                                                                                                                                                                                                                                        | Fecha                      |
+|-----------------------------------------------------------------------|--------------------------------|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | develop                        | 4d1f4e1d7f2948f3ae747f052332ebc05d7c008b | Merge pull request #22 from Open-Source-YaraSoftware/feature/manage-product-request                                                                          | Feature/manage product request                                                                                                                                                                                                                | Tue Nov 19 04:42:54 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/manage-product-request | 9a1400939879bf87e0b038f6098847ba14c50441 | chore: delete unused services and repository                                                                                                                 |                                                                                                                                                                                                                                               | Tue Nov 19 05:00:05 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/manage-product-request | a0ba4b731afb2bcd2e129dae5fd5cf6010241960 | feat: update relationship one to many with interventions and tasks                                                                                           | Also add methods related to modify, create, and delete task within an intervention                                                                                                                                                            | Tue Nov 19 05:01:43 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/manage-product-request | 3b933261b3bcb610f21381e7e954fb6f0fd68869 | feat: add enum for status of a task                                                                                                                          |                                                                                                                                                                                                                                               | Tue Nov 19 05:02:46 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/manage-product-request | 920621f85c44a08f413e3901026c09555eae24bf | feat: create records for get all tasks by intervention id or/and assistant id, also for creating a task                                                      |                                                                                                                                                                                                                                               | Tue Nov 19 05:04:21 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/manage-product-request | 0a351b4dfcd7d7bbf12069374f4b03decef653ba | feat: add records for update the status of an intervention                                                                                                   |                                                                                                                                                                                                                                               | Tue Nov 19 05:04:55 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/manage-product-request | 75dc00eab60c0bb5d81abe4174d49eedfa4b4418 | feat(interventions): add records handle for interfaces services                                                                                              |                                                                                                                                                                                                                                               | Tue Nov 19 05:06:01 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/manage-product-request | b0a9f0a50d200928c977eddac168c88e267be98f | feat(interventions): add methods to command service for creating, updating, deleting a task and also for changing the status of an intervention              |                                                                                                                                                                                                                                               | Tue Nov 19 05:07:55 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/manage-product-request | c324ed51ac0ef7015c9f2cbb0f751077d929194e | feat(interventions): add methods to query service to get all task by intervention id or plus assistant id                                                    |                                                                                                                                                                                                                                               | Tue Nov 19 05:10:02 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/manage-product-request | 8f98e529e59a1485ac1cb6e99041da569c95769f | feat(interventions): update resources for only accept 2 parameters which are assistant id and description                                                    |                                                                                                                                                                                                                                               | Tue Nov 19 05:11:24 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/clients-detail             | 1cfc22f838f76ab2aa8efff811883ec91ab7f78a | refactor(client-detail): refactor profile entity attributes and profile entity getter method                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Wed Nov 13 18:14:06 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | develop                            | 4dc42523ea76e7e9d31fd28379ddbdc4d08a9c56 | Merge pull request #38 from Web-Application-YaraSoftware/feature/inventory-stock                                                                             | Feature/inventory stock                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Thu Nov 14 01:25:25 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/inventory-stock            | 9939de20e63a2c4d282a1c39bdd1cb4905b6a226 | refactor(inventory): fix routes for header                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Thu Nov 14 01:28:01 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/inventory-stock            | 2ec9a6d0a0d77604fdc7e27041c64979a63632ce | Merge pull request #39 from Web-Application-YaraSoftware/feature/inventory-stock                                                                             | refactor(inventory): fix routes for header                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Thu Nov 14 01:28:57 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/activities-assistant       | a700acf9fcc02ee12211e96bfe00a8410138e763 | refactor(access-service): update endpoint and methods for authentication                                                                                     | - Changed `resourceEndpoint` to '/authentication/'. - Replaced `getAccessByCredentials` method with `signIn` and `signUp` methods. - Updated HTTP methods to `POST` for authentication requests.                                                                                                                                                                                                                                                                                                                                                                       | Thu Nov 14 15:16:41 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | develop                            | 7307979f73334b912bc9dc279e16be87705b796a | refactor(auth-store): enhance user state management and integration with workshop store                                                                      | - Added `user` state with `id`, `roleId`, and `workshopId` properties. - Updated `isAuthenticated` to validate user and token details. - Implemented `setUserId`, `setRoleId`, and `setWorkshopId` functions to manage user data and store them in localStorage. - Introduced `refresh` method to load authentication and user data from localStorage, integrating with the workshop store. - Created `refreshWorkshop` function to fetch workshop details using the user’s workshopId. - Modified `logout` function to clear all user-related data from localStorage. | Thu Nov 14 15:20:20 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | develop                            | bf1b89054e6e13d4e719528933efb6579b5bc196 | chore: update routes for stores                                                                                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Thu Nov 14 15:22:35 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | develop                            | 77ff1ce6078ba0b10547893107edef8690af76fe | feat: update how to show the workshop name and update route for stores and clear unused functions                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Thu Nov 14 15:24:36 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | develop                            | e450778c62c3f5283b1e15a8c69200984753fee9 | feat: unhidden guard for navigation routes                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Thu Nov 14 15:25:27 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | develop                            | 9f0107164f705dd19aa581ebd6b8bcb2e417b41f | chore: add images for new logo and sign in presentation                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Thu Nov 14 15:25:52 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | develop                            | da445e3a1a778c4e42f121419f9784275916fff3 | chore: add prime vue core dependency                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Thu Nov 14 15:26:16 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/login-screen               | 97f068783169082dd3924c7706be21aed13984fc | refactor(login-component): improve user authentication and UI responsiveness                                                                                 | - Replaced email/password inputs with a single `username` field. - Updated access service calls to use `signIn` method with token handling. - Refined authentication logic to utilize `authStore` for managing user state. - Added `computed` properties and onMounted hook to refresh user state on load. - Enhanced UI with background animation and polished styles for a more engaging experience. - Integrated form validation to ensure credentials are not empty before submission.                                                                             | Thu Nov 14 15:26:55 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/sign-in                    | b852b506dd688611b7337ee628723a05624e279a | Merge pull request #40 from Web-Application-YaraSoftware/feature/sign-in                                                                                     | Feature/sign in                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Thu Nov 14 15:28:53 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/sign-in                    | 0ffaa43f87fb1ef88dea99ab8d30c979f7d07871 | refactor(router): enhance navigation guards and authentication handling                                                                                      | - Added `authStore.refresh()` before route checks to ensure updated authentication state. - Redirect users to the home page if they are already authenticated and attempt to access login or register routes. - Simplified route guard logic to ensure smoother navigation transitions and user experience.                                                                                                                                                                                                                                                            | Thu Nov 14 15:55:50 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/sign-up                    | 802e04e34be6bd5fac1cb7639fdf7b88424be71d | feat(login-page): implement login form with animated background and sign-up section                                                                          | - Added `AccessService` for handling authentication requests. - Implemented computed `credentials` for reactive username and password binding. - Added `onSubmit` function to authenticate user and store credentials in `AuthStore`. - Enhanced UI with animated background spans and gradient design. - Updated styles for better layout, responsiveness, and visual appeal. - Integrated PrimeVue components (`pv-toast`, `pv-card`, `pv-inputtext`, `pv-password`, `pv-button`) for consistent UI elements.                                                        | Thu Nov 14 17:59:35 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/dynamic-navigation-by-role | 1b0002ef692273fdbd9e63f5212df634ca8b049e | feat(header): enhance header with sidebar toggle and improved styling                                                                                        | - Integrated `uiStore` to control sidebar visibility, adding a menu toggle icon in the toolbar. - Applied dynamic class and hover effects for the toggle icon and account section. - Enhanced the visual styling of the toolbar with new colors, shadows, and transitions for a modern look. - Adjusted the layout and styling for workshop name and navigation links.                                                                                                                                                                                                 | Thu Nov 14 21:19:05 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/intervention-information   | aa5436a3143ad126f640b5d092b02b368522ba3f | feat(intervention-information): add intervention summary and task detail components                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Fri Nov 15 05:47:35 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/intervention-information   | 1678bb17606b9321102b1a4d382bb65e22b620c1 | Merge pull request #50 from Web-Application-YaraSoftware/feature/intervention-information                                                                    | Feature/intervention information                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Fri Nov 15 05:48:16 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | develop                            | eb9e714442d2e55793f8587aee921543b775847b | fix: solve linking to client detail component                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Fri Nov 15 20:30:31 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | develop                            | bbdc00a01e31e98afe257b9221f661470c09c55c | chore: modify path references                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 02:34:02 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/interventions              | 38c185761ebcd14956e14d91f5530ba0d7300c66 | refactor(interventions): refactor service fetching                                                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 02:39:11 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/interventions              | 171bc3c20842507db0d38fd14d3eddeec97597ba | refactor(services): update intervention, product-request, and vehicles services                                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 04:55:36 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/activities-leader          | 5fb46af2b3ee5439f702fbd53c1019646c56d531 | refactor(entities): update client and mechanic entities and task-state and intervention-state enums to match the backend responses                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 04:58:38 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/activities-leader          | b0e5344af17a72d8b1b5ff45bb7b92dd55261955 | refactor(authentication): update auth-store to retrieve id values as numbers                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 04:59:35 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/activities-leader          | 17d65d8d95bd23ad72815d05ee2a86013aefb335 | refactor(pages): update intervention-leader and activity-view pages                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 05:02:06 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/activities-leader          | 8e86aa022ef5731fd56fef9b85918a3dbb317114 | refactor(information): update activity information component                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 05:05:51 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/activities-leader          | 009e906c4ef716a7780b8bcbbd66bb66c6c7aa86 | refactor(diagnostic): update activity diagnostic component and task distribution component                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 05:07:27 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/activities-leader          | bcc81794b06f8155cd7d0af86954204d5a8f7d0f | refactor(execution): update activity execution and execution requests components                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 05:10:24 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/activities-leader          | 8459193973ec7598b6db308a120a32d9ba0ec71e | refactor(monitoring): update activity monitoring component                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 05:11:26 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/activities-leader          | 8331c74b7873a57ec26083453d1b079f6fce5a70 | refactor(information): update iot information component                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 05:12:01 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/activities-leader          | 90d9d4359c4d74e9b12a0d7cdf4b8a9e585ea57b | refactor(vehicle-service): fix a name change of an endpoint in vehicle service                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 05:12:57 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/activities-assistant       | b512f3ea867486fed325ebc8e5c0776890572306 | fix(pages): fix a bug in intervention-leader view that was related with intervention-assistant view                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 09:33:49 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/notifications              | 60f68e420ab246ac792629f658702257864f4572 | refactor(authentication): update notification list component to implement useAuthStore to use the userId of the current logged user to retrieve notifications |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 09:47:04 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/clients-detail             | 75158b05fa38a24e94e9d656630114dc754c8fac | feat(clientRoleView): implement vehicle list component for client role view                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sat Nov 16 21:45:31 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/clients-detail             | 7dd025ed78b5e6a1aed336b1e29f536c3605c7d8 | Merge pull request #56 from Web-Application-YaraSoftware/feature/clients-detail                                                                              | feat(clientRoleView): implement vehicle list component for client role view                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Sat Nov 16 21:49:19 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | develop                            | dacb85ed4070da44da2ea42be45221762496e0d9 | feat: add fullName method to entity Vehicle                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sun Nov 17 04:13:14 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/interventions              | 3ac3128ffe9203ee3a7f2674ed06434a267d9602 | feat(profile-service): add endpoint to get by dni                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sun Nov 17 04:13:44 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/interventions              | eef3a1cd3561b16fcd94a3702028f44ea7a26fde | refactor(intervention): update class attributes to match to database                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sun Nov 17 04:14:36 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/interventions              | d3677e3743dda754248f09767655dd9b0ac0be32 | fix: change the use of the profile id to the profile user id and call get all clients when create one                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sun Nov 17 04:16:04 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/interventions              | 6924bb3030a2a8657ce6a24f14015bac24aca578 | refactor(interventions): optimize intervention data handling and UI updates                                                                                  | - Simplified the data enrichment process by utilizing async/await and watchEffect. - Integrated toast notifications for better user feedback on intervention actions. - Enhanced UI for interventions with improved responsiveness and clear status indicators.                                                                                                                                                                                                                                                                                                        | Sun Nov 17 04:19:21 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/interventions              | 2f12877d9e18fb880dfcfe4a94ff9b83cf0d72fa | refactor(intervention-dialog): optimize data fetching and form handling                                                                                      | - Replaced legacy client fetching with efficient profile service integration. - Simplified vehicle data handling using a dedicated Vehicle entity class. - Enhanced mechanic options retrieval using user profiles and async promises.                                                                                                                                                                                                                                                                                                                                 | Sun Nov 17 04:20:03 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | develop                            | 4330f03d695f5e540fb3dfae3cd7f7c04545ce61 | Merge pull request #58 from Web-Application-YaraSoftware/feature/interventions                                                                               | Feature/interventions                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Sun Nov 17 04:28:37 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/interventions              | 609fe2629b717a5154ef06a6411ab47fafd6bd95 | refactor(generalInformation): fix errors in the services of the intervention general information                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sun Nov 17 05:03:44 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | develop                            | ea3d2951f84a12f6964d4e04f2d29b1cfe48a231 | Merge pull request #60 from Web-Application-YaraSoftware/feature/interventions                                                                               | refactor(generalInformation): fix errors in the services of the intervention general information                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Sun Nov 17 05:11:05 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/activities-leader          | 28f718c53ea2c3de9712000c7133b4039fe33d05 | refactor: change scheduledAt field to scheduledDate                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sun Nov 17 05:25:18 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/activities-leader          | a483b28098fb1614fba8377a14b5a56f60a01d94 | refactor(intervention-assistants): improve data fetching and UI handling                                                                                     | - Replaced multiple synchronous API calls with efficient async/await and Promise.all. - Simplified the intervention and client data structure to improve readability and maintainability. - Integrated a new utility method for date formatting to enhance consistency.                                                                                                                                                                                                                                                                                                | Sun Nov 17 05:26:50 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/activities-leader          | 4e56115d8709de77bf4ed03c40daed710f67187a | refactor(intervention-data): optimize data fetching and improve performance                                                                                  | - Replaced sequential data fetching with parallel async/await using Promise.all for better performance. - Simplified computed properties to reduce redundancy and improve data clarity. - Enhanced loading feedback and error handling for a smoother user experience.                                                                                                                                                                                                                                                                                                 | Sun Nov 17 05:27:26 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/intervention-information   | 899fa3ecd5ddc5d34b4a70c424f692a855d41cb3 | fix: get the correct assigned mechanic to the intervention                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sun Nov 17 06:28:02 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | develop                            | 72435de1851067014fa638039b76d39af9a5de41 | Merge pull request #62 from Web-Application-YaraSoftware/feature/intervention-information                                                                    | fix: get the correct assigned mechanic to the intervention                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Sun Nov 17 06:28:55 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/intervention-diagnostic    | 87904d18f6df2b9500c90e0d421db0bdd51051b7 | refactor: adapt update intervention to related endpoint                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Sun Nov 17 08:06:13 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/intervention-execution     | 0bed9d5e84442daf83e658003828d3701b06b36d | refactor(product-requests): simplify product request form and enhance UI                                                                                     | - Refactored product request data model to align with new backend requirements, updating property names from 'productType' to 'productId' and 'quantity' to 'requestedQuantity'. - Enhanced user interface with improved feedback by adding product descriptions and a severity-based badge for request status.                                                                                                                                                                                                                                                        | Sun Nov 17 09:39:30 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/intervention-monitoring    | d3ddabb4b401e217a9c934a798cd7ddfaa5afb76 | refactor(intervention-steps): enhance intervention handling logic and improve navigation                                                                     | - Refactored intervention finishing process to include status validation, ensuring that only in-progress interventions can be completed. - Modified `finishIntervention` to handle edge cases where the intervention is not in progress, with an appropriate error message. - Simplified step filtering and mapping functions (`isMechanicAssistant` and `isMechanicLeader`) to improve code readability and maintainability. - Added task check using `areThereTasks` before step changes to conditionally update steps for mechanic leaders and assistants.          | Sun Nov 17 10:08:44 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | develop                            | 9ee15bc6d722d88adc85dbe375d12738762ba427 | Merge pull request #71 from Web-Application-YaraSoftware/feature/clients-detail                                                                              | refactor: remove unnecessary use of profile service and directly use the useAuthStore                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Mon Nov 18 06:40:36 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/manage-profile             | a22d28dabf40ffbd514ad2cb71476e321a028bd8 | feat(api-iam): add GetUserByIdQuery record for user queries                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:00:18 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/manage-profile             | 85f86e648199c3b4e953812298346de7596e5abb | feat(jwt-token-service): implement TokenService with JWT generation and validation                                                                           | - Added `TokenSettings` class for JWT configuration, including the secret key. - Implemented `TokenService` class in `YARA.WorkshopNGine.API.IAM.Infrastructure.Tokens.JWT.Services` to handle JWT operations: `GenerateToken` and `ValidateToken`. - Registered `ITokenService` interface in `YARA.WorkshopNGine.API.IAM.Application.Internal.OutboundServices`. - Configured token validation parameters to enforce security and lifetime constraints.                                                                                                               | Mon Nov 18 06:01:33 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/manage-profile             | c26f033ae200881eedb2260adeab82bd8be9cffd | feat(hashing-service): add HashingService with BCrypt implementation                                                                                         | - Implemented `HashingService` class using BCrypt for password hashing and verification. - `HashPassword`: Hashes a plain text password using BCrypt. - `VerifyPassword`: Verifies a plain text password against a hashed password. - Defined `IHashingService` interface to abstract hashing operations.                                                                                                                                                                                                                                                              | Mon Nov 18 06:02:35 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/manage-profile             | 3873d104c1e080b66042b41a01617a919a7bcc62 | feat: update command and query services interfaces for user                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:03:00 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/manage-profile             | abe410f31a1d1c60661bfccbcce52ae2da2ff0aa | feat(middleware): add RequestAuthorizationMiddleware for JWT-based authorization                                                                             | - Created `RequestAuthorizationMiddleware` to handle request authorization based on JWT tokens. - Checks if the endpoint allows anonymous access and skips authorization if so. - Extracts and validates the JWT token from the request headers using `ITokenService`. - Uses `IUserQueryService` to fetch and verify the user associated with the token. - Attaches the authorized user to the context for downstream access. - Added console logging for debugging and tracing middleware flow.                                                                      | Mon Nov 18 06:04:04 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/manage-profile             | 8d37173225c60b1ee185576e1c92c4f6c2b10f26 | feat(security): implement custom Authorize attribute for request authorization                                                                               | - Developed `AuthorizeAttribute` to enforce authorization in controllers or methods. - Skips authorization if the endpoint is marked with `AllowAnonymousAttribute`. - Checks for the authenticated `User` in the HTTP context and returns a 401 Unauthorized result if the user is not authenticated. - Added debug logging to trace authorization decisions.                                                                                                                                                                                                         | Mon Nov 18 06:04:27 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/manage-profile             | 6be3951bcea335e7e35f8dcc4e4420447153c72e | feat(middleware): add extension method for request authorization middleware                                                                                  | - Created `ApplicationBuilderExtensions` to simplify the integration of `RequestAuthorizationMiddleware`. - Added `UseRequestAuthorization` method to enable streamlined middleware setup in the application's pipeline.                                                                                                                                                                                                                                                                                                                                               | Mon Nov 18 06:04:48 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/manage-profile             | 7ce3b5956bbcf8892614d3bc6abf93a20fd4cc76 | feat(middleware): add AllowAnonymous attribute for method-level authorization bypass                                                                         | - Introduced `AllowAnonymousAttribute` to enable skipping authorization for specific methods. - Simplified the management of anonymous access in the authorization middleware.                                                                                                                                                                                                                                                                                                                                                                                         | Mon Nov 18 06:05:06 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/user-registration-login    | d167a1716e994850924ab34f0bfc181a26b99ea5 | refactor: update resource and transform with the included token response and request                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:05:57 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/user-registration-login    | 86f00170b4be96b8e5351c32971842b0163e71bc | feat: hash password and get token                                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:06:27 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/user-registration-login    | 74e11f88548bb96920170e3b7abbadee07009fd8 | feat: add new method for get by id user                                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:06:45 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/user-registration-login    | f211b345d201b23c7b83021d7fd263b0667ec895 | feat: disable authorization for these endpoints related to sign in, sign up and create workshop                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:07:55 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | feature/user-registration-login    | dde35bf1345fb7313a77fca2ed0159c5ee11618c | chore: add services to program                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:08:22 2024   |
+| https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform  | develop                            | c7b8da8086bd29e9638b02dd3d1af29b60c4624c | Merge pull request #33 from Web-Application-YaraSoftware/feature/user-registration-login                                                                     | Feature/user registration login                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:09:27 2024   |
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
+#### 5.2.4.4. Testing Suite Evidence for Sprint Review
 
-<img src="img/5/2/1/8/insights-2.png">
+Para el sprint 4, se continúa utilizando los Acceptance Criteria de las tecnical stories para realizar las pruebas de aceptación.
+De ese modo Gherkin se ha utilizado para la creación de escenarios de prueba.
+A continuación, se presentan las evidencias de las pruebas realizadas:
+
+| Repository                                                     | Branch                            | Commit Id                                | Commit Message                                                       | Commit Message Body                                                                                                                                                                                                                                                                                                 | Commited on(Date)        |
+|----------------------------------------------------------------|-----------------------------------|------------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests   | feature/testing-back-web-services | eae6e1150ae17fe9296ca06f9aa097069d836499 | feat: add Gherkin scenarios for user authentication and registration | - Define scenarios for user sign-up with validation for missing or invalid values. - Add scenarios for user sign-in with handling for incorrect credentials. - Ensure secure storage of user passwords and authentication tokens.                                                                                   | Sat Nov 16 19:52:48 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests   | feature/testing-back-web-services | 45fafff4f694b90e6c6179967093ffdc394a6ded | feat: add Gherkin scenarios for plan retrieval                       | - Define scenarios for retrieving all plans, including handling empty results. - Include error handling for unexpected server issues. - Ensure proper response structure for successful and error cases.                                                                                                            | Sat Nov 16 19:53:15 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests   | feature/testing-back-web-services | d01f40998c44c2b82873c88a507dce34e5296de8 | feat: add Gherkin scenarios for subscription management              | - Define scenarios for retrieving all subscriptions, including handling empty and non-existent cases. - Add scenarios for creating subscriptions with validation for missing or invalid values. - Include scenarios for retrieving the latest subscription and canceling subscriptions, with proper error handling. | Sat Nov 16 19:53:24 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests   | feature/testing-back-web-services | 434a27be4db499bf255552851c7fbb4399ceea8d | feat: add Gherkin scenarios for invoice management                   | - Define scenarios for creating invoices with validation for missing or invalid data. - Add scenarios for retrieving all invoices for a workshop, including handling empty results. - Include error handling for unexpected server issues when fetching invoices.                                                   | Sat Nov 16 19:53:41 2024 |
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+En el sprint 4 se alcanzo conectar el frontend con el backend, implementar la totalidad de los recursos asocidos a los bounde context Identity and Access management, Billing management y Subscription management. Y implementacion completa de json web token en frontend y backend que permite al usuario navegar por ciertas funcionalidades de la aplicación.
+
+En el frontend se contempló la ejecución de refactors para conectar el back con el front.
+
+A continuación algunas evidencias en imágen del front end y back completos.
+
+**Intervention list**
+<img src="img/5/2/2/5/interventions.png">
+
+**New intervention form**
+![img.png](img%2F5%2F2%2F2%2F5%2Fimg.png)
+
+**Activities page for mechanic leader**
+<img src="img/5/2/2/5/my-activities-leader.png">
+
+**Activities page for mechanic leader**
+<img src="img/5/2/2/5/my-activities-assistant.png">
+
+**User registration**
+<img src="img/5/2/2/5/user-register.png">
+
+**Clients list**
+<img src="img/5/2/2/5/clients.png">
+
+**New intervetion form**
+<img src="img/5/2/2/5/new-intervention.png">
+
+#### Lista de Clientes
+
+<img src="img/5/2/3/5/clients.png">
+
+#### Detalle de clientes
+
+<img src="img/5/2/3/5/personal_information.png">
+
+#### Lista de Intervenciones
+
+<img src="img/5/2/3/5/activity_log.png">
+
+#### Existencias de inventario
+
+<img src="img/5/2/3/5/inventory_stock.png">
+
+#### Solicitudes de inventario
+
+<img src="img/5/2/3/5/inventory_request.png">
+
+#### Mis tareas (líder)
+
+<img src="img/5/2/3/5/activities_assistant.png">
+
+#### Información de intervención
+
+<img src="img/5/2/3/5/activities_information.png">
+
+#### Diagnóstico de intervención
+
+<img src="img/5/2/3/5/diagnostic.png">
+
+#### Ejecución de intervención
+
+<img src="img/5/2/3/5/execution.png">
+
+#### Supervisión de intervención
+
+<img src="img/5/2/3/5/supervision.png">
+
+#### Registro de intervenciones
+
+<img src="img/5/2/3/5/interventions_list.png">
+
+Link del video de navegación del mvp del frontend del sprint 4: [https://drive.google.com/file/d/190W1O8JpLb5_Rf7snszvRNPgcTQOwleN/view?usp=drive_link](https://drive.google.com/file/d/190W1O8JpLb5_Rf7snszvRNPgcTQOwleN/view?usp=drive_link=)
+
+#### Resources and endpoints
+
+**Authentication**
+![img_4.png](img%2F5%2F4%2Fimg_4.png)
+
+**Invoices**
+![img_5.png](img%2F5%2F4%2Fimg_5.png)
+
+**Subscriptions**
+![img_6.png](img%2F5%2F4%2Fimg_6.png)
+
+Enlace para visualizar el video de navegacion del backend del sprint 4:
+[enlace al video](enlace)
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Durante el desarrollo del sprint 3, los logros alcanzados en el backend fueron los siguientes:
+
+* Se implementó la funcionalidad de gestión de intervenciones.
+* Se implementó la funcionalidad de gestión de autenticación.
+* Se implementó la funcionalidad de gestión de planes.
+* Se implementó la funcionalidad de gestión de suscripciones.
+* Se implementó la funcionalidad de gestión de facturas.
+* Se implementó la funcionalidad de gestión de solicitudes de productos.
+
+ | Endpoint         | Operación   | Parámetros                                                               | Descripción                          | Ejemplo de Uso                                                                     | Explicación del Response                                                                                                                               | URL                                                                       |
+ |------------------|-------------|--------------------------------------------------------------------------|--------------------------------------|------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+ | Devices          | GET         | vehicleId (query)                                                        | Get IoT devices for a vehicle        | /api/v1/iot-devices?vehicleId=123                                                  | 200: Returns a list of IoT devices, including device ID, component, error code, description, last updated time, and state                              | /api/v1/iot-devices                                                       |
+ | Product Requests | PUT         | productRequestId (path)                                                  | Update a product request             | /product-requests/{productRequestId}                                               | 200: Returns updated product request details, including ID, quantity, task ID, product ID, workshop ID, and status                                     | /product-requests/{productRequestId}                                      |
+ | Product Requests | GET         | workshopId, taskId (query)                                               | Get all product requests             | /product-requests?workshopId=123&taskId=456                                        | 200: Returns a list of product requests, including ID, quantity, task ID, product ID, workshop ID, and status                                          | /product-requests                                                         |
+ | Product Requests | POST        | -                                                                        | Create a product request             | /product-requests                                                                  | 200: Product request created successfully, returns product request details                                                                             | /product-requests                                                         |
+ | Product Requests | POST        | productRequestId (path)                                                  | Reject a product request             | /product-requests/{productRequestId}/reject                                        | 200: Product request rejected successfully, returns a confirmation message                                                                             | /product-requests/{productRequestId}/reject                               |
+ | Product Requests | POST        | productRequestId (path)                                                  | Accept a product request             | /product-requests/{productRequestId}/accept                                        | 200: Product request accepted successfully, returns a confirmation message                                                                             | /product-requests/{productRequestId}/accept                               |
+ | Products         | PUT         | productId (path)                                                         | Update a product                     | /products/{productId}                                                              | 200: Returns updated product details, including ID, name, description, stock quantity, low stock threshold, and workshop ID                            | /products/{productId}                                                     |
+ | Products         | DELETE      | productId (path)                                                         | Delete a product                     | /products/{productId}                                                              | 200: Product deleted successfully                                                                                                                      | /products/{productId}                                                     |
+ | Products         | GET         | workshopId (query)                                                       | Get all products for a workshop      | /products?workshopId=123                                                           | 200: Returns a list of products, including ID, name, description, stock quantity, low stock threshold, and workshop ID                                 | /products                                                                 |
+ | Products         | POST        | -                                                                        | Create a product                     | /products                                                                          | 200: Product created successfully, returns product details                                                                                             | /products                                                                 |
+ | Plan             | GET         | id (path)                                                                | Get details of a specific plan       | /api/v1/plans/{id}                                                                 | 200: Returns plan details, including ID, name, description, price, duration in months, billing cycle, and limitations                                  | /api/v1/plans/{id}                                                        |
+ | Plan             | PUT         | id (path)                                                                | Update a plan                        | /api/v1/plans/{id}                                                                 | 200: Plan updated successfully                                                                                                                         | /api/v1/plans/{id}                                                        |
+ | Plan             | DELETE      | id (path)                                                                | Delete a plan                        | /api/v1/plans/{id}                                                                 | 200: Plan deleted successfully                                                                                                                         | /api/v1/plans/{id}                                                        |
+ | Plan             | GET         | -                                                                        | Get all plans                        | /api/v1/plans                                                                      | 200: Returns a list of all plans, including ID, name, description, price, duration in months, billing cycle, and limitations                           | /api/v1/plans                                                             |
+ | Plan             | POST        | -                                                                        | Create a new plan                    | /api/v1/plans                                                                      | 200: Plan created successfully, returns plan ID                                                                                                        | /api/v1/plans                                                             |
+ | Vehicles         | GET         | clientId (query)                                                         | Get all vehicles for a client        | /api/v1/vehicles?clientId=123                                                      | 200: Returns a list of vehicles, including ID, license plate, brand, model, registration date, client ID, and IoT device ID                            | /api/v1/vehicles                                                          |
+ | Vehicles         | POST        | -                                                                        | Create a new vehicle                 | /api/v1/vehicles                                                                   | 200: Vehicle created successfully, returns vehicle details, including ID, license plate, brand, model, registration date, client ID, and IoT device ID | /api/v1/vehicles                                                          |
+ | Vehicles         | GET         | id (path)                                                                | Get details of a specific vehicle    | /api/v1/vehicles/{id}                                                              | 200: Returns vehicle details, including ID, license plate, brand, model, registration date, client ID, and IoT device ID                               | /api/v1/vehicles/{id}                                                     |
+ | Workshops        | GET         | workshopId (path), mechanicLeaderId (query), mechanicAssistantId (query) | Get all interventions for a workshop | /workshops/{workshopId}/interventions?mechanicLeaderId=123&mechanicAssistantId=456 | 200: Returns a list of interventions, including ID, vehicle ID, client ID, mechanic leader ID, description, type, status, and timestamps               | /workshops/{workshopId}/interventions                                     |
+ | Interventions    | GET         | interventionId (path)                                                    | Get an intervention by id            | /interventions/{interventionId}                                                    | 200: Returns intervention details, including vehicle ID, client ID, mechanic leader ID, description, type, status, and timestamps                      | /interventions/{interventionId}                                           |
+ | Interventions    | PUT         | interventionId (path)                                                    | Update an intervention               | /interventions/{interventionId}                                                    | 200: Intervention updated successfully, returns updated intervention details                                                                           | /interventions/{interventionId}                                           |
+ | Interventions    | PUT         | interventionId, taskId (path)                                            | Update a task for an intervention    | /interventions/{interventionId}/tasks/{taskId}                                     | 200: Task updated successfully, returns updated task details                                                                                           | /interventions/{interventionId}/tasks/{taskId}                            |
+ | Interventions    | DELETE      | interventionId, taskId (path)                                            | Delete a task for an intervention    | /interventions/{interventionId}/tasks/{taskId}                                     | 204: Task deleted successfully                                                                                                                         | /interventions/{interventionId}/tasks/{taskId}                            |
+ | Interventions    | PUT         | interventionId, taskId, checkpointId (path)                              | Update a checkpoint for a task       | /interventions/{interventionId}/tasks/{taskId}/checkpoints/{checkpointId}          | 200: Checkpoint updated successfully, returns updated checkpoint details                                                                               | /interventions/{interventionId}/tasks/{taskId}/checkpoints/{checkpointId} |
+ | Interventions    | DELETE      | interventionId, taskId, checkpointId (path)                              | Delete a checkpoint for a task       | /interventions/{interventionId}/tasks/{taskId}/checkpoints/{checkpointId}          | 204: Checkpoint deleted successfully                                                                                                                   | /interventions/{interventionId}/tasks/{taskId}/checkpoints/{checkpointId} |
+ | Interventions    | GET         | vehicleId (query)                                                        | Get all interventions                | /interventions?vehicleId=123                                                       | 200: Returns a list of interventions, including vehicle ID, client ID, mechanic leader ID, description, type, status, and timestamps                   | /interventions                                                            |
+ | Interventions    | POST        | -                                                                        | Create a new intervention            | /interventions                                                                     | 201: Intervention created successfully, returns intervention details                                                                                   | /interventions                                                            |
+ | Interventions    | GET         | interventionId (path), assistantId (query)                               | Get all tasks for an intervention    | /interventions/{interventionId}/tasks?assistantId=123                              | 200: Returns a list of tasks, including assistant ID, description, status, and intervention ID                                                         | /interventions/{interventionId}/tasks                                     |
+ | Interventions    | POST        | interventionId (path)                                                    | Create a task for an intervention    | /interventions/{interventionId}/tasks                                              | 201: Task created successfully, returns task details                                                                                                   | /interventions/{interventionId}/tasks                                     |
+ | Interventions    | POST        | interventionId, taskId (path)                                            | Start a task for an intervention     | /interventions/{interventionId}/tasks/{taskId}/in-progresses                       | 200: Task started successfully                                                                                                                         | /interventions/{interventionId}/tasks/{taskId}/in-progresses              |
+ | Interventions    | POST        | interventionId, taskId (path)                                            | Complete a task for an intervention  | /interventions/{interventionId}/tasks/{taskId}/confirmations                       | 200: Task completed successfully                                                                                                                       | /interventions/{interventionId}/tasks/{taskId}/confirmations              |
+ | Interventions    | GET         | interventionId, taskId (path)                                            | Get all checkpoints for a task       | /interventions/{interventionId}/tasks/{taskId}/checkpoints                         | 200: Returns a list of checkpoints, including name and task ID                                                                                         | /interventions/{interventionId}/tasks/{taskId}/checkpoints                |
+ | Interventions    | POST        | interventionId, taskId (path)                                            | Create a checkpoint for a task       | /interventions/{interventionId}/tasks/{taskId}/checkpoints                         | 201: Checkpoint created successfully, returns checkpoint details                                                                                       | /interventions/{interventionId}/tasks/{taskId}/checkpoints                |
+ | Interventions    | POST        | interventionId (path)                                                    | Start an intervention                | /interventions/{interventionId}/in-progresses                                      | 200: Intervention started successfully                                                                                                                 | /interventions/{interventionId}/in-progresses                             |
+ | Interventions    | POST        | interventionId (path)                                                    | Confirm an intervention              | /interventions/{interventionId}/confirmations                                      | 200: Intervention confirmed successfully                                                                                                               | /interventions/{interventionId}/confirmations                             |
+ | Interventions    | POST        | interventionId (path)                                                    | Cancel an intervention               | /interventions/{interventionId}/cancellations                                      | 200: Intervention canceled successfully                                                                                                                | /interventions/{interventionId}/cancellations                             |
+
+Se prosigue con algunas imagenes de los endpoints en ejecución:
+
+![screenshot1](img/5/2/4/6/1.png)
+
+![screenshot2](img/5/2/4/6/2.png)
+
+![screenshot3](img/5/2/4/6/3.png)
+
+![screenshot4](img/5/2/4/6/4.png)
+
+![screenshot5](img/5/2/4/6/5.png)
+
+![screenshot6](img/5/2/4/6/6.png)
+
+![screenshot7](img/5/2/4/6/7.png)
+
+![screenshot8](img/5/2/4/6/8.png)
+
+![screenshot9](img/5/2/4/6/9.png)
+
+Enlace del repositorio:
+
+[https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform](https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform)
+
+* Backend web services commits details
+
+| Repository                                                               | Branch                           | Commit Id                                | Commit Message                                                                                                                                                | Commit Message Body                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Commited on(Date)        |
+|--------------------------------------------------------------------------|----------------------------------|------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | a22d28dabf40ffbd514ad2cb71476e321a028bd8 | feat(api-iam): add GetUserByIdQuery record for user queries                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:00:18 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | 85f86e648199c3b4e953812298346de7596e5abb | feat(jwt-token-service): implement TokenService with JWT generation and validation                                                                            | - Added `TokenSettings` class for JWT configuration, including the secret key. - Implemented `TokenService` class in `YARA.WorkshopNGine.API.IAM.Infrastructure.Tokens.JWT.Services` to handle JWT operations: `GenerateToken` and `ValidateToken`. - Registered `ITokenService` interface in `YARA.WorkshopNGine.API.IAM.Application.Internal.OutboundServices`. - Configured token validation parameters to enforce security and lifetime constraints.                                                                                                               | Mon Nov 18 06:01:33 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | c26f033ae200881eedb2260adeab82bd8be9cffd | feat(hashing-service): add HashingService with BCrypt implementation                                                                                          | - Implemented `HashingService` class using BCrypt for password hashing and verification. - `HashPassword`: Hashes a plain text password using BCrypt. - `VerifyPassword`: Verifies a plain text password against a hashed password. - Defined `IHashingService` interface to abstract hashing operations.                                                                                                                                                                                                                                                              | Mon Nov 18 06:02:35 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | 3873d104c1e080b66042b41a01617a919a7bcc62 | feat: update command and query services interfaces for user                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:03:00 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | abe410f31a1d1c60661bfccbcce52ae2da2ff0aa | feat(middleware): add RequestAuthorizationMiddleware for JWT-based authorization                                                                              | - Created `RequestAuthorizationMiddleware` to handle request authorization based on JWT tokens. - Checks if the endpoint allows anonymous access and skips authorization if so. - Extracts and validates the JWT token from the request headers using `ITokenService`. - Uses `IUserQueryService` to fetch and verify the user associated with the token. - Attaches the authorized user to the context for downstream access. - Added console logging for debugging and tracing middleware flow.                                                                      | Mon Nov 18 06:04:04 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | 8d37173225c60b1ee185576e1c92c4f6c2b10f26 | feat(security): implement custom Authorize attribute for request authorization                                                                                | - Developed `AuthorizeAttribute` to enforce authorization in controllers or methods. - Skips authorization if the endpoint is marked with `AllowAnonymousAttribute`. - Checks for the authenticated `User` in the HTTP context and returns a 401 Unauthorized result if the user is not authenticated. - Added debug logging to trace authorization decisions.                                                                                                                                                                                                         | Mon Nov 18 06:04:27 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | 6be3951bcea335e7e35f8dcc4e4420447153c72e | feat(middleware): add extension method for request authorization middleware                                                                                   | - Created `ApplicationBuilderExtensions` to simplify the integration of `RequestAuthorizationMiddleware`. - Added `UseRequestAuthorization` method to enable streamlined middleware setup in the application's pipeline.                                                                                                                                                                                                                                                                                                                                               | Mon Nov 18 06:04:48 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | 7ce3b5956bbcf8892614d3bc6abf93a20fd4cc76 | feat(middleware): add AllowAnonymous attribute for method-level authorization bypass                                                                          | - Introduced `AllowAnonymousAttribute` to enable skipping authorization for specific methods. - Simplified the management of anonymous access in the authorization middleware.                                                                                                                                                                                                                                                                                                                                                                                         | Mon Nov 18 06:05:06 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | d167a1716e994850924ab34f0bfc181a26b99ea5 | refactor: update resource and transform with the included token response and request                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:05:57 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | 86f00170b4be96b8e5351c32971842b0163e71bc | feat: hash password and get token                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:06:27 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | 74e11f88548bb96920170e3b7abbadee07009fd8 | feat: add new method for get by id user                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:06:45 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | f211b345d201b23c7b83021d7fd263b0667ec895 | feat: disable authorization for these endpoints related to sign in, sign up and create workshop                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:07:55 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | feature/user-registration-login  | dde35bf1345fb7313a77fca2ed0159c5ee11618c | chore: add services to program                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:08:22 2024 |
+| https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform | develop                          | c7b8da8086bd29e9638b02dd3d1af29b60c4624c | Merge pull request #33 from Web-Application-YaraSoftware/feature/user-registration-login                                                                      | Feature/user registration login                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Mon Nov 18 06:09:27 2024 |
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+Para la entrega del cuarto sprint, no se despliega la landing page, porque ya fue completamente desarrollada en el sprint 3. De la misma forma se desplego la web application en gran parte completa. Asimismo, se desplego el back-end completo.
+
+**Frontend web application**
+
+El despliegue del frontend web application en Netlify se ha actualizado automáticamente después de haber realizado la fusión de la rama de desarrollo `develop` con la rama principal `main`.
+Este proceso ha permitido que la web application se actualice automáticamente en la URL [https://web-workshop-n-gine.netlify.app/](https://web-workshop-n-gine.netlify.app/)
+
+![img.png](img%2F5%2F2%2F4%2F7%2Flanding-page%2Fimg.png)
+
+- Captura de pantalla frontend web application deployado:
+
+![img_2.png](img%2F5%2F2%2F4%2F7%2Fimg_2.png)
+
+* Backend web services
+
+El despliegue del backend web services en Railway se ha actualizado automáticamente después de haber realizado la fusión de la rama de desarrollo `develop` con la rama principal `main`.
+Este proceso ha permitido que el backend web services se actualice automáticamente en la URL [https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html#/](https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html#/)
+
+![img.png](img%2F5%2F2%2F4%2F7%2Fimg.png)
+
+- Captura de pantalla backend web services deployado:
+
+![img_1.png](img%2F5%2F2%2F4%2F7%2Fimg_1.png)
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+| Alumno                            | Actividad                                                                         |
+|-----------------------------------|-----------------------------------------------------------------------------------|
+| Gutiérrez Soto, Jhosepmyr Orlando | Desarrollo del back end, y mejora y reestructuración de componentes del front end |
+| Hernández Tuiro, Eric Ernesto     | Reestructuración y mejora de componentes del front end, ya porte en backend       |
+| Riva Rodríguez, Elmer Augusto     | Reestructuración de componentes del front end,  aporte en backend                 |
+
+* Repositorio del Frontend Web Application
+
+![img.png](img%2F5%2F2%2F4%2F8%2Fimg.png)
+![img_1.png](img%2F5%2F2%2F4%2F8%2Fimg_1.png)
+![img.png](img%2F5%2F2%2F4%2F8%2Flanding-page%2Fimg.png)
+![img_1.png](img%2F5%2F2%2F4%2F8%2Flanding-page%2Fimg_1.png)
+![img_2.png](img%2F5%2F2%2F4%2F8%2Flanding-page%2Fimg_2.png)
+
+* Repositorio del Backend Web Services
+
+![img.png](img%2F5%2F2%2F4%2F8%2Fbackend%2Fimg.png)
+![img_1.png](img%2F5%2F2%2F4%2F8%2Fbackend%2Fimg_1.png)
+![img_2.png](img%2F5%2F2%2F4%2F8%2Fbackend%2Fimg_2.png)
+![img_3.png](img%2F5%2F2%2F4%2F8%2Fbackend%2Fimg_3.png)
+![img_4.png](img%2F5%2F2%2F4%2F8%2Fbackend%2Fimg_4.png)
 
 ## 5.3. Validation Interviews
 
@@ -5097,12 +7533,30 @@ Para este primer sprint no fue contemplada la evidencia de documentación de los
 ### 5.3.3. Evaluaciones según heurísticas
 
 ## 5.4. Video About-the-Product
+A continuación, la primera version del video About The Product
+<img src="img/5/2/videos/AboutTheProduct.png">
+<br>
+[Enlace Video About The Product](https://www.canva.com/design/DAGVMz1uqLE/2A_XB9kr1el8uhwX9OTwrA/watch?utm_content=DAGVMz1uqLE&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
+[Enlace Video About The Product YouTube](https://www.youtube.com/watch?v=5zjb5uaVMX8)
 
 # Conclusiones
 
 ## Conclusiones y recomendaciones
 
+El equipo concluyó que el sector de la mecánica automotriz se enfoca principalmente en resolver necesidades correctivas de los clientes, sin contar con estrategias claras de fidelización. Nuestro producto busca abordar estas limitaciones mediante funcionalidades como la gestión de personal, el almacenamiento de información de clientes y el control de inventario. Aunque no se realizó la validación final, las funcionalidades desarrolladas están diseñadas para mejorar la eficiencia operativa de los talleres y optimizar la atención al cliente, lo que resulta clave para alcanzar los objetivos de 2,500 usuarios y un 90% de retención.
+
+Las hipótesis se consideran parcialmente validadas: la consulta del historial de vehículos podría mejorar la eficiencia de los mecánicos, y se proyecta que el sistema de gestión de horarios tenga un impacto positivo en la captación de usuarios. Sin embargo, un análisis preliminar identificó problemas como la falta de confirmaciones visuales y la ausencia de validaciones en tiempo real, lo que podría afectar la experiencia de usuario. A pesar de estos aspectos, las funcionalidades diseñadas apuntan a brindar claridad y utilidad general para los usuarios finales.
+
+Se recomienda implementar mensajes visuales de éxito tras crear mecánicos y añadir validaciones en tiempo real en los formularios para prevenir errores. También sería útil dividir las interfaces más cargadas para organizar mejor la información. Priorizar el desarrollo de funcionalidades que optimicen el trabajo en los talleres y explorar un sistema de salud vehicular como incentivo para suscripciones premium puede generar mayor valor. Finalmente, es crucial realizar validaciones futuras con usuarios para ajustar el producto según sus necesidades, asegurando así el cumplimiento de los objetivos de negocio y la rentabilidad del modelo de suscripción.
+
 ## Video About-the-Team
+A continuación, la versión final del video About The Team
+<img src="img/5/2/videos/AboutTheTeam.png">
+<br>
+[Enlace de Video About The Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c857_upc_edu_pe/EcB44jugRdZFtMsGBz3u1c0B-VWeicneB9hE8mSqu95D6g?e=qL7rpg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+[Enlace de Video About The Team YouTube](https://youtu.be/kVaMQdAs4-I)
 
 # Bibliografía
 
@@ -5114,10 +7568,16 @@ Zippia. (2022). Mechanic demographics and statistics in the US. [https://www.zip
 
 # Anexos
 
-Video de entrevistas needfinding: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ES8DkIjICzxHuXzDnPTW-6wBRsy-hmMG7HxQOQzXi_SNUw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7n5NrB
+Enlace del video de entrevistas needfinding: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ES8DkIjICzxHuXzDnPTW-6wBRsy-hmMG7HxQOQzXi_SNUw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7n5NrB](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ES8DkIjICzxHuXzDnPTW-6wBRsy-hmMG7HxQOQzXi_SNUw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7n5NrB)
 
-Link video de exposición TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/EfpIw0O8nRRKrA5lHsKhF38BB3svbPoMRGD3otzwXkWVQw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CpvTvl
+Enlace del video de exposición TB1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/EfpIw0O8nRRKrA5lHsKhF38BB3svbPoMRGD3otzwXkWVQw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CpvTvl](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/EfpIw0O8nRRKrA5lHsKhF38BB3svbPoMRGD3otzwXkWVQw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CpvTvl)
 
-Link del video de exposicion TP: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317638_upc_edu_pe/EcldD9sbqhREjEKdnRwblBIBkWP5ea10KvFgO9Q2lkNBUw?e=M06edE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Enlace del video de exposicion TP: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317638_upc_edu_pe/EcldD9sbqhREjEKdnRwblBIBkWP5ea10KvFgO9Q2lkNBUw?e=M06edE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317638_upc_edu_pe/EcldD9sbqhREjEKdnRwblBIBkWP5ea10KvFgO9Q2lkNBUw?e=M06edE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-Link repositorio: https://github.com/Open-Source-YaraSoftware/Informe/tree/main
+Link repositorio: [https://github.com/Open-Source-YaraSoftware/Informe/tree/main](https://github.com/Open-Source-YaraSoftware/Informe/tree/main)
+
+Enlace a la landing page: [https://landing-page-workshop-n-gine.netlify.app/](https://landing-page-workshop-n-gine.netlify.app/)
+
+Enlace al Frontend:  [https://workshop-n-gine-frontend.netlify.app/](https://workshop-n-gine-frontend.netlify.app/)
+
+Swagger del backend: [https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html/](https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html/)

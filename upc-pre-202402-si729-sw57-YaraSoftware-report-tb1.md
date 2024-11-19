@@ -6525,57 +6525,117 @@ A continuación, se presentan las evidencias de las pruebas realizadas:
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
-Para el sprint 3 se completaron historias de usuario relacionadas tanto al front end como el back end. A continuacion se muestran el funcionamiento de las historias de usuario mas importantes
+Para el sprint 3 se completaron historias de usuario relacionadas tanto al front end como el back end. A continuacion se presentan imagenes de las vistas implementadas, asi como los recursos y endpoints del Backend implementados.
 
 ### FrontEnd
 
-#### US-06	Clientes
+#### Lista de Clientes
 
 <img src="img/5/2/3/5/clients.png">
 
-#### US-07 	Detalles de clientes
+#### Detalle de clientes
 
 <img src="img/5/2/3/5/personal_information.png">
 
-#### US-08 	Intervenciones
+#### Lista de Intervenciones
 
 <img src="img/5/2/3/5/activity_log.png">
 
-#### US-11 Existencias de inventario
+#### Existencias de inventario
 
 <img src="img/5/2/3/5/inventory_stock.png">
 
-#### US-12 Solicitudes de inventario
+#### Solicitudes de inventario
 
 <img src="img/5/2/3/5/inventory_request.png">
 
-#### US-15 Mis tareas (líder)
+#### Mis tareas (líder)
 
 <img src="img/5/2/3/5/activities_assistant.png">
 
-#### US-17 Información de intervención
+#### Información de intervención
 
 <img src="img/5/2/3/5/activities_information.png">
 
-#### US-18	Diagnóstico de intervención
+#### Diagnóstico de intervención
 
 <img src="img/5/2/3/5/diagnostic.png">
 
-#### US-19	Ejecución de intervención
+#### Ejecución de intervención
 
 <img src="img/5/2/3/5/execution.png">
 
-#### US-20	Supervisión de intervención
+#### Supervisión de intervención
 
 <img src="img/5/2/3/5/supervision.png">
 
-#### US-22	Registro de intervenciones
+#### Registro de intervenciones
 
 <img src="img/5/2/3/5/interventions_list.png">
 
+### BackEnd
+#### Authentication resource
+![authentication.png](img%2F5%2F2%2F3%2F5%2Fauthentication.png)
+
+### Notifications resource
+![notificationsResource.png](img%2F5%2F2%2F3%2F5%2FnotificationsResource.png)
+
+### Profiles resource
+![profiles.png](img%2F5%2F2%2F3%2F5%2Fprofiles.png)
+
+### Vehicles resource
+![vehicleResource.png](img%2F5%2F2%2F3%2F5%2FvehicleResource.png)
+
+### Workshops resource
+![workshopsResource.png](img%2F5%2F2%2F3%2F5%2FworkshopsResource.png)
+
+### Devices resource
+![devicesResource.png](img%2F5%2F2%2F3%2F5%2FdevicesResource.png)
+
+### Task resource
+![tasksResource.png](img%2F5%2F2%2F3%2F5%2FtasksResource.png)
+
+Enlace para visualizar el video de explicación de los logros del sprint:
+[enlace](enlace)
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-### BackEnd
+Durante el desarrollo del sprint 3, los logros alcanzados en el backend fueron los siguientes:
+
+- **Funcionalidad de gestión de intervenciones**: Implementada con operaciones CRUD para intervenciones y tareas, manejo de estados (como "En progreso" y "Completado"), y validación de asignaciones mecánicas.
+- **Funcionalidad de gestión de talleres**: Incluye creación y administración de datos relacionados con clientes y mecánicos, así como la consulta de intervenciones por taller.
+- **Funcionalidad de gestión de productos**: Soporte para la administración del inventario del taller, creación, actualización y eliminación de productos.
+- **Funcionalidad de gestión de solicitudes de productos**: Implementada para permitir la creación, aceptación y rechazo de solicitudes de producto, con manejo adecuado de estados.
+- **Funcionalidad de gestión de vehículos**: Permite la administración de vehículos asociados a usuarios, con detalles completos y soporte CRUD.
+- **Funcionalidad de gestión de dispositivos IoT**: Para la vinculación de dispositivos con vehículos, proporcionando datos como códigos de error y estado en tiempo real.
+- **Funcionalidad de gestión de perfiles**: Incluye la creación, actualización y consulta de perfiles por usuario o mediante parámetros como DNI.
+- **Funcionalidad de gestión de notificaciones**: Mecanismo de notificaciones por usuario, con operaciones para marcar como leídas y gestionar estados.
+
+La siguiente tabla detalla las operaciones clave de los endpoints, seguidas de las imágenes que ilustran su ejecución.
+
+| Endpoint                            | Operación | Parámetros               | Descripción                                       | Ejemplo de Uso                                            | Explicación del Response                                       | 	 URL                                                                                        |
+|-------------------------------------|-----------|--------------------------|---------------------------------------------------|-----------------------------------------------------------|----------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| /api/v1/authentication/sign-up      | POST      | UserResource             | Crea un nuevo usuario en el sistema.              | POST /api/v1/authentication/sign-up                       | Crea un nuevo usuario en el sistema.                           | https://workshop-n-gine-platform-production.up.railway.app/api/v1/authentication/sign-up     |
+| /api/v1/authentication/sign-in      | POST      | SignInResource           | Inicia sesión en el sistema.                      | POST /api/v1/authentication/sign-in                       | Inicia sesión en el sistema.                                   | https://workshop-n-gine-platform-production.up.railway.app/api/v1/authentication/sign-in     |
+| /api/v1/notifications/{id}/read     | POST      | ReadNotificationResource | Marca una notificación como leída.                | POST /api/v1/notifications/{id}/read                      | Marca una notificación como leída.                             | https://workshop-n-gine-platform-production.up.railway.app/api/v1/notifications/{id}/read    |
+| /api/v1/notifications/{userId}      | GET       |                          | Obtiene todas las notificaciones de un usuario.   | GET /api/v1/notifications/{userId}                        | Obtiene todas las notificaciones de un usuario.                | https://workshop-n-gine-platform-production.up.railway.app/api/v1/notifications/{userId}     |
+| /api/v1/profiles/{id}               | GET       |                          | Obtiene un perfil por ID.                         | GET /api/v1/profiles/{id}                                 | Obtiene un perfil por ID.                                      | https://workshop-n-gine-platform-production.up.railway.app/api/v1/profiles/{id}              |
+| /api/v1/profiles/{dni}              | GET       |                          | Obtiene un perfil por DNI.                        | GET /api/v1/profiles/{dni}                                | Obtiene un perfil por DNI.                                     | https://workshop-n-gine-platform-production.up.railway.app/api/v1/profiles/{dni}             |
+| /api/v1/profiles                    | POST      | ProfileResource          | Crea un nuevo perfil.                             | POST /api/v1/profiles                                     | Crea un nuevo perfil.                                          | https://workshop-n-gine-platform-production.up.railway.app/api/v1/profiles                   |
+| /api/v1/profiles                    | PUT       | ProfileResource          | Actualiza un perfil existente.                    | PUT /api/v1/profiles                                      | Actualiza un perfil existente.                                 | https://workshop-n-gine-platform-production.up.railway.app/api/v1/profiles                   |
+| /api/v1/vehicles/client/{clientId}  | GET       |                          | Obtiene todos los vehículos de un cliente.        | GET /api/v1/vehicles/client/{clientId}                    | Obtiene todos los vehículos de un cliente.                     | https://workshop-n-gine-platform-production.up.railway.app/api/v1/vehicles/client/{clientId} |   
+| /api/v1/vehicles/{id}               | GET       |                          | Obtiene un vehículo por ID.                       | GET /api/v1/vehicles/{id}                                 | Obtiene un vehículo por ID.                                    | https://workshop-n-gine-platform-production.up.railway.app/api/v1/vehicles/{id}              |
+| /api/v1/vehicles                    | POST      | VehicleResource          | Crea un nuevo vehículo.                           | POST /api/v1/vehicles                                     | Crea un nuevo vehículo.                                        | https://workshop-n-gine-platform-production.up.railway.app/api/v1/vehicles                   |
+| /api/v1/workshop                    | POST      | WorkshopResource         | Crea un nuevo taller.                             | POST /api/v1/workshop                                     | Crea un nuevo taller.                                          | https://workshop-n-gine-platform-production.up.railway.app/api/v1/workshop                   |
+| /api/v1/workshop/client             | POST      | ClientResource           | Crea un nuevo cliente.                            | POST /api/v1/workshop/client                              | Crea un nuevo cliente.                                         | https://workshop-n-gine-platform-production.up.railway.app/api/v1/workshop/client            |
+| /api/v1/workshop/mechanic           | POST      | MechanicResource         | Crea un nuevo mecánico.                           | POST /api/v1/workshop/mechanic                            | Crea un nuevo mecánico.                                        | https://workshop-n-gine-platform-production.up.railway.app/api/v1/workshop/mechanic          |
+| /api/v1/workshop/clients            | GET       |                          | Obtiene todos los clientes de un taller.          | GET /api/v1/workshop/clients                              | Obtiene todos los clientes de un taller.                       | https://workshop-n-gine-platform-production.up.railway.app/api/v1/workshop/clients           |
+| /api/v1/workshop/mechanics          | GET       |                          | Obtiene todos los mecánicos de un taller.         | GET /api/v1/workshop/mechanics                            | Obtiene todos los mecánicos de un taller.                      | https://workshop-n-gine-platform-production.up.railway.app/api/v1/workshop/mechanics         |
+| /api/v1/workshop/{id}               | GET       |                          | Obtiene un taller por ID.                         | GET /api/v1/workshop/{id}                                 | Obtiene un taller por ID.                                      | https://workshop-n-gine-platform-production.up.railway.app/api/v1/workshop/{id}              |
+| /api/v1/iot_devices                 | GET       |                          | Obtiene todos los dispositivos IoT.               | GET /api/v1/iot_devices                                   | Obtiene todos los dispositivos IoT.                            | https://workshop-n-gine-platform-production.up.railway.app/api/v1/iot_devices                |
+| /api/v1/task                        | POST      | TaskResource             | Crea una nueva tarea.                             | POST /api/v1/task                                         | Crea una nueva tarea.                                          | https://workshop-n-gine-platform-production.up.railway.app/api/v1/task                       |
+
+Se prosigue con las imagenes de los endpoints en ejecución:
 
 ### Authentication
 #### Post en /api/v1/authentication/sign-up

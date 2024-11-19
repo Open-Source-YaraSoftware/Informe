@@ -7431,7 +7431,7 @@ Durante el desarrollo del sprint 3, los logros alcanzados en el backend fueron l
  | Interventions    | POST        | interventionId (path)                                                    | Confirm an intervention              | /interventions/{interventionId}/confirmations                                      | 200: Intervention confirmed successfully                                                                                                               | /interventions/{interventionId}/confirmations                             |
  | Interventions    | POST        | interventionId (path)                                                    | Cancel an intervention               | /interventions/{interventionId}/cancellations                                      | 200: Intervention canceled successfully                                                                                                                | /interventions/{interventionId}/cancellations                             |
 
-Se prosigue con las imagenes de los endpoints en ejecución:
+Se prosigue con algunas imagenes de los endpoints en ejecución:
 
 ![screenshot1](img/5/2/4/6/1.png)
 
@@ -7453,7 +7453,7 @@ Se prosigue con las imagenes de los endpoints en ejecución:
 
 Enlace del repositorio:
 
-[https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform](https://github.com/Web-Application-YaraSoftware/Workshop-N-GINE-Platform)
+[https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform](https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform)
 
 * Backend web services commits details
 
@@ -7476,102 +7476,53 @@ Enlace del repositorio:
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
-Para la entrega del cuarto sprint, se desplego la landing page completamente funcional. Cumpliendo los user stories correspondientes al entregable. De la misma forma se desplego la web application completa. Asimismo, se desplego el back-end completo.
-
-**Landing page**
-
-El despliegue de la landing page en Netlify se ha actualizado automáticamente después de haber realizado la fusión de la rama de desarrollo `develop` con la rama principal `main`.
-Este proceso ha permitido que la landing page se actualice automáticamente en la URL [https://web-workshop-n-gine-landing-page.netlify.app/](https://web-workshop-n-gine-landing-page.netlify.app/)
-
-![deploy-landing-page](img/5/2/4/7/landing-page/deploy.png)
-
-- Capturas de pantalla landing page:
-
-![landing1](img/5/2/4/7/landing-page/1.png)
-
-![landing2](img/5/2/4/7/landing-page/2.png)
-
-![landing3](img/5/2/4/7/landing-page/3.png)
-
-![landing4](img/5/2/4/7/landing-page/4.png)
-
-![landing5](img/5/2/4/7/landing-page/5.png)
+Para la entrega del cuarto sprint, no se despliega la landing page, porque ya fue completamente desarrollada en el sprint 3. De la misma forma se desplego la web application en gran parte completa. Asimismo, se desplego el back-end completo.
 
 **Frontend web application**
 
 El despliegue del frontend web application en Netlify se ha actualizado automáticamente después de haber realizado la fusión de la rama de desarrollo `develop` con la rama principal `main`.
 Este proceso ha permitido que la web application se actualice automáticamente en la URL [https://web-workshop-n-gine.netlify.app/](https://web-workshop-n-gine.netlify.app/)
 
-![deploy-frontend-web-application](img/5/2/4/7/frontend/deploy.png)
+![img.png](img%2F5%2F2%2F4%2F7%2Flanding-page%2Fimg.png)
 
-- Capturas de pantalla frontend web application:
+- Captura de pantalla frontend web application deployado:
 
-![frontend1](img/5/2/4/7/frontend/1.png)
-
-![frontend2](img/5/2/4/7/frontend/2.png)
-
-![frontend3](img/5/2/4/7/frontend/3.png)
-
-![frontend4](img/5/2/4/7/frontend/4.png)
-
-![frontend5](img/5/2/4/7/frontend/5.png)
+![img_2.png](img%2F5%2F2%2F4%2F7%2Fimg_2.png)
 
 * Backend web services
 
 El despliegue del backend web services en Railway se ha actualizado automáticamente después de haber realizado la fusión de la rama de desarrollo `develop` con la rama principal `main`.
-Este proceso ha permitido que el backend web services se actualice automáticamente en la URL [https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html](https://web-yara-workshop-n-gine.up.railway.app/swagger/index.html)
+Este proceso ha permitido que el backend web services se actualice automáticamente en la URL [https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html#/](https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html#/)
 
-![deploy-backend-web-services](img/5/2/4/7/backend/deploy.png)
+![img.png](img%2F5%2F2%2F4%2F7%2Fimg.png)
 
-- Capturas de pantalla backend web services:
+- Captura de pantalla backend web services deployado:
 
-![backend1](img/5/2/4/7/backend/1.png)
-
-![backend2](img/5/2/4/7/backend/2.png)
-
-![backend3](img/5/2/4/7/backend/3.png)
-
-![backend4](img/5/2/4/7/backend/4.png)
-
-![backend5](img/5/2/4/7/backend/5.png)
+![img_1.png](img%2F5%2F2%2F4%2F7%2Fimg_1.png)
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
 | Alumno                            | Actividad                                                                         |
 |-----------------------------------|-----------------------------------------------------------------------------------|
 | Gutiérrez Soto, Jhosepmyr Orlando | Desarrollo del back end, y mejora y reestructuración de componentes del front end |
-| Hernández Tuiro, Eric Ernesto     | Reestructuración y mejora de componentes del front end                            |
-| Riva Rodríguez, Elmer Augusto     | Reestructuración de componentes del front end                                     |
-
-* Repositorio de Landing page
-
-![landing-page-repository-1](img/5/2/4/8/landing-page/1.png)
-
-![landing-page-repository-2](img/5/2/4/8/landing-page/2.png)
-
-![landing-page-repository-3](img/5/2/4/8/landing-page/3.png)
-
-![landing-page-repository-4](img/5/2/4/8/landing-page/4.png)
+| Hernández Tuiro, Eric Ernesto     | Reestructuración y mejora de componentes del front end, ya porte en backend       |
+| Riva Rodríguez, Elmer Augusto     | Reestructuración de componentes del front end,  aporte en backend                 |
 
 * Repositorio del Frontend Web Application
 
-![frontend-1](img/5/2/4/8/frontend/1.png)
-
-![frontend-2](img/5/2/4/8/frontend/2.png)
-
-![frontend-3](img/5/2/4/8/frontend/3.png)
-
-![frontend-4](img/5/2/4/8/frontend/4.png)
+![img.png](img%2F5%2F2%2F4%2F8%2Fimg.png)
+![img_1.png](img%2F5%2F2%2F4%2F8%2Fimg_1.png)
+![img.png](img%2F5%2F2%2F4%2F8%2Flanding-page%2Fimg.png)
+![img_1.png](img%2F5%2F2%2F4%2F8%2Flanding-page%2Fimg_1.png)
+![img_2.png](img%2F5%2F2%2F4%2F8%2Flanding-page%2Fimg_2.png)
 
 * Repositorio del Backend Web Services
 
-![backend-1](img/5/2/4/8/backend/1.png)
-
-![backend-2](img/5/2/4/8/backend/2.png)
-
-![backend-3](img/5/2/4/8/backend/3.png)
-
-![backend-4](img/5/2/4/8/backend/4.png)
+![img.png](img%2F5%2F2%2F4%2F8%2Fbackend%2Fimg.png)
+![img_1.png](img%2F5%2F2%2F4%2F8%2Fbackend%2Fimg_1.png)
+![img_2.png](img%2F5%2F2%2F4%2F8%2Fbackend%2Fimg_2.png)
+![img_3.png](img%2F5%2F2%2F4%2F8%2Fbackend%2Fimg_3.png)
+![img_4.png](img%2F5%2F2%2F4%2F8%2Fbackend%2Fimg_4.png)
 
 ## 5.3. Validation Interviews
 

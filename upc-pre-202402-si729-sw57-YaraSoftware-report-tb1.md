@@ -6262,7 +6262,8 @@ De esa manera, se completaron todas las historias de usuario y tareas técnicas 
 
 A continuación, se presenta la evidencia de desarrollo para la revisión del sprint 3:
 
-#### Commits FrontEnd Application
+#### Commits FrontEnd Application 
+[https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-FrontEnd/commits/develop/](https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-FrontEnd/commits/develop/)
 
 | Branch                            | Id Commit                                | Cabecera                                                                                                                                                             | Cuerpo                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |-----------------------------------|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -6379,6 +6380,7 @@ A continuación, se presenta la evidencia de desarrollo para la revisión del sp
 | feature/confirmation-dialog       | 5d2fffa5c22e5fffa44f7dfb68c135d36be1204d | feat(confirmation-dialog): add base confirmation dialog component                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
 #### Commits BackEnd Application
+[https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform/commits/develop/](https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform/commits/develop/)
 
 | Branch                          | Id Commit                                | Cabecera                                                                                                                       | Cuerpo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |---------------------------------|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -6527,6 +6529,15 @@ A continuación, se presentan las evidencias de las pruebas realizadas:
 
 Para el sprint 3 se completaron historias de usuario relacionadas tanto al front end como el back end. A continuacion se presentan imagenes de las vistas implementadas, asi como los recursos y endpoints del Backend implementados.
 
+### Landing Page
+#### About the product video
+![AboutTheProduct.png](img%2F5%2F2%2F3%2F5%2FAboutTheProduct.png)
+
+#### About the team video
+![AboutTheTeam.png](img%2F5%2F2%2F3%2F5%2FAboutTheTeam.png)
+
+**Enlace para visualizar el video explicativo de la landing page**: [https://drive.google.com/file/d/1eiAHfb8HoGUVidkvYjMNT-1JM9geaL7P/view?usp=drive_link](https://drive.google.com/file/d/1eiAHfb8HoGUVidkvYjMNT-1JM9geaL7P/view?usp=drive_link)
+
 ### FrontEnd
 
 #### Lista de Clientes
@@ -6573,6 +6584,8 @@ Para el sprint 3 se completaron historias de usuario relacionadas tanto al front
 
 <img src="img/5/2/3/5/interventions_list.png">
 
+**Enlace para visualizar el video explicativo del FrontEnd**: [https://drive.google.com/file/d/19AXQdGpMMfOzpdvj2R1OeLQ9wNpG4QXS/view?usp=drive_link](https://drive.google.com/file/d/19AXQdGpMMfOzpdvj2R1OeLQ9wNpG4QXS/view?usp=drive_link)
+
 ### BackEnd
 #### Authentication resource
 ![authentication.png](img%2F5%2F2%2F3%2F5%2Fauthentication.png)
@@ -6595,8 +6608,7 @@ Para el sprint 3 se completaron historias de usuario relacionadas tanto al front
 ### Task resource
 ![tasksResource.png](img%2F5%2F2%2F3%2F5%2FtasksResource.png)
 
-Enlace para visualizar el video de explicación de los logros del sprint:
-[enlace](enlace)
+**Enlace para visualizar el video de explicación de los logros en el backend:** [https://drive.google.com/file/d/1sMVIRohR3GbNkfEdoQCGJLUUR29tffAI/view?usp=drive_link](https://drive.google.com/file/d/1sMVIRohR3GbNkfEdoQCGJLUUR29tffAI/view?usp=drive_link)
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -6697,60 +6709,59 @@ Se prosigue con las imagenes de los endpoints en ejecución:
 #### Get en /api/v1/iot_devices
 <img src="img/5/2/3/6/get_iot_devices.png">
 
-### Task
-<img src="img/5/2/3/6/task.png">
-
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
+Para la entrega del 3 sprint, se desplegó la nueva versión del frontend web application, también de la landing page y primera versión del backend web services.
 
-Posterior al desarrollo completo del sprint 3, se procedió a utilizar Railway para el despliegue total del backend en la web.
+**Despliegue de la Landing page en Netlify**
+El despliegue de la landing page en Netlify se ha actualizado automáticamente después de haber realizado la fusión de la rama de desarrollo `develop` con la rama principal `main`.
+Este proceso ha permitido que la landing page se actualice automáticamente en la URL [https://open-workshop-n-gine-landing-page.netlify.app/index-es.html](https://open-workshop-n-gine-landing-page.netlify.app/index-es.html)
 
-### LINK DEL BACKEND DESPLEGADO: 
-[Documentación Swagger - Workshop N-GINE]()
+![deployLanding.png](img%2F5%2F2%2F3%2F7%2FdeployLanding.png)
 
-#### Acceso a Railway: 
-Inicia sesión en Railway preferiblemente utilizando una cuenta de GitHub para facilitar la integración continua. Si aún no tienes cuenta, créala y luego inicia sesión.
-<img src="img/5/2/3/7/ingresarRailway.png">
+- Captura de pantalla landing page desplegada en Netlify:
+![landingDesplegada.png](img%2F5%2F2%2F3%2F7%2FlandingDesplegada.png)
 
-#### Creación del Proyecto y Configuración de la Base de Datos
-Crea un nuevo proyecto en Railway. Como primer paso, configura la base de datos seleccionando MySQL. Esto creará automáticamente una instancia de MySQL para tu proyecto.
-<img src="img/5/2/3/7/newProject.png">\
-
-#### Obtención de Credenciales de la Base de Datos
-Una vez creada la base de datos, accede a los detalles de la instancia para obtener las credenciales necesarias, incluyendo la URL del host, puerto, nombre de usuario y contraseña. Estos datos serán esenciales para configurar la conexión desde tu API.
-<img src="img/5/2/3/7/getUrl.png">
-
-#### Configuración de la Conexión en el Proyecto Web API
-En el proyecto de la web API, configura la cadena de conexión DefaultConnection con las credenciales de la base de datos que obtuviste en el paso anterior. Asegúrate de que esta configuración esté correcta para evitar problemas de conexión en el despliegue.
-<img src="img/5/2/3/7/addValues.png">
-
-#### Cambiar Version de Java
-En la raíz del proyecto, acceder al archivo pon.xml. Alli ir a la propiedad java.version y cambiarla de 22 a 17. Es importante este cambio de version para que se pueda realizar el despliegue
-<img src="img/5/2/3/7/changeJava.png">
-
-#### Agregar el Proyecto desde GitHub a Railway
-En Railway, dentro del proyecto, agrega un nuevo servicio. Selecciona la opción para vincular un repositorio de GitHub y elige el repositorio de tu proyecto de la web API.
-<img src="img/5/2/3/7/newService.png">
-
-#### Selección del Repositorio de la Web API
-Una vez que hayas vinculado GitHub, selecciona el repositorio específico de la web API. Railway comenzará a construir el proyecto.
-<img src="img/5/2/3/7/repository.png">
-
+**Despliegue del Backend en Railway**
 #### Cargar y Configurar el Proyecto en Railway
 Espera a que Railway complete la carga y construcción del proyecto. Una vez finalizado, habilita el puerto de acceso público y establece un dominio personalizado o acorde a las configuraciones de inicio para tu API.
-<img src="img/5/2/3/7/deploy.png">
 
+![img_2.png](img%2F5%2F2%2F3%2F7%2Fimg_2.png)
 
-Al finalizar estos pasos, la URL de la web API estará lista para su uso y conexión con el frontend del proyecto. Es importante destacar que cualquier cambio que realices en la rama principal del repositorio de GitHub se reflejará automáticamente en el despliegue de la web API, lo cual permite mantener el proyecto actualizado sin necesidad de redesplegar manualmente.
+Al realizar lo anterior, la URL de la web API estará lista para su uso y conexión con el frontend del proyecto. Es importante destacar que cualquier cambio que realices en la rama principal del repositorio de GitHub se reflejará automáticamente en el despliegue de la web API, lo cual permite mantener el proyecto actualizado sin necesidad de redesplegar manualmente.
 
 Enlace al Swagger
 [https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html/](https://workshop-n-gine-platform-production.up.railway.app/api/v1/swagger-ui/index.html/)
 
+- Captura de pantalla backend desplegado en Railway:
+![BackendDesplegado.png](img%2F5%2F2%2F3%2F7%2FBackendDesplegado.png)
+
+**Despliegue del Frontend en Netlify**
+
+El despliegue del frontend web application en Netlify se ha actualizado automáticamente después de haber realizado la fusión de la rama de desarrollo `develop` con la rama principal `main`.
+Este proceso ha permitido que la web application se actualice automáticamente en la URL [https://open-workshop-n-gine.netlify.app/](https://open-workshop-n-gine.netlify.app/)
+
+![img.png](img%2F5%2F2%2F3%2F7%2Fimg.png)
+
+- Captura de pantalla frontend web application:
+![img_1.png](img%2F5%2F2%2F3%2F7%2Fimg_1.png)
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
+
+| Alumno                             | Actividad                                                                                                                             |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Gutiérrez Soto, Jhosepmyr Orlando  | Desarrollo del back end, mejora y reestructuración de componentes del front end, y agregar videos About The Teman y About The Product |
+| Hernández Tuiro, Eric Ernesto      | Desarrollo del back end, y mejora de componentes del front end                                                                        |
+| Riva Rodríguez, Elmer Augusto      | Desarrollo del back end, y mejora y reestructuración de componentes del front end                                                     |
+| Quiñonez Tintaya Jojan Jorge       | Desarrollo del back end, y mejora de componentes del front end                                                                        |
+
 #### Front End Insights
 <img src="img/5/2/1/8/TB2_FrontEnd.png">
 
 #### Back End Insights
 <img src="img/5/2/1/8/TB2_BackEnd.png">
+
+#### Landing page insights
+![img.png](img%2F5%2F2%2F1%2F8%2Fimg.png)
 
 <div style="page-break-after: always;"></div>
 

@@ -37,70 +37,122 @@
 </body>
 
 # Registro de Versiones del Informe
-| Versión | Fecha | Autor | Descripción de la modificación |
-| ----------- | ----------- | ----------- | ----------- |
-| 0.0.0 | 20/08/2024 | Álvaro Orozco Torres | Se agrega la carátula y la tabla de control de versiones |
-| 1.0.0 | 01/09/2024 | Henry Reaño Delgadillo | Se agrega la primera sección del Capítulo I: Introducción |
-| 1.1.0 | 01/09/2024 | Álvaro Orozco Torres | Se agrega la segunda y tercera sección del Capítulo I: Introducción<br>Se agrega la bibliografía |
-| 2.0.0 | 01/09/2024 | Álvaro Orozco Torres | Se agrega la primera y segunda sección del Capítulo II: Requirements Elicitation & Analysis |
-| 2.1.0 | 01/09/2024 | Henry Reaño Delgadillo | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis | 
-| 2.2.0 | 02/09/2024 | Álvaro Orozco Torres | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis | 
-| 2.2.1 | 02/09/2024 | Álvaro Orozco Torres | Se corrige la omisión de añadir el índice correspondiente a las nuevas secciones | 
-| 2.2.2 | 02/09/2024 | Álvaro Orozco Torres | Se corrige el formato de presentación de el As-Is Scenario Mapping |
-| 2.2.3 | 02/09/2024 | Henry Reaño Delgadillo | Se agrega el link de las entrevistas de Needfinding en la sección Anexos |
-| 2.2.4 | 02/09/2024 | Henry Reaño Delgadillo | Se agrega la foto del dueño de taller Enrique Reaño en Registro de entrevistas |
-| 2.2.5 | 03/09/2024 | Henry Reaño Delgadillo | Se agrega tres nuevos conceptos en Ubiquitous Language |
-| 3.0.0 | 05/09/2024 | Elmer Riva Rodriguez | Se agrega la estructura completa del informe |
-| 3.1.0 | 06/09/2024 | Álvaro Orozco Torres | Se agrega la primera sección del Capítulo III: Requirements Specification |
-| 3.2.0 | 06/09/2024 | Álvaro Orozco Torres | Se agrega la segunda sección del Capítulo III: Requirements Specification |
-| 3.3.0 | 06/09/2024 | Henry Reaño Delgadillo | Se agrega la tercera sección del Capítulo III: Requirements Specification |
-| 3.4.0 | 06/09/2024 | Henry Reaño Delgadillo | Se agrega la última sección del Capítulo III: Requirements Specification |
-| 4.1.1.1 | 06/09/2024 | Elmer Riva | Se agregan enlaces de Figma y wireframes para pantallas de inicio de sesión y creación de cuenta |
-| 4.3.1.1 | 08/09/2024 | Jhosepmyr | Se agregan imágenes de wireframes para la landing page |
-| 4.3.2.1 | 08/09/2024 | Jhosepmyr | Se agregan wireframes y secciones de mock-up en el diseño de la landing page |
-| 4.4.1.1 | 08/09/2024 | Elmer Riva | Se actualizan imágenes y descripciones de wireframes para el cliente del taller |
-| 4.4.1.2 | 08/09/2024 | Elmer Riva | Se actualizan imágenes y descripciones de wireframes para el mecánico |
-| 4.4.1.3 | 08/09/2024 | Elmer Riva | Se actualizan imágenes y descripciones de wireframes para el dueño del taller |
-| 4.4.1.4 | 06/09/2024 | Elmer Riva | Se agregan imágenes de wireframes para la gestión de inventario, métricas y notificaciones |
-| 4.4.1.5 | 06/09/2024 | Elmer Riva | Se agregan wireframes relacionados con el cliente del taller |
-| 4.4.1.6 | 06/09/2024 | Jhosepmyr | Se agregan wireframes para la sección de registro de nuevo cliente |
-| 4.4.1.7 | 06/09/2024 | Elmer Riva | Se agregan wireframes relacionados con la gestión del dueño del taller |
-| 4.4.1.8 | 06/09/2024 | Elmer Riva | Se agregan wireframes para la sección vacía de personal |
-| 4.4.1.9 | 06/09/2024 | Elmer Riva | Se agregan wireframes para la edición de la información del personal |
-| 4.4.1.10 | 06/09/2024 | Jhosepmyr | Se agregan wireframes para la gestión de personal y el registro de nuevos mecánicos |
-| 4.4.2.1 | 08/09/2024 | Elmer Riva | Se agregan wireflows para la web en Desktop Web Browser |
-| 4.4.2.2 | 08/09/2024 | Elmer Riva | Se actualizan imágenes y descripciones de wireflow |
-| 4.4.2.3 | 07/09/2024 | Jhosepmyr | Se agregan wireflows para los objetivos de usuario: registrar un vehículo, acceder al historial de intervenciones del auto, acceder a la información del dispositivo IoT y agendar una cita |
-| 4.4.2.4 | 07/09/2024 | Elmer Riva | Se agregan wireflows para las tareas del mecánico y la gestión de intervenciones |
-| 4.4.2.5 | 06/09/2024 | Eric Hernandez | Se agregan wireflows para las interacciones del dueño del taller y el cliente |
-| 4.4.2.6 | 06/09/2024 | Jhosepmyr | Se eliminan datos duplicados en una ubicación incorrecta |
-| 4.4.2.7 | 06/09/2024 | Jhosepmyr | Se agregan wireflows para la creación de cuenta, inicio de sesión, gestión de empleados, registro de clientes y vehículos, visualización y gestión de información de empleados y clientes |
-| 4.4.3.1 | 08/09/2024 | Elmer Riva | Se agregan wireflows para las interacciones del cliente y el taller |
-| 4.5.1.1 | 08/09/2024 | Elmer Riva | Se actualizan los enlaces a los videos explicativos de prototipos de aplicaciones web para desktop y móvil |
-| 4.5.2.1 | 07/09/2024 | Elmer Riva | Se agregan enlaces a los prototipos de aplicaciones web para cada user persona |
-| 4.6.1.1 | 07/09/2024 | Elmer Riva | Se agregan imágenes del modelo C4 en la arquitectura software dirigida por el dominio |
-| 4.6.2.1 | 07/09/2024 | Elmer Riva | Se agregan diagramas de contexto y contenedores en la arquitectura software dirigida por el dominio |
-| 4.6.3.1 | 07/09/2024 | Elmer Riva | Se agrega el diagrama de componentes de la arquitectura software dirigida por el dominio |
-| 4.7.1.1 | 07/09/2024 | Elmer Riva | Se agrega el diagrama de clases |
-| 4.7.2.1 | 08/09/2024 | Elmer Riva | Se actualiza el diccionario de clases |
-| 4.8.1.1 | 07/09/2024 | Jhosepmyr | Se agrega el diagrama de base de datos |
-| 5.0.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega una sección del Capítulo V: Product Implementation, Validation & Deployment |
-| 5.1.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a gestión de código fuente | 
-| 5.2.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección correspondiente a convenciones en la codificación y configuración de despliegue |
-| 5.3.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega la sección de sprint planning 1 y sprint backlog 1 | 
-| 5.4.0 | 07/09/2024 | Henry Reaño Delgadillo | Se agrega las secciones de evidencias e insights del sprint 1 |
-| 5.4.1 | 08/09/2024 | Henry Reaño Delgadillo | Se agrega nuevas fotos relacionadas a la landing page y correción de errores en los insights |
-| 5.5.0 | 27/09/2024 | Henry Reaño Delgadillo | Se elimino la participación del miembro retirado del equipo |
-| 5.5.1 | 27/09/2024 | Henry Reaño Delgadillo | Se elimino imágenes innecesarias de la carpeta img |
-| 5.5.2 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigieron los User Persona y se añadieron descripciones a los mismos |
-| 5.5.3 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigieron los User Journey Mapping y se añadieron descripciones a los mismos |
-| 5.5.4 | 27/09/2024 | Henry Reaño Delgadillo | Se agrega el Student Outcome hasta trabajo parcial |
-| 5.6.0 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigieron los AS-IS y añadieron descripciones a los mismos |
-| 5.6.1 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigieron los TO-BE y añadieron descripciones a los mismos |
-| 5.6.2 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigio el Impact Mapping y se añadio una descripción para el mismo |
-| 5.6.3 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigio los criterios de aceptación de los user stories |
-| 5.6.4 | 27/09/2024 | Henry Reaño Delgadillo | Se corrigio la priorización del product backlog |
-| 5.7.0 | 27/09/2024 | Henry Reaño Delgadillo | Se agrega el sprint 2 |
+| Versión  | Fecha | Autor                          | Descripción de la modificación                                                                                                                                                              |
+|----------| ----------- |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0.0.0    | 20/08/2024 | Álvaro Orozco Torres           | Se agrega la carátula y la tabla de control de versiones                                                                                                                                    |
+| 1.0.0    | 01/09/2024 | Henry Reaño Delgadillo         | Se agrega la primera sección del Capítulo I: Introducción                                                                                                                                   |
+| 1.1.0    | 01/09/2024 | Álvaro Orozco Torres           | Se agrega la segunda y tercera sección del Capítulo I: Introducción<br>Se agrega la bibliografía                                                                                            |
+| 2.0.0    | 01/09/2024 | Álvaro Orozco Torres           | Se agrega la primera y segunda sección del Capítulo II: Requirements Elicitation & Analysis                                                                                                 |
+| 2.1.0    | 01/09/2024 | Henry Reaño Delgadillo         | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis                                                                                           | 
+| 2.2.0    | 02/09/2024 | Álvaro Orozco Torres           | Se agrega más apartados a la segunda sección del Capítulo II: Requirements Elicitation & Analysis                                                                                           | 
+| 2.2.1    | 02/09/2024 | Álvaro Orozco Torres           | Se corrige la omisión de añadir el índice correspondiente a las nuevas secciones                                                                                                            | 
+| 2.2.2    | 02/09/2024 | Álvaro Orozco Torres           | Se corrige el formato de presentación de el As-Is Scenario Mapping                                                                                                                          |
+| 2.2.3    | 02/09/2024 | Henry Reaño Delgadillo         | Se agrega el link de las entrevistas de Needfinding en la sección Anexos                                                                                                                    |
+| 2.2.4    | 02/09/2024 | Henry Reaño Delgadillo         | Se agrega la foto del dueño de taller Enrique Reaño en Registro de entrevistas                                                                                                              |
+| 2.2.5    | 03/09/2024 | Henry Reaño Delgadillo         | Se agrega tres nuevos conceptos en Ubiquitous Language                                                                                                                                      |
+| 3.0.0    | 05/09/2024 | Elmer Riva Rodriguez           | Se agrega la estructura completa del informe                                                                                                                                                |
+| 3.1.0    | 06/09/2024 | Álvaro Orozco Torres           | Se agrega la primera sección del Capítulo III: Requirements Specification                                                                                                                   |
+| 3.2.0    | 06/09/2024 | Álvaro Orozco Torres           | Se agrega la segunda sección del Capítulo III: Requirements Specification                                                                                                                   |
+| 3.3.0    | 06/09/2024 | Henry Reaño Delgadillo         | Se agrega la tercera sección del Capítulo III: Requirements Specification                                                                                                                   |
+| 3.4.0    | 06/09/2024 | Henry Reaño Delgadillo         | Se agrega la última sección del Capítulo III: Requirements Specification                                                                                                                    |
+| 4.1.1.1  | 06/09/2024 | Elmer Riva                     | Se agregan enlaces de Figma y wireframes para pantallas de inicio de sesión y creación de cuenta                                                                                            |
+| 4.3.1.1  | 08/09/2024 | Jhosepmyr                      | Se agregan imágenes de wireframes para la landing page                                                                                                                                      |
+| 4.3.2.1  | 08/09/2024 | Jhosepmyr                      | Se agregan wireframes y secciones de mock-up en el diseño de la landing page                                                                                                                |
+| 4.4.1.1  | 08/09/2024 | Elmer Riva                     | Se actualizan imágenes y descripciones de wireframes para el cliente del taller                                                                                                             |
+| 4.4.1.2  | 08/09/2024 | Elmer Riva                     | Se actualizan imágenes y descripciones de wireframes para el mecánico                                                                                                                       |
+| 4.4.1.3  | 08/09/2024 | Elmer Riva                     | Se actualizan imágenes y descripciones de wireframes para el dueño del taller                                                                                                               |
+| 4.4.1.4  | 06/09/2024 | Elmer Riva                     | Se agregan imágenes de wireframes para la gestión de inventario, métricas y notificaciones                                                                                                  |
+| 4.4.1.5  | 06/09/2024 | Elmer Riva                     | Se agregan wireframes relacionados con el cliente del taller                                                                                                                                |
+| 4.4.1.6  | 06/09/2024 | Jhosepmyr                      | Se agregan wireframes para la sección de registro de nuevo cliente                                                                                                                          |
+| 4.4.1.7  | 06/09/2024 | Elmer Riva                     | Se agregan wireframes relacionados con la gestión del dueño del taller                                                                                                                      |
+| 4.4.1.8  | 06/09/2024 | Elmer Riva                     | Se agregan wireframes para la sección vacía de personal                                                                                                                                     |
+| 4.4.1.9  | 06/09/2024 | Elmer Riva                     | Se agregan wireframes para la edición de la información del personal                                                                                                                        |
+| 4.4.1.10 | 06/09/2024 | Jhosepmyr                      | Se agregan wireframes para la gestión de personal y el registro de nuevos mecánicos                                                                                                         |
+| 4.4.2.1  | 08/09/2024 | Elmer Riva                     | Se agregan wireflows para la web en Desktop Web Browser                                                                                                                                     |
+| 4.4.2.2  | 08/09/2024 | Elmer Riva                     | Se actualizan imágenes y descripciones de wireflow                                                                                                                                          |
+| 4.4.2.3  | 07/09/2024 | Jhosepmyr                      | Se agregan wireflows para los objetivos de usuario: registrar un vehículo, acceder al historial de intervenciones del auto, acceder a la información del dispositivo IoT y agendar una cita |
+| 4.4.2.4  | 07/09/2024 | Elmer Riva                     | Se agregan wireflows para las tareas del mecánico y la gestión de intervenciones                                                                                                            |
+| 4.4.2.5  | 06/09/2024 | Eric Hernandez                 | Se agregan wireflows para las interacciones del dueño del taller y el cliente                                                                                                               |
+| 4.4.2.6  | 06/09/2024 | Jhosepmyr                      | Se eliminan datos duplicados en una ubicación incorrecta                                                                                                                                    |
+| 4.4.2.7  | 06/09/2024 | Jhosepmyr                      | Se agregan wireflows para la creación de cuenta, inicio de sesión, gestión de empleados, registro de clientes y vehículos, visualización y gestión de información de empleados y clientes   |
+| 4.4.3.1  | 08/09/2024 | Elmer Riva                     | Se agregan wireflows para las interacciones del cliente y el taller                                                                                                                         |
+| 4.5.1.1  | 08/09/2024 | Elmer Riva                     | Se actualizan los enlaces a los videos explicativos de prototipos de aplicaciones web para desktop y móvil                                                                                  |
+| 4.5.2.1  | 07/09/2024 | Elmer Riva                     | Se agregan enlaces a los prototipos de aplicaciones web para cada user persona                                                                                                              |
+| 4.6.1.1  | 07/09/2024 | Elmer Riva                     | Se agregan imágenes del modelo C4 en la arquitectura software dirigida por el dominio                                                                                                       |
+| 4.6.2.1  | 07/09/2024 | Elmer Riva                     | Se agregan diagramas de contexto y contenedores en la arquitectura software dirigida por el dominio                                                                                         |
+| 4.6.3.1  | 07/09/2024 | Elmer Riva                     | Se agrega el diagrama de componentes de la arquitectura software dirigida por el dominio                                                                                                    |
+| 4.7.1.1  | 07/09/2024 | Elmer Riva                     | Se agrega el diagrama de clases                                                                                                                                                             |
+| 4.7.2.1  | 08/09/2024 | Elmer Riva                     | Se actualiza el diccionario de clases                                                                                                                                                       |
+| 4.8.1.1  | 07/09/2024 | Jhosepmyr                      | Se agrega el diagrama de base de datos                                                                                                                                                      |
+| 5.0.0    | 07/09/2024 | Henry Reaño Delgadillo         | Se agrega una sección del Capítulo V: Product Implementation, Validation & Deployment                                                                                                       |
+| 5.1.0    | 07/09/2024 | Henry Reaño Delgadillo         | Se agrega la sección correspondiente a gestión de código fuente                                                                                                                             | 
+| 5.2.0    | 07/09/2024 | Henry Reaño Delgadillo         | Se agrega la sección correspondiente a convenciones en la codificación y configuración de despliegue                                                                                        |
+| 5.3.0    | 07/09/2024 | Henry Reaño Delgadillo         | Se agrega la sección de sprint planning 1 y sprint backlog 1                                                                                                                                | 
+| 5.4.0    | 07/09/2024 | Henry Reaño Delgadillo         | Se agrega las secciones de evidencias e insights del sprint 1                                                                                                                               |
+| 5.4.1    | 08/09/2024 | Henry Reaño Delgadillo         | Se agrega nuevas fotos relacionadas a la landing page y correción de errores en los insights                                                                                                |
+| 5.5.0    | 27/09/2024 | Henry Reaño Delgadillo         | Se elimino la participación del miembro retirado del equipo                                                                                                                                 |
+| 5.5.1    | 27/09/2024 | Henry Reaño Delgadillo         | Se elimino imágenes innecesarias de la carpeta img                                                                                                                                          |
+| 5.5.2    | 27/09/2024 | Henry Reaño Delgadillo         | Se corrigieron los User Persona y se añadieron descripciones a los mismos                                                                                                                   |
+| 5.5.3    | 27/09/2024 | Henry Reaño Delgadillo         | Se corrigieron los User Journey Mapping y se añadieron descripciones a los mismos                                                                                                           |
+| 5.5.4    | 27/09/2024 | Henry Reaño Delgadillo         | Se agrega el Student Outcome hasta trabajo parcial                                                                                                                                          |
+| 5.6.0    | 27/09/2024 | Henry Reaño Delgadillo         | Se corrigieron los AS-IS y añadieron descripciones a los mismos                                                                                                                             |
+| 5.6.1    | 27/09/2024 | Henry Reaño Delgadillo         | Se corrigieron los TO-BE y añadieron descripciones a los mismos                                                                                                                             |
+| 5.6.2    | 27/09/2024 | Henry Reaño Delgadillo         | Se corrigio el Impact Mapping y se añadio una descripción para el mismo                                                                                                                     |
+| 5.6.3    | 27/09/2024 | Henry Reaño Delgadillo         | Se corrigio los criterios de aceptación de los user stories                                                                                                                                 |
+| 5.6.4    | 27/09/2024 | Henry Reaño Delgadillo         | Se corrigio la priorización del product backlog                                                                                                                                             |
+| 5.7.0    | 27/09/2024 | Henry Reaño Delgadillo         | Se agrega el sprint 2                                                                                                                                                                       |
+| 6.0.0    | 25/09/2024 | Elmer Augusto Riva Rodriguez   | Se agrega resultado de estudiantes para presentación parcial                                                                                                                                |
+| 6.1.0    | 25/09/2024 | Elmer Augusto Riva Rodriguez   | Se agregan archivos y colaboraciones para insight de colaboración                                                                                                                           |
+| 6.2.0    | 25/09/2024 | Elmer Augusto Riva Rodriguez   | Se agrega enlace de exposición a Anexos                                                                                                                                                     |
+| 6.3.0    | 31/10/2024 | Elmer Augusto Riva Rodriguez   | Planificación de sprint y backlog del sprint 3                                                                                                                                              |
+| 6.4.0    | 31/10/2024 | Eric Hernández                 | Evidencia de desarrollo para revisión de sprint 2                                                                                                                                           |
+| 6.5.0    | 31/10/2024 | Elmer Augusto Riva Rodriguez   | Agrega tareas al sprint backlog 3                                                                                                                                                           |
+| 6.6.0    | 31/10/2024 | Eric Hernández                 | Evidencia de desarrollo para revisión de sprint                                                                                                                                             |
+| 6.7.0    | 31/10/2024 | Elmer Augusto Riva Rodriguez   | Documentación de servicios para revisión de sprint                                                                                                                                          |
+| 6.8.0    | 31/10/2024 | Elmer Augusto Riva Rodriguez   | Evidencia de despliegue de software para revisión de sprint                                                                                                                                 |
+| 6.9.0    | 31/10/2024 | Elmer Augusto Riva Rodriguez   | Se agregan videos de 'About The Product', 'About The Team', y exposición                                                                                                                    |
+| 7.0.0    | 15/11/2024 | Jhosepmyr Gutierrez Soto       | Se actualizan los criterios de aceptación de las historias de usuario                                                                                                                       |
+| 7.1.0    | 15/11/2024 | Jhosepmyr Gutierrez Soto       | Se agregan wire flows faltantes                                                                                                                                                             |
+| 7.2.0    | 15/11/2024 | Jhosepmyr Gutierrez Soto       | Se añaden capturas de pantalla de videos de prototipos y se actualizan enlaces                                                                                                              |
+| 7.3.0    | 15/11/2024 | Jhosepmyr Gutierrez Soto       | Se actualiza la imagen del diagrama de clases y el diccionario de clases DDD                                                                                                                |
+| 7.4.0    | 15/11/2024 | Jhosepmyr Gutierrez Soto       | Se actualiza el diagrama de base de datos relacionado con DDD                                                                                                                               |
+| 7.5.0    | 15/11/2024 | Eric Hernández                 | Se agrega configuración adicional del entorno de desarrollo de software                                                                                                                     |
+| 7.6.0    | 15/11/2024 | Eric Hernández                 | Se mejora la sección de gestión de código fuente                                                                                                                                            |
+| 7.7.0    | 15/11/2024 | Eric Hernández                 | Se añaden más convenciones relacionadas con el estado                                                                                                                                       |
+| 7.8.0    | 15/11/2024 | Eric Hernández                 | Se agregan más detalles a la configuración de despliegue de software                                                                                                                        |
+| 7.9.0    | 15/11/2024 | Eric Hernández                 | Se mejora el objetivo del sprint, se actualiza la tabla de Trello y se agregan commits faltantes                                                                                            |
+| 8.0.0    | 15/11/2024 | Eric Hernández                 | Se agregan pruebas y evidencias de ejecución para revisión de sprint                                                                                                                        |
+| 8.1.0    | 15/11/2024 | Jhosepmyr Gutierrez Soto       | Se renombraron columnas en la tabla de evidencia de desarrollo para revisión de sprint                                                                                                      |
+| 8.2.0    | 15/11/2024 | Jhosepmyr Gutierrez Soto       | Se agregó evidencia de la suite de pruebas para revisión de sprint                                                                                                                          |
+| 8.3.0    | 15/11/2024 | Jhosepmyr Gutierrez Soto       | Se actualizaron evidencias de ejecución para revisión de sprint                                                                                                                             |
+| 8.4.0    | 15/11/2024 | Jhosepmyr Gutierrez Soto       | Se actualizó la documentación de servicios para revisión de sprint                                                                                                                          |
+| 8.5.0    | 15/11/2024 | Jhosepmyr Gutierrez Soto       | Se agregaron detalles previos a la evidencia de despliegue de software                                                                                                                      |
+| 8.6.0    | 16/11/2024 | Eric Hernández                 | Se agrega planificación de sprint y actualización de sprint backlog 2                                                                                                                       |
+| 8.7.0    | 16/11/2024 | Eric Hernández                 | Se agregan tareas faltantes a historias de usuario relacionadas                                                                                                                             |
+| 8.8.0    | 16/11/2024 | Eric Hernández                 | Se añaden evidencias de pruebas para revisión de sprint                                                                                                                                     |
+| 8.9.0    | 16/11/2024 | Jhosepmyr Gutierrez Soto       | Se actualizan evidencias de ejecución para revisión de sprint                                                                                                                               |
+| 9.0.0    | 16/11/2024 | Jhosepmyr Gutierrez Soto       | Se actualiza la documentación de servicios para revisión de sprint                                                                                                                          |
+| 9.1.0    | 16/11/2024 | Jhosepmyr Gutierrez Soto       | Se agregan más evidencias para insights de colaboración en equipo durante el sprint                                                                                                         |
+| 9.2.0    | 16/11/2024 | Jhosepmyr Gutierrez Soto       | Se mejora el objetivo del sprint 3 y se actualiza la captura de pantalla de Trello                                                                                                          |
+| 9.3.0    | 16/11/2024 | Jhosepmyr Gutierrez Soto       | Se agregan más evidencias para la colaboración en equipo durante el sprint 3                                                                                                                |
+| 9.4.0    | 16/11/2024 | Jhosepmyr Gutierrez Soto       | Se agregan detalles adicionales a la evidencia de despliegue de software para revisión de sprint                                                                                            |
+| 9.5.0    | 16/11/2024 | Jhosepmyr Gutierrez Soto       | Se eliminan imágenes innecesarias                                                                                                                                                           |
+| 9.6.0    | 16/11/2024 | Eric Hernández                 | Se agregaron más evidencias de colaboración en equipo durante el sprint                                                                                                                     |
+| 9.7.0    | 16/11/2024 | Eric Hernández                 | Se actualizaron historias técnicas y el backlog del producto                                                                                                                                |
+| 9.8.0    | 16/11/2024 | Eric Hernández                 | Se planificó el sprint 3 con una mejor definición del objetivo                                                                                                                              |
+| 9.9.0    | 16/11/2024 | Eric Hernández                 | Se actualizó el sprint backlog 3 y se cambiaron capturas de pantalla de Trello                                                                                                              |
+| 10.0.0   | 17/11/2024 | Jhosepmyr Gutierrez Soto       | Se añadieron commits faltantes a la evidencia de desarrollo para revisión de sprint 3                                                                                                       |
+| 10.1.0   | 17/11/2024 | Jhosepmyr Gutierrez Soto       | Se añadieron commits faltantes a la suite de pruebas para revisión de sprint 3                                                                                                              |
+| 10.2.0   | 17/11/2024 | Jhosepmyr Gutierrez Soto       | Se actualizaron evidencias de ejecución para revisión de sprint 3                                                                                                                           |
+| 10.3.0   | 17/11/2024 | Jhosepmyr Gutierrez Soto       | Se actualizó la documentación de servicios para revisión de sprint 3                                                                                                                        |
+| 10.4.0   | 17/11/2024 | Jhosepmyr Gutierrez Soto       | Se actualizaron evidencias de despliegue de software y colaboración en equipo para sprint 3                                                                                                 |
+| 10.5.0   | 17/11/2024 | Jhosepmyr Gutierrez Soto       | Se eliminaron imágenes innecesarias                                                                                                                                                         |
+| 10.6.0   | 18/11/2024 | Elmer Augusto Riva Rodriguez   | Se elimina una imagen repetida                                                                                                                                                              |
+| 10.7.0   | 18/11/2024 | Elmer Augusto Riva Rodriguez   | Se refactoriza el diagrama de componentes para cada contexto delimitado (C4 Modeling)                                                                                                       |
+| 10.8.0   | 18/11/2024 | Elmer Augusto Riva Rodriguez   | Se agregó reflexión de la asignación final (ABET)                                                                                                                                           |
+| 10.9.0   | 18/11/2024 | Eric Hernández                 | Se implementó la sección de validaciones, incluyendo entrevistas, imágenes y evaluación heurística                                                                                          |
+| 11.0.0   | 18/11/2024 | Eric Hernández                 | Se corrigió un error en las tablas de validaciones                                                                                                                                          |
+| 11.1.0   | 18/11/2024 | Elmer Augusto Riva Rodriguez   | Se actualizaron insights                                                                                                                                                                    |
 
 
 <div style="page-break-after: always;"></div>
@@ -7530,12 +7582,30 @@ Este proceso ha permitido que el backend web services se actualice automáticame
 ### 5.3.3. Evaluaciones según heurísticas
 
 ## 5.4. Video About-the-Product
+A continuación, la primera version del video About The Product
+<img src="img/5/2/videos/AboutTheProduct.png">
+<br>
+[Enlace Video About The Product](https://www.canva.com/design/DAGVMz1uqLE/2A_XB9kr1el8uhwX9OTwrA/watch?utm_content=DAGVMz1uqLE&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
+[Enlace Video About The Product YouTube](https://www.youtube.com/watch?v=5zjb5uaVMX8)
 
 # Conclusiones
 
 ## Conclusiones y recomendaciones
 
+El equipo concluyó que el sector de la mecánica automotriz se enfoca principalmente en resolver necesidades correctivas de los clientes, sin contar con estrategias claras de fidelización. Nuestro producto busca abordar estas limitaciones mediante funcionalidades como la gestión de personal, el almacenamiento de información de clientes y el control de inventario. Aunque no se realizó la validación final, las funcionalidades desarrolladas están diseñadas para mejorar la eficiencia operativa de los talleres y optimizar la atención al cliente, lo que resulta clave para alcanzar los objetivos de 2,500 usuarios y un 90% de retención.
+
+Las hipótesis se consideran parcialmente validadas: la consulta del historial de vehículos podría mejorar la eficiencia de los mecánicos, y se proyecta que el sistema de gestión de horarios tenga un impacto positivo en la captación de usuarios. Sin embargo, un análisis preliminar identificó problemas como la falta de confirmaciones visuales y la ausencia de validaciones en tiempo real, lo que podría afectar la experiencia de usuario. A pesar de estos aspectos, las funcionalidades diseñadas apuntan a brindar claridad y utilidad general para los usuarios finales.
+
+Se recomienda implementar mensajes visuales de éxito tras crear mecánicos y añadir validaciones en tiempo real en los formularios para prevenir errores. También sería útil dividir las interfaces más cargadas para organizar mejor la información. Priorizar el desarrollo de funcionalidades que optimicen el trabajo en los talleres y explorar un sistema de salud vehicular como incentivo para suscripciones premium puede generar mayor valor. Finalmente, es crucial realizar validaciones futuras con usuarios para ajustar el producto según sus necesidades, asegurando así el cumplimiento de los objetivos de negocio y la rentabilidad del modelo de suscripción.
+
 ## Video About-the-Team
+A continuación, la versión final del video About The Team
+<img src="img/5/2/videos/AboutTheTeam.png">
+<br>
+[Enlace de Video About The Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c857_upc_edu_pe/EcB44jugRdZFtMsGBz3u1c0B-VWeicneB9hE8mSqu95D6g?e=qL7rpg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+[Enlace de Video About The Team YouTube](https://youtu.be/kVaMQdAs4-I)
 
 # Bibliografía
 

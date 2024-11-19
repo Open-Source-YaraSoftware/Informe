@@ -5449,55 +5449,34 @@ Web Application:
 
 Se planeó el tercer sprint a través de reuniones de Discord. Para ello, se hizo la siguiente tabla para registrar la información que se discutió.
 
-<table>
-    <tr>
-        <th scope="row"><strong>Sprint #</strong></th>
-        <td>Sprint 3</td>
-    </tr>
-    <tr>
-        <td olspan="2"><strong>Sprint Planning Background</strong></td>
-    </tr>
-    <tr>
-        <th scope="row">Date</th>
-        <td>2024/10/07</td>
-    </tr>
-    <tr>
-        <th scope="row">Time</th>
-        <td>20:00</td>
-    </tr>
-    <tr>
-        <th scope="row">Location</th>
-        <td>Videollamada grupal mediante la plataforma Discord</td>
-    </tr>
-    <tr>
-        <th scope="row">Prepared By</th>
-        <td>Jhosephmyr Gutierrez</td>
-    </tr>
-    <tr>
-        <th scope="row">Attendees (to planning meeting)</th>
-        <td> Elmer Riva Rodriguez, Eric Hernandez Tuiro, Jhosepmyr Gutiérrez Soto, Johan Quiñones Tintaya, Fabricio Lopez De La Cruz </td>
-    </tr>
-    <tr>
-        <td olspan="2"><strong>Sprint Goal & User Stories</strong></td>
-    </tr>
-    <tr>
-        <th scope="row">Sprint 3 Goal</th>
-        <td>Nuestro enfoque está en ofrecer mayor informacion del producto y del equipo,brindar soprte completo al proceso de ejecución de intervenciones y generar métricas, y permitir incrementar las posibilidades de nuevas características. Creemos que esto facilitará la elección del producto y generará confianza a los visitantes, aumentará la eficiencia operativa de las intervenciones y mejorará la toma de decisiones para mecánicos y dueños de talleres, y permitirá implementar nuevas funcionalidades para los desarrolladores. Esto se confirmará cuando los usuarios se suscriban y se vuelvan clientes, cuando los mecánicos registren todo el ciclo de vida de una intervencion y los dueños del taller revisen los reportes, y cuando se desarrollen los endpoints relacionados a los mecánicos y dueños de talleres</td>
-    </tr>
-    <tr>
-        <th scope="row">Sprint 3 Velocity</th>
-        <td>27</td>
-    </tr>
-</table>
+| **Sprint #**                    | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Date                            | 2024/10/14                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Time                            | 20:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Location                        | Videollamada grupal mediante la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Prepared By                     | Jhosepmyr Orlando Gutierrez Soto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Attendees (to planning meeting) | Elmer Riva Rodriguez, Eric Hernandez Tuiro, Jhosepmyr Gutiérrez Soto, Johan Jorge Quiñones Tintaya                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Sprint 2 Review Summary         | En el Sprint 2, el equipo logró implementar las funcionalidades principales del frontend, abarcando la gestión de clientes, personal, intervenciones, inventario y notificaciones. Todas las User Stories planificadas fueron completadas, y el MVP fue desplegado exitosamente en Netlify, utilizando un fake API con JSON Server para simular las respuestas del backend. Las pruebas BDD garantizaron la funcionalidad y calidad de las características desarrolladas, confirmando el cumplimiento de los criterios de aceptación. El feedback destacó la experiencia de usuario fluida y la calidad del trabajo entregado. Sin embargo, se identificaron desafíos relacionados con la estimación de tiempos, lo que generó cargas de trabajo desiguales hacia el final del sprint. A pesar de ello, la colaboración y uso de herramientas como Trello fueron clave para alcanzar los objetivos.     |
+| Sprint 2 Retrospective          | Entre los aciertos del sprint, se destacó la comunicación efectiva del equipo mediante Discord y la organización a través de Trello, lo que permitió cumplir con las tareas asignadas de manera eficiente. Además, las implementaciones técnicas fueron de alta calidad, alineándose con los objetivos del sprint y las expectativas del Product Owner. Como áreas de mejora, se identificó la necesidad de optimizar la planificación de tiempos para evitar sobrecargas y de establecer reuniones diarias para resolver bloqueos rápidamente. Asimismo, se propuso detallar más la documentación de tareas y procesos, lo que facilitaría la continuidad y comprensión del trabajo en futuros sprints.                                                                                                                                                                                                |
+| Sprint Goal & User Stories      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Sprint 3 Goal                   | Nuestro enfoque está en ofrecer mayor informacion del producto y del equipo,brindar soporte completo al proceso de ejecución de intervenciones y generar métricas, y permitir incrementar las posibilidades de nuevas características. <br> Creemos que esto facilitará la elección del producto y generará confianza a los visitantes, aumentará la eficiencia operativa de las intervenciones y mejorará la toma de decisiones para mecánicos y dueños de talleres, y permitirá implementar nuevas funcionalidades para los desarrolladores. <br> Esto se confirmará cuando los usuarios se suscriban y se vuelvan clientes, cuando los mecánicos registren todo el ciclo de vida de una intervencion y los dueños del taller revisen los reportes, y cuando se desarrollen los endpoints relacionados a los talleres, vehiculos, aparatos IoTs, intervenciones, notificaciones, perfiles y usuarios. |
+| Sprint 3 Velocity               | 65                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Sum of Story Points             | 65                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 
 #### 5.2.3.2. Sprint Backlog 3
 
-Se utilizo la herramienta Trello para gestionar las tareas del sprint y asignarlas a los miembros del equipo. Cabe señalar que en el tercer sprint se completo parcialmente tanto el front end como el back end de la Web Application.
+En el sprint 3, el equipo completo en gran medida el frontend y el backend de la web application.
+Asimismo, se agregó los videos de presentación del equipo y del producto en la sección "About Us".
 
-*Imagen del trello
-*link del trello
+La herramienta de gestión de proyectos utilizada para el sprint 3 fue Trello, donde se registraron las tareas a realizar y su estado.
 
-A continuación, se procedera a detallar en una tabla las user story vinculadas a sus tareas, con una breve descripción, estimación en horas y que miembro del equipo la llevo acabo.
+![Trello Sprint 3](img/5/2/3/2/trello_board_3.png)
+
+Enlace al tablero de Trello:
+[https://trello.com/b/O8R426lO/sprint-3](https://trello.com/b/O8R426lO/sprint-3)
+
+A continuación, se procede a detallar en una tabla las user story y technical stories vinculadas a sus tareas, con una breve descripción, estimación en horas y qué miembro del equipo la llevo a cabo.
 
 <table border="1" style="width:100%; text-align: center;">
   <tr>
@@ -5519,511 +5498,21 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <th>Status (To-do / In-Process / To-Review / Done)</th>
   </tr>
   <tr>  
-    <td>US-07</td>
-    <td>Detalles de cliente</td>
+    <td>US-24</td>
+    <td>Agendar cita de intervención</td>
     <td>TK-01</td>
-    <td>Crear interfaz de detalles de cliente </td>
-    <td>Diseñar la pantalla para mostrar información detallada del cliente y sus vehículos.</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-07</td>
-    <td>Detalles de cliente</td>
-    <td>TK-02</td>
-    <td>Editar y actualizar datos</td>
-    <td>Permitir la edición de los datos del cliente y enviar cambios al backend.</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-07</td>
-    <td>Detalles de cliente</td>
-    <td>TK-03</td>
-    <td>Eliminar cliente</td>
-    <td>Implementar funcionalidad para cambiar el estado del cliente a inactivo.</td>
-    <td>1</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-07</td>
-    <td>Detalles de cliente</td>
-    <td>TK-04</td>
-    <td>Restaurar cliente</td>
-    <td>Permitir restaurar clientes inactivos desde la interfaz de clientes.</td>
-    <td>3</td>
-    <td>Elmer Riva</td>
-    <td>Not done</td>
-  </tr>
-  <tr>  
-    <td>US-10</td>
-    <td>Detalles de intervención</td>
-    <td>TK-05</td>
-    <td>Crear detalles de intervención</td>
-    <td>Diseñar la interfaz para mostrar la información completa de una intervención</td>
-    <td>3</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-10</td>
-    <td>Detalles de intervención</td>
-    <td>TK-06</td>
-    <td>Modificar intervención</td>
-    <td>Permitir la edición de la intervención si está en estado pendiente.</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-10</td>
-    <td>Detalles de intervención</td>
-    <td>TK-07</td>
-    <td>Guardar cambios</td>
-    <td>Implementar funcionalidad para guardar los cambios realizados.</td>
-    <td>1</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-10</td>
-    <td>Detalles de intervención</td>
-    <td>TK-08</td>
-    <td>Cancelar intervención </td>
-    <td>Permitir la cancelación de la intervención si está en estado pendiente.</td>
-    <td>1</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-11</td>
-    <td>Existencias de inventario</td>
-    <td>TK-09</td>
-    <td>Crear la interfaz de inventario</td>
-    <td>Mostrar las existencias del inventario, incluyendo el nombre, cantidad, límite, y descripción.</td>
-    <td>3</td>
-    <td>Eric Hernandez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-11</td>
-    <td>Existencias de inventario</td>
-    <td>TK-10</td>
-    <td>Añadir entrada de inventario </td>
-    <td>Implementar un formulario para añadir una nueva entrada de inventario.</td>
-    <td>2</td>
-    <td>Eric Hernandez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-11</td>
-    <td>Existencias de inventario</td>
-    <td>TK-11</td>
-    <td>Modificar entrada de inventario:</td>
-    <td>Permitir la modificación de las entradas existentes desde la misma interfaz.</td>
-    <td>2</td>
-    <td>Eric Hernandez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-11</td>
-    <td>Existencias de inventario</td>
-    <td>TK-12</td>
-    <td>Guardar cambios de inventario</td>
-    <td>Implementar funcionalidad para guardar los cambios realizados en las entradas de inventario.</td>
-    <td>2</td>
-    <td>Eric Hernandez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-11</td>
-    <td>Existencias de inventario</td>
-    <td>TK-13</td>
-    <td>Ordenar por campos</td>
-    <td>Agregar funcionalidad para ordenar el inventario según los campos seleccionados</td>
-    <td>1</td>
-    <td>Eric Hernandez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-12</td>
-    <td>Solicitudes de inventario</td>
-    <td>TK-14</td>
-    <td>Crear interfaz de solicitudes de inventario</td>
-    <td>Mostrar las solicitudes pendientes de los mecánicos, incluyendo el mecánico solicitante, la pieza, la cantidad solicitada y la fecha de solicitud.</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-12</td>
-    <td>Solicitudes de inventario</td>
-    <td>TK-15</td>
-    <td>Guardar cambios en solicitudes</td>
-    <td>Permitir la selección de solicitudes y su posterior eliminación de la lista tras guardar cambios</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-12</td>
-    <td>Solicitudes de inventario</td>
-    <td>TK-16</td>
-    <td>Deshacer cambios</td>
-    <td>Implementar funcionalidad para revertir las acciones si se decide no realizar los cambios.</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-12</td>
-    <td>Solicitudes de inventario</td>
-    <td>TK-17</td>
-    <td>Ordenar solicitudes por campos</td>
-    <td>Agregar funcionalidad para ordenar las solicitudes según los campos seleccionados</td>
-    <td>1</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-15</td>
-    <td>Mis tareas - líder</td>
-    <td>TK-18</td>
-    <td>Mostrar lista de tareas</td>
-    <td>Mostrar las tareas correspondientes a las intervenciones en las que el usuario es líder, con campos como cliente, fecha, y modalidad</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-15</td>
-    <td>Mis tareas - líder</td>
-    <td>TK-19</td>
-    <td>Mostrar etiqueta de líder</td>
-    <td>Incluir una etiqueta en cada tarea que indique que el usuario es el líder de la intervención.</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-15</td>
-    <td>Mis tareas - líder</td>
-    <td>TK-20</td>
-    <td>Acceso a más información</td>
-    <td>Permitir que el líder pueda hacer clic en las tareas para ver más información, como diagnóstico y preparación.</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-16</td>
-    <td>Mis tareas - asistente</td>
-    <td>TK-21</td>
-    <td>Mostrar lista de tareas del asistente</td>
-    <td>Mostrar las tareas correspondientes a las intervenciones en las que el usuario es asistente, con los campos correspondientes</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-16</td>
-    <td>Mis tareas - asistente</td>
-    <td>TK-22</td>
-    <td>Mostrar etiqueta de asistente</td>
-    <td>Incluir una etiqueta en cada tarea que indique que el usuario es el asistente en la intervención</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-16</td>
-    <td>Mis tareas - asistente</td>
-    <td>TK-23</td>
-    <td>Acceso a más información</td>
-    <td>Permitir al asistente hacer clic en las tareas para ver más detalles de la intervención.</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-17</td>
-    <td>Información de intervención</td>
-    <td>TK-24</td>
-    <td>Mostrar resumen IoT</td>
-    <td>Mostrar un resumen de la información obtenida por el análisis OBD-IoT, con campos como componente, estado y código de error.</td>
-    <td>3</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-17</td>
-    <td>Información de intervención</td>
-    <td>TK-25</td>
-    <td>Mostrar información general</td>
-    <td>Mostrar información general de la intervención, como cliente, vehículo, fecha, entre otros</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-17</td>
-    <td>Información de intervención</td>
-    <td>TK-26</td>
-    <td>Mostrar registro de intervenciones anteriores</td>
-    <td>Permitir ver un registro de intervenciones anteriores asociadas al vehículo</td>
-    <td>1</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-17</td>
-    <td>Información de intervención</td>
-    <td>TK-27</td>
-    <td>Acceso a detalles de intervenciones anteriores</td>
-    <td>Implementar la funcionalidad para hacer clic en intervenciones anteriores y mostrar sus detalles completos.</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-18</td>
-    <td>Diagnóstico de intervención</td>
-    <td>TK-28</td>
-    <td>Mostrar lista de tareas de diagnóstico</td>
-    <td>Mostrar las tareas asociadas a la intervención</td>
-    <td>1</td>
-    <td>Jhosepmy Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-18</td>
-    <td>Diagnóstico de intervención</td>
-    <td>TK-29</td>
-    <td>Añadir tarea</td>
-    <td>Implementar funcionalidad para que el líder de la intervención añada nuevas tareas a la lista</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-18</td>
-    <td>Diagnóstico de intervención</td>
-    <td>TK-30</td>
-    <td>Eliminar tarea</td>
-    <td>Permitir al líder eliminar tareas de la lista</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-18</td>
-    <td>Diagnóstico de intervención</td>
-    <td>TK-31</td>
-    <td>Guardar cambios en el diagnóstico</td>
-    <td>Implementar funcionalidad para guardar los cambios realizados en las tareas.</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-18</td>
-    <td>Diagnóstico de intervención</td>
-    <td>TK-32</td>
-    <td>Deshacer cambios</td>
-    <td>Permitir deshacer los cambios y regresar al estado previo</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-19</td>
-    <td>Ejecución de intervención</td>
-    <td>TK-33</td>
-    <td>Mostrar tareas asignadas</td>
-    <td>Mostrar la lista de tareas asignadas para la intervención</td>
-    <td>1</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-19</td>
-    <td>Ejecución de intervención</td>
-    <td>TK-34</td>
-    <td>Añadir tarea</td>
-    <td>Permitir que el líder de la intervención añada tareas adicionales durante la ejecución.</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-19</td>
-    <td>Ejecución de intervención</td>
-    <td>TK-35</td>
-    <td>Eliminar tarea</td>
-    <td>Implementar funcionalidad para que el líder elimine tareas en ejecución si es necesario.</td>
-    <td>1</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-19</td>
-    <td>Ejecución de intervención</td>
-    <td>TK-36</td>
-    <td>Guardar cambios</td>
-    <td>Permitir guardar los cambios realizados en la intervención.</td>
-    <td>1</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-19</td>
-    <td>Ejecución de intervención</td>
-    <td>TK-37</td>
-    <td>Deshacer cambios</td>
-    <td>Implementar funcionalidad para revertir los cambios si es necesario.</td>
-    <td>1</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-20</td>
-    <td>Supervisión de intervención</td>
-    <td>TK-38</td>
-    <td>Mostrar estado de las tareas</td>
-    <td>Mostrar la lista de tareas con su estado (completado, pendiente)</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-20</td>
-    <td>Supervisión de intervención</td>
-    <td>TK-39</td>
-    <td>Finalizar intervención</td>
-    <td>Implementar funcionalidad para finalizar la intervención una vez todas las tareas estén completadas.</td>
-    <td>2</td>
-    <td>Jhosepmyr Gutierrez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-21</td>
-    <td>Registro de vehículos</td>
-    <td>TK-40</td>
-    <td>Mostrar lista de vehículos</td>
-    <td>Mostrar todos los vehículos registrados del usuario, con la información relevante (modelo, marca, año).</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-21</td>
-    <td>Registro de vehículos</td>
-    <td>TK-41</td>
-    <td>Agregar vehículo</td>
-    <td>Implementar un formulario para añadir un nuevo vehículo, incluyendo los campos requeridos (marca, modelo, año, placa).</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-21</td>
-    <td>Registro de vehículos</td>
-    <td>TK-42</td>
-    <td>Validar datos del vehículo</td>
-    <td>Validar que los datos ingresados en el formulario sean correctos y completos.</td>
-    <td>1</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-21</td>
-    <td>Registro de vehículos</td>
-    <td>TK-43</td>
-    <td>Mostrar mensaje de éxito</td>
-    <td>Mostrar una confirmación cuando el vehículo se haya registrado correctamente.</td>
-    <td>1</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-21</td>
-    <td>Registro de vehículos</td>
-    <td>TK-44</td>
-    <td>Eliminar vehículo</td>
-    <td>Implementar funcionalidad para eliminar un vehículo de la lista registrada.</td>
-    <td>1</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-22</td>
-    <td>Registro de intervenciones</td>
-    <td>TK-45</td>
-    <td>Mostrar historial de intervenciones</td>
-    <td>Mostrar una línea de tiempo con todas las intervenciones realizadas en un vehículo, ordenadas cronológicamente.</td>
-    <td>1</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-22</td>
-    <td>Registro de intervenciones</td>
-    <td>TK-46</td>
-    <td>Acceso a detalles de intervención</td>
-    <td>Permitir que el usuario haga clic en una intervención y vea los detalles completos de esa intervención.</td>
-    <td>1</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-22</td>
-    <td>Registro de intervenciones</td>
-    <td>TK-47</td>
-    <td>Mostrar detalles de intervención</td>
-    <td>Mostrar información detallada de cada intervención, como la fecha, servicios realizados, y costo.</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-23</td>
-    <td>Información IoT de vehículo</td>
-    <td>TK-48</td>
-    <td>Mostrar información IoT</td>
-    <td>Implementar una interfaz que muestre la información generada por el dispositivo IoT, como el estado de los componentes y códigos de error.</td>
-    <td>2</td>
-    <td>Erick Hernandez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-23</td>
-    <td>Información IoT de vehículo</td>
-    <td>TK-49</td>
-    <td>Mostrar detalles de códigos de error</td>
-    <td>Permitir que el usuario haga clic en un código de error para obtener una explicación detallada de su significado.</td>
-    <td>2</td>
-    <td>Erick Hernandez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-23</td>
-    <td>Información IoT de vehículo</td>
-    <td>TK-50</td>
-    <td>Actualizar información en tiempo real</td>
-    <td>Implementar la actualización automática de la información IoT cada cierto intervalo de tiempo para reflejar el estado actual del vehículo.</td>
-    <td>2</td>
-    <td>Erick Hernandez</td>
-    <td>Done</td>
-  </tr>
-  <tr>  
-    <td>US-24</td>
-    <td>Agendar cita de intervención</td>
-    <td>TK-51</td>
     <td>Crear formulario de agendar cita</td>
-    <td>Diseñar un formulario donde el usuario pueda seleccionar una fecha y modalidad para agendar la cita.</td>
+    <td>Diseñar y crear un formulario que permita a los usuarios ingresar los detalles de la cita, como fecha, modalidad y notas opcionales.</td>
+    <td>3</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-24</td>
+    <td>Agendar cita de intervención</td>
+    <td>TK-02</td>
+    <td>Agregar validación de fecha de cita</td>
+    <td>Implementar validaciones para asegurar que las fechas ingresadas no sean en el pasado o días no laborables.</td>
     <td>2</td>
     <td>Erick Hernandez</td>
     <td>Done</td>
@@ -6031,356 +5520,982 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
   <tr>  
     <td>US-24</td>
     <td>Agendar cita de intervención</td>
-    <td>TK-52</td>
-    <td>Validar datos de la cita</td>
-    <td>Validar que los datos ingresados (fecha, modalidad) sean correctos y válidos</td>
+    <td>TK-03</td>
+    <td>Agregar mensaje de confirmación de cita</td>
+    <td>Mostrar un mensaje de confirmación amigable cuando la cita se haya registrado correctamente, y redirigir a la página de información del vehículo.</td>
     <td>2</td>
     <td>Erick Hernandez</td>
     <td>Done</td>
   </tr>
   <tr>  
-    <td>US-24</td>
-    <td>Agendar cita de intervención</td>
-    <td>TK-53</td>
-    <td>Mostrar confirmación de cita</td>
-    <td>Mostrar una notificación cuando la cita se haya agendado correctamente y enviar una confirmación al taller.</td>
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-04</td>
+    <td>Crear formulario de registro de clientes y personal</td>
+    <td>Diseñar un formulario que permita al dueño del taller ingresar los datos básicos de los clientes y personal, como nombre, correo electrónico y teléfono.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-05</td>
+    <td>Agregar validaciones a los campos del formulario</td>
+    <td>Implementar validaciones para los campos obligatorios, asegurando que los datos se ingresen en el formato correcto.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-03</td>
+    <td>Creación de cuentas de taller</td>
+    <td>TK-06</td>
+    <td>Mostrar mensajes de error en el registro</td>
+    <td>Agregar mensajes claros y descriptivos cuando los datos ingresados sean inválidos o falten campos obligatorios.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-01</td>
+    <td>Formulario de registro</td>
+    <td>TK-07</td>
+    <td>Crear página de registro de usuario</td>
+    <td>Diseñar la interfaz para la página de registro que permita al dueño del taller ingresar datos como nombre, correo electrónico y contraseña.</td>
+    <td>3</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-01</td>
+    <td>Formulario de registro</td>
+    <td>TK-08</td>
+    <td>Implementar validación de campos requeridos</td>
+    <td>Agregar validaciones para asegurarse de que todos los campos necesarios estén completos antes de enviar el formulario.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-01</td>
+    <td>Formulario de registro</td>
+    <td>TK-09</td>
+    <td>Agregar mensaje de confirmación de registro</td>
+    <td>Mostrar un mensaje al usuario indicando que el registro fue exitoso y que se ha enviado un correo de confirmación.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-10</td>
+    <td>Crear interfaz para mostrar detalles de intervención</td>
+    <td>Diseñar una interfaz que muestre información importante de la intervención, como cliente, vehículo, y modalidad.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-11</td>
+    <td>Mostrar información de IoT</td>
+    <td>Agregar una sección en la pantalla de detalles de la intervención que muestre un resumen de la información más reciente del análisis OBD-IoT.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-17</td>
+    <td>Información de intervención</td>
+    <td>TK-12</td>
+    <td>Implementar botón para acceso a intervenciones anteriores</td>
+    <td>Incluir un botón que permita a los usuarios acceder al historial de intervenciones realizadas.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-13</td>
+    <td>Crear lista de tareas dentro del diagnóstico</td>
+    <td>Diseñar una lista que muestre las tareas asignadas para la intervención, con opciones para añadir y eliminar tareas.</td>
+    <td>3</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-14</td>
+    <td>Agregar funcionalidad para añadir nuevas tareas</td>
+    <td>Permitir al usuario líder redactar una tarea y seleccionar un mecánico para asignarla.</td>
     <td>2</td>
     <td>Erick Hernandez</td>
     <td>Done</td>
   </tr>
   <tr>  
-    <td>US-24</td>
-    <td>Agendar cita de intervención</td>
-    <td>TK-54</td>
-    <td>Manejo de errores de fecha</td>
-    <td>Implementar mensajes de error si la fecha seleccionada no es válida o está incompleta.</td>
+    <td>US-18</td>
+    <td>Diagnóstico de intervención</td>
+    <td>TK-15</td>
+    <td>Implementar botón de guardar y deshacer cambios</td>
+    <td>Agregar botones para guardar las tareas asignadas o deshacer cambios realizados, con mensajes de confirmación.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-16</td>
+    <td>Crear lista de solicitudes de inventario</td>
+    <td>Diseñar una sección que muestre las solicitudes de inventario pendientes, indicando el mecánico solicitante y la cantidad solicitada.</td>
+    <td>3</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-17</td>
+    <td>Agregar funcionalidad de seguimiento de tareas</td>
+    <td>Implementar un sistema para registrar y mostrar el progreso de las tareas completadas en una intervención.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-19</td>
+    <td>Ejecución de intervención</td>
+    <td>TK-18</td>
+    <td>Mostrar opciones de guardar y deshacer cambios</td>
+    <td>Permitir que el usuario guarde cambios realizados o deshaga modificaciones con un solo clic.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-20</td>
+    <td>Supervisión de intervención</td>
+    <td>TK-19</td>
+    <td>Crear interfaz de supervisión de tareas</td>
+    <td>Diseñar una pantalla que muestre el estado de cada tarea asignada en la intervención y permita verificar su finalización.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-20</td>
+    <td>Supervisión de intervención</td>
+    <td>TK-20</td>
+    <td>Implementar botón de finalizar intervención</td>
+    <td>Agregar un botón que permita marcar la intervención como finalizada cuando todas las tareas estén completas.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-20</td>
+    <td>Supervisión de intervención</td>
+    <td>TK-21</td>
+    <td>Mostrar mensaje de éxito al finalizar intervención</td>
+    <td>Desplegar un mensaje de éxito cuando la intervención se haya finalizado correctamente.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-23</td>
+    <td>Información IoT de vehículo</td>
+    <td>TK-22</td>
+    <td>Crear sección de información IoT en los detalles del vehículo</td>
+    <td>Diseñar una interfaz que muestre información relevante del dispositivo IoT, como componentes y códigos de error.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-23</td>
+    <td>Información IoT de vehículo</td>
+    <td>TK-23</td>
+    <td>Agregar funcionalidad para ver detalles de códigos de error</td>
+    <td>Permitir que el usuario haga clic en un código de error para ver su significado y posibles soluciones.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-22</td>
+    <td>Línea de tiempo de registro de intervenciones</td>
+    <td>TK-24</td>
+    <td>Crear línea de tiempo de intervenciones</td>
+    <td>Diseñar una visualización que muestre las intervenciones de un vehículo en orden cronológico.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-22</td>
+    <td>Línea de tiempo de registro de intervenciones</td>
+    <td>TK-25</td>
+    <td>Implementar botón para acceder a detalles de intervención</td>
+    <td>Agregar un botón que permita a los usuarios ver la información completa de una intervención específica.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-13</td>
+    <td>Métricas</td>
+    <td>TK-26</td>
+    <td>Crear histograma para intervenciones por día</td>
+    <td>Diseñar un gráfico que muestre el número de intervenciones realizadas por día de manera visualmente atractiva.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-13</td>
+    <td>Métricas</td>
+    <td>TK-27</td>
+    <td>Implementar gráfico de torta para marcas de vehículos</td>
+    <td>Agregar un gráfico de torta que muestre la distribución de las marcas de vehículos atendidos en el taller.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-13</td>
+    <td>Métricas</td>
+    <td>TK-28</td>
+    <td>Agregar gráfico de barras para tipos de intervención</td>
+    <td>Diseñar un gráfico de barras que indique la distribución porcentual de los diferentes tipos de intervenciones.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-02</td>
+    <td>Pantalla de login</td>
+    <td>TK-29</td>
+    <td>Diseñar pantalla de login de usuario</td>
+    <td>Crear la interfaz de login que permita a los usuarios ingresar su nombre de usuario y contraseña.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-02</td>
+    <td>Pantalla de login</td>
+    <td>TK-30</td>
+    <td>Agregar validaciones de entrada de datos</td>
+    <td>Implementar validaciones para asegurar que los campos de usuario y contraseña no estén vacíos y cumplan con los requisitos mínimos.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>US-02</td>
+    <td>Pantalla de login</td>
+    <td>TK-31</td>
+    <td>Mostrar mensajes de error para datos inválidos</td>
+    <td>Desplegar mensajes de error descriptivos si las credenciales ingresadas no son válidas.</td>
     <td>2</td>
     <td>Erick Hernandez</td>
     <td>Done</td>
   </tr>
   <tr>  
     <td>TS-01</td>
-    <td>Registro de Usuario</td>
-    <td>TK-55</td>
-    <td>Implementar endpoint de registro</td>
-    <td>Configurar el endpoint /api/v1/authentication/sign-up para permitir que los usuarios se registren con sus datos.</td>
+    <td>Manage Interventions through RESTful API</td>
+    <td>TK-32</td>
+    <td>Crear endpoint para obtener todas las intervenciones</td>
+    <td>Implementar un endpoint GET /api/v1/interventions que devuelva una lista de todas las intervenciones registradas.</td>
     <td>3</td>
     <td>Jhosepmyr Orlando</td>
     <td>Done</td>
-</tr>
-<tr>  
+  </tr>
+  <tr>  
+    <td>TS-01</td>
+    <td>Manage Interventions through RESTful API</td>
+    <td>TK-33</td>
+    <td>Crear endpoint para registrar una nueva intervención</td>
+    <td>Implementar un endpoint POST /api/v1/interventions que permita registrar una intervención con datos como workshopId, mechanicLeaderId, vehicleId, y descripción.</td>
+    <td>3</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-01</td>
+    <td>Manage Interventions through RESTful API</td>
+    <td>TK-34</td>
+    <td>Crear endpoint para obtener detalles de una intervención específica</td>
+    <td>Implementar un endpoint GET /api/v1/interventions/{interventionId} que devuelva los detalles de una intervención específica.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-01</td>
+    <td>Manage Interventions through RESTful API</td>
+    <td>TK-35</td>
+    <td>Crear endpoint para actualizar una intervención existente</td>
+    <td>Implementar un endpoint PUT /api/v1/interventions/{interventionId} que permita actualizar los datos de una intervención con un interventionId válido.</td>
+    <td>3</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
     <td>TS-02</td>
-    <td>Inicio de Sesión de Usuario</td>
-    <td>TK-56</td>
-    <td>Implementar endpoint de inicio de sesión</td>
-    <td>Configurar el endpoint /api/v1/authentication/sign-in para permitir que los usuarios inicien sesión y reciban un token de autenticación.</td>
-    <td>2</td>
-    <td>Jhosepmyr Orlando</td>
-    <td>Done</td>
-</tr>
-<tr>  
-    <td>TS-03</td>
-    <td>Consulta de Perfil por ID</td>
-    <td>TK-57</td>
-    <td>Implementar consulta de perfil</td>
-    <td>Configurar el endpoint /api/v1/profiles/profile/{profileId} para obtener detalles del perfil.</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-</tr>
-<tr>  
-    <td>TS-04</td>
-    <td>Consulta de Perfil por DNI</td>
-    <td>TK-58</td>
-    <td>Implementar consulta de perfil por DNI</td>
-    <td>Configurar el endpoint /api/v1/profiles/dni/{dni} para obtener el perfil utilizando el DNI.</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-</tr>
-<tr>  
-    <td>TS-05</td>
-    <td>Consulta de Perfil por ID de Usuario</td>
-    <td>TK-59</td>
-    <td>Implementar consulta de perfil por ID de usuario</td>
-    <td>Configurar el endpoint /api/v1/profiles/user-id/{userId} para obtener el perfil basado en el ID de usuario.</td>
-    <td>2</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-</tr>
-<tr>  
-    <td>TS-06</td>
-    <td>Actualización de Perfil</td>
-    <td>TK-60</td>
-    <td>Implementar actualización de perfil</td>
-    <td>Configurar el endpoint /api/v1/profiles/{profileId} para permitir la actualización de los detalles del perfil.</td>
-    <td>3</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-</tr>
-<tr>  
-    <td>TS-07</td>
-    <td>Creación de Perfil</td>
-    <td>TK-61</td>
-    <td>Implementar creación de perfil</td>
-    <td>Configurar el endpoint /api/v1/profiles para permitir la creación de nuevos perfiles.</td>
-    <td>3</td>
-    <td>Elmer Riva</td>
-    <td>Done</td>
-</tr>
-<tr>  
-    <td>TS-08</td>
-    <td>Consulta de Notificaciones de Usuario</td>
-    <td>TK-62</td>
-    <td>Implementar consulta de notificaciones</td>
-    <td>Configurar el endpoint /api/v1/notifications/{userId} para obtener todas las notificaciones de un usuario específico.</td>
+    <td>Manage Intervention Status through RESTful API</td>
+    <td>TK-36</td>
+    <td>Crear endpoint para marcar intervención como en progreso</td>
+    <td>Implementar un endpoint POST /api/v1/interventions/{interventionId}/in-progresses que actualice el estado de una intervención a IN_PROGRESS.</td>
     <td>2</td>
     <td>Erick Hernandez</td>
     <td>Done</td>
-</tr>
-
+  </tr>
+  <tr>  
+    <td>TS-02</td>
+    <td>Manage Intervention Status through RESTful API</td>
+    <td>TK-37</td>
+    <td>Crear endpoint para confirmar una intervención</td>
+    <td>Implementar un endpoint POST /api/v1/interventions/{interventionId}/confirmations que actualice el estado de una intervención a COMPLETED.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-02</td>
+    <td>Manage Intervention Status through RESTful API</td>
+    <td>TK-38</td>
+    <td>Crear endpoint para cancelar una intervención</td>
+    <td>Implementar un endpoint POST /api/v1/interventions/{interventionId}/cancellations que actualice el estado de una intervención a CANCELED.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-03</td>
+    <td>Manage Tasks within an Intervention through RESTful API</td>
+    <td>TK-39</td>
+    <td>Crear endpoint para obtener todas las tareas de una intervención</td>
+    <td>Implementar un endpoint GET /api/v1/interventions/{interventionId}/tasks que devuelva todas las tareas asociadas a una intervención.</td>
+    <td>3</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-03</td>
+    <td>Manage Tasks within an Intervention through RESTful API</td>
+    <td>TK-40</td>
+    <td>Crear endpoint para registrar una nueva tarea en una intervención</td>
+    <td>Implementar un endpoint POST /api/v1/interventions/{interventionId}/tasks que permita crear una nueva tarea con datos como mechanicAssignedId y descripción.</td>
+    <td>3</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-03</td>
+    <td>Manage Tasks within an Intervention through RESTful API</td>
+    <td>TK-41</td>
+    <td>Crear endpoint para actualizar una tarea específica</td>
+    <td>Implementar un endpoint PUT /api/v1/interventions/{interventionId}/tasks/{taskId} que permita actualizar los detalles de una tarea.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-03</td>
+    <td>Manage Tasks within an Intervention through RESTful API</td>
+    <td>TK-42</td>
+    <td>Crear endpoint para eliminar una tarea de una intervención</td>
+    <td>Implementar un endpoint DELETE /api/v1/interventions/{interventionId}/tasks/{taskId} que elimine una tarea específica de una intervención.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-04</td>
+    <td>Manage Task State Transitions through RESTful API</td>
+    <td>TK-43</td>
+    <td>Crear endpoint para marcar una tarea como en progreso</td>
+    <td>Implementar un endpoint POST /api/v1/interventions/{interventionId}/tasks/{taskId}/in-progresses que actualice el estado de una tarea a IN_PROGRESS.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-04</td>
+    <td>Manage Task State Transitions through RESTful API</td>
+    <td>TK-44</td>
+    <td>Crear endpoint para confirmar una tarea</td>
+    <td>Implementar un endpoint POST /api/v1/interventions/{interventionId}/tasks/{taskId}/confirmations que actualice el estado de una tarea a DONE.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-05</td>
+    <td>Manage Checkpoints for Tasks through RESTful API</td>
+    <td>TK-45</td>
+    <td>Crear endpoint para obtener todos los checkpoints de una tarea</td>
+    <td>Implementar un endpoint GET /api/v1/interventions/{interventionId}/tasks/{taskId}/checkpoints que devuelva una lista de todos los checkpoints asociados a una tarea.</td>
+    <td>3</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-05</td>
+    <td>Manage Checkpoints for Tasks through RESTful API</td>
+    <td>TK-46</td>
+    <td>Crear endpoint para añadir un nuevo checkpoint a una tarea</td>
+    <td>Implementar un endpoint POST /api/v1/interventions/{interventionId}/tasks/{taskId}/checkpoints que permita crear un nuevo checkpoint.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-05</td>
+    <td>Manage Checkpoints for Tasks through RESTful API</td>
+    <td>TK-47</td>
+    <td>Crear endpoint para actualizar un checkpoint</td>
+    <td>Implementar un endpoint PUT /api/v1/interventions/{interventionId}/tasks/{taskId}/checkpoints/{checkpointId} que permita actualizar un checkpoint existente.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-05</td>
+    <td>Manage Checkpoints for Tasks through RESTful API</td>
+    <td>TK-48</td>
+    <td>Crear endpoint para eliminar un checkpoint</td>
+    <td>Implementar un endpoint DELETE /api/v1/interventions/{interventionId}/tasks/{taskId}/checkpoints/{checkpointId} que elimine un checkpoint.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-06</td>
+    <td>Manage Workshops through RESTful API</td>
+    <td>TK-49</td>
+    <td>Crear endpoint para obtener detalles de un taller</td>
+    <td>Implementar un endpoint GET /api/v1/workshops/{workshopId} que devuelva los detalles de un taller específico.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-06</td>
+    <td>Manage Workshops through RESTful API</td>
+    <td>TK-50</td>
+    <td>Crear endpoint para actualizar un taller existente</td>
+    <td>Implementar un endpoint PUT /api/v1/workshops/{workshopId} que permita actualizar los datos de un taller.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-06</td>
+    <td>Manage Workshops through RESTful API</td>
+    <td>TK-51</td>
+    <td>Crear endpoint para registrar un nuevo taller</td>
+    <td>Implementar un endpoint POST /api/v1/workshops que permita crear un nuevo taller con un nombre y detalles.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-07</td>
+    <td>Retrieve Workshop Interventions through RESTful API</td>
+    <td>TK-52</td>
+    <td>Crear endpoint para obtener todas las intervenciones de un taller</td>
+    <td>Implementar un endpoint GET /api/v1/workshops/{workshopId}/interventions que devuelva una lista de todas las intervenciones asociadas a un taller.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-08</td>
+    <td>Manage Clients within a Workshop through RESTful API</td>
+    <td>TK-53</td>
+    <td>Crear endpoint para obtener todos los clientes de un taller</td>
+    <td>Implementar un endpoint GET /api/v1/workshops/{workshopId}/clients que devuelva una lista de todos los clientes asociados a un taller.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-08</td>
+    <td>Manage Clients within a Workshop through RESTful API</td>
+    <td>TK-54</td>
+    <td>Crear endpoint para añadir un nuevo cliente a un taller</td>
+    <td>Implementar un endpoint POST /api/v1/workshops/{workshopId}/clients que permita registrar un nuevo cliente.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-09</td>
+    <td>Manage Mechanics within a Workshop through RESTful API</td>
+    <td>TK-55</td>
+    <td>Crear endpoint para obtener todos los mecánicos de un taller</td>
+    <td>Implementar un endpoint GET /api/v1/workshops/{workshopId}/mechanics que devuelva una lista de todos los mecánicos asociados a un taller.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-09</td>
+    <td>Manage Mechanics within a Workshop through RESTful API</td>
+    <td>TK-56</td>
+    <td>Crear endpoint para añadir un nuevo mecánico a un taller</td>
+    <td>Implementar un endpoint POST /api/v1/workshops/{workshopId}/mechanics que permita registrar un nuevo mecánico.</td>
+    <td>2</td>
+    <td>Jhosepmyr Gutierrez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-10</td>
+    <td>Manage Products through RESTful API</td>
+    <td>TK-57</td>
+    <td>Crear endpoint para obtener todos los productos</td>
+    <td>Implementar un endpoint GET /api/v1/products que devuelva una lista de todos los productos registrados.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-10</td>
+    <td>Manage Products through RESTful API</td>
+    <td>TK-58</td>
+    <td>Crear endpoint para registrar un nuevo producto</td>
+    <td>Implementar un endpoint POST /api/v1/products que permita crear un nuevo producto con datos como nombre y cantidad en inventario.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-10</td>
+    <td>Manage Products through RESTful API</td>
+    <td>TK-59</td>
+    <td>Crear endpoint para actualizar un producto existente</td>
+    <td>Implementar un endpoint PUT /api/v1/products/{productId} que permita actualizar los detalles de un producto.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-10</td>
+    <td>Manage Products through RESTful API</td>
+    <td>TK-60</td>
+    <td>Crear endpoint para eliminar un producto</td>
+    <td>Implementar un endpoint DELETE /api/v1/products/{productId} que elimine un producto del sistema.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-11</td>
+    <td>Manage Product Requests through RESTful API</td>
+    <td>TK-61</td>
+    <td>Crear endpoint para obtener todas las solicitudes de productos</td>
+    <td>Implementar un endpoint GET /api/v1/product-requests que devuelva una lista de todas las solicitudes de productos.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-11</td>
+    <td>Manage Product Requests through RESTful API</td>
+    <td>TK-62</td>
+    <td>Crear endpoint para registrar una nueva solicitud de producto</td>
+    <td>Implementar un endpoint POST /api/v1/product-requests que permita crear una nueva solicitud con detalles como cantidad y estado.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-11</td>
+    <td>Manage Product Requests through RESTful API</td>
+    <td>TK-63</td>
+    <td>Crear endpoint para actualizar una solicitud de producto</td>
+    <td>Implementar un endpoint PUT /api/v1/product-requests/{productRequestId} que permita actualizar los detalles de una solicitud.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-11</td>
+    <td>Manage Product Requests through RESTful API</td>
+    <td>TK-64</td>
+    <td>Crear endpoint para aceptar una solicitud de producto</td>
+    <td>Implementar un endpoint POST /api/v1/product-requests/{productRequestId}/accept que actualice el estado de la solicitud a ACCEPTED.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-11</td>
+    <td>Manage Product Requests through RESTful API</td>
+    <td>TK-65</td>
+    <td>Crear endpoint para rechazar una solicitud de producto</td>
+    <td>Implementar un endpoint POST /api/v1/product-requests/{productRequestId}/reject que actualice el estado de la solicitud a REJECTED.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-12</td>
+    <td>Manage Vehicles through RESTful API</td>
+    <td>TK-66</td>
+    <td>Crear endpoint para obtener todos los vehículos</td>
+    <td>Implementar un endpoint GET /api/v1/vehicles que devuelva una lista de todos los vehículos registrados.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-12</td>
+    <td>Manage Vehicles through RESTful API</td>
+    <td>TK-67</td>
+    <td>Crear endpoint para registrar un nuevo vehículo</td>
+    <td>Implementar un endpoint POST /api/v1/vehicles que permita crear un nuevo vehículo con datos como placa y marca.</td>
+    <td>3</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-12</td>
+    <td>Manage Vehicles through RESTful API</td>
+    <td>TK-68</td>
+    <td>Crear endpoint para obtener detalles de un vehículo específico</td>
+    <td>Implementar un endpoint GET /api/v1/vehicles/{vehicleId} que devuelva los detalles de un vehículo.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-12</td>
+    <td>Manage Vehicles through RESTful API</td>
+    <td>TK-69</td>
+    <td>Crear endpoint para actualizar un vehículo existente</td>
+    <td>Implementar un endpoint PUT /api/v1/vehicles/{vehicleId} que permita actualizar los datos de un vehículo.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-12</td>
+    <td>Manage Vehicles through RESTful API</td>
+    <td>TK-70</td>
+    <td>Crear endpoint para eliminar un vehículo</td>
+    <td>Implementar un endpoint DELETE /api/v1/vehicles/{vehicleId} que elimine un vehículo del sistema.</td>
+    <td>2</td>
+    <td>Elmer Riva</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-13</td>
+    <td>Manage IoT Devices through RESTful API</td>
+    <td>TK-71</td>
+    <td>Crear endpoint para obtener dispositivos IoT de un vehículo</td>
+    <td>Implementar un endpoint GET /api/v1/iot-devices que devuelva una lista de dispositivos IoT asociados a un vehículo mediante el vehicleId.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-14</td>
+    <td>Manage Profiles through RESTful API</td>
+    <td>TK-72</td>
+    <td>Crear endpoint para obtener todos los perfiles</td>
+    <td>Implementar un endpoint GET /api/v1/profiles que devuelva una lista de todos los perfiles registrados.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-14</td>
+    <td>Manage Profiles through RESTful API</td>
+    <td>TK-73</td>
+    <td>Crear endpoint para obtener detalles de un perfil específico</td>
+    <td>Implementar un endpoint GET /api/v1/profiles/{profileId} que devuelva los detalles de un perfil específico.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-14</td>
+    <td>Manage Profiles through RESTful API</td>
+    <td>TK-74</td>
+    <td>Crear endpoint para actualizar un perfil existente</td>
+    <td>Implementar un endpoint PUT /api/v1/profiles/{profileId} que permita actualizar los datos de un perfil.</td>
+    <td>2</td>
+    <td>Jhosepmyr Orlando</td>
+    <td>Done</td>
+  </tr>
+  <tr>  
+    <td>TS-16</td>
+    <td>Manage Notifications through RESTful API</td>
+    <td>TK-77</td>
+    <td>Crear endpoint para obtener notificaciones de un usuario</td>
+    <td>Implementar un endpoint GET /api/v1/notifications que devuelva una lista de notificaciones para un usuario con detalles como fecha y contenido.</td>
+    <td>2</td>
+    <td>Erick Hernandez</td>
+    <td>Done</td>
+  </tr>
 </table>
 
 #### 5.2.3.3. Development Evidence for Sprint Review
+Para el sprint 3, se implementaron las funcionalidades restantes del frontend para la ejecución de tareas y la gestión de checkpoints en una intervention, así como la visualización de la línea de tiempo de intervenciones y la información de IoT de un vehículo.
 
-Se procede a mostrar una tabla con los commits realizados en la duracion del tercer sprint.
+Por otro lado, se desarrolló la pantalla de login y se implementaron las validaciones de entrada de datos y mensajes de error para datos inválidos.
+
+En cuanto a la API REST, se crearon endpoints para gestionar intervenciones, estados de intervención, tareas, transiciones de estado de tareas, checkpoints, talleres, clientes, mecánicos, productos, solicitudes de productos, vehículos, dispositivos IoT, perfiles y notificaciones.
+
+Asimismo, se agregaron los videos About the product y el About the team en la landing page del sistema.
+
+De esa manera, se completaron todas las historias de usuario y tareas técnicas planificadas para el sprint 3.
+
+A continuación, se presenta la evidencia de desarrollo para la revisión del sprint 3:
 
 #### Commits FrontEnd Application
 
-| Branch | Id Commit | Cabecera | Cuerpo |
-|--------|-----------|----------|--------|
-| develop | 1f7d5fbb6bdd9c05dc1869dc53b522267c8a029c | Merge pull request #48 from Open-Source-YaraSoftware/feature/intervention-log-timeline | Feature/intervention log timeline |
-| feature/intervention-log-timeline | 23bec15dab3f2a46f9de40c4e609532d0ed00600 | feat(intervention-detail): implement task data fetching and integrate with intervention summary component |  |
-| feature/intervention-log-timeline | 4c4575a28f55bc1745b13c5be365365fd9619e89 | feat(intervention-summary): implement intervention summary component to manage tasks, checkpoints, and product usage with delegated display to task detail component |  |
-| develop | 951d9d94503f25a21729a59098a8979e4a548c90 | chore: layout modified |  |
-| feature/intervention-log-timeline | a689eda855db5b65b72f07662f0899ddcaceb5b4 | feat(task-detail): add table to display replacement parts used in the task. |  |
-| feature/intervention-log-timeline | 7f6c897c8ed3ea871edbeda14816f8b939e3e905 | feat(task-detail): add task detail component to display task and checkpoint details. |  |
-| develop | 14ffcffd2e3a3345a58733bce0d03369d036099e | Merge pull request #46 from Open-Source-YaraSoftware/feature/inventory-requests | Feature/inventory requests |
-| feature/inventory-requests | 2e2b04150970992a48693b36b3ef13773f6ff9d0 | Merge pull request #45 from Open-Source-YaraSoftware/hotfix/inventory-request | Hotfix/inventory request |
-| feature/inventory-requests | 0870590d8a36323a6c1c5928da7c53b426adf0f1 | Merge branch 'feature/inventory-requests' into hotfix/inventory-request |  |
-| feature/inventory-requests | ba11f0fce0718642dd500f64faa3a6ace2279845 | refactor(requests): update component logic and HTML template for request handling | - Updated TypeScript logic to fetch and display mechanic names based on task data. - Added a method to retrieve all tasks and map them to the corresponding requests. - Changed column name from 'amount' to 'requestedQuantity' for clarity in the HTML template. - Updated 'mechanic' column to display mechanic names dynamically. - Added matSort to all header cells for sorting functionality. |
-| feature/inventory-requests | 19469ba3bcd5ea0c71243f508f8f83a82f367bf9 | fix(product-request): resolve incorrect API calls and status handling | - Fixed incorrect API calls when retrieving requests by `taskId`. - Corrected status filtering in `getByWorkshopId` to ensure proper data retrieval (status=0). |
-| feature/inventory-requests | d6a02c54a2f37e52e8be1222a6638397d5291815 | refactor(product-request): update entity structure | - Removed `Workshop` and `Task` entities in favor of `workshopId` and `taskId` numeric fields. - Replaced `requestedDate` string type with a `Date` type, and added default date handling. - Added `observation` field for additional notes. - Simplified constructor initialization. |
-| develop | efd4d31a1961f8a9c4ca42a9d5169dabaecbd135 | Merge pull request #44 from Open-Source-YaraSoftware/feature/my-activities-leader | feat(activity): add finish intervention logic and confirmation dialog |
-| feature/my-activities-leader | dd7b9288def8d0a1facebf3ba8aaab630bed14b5 | feat(activity): add finish intervention logic and confirmation dialog | - Added `onFinishIntervention` method to handle intervention completion with confirmation dialog. - Integrated intervention state update through `InterventionsService` with feedback notification. |
-| develop | 299641a3aa1787bd24a178a50ddf6165b6ae78c8 | Merge pull request #43 from Open-Source-YaraSoftware/feature/my-activities-leader | Feature/my activities leader |
-| feature/my-activities-leader | 95e1eb80a389b5d0ea16778db8eba1f35765d08f | refactor(activity): include execution step load trigger on step change | - Added ViewChild reference for execution step to trigger the load function on step change. - Updated `notify` method to call `load` for the execution step on selection. |
-| develop | d5dd63dee0005740e091fdda1282a2bda7db21ed | refactor(activity): include execution step load trigger on step change | - Added ViewChild reference for execution step to trigger the load function on step change. - Updated `notify` method to call `load` for the execution step on selection. |
-| feature/task | 5960b7c9af07f493ed9e0a133fbfa7a7be642c84 | fix(task): set task id initialization to prevent duplication | - Changed the Task class constructor to initialize `id` as 0 - Prevents possible duplication when assigning random value - Ensures a safer mechanism for handling unique IDs |
-| develop | 5ffd04987f3826561d39573c4e66dda9a37aa559 | refactor(routes): update and remove unused routes | - Removed unused routes for clients, personnel, and vehicles - Consolidated and cleaned up routes under home path for better structure - Updated route titles and path assignments for improved readability and consistency |
-| develop | 4d78914431af9e82b016cae2a7227c2206530e5c | Merge pull request #42 from Open-Source-YaraSoftware/develop | Develop |
-| develop | 939612da731fff30a8d179244eb2552e56b7baaa | Merge pull request #41 from Open-Source-YaraSoftware/feature/intervention-supervision | Feature/intervention supervision |
-| feature/intervention-supervision | 7343c2844564bc225005e2a92f6f008d31ab7df4 | feat(activity-monitoring): implement ActivityMonitoringComponent to track task status and assigned mechanics | - Added task table to display task description, assigned mechanic, and task state - Integrated personnel data to show mechanic names in the task list - Used MatTable with sorting and pagination for a better user experience |
-| feature/intervention-supervision | 40c2c815854a9fe82fdd995d3412db02dd4bf6c8 | refactor(task-state): simplify TaskState enum by removing unnecessary states | - Removed AWAITING_COMPONENTS and AWAITING_REASSIGNMENT states |
-| develop | b71c9bceb6f595959db8a6028d2ebb04a76bf329 | Merge pull request #40 from Open-Source-YaraSoftware/feature/notifications | Feature/notifications |
-| feature/notifications | 63cc8513aae5a1b5dff7df77dec19e44f97f65d1 | feat(notifications): update components, services, entities, and new-mechanic-dialog to match new notification route |  |
-| develop | c446d9300ad08992a5c60962fefc9a137809a26d | Merge pull request #39 from Open-Source-YaraSoftware/develop | Develop |
-| develop | 2d97fc5c58271bfef8638c0f6760815f62863137 | Merge pull request #38 from Open-Source-YaraSoftware/feature/inventory-requests | Feature/inventory requests |
-| feature/inventory-requests | f6ddd4a546d39e6add1dcc9fa7f7d226021ea48d | Merge branch 'develop' into feature/inventory-requests |  |
-| develop | 646ab664d8e13ff0516c650ff65227855ea928fa | Merge pull request #36 from Open-Source-YaraSoftware/feature/intervention-execution | Feature/intervention execution |
-| feature/intervention-execution | 0d3f1a96a1195768bdbf5b4d24a04b5402892490 | Merge branch 'develop' into feature/intervention-execution |  |
-| feature/intervention-execution | 6fe08da972c58863db4eab101446323910db7031 | feat(task-product-request-list): update TaskProductRequestListComponent to support new ProductRequestState values | - Added support for displaying the new ProductRequestState (REJECTED, APPROVED) in the status column - Used enum mapping to show human-readable status values in the table |
-| feature/intervention-execution | 7a3f27440b2d7e51790b2dd12c4e9984d889c73f | feat(product-request-state): update ProductRequestState enum to include REJECTED and APPROVED states | - Added REJECTED and APPROVED states to handle additional product request statuses |
-| feature/intervention-execution | 95ba849120bd597e8cd933fcb2eac042daf5099e | feat(activity-requests): integrate confirmation dialogs and notification messages for product management actions | - Added confirmation dialogs for update and delete operations on product requests and task product usage - Integrated NotificationMessagesService to show success or error messages based on the result of actions - Enhanced user experience by asking for confirmation before critical actions |
-| develop | b7f24a8b72fed528732caa7b1517f9e8ca789347 | feat(requests): update requests page with new functionalities |  |
-| develop | db014d32fc1fa033b5d75c15aa2110b2266dbf2b | feat(product-request): update product-request service |  |
-| develop | 124a01592d5514cc6ff5af43dee96e1c65b8d3f9 | feat(product-request): update product-request enum entity |  |
-| develop | ca4d0341540ff0ed4772eb25cd86105940748cc9 | feat(product-request): update product-request entity |  |
-| develop | 62b6797a5c3b93a4e1f52aa661b124b0b3146ae1 | Merge pull request #35 from Open-Source-YaraSoftware/feature/sign-up | feat: make sign-up page responsive |
-| develop | 7e2e0915af399dd571243f17b2e6b44cea18032a | feat: make sign-up page responsive |  |
-| develop | b57c27b777c36b3d8db5d0fc22bae7a53fca853c | Merge pull request #34 from Open-Source-YaraSoftware/feature/login | feat: make login page responsive |
-| develop | 810259eb70b4418fd5293dbfa8447f63f52de8d8 | feat: make login page responsive |  |
-| develop | 6e5638703e29003397ed730df0453ee8ff4d534d | refactor(activity-requests): restructure ActivityRequestsComponent to use TaskProductStockList and TaskProductRequestList components | - Extracted product stock and product request tables into their respective components - Simplified main template by delegating list rendering to child components - Adjusted styling for better alignment and options display |
-| develop | 6288c45bc79da25be3489f5966cd5873f6b0c233 | refactor(task-product-request-list): extract product request table into a standalone component | - Moved product request table from ActivityRequest component to TaskProductRequestListComponent - Added input properties for productsRequested and isEditMode - Implemented output events for delete and edit actions - Integrated MatTable with sorting and pagination |
-| develop | 0a4681327ee71dea6dcaabc1bd88d3cafc5127bb | refactor(task-product-stock-list): extract task product stock table into a standalone component | - Moved task product usage table from ActivityRequest component to TaskProductStockListComponent - Added input properties for taskProductsUsage, isEditMode, and productsStock - Implemented output events for delete and edit actions - Integrated MatTable with sorting and pagination - Updated table logic to map product stock names based on productStockId |
-| develop | f15567c70cf0c4e1153dfac309c9312fc58f3dab | style(dialog): adjust dialog layout and width for better responsiveness | - Set dialog width to 90% and max-width to 30rem for better scaling on different screen sizes - Applied consistent margin and spacing for dialog content and buttons |
-| develop | 002fb545527fb8a90aa1efb51d9d6824586018e7 | feat(activity-execution): add task completion logic and notification system | - Implemented task finish confirmation dialog with a completion message - Integrated NotificationMessagesService to display success messages upon task completion - Added logic to move to the next task after completing the current one |
-| develop | bd438e81284b50287cffad7ccfdb77120c3c0d09 | feat(notification-messages-service): create NotificationMessagesService to display custom snackbar messages | - Integrated BaseMessageComponent for displaying messages with dynamic content and style - Configured snackbar with position, duration, and custom data including message and level |
-| develop | 290fabb20da050583d3cdb661dad859735b37121 | feat(base-message): implement BaseMessageComponent for displaying snackbar messages | - Added dynamic styling based on message level (success, warning, error) - Integrated material icons for visual feedback depending on the message level - Implemented getLevelClass and getIcon methods to return appropriate class and icon based on level |
-| develop | 26faff85f57941dc841b9a6ae8ded29f0d3e9927 | feat(activity-tracking): implement form and list for managing checkpoints in tasks | - Added form for creating and updating checkpoints with validation - Displayed list of checkpoints with edit and delete actions - Integrated CheckpointService to handle CRUD operations - Added dynamic UI behavior for edit mode and form reset - Included hover effect on list items to reveal action buttons |
-| develop | 2896d7104976a35c3334ae43a2e1d7ea441957db | feat(checkpoint-service): create CheckpointService for managing checkpoints | - Extends BaseService to handle Checkpoint entities - Implements method getAllByTaskId to retrieve checkpoints by task ID - Added error handling and retry logic to HTTP requests |
-| develop | 84f0f7b995a80dc3d14a309331f9598cd80a50c1 | feat(checkpoint): add taskId property to Checkpoint class for task association | - Introduced taskId property to link checkpoints with specific tasks - Updated constructor to accept taskId and support object destructuring |
-| feature/intervention-detail | 223da2288b7a9626b184fe7d4468de86bbeaba77 | feat(intervention-detail): add methods to update intervention data and implement confirmation dialog |  |
-| feature/intervention-detail | f72d7014b21d6f953c4b5879fbdd6d7ec3f334b8 | refactor(confirmation-dialog): ensure dialog returns true/false when closed for confirm/dismiss actions |  |
-| feature/intervention-detail | 6941894ccd206305b56bca07203eab6bb5ae660c | feat(general-information): add method to update intervention details and adjust form field visibility based on user role |  |
-| develop | 2a2ee4a4421dc42ed3f2de49a850eae60543ef8e | feat(activity-requests): implement form and table components for managing product requests and product usage | - Added form with dynamic fields for selecting required parts or entering other part details - Implemented tables for displaying products requested and task products usage - Integrated services to handle CRUD operations for product requests and task product usage - Added logic for form validation and resetting after submission - Included edit and delete functionality for both product requests and task product usage |
-| develop | 67e33a3d2057baf2aad03f6570d249b0493a42f1 | feat(activity-execution-header): implement ActivityExecutionHeader component for task management and option selection | - Added dynamic task and option selection using signals for reactivity - Integrated TaskService to fetch tasks by intervention ID - Implemented component logic for switching between 'requests' and 'tracking' views - Styled the component with CSS for layout and responsive design |
-| develop | f20d1e32f349d7785d3ea410d3385df496fe1c82 | feat(task-product-usage-service): create TaskProductUsageService for handling task product usage operations | - Extends BaseService to manage TaskProductUsage entities - Implements method getAllByTaskId to retrieve product usage by task ID - Added error handling and retry logic to HTTP requests |
-| develop | f3357e599ba2df2acfc76206724bcedfd8decff9 | feat(product-stock-service): create ProductStockService to manage product stock operations | - Extends BaseService to handle ProductStock entities - Sets resourceEndpoint to '/products-stock' for API requests |
-| develop | 27cdbce6f643e9089638943987cfbcea5ecc3796 | feat(product-request-service): create ProductRequestService for handling product requests | - Extends BaseService to manage ProductRequest entities - Implements method getAllByTaskId to retrieve product requests by task ID - Added error handling and retry logic to HTTP requests |
-| develop | f4a84bd72f78825e499f0ab400fb4d68e8b9d93a | feat(task-product-usage): add TaskProductUsage class to track product usage in tasks | - Added properties to store taskId, productStockId, quantityUsed, and dateUsed - Implemented constructor with object destructuring for initialization |
-| develop | 346fa1c86c23a87d0587cf2924c5d16a4d4e41d0 | refactor(product-type): remove unnecessary properties and references from ProductType class | - Removed productStockList property - Simplified ProductType class structure |
-| develop | 165e7bfb7624d958ab62cbe9d7be63a73eadb282 | refactor(product-stock): update ProductStock class with simplified properties and constructor | - Removed direct reference to Workshop entity and replaced with workshopId - Replaced taskStockList with limit property - Added name property for better identification - Refined constructor to accept object destructuring for initialization |
-| develop | 0a59fa85247ee487b13db3cc053666eb280489a7 | refactor(product-request): update ProductRequest class with simplified structure and constructor | - Removed direct references to Workshop and Task entities - Replaced workshop and task with workshopId and taskId - Added observation property for additional information - Refined constructor to accept object destructuring for initialization |
-| develop | d4b21d2e9d051edb312040f0734bc225e94bf693 | Merge pull request #32 from Open-Source-YaraSoftware/feature/inventory-stock | Feature/inventory stock |
-| feature/inventory-stock | e12ccc40424f98155fd7e4780aabcd5c6cc4a865 | feat(items): update items component with new functionalities |  |
-| develop | 3cf38f15a61afe3f00a18136716fc2e5b264c785 | feat(edit-item-dialog): add edit item dialog component |  |
-| develop | df28df35d36706ce922b53c7858a8d1f0393f4bd | feat(inventory-header): update inventory-header component |  |
-| develop | 36f760f57d26b44d4256695a5d6537f75365893f | feat(product-stock): add product-stock service |  |
-| develop | 0eb9e254931deeea0fcc4d0beb96ee7d59d8f0c0 | feat(product-stock): update product-stock entity with new attributes |  |
-| develop | 3ca571da32d6e05a5086908e5137b21298bcda80 | Merge pull request #30 from Open-Source-YaraSoftware/feature/header-content | feat: add Log-in and Register buttons to header-content |
-| feature/header-content | 588bc8dcc392f709c551c90d19de79a318948702 | feat: add Log-in and Register buttons to header-content |  |
-| develop | a6eebdfef25b895763f72ea0f0db72cecfccaadd | Merge pull request #29 from Open-Source-YaraSoftware/feature/sign-up | feat: add sign-up component functionality |
-| feature/sign-up | 71448721b8dc22f7ded86257f36be7a3707c5291 | feat: add sign-up component functionality |  |
-| develop | 39488b1f9abe44be73caf6479b7909c3e8b986f0 | Merge pull request #28 from Open-Source-YaraSoftware/feature/login | feat: add login component functionality |
-| feature/login | 57f4ca4f38eefd44f80a6b6b4e1c337183406386 | feat: add login component functionality |  |
-| develop | 2874961754626da03b9068ce6adfc151a1b9161f | Merge pull request #27 from Open-Source-YaraSoftware/feature/new-client-dialog | feat(clients): Add new-client-dialog for new client registration |
-| feature/new-client-dialog | b0c0aa0fa74ebe11e35c00b6f88712e1d520f01d | feat(clients): Add new-client-dialog for new client registration |  |
-| feature/intervention-detail | c8799d960e1a6284e5cc92dfd0d3425331fc98c7 | feat(intervention-detail): add intervention detail component with intervention, personnel and vehicle data integration |  |
-| feature/general-information | 20a27a3b1453099a47906e43886f301d364adb0e | feat(general-information): add general information component with basic information display |  |
-| feature/vehicle-service | d1977262eabeb9267c207d58532a9bf9bb3d028f | feat(vehicle-service): add getByClientDni method |  |
-| develop | 1921acfe0952d106499051af2e8b0256bc8c4371 | chore: add replace underscore pipe to use on enums |  |
-| develop | 50dbd35345f9b3e587d33894b67a5490240d40a9 | Merge pull request #26 from Open-Source-YaraSoftware/develop | Develop |
-| develop | 3a0f80d784faf9c4a8efb76be339e87de06dbc09 | Merge pull request #25 from Open-Source-YaraSoftware/feature/vehicle-iot-information | feat(vehicle-iot-information): add iot information to vehicle detail … |
-| feature/vehicle-iot-information | 5e08fb8ef8a543838d68687b90a647a5db56a2cb | feat(vehicle-iot-information): add iot information to vehicle detail component. |  |
-| develop | b71a55a44c163a8d730758fb678f8549abbe3574 | Merge pull request #24 from Open-Source-YaraSoftware/feature/intervention-log-timeline | Feature/intervention log timeline |
-| feature/intervention-log-timeline | 9c779010e6c5ee408caa3344b90ff843a2fa8162 | feature(intervention-log-timeline): add activity log to vehicle detail component |  |
-| feature/intervention-log-timeline | fc331703b607211da17ca5cbc3ec9d652c66c6a7 | feature(intervention-log-timeline): add redirection method to vehicle detail page |  |
-| feature/intervention-log-timeline | b0fa381460fedbbd150026c33cbb587cb88aef0a | refactor(previous-interventions): add boolean flag to activate the expansion panel |  |
-| develop | 4a7cc284f2247c83c573e72bf45d96693c4f8c22 | Merge pull request #22 from Open-Source-YaraSoftware/feature/intervention-diagnostic | Feature/intervention diagnostic |
-| feature/intervention-diagnostic | 9484438ee1871d58c247c3ba87aba74be0260537 | feat(activity-diagnostic-preparation): create parent component to manage task and intervention diagnostics | - Add activity diagnostic preparation component to use task-distribution and intervention-diagnostic - Provide data to child components and handle logic confirmation |
-| feature/intervention-diagnostic | 75f5b428e7307776b721e10a08ac90cd112936df | feat(intervention-diagnostic): create component with HTML, styles, and intervention update logic | - Add intervention diagnostic component with HTML schema and styles - Implement logic to update intervention type and optional description - Add functionality to reset values if changes are detected |
-| feature/intervention-diagnostic | 390f208978e7e4304d83b9180cbd968a293a29b8 | feat(task-distribution): create component with HTML, styles, and task management logic | - Add task distribution component with HTML schema and styles - Implement logic to add, delete, and update tasks in an intervention |
-| feature/intervention-diagnostic | ab5d46935e2507ab24a1d4b4fd6753e303dc74c1 | feat(task): add endpoint to get task list by intervention ID |  |
-| feature/intervention-diagnostic | 49d4fa5484a657147032297928b8cbf31f7c087b | refactor(entities): update Checkpoint, Intervention, Mechanic, and Task entities | - Remove Task property from Checkpoint entity - Add description field to Intervention entity - Remove embedded list of tasks from Mechanic entity - Rename mechanic to assistant in Task entity, keeping the same type |
-| feature/vehicle-registration | 180efc62ab80302be7e76d8bc7c1aa835a3855b3 | feature(vehicle-registration): add new vehicle dialog component |  |
-| feature/client-detail | 8978d49c67ab376d33ca1261521421e030ea08b2 | refactor(client-detail): encapsulate logic for better readability and separation of concerns |  |
-| feature/client-detail | 71499c8ed3ccbcc1728cbaf8b1c71530714da061 | refactor(client-detail): encapsulate logic for better readability and separation of concerns |  |
-| develop | 8a932652c9e1ccf1d0ce75b55b7637809a659c3f | Merge pull request #21 from Open-Source-YaraSoftware/feature/client-detail | Feature/client detail |
-| feature/client-detail | 2ba46a8f10f232f5fe32050be2abc75a69cc7c40 | feat(client-detail): add delete and update methods for client management |  |
-| feature/client-detail | 35069c156492838d699889625baba1dfc757e9e4 | feat(client-detail): implement service consumption to retrieve client and vehicles data |  |
-| feature/client-detail | 7ba796b0d7dc9f0d48ec3764367a424bf739b768 | feat(client-detail): add client detail component layout |  |
-| feature/vehicle | 8bc380cdf3d665010aa9c83bba734f617b652964 | refactor: update vehicle entity with new attributes |  |
-| feature/user | ceda0d81639483336285ddcdfd6d87f36ce43964 | refactor: update user entity with new attributes |  |
-| feature/vehicle-service | 7e238bff1e7ec6d281e514c488f11e33f1bda94a | feat(vehicle-service): add vehicle service with method to get vehicles by client ID |  |
-| notifications | 95166ae36ccfb204720c344eee7bffcbc9261fa7 | feat(notifications): add notification page |  |
-| notifications | 778fc89afe5fa93738bdd42f43eba0810cbdc6d2 | feat(notifications): add notification-item component |  |
-| notifications | a6fe4eeb68cc4eae4a4adf022226532e20c3440b | feat(notifications): add notification service |  |
-| notifications | fdead7dc97238100d45f4e9b7b3b53813d9dab11 | feat(notifications): add notification entity, notification-manager entity and notification-state enum |  |
-| feature/vehicle-item | ebf3dd1176c209469161065cef40ad177fa1096d | feat(vehicle-item): add last intervention date display |  |
-| feature/vehicle-item | c962332835d12571226c0010b36acca25706ca16 | feat(vehicle-item): add vehicle item component with vehicle image and details display |  |
-| feature/confirmation-dialog | 5d2fffa5c22e5fffa44f7dfb68c135d36be1204d | feat(confirmation-dialog): add base confirmation dialog component |  |
+| Branch                            | Id Commit                                | Cabecera                                                                                                                                                             | Cuerpo                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|-----------------------------------|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| develop                           | 1f7d5fbb6bdd9c05dc1869dc53b522267c8a029c | Merge pull request #48 from Open-Source-YaraSoftware/feature/intervention-log-timeline                                                                               | Feature/intervention log timeline                                                                                                                                                                                                                                                                                                                                                                                                  |
+| feature/intervention-log-timeline | 23bec15dab3f2a46f9de40c4e609532d0ed00600 | feat(intervention-detail): implement task data fetching and integrate with intervention summary component                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-log-timeline | 4c4575a28f55bc1745b13c5be365365fd9619e89 | feat(intervention-summary): implement intervention summary component to manage tasks, checkpoints, and product usage with delegated display to task detail component |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 951d9d94503f25a21729a59098a8979e4a548c90 | chore: layout modified                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-log-timeline | a689eda855db5b65b72f07662f0899ddcaceb5b4 | feat(task-detail): add table to display replacement parts used in the task.                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-log-timeline | 7f6c897c8ed3ea871edbeda14816f8b939e3e905 | feat(task-detail): add task detail component to display task and checkpoint details.                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 14ffcffd2e3a3345a58733bce0d03369d036099e | Merge pull request #46 from Open-Source-YaraSoftware/feature/inventory-requests                                                                                      | Feature/inventory requests                                                                                                                                                                                                                                                                                                                                                                                                         |
+| feature/inventory-requests        | 2e2b04150970992a48693b36b3ef13773f6ff9d0 | Merge pull request #45 from Open-Source-YaraSoftware/hotfix/inventory-request                                                                                        | Hotfix/inventory request                                                                                                                                                                                                                                                                                                                                                                                                           |
+| feature/inventory-requests        | 0870590d8a36323a6c1c5928da7c53b426adf0f1 | Merge branch 'feature/inventory-requests' into hotfix/inventory-request                                                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/inventory-requests        | ba11f0fce0718642dd500f64faa3a6ace2279845 | refactor(requests): update component logic and HTML template for request handling                                                                                    | - Updated TypeScript logic to fetch and display mechanic names based on task data. - Added a method to retrieve all tasks and map them to the corresponding requests. - Changed column name from 'amount' to 'requestedQuantity' for clarity in the HTML template. - Updated 'mechanic' column to display mechanic names dynamically. - Added matSort to all header cells for sorting functionality.                               |
+| feature/inventory-requests        | 19469ba3bcd5ea0c71243f508f8f83a82f367bf9 | fix(product-request): resolve incorrect API calls and status handling                                                                                                | - Fixed incorrect API calls when retrieving requests by `taskId`. - Corrected status filtering in `getByWorkshopId` to ensure proper data retrieval (status=0).                                                                                                                                                                                                                                                                    |
+| feature/inventory-requests        | d6a02c54a2f37e52e8be1222a6638397d5291815 | refactor(product-request): update entity structure                                                                                                                   | - Removed `Workshop` and `Task` entities in favor of `workshopId` and `taskId` numeric fields. - Replaced `requestedDate` string type with a `Date` type, and added default date handling. - Added `observation` field for additional notes. - Simplified constructor initialization.                                                                                                                                              |
+| develop                           | efd4d31a1961f8a9c4ca42a9d5169dabaecbd135 | Merge pull request #44 from Open-Source-YaraSoftware/feature/my-activities-leader                                                                                    | feat(activity): add finish intervention logic and confirmation dialog                                                                                                                                                                                                                                                                                                                                                              |
+| feature/my-activities-leader      | dd7b9288def8d0a1facebf3ba8aaab630bed14b5 | feat(activity): add finish intervention logic and confirmation dialog                                                                                                | - Added `onFinishIntervention` method to handle intervention completion with confirmation dialog. - Integrated intervention state update through `InterventionsService` with feedback notification.                                                                                                                                                                                                                                |
+| develop                           | 299641a3aa1787bd24a178a50ddf6165b6ae78c8 | Merge pull request #43 from Open-Source-YaraSoftware/feature/my-activities-leader                                                                                    | Feature/my activities leader                                                                                                                                                                                                                                                                                                                                                                                                       |
+| feature/my-activities-leader      | 95e1eb80a389b5d0ea16778db8eba1f35765d08f | refactor(activity): include execution step load trigger on step change                                                                                               | - Added ViewChild reference for execution step to trigger the load function on step change. - Updated `notify` method to call `load` for the execution step on selection.                                                                                                                                                                                                                                                          |
+| develop                           | d5dd63dee0005740e091fdda1282a2bda7db21ed | refactor(activity): include execution step load trigger on step change                                                                                               | - Added ViewChild reference for execution step to trigger the load function on step change. - Updated `notify` method to call `load` for the execution step on selection.                                                                                                                                                                                                                                                          |
+| feature/task                      | 5960b7c9af07f493ed9e0a133fbfa7a7be642c84 | fix(task): set task id initialization to prevent duplication                                                                                                         | - Changed the Task class constructor to initialize `id` as 0 - Prevents possible duplication when assigning random value - Ensures a safer mechanism for handling unique IDs                                                                                                                                                                                                                                                       |
+| develop                           | 5ffd04987f3826561d39573c4e66dda9a37aa559 | refactor(routes): update and remove unused routes                                                                                                                    | - Removed unused routes for clients, personnel, and vehicles - Consolidated and cleaned up routes under home path for better structure - Updated route titles and path assignments for improved readability and consistency                                                                                                                                                                                                        |
+| develop                           | 4d78914431af9e82b016cae2a7227c2206530e5c | Merge pull request #42 from Open-Source-YaraSoftware/develop                                                                                                         | Develop                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| develop                           | 939612da731fff30a8d179244eb2552e56b7baaa | Merge pull request #41 from Open-Source-YaraSoftware/feature/intervention-supervision                                                                                | Feature/intervention supervision                                                                                                                                                                                                                                                                                                                                                                                                   |
+| feature/intervention-supervision  | 7343c2844564bc225005e2a92f6f008d31ab7df4 | feat(activity-monitoring): implement ActivityMonitoringComponent to track task status and assigned mechanics                                                         | - Added task table to display task description, assigned mechanic, and task state - Integrated personnel data to show mechanic names in the task list - Used MatTable with sorting and pagination for a better user experience                                                                                                                                                                                                     |
+| feature/intervention-supervision  | 40c2c815854a9fe82fdd995d3412db02dd4bf6c8 | refactor(task-state): simplify TaskState enum by removing unnecessary states                                                                                         | - Removed AWAITING_COMPONENTS and AWAITING_REASSIGNMENT states                                                                                                                                                                                                                                                                                                                                                                     |
+| develop                           | b71c9bceb6f595959db8a6028d2ebb04a76bf329 | Merge pull request #40 from Open-Source-YaraSoftware/feature/notifications                                                                                           | Feature/notifications                                                                                                                                                                                                                                                                                                                                                                                                              |
+| feature/notifications             | 63cc8513aae5a1b5dff7df77dec19e44f97f65d1 | feat(notifications): update components, services, entities, and new-mechanic-dialog to match new notification route                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | c446d9300ad08992a5c60962fefc9a137809a26d | Merge pull request #39 from Open-Source-YaraSoftware/develop                                                                                                         | Develop                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| develop                           | 2d97fc5c58271bfef8638c0f6760815f62863137 | Merge pull request #38 from Open-Source-YaraSoftware/feature/inventory-requests                                                                                      | Feature/inventory requests                                                                                                                                                                                                                                                                                                                                                                                                         |
+| feature/inventory-requests        | f6ddd4a546d39e6add1dcc9fa7f7d226021ea48d | Merge branch 'develop' into feature/inventory-requests                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 646ab664d8e13ff0516c650ff65227855ea928fa | Merge pull request #36 from Open-Source-YaraSoftware/feature/intervention-execution                                                                                  | Feature/intervention execution                                                                                                                                                                                                                                                                                                                                                                                                     |
+| feature/intervention-execution    | 0d3f1a96a1195768bdbf5b4d24a04b5402892490 | Merge branch 'develop' into feature/intervention-execution                                                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-execution    | 6fe08da972c58863db4eab101446323910db7031 | feat(task-product-request-list): update TaskProductRequestListComponent to support new ProductRequestState values                                                    | - Added support for displaying the new ProductRequestState (REJECTED, APPROVED) in the status column - Used enum mapping to show human-readable status values in the table                                                                                                                                                                                                                                                         |
+| feature/intervention-execution    | 7a3f27440b2d7e51790b2dd12c4e9984d889c73f | feat(product-request-state): update ProductRequestState enum to include REJECTED and APPROVED states                                                                 | - Added REJECTED and APPROVED states to handle additional product request statuses                                                                                                                                                                                                                                                                                                                                                 |
+| feature/intervention-execution    | 95ba849120bd597e8cd933fcb2eac042daf5099e | feat(activity-requests): integrate confirmation dialogs and notification messages for product management actions                                                     | - Added confirmation dialogs for update and delete operations on product requests and task product usage - Integrated NotificationMessagesService to show success or error messages based on the result of actions - Enhanced user experience by asking for confirmation before critical actions                                                                                                                                   |
+| develop                           | b7f24a8b72fed528732caa7b1517f9e8ca789347 | feat(requests): update requests page with new functionalities                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | db014d32fc1fa033b5d75c15aa2110b2266dbf2b | feat(product-request): update product-request service                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 124a01592d5514cc6ff5af43dee96e1c65b8d3f9 | feat(product-request): update product-request enum entity                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | ca4d0341540ff0ed4772eb25cd86105940748cc9 | feat(product-request): update product-request entity                                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 62b6797a5c3b93a4e1f52aa661b124b0b3146ae1 | Merge pull request #35 from Open-Source-YaraSoftware/feature/sign-up                                                                                                 | feat: make sign-up page responsive                                                                                                                                                                                                                                                                                                                                                                                                 |
+| develop                           | 7e2e0915af399dd571243f17b2e6b44cea18032a | feat: make sign-up page responsive                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | b57c27b777c36b3d8db5d0fc22bae7a53fca853c | Merge pull request #34 from Open-Source-YaraSoftware/feature/login                                                                                                   | feat: make login page responsive                                                                                                                                                                                                                                                                                                                                                                                                   |
+| develop                           | 810259eb70b4418fd5293dbfa8447f63f52de8d8 | feat: make login page responsive                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 6e5638703e29003397ed730df0453ee8ff4d534d | refactor(activity-requests): restructure ActivityRequestsComponent to use TaskProductStockList and TaskProductRequestList components                                 | - Extracted product stock and product request tables into their respective components - Simplified main template by delegating list rendering to child components - Adjusted styling for better alignment and options display                                                                                                                                                                                                      |
+| develop                           | 6288c45bc79da25be3489f5966cd5873f6b0c233 | refactor(task-product-request-list): extract product request table into a standalone component                                                                       | - Moved product request table from ActivityRequest component to TaskProductRequestListComponent - Added input properties for productsRequested and isEditMode - Implemented output events for delete and edit actions - Integrated MatTable with sorting and pagination                                                                                                                                                            |
+| develop                           | 0a4681327ee71dea6dcaabc1bd88d3cafc5127bb | refactor(task-product-stock-list): extract task product stock table into a standalone component                                                                      | - Moved task product usage table from ActivityRequest component to TaskProductStockListComponent - Added input properties for taskProductsUsage, isEditMode, and productsStock - Implemented output events for delete and edit actions - Integrated MatTable with sorting and pagination - Updated table logic to map product stock names based on productStockId                                                                  |
+| develop                           | f15567c70cf0c4e1153dfac309c9312fc58f3dab | style(dialog): adjust dialog layout and width for better responsiveness                                                                                              | - Set dialog width to 90% and max-width to 30rem for better scaling on different screen sizes - Applied consistent margin and spacing for dialog content and buttons                                                                                                                                                                                                                                                               |
+| develop                           | 002fb545527fb8a90aa1efb51d9d6824586018e7 | feat(activity-execution): add task completion logic and notification system                                                                                          | - Implemented task finish confirmation dialog with a completion message - Integrated NotificationMessagesService to display success messages upon task completion - Added logic to move to the next task after completing the current one                                                                                                                                                                                          |
+| develop                           | bd438e81284b50287cffad7ccfdb77120c3c0d09 | feat(notification-messages-service): create NotificationMessagesService to display custom snackbar messages                                                          | - Integrated BaseMessageComponent for displaying messages with dynamic content and style - Configured snackbar with position, duration, and custom data including message and level                                                                                                                                                                                                                                                |
+| develop                           | 290fabb20da050583d3cdb661dad859735b37121 | feat(base-message): implement BaseMessageComponent for displaying snackbar messages                                                                                  | - Added dynamic styling based on message level (success, warning, error) - Integrated material icons for visual feedback depending on the message level - Implemented getLevelClass and getIcon methods to return appropriate class and icon based on level                                                                                                                                                                        |
+| develop                           | 26faff85f57941dc841b9a6ae8ded29f0d3e9927 | feat(activity-tracking): implement form and list for managing checkpoints in tasks                                                                                   | - Added form for creating and updating checkpoints with validation - Displayed list of checkpoints with edit and delete actions - Integrated CheckpointService to handle CRUD operations - Added dynamic UI behavior for edit mode and form reset - Included hover effect on list items to reveal action buttons                                                                                                                   |
+| develop                           | 2896d7104976a35c3334ae43a2e1d7ea441957db | feat(checkpoint-service): create CheckpointService for managing checkpoints                                                                                          | - Extends BaseService to handle Checkpoint entities - Implements method getAllByTaskId to retrieve checkpoints by task ID - Added error handling and retry logic to HTTP requests                                                                                                                                                                                                                                                  |
+| develop                           | 84f0f7b995a80dc3d14a309331f9598cd80a50c1 | feat(checkpoint): add taskId property to Checkpoint class for task association                                                                                       | - Introduced taskId property to link checkpoints with specific tasks - Updated constructor to accept taskId and support object destructuring                                                                                                                                                                                                                                                                                       |
+| feature/intervention-detail       | 223da2288b7a9626b184fe7d4468de86bbeaba77 | feat(intervention-detail): add methods to update intervention data and implement confirmation dialog                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-detail       | f72d7014b21d6f953c4b5879fbdd6d7ec3f334b8 | refactor(confirmation-dialog): ensure dialog returns true/false when closed for confirm/dismiss actions                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-detail       | 6941894ccd206305b56bca07203eab6bb5ae660c | feat(general-information): add method to update intervention details and adjust form field visibility based on user role                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 2a2ee4a4421dc42ed3f2de49a850eae60543ef8e | feat(activity-requests): implement form and table components for managing product requests and product usage                                                         | - Added form with dynamic fields for selecting required parts or entering other part details - Implemented tables for displaying products requested and task products usage - Integrated services to handle CRUD operations for product requests and task product usage - Added logic for form validation and resetting after submission - Included edit and delete functionality for both product requests and task product usage |
+| develop                           | 67e33a3d2057baf2aad03f6570d249b0493a42f1 | feat(activity-execution-header): implement ActivityExecutionHeader component for task management and option selection                                                | - Added dynamic task and option selection using signals for reactivity - Integrated TaskService to fetch tasks by intervention ID - Implemented component logic for switching between 'requests' and 'tracking' views - Styled the component with CSS for layout and responsive design                                                                                                                                             |
+| develop                           | f20d1e32f349d7785d3ea410d3385df496fe1c82 | feat(task-product-usage-service): create TaskProductUsageService for handling task product usage operations                                                          | - Extends BaseService to manage TaskProductUsage entities - Implements method getAllByTaskId to retrieve product usage by task ID - Added error handling and retry logic to HTTP requests                                                                                                                                                                                                                                          |
+| develop                           | f3357e599ba2df2acfc76206724bcedfd8decff9 | feat(product-stock-service): create ProductStockService to manage product stock operations                                                                           | - Extends BaseService to handle ProductStock entities - Sets resourceEndpoint to '/products-stock' for API requests                                                                                                                                                                                                                                                                                                                |
+| develop                           | 27cdbce6f643e9089638943987cfbcea5ecc3796 | feat(product-request-service): create ProductRequestService for handling product requests                                                                            | - Extends BaseService to manage ProductRequest entities - Implements method getAllByTaskId to retrieve product requests by task ID - Added error handling and retry logic to HTTP requests                                                                                                                                                                                                                                         |
+| develop                           | f4a84bd72f78825e499f0ab400fb4d68e8b9d93a | feat(task-product-usage): add TaskProductUsage class to track product usage in tasks                                                                                 | - Added properties to store taskId, productStockId, quantityUsed, and dateUsed - Implemented constructor with object destructuring for initialization                                                                                                                                                                                                                                                                              |
+| develop                           | 346fa1c86c23a87d0587cf2924c5d16a4d4e41d0 | refactor(product-type): remove unnecessary properties and references from ProductType class                                                                          | - Removed productStockList property - Simplified ProductType class structure                                                                                                                                                                                                                                                                                                                                                       |
+| develop                           | 165e7bfb7624d958ab62cbe9d7be63a73eadb282 | refactor(product-stock): update ProductStock class with simplified properties and constructor                                                                        | - Removed direct reference to Workshop entity and replaced with workshopId - Replaced taskStockList with limit property - Added name property for better identification - Refined constructor to accept object destructuring for initialization                                                                                                                                                                                    |
+| develop                           | 0a59fa85247ee487b13db3cc053666eb280489a7 | refactor(product-request): update ProductRequest class with simplified structure and constructor                                                                     | - Removed direct references to Workshop and Task entities - Replaced workshop and task with workshopId and taskId - Added observation property for additional information - Refined constructor to accept object destructuring for initialization                                                                                                                                                                                  |
+| develop                           | d4b21d2e9d051edb312040f0734bc225e94bf693 | Merge pull request #32 from Open-Source-YaraSoftware/feature/inventory-stock                                                                                         | Feature/inventory stock                                                                                                                                                                                                                                                                                                                                                                                                            |
+| feature/inventory-stock           | e12ccc40424f98155fd7e4780aabcd5c6cc4a865 | feat(items): update items component with new functionalities                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 3cf38f15a61afe3f00a18136716fc2e5b264c785 | feat(edit-item-dialog): add edit item dialog component                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | df28df35d36706ce922b53c7858a8d1f0393f4bd | feat(inventory-header): update inventory-header component                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 36f760f57d26b44d4256695a5d6537f75365893f | feat(product-stock): add product-stock service                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 0eb9e254931deeea0fcc4d0beb96ee7d59d8f0c0 | feat(product-stock): update product-stock entity with new attributes                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 3ca571da32d6e05a5086908e5137b21298bcda80 | Merge pull request #30 from Open-Source-YaraSoftware/feature/header-content                                                                                          | feat: add Log-in and Register buttons to header-content                                                                                                                                                                                                                                                                                                                                                                            |
+| feature/header-content            | 588bc8dcc392f709c551c90d19de79a318948702 | feat: add Log-in and Register buttons to header-content                                                                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | a6eebdfef25b895763f72ea0f0db72cecfccaadd | Merge pull request #29 from Open-Source-YaraSoftware/feature/sign-up                                                                                                 | feat: add sign-up component functionality                                                                                                                                                                                                                                                                                                                                                                                          |
+| feature/sign-up                   | 71448721b8dc22f7ded86257f36be7a3707c5291 | feat: add sign-up component functionality                                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 39488b1f9abe44be73caf6479b7909c3e8b986f0 | Merge pull request #28 from Open-Source-YaraSoftware/feature/login                                                                                                   | feat: add login component functionality                                                                                                                                                                                                                                                                                                                                                                                            |
+| feature/login                     | 57f4ca4f38eefd44f80a6b6b4e1c337183406386 | feat: add login component functionality                                                                                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 2874961754626da03b9068ce6adfc151a1b9161f | Merge pull request #27 from Open-Source-YaraSoftware/feature/new-client-dialog                                                                                       | feat(clients): Add new-client-dialog for new client registration                                                                                                                                                                                                                                                                                                                                                                   |
+| feature/new-client-dialog         | b0c0aa0fa74ebe11e35c00b6f88712e1d520f01d | feat(clients): Add new-client-dialog for new client registration                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-detail       | c8799d960e1a6284e5cc92dfd0d3425331fc98c7 | feat(intervention-detail): add intervention detail component with intervention, personnel and vehicle data integration                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/general-information       | 20a27a3b1453099a47906e43886f301d364adb0e | feat(general-information): add general information component with basic information display                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/vehicle-service           | d1977262eabeb9267c207d58532a9bf9bb3d028f | feat(vehicle-service): add getByClientDni method                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 1921acfe0952d106499051af2e8b0256bc8c4371 | chore: add replace underscore pipe to use on enums                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 50dbd35345f9b3e587d33894b67a5490240d40a9 | Merge pull request #26 from Open-Source-YaraSoftware/develop                                                                                                         | Develop                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| develop                           | 3a0f80d784faf9c4a8efb76be339e87de06dbc09 | Merge pull request #25 from Open-Source-YaraSoftware/feature/vehicle-iot-information                                                                                 | feat(vehicle-iot-information): add iot information to vehicle detail …                                                                                                                                                                                                                                                                                                                                                             |
+| feature/vehicle-iot-information   | 5e08fb8ef8a543838d68687b90a647a5db56a2cb | feat(vehicle-iot-information): add iot information to vehicle detail component.                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | b71a55a44c163a8d730758fb678f8549abbe3574 | Merge pull request #24 from Open-Source-YaraSoftware/feature/intervention-log-timeline                                                                               | Feature/intervention log timeline                                                                                                                                                                                                                                                                                                                                                                                                  |
+| feature/intervention-log-timeline | 9c779010e6c5ee408caa3344b90ff843a2fa8162 | feature(intervention-log-timeline): add activity log to vehicle detail component                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-log-timeline | fc331703b607211da17ca5cbc3ec9d652c66c6a7 | feature(intervention-log-timeline): add redirection method to vehicle detail page                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-log-timeline | b0fa381460fedbbd150026c33cbb587cb88aef0a | refactor(previous-interventions): add boolean flag to activate the expansion panel                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 4a7cc284f2247c83c573e72bf45d96693c4f8c22 | Merge pull request #22 from Open-Source-YaraSoftware/feature/intervention-diagnostic                                                                                 | Feature/intervention diagnostic                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-diagnostic   | 9484438ee1871d58c247c3ba87aba74be0260537 | feat(activity-diagnostic-preparation): create parent component to manage task and intervention diagnostics                                                           | - Add activity diagnostic preparation component to use task-distribution and intervention-diagnostic - Provide data to child components and handle logic confirmation                                                                                                                                                                                                                                                              |
+| feature/intervention-diagnostic   | 75f5b428e7307776b721e10a08ac90cd112936df | feat(intervention-diagnostic): create component with HTML, styles, and intervention update logic                                                                     | - Add intervention diagnostic component with HTML schema and styles - Implement logic to update intervention type and optional description - Add functionality to reset values if changes are detected                                                                                                                                                                                                                             |
+| feature/intervention-diagnostic   | 390f208978e7e4304d83b9180cbd968a293a29b8 | feat(task-distribution): create component with HTML, styles, and task management logic                                                                               | - Add task distribution component with HTML schema and styles - Implement logic to add, delete, and update tasks in an intervention                                                                                                                                                                                                                                                                                                |
+| feature/intervention-diagnostic   | ab5d46935e2507ab24a1d4b4fd6753e303dc74c1 | feat(task): add endpoint to get task list by intervention ID                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/intervention-diagnostic   | 49d4fa5484a657147032297928b8cbf31f7c087b | refactor(entities): update Checkpoint, Intervention, Mechanic, and Task entities                                                                                     | - Remove Task property from Checkpoint entity - Add description field to Intervention entity - Remove embedded list of tasks from Mechanic entity - Rename mechanic to assistant in Task entity, keeping the same type                                                                                                                                                                                                             |
+| feature/vehicle-registration      | 180efc62ab80302be7e76d8bc7c1aa835a3855b3 | feature(vehicle-registration): add new vehicle dialog component                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/client-detail             | 8978d49c67ab376d33ca1261521421e030ea08b2 | refactor(client-detail): encapsulate logic for better readability and separation of concerns                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/client-detail             | 71499c8ed3ccbcc1728cbaf8b1c71530714da061 | refactor(client-detail): encapsulate logic for better readability and separation of concerns                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                           | 8a932652c9e1ccf1d0ce75b55b7637809a659c3f | Merge pull request #21 from Open-Source-YaraSoftware/feature/client-detail                                                                                           | Feature/client detail                                                                                                                                                                                                                                                                                                                                                                                                              |
+| feature/client-detail             | 2ba46a8f10f232f5fe32050be2abc75a69cc7c40 | feat(client-detail): add delete and update methods for client management                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/client-detail             | 35069c156492838d699889625baba1dfc757e9e4 | feat(client-detail): implement service consumption to retrieve client and vehicles data                                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/client-detail             | 7ba796b0d7dc9f0d48ec3764367a424bf739b768 | feat(client-detail): add client detail component layout                                                                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/vehicle                   | 8bc380cdf3d665010aa9c83bba734f617b652964 | refactor: update vehicle entity with new attributes                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/user                      | ceda0d81639483336285ddcdfd6d87f36ce43964 | refactor: update user entity with new attributes                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/vehicle-service           | 7e238bff1e7ec6d281e514c488f11e33f1bda94a | feat(vehicle-service): add vehicle service with method to get vehicles by client ID                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| notifications                     | 95166ae36ccfb204720c344eee7bffcbc9261fa7 | feat(notifications): add notification page                                                                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| notifications                     | 778fc89afe5fa93738bdd42f43eba0810cbdc6d2 | feat(notifications): add notification-item component                                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| notifications                     | a6fe4eeb68cc4eae4a4adf022226532e20c3440b | feat(notifications): add notification service                                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| notifications                     | fdead7dc97238100d45f4e9b7b3b53813d9dab11 | feat(notifications): add notification entity, notification-manager entity and notification-state enum                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/vehicle-item              | ebf3dd1176c209469161065cef40ad177fa1096d | feat(vehicle-item): add last intervention date display                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/vehicle-item              | c962332835d12571226c0010b36acca25706ca16 | feat(vehicle-item): add vehicle item component with vehicle image and details display                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| feature/confirmation-dialog       | 5d2fffa5c22e5fffa44f7dfb68c135d36be1204d | feat(confirmation-dialog): add base confirmation dialog component                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
 #### Commits BackEnd Application
 
-| Branch | Id Commit | Cabecera | Cuerpo |
-|--------|-----------|----------|--------|
-| develop | 42b2356f193549ed3cc0d63d41c1ee9adf3baf30 | feat: add Intervention entity to establish relationship with Task aggregate |  |
-| develop | 01e4a78b9f195672fecce91b2396374a961e14f1 | Merge pull request #19 from Open-Source-YaraSoftware/feature/manage-task | Feature/manage task |
-| feature/manage-task | 25879c2b67b220d251e2e1917fc6662d6f532202 | feat(tasks): add endpoints for task and checkpoint management to TaskController | - Added `POST /{taskId}/complete` endpoint to mark a task as completed. - Implemented `POST /{taskId}/checkpoint` endpoint to create a checkpoint associated with a specific task. - Created `POST /` endpoint for creating new tasks, with validation for successful creation. - Added `DELETE /{taskId}/checkpoints/{checkpointId}` endpoint to delete a specific checkpoint within a task. - Created `DELETE /{taskId}` endpoint to delete a task by its ID. - Added `PUT /{taskId}/checkpoints/{checkpointId}` endpoint to update a specific checkpoint. - Implemented `PUT /{taskId}` endpoint to update task details. |
-| develop | 38fc8c49d21f61f678f838eb1a8c894532cfdf95 | feat(tasks): add TaskCommandService and TaskCommandServiceImpl to include necessary methods for task command execution |  |
-| develop | d987b6d18d0000ef629fddb12e1de477123bbfa8 | feat(tasks): add necessary commands for task and checkpoint management | - Added `CompleteTaskCommand` for marking tasks as completed. - Introduced `CreateCheckpointCommand` and `CreateTaskCommand` to handle creation of checkpoints and tasks. - Implemented `DeleteCheckpointCommand` and `DeleteTaskCommand` for deletion operations. - Added `UpdateCheckpointCommand` and `UpdateTaskCommand` to manage updates to checkpoints and tasks. - Updated `TaskCommandService` and `TaskCommandServiceImpl` to support new commands. - Modified `TaskResource` and `TasksController` to integrate command handling. |
-| develop | fb792d97f4ace59de4dadcb55e8c6bf5a79cdba3 | feat(tasks): enhance Task entity with state management and checkpoint operations | - Added `completeTask` method to mark a task as completed. - Implemented `addCheckpoint` and `deleteCheckpoint` methods for managing checkpoints within a task. - Introduced `updateTask` method to modify task details, including description, state, and inventory request state. - Added `getAllCheckpoints` method to retrieve all checkpoints associated with a task. - Created `startSuppliesRequest` method to initiate an inventory request for the task. |
-| develop | fcd0fe973bb98cb3d447b5a80c3036ec0148aba5 | feat(tasks): add TasksController with endpoints for task and checkpoint retrieval |  |
-| develop | efdff7307d3467035eee29767358220e1081b392 | feat(tasks): add resources and assemblers for task and checkpoint management |  |
-| develop | 97b4ebcbede637d2b84578b5b3e94a9d3553911d | feat(tasks): add TaskRepository with custom query methods | - findAllByInterventionId to retrieve tasks by intervention ID. - findAllByInterventionIdAndAssistantId to filter tasks by intervention ID and assistant ID. - Included existence checks for tasks based on description and intervention ID. |
-| develop | 59c214aef47826424652dbc152422abbe3e48499 | feat(tasks) add TaskQueryServiceImpl to implement TaskQueryService methods |  |
-| develop | 95285654505a4456efc05fdafc0cbd7cea843a8d | feat(tasks) add TaskQueryService interface for handling task-related queries |  |
-| develop | dadd2a9032a820aef06cda1f3afdee86cce0245f | feat(tracking): add TaskState and InventoryRequestState as value objects |  |
-| develop | 1a4b2de514047d8b7e6e22b25c66924aa2b6336c | feat(tracking): add Checkpoint entity for task checkpoints. |  |
-| develop | 0228ebd600d7771a33eb41e8a9ca9f01c981b913 | feat(tasks): implement queries for task and intervention details | - Added GetAllCheckpointsByTaskIdQuery.java to retrieve all checkpoints associated with a specific task. - Added GetAllTasksByInterventionIdAndAssistantIdQuery.java for querying tasks within an intervention filtered by assistant. - Added GetAllTasksByInterventionIdQuery.java to list all tasks for a given intervention. - Added GetTaskByIdQuery.java to fetch task details by task ID. |
-| develop | 4acf937fde709ccf7e07965defa78f374d686e40 | fix(task): add Task aggregate root entity with JPA annotations and JavaDocs | - Included fields: id, description, tracking, state, inventoryRequestState, interventionId, and assistantId. - Implemented default and parameterized constructors. |
-| develop | b43615e0c9d781865931f8a15e4f90ffa4006836 | Merge: d2dca77 2d9a184 | Merge branch 'develop' of https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform into develop |
-| develop | 2d9a184696052a9937e03d4c0570ce0fc28228ad | Merge: 285989a e5f6446 | Merge pull request #16 from Open-Source-YaraSoftware/feature/manage-workshop | Feature/manage workshop |
-| origin/feature/manage-workshop | e5f6446ddb5a849e34d2fed1c4931dc680c1e4d0 | feat(service): add Workshop REST Controller for managing workshop resources | - Implemented `WorkshopController` with endpoints to manage workshops, mechanics, and clients. - Added endpoint to create a new workshop and retrieve its details. - Added endpoints to get all clients and mechanics associated with a workshop. - Added endpoints to create new clients and mechanics for a specific workshop. - Integrated `WorkshopCommandService` and `WorkshopQueryService` for command and query operations. |
-| feature/manage-workshop | c33ad46a5e4abdba7dc56533650eaa657ac350a2 | feat(service): add resource assemblers for Client, Mechanic, and Workshop transformations | - Implemented `CreateClientCommandFromResourceAssembler` to transform `CreateClientResource` into `CreateClientCommand` with workshop ID. - Implemented `CreateMechanicCommandFromResourceAssembler` to transform `CreateMechanicResource` into `CreateMechanicCommand` with workshop ID. - Implemented `CreateWorkshopCommandFromResourceAssembler` to convert `CreateWorkshopResource` into `CreateWorkshopCommand`. - Added `WorkshopResourceFromEntityAssembler` for mapping `Workshop` entity to `WorkshopResource` for data retrieval. |
-| feature/manage-workshop | d8ae8fabb8c597d31552ea950ac3ee49d3517b75 | feat(service): add REST resources for creating and retrieving Workshop, Client, and Mechanic | - Created `CreateClientResource`, `CreateMechanicResource`, and `CreateWorkshopResource` for handling input validation during client, mechanic, and workshop creation. - Added `WorkshopResource` for workshop data retrieval. - Implemented validation checks to ensure mandatory fields are present and properly formatted. |
-| feature/manage-workshop | 15bf52ba72afee939eeee4e3c265163a896e474e | feat(service): implement WorkshopCommandService with Workshop, Client, and Mechanic creation | - Added `WorkshopCommandService` interface for handling workshop, client, and mechanic creation commands. - Implemented `WorkshopCommandServiceImpl`: - Created workshop with `CreateWorkshopCommand`. - Integrated IAM and Profile services for creating clients and mechanics: - Generates user ID with appropriate role. - Creates corresponding profile for each user. - Added validation to prevent duplicate workshops and ensure workshop existence before client/mechanic creation. |
-| feature/manage-workshop | db4967aefdd45152c5660fc13afccda2290c194b | feat(service): add WorkshopQueryService and WorkshopQueryServiceImpl | - Defined `WorkshopQueryService` interface for workshop-related queries. - Implemented `WorkshopQueryServiceImpl` for handling `GetWorkshopByIdQuery`, `GetAllClientsByWorkshopIdQuery`, and `GetAllMechanicsByWorkshopIdQuery`. - Integrated `ExternalIamService` for fetching client and mechanic user IDs by workshop. |
-| feature/manage-workshop | 6e48b36b44b6925784d8936b41abd5392e15ece1 | feat(service): add JPA repository for `Workshop` entity | - Created `WorkshopRepository` extending `JpaRepository` for database operations on `Workshop`. - Added method `existsByName` to check for the existence of a workshop by name. |
-| feature/manage-workshop | 4428f939b9581623c63602a8cd7f1a5d2f0f0217 | feat(service): integrate external profile creation service with `ExternalProfilesService` | - Added `ExternalProfilesService` to facilitate profile creation through `ProfilesContextFacade`. - Implemented `createProfile` method, wrapping profile ID result in `ProfileId` for consistent value object handling. |
-| feature/manage-workshop | 1603e7387117a43d92132527b1739f6143b482b8 | feat(service): integrate external IAM service for client and mechanic user operations | - Added `ExternalIamService` to interact with `IamContextFacade`. - `fetchAllUsersByWorkshopIdAndRoleIsClient` and `fetchAllUsersByWorkshopIdAndRoleIsMechanic` methods retrieve users by workshop ID with specific roles. - `createUserWithRoleMechanic` and `createUserWithRoleClient` methods create users with predefined roles and wrap results in `UserId`. |
-| feature/manage-workshop | 834446dda9b1de3ec5bf2f38f12613aee6c0867d | feat(service): add queries for retrieving clients, mechanics, and workshop by ID | - Added `GetAllClientsByWorkshopIdQuery` to fetch clients by `workshopId`, with validation. - Added `GetAllMechanicsByWorkshopIdQuery` for mechanics by `workshopId`, ensuring positive ID. - Added `GetWorkshopByIdQuery` to retrieve a workshop by its ID, validating non-null and positive values. |
-| feature/manage-workshop | e68a3151492dbc30de02249bbe717460b8037e86 | feat(service): add command records for creating client, mechanic, and workshop | - Introduced `CreateClientCommand` and `CreateMechanicCommand` with validations for user details and `workshopId`. - Added `CreateWorkshopCommand` with a validation on `name` to ensure it is not null or blank. |
-| feature/manage-workshop | f30976f837a4af481a79b18218e6c57280df60fa | feat(service): add Workshop aggregate root | - Introduced `Workshop` aggregate root with `id` and unique `name` fields. - Ensured validation on `name` with `@NotBlank` and uniqueness constraint. |
-| feature/manage-workshop | 5fe2f2bb6f18efc6573c554538866177803052ae | feat(service): add value objects ProfileId and UserId | - Added `ProfileId` and `UserId` value objects as embeddable JPA entities with validation. |
-| feature/manage-workshop | b461c2c0618287a2b59cea99f72afbffac2a0985 | refactor(profiles): annotate ProfilesContextFacadeImpl as Service |  |
-| develop | 285989afaada3c28f77cc6cba66ccf9136bfbfd3 | Merge: ebf0522 2d45399 | Merge pull request #15 from Open-Source-YaraSoftware/feature/user-registration-login | feat(IAM): extend IamContextFacade with specific role-based user crea… |
-| feature/user-registration-login | 2d453992658e22853defcfa513af8d540b431cf1 | feat(IAM): extend IamContextFacade with specific role-based user creation methods | - Added `createUserWithRoleMechanic` and `createUserWithRoleClient` methods to `IamContextFacade`. - Implemented in `IamContextFacadeImpl` to support streamlined user creation with pre-set roles (Mechanic or Client). |
-| develop | ebf0522b1c725f0bc836e87a8d49067c0eb2ec86 | Merge: 0f46226 f9b171a | Merge pull request #14 from Open-Source-YaraSoftware/feature/manage-iot-device | Feature/manage iot device |
-| feature/manage-iot-device | f9b171a9dd56bff2100cc7e98712eb3e15bd1cb2 | feat(interfaces): add IotDeviceController for IoT device management endpoints | - Implemented `IotDeviceController` with endpoint to retrieve IoT devices by vehicle ID. - Integrated `IotDeviceQueryService` to handle queries for IoT devices associated with a specific vehicle. - Used `IotDeviceResourceFromEntityAssembler` to transform IoT device entities into API resources. - Configured API response with appropriate error handling and status codes. |
-| feature/manage-iot-device | 4f2c87e7fccca80e76442bf52462dd8c59185dd2 | feat(interfaces): add IotDeviceResource and transform class for IoT device representation | - Created `IotDeviceResource` to structure IoT device data for REST API responses, including fields for ID, code list, and vehicle ID. - Implemented `IotDeviceResourceFromEntityAssembler` to convert `IotDevice` entities into `IotDeviceResource` format for consistent API output. |
-| feature/manage-iot-device | 7958a74ce2c7f75f17562eb27b01183bb10affac | feat(application-infrastructure): implement query service implementation and repository for IoT device retrieval by vehicle ID | - Implemented `IotDeviceQueryServiceImpl` to handle `GetAllIotDeviceByVehicleIdQuery`, retrieving IoT devices based on vehicle ID. - Added `IotDeviceRepository` with a custom method `findAllByVehicleId` to fetch devices associated with a specific vehicle. |
-| feature/manage-iot-device | 72c8f81706f672408a5bfe7aa629e3b18abf2819 | feat(domain): add query and query service for retrieving IoT devices by vehicle ID | - Added `GetAllIotDeviceByVehicleIdQuery` to query all IoT devices associated with a specific vehicle ID. - Implemented `IotDeviceQueryService` interface with method to handle IoT device retrieval based on vehicle ID. |
-| feature/manage-iot-device | 4b3665985af7e43d12d92364bced0939fabaff8c | feat(domain): add Code entity and CodeState value object for device error tracking | - Implemented `Code` entity with fields for component, error code, description, last updated date, and state. - Configured many-to-one relationship with `IotDevice` aggregate for associating error codes with IoT devices. - Added `CodeState` enum as a value object to represent the state of a code, with values `FAILED` and `GOOD`. - Included JSON serialization handling for relationships with `IotDevice`. |
-| feature/manage-iot-device | 05ddc1b05de608ed9b1feba3c9e5ccff1b828714 | feat(domain): add IotDevice aggregate root for IoT device management | - Implemented `IotDevice` aggregate root with fields for ID, vehicle ID, and a list of related codes. - Configured one-to-many relationship with `Code` entity for code management associated with each IoT device. - Included JSON serialization handling with `JsonManagedReference` for code list. |
-| develop | 0f4622657bd12de314655bac17497c226dc599f2 | Merge: f8aeabb bad0a80 | Merge pull request #13 from Open-Source-YaraSoftware/feature/profiles-resource | refactor(Profiles): split ProfilesContextFacade into interface and im… |
-| feature/profiles-resource | bad0a80d361a44a6c620d8423f00d97329e39647 | refactor(Profiles): split ProfilesContextFacade into interface and implementation, update package structure | - Refactored `ProfilesContextFacade` into `ProfilesContextFacade` interface and `ProfilesContextFacadeImpl` implementation. - Moved `ProfilesContextFacadeImpl` to `application.acl` package, keeping interface in `interfaces.acl` package for improved separation of concerns and flexibility in implementation. |
-| develop | f8aeabbad7bcd9085e55babb7b760725be45f798 | Merge: 9539e47 ffd6e11 | Merge pull request #12 from Open-Source-YaraSoftware/feature/user-registration-login | Feature/user registration login |
-| feature/user-registration-login | ffd6e113abce5aca5ac7f13e21c608007a118344 | refactor(IAM): update IamContextFacade for role-based user retrieval and rename to IamContextFacadeImpl | - Refactored `IamContextFacade` to `IamContextFacadeImpl` and updated package to `application.acl`. - Replaced `getAllUsersByRoleAndWorkshop` with `fetchAllUserByWorkshopAndRoleIsClient`, `fetchAllUserByWorkshopAndRoleIsMechanic`, and `fetchAllUserByWorkshopAndRoleIsOwner`. - Implemented role-specific queries for improved data separation and clearer API interactions. |
-| feature/user-registration-login | e24e423a4f03dad6906403e690f550008dfc02d3 | refactor(IAM): update UserQueryService and UserQueryServiceImpl for role-specific user queries | - Updated `UserQueryService` with methods to handle owner, client, and mechanic queries based on workshop ID. - Implemented the respective methods in `UserQueryServiceImpl`, allowing retrieval of users by workshop and specific roles. - Added handling for `Roles.WORKSHOP_OWNER`, `Roles.CLIENT`, and `Roles.MECHANIC` within `UserQueryServiceImpl`. |
-| feature/user-registration-login | 1cc26344aab96b27195d30c5b187a76ef4bc9fcb | refactor(IAM): update repositories for role and user retrieval by workshop | - Updated `RoleRepository` to include `findByName` method, allowing roles to be retrieved by `Roles` enum. - Refined `UserRepository` by adding `findAllByWorkshopIdAndRoleIs` to retrieve users based on `workshopId` and role, enhancing flexibility for role-specific user queries. |
-| feature/user-registration-login | 30aa735399f1271c9c0f58f91d6b7135ec7d9645 | feat(IAM): add queries for user roles within a workshop context | - Added `GetAllUsersByWorkshopAndRoleIsClientQuery`, `GetAllUsersByWorkshopAndRoleIsMechanicQuery`, and `GetAllUsersByWorkshopAndRoleIsOwnerQuery` to fetch users based on role type within a specific workshop. - Each query ensures `workshopId` is a positive number, providing validation at construction. |
-| develop | d2dca776c6a950ad695d4ce149a56640b4bf2b18 | Merge: 9539e47 e9f2063 | Merge pull request #11 from Open-Source-YaraSoftware/feature/transaction | feat(payment): implement Transaction entity and related services |
-| feature/transaction | e9f206391fecc525ac54af37f790aa8185cda1ff | feat(payment): implement Transaction entity and related services |  |
-| develop | 0c68000fe4a3fe3a6ef5849ea01d966e6ccb0dd0 | Merge: 7a93b47 c1f6356 | Merge pull request #10 from Open-Source-YaraSoftware/feature/payment | feat(payment): add Payment domain and application layer support |
-| feature/payment | c1f6356e209b01284f6d8f71825203889800d72c | feat(payment): add Payment domain and application layer support |  |
-| develop | 7a93b4794b8a1963c21325b61f36e310475cd854 | Merge: 684858d 692dc66 | Merge pull request #9 from Open-Source-YaraSoftware/feature/membership | feat: implement Membership domain, infrastructure and services |
-| feature/membership | 692dc66d0b90fa254a39e1caafd399ff848cdfc7 | feat: add membership endpoints |  |
-| feature/payment | 9328f4121510c1f5015c85d999387d434c7c8b1b | feat(payment): add Membership command and query definitions in domain |  |
-| develop | 684858d169a4935a4e85b2a133bd2338dfec4bb8 | Merge: 9539e47 0b57cbe | Merge pull request #8 from Open-Source-YaraSoftware/feature/membership | feat(payment): add Membership command and query service implementations |
-| feature/membership | 0b57cbe2f5926033bc082f9c4693def476b193f5 | feat(payment): add Membership command and query service implementations |  |
-| develop | 9539e47971703b2ffd4d728c8d8cbdaf49224868 | Merge: 6eb1403 6fc3886 | Merge pull request #7 from Open-Source-YaraSoftware/feature/manage-vehicle | Feature/manage vehicle |
-| feature/manage-vehicle | 6fc3886ccf9e9d83687b3655264c853f9b758ab0 | feat(interfaces-controller): add VehiclesController for vehicle management endpoints | - Implemented `VehiclesController` with endpoints to fetch all vehicles by client ID, retrieve a specific vehicle by ID, and create a new vehicle. - Integrated `VehicleQueryService` and `VehicleCommandService` to handle vehicle queries and commands. - Used `VehicleResourceFromEntityAssembler` to transform vehicle entities into API resources. - Configured API responses with appropriate HTTP status codes and error handling. |
-| feature/manage-vehicle | 0a28e6b88c2dbaf147e781d5ed18ba34c82c78b0 | feat(interfaces): add VehicleResourceFromEntityAssembler for transforming vehicle entities to resources | - Implemented `VehicleResourceFromEntityAssembler` to convert `Vehicle` entities into `VehicleResource` format for API responses. - Streamlined data transformation for consistent vehicle data presentation in REST responses. |
-| feature/manage-vehicle | f9702236c8a82d27535cfa72b059482e81615770 | feat(interfaces): add REST resources for vehicle creation and retrieval | - Added `CreateVehicleResource` to structure data for vehicle creation requests, including license plate, brand, model, client ID, and IoT device ID. - Implemented `VehicleResource` to format vehicle data in API responses, including ID, registration date, and related identifiers. |
-| feature/manage-vehicle | 0c289ce87b241745a0ded7e10d0708ead6d83aa9 | feat(application): implement command and query services for vehicle management | - Added `VehicleCommandServiceImpl` to handle `CreateVehicleCommand`, creating and saving a new vehicle. - Implemented `VehicleQueryServiceImpl` to handle `GetAllVehiclesByClientIdQuery` and `GetVehicleByIdQuery`, retrieving vehicles by client ID and vehicle ID. - Integrated `VehicleRepository` to manage vehicle persistence and data retrieval. |
-| feature/manage-vehicle | 4347a9aaab4457c75d9a5baa12b492130655c4fe | feat(infrastructure): add VehicleRepository for vehicle persistence | - Implemented `VehicleRepository` interface extending `JpaRepository` to manage `Vehicle` entities. - Added `findAllByClientId` method to retrieve vehicles associated with a specific client ID. |
-| feature/manage-vehicle | 4694aa573e68d354a3f3292e72f9efea41c571ee | feat(domain): add vehicle commands and command service interface | - Implemented `CreateVehicleCommand` to create a new vehicle with license plate, brand, model, client ID, and IoT device ID. - Added `VehicleCommandService` interface with `handle` method to process vehicle creation commands. |
-| feature/manage-vehicle | a4f55ae49685d6ab94e6affe1f3b5b23b2b384f6 | feat(domain): add vehicle queries and query service interface | - Added `GetAllVehiclesByClientIdQuery` to retrieve all vehicles associated with a specific client ID. - Implemented `GetVehicleByIdQuery` to fetch vehicle details based on vehicle ID. - Created `VehicleQueryService` interface with methods to handle vehicle queries, providing a list of vehicles by client ID or a specific vehicle by ID. |
-| feature/manage-vehicle | 148314f93e7a6b5a33f7d30a376614c61ba660cf | feat(domain): add Vehicle aggregate root for managing vehicle information | - Implemented `Vehicle` aggregate with fields for `licensePlate`, `brand`, `model`, `registrationDate`, `clientId`, and `iotDeviceId`. - Added `getFullName` method to return the full name of the vehicle based on brand and model. - Configured `Vehicle` as an entity with JPA annotations for persistence. |
-| develop | 6eb1403b035119745d7415c01188f3fbec3987ba | Merge: 2e568b6 6907ad6 | Merge pull request #6 from Open-Source-YaraSoftware/feature/profiles-resource | Feature/profiles resource |
-| feature/profiles-resource | 6907ad618677fe17a9844208c88748fb0d8db1a3 | Merge: 06e606b c267c36 | Merge pull request #5 from Open-Source-YaraSoftware/hot-fix/profiles-resource |  |
-| feature/profiles-resource | c267c36c7a46435340b562140dc34eadb65ec086 | fix(profile): unify endpoints with identical RequestParam values to adhere to REST practices |  |
-| develop | 2e568b6582131cd6ac5cd23da152f9b5113b2669 | Merge: f005790 06e606b | Merge pull request #4 from Open-Source-YaraSoftware/feature/profiles-resource | Feature/profiles resource |
-| feature/profiles-resource | 06e606b0d995c72fae7adbf496607a2608450b5c | feat(profile): add ProfilesContextFacade to facilitate inbound operations for profile creation and updates |  |
-| feature/profiles-resource | 57915ce2c6f420eafac5889bea01e33d02a8090b | feat(profile): add two endpoints to handle creation and updating of profiles |  |
-| feature/profiles-resource | 0b28c5c8ebc05fbcf44eb99d568184e1472249aa | feat(profile): add CreateProfileCommandFromResourceAssembler, and CreateProfileResource |  |
-| feature/profiles-resource | 73168a76ab4202d5fc9217a13b56fdbb70c1b040 | feat(profile): add UpdateProfileCommandFromResourceAssembler, and UpdateProfileResource |  |
-| feature/profiles-resource | 4ba54141c3f66f9e3dd001813e8a8f494cd7143e | feat(profile): add updateProfileInformation method to Profile entity to update profile details |  |
-| feature/profiles-resource | c5760a90d77b55a7ce0487b256f8b9b396947a61 | feat(profile): add ProfileCommandService interface and implement ProfileCommandServiceImpl class |  |
-| feature/profiles-resource | a06e49ef0537a55ff5b9b43081bf06de37c5eca2 | feat(profile): add CreateProfileCommand and UpdateProfileCommand | - Added CreateProfileCommand to handle profile creation. - Added UpdateProfileCommand to handle profile updates. |
-| feature/profiles-resource | a0ea4b8adddb8a8bac521f80e941284765db2a6f | feat(profile): add ProfilesController for managing profile retrieval endpoints | - Included methods to handle profile queries by ID, DNI, and User ID. |
-| feature/profiles-resource | f550eb43be5a81facd304ba21f54f40fdf5d26cc | feat(profile): add ProfileResource and ProfileResourceFromEntityAssembler | - Created ProfileResource class to represent profile data in API responses. - Implemented ProfileResourceFromEntityAssembler class to convert Profile entities to ProfileResource. |
-| feature/profiles-resource | 89037d6342c6a3e21592cad6ef0db9059f80ecef | feat(profile): add ProfileQueryService interface and implement ProfileQueryServiceImpl class |  |
-| feature/profiles-resource | 933db980771548992ca0ce4d67fa9c3cc1be9b07 | feat(profile): add ProfileRepository interface for managing Profile entities | - Added ProfileRepository interface extending JpaRepository for CRUD operations. - Included methods to check existence and retrieve profiles by User ID, DNI, and email. - Provided Javadoc comments for better understanding and documentation. |
-| feature/profiles-resource | 0cd28ca46aa379a6c189a3c502b883edd2e18bfd | feat(profile): add queries to retrieve profile by id, user id, and dni |  |
-| feature/profiles-resource | c3427434a84fefec17c5911433e4b8aeab36e9fa | feat(profile): add profile entity as aggregate root in profile context |  |
-| develop | f00579001b79000f7445943949a9d42d707106da | Merge: 9c61505 416fc94 | Merge pull request #3 from Open-Source-YaraSoftware/feature/consult-notifications | refactor(services-controller): update logic and nomenclature of funct… |
-| feature/consult-notifications | 416fc9499bb2fa9647c43ed5b45330f3f416fda0 | refactor(services-controller): update logic and nomenclature of functions for better performance |  |
-| develop | 9c6150583c9d3679c5ca0985d50b31a516da0a7a | Merge: 7f65351 3dd2c98 | Merge pull request #2 from Open-Source-YaraSoftware/feature/consult-notifications | Feature/consult notifications |
-| feature/consult-notifications | 3dd2c98596eec6c874adb2dbdb1514cd1b690ebc | feat(interfaces): add NotificationsController for notification management endpoints | - Implemented `NotificationsController` with endpoints to fetch all notifications for a user and mark a notification as read. - Integrated `NotificationCommandService` and `NotificationQueryService` for handling command and query operations. - Added data transformation using `NotificationResourceFromEntityAssembler` and `ReadNotificationCommandFromResourceAssembler`. - Configured OpenAPI tags and documentation for clear endpoint descriptions. |
-| feature/consult-notifications | 2a2f34fe55139b2bdd4ecaa506b781b67488765f | feat(interfaces): add transformation classes for converting between entities, resources, and commands | - Implemented `NotificationResourceFromEntityAssembler` to convert `Notification` entities to `NotificationResource` for API responses. - Added `ReadNotificationCommandFromResourceAssembler` to convert `ReadNotificationResource` to `ReadNotificationCommand` for command handling. |
-| feature/consult-notifications | c83218b83026a5ee78e204a75f687bb08129e983 | feat(interfaces): add REST resources for notification details and read actions | - Implemented `NotificationResource` to structure notification data for REST responses, including ID, date, content, user ID, state, and endpoint. - Created `ReadNotificationResource` to handle read notification actions via REST API. |
-| feature/consult-notifications | e97897dcb662e2a255121af7017cdf00f7fc1e0b | feat(application): add command and query service implementations for notification management | - Implemented `NotificationCommandServiceImpl` to handle `ReadNotificationCommand`, marking notifications as read. - Added `NotificationQueryServiceImpl` to process `GetAllNotificationsByUserIdQuery`, retrieving notifications based on user ID. - Integrated `NotificationRepository` for persistence and data retrieval in command and query services. |
-| feature/consult-notifications | d8405746b3a8eea4b3aa85d9813d00a33165abb0 | feat(infrastructure): add NotificationRepository for persistence | - Implemented `NotificationRepository` interface extending `JpaRepository` to handle CRUD operations for Notification entities. - Enabled repository layer for managing notifications in the database. |
-| feature/consult-notifications | a224d0b0eef450ca4db158edaf208ce314fd72ba | feat(domain): add command and query service interfaces for notification management | - Implemented `NotificationCommandService` interface to handle commands like `ReadNotificationCommand` for marking notifications as read. - Added `NotificationQueryService` interface to handle queries such as `GetAllNotificationsByUserIdQuery`, returning notifications by user ID. |
-| feature/consult-notifications | 79e52c8c5c6c48e75f54dc7295f7cc282f5c76b5 | feat(domain): add notification commands and queries for notification management | - Added `GetAllNotificationsByUserIdQuery` to retrieve all notifications associated with a specific user. - Implemented `ReadNotificationCommand` to handle marking a notification as read based on its ID. |
-| feature/consult-notifications | bb62be36cd5cd2774a366370481b885f9d940df3 | feat(domain): add Notification aggregate and NotificationState value object in communication domain | - Implemented `Notification` aggregate with properties for managing notifications, including `id`, `date`, `content`, `userId`, `state`, and `endpoint`. - Created `NotificationState` enum as a value object to represent read and unread states for notifications. - Included methods in `Notification` for marking notifications as read. |
-| develop | 7f653513be5642c838441949a9f65ff858e5b974 | Merge: 84715ea 4a23765 | Merge pull request #1 from Open-Source-YaraSoftware/feature/user-registration-login | Feature/user registration login |
-| feature/user-registration-login | 4a2376554c3a0d8abaa74bcd1bd93fc015c4f3f9 | feat(IAM): add IamContextFacade for user management and role-based queries | - Added `IamContextFacade` with methods for fetching users by role and workshop and creating new users. - Integrated `UserCommandService` and `UserQueryService` to manage user creation and retrieval. - Incorporated `RoleRepository` to retrieve roles during user creation and filtering. |
-| feature/user-registration-login | 13d86e4a6b7ad7e21d44b7073b4b63b0aa1332ee | feat(IAM): add AuthenticationController with sign-in and sign-up endpoints | - Added `signIn` endpoint to authenticate users and return `AuthenticateUserResource` on success. - Added `signUp` endpoint to register new users, responding with `UserResource` upon successful creation. - Integrated resource assemblers for transforming entities to response resources. - Included Swagger annotations for API documentation on authentication management. |
-| feature/user-registration-login | e711e1aa86629ea474abdb7cf1c9ca0a5e16e442 | feat(IAM): add resource assemblers for REST API transformation | - Implemented `AuthenticateUserResourceFromEntityAssembler` for transforming `User` entity to `AuthenticateUserResource`. - Added `SignInCommandFromResourceAssembler` to convert `SignInResource` to `SignInCommand`. - Created `SignUpCommandFromResourceAssembler` to convert `SignUpResource` to `SignUpCommand`. - Added `UserResourceFromEntityAssembler` to transform `User` entity to `UserResource`. - Ensures clean transformation layer between domain model and API resources. |
-| feature/user-registration-login | affa609c40e64973417120033a1bdf54bf78187f | feat(IAM): add REST resources for user authentication and registration | - Added `AuthenticateUserResource` for authenticated user data. - Added `SignInResource` for user login input. - Added `SignUpResource` for user registration input. - Added `UserResource` to represent user data in responses. - Each resource includes validation to ensure required fields are present. |
-| feature/user-registration-login | 98e28136f97d461b5b2781d1ae78f3566e3b03f5 | feat(IAM): add ApplicationReadyEvent handler to seed roles at startup | - Created `IamApplicationReadyEventHandler` to handle `ApplicationReadyEvent` for role seeding. - `on(ApplicationReadyEvent)` triggers `loadRolesData()` to execute `SeedRolesCommand` using `RoleCommandService`. - Logs the start and completion of the role-seeding process with timestamps. |
-| feature/user-registration-login | f99f8475a634ca9a1ac232ce40a38d880c4b33aa | feat(IAM): add command and query services for user and role operations | - Added `RoleCommandServiceImpl` to handle role seeding with `SeedRolesCommand`. - Created `UserCommandServiceImpl` to handle `SignUpCommand`, `SignInCommand`, and `CreateUserCommand` with validations and repository integration. - Implemented `UserQueryServiceImpl` to manage `GetAllUsersByRoleAndWorkshopQuery` with query logic for retrieving users by role and workshop ID. |
-| feature/user-registration-login | 97821d49b18b02ea5ca02f9f39b6b17f15008461 | feat(IAM): add command and query records for user and role operations | - Created `CreateUserCommand` for user creation with validations for username, password, role, and workshop ID. - Added `SeedRolesCommand` for initializing role data. - Defined `GetAllUsersByRoleAndWorkshopQuery` to retrieve users filtered by role and workshop ID, with validation checks. |
-| feature/user-registration-login | 11890cdd496b3677a46459b603a199c16f86f2cd | feat(IAM): implement RoleRepository and UserRepository JPA repositories | - Created `RoleRepository` to check role existence by name. - Implemented `UserRepository` for user lookup by username and filtering by role and workshop ID. |
-| feature/user-registration-login | de617e0314c073868d6a2653b03ec2118da0e632 | feat(IAM): add UserCommandService, UserQueryService, and RoleCommandService interfaces | - Defined `UserCommandService` to handle user creation, sign-up, and sign-in commands. - Added `UserQueryService` for querying users by role and workshop. - Introduced `RoleCommandService` to handle role seeding with `SeedRolesCommand`. |
-| feature/user-registration-login | 7d1a4e337b0756eb1c890be10c90abe4fada8798 | feat(IAM): add SignInCommand and SignUpCommand records with validation | - Introduced `SignInCommand` for user login with validations on username and password fields. - Introduced `SignUpCommand` for new user registration with validations on username, password, role, and workshop ID fields. |
-| feature/user-registration-login | 3ecac146e74dd64dcf10b7f295a3eed9655ebb67 | feat(IAM): add enums for AccountStatuses and Roles | - Created AccountStatuses enum with values: ACTIVE, INACTIVE, LOCKED, and DELETED. - Created Roles enum with values: MECHANIC, WORKSHOP_OWNER, and CLIENT. |
-| feature/user-registration-login | 617131b25dab5eecd9640e8b9e42289ced17a382 | feat(IAM): create User and Role entities with validation and enumeration support | - Added User entity with fields: username, password, role, workshopId, and status. - Introduced Role entity with enumeration support for Roles. - Integrated JPA annotations for entity persistence. |
-| feature/user-registration-login | ba01300342f18b74ad9a304012109dc2186e267a | chore(IAM): add commons-lang3 dependency to pom.xml |  |
-| develop | 84715ea392d555178980179539aeb1b2bd19e9a3 | docs: added open api configuration bean |  |
-| develop | f24cf0b9cc5913e02d1e7e0a598229725eb2cd06 | docs: added open api documentation dependency |  |
-| develop | 54ebab164c8a2a53678ae0192a80550517a23ce4 | feat(orm): setup persistence physical naming strategy |  |
-| develop | 780f965f7c3649e739781898110fef3bfa3a7912 | feat(orm): setup persistence physical naming strategy |  |
-| develop | d4a86feef0ab06f8d219151e40229ab4e51029d3 | chore: add pluralize dependency |  |
-| develop | 06ebd422fe861021091c68e69c39b2f60d29275a | chore: add application parameters for development and production |  |
-| develop | ed2afc9e22387f8864086bf9795b7858b4d86083 | docs: add documentation file |  |
-| develop | e140efdca278ca53e0bcb8b5331241ef147db55f | chore: setup project |  |
-
-
+| Branch                          | Id Commit                                | Cabecera                                                                                                                       | Cuerpo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|---------------------------------|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| develop                         | 42b2356f193549ed3cc0d63d41c1ee9adf3baf30 | feat: add Intervention entity to establish relationship with Task aggregate                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 01e4a78b9f195672fecce91b2396374a961e14f1 | Merge pull request #19 from Open-Source-YaraSoftware/feature/manage-task                                                       | Feature/manage task                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| feature/manage-task             | 25879c2b67b220d251e2e1917fc6662d6f532202 | feat(tasks): add endpoints for task and checkpoint management to TaskController                                                | - Added `POST /{taskId}/complete` endpoint to mark a task as completed. - Implemented `POST /{taskId}/checkpoint` endpoint to create a checkpoint associated with a specific task. - Created `POST /` endpoint for creating new tasks, with validation for successful creation. - Added `DELETE /{taskId}/checkpoints/{checkpointId}` endpoint to delete a specific checkpoint within a task. - Created `DELETE /{taskId}` endpoint to delete a task by its ID. - Added `PUT /{taskId}/checkpoints/{checkpointId}` endpoint to update a specific checkpoint. - Implemented `PUT /{taskId}` endpoint to update task details. |
+| develop                         | 38fc8c49d21f61f678f838eb1a8c894532cfdf95 | feat(tasks): add TaskCommandService and TaskCommandServiceImpl to include necessary methods for task command execution         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | d987b6d18d0000ef629fddb12e1de477123bbfa8 | feat(tasks): add necessary commands for task and checkpoint management                                                         | - Added `CompleteTaskCommand` for marking tasks as completed. - Introduced `CreateCheckpointCommand` and `CreateTaskCommand` to handle creation of checkpoints and tasks. - Implemented `DeleteCheckpointCommand` and `DeleteTaskCommand` for deletion operations. - Added `UpdateCheckpointCommand` and `UpdateTaskCommand` to manage updates to checkpoints and tasks. - Updated `TaskCommandService` and `TaskCommandServiceImpl` to support new commands. - Modified `TaskResource` and `TasksController` to integrate command handling.                                                                                |
+| develop                         | fb792d97f4ace59de4dadcb55e8c6bf5a79cdba3 | feat(tasks): enhance Task entity with state management and checkpoint operations                                               | - Added `completeTask` method to mark a task as completed. - Implemented `addCheckpoint` and `deleteCheckpoint` methods for managing checkpoints within a task. - Introduced `updateTask` method to modify task details, including description, state, and inventory request state. - Added `getAllCheckpoints` method to retrieve all checkpoints associated with a task. - Created `startSuppliesRequest` method to initiate an inventory request for the task.                                                                                                                                                           |
+| develop                         | fcd0fe973bb98cb3d447b5a80c3036ec0148aba5 | feat(tasks): add TasksController with endpoints for task and checkpoint retrieval                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | efdff7307d3467035eee29767358220e1081b392 | feat(tasks): add resources and assemblers for task and checkpoint management                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 97b4ebcbede637d2b84578b5b3e94a9d3553911d | feat(tasks): add TaskRepository with custom query methods                                                                      | - findAllByInterventionId to retrieve tasks by intervention ID. - findAllByInterventionIdAndAssistantId to filter tasks by intervention ID and assistant ID. - Included existence checks for tasks based on description and intervention ID.                                                                                                                                                                                                                                                                                                                                                                                |
+| develop                         | 59c214aef47826424652dbc152422abbe3e48499 | feat(tasks) add TaskQueryServiceImpl to implement TaskQueryService methods                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 95285654505a4456efc05fdafc0cbd7cea843a8d | feat(tasks) add TaskQueryService interface for handling task-related queries                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | dadd2a9032a820aef06cda1f3afdee86cce0245f | feat(tracking): add TaskState and InventoryRequestState as value objects                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 1a4b2de514047d8b7e6e22b25c66924aa2b6336c | feat(tracking): add Checkpoint entity for task checkpoints.                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 0228ebd600d7771a33eb41e8a9ca9f01c981b913 | feat(tasks): implement queries for task and intervention details                                                               | - Added GetAllCheckpointsByTaskIdQuery.java to retrieve all checkpoints associated with a specific task. - Added GetAllTasksByInterventionIdAndAssistantIdQuery.java for querying tasks within an intervention filtered by assistant. - Added GetAllTasksByInterventionIdQuery.java to list all tasks for a given intervention. - Added GetTaskByIdQuery.java to fetch task details by task ID.                                                                                                                                                                                                                             |
+| develop                         | 4acf937fde709ccf7e07965defa78f374d686e40 | fix(task): add Task aggregate root entity with JPA annotations and JavaDocs                                                    | - Included fields: id, description, tracking, state, inventoryRequestState, interventionId, and assistantId. - Implemented default and parameterized constructors.                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| develop                         | b43615e0c9d781865931f8a15e4f90ffa4006836 | Merge: d2dca77 2d9a184                                                                                                         | Merge branch 'develop' of https://github.com/Open-Source-YaraSoftware/Workshop-N-GINE-Platform into develop                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| develop                         | 2d9a184696052a9937e03d4c0570ce0fc28228ad | Merge: 285989a e5f6446                                                                                                         | Merge pull request #16 from Open-Source-YaraSoftware/feature/manage-workshop                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Feature/manage workshop |
+| origin/feature/manage-workshop  | e5f6446ddb5a849e34d2fed1c4931dc680c1e4d0 | feat(service): add Workshop REST Controller for managing workshop resources                                                    | - Implemented `WorkshopController` with endpoints to manage workshops, mechanics, and clients. - Added endpoint to create a new workshop and retrieve its details. - Added endpoints to get all clients and mechanics associated with a workshop. - Added endpoints to create new clients and mechanics for a specific workshop. - Integrated `WorkshopCommandService` and `WorkshopQueryService` for command and query operations.                                                                                                                                                                                         |
+| feature/manage-workshop         | c33ad46a5e4abdba7dc56533650eaa657ac350a2 | feat(service): add resource assemblers for Client, Mechanic, and Workshop transformations                                      | - Implemented `CreateClientCommandFromResourceAssembler` to transform `CreateClientResource` into `CreateClientCommand` with workshop ID. - Implemented `CreateMechanicCommandFromResourceAssembler` to transform `CreateMechanicResource` into `CreateMechanicCommand` with workshop ID. - Implemented `CreateWorkshopCommandFromResourceAssembler` to convert `CreateWorkshopResource` into `CreateWorkshopCommand`. - Added `WorkshopResourceFromEntityAssembler` for mapping `Workshop` entity to `WorkshopResource` for data retrieval.                                                                                |
+| feature/manage-workshop         | d8ae8fabb8c597d31552ea950ac3ee49d3517b75 | feat(service): add REST resources for creating and retrieving Workshop, Client, and Mechanic                                   | - Created `CreateClientResource`, `CreateMechanicResource`, and `CreateWorkshopResource` for handling input validation during client, mechanic, and workshop creation. - Added `WorkshopResource` for workshop data retrieval. - Implemented validation checks to ensure mandatory fields are present and properly formatted.                                                                                                                                                                                                                                                                                               |
+| feature/manage-workshop         | 15bf52ba72afee939eeee4e3c265163a896e474e | feat(service): implement WorkshopCommandService with Workshop, Client, and Mechanic creation                                   | - Added `WorkshopCommandService` interface for handling workshop, client, and mechanic creation commands. - Implemented `WorkshopCommandServiceImpl`: - Created workshop with `CreateWorkshopCommand`. - Integrated IAM and Profile services for creating clients and mechanics: - Generates user ID with appropriate role. - Creates corresponding profile for each user. - Added validation to prevent duplicate workshops and ensure workshop existence before client/mechanic creation.                                                                                                                                 |
+| feature/manage-workshop         | db4967aefdd45152c5660fc13afccda2290c194b | feat(service): add WorkshopQueryService and WorkshopQueryServiceImpl                                                           | - Defined `WorkshopQueryService` interface for workshop-related queries. - Implemented `WorkshopQueryServiceImpl` for handling `GetWorkshopByIdQuery`, `GetAllClientsByWorkshopIdQuery`, and `GetAllMechanicsByWorkshopIdQuery`. - Integrated `ExternalIamService` for fetching client and mechanic user IDs by workshop.                                                                                                                                                                                                                                                                                                   |
+| feature/manage-workshop         | 6e48b36b44b6925784d8936b41abd5392e15ece1 | feat(service): add JPA repository for `Workshop` entity                                                                        | - Created `WorkshopRepository` extending `JpaRepository` for database operations on `Workshop`. - Added method `existsByName` to check for the existence of a workshop by name.                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/manage-workshop         | 4428f939b9581623c63602a8cd7f1a5d2f0f0217 | feat(service): integrate external profile creation service with `ExternalProfilesService`                                      | - Added `ExternalProfilesService` to facilitate profile creation through `ProfilesContextFacade`. - Implemented `createProfile` method, wrapping profile ID result in `ProfileId` for consistent value object handling.                                                                                                                                                                                                                                                                                                                                                                                                     |
+| feature/manage-workshop         | 1603e7387117a43d92132527b1739f6143b482b8 | feat(service): integrate external IAM service for client and mechanic user operations                                          | - Added `ExternalIamService` to interact with `IamContextFacade`. - `fetchAllUsersByWorkshopIdAndRoleIsClient` and `fetchAllUsersByWorkshopIdAndRoleIsMechanic` methods retrieve users by workshop ID with specific roles. - `createUserWithRoleMechanic` and `createUserWithRoleClient` methods create users with predefined roles and wrap results in `UserId`.                                                                                                                                                                                                                                                           |
+| feature/manage-workshop         | 834446dda9b1de3ec5bf2f38f12613aee6c0867d | feat(service): add queries for retrieving clients, mechanics, and workshop by ID                                               | - Added `GetAllClientsByWorkshopIdQuery` to fetch clients by `workshopId`, with validation. - Added `GetAllMechanicsByWorkshopIdQuery` for mechanics by `workshopId`, ensuring positive ID. - Added `GetWorkshopByIdQuery` to retrieve a workshop by its ID, validating non-null and positive values.                                                                                                                                                                                                                                                                                                                       |
+| feature/manage-workshop         | e68a3151492dbc30de02249bbe717460b8037e86 | feat(service): add command records for creating client, mechanic, and workshop                                                 | - Introduced `CreateClientCommand` and `CreateMechanicCommand` with validations for user details and `workshopId`. - Added `CreateWorkshopCommand` with a validation on `name` to ensure it is not null or blank.                                                                                                                                                                                                                                                                                                                                                                                                           |
+| feature/manage-workshop         | f30976f837a4af481a79b18218e6c57280df60fa | feat(service): add Workshop aggregate root                                                                                     | - Introduced `Workshop` aggregate root with `id` and unique `name` fields. - Ensured validation on `name` with `@NotBlank` and uniqueness constraint.                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| feature/manage-workshop         | 5fe2f2bb6f18efc6573c554538866177803052ae | feat(service): add value objects ProfileId and UserId                                                                          | - Added `ProfileId` and `UserId` value objects as embeddable JPA entities with validation.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| feature/manage-workshop         | b461c2c0618287a2b59cea99f72afbffac2a0985 | refactor(profiles): annotate ProfilesContextFacadeImpl as Service                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 285989afaada3c28f77cc6cba66ccf9136bfbfd3 | Merge: ebf0522 2d45399                                                                                                         | Merge pull request #15 from Open-Source-YaraSoftware/feature/user-registration-login                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | feat(IAM): extend IamContextFacade with specific role-based user crea… |
+| feature/user-registration-login | 2d453992658e22853defcfa513af8d540b431cf1 | feat(IAM): extend IamContextFacade with specific role-based user creation methods                                              | - Added `createUserWithRoleMechanic` and `createUserWithRoleClient` methods to `IamContextFacade`. - Implemented in `IamContextFacadeImpl` to support streamlined user creation with pre-set roles (Mechanic or Client).                                                                                                                                                                                                                                                                                                                                                                                                    |
+| develop                         | ebf0522b1c725f0bc836e87a8d49067c0eb2ec86 | Merge: 0f46226 f9b171a                                                                                                         | Merge pull request #14 from Open-Source-YaraSoftware/feature/manage-iot-device                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Feature/manage iot device |
+| feature/manage-iot-device       | f9b171a9dd56bff2100cc7e98712eb3e15bd1cb2 | feat(interfaces): add IotDeviceController for IoT device management endpoints                                                  | - Implemented `IotDeviceController` with endpoint to retrieve IoT devices by vehicle ID. - Integrated `IotDeviceQueryService` to handle queries for IoT devices associated with a specific vehicle. - Used `IotDeviceResourceFromEntityAssembler` to transform IoT device entities into API resources. - Configured API response with appropriate error handling and status codes.                                                                                                                                                                                                                                          |
+| feature/manage-iot-device       | 4f2c87e7fccca80e76442bf52462dd8c59185dd2 | feat(interfaces): add IotDeviceResource and transform class for IoT device representation                                      | - Created `IotDeviceResource` to structure IoT device data for REST API responses, including fields for ID, code list, and vehicle ID. - Implemented `IotDeviceResourceFromEntityAssembler` to convert `IotDevice` entities into `IotDeviceResource` format for consistent API output.                                                                                                                                                                                                                                                                                                                                      |
+| feature/manage-iot-device       | 7958a74ce2c7f75f17562eb27b01183bb10affac | feat(application-infrastructure): implement query service implementation and repository for IoT device retrieval by vehicle ID | - Implemented `IotDeviceQueryServiceImpl` to handle `GetAllIotDeviceByVehicleIdQuery`, retrieving IoT devices based on vehicle ID. - Added `IotDeviceRepository` with a custom method `findAllByVehicleId` to fetch devices associated with a specific vehicle.                                                                                                                                                                                                                                                                                                                                                             |
+| feature/manage-iot-device       | 72c8f81706f672408a5bfe7aa629e3b18abf2819 | feat(domain): add query and query service for retrieving IoT devices by vehicle ID                                             | - Added `GetAllIotDeviceByVehicleIdQuery` to query all IoT devices associated with a specific vehicle ID. - Implemented `IotDeviceQueryService` interface with method to handle IoT device retrieval based on vehicle ID.                                                                                                                                                                                                                                                                                                                                                                                                   |
+| feature/manage-iot-device       | 4b3665985af7e43d12d92364bced0939fabaff8c | feat(domain): add Code entity and CodeState value object for device error tracking                                             | - Implemented `Code` entity with fields for component, error code, description, last updated date, and state. - Configured many-to-one relationship with `IotDevice` aggregate for associating error codes with IoT devices. - Added `CodeState` enum as a value object to represent the state of a code, with values `FAILED` and `GOOD`. - Included JSON serialization handling for relationships with `IotDevice`.                                                                                                                                                                                                       |
+| feature/manage-iot-device       | 05ddc1b05de608ed9b1feba3c9e5ccff1b828714 | feat(domain): add IotDevice aggregate root for IoT device management                                                           | - Implemented `IotDevice` aggregate root with fields for ID, vehicle ID, and a list of related codes. - Configured one-to-many relationship with `Code` entity for code management associated with each IoT device. - Included JSON serialization handling with `JsonManagedReference` for code list.                                                                                                                                                                                                                                                                                                                       |
+| develop                         | 0f4622657bd12de314655bac17497c226dc599f2 | Merge: f8aeabb bad0a80                                                                                                         | Merge pull request #13 from Open-Source-YaraSoftware/feature/profiles-resource                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | refactor(Profiles): split ProfilesContextFacade into interface and im… |
+| feature/profiles-resource       | bad0a80d361a44a6c620d8423f00d97329e39647 | refactor(Profiles): split ProfilesContextFacade into interface and implementation, update package structure                    | - Refactored `ProfilesContextFacade` into `ProfilesContextFacade` interface and `ProfilesContextFacadeImpl` implementation. - Moved `ProfilesContextFacadeImpl` to `application.acl` package, keeping interface in `interfaces.acl` package for improved separation of concerns and flexibility in implementation.                                                                                                                                                                                                                                                                                                          |
+| develop                         | f8aeabbad7bcd9085e55babb7b760725be45f798 | Merge: 9539e47 ffd6e11                                                                                                         | Merge pull request #12 from Open-Source-YaraSoftware/feature/user-registration-login                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Feature/user registration login |
+| feature/user-registration-login | ffd6e113abce5aca5ac7f13e21c608007a118344 | refactor(IAM): update IamContextFacade for role-based user retrieval and rename to IamContextFacadeImpl                        | - Refactored `IamContextFacade` to `IamContextFacadeImpl` and updated package to `application.acl`. - Replaced `getAllUsersByRoleAndWorkshop` with `fetchAllUserByWorkshopAndRoleIsClient`, `fetchAllUserByWorkshopAndRoleIsMechanic`, and `fetchAllUserByWorkshopAndRoleIsOwner`. - Implemented role-specific queries for improved data separation and clearer API interactions.                                                                                                                                                                                                                                           |
+| feature/user-registration-login | e24e423a4f03dad6906403e690f550008dfc02d3 | refactor(IAM): update UserQueryService and UserQueryServiceImpl for role-specific user queries                                 | - Updated `UserQueryService` with methods to handle owner, client, and mechanic queries based on workshop ID. - Implemented the respective methods in `UserQueryServiceImpl`, allowing retrieval of users by workshop and specific roles. - Added handling for `Roles.WORKSHOP_OWNER`, `Roles.CLIENT`, and `Roles.MECHANIC` within `UserQueryServiceImpl`.                                                                                                                                                                                                                                                                  |
+| feature/user-registration-login | 1cc26344aab96b27195d30c5b187a76ef4bc9fcb | refactor(IAM): update repositories for role and user retrieval by workshop                                                     | - Updated `RoleRepository` to include `findByName` method, allowing roles to be retrieved by `Roles` enum. - Refined `UserRepository` by adding `findAllByWorkshopIdAndRoleIs` to retrieve users based on `workshopId` and role, enhancing flexibility for role-specific user queries.                                                                                                                                                                                                                                                                                                                                      |
+| feature/user-registration-login | 30aa735399f1271c9c0f58f91d6b7135ec7d9645 | feat(IAM): add queries for user roles within a workshop context                                                                | - Added `GetAllUsersByWorkshopAndRoleIsClientQuery`, `GetAllUsersByWorkshopAndRoleIsMechanicQuery`, and `GetAllUsersByWorkshopAndRoleIsOwnerQuery` to fetch users based on role type within a specific workshop. - Each query ensures `workshopId` is a positive number, providing validation at construction.                                                                                                                                                                                                                                                                                                              |
+| develop                         | d2dca776c6a950ad695d4ce149a56640b4bf2b18 | Merge: 9539e47 e9f2063                                                                                                         | Merge pull request #11 from Open-Source-YaraSoftware/feature/transaction                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | feat(payment): implement Transaction entity and related services |
+| feature/transaction             | e9f206391fecc525ac54af37f790aa8185cda1ff | feat(payment): implement Transaction entity and related services                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 0c68000fe4a3fe3a6ef5849ea01d966e6ccb0dd0 | Merge: 7a93b47 c1f6356                                                                                                         | Merge pull request #10 from Open-Source-YaraSoftware/feature/payment                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | feat(payment): add Payment domain and application layer support |
+| feature/payment                 | c1f6356e209b01284f6d8f71825203889800d72c | feat(payment): add Payment domain and application layer support                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 7a93b4794b8a1963c21325b61f36e310475cd854 | Merge: 684858d 692dc66                                                                                                         | Merge pull request #9 from Open-Source-YaraSoftware/feature/membership                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | feat: implement Membership domain, infrastructure and services |
+| feature/membership              | 692dc66d0b90fa254a39e1caafd399ff848cdfc7 | feat: add membership endpoints                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/payment                 | 9328f4121510c1f5015c85d999387d434c7c8b1b | feat(payment): add Membership command and query definitions in domain                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 684858d169a4935a4e85b2a133bd2338dfec4bb8 | Merge: 9539e47 0b57cbe                                                                                                         | Merge pull request #8 from Open-Source-YaraSoftware/feature/membership                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | feat(payment): add Membership command and query service implementations |
+| feature/membership              | 0b57cbe2f5926033bc082f9c4693def476b193f5 | feat(payment): add Membership command and query service implementations                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 9539e47971703b2ffd4d728c8d8cbdaf49224868 | Merge: 6eb1403 6fc3886                                                                                                         | Merge pull request #7 from Open-Source-YaraSoftware/feature/manage-vehicle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Feature/manage vehicle |
+| feature/manage-vehicle          | 6fc3886ccf9e9d83687b3655264c853f9b758ab0 | feat(interfaces-controller): add VehiclesController for vehicle management endpoints                                           | - Implemented `VehiclesController` with endpoints to fetch all vehicles by client ID, retrieve a specific vehicle by ID, and create a new vehicle. - Integrated `VehicleQueryService` and `VehicleCommandService` to handle vehicle queries and commands. - Used `VehicleResourceFromEntityAssembler` to transform vehicle entities into API resources. - Configured API responses with appropriate HTTP status codes and error handling.                                                                                                                                                                                   |
+| feature/manage-vehicle          | 0a28e6b88c2dbaf147e781d5ed18ba34c82c78b0 | feat(interfaces): add VehicleResourceFromEntityAssembler for transforming vehicle entities to resources                        | - Implemented `VehicleResourceFromEntityAssembler` to convert `Vehicle` entities into `VehicleResource` format for API responses. - Streamlined data transformation for consistent vehicle data presentation in REST responses.                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/manage-vehicle          | f9702236c8a82d27535cfa72b059482e81615770 | feat(interfaces): add REST resources for vehicle creation and retrieval                                                        | - Added `CreateVehicleResource` to structure data for vehicle creation requests, including license plate, brand, model, client ID, and IoT device ID. - Implemented `VehicleResource` to format vehicle data in API responses, including ID, registration date, and related identifiers.                                                                                                                                                                                                                                                                                                                                    |
+| feature/manage-vehicle          | 0c289ce87b241745a0ded7e10d0708ead6d83aa9 | feat(application): implement command and query services for vehicle management                                                 | - Added `VehicleCommandServiceImpl` to handle `CreateVehicleCommand`, creating and saving a new vehicle. - Implemented `VehicleQueryServiceImpl` to handle `GetAllVehiclesByClientIdQuery` and `GetVehicleByIdQuery`, retrieving vehicles by client ID and vehicle ID. - Integrated `VehicleRepository` to manage vehicle persistence and data retrieval.                                                                                                                                                                                                                                                                   |
+| feature/manage-vehicle          | 4347a9aaab4457c75d9a5baa12b492130655c4fe | feat(infrastructure): add VehicleRepository for vehicle persistence                                                            | - Implemented `VehicleRepository` interface extending `JpaRepository` to manage `Vehicle` entities. - Added `findAllByClientId` method to retrieve vehicles associated with a specific client ID.                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| feature/manage-vehicle          | 4694aa573e68d354a3f3292e72f9efea41c571ee | feat(domain): add vehicle commands and command service interface                                                               | - Implemented `CreateVehicleCommand` to create a new vehicle with license plate, brand, model, client ID, and IoT device ID. - Added `VehicleCommandService` interface with `handle` method to process vehicle creation commands.                                                                                                                                                                                                                                                                                                                                                                                           |
+| feature/manage-vehicle          | a4f55ae49685d6ab94e6affe1f3b5b23b2b384f6 | feat(domain): add vehicle queries and query service interface                                                                  | - Added `GetAllVehiclesByClientIdQuery` to retrieve all vehicles associated with a specific client ID. - Implemented `GetVehicleByIdQuery` to fetch vehicle details based on vehicle ID. - Created `VehicleQueryService` interface with methods to handle vehicle queries, providing a list of vehicles by client ID or a specific vehicle by ID.                                                                                                                                                                                                                                                                           |
+| feature/manage-vehicle          | 148314f93e7a6b5a33f7d30a376614c61ba660cf | feat(domain): add Vehicle aggregate root for managing vehicle information                                                      | - Implemented `Vehicle` aggregate with fields for `licensePlate`, `brand`, `model`, `registrationDate`, `clientId`, and `iotDeviceId`. - Added `getFullName` method to return the full name of the vehicle based on brand and model. - Configured `Vehicle` as an entity with JPA annotations for persistence.                                                                                                                                                                                                                                                                                                              |
+| develop                         | 6eb1403b035119745d7415c01188f3fbec3987ba | Merge: 2e568b6 6907ad6                                                                                                         | Merge pull request #6 from Open-Source-YaraSoftware/feature/profiles-resource                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Feature/profiles resource |
+| feature/profiles-resource       | 6907ad618677fe17a9844208c88748fb0d8db1a3 | Merge: 06e606b c267c36                                                                                                         | Merge pull request #5 from Open-Source-YaraSoftware/hot-fix/profiles-resource                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |  |
+| feature/profiles-resource       | c267c36c7a46435340b562140dc34eadb65ec086 | fix(profile): unify endpoints with identical RequestParam values to adhere to REST practices                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 2e568b6582131cd6ac5cd23da152f9b5113b2669 | Merge: f005790 06e606b                                                                                                         | Merge pull request #4 from Open-Source-YaraSoftware/feature/profiles-resource                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Feature/profiles resource |
+| feature/profiles-resource       | 06e606b0d995c72fae7adbf496607a2608450b5c | feat(profile): add ProfilesContextFacade to facilitate inbound operations for profile creation and updates                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/profiles-resource       | 57915ce2c6f420eafac5889bea01e33d02a8090b | feat(profile): add two endpoints to handle creation and updating of profiles                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/profiles-resource       | 0b28c5c8ebc05fbcf44eb99d568184e1472249aa | feat(profile): add CreateProfileCommandFromResourceAssembler, and CreateProfileResource                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/profiles-resource       | 73168a76ab4202d5fc9217a13b56fdbb70c1b040 | feat(profile): add UpdateProfileCommandFromResourceAssembler, and UpdateProfileResource                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/profiles-resource       | 4ba54141c3f66f9e3dd001813e8a8f494cd7143e | feat(profile): add updateProfileInformation method to Profile entity to update profile details                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/profiles-resource       | c5760a90d77b55a7ce0487b256f8b9b396947a61 | feat(profile): add ProfileCommandService interface and implement ProfileCommandServiceImpl class                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/profiles-resource       | a06e49ef0537a55ff5b9b43081bf06de37c5eca2 | feat(profile): add CreateProfileCommand and UpdateProfileCommand                                                               | - Added CreateProfileCommand to handle profile creation. - Added UpdateProfileCommand to handle profile updates.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| feature/profiles-resource       | a0ea4b8adddb8a8bac521f80e941284765db2a6f | feat(profile): add ProfilesController for managing profile retrieval endpoints                                                 | - Included methods to handle profile queries by ID, DNI, and User ID.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| feature/profiles-resource       | f550eb43be5a81facd304ba21f54f40fdf5d26cc | feat(profile): add ProfileResource and ProfileResourceFromEntityAssembler                                                      | - Created ProfileResource class to represent profile data in API responses. - Implemented ProfileResourceFromEntityAssembler class to convert Profile entities to ProfileResource.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| feature/profiles-resource       | 89037d6342c6a3e21592cad6ef0db9059f80ecef | feat(profile): add ProfileQueryService interface and implement ProfileQueryServiceImpl class                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/profiles-resource       | 933db980771548992ca0ce4d67fa9c3cc1be9b07 | feat(profile): add ProfileRepository interface for managing Profile entities                                                   | - Added ProfileRepository interface extending JpaRepository for CRUD operations. - Included methods to check existence and retrieve profiles by User ID, DNI, and email. - Provided Javadoc comments for better understanding and documentation.                                                                                                                                                                                                                                                                                                                                                                            |
+| feature/profiles-resource       | 0cd28ca46aa379a6c189a3c502b883edd2e18bfd | feat(profile): add queries to retrieve profile by id, user id, and dni                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| feature/profiles-resource       | c3427434a84fefec17c5911433e4b8aeab36e9fa | feat(profile): add profile entity as aggregate root in profile context                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | f00579001b79000f7445943949a9d42d707106da | Merge: 9c61505 416fc94                                                                                                         | Merge pull request #3 from Open-Source-YaraSoftware/feature/consult-notifications                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | refactor(services-controller): update logic and nomenclature of funct… |
+| feature/consult-notifications   | 416fc9499bb2fa9647c43ed5b45330f3f416fda0 | refactor(services-controller): update logic and nomenclature of functions for better performance                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 9c6150583c9d3679c5ca0985d50b31a516da0a7a | Merge: 7f65351 3dd2c98                                                                                                         | Merge pull request #2 from Open-Source-YaraSoftware/feature/consult-notifications                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Feature/consult notifications |
+| feature/consult-notifications   | 3dd2c98596eec6c874adb2dbdb1514cd1b690ebc | feat(interfaces): add NotificationsController for notification management endpoints                                            | - Implemented `NotificationsController` with endpoints to fetch all notifications for a user and mark a notification as read. - Integrated `NotificationCommandService` and `NotificationQueryService` for handling command and query operations. - Added data transformation using `NotificationResourceFromEntityAssembler` and `ReadNotificationCommandFromResourceAssembler`. - Configured OpenAPI tags and documentation for clear endpoint descriptions.                                                                                                                                                              |
+| feature/consult-notifications   | 2a2f34fe55139b2bdd4ecaa506b781b67488765f | feat(interfaces): add transformation classes for converting between entities, resources, and commands                          | - Implemented `NotificationResourceFromEntityAssembler` to convert `Notification` entities to `NotificationResource` for API responses. - Added `ReadNotificationCommandFromResourceAssembler` to convert `ReadNotificationResource` to `ReadNotificationCommand` for command handling.                                                                                                                                                                                                                                                                                                                                     |
+| feature/consult-notifications   | c83218b83026a5ee78e204a75f687bb08129e983 | feat(interfaces): add REST resources for notification details and read actions                                                 | - Implemented `NotificationResource` to structure notification data for REST responses, including ID, date, content, user ID, state, and endpoint. - Created `ReadNotificationResource` to handle read notification actions via REST API.                                                                                                                                                                                                                                                                                                                                                                                   |
+| feature/consult-notifications   | e97897dcb662e2a255121af7017cdf00f7fc1e0b | feat(application): add command and query service implementations for notification management                                   | - Implemented `NotificationCommandServiceImpl` to handle `ReadNotificationCommand`, marking notifications as read. - Added `NotificationQueryServiceImpl` to process `GetAllNotificationsByUserIdQuery`, retrieving notifications based on user ID. - Integrated `NotificationRepository` for persistence and data retrieval in command and query services.                                                                                                                                                                                                                                                                 |
+| feature/consult-notifications   | d8405746b3a8eea4b3aa85d9813d00a33165abb0 | feat(infrastructure): add NotificationRepository for persistence                                                               | - Implemented `NotificationRepository` interface extending `JpaRepository` to handle CRUD operations for Notification entities. - Enabled repository layer for managing notifications in the database.                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| feature/consult-notifications   | a224d0b0eef450ca4db158edaf208ce314fd72ba | feat(domain): add command and query service interfaces for notification management                                             | - Implemented `NotificationCommandService` interface to handle commands like `ReadNotificationCommand` for marking notifications as read. - Added `NotificationQueryService` interface to handle queries such as `GetAllNotificationsByUserIdQuery`, returning notifications by user ID.                                                                                                                                                                                                                                                                                                                                    |
+| feature/consult-notifications   | 79e52c8c5c6c48e75f54dc7295f7cc282f5c76b5 | feat(domain): add notification commands and queries for notification management                                                | - Added `GetAllNotificationsByUserIdQuery` to retrieve all notifications associated with a specific user. - Implemented `ReadNotificationCommand` to handle marking a notification as read based on its ID.                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| feature/consult-notifications   | bb62be36cd5cd2774a366370481b885f9d940df3 | feat(domain): add Notification aggregate and NotificationState value object in communication domain                            | - Implemented `Notification` aggregate with properties for managing notifications, including `id`, `date`, `content`, `userId`, `state`, and `endpoint`. - Created `NotificationState` enum as a value object to represent read and unread states for notifications. - Included methods in `Notification` for marking notifications as read.                                                                                                                                                                                                                                                                                |
+| develop                         | 7f653513be5642c838441949a9f65ff858e5b974 | Merge: 84715ea 4a23765                                                                                                         | Merge pull request #1 from Open-Source-YaraSoftware/feature/user-registration-login                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Feature/user registration login |
+| feature/user-registration-login | 4a2376554c3a0d8abaa74bcd1bd93fc015c4f3f9 | feat(IAM): add IamContextFacade for user management and role-based queries                                                     | - Added `IamContextFacade` with methods for fetching users by role and workshop and creating new users. - Integrated `UserCommandService` and `UserQueryService` to manage user creation and retrieval. - Incorporated `RoleRepository` to retrieve roles during user creation and filtering.                                                                                                                                                                                                                                                                                                                               |
+| feature/user-registration-login | 13d86e4a6b7ad7e21d44b7073b4b63b0aa1332ee | feat(IAM): add AuthenticationController with sign-in and sign-up endpoints                                                     | - Added `signIn` endpoint to authenticate users and return `AuthenticateUserResource` on success. - Added `signUp` endpoint to register new users, responding with `UserResource` upon successful creation. - Integrated resource assemblers for transforming entities to response resources. - Included Swagger annotations for API documentation on authentication management.                                                                                                                                                                                                                                            |
+| feature/user-registration-login | e711e1aa86629ea474abdb7cf1c9ca0a5e16e442 | feat(IAM): add resource assemblers for REST API transformation                                                                 | - Implemented `AuthenticateUserResourceFromEntityAssembler` for transforming `User` entity to `AuthenticateUserResource`. - Added `SignInCommandFromResourceAssembler` to convert `SignInResource` to `SignInCommand`. - Created `SignUpCommandFromResourceAssembler` to convert `SignUpResource` to `SignUpCommand`. - Added `UserResourceFromEntityAssembler` to transform `User` entity to `UserResource`. - Ensures clean transformation layer between domain model and API resources.                                                                                                                                  |
+| feature/user-registration-login | affa609c40e64973417120033a1bdf54bf78187f | feat(IAM): add REST resources for user authentication and registration                                                         | - Added `AuthenticateUserResource` for authenticated user data. - Added `SignInResource` for user login input. - Added `SignUpResource` for user registration input. - Added `UserResource` to represent user data in responses. - Each resource includes validation to ensure required fields are present.                                                                                                                                                                                                                                                                                                                 |
+| feature/user-registration-login | 98e28136f97d461b5b2781d1ae78f3566e3b03f5 | feat(IAM): add ApplicationReadyEvent handler to seed roles at startup                                                          | - Created `IamApplicationReadyEventHandler` to handle `ApplicationReadyEvent` for role seeding. - `on(ApplicationReadyEvent)` triggers `loadRolesData()` to execute `SeedRolesCommand` using `RoleCommandService`. - Logs the start and completion of the role-seeding process with timestamps.                                                                                                                                                                                                                                                                                                                             |
+| feature/user-registration-login | f99f8475a634ca9a1ac232ce40a38d880c4b33aa | feat(IAM): add command and query services for user and role operations                                                         | - Added `RoleCommandServiceImpl` to handle role seeding with `SeedRolesCommand`. - Created `UserCommandServiceImpl` to handle `SignUpCommand`, `SignInCommand`, and `CreateUserCommand` with validations and repository integration. - Implemented `UserQueryServiceImpl` to manage `GetAllUsersByRoleAndWorkshopQuery` with query logic for retrieving users by role and workshop ID.                                                                                                                                                                                                                                      |
+| feature/user-registration-login | 97821d49b18b02ea5ca02f9f39b6b17f15008461 | feat(IAM): add command and query records for user and role operations                                                          | - Created `CreateUserCommand` for user creation with validations for username, password, role, and workshop ID. - Added `SeedRolesCommand` for initializing role data. - Defined `GetAllUsersByRoleAndWorkshopQuery` to retrieve users filtered by role and workshop ID, with validation checks.                                                                                                                                                                                                                                                                                                                            |
+| feature/user-registration-login | 11890cdd496b3677a46459b603a199c16f86f2cd | feat(IAM): implement RoleRepository and UserRepository JPA repositories                                                        | - Created `RoleRepository` to check role existence by name. - Implemented `UserRepository` for user lookup by username and filtering by role and workshop ID.                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| feature/user-registration-login | de617e0314c073868d6a2653b03ec2118da0e632 | feat(IAM): add UserCommandService, UserQueryService, and RoleCommandService interfaces                                         | - Defined `UserCommandService` to handle user creation, sign-up, and sign-in commands. - Added `UserQueryService` for querying users by role and workshop. - Introduced `RoleCommandService` to handle role seeding with `SeedRolesCommand`.                                                                                                                                                                                                                                                                                                                                                                                |
+| feature/user-registration-login | 7d1a4e337b0756eb1c890be10c90abe4fada8798 | feat(IAM): add SignInCommand and SignUpCommand records with validation                                                         | - Introduced `SignInCommand` for user login with validations on username and password fields. - Introduced `SignUpCommand` for new user registration with validations on username, password, role, and workshop ID fields.                                                                                                                                                                                                                                                                                                                                                                                                  |
+| feature/user-registration-login | 3ecac146e74dd64dcf10b7f295a3eed9655ebb67 | feat(IAM): add enums for AccountStatuses and Roles                                                                             | - Created AccountStatuses enum with values: ACTIVE, INACTIVE, LOCKED, and DELETED. - Created Roles enum with values: MECHANIC, WORKSHOP_OWNER, and CLIENT.                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| feature/user-registration-login | 617131b25dab5eecd9640e8b9e42289ced17a382 | feat(IAM): create User and Role entities with validation and enumeration support                                               | - Added User entity with fields: username, password, role, workshopId, and status. - Introduced Role entity with enumeration support for Roles. - Integrated JPA annotations for entity persistence.                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| feature/user-registration-login | ba01300342f18b74ad9a304012109dc2186e267a | chore(IAM): add commons-lang3 dependency to pom.xml                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 84715ea392d555178980179539aeb1b2bd19e9a3 | docs: added open api configuration bean                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | f24cf0b9cc5913e02d1e7e0a598229725eb2cd06 | docs: added open api documentation dependency                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 54ebab164c8a2a53678ae0192a80550517a23ce4 | feat(orm): setup persistence physical naming strategy                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 780f965f7c3649e739781898110fef3bfa3a7912 | feat(orm): setup persistence physical naming strategy                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | d4a86feef0ab06f8d219151e40229ab4e51029d3 | chore: add pluralize dependency                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | 06ebd422fe861021091c68e69c39b2f60d29275a | chore: add application parameters for development and production                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | ed2afc9e22387f8864086bf9795b7858b4d86083 | docs: add documentation file                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| develop                         | e140efdca278ca53e0bcb8b5331241ef147db55f | chore: setup project                                                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
 #### 5.2.3.4. Testing Suite Evidence for Sprint Review
 

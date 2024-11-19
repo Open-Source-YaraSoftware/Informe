@@ -4863,61 +4863,39 @@ Enlace para acceder a la documentación Swagger de la API RESTful desplegada:
 
 #### 5.2.1.1. Sprint Planning 1
 
-<table>
-    <tr>
-        <th scope="row"><strong>Sprint #</strong></th>
-        <td>Sprint 1</td>
-    </tr>
-    <tr>
-        <td olspan="2"><strong>Sprint Planning Background</strong></td>
-    </tr>
-    <tr>
-        <th scope="row">Date</th>
-        <td>2024/09/03</td>
-    </tr>
-    <tr>
-        <th scope="row">Time</th>
-        <td>21:00</td>
-    </tr>
-    <tr>
-        <th scope="row">Location</th>
-        <td>Videollamada grupal mediante la plataforma Discord</td>
-    </tr>
-    <tr>
-        <th scope="row">Prepared By</th>
-        <td>Álvaro Orozco Torres</td>
-    </tr>
-    <tr>
-        <th scope="row">Attendees (to planning meeting)</th>
-        <td> Álvaro Orozco Torres, Henry Reaño Delgadillo, Elmer Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto </td>
-    </tr>
-    <tr>
-        <td olspan="2"><strong>Sprint Goal & User Stories</strong></td>
-    </tr>
-    <tr>
-        <th scope="row">Sprint 1 Goal</th>
-        <td>Nuestro foco se encuentra en crear e implementar una landing page atractiva para el producto. Creemos que entrega mayor visibilidad y facilidad de acceso a la información clave a potenciales clientes. Confirmaremos nuestra hipótesis cuando la landing page esté publica y los usuarios puedan interactuar con ella.</td>
-    </tr>
-    <tr>
-        <th scope="row">Sprint 1 Velocity</th>
-        <td>20</td>
-    </tr>
-</table>
+| **Sprint #**                    | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Date                            | 2024/09/03                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Time                            | 21:00                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Location                        | Videollamada grupal mediante la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                 |
+| Prepared By                     | Jhosepmyr Orlando Gutierrez Soto                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Attendees (to planning meeting) | Elmer Riva Rodriguez, Eric Hernandez Tuiro y Jhosepmyr Gutiérrez Soto                                                                                                                                                                                                                                                                                                                                                              |
+| Sprint Goal & User Stories      |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sprint 1 Goal                   | Nuestro enfoque está en crear una landing page inicial que presente claramente nuestro producto y a nuestro equipo a los visitantes. <br> Creemos que esto entregará una primera impresión sólida y generará interés en los visitantes potenciales de nuestro sitio web. <br> Esto se confirmará cuando la landing page esté en línea y comencemos a recibir visitas y suscripciones a través de un formulario básico de contacto. |
+| Sprint 1 Velocity               | 20                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sum of Story Points             | 20                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+
 
 #### 5.2.1.2. Sprint Backlog 1
 
-El objetivo del sprint es crear una landing page atractiva e interactiva que permita al usuario familiarizarse con los valores que ofrece el producto. Además, busca principalmente incentivar al usuario a adquirir un plan de suscripción para aprovechar al máximo las funcionalidades disponibles.
+En el primer sprint backlog, el equipo se centrará en la creación de la landing page inicial del producto Workshop.
 
-Durante todo el sprint 1 se llevo llevo un registro de las tareas completadas en Trello, como se puede observar:
+La herramienta de gestión de proyectos Trello se utilizará para organizar y priorizar las tareas del sprint.
 
-<img src="img/5/2/1/2/trello_board.png">
+Esta herramienta permite a los miembros del equipo colaborar en la definición de las tareas, asignarlas a los miembros del equipo y realizar un seguimiento del progreso.
 
-A continuación, se procedera a detallar en una tabla las user story vinculadas a sus tareas, con una breve descripción, estimación en horas y que miembro del equipo la llevo acabo.
+![trello_board_sprint_1](img/5/2/1/2/trello_board_sprint_1.png)
+
+Enlace al tablero de Trello del Sprint 1:
+[https://trello.com/b/PvVqjtgB/sprint-1](https://trello.com/b/PvVqjtgB/sprint-1)
+
+A continuación, se procede a detallar en una tabla las user story vinculadas a sus tareas, con una breve descripción, estimación en horas y que miembro del equipo la llevo acabo.
 
 <table border="1" style="width:100%; text-align: center;">
   <tr>
     <th colspan="2">Sprint #</th>
-    <th colspan="5">Sprint n</th>
+    <th colspan="5">Sprint 1</th>
   </tr>
   <tr>
     <th colspan="2">User Story</th>
@@ -5070,7 +5048,7 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <td>Diseño de planes</td>
     <td>Diseño visual de la sección de planes, presentando las opciones de suscripción o compra del producto.</td>
     <td>2</td>
-    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
     <td>Done</td>
   </tr>
   <tr>
@@ -5080,7 +5058,7 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <td>Implementación de cards</td>
     <td>Desarrollo e implementación de las cards en la sección de planes, asegurando interactividad y responsividad.</td>
     <td>2</td>
-    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Jhosepmyr Gutiérrez Soto</td>
     <td>Done</td>
   </tr>
   <tr>
@@ -5090,7 +5068,7 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <td>Diseño de formulario de contacto</td>
     <td>Creación del diseño visual para el formulario de contacto, asegurando que sea claro y fácil de usar.</td>
     <td>2</td>
-    <td>Álvaro Orozco Torres</td>
+    <td>Elmer Augusto Riva Rodriguez</td>
     <td>Done</td>
   </tr>
   <tr>
@@ -5100,7 +5078,7 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <td>Implementación de formulario</td>
     <td>Desarrollo e integración del formulario de contacto, incluyendo validación y envío de datos.</td>
     <td>2</td>
-    <td>Álvaro Orozco Torres</td>
+    <td>Elmer Augusto Riva Rodriguez</td>
     <td>Done</td>
   </tr>
   <tr>
@@ -5110,7 +5088,7 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <td>Diseño de footer</td>
     <td>Diseño visual del pie de página (footer), incluyendo enlaces a secciones relevantes y redes sociales.</td>
     <td>2</td>
-    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Hernández Tuiro, Eric Ernesto</td>
     <td>Done</td>
   </tr>
   <tr>
@@ -5120,50 +5098,66 @@ A continuación, se procedera a detallar en una tabla las user story vinculadas 
     <td>Implementación de footer</td>
     <td>Desarrollo del pie de página, asegurando que sea responsive y accesible.</td>
     <td>2</td>
-    <td>Henry Paolo Reaño Delgadillo</td>
+    <td>Hernández Tuiro, Eric Ernesto</td>
     <td>Done</td>
   </tr>
 </table>
 
 #### 5.2.1.3. Development Evidence for Sprint Review
 
-| Repository | Branch | Commit id | Commit message | Commit body | Commited on |
-| - | - | - | - | - | - |
-| Open-Source-YaraSoftware / Landing-page | develop | 5e3f9bb398ca81cd655e3bc649255e2d171bdb22 | chore: add all required images for the entire project | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  develop | 9bb4007d76994003db24c9ae76608330ed37db0a | chore: configure sass folder and import all components into main.scss | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  develop | 3974cb03d4e26554bd9362891995d263e2b2fd66 | chore: set up global styles and add normalize, mixins, and variables | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  develop | 650d57af23cdbb155ddaeeffac39b555bc035585 | chore: import Roboto font via Google Fonts link in index.html | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  develop | 1937f6d1ceda82e273486ca12f8d70c70445c2f2 | feat: add header html section with navigation and banner | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  develop | 86ac708701a2f0a199e601cfe7ab340c14116afe | feat: add SCSS component for buttonAction with hover effect and full-width styling | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  develop | 9b7f312eb7dc4bd9f11dadd310794696b2d8e1ec | feat: add header styling with background image, overlay, and responsive layout | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  develop | f54f80a0228d5d26e428a9ba0d9891fe3f40542a | feat: add responsive banner styling with image, content, and button layout | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | 2b3d1fc936238f202980b9b35e0c2f6a07c4ce83 | feat: add responsive navbar styling with dark mode and dynamic menu functionality | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  | 77c11649aaaa520e92008d6d081e81a44dce4f60 | feat: add toggle functionality for mobile menu and reset on resize | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | feature/footer  | e410d8ab8170bf09953f246e85d0a70b2fc98ffb | feat: add functionality to change navbar color after scrolling past header | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page |  feature/about-us | b5c803d3e867eada59b765d8ee84f35d2a8e30a3 | feat: add learn more section with header, image, and contact button | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | feature/benefits | f85d871514d67ec29c5136f48b0bd13b5b641457 | feat: add our benefits section with cards detailing platform advantages | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | feature/benefits | c6f36ec8ebd2fa128c77f4fff0985b970c00843c | feat: add responsive styling for our benefits section with card layout and grid adjustments | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | feature/testimonials | 25000c95c8c3a60943d0be13ec92085cc610d2fa | feat: add testimonials section with client feedback cards | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | feature/testimonials | c2b85b4d114d29cbc7c9c7cd991106af9e756699 | feat: add responsive styling for testimonials section with horizontal scroll and card hover effect | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | feature/testimonials | ba8726e8adbb3834ff6025d0973026197a016a4a | feat: add auto-scrolling carousel functionality with reverse direction at end | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | feature/testimonials | 64b1b758a6da3add09712d128b55aedbacf75c43 | fix: remove duplicate section tags | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | feature/testimonials | a14e96add7d95b8242f2746007c38e5512a6a51a | fix: remove duplicate header tag | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | c8dbb4a61bf1889e0beb0065bed2c695284399f5 | feat: add about us section with mission, vision, and values cards | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | 507a95956b723c248520d33a2e471b46d9736eea | feat: add responsive styling for about us section with card flipping effect | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | 671e481e5c4dc96ce7e4dedbb8d4397b4ecc6f98 | feat: add plans section with pricing cards for free, basic, and premium plans | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | 23c892fb608cbd35f67490e57b830ae7b60cf391 | feat: add responsive styling for the plans section with card layout and dark mode option for premium | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | 5b13f1a3c03efc06e65eaf541c5f111b439428dd | feat: add contact form section with inputs for name, email, phone, and message | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | 636e8c32bd44b3c1c2d0988a2c33ae279877e2af | feat: add responsive styling for contact form section with layout adjustments | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | feat: add contact form section with inputs for name, email, phone, and message | 9e612093d32f77bccf751433cfb09f1dfd4b07a8 | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | 9c03f279a6212a8137315f45c3e461c37c9d3beb | feat: add responsive styling for contact form section with layout adjustments | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | d1a8726bec3dc8279edfd5a9853be831dbea0134 | feat: add footer section with sign up, useful links, contact info, and legal details | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | 152d4c6af5ad0414da4a89d5cdc2f79b53a89eb1 | feat: add responsive styling for footer with contact, sign-up, and legal sections | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | 561b4bc27d17c62ed0795295110fc83d0a777c92 | fix: remove duplicate footer tag | ... | 08/09/2024 |
-| Open-Source-YaraSoftware / Landing-page | ... | 40c00418fea99d1f830bb6b943665ddb16008180 | feat: add language switch functionality and static spanish page | ... | 08/09/2024 |
+Los principales avances del sprint 1 fueron la creación de la landing page inicial del producto Workshop, que incluye las secciones de hero, about the product, beneficios, testimonios, about us, planes, formulario y footer.
+De ese modo, se presentan las evidencias de desarrollo de las tareas realizadas en el sprint 1.
+
+| Repository                              | Branch               | Commit id                                                                      | Commit message                                                                                       | Commit body | Commited on |
+|-----------------------------------------|----------------------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-------------|-------------|
+| Open-Source-YaraSoftware / Landing-page | develop              | 5e3f9bb398ca81cd655e3bc649255e2d171bdb22                                       | chore: add all required images for the entire project                                                | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | develop              | 9bb4007d76994003db24c9ae76608330ed37db0a                                       | chore: configure sass folder and import all components into main.scss                                | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | develop              | 3974cb03d4e26554bd9362891995d263e2b2fd66                                       | chore: set up global styles and add normalize, mixins, and variables                                 | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | develop              | 650d57af23cdbb155ddaeeffac39b555bc035585                                       | chore: import Roboto font via Google Fonts link in index.html                                        | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | develop              | 1937f6d1ceda82e273486ca12f8d70c70445c2f2                                       | feat: add header html section with navigation and banner                                             | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | develop              | 86ac708701a2f0a199e601cfe7ab340c14116afe                                       | feat: add SCSS component for buttonAction with hover effect and full-width styling                   | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | develop              | 9b7f312eb7dc4bd9f11dadd310794696b2d8e1ec                                       | feat: add header styling with background image, overlay, and responsive layout                       | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | develop              | f54f80a0228d5d26e428a9ba0d9891fe3f40542a                                       | feat: add responsive banner styling with image, content, and button layout                           | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page |                      | 2b3d1fc936238f202980b9b35e0c2f6a07c4ce83                                       | feat: add responsive navbar styling with dark mode and dynamic menu functionality                    | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page |                      | 77c11649aaaa520e92008d6d081e81a44dce4f60                                       | feat: add toggle functionality for mobile menu and reset on resize                                   | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | feature/footer       | e410d8ab8170bf09953f246e85d0a70b2fc98ffb                                       | feat: add functionality to change navbar color after scrolling past header                           | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | feature/about-us     | b5c803d3e867eada59b765d8ee84f35d2a8e30a3                                       | feat: add learn more section with header, image, and contact button                                  | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | feature/benefits     | f85d871514d67ec29c5136f48b0bd13b5b641457                                       | feat: add our benefits section with cards detailing platform advantages                              | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | feature/benefits     | c6f36ec8ebd2fa128c77f4fff0985b970c00843c                                       | feat: add responsive styling for our benefits section with card layout and grid adjustments          | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | 25000c95c8c3a60943d0be13ec92085cc610d2fa                                       | feat: add testimonials section with client feedback cards                                            | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | c2b85b4d114d29cbc7c9c7cd991106af9e756699                                       | feat: add responsive styling for testimonials section with horizontal scroll and card hover effect   | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | ba8726e8adbb3834ff6025d0973026197a016a4a                                       | feat: add auto-scrolling carousel functionality with reverse direction at end                        | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | 64b1b758a6da3add09712d128b55aedbacf75c43                                       | fix: remove duplicate section tags                                                                   | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | feature/testimonials | a14e96add7d95b8242f2746007c38e5512a6a51a                                       | fix: remove duplicate header tag                                                                     | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | c8dbb4a61bf1889e0beb0065bed2c695284399f5                                       | feat: add about us section with mission, vision, and values cards                                    | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | 507a95956b723c248520d33a2e471b46d9736eea                                       | feat: add responsive styling for about us section with card flipping effect                          | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | 671e481e5c4dc96ce7e4dedbb8d4397b4ecc6f98                                       | feat: add plans section with pricing cards for free, basic, and premium plans                        | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | 23c892fb608cbd35f67490e57b830ae7b60cf391                                       | feat: add responsive styling for the plans section with card layout and dark mode option for premium | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | 5b13f1a3c03efc06e65eaf541c5f111b439428dd                                       | feat: add contact form section with inputs for name, email, phone, and message                       | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | 636e8c32bd44b3c1c2d0988a2c33ae279877e2af                                       | feat: add responsive styling for contact form section with layout adjustments                        | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | feat: add contact form section with inputs for name, email, phone, and message | 9e612093d32f77bccf751433cfb09f1dfd4b07a8                                                             | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | 9c03f279a6212a8137315f45c3e461c37c9d3beb                                       | feat: add responsive styling for contact form section with layout adjustments                        | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | d1a8726bec3dc8279edfd5a9853be831dbea0134                                       | feat: add footer section with sign up, useful links, contact info, and legal details                 | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | 152d4c6af5ad0414da4a89d5cdc2f79b53a89eb1                                       | feat: add responsive styling for footer with contact, sign-up, and legal sections                    | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | 561b4bc27d17c62ed0795295110fc83d0a777c92                                       | fix: remove duplicate footer tag                                                                     | ...         | 08/09/2024  |
+| Open-Source-YaraSoftware / Landing-page | ...                  | 40c00418fea99d1f830bb6b943665ddb16008180                                       | feat: add language switch functionality and static spanish page                                      | ...         | 08/09/2024  |
 
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review
+Para el Sprint 1, se realizó una serie de pruebas en relación con los user stories implementados de la landing page de Workshop N-Gine.
+A continuación, se presentan las evidencias de las pruebas realizadas:
 
-Para este primer sprint no fue contemplada la evidencia de documentación de testeo.
+| Repository                                                    | Branch  | Commit Id                                | Commit Message                                                                           | Commit Message Body                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Commited on(Date)        |
+|---------------------------------------------------------------|---------|------------------------------------------|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | main    | eb378bb661d9eeeea0f6549850b6f9137ad77f9d | chore: initial commit                                                                    | chore: initial commit                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Fri Nov 15 16:44:51 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | develop | e770b9c0b906cb4462d535f8e4a9a48f1274698a | feat(hero-section): define behavior-driven development (BDD) scenarios for landing page  | - Added a Gherkin feature file for the Hero Section of the landing page. - Defined scenarios to ensure visibility and clarity of the Hero Section message. - Included conditions for the presence of a visually appealing image and a prominent call-to-action button. - Created a scenario outline for responsiveness across mobile, tablet, and desktop devices.                                                                                                                                                                                                                                                                                                                                                                                                                             | Fri Nov 15 16:47:51 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | develop | 1ea5d41f5371f11e84fc8f75fcc2289bc90d4948 | feat(about-product-section): define BDD scenarios for the landing page section           | - Added a Gherkin feature file for the "About the Product" section of the landing page. - Defined scenarios to ensure clear and understandable product descriptions for workshop owners. - Specified conditions for highlighting product benefits in a relevant manner. - Included a scenario for embedding a playable product video and ensuring easy navigation within the section. - Created a scenario to confirm the responsiveness of the content, especially on mobile devices.                                                                                                                                                                                                                                                                                                         | Fri Nov 15 16:48:17 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | develop | 5feb7559008c2a9a53bd111e4111ee62fd913d13 | feat(benefits-section): add BDD scenarios for benefits section on landing page           | - Defined feature and scenarios for the Benefits section on the landing page. - Ensured a clear and organized presentation format for the benefits list. - Emphasized relevance and clarity of each benefit for workshop owners. - Included visual elements alongside benefits for improved comprehension and engagement. - Created a scenario outline for verifying specific benefits with accompanying descriptions and icons. - Added a scenario to validate the responsiveness of the Benefits section on mobile devices.                                                                                                                                                                                                                                                                  | Fri Nov 15 16:48:41 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | develop | 5a8d0fed0f4d1814b43bd3ad839c1d42b4d8cf4b | feat(testimonials-section): add BDD scenarios for testimonials section on landing page   | - Defined feature and scenarios for showcasing customer testimonials on the landing page. - Ensured the display of at least three genuine testimonials with client names and detailed feedback. - Included requirements for visually attractive presentation using styled text quotes and consistent design. - Added a scenario to validate responsiveness and proper layout on mobile devices. - Created a scenario outline for verifying specific testimonials, including client role and accompanying photo.                                                                                                                                                                                                                                                                                | Fri Nov 15 16:48:57 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | develop | 2e22208951bf5657a07bd8568db6f5b465e0dd13 | feat(about-us-section): add BDD scenarios for "About Us" section on landing page         | - Added feature definition and scenarios for the "About Us" section. - Included details for displaying the company's history, mission, and vision clearly and concisely. - Described requirements for visually appealing and easy-to-read design consistent with the overall landing page. - Ensured the section is responsive on mobile devices, with well-organized content and no horizontal scrolling needed. - Provided an example table outlining specific content, such as the mission, vision, and values.                                                                                                                                                                                                                                                                             | Fri Nov 15 16:49:23 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | develop | 582a83c7c1cb4f2a0bb540c1e849d6776b596dde | feat(pricing-section): add BDD scenarios for "Plans and Pricing" section on landing page | - Added feature definition and detailed scenarios for displaying the "Plans and Pricing" section. - Specified requirements for listing three plans: "Free Plan," "Basic Plan," and "Premium Plan," with corresponding prices. - Described expectations for clearly presenting features, ensuring transparent pricing, and including a call-to-action for each plan. - Outlined the need for a user-friendly comparison design, using columns or tables, and highlighted visual distinction for the "Premium Plan." - Provided scenario outline with examples to verify specific features for each plan and their respective values.                                                                                                                                                            | Fri Nov 15 16:49:42 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | develop | 963e2771d45c0228a057c54e0c66f355752905b2 | feat(contact-form): add BDD scenarios for "Contact Form" section on landing page         | - Defined feature requirements for the "Contact Form" section, emphasizing accessibility and usability. - Detailed scenarios for the visibility and accessibility of the form, including a clear "CONTACT US" title and guiding message. - Outlined required form fields: "Name," "Email," "Phone," and "Message." - Added a scenario outline for field validation with examples for different cases, specifying error handling and acceptance criteria. - Included expectations for a successful form submission with a confirmation message. - Described the need for a responsive design, ensuring usability across various device dimensions. - Highlighted aesthetic requirements, ensuring a clean and organized layout with clearly labeled fields and a clickable "CONTACT US" button. | Fri Nov 15 16:50:07 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | develop | 7c749f0adb00f67a2dcf0dd509e89ddbbf330b26 | feat(i18n-landing-page): add BDD scenarios for internationalization of the landing page  | - Introduced support for both Spanish and English to provide a multilingual experience. - Described a scenario for default language setting and an accessible language switcher. - Included scenarios for a visible language selector with "ES" and "EN" options and the ability to switch languages seamlessly. - Added outline scenarios for content translation, ensuring all sections and text elements are accurately localized. - Addressed language handling in URLs, ensuring proper redirection to localized versions of sections. - Emphasized language persistence, maintaining the selected language.                                                                                                                                                                              | Fri Nov 15 16:50:59 2024 |
+| https://github.com/Open-Source-YaraSoftware/Acceptance-Tests  | main    | 80629aeffc37b4c2ff55583c9be8078e0b2a3c1f | Merge pull request #1 from Web-Application-YaraSoftware/develop                          | Develop                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Fri Nov 15 16:51:54 2024 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
@@ -5178,7 +5172,8 @@ La sección About Us que describe nuestra empresa, nuestros valores y visión.
 La sección de planes, centrada en ser atractiva para el usuario.
 <img src="img/5/2/1/4/plans.png">
 
-Enlace de video de navegación landing page: ...
+Enlace de video de navegación landing page: 
+[https://drive.google.com/file/d/1w33bih2qCpKFsAKJjp8YoJXjjCLJKXj7/view](https://drive.google.com/file/d/1w33bih2qCpKFsAKJjp8YoJXjjCLJKXj7/view)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -5195,17 +5190,17 @@ Para la entrega del Sprint número 1, se desplego al completo landing page la cu
 <img src="img/5/2/1/7/5.png">
 <img src="img/5/2/1/7/6.png">
 
-Enlace para acceder a la landing page: https://landing-page-workshop-n-gine.netlify.app/
+Enlace para acceder a la landing page: https://open-workshop-n-gine-landing-page.netlify.app/index-es.html
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-| Alumno | Actividad |
-| ----------- | ----------- |
+| Alumno                   | Actividad                                                                             |
+|--------------------------|---------------------------------------------------------------------------------------|
 | Jhosepmyr Gutiérrez Soto | Implementación de Hero Section, About the Product, Testimonios e Internacionalización |
-| Eric Hernandez Tuiro | Implementación del Footer |
-| Álvaro Orozco Torres | Implementación del Formulario de Contacto |
-| Henry Reaño Delgadillo | Implementación de Planes |
-| Elmer Riva Rodriguez | Implementación de Beneficios y About Us |
+| Eric Hernandez Tuiro     | Implementación del Footer                                                             |
+| Álvaro Orozco Torres     | Implementación del Formulario de Contacto                                             |
+| Henry Reaño Delgadillo   | Implementación de Planes                                                              |
+| Elmer Riva Rodriguez     | Implementación de Beneficios y About Us                                               |
 
 <img src="img/5/2/1/8/insights.png">
 
